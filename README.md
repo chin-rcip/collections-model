@@ -1,7 +1,4 @@
 # Collections Model Documentation
-Linked Open Data Development at the Canadian Heritage Information Network - Développement en données ouvertes et liées au Réseau canadien d'information sur le patrimoine
-
-## English
 
 In keeping with its mandate to assist Canadian museums in documenting, managing, and sharing information about their collections, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in Linked Open Data (LOD). CHIN is currently working on the semantic representation of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour. 
 
@@ -11,7 +8,7 @@ The documentation hereby accessible is a collection of working documents. As suc
 
 Active issues will be prioritised and closed issues will be monitored on a more punctual basis. 
 
-## Français
+# Documentation du modèle Collections
 
 Le Réseau canadien d’information sur le patrimoine (RCIP) a pour mandat d’appuyer les musées canadiens dans leur travail de documentation et de gestion de leurs collections. Dans ce cadre, le RCIP prévoit offrir en données ouvertes et liées (DOL) les ressources qu’il crée et les données qu’il agrège, ce pourquoi l’organisation travaille actuellement à la représentation sémantique des acteurs dans le cadre de son projet Acteurs qui s’intégrera éventuellement à un effort de modélisation plus large dédié aux Collections. 
 
