@@ -11,7 +11,7 @@ The documentation hereby accessible is a collection of working documents. As suc
 
 Active issues will be prioritised and closed issues will be monitored on a more punctual basis. 
 
-## French
+## Français
 
 Le Réseau canadien d’information sur le patrimoine (RCIP) a pour mandat d’appuyer les musées canadiens dans leur travail de documentation et de gestion de leurs collections. Dans ce cadre, le RCIP prévoit offrir en données ouvertes et liées (DOL) les ressources qu’il crée et les données qu’il agrège, ce pourquoi l’organisation travaille actuellement à la représentation sémantique des acteurs dans le cadre de son projet Acteurs qui s’intégrera éventuellement à un effort de modélisation plus large dédié aux Collections. 
 
