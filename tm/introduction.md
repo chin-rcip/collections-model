@@ -85,25 +85,25 @@ The ontological relationships between classes have been represented diagrammatic
 
 It is important to note that in reality it is the instances that are connected to each other through properties, not the classes themselves like the diagrams might imply. For clarity and visibility sake however, modeling patterns will not display instances (they will be represented in examples however, as shown below).
 
-![covention_0](https://user-images.githubusercontent.com/48293227/78846028-6efa0f80-79d8-11ea-8f3b-f264827746da.jpg)
+[![covention_0](https://user-images.githubusercontent.com/48293227/78846028-6efa0f80-79d8-11ea-8f3b-f264827746da.jpg)](https://drive.google.com/file/d/1tP4V68oU1n7l5HedZXb5nFrfnYu2yHXg/view?usp=sharing)
 
 For example, the diagram below illustrates that any instance of the class `E21 Person` can be linked to an instance of the class `E55 Type` through the property `P2 has type`.
 
-![convention_1](https://user-images.githubusercontent.com/48293227/78845909-f3985e00-79d7-11ea-88d9-752e22114e97.jpg)
+[![convention_1](https://user-images.githubusercontent.com/48293227/78845909-f3985e00-79d7-11ea-88d9-752e22114e97.jpg)](https://drive.google.com/file/d/1xYoDbLQATAwctGv0fto-jThgQ6wxm6D7/view?usp=sharing)
 
 To facilitate understanding and visually convey how CIDOC CRM entities are used to model different kinds of information, the colour conventions below have been adopted to represent top-level classes along with their subclasses.
 
-![convention_colors](https://user-images.githubusercontent.com/48293227/78846111-c304f400-79d8-11ea-8323-90526c44e245.jpg)
+[![convention_colors](https://user-images.githubusercontent.com/48293227/78846111-c304f400-79d8-11ea-8323-90526c44e245.jpg)](https://drive.google.com/file/d/1LMF5iRQKFyNoq5BkehhjQUy8xv1HVs8u/view?usp=sharing)
 
 In addition, fields defined in the Reference Documentation are indicated in bold above their respective class name, as shown below:
 
-![convention_2](https://user-images.githubusercontent.com/48293227/78846253-2b53d580-79d9-11ea-9f08-0881d8f33442.jpg)
+[![convention_2](https://user-images.githubusercontent.com/48293227/78846253-2b53d580-79d9-11ea-9f08-0881d8f33442.jpg)](https://drive.google.com/file/d/1HILva7PuFDfsCg5daNYxTva-BtlwTjBg/view?usp=sharing)
 
 In the above diagram, the “Birth Place”,  “Birth Date Begin” and “Birth Date End” fields from the Reference Documentation are denoted in bold. In addition to facilitating the understanding of both the Target Model and its Reference Documentation, this also illustrates how the translation of the data to a semantic framework generates several new elements such as `E67 Birth` event and `E52 Time-Span`.
 
 Sometimes, an `E55 Type` can only have a single instance in a specific pattern. In such a case, it is named in quotation marks underneath the name of the class, as follows:
 
-![convention_4](https://user-images.githubusercontent.com/48293227/78846473-e7150500-79d9-11ea-96df-087dfac3ae2c.jpg)
+[![convention_3](https://user-images.githubusercontent.com/48293227/78846473-e7150500-79d9-11ea-96df-087dfac3ae2c.jpg)](https://drive.google.com/file/d/1qnZZqU6wsy-5dMs86vKqeWtJ-iuNHTlS/view?usp=sharing)
 
 The diagram above represents the gender pattern. The middle element corresponds to the Reference Documentation “Gender” field (hence it is in bold) to signal that the content found in this field indicates the gender of the person (e.g. male, female, two-spirit, …). This information is then typed with another `E55 Type` that always has the “Gender” value to indicate that the aforementioned data (e.g. male, female, two-spirit, …) concerns gender. For example, Jean Paul Riopelle has the type “Male”, and this type has the type “Gender”.
 
@@ -113,6 +113,6 @@ Throughout the documentation each example is represented in a pattern where inst
 
 For example, the triples mapped to the gender pattern mentioned above would look like the following:
 
-![convention_5](https://user-images.githubusercontent.com/48293227/78846668-7de1c180-79da-11ea-801c-f735185662e1.jpg)
+[![convention_4](https://user-images.githubusercontent.com/48293227/78846668-7de1c180-79da-11ea-801c-f735185662e1.jpg)](https://drive.google.com/file/d/1C8p1lpiLNDykkf1HUK4SVfJ6jf0p6UQ5/view?usp=sharing)
 
 In this diagram, each instance (the instances of Jean Paul Riopelle, of the gender Male, and of the type Gender) are linked together through properties in accordance with the structure of the corresponding pattern in the model.
