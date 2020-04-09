@@ -14,6 +14,6 @@ Le Réseau canadien d’information sur le patrimoine (RCIP) a pour mandat d’a
 
 Il consolide, au sein d’entrées uniques, l’information portant sur les acteurs liés aux objets de collection de musées canadiens.  Un acteur constitue, dans ce cadre, tout individu (artiste, artisan, etc.) ou groupe (manufacturier, groupe d’artistes, etc.) ayant pris part à la création d’un artefact collectionné ou étant lié d’une manière ou d’une autre à celui-ci. 
 
-La documentation présentée ici est une collection de documents de travail. À ce titre, bien qu’elle soit publiquement rendue disponible, elle  ne constitue en rien une publication officielle et des changements y sont apportés sur une base régulière. 
+La documentation présentée ici est une collection de documents de travail. À ce titre, bien qu’elle soit rendue disponible publiquement, elle  ne constitue en rien une publication officielle et des changements y sont apportés sur une base régulière. 
 
 Le suivi des problèmes actifs sera priorisé et les problèmes clos seront monitorés sur une base ponctuelle. 
