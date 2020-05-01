@@ -32,6 +32,9 @@ github_username:  chin-rcip
 theme: minima
 plugins:
   - jekyll-feed
+header_pages:
+  - about.md
+  - tm/00-root.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
