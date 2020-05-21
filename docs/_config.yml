@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Collections Model
+title: SemMuse Collections Model
 email: pch.RCIP-CHIN.pch@canada.ca
 description: >- # this means to ignore newlines until "baseurl:"
   All the documentation pertaining to the Collections Model developed by CHIN.
@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
 header_pages:
   - about.md
-  - tm/00-root.md
+  - tm/current/01-information.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

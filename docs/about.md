@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+[Version française](#documentation-du-modèle-collections)
 
 # Collections Model Documentation
 
