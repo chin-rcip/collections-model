@@ -38,30 +38,32 @@ Version 2.1 ([Previous versions](/target-model))
 
 ## Main Editors: 
 
-Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
+Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN), Stephen Hart (CHIN)
 
 ## Contributors: 
 
-Ern Bieman (CHIN), Sheila Carey (CHIN), Trang Dang (CHIN), Heather Dunn (CHIN), Ludovic Font (CHIN), Nathalie Guénette (CHIN), Martine Lachance (CHIN), Bruno Lemay (CHIN)
+Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Karine Léonard Brouillet (CHIN), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Trang Dang (CHIN), Xiaosong Chen (CIOB)
 
 ## Thank Yous
 
-George Bruseker (FORTH), Erin Canning (AKM), Emmanuel Château-Dutier (UdeM), Laurence Chavet (CIOB), Xiaosong Chen (CIOB), Patrick Des Ruisseaux (CIOB), Isabelle Jacques (MCC), Cédric Jean-Marie (CIOB), Madeleine Lafaille (CHIN), Marielle St-Germain (UdeM), Katrina Ojaste (AKM), CHIN's Advisory Committee and all the participants to our GitHub Issues.
+ Cédric Jean-Marie (CIOB), Isabelle Jacques (MCC), Madeleine Lafaille (CHIN), Nathalie Guénette (CHIN), Patrick Des Ruisseaux (CIOB), Sheila Carey (CHIN), CHIN's Advisory Committee and all the participants to our GitHub Issues.
 
 ## Institutions
 
 * AKM: Aga Khan Museum 
 * CHIN: Canadian Heritage Information Network 
 * CIOB: Chief Information Officer Branch 
-* FORTH: Foundation for Research and Technology 
+* CRIH: Centre de recherche interuniversitaire sur les humanités
+* EBSI: École de bibliothéconomie et des sciences de l'information
 * MCC: Ministère de la Culture et des Communications du Québec 
+* TAKIN: Takin.solutions Ltd.
 * UdeM: Université de Montréal
 
 ## Dates: 
 
 Created date: 2019-05-13
 
-Last Update: 2020-05-04
+Last Update: 2020-05-28
 
 ## Abstract: 
 
