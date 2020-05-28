@@ -5,7 +5,7 @@ permalink: /target-model/current/information
 ---
 Version 2.1 ([Previous versions](/target-model))
 
-## On This Page
+# On This Page
 
 * [Table of Contents](#table-of-contents)
 * [Main Editors](#main-editors)
@@ -16,7 +16,7 @@ Version 2.1 ([Previous versions](/target-model))
 * [Abstract](#abstract)
 * [Target Model 1.5 Diagram](#target-model-15-diagram)
 
-## Table of Contents
+# Table of Contents
 
 * [Introduction](/target-model/current/introduction)
 * [General Concepts](/target-model/current/general-concepts)
@@ -36,19 +36,19 @@ Version 2.1 ([Previous versions](/target-model))
 	* [Appendix E](/target-model/current/appendix-e-moving-events)
 	* [Appendix F](/target-model/current/appendix-f-discussions)
 
-## Main Editors: 
+# Main Editors: 
 
 Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
 
-## Contributors: 
+# Contributors: 
 
 Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Karine Léonard Brouillet (CHIN), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Trang Dang (CHIN), Xiaosong Chen (CIOB)
 
-## Thank Yous
+# Thank Yous
 
  Cédric Jean-Marie (CIOB), Isabelle Jacques (MCC), Madeleine Lafaille (CHIN), Nathalie Guénette (CHIN), Patrick Des Ruisseaux (CIOB), Sheila Carey (CHIN), CHIN's Advisory Committee and all the participants to our GitHub Issues.
 
-## Institutions
+# Institutions
 
 * AKM: Aga Khan Museum 
 * CHIN: Canadian Heritage Information Network 
@@ -59,17 +59,17 @@ Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Er
 * TAKIN: Takin.solutions Ltd.
 * UdeM: Université de Montréal
 
-## Dates: 
+# Dates: 
 
 Created date: 2019-05-13
 
 Last Update: 2020-05-28
 
-## Abstract: 
+# Abstract: 
 
 This documents the Actors Target Model, which is intended to model the Actors Facet of CHIN’s Collections Model (that will cover collections data more broadly). It details what choices were made when developing patterns as well as why they were made, and offers diagrams representing these patterns.
 
-## Target Model 1.5 Diagram
+# Target Model 1.5 Diagram
 
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=_Actors2.0.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DbJDxz4p_R1VbLYgzzPbQ6YLNW6R0ArI%26export%3Ddownload"></iframe>
 
