@@ -5,7 +5,7 @@ permalink: /target-model/current/identification
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Identifiers and Appellations
+# Identifiers and Appellations
 
 The primary identifier of an actor is its URI, but there are other identifiers associated to it as well, such as the identifiers assigned by contributing museums, or others applied by CHIN. They must be carefully recorded, maintained, and tracked in order to preserve the integrity of museum data. To render these identifiers, we use the property `P1 is identified by` and the class `E42 Identifier`.
 
@@ -92,10 +92,10 @@ All the appellations and IDs of actors related to the documented actor will use 
 *   Group Appellation
 
 
-### Identity
+## Identity
 
 
-#### Definitions
+### Definitions
 
 We gather under the term “identity” six fields that can define the identity of an individual or group:
 
@@ -192,7 +192,7 @@ We are also debating whether historical territorial information (e.g. Nouvelle-F
 
 
 
-#### Identity Patterns
+### Identity Patterns
 
 There are three possible ways to render genders, communities, and nationalities in CIDOC CRM: with an `E55 Type`, with an `E5 Event`, or with the use of `E74 Group`. It is also possible to use external ontologies, like [bio CRM](https://helda.helsinki.fi//bitstream/handle/10138/236822/paper10.pdf?sequence=1) or [ORE Aggregation](http://www.openarchives.org/ore/1.0/datamodel).
 
@@ -217,7 +217,7 @@ See
 [ore:Aggregation](#heading=h.jflo2x5or1d5) patterns.
 
 
-##### Rendering Gender and Cultural Affiliation with `E55 Type` 
+#### Rendering Gender and Cultural Affiliation with `E55 Type` 
 
 The easiest and simplest way to handle the gender field is to add an `E55 Type` to an `E21 Person`. The simplicity of this pattern has one significant drawback: there is no way to determine when the element started or ended, because types are not dated. This makes it impossible to track peoples’ changes in gender over time. Moreover gender is not an inherent attribute of an individual. From a non-binary and non-biological perspective, gender is evolving and does not necessarily constitute a person’s definite attribute. 
 
@@ -275,7 +275,7 @@ Kent Monkman would be described as having the gender "Two-Spirit"
 
 
 
-##### Nationality, Nationhood and Community With `E74 Group`
+#### Nationality, Nationhood and Community With `E74 Group`
 
 Identifying (or being identified as) a member of a community or nationality is conceptually similar to joining an `E74 group` of people bound together so that it could be an appropriate way to render such concepts. 
 
@@ -317,7 +317,7 @@ In the case of Jean Paul Riopelle, the artist is Canadian since his birth on the
 
 
 
-##### Group Type with `E55 Type`
+#### Group Type with `E55 Type`
 
 The Group Type is a qualifier assigned to organisations in order to categorize them in ensembles based on their formally or informally stated mission or function.  It is intended to ease recognition of entities and determine whether a specific group is a museum, a company, a group of artists, etc. It will rely on the use of a controlled vocabulary to ensure consistency in the types proposed. 
 
