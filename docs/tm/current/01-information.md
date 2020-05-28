@@ -38,7 +38,7 @@ Version 2.1 ([Previous versions](/target-model))
 
 ## Main Editors: 
 
-Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN), Stephen Hart (CHIN)
+Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
 
 ## Contributors: 
 
