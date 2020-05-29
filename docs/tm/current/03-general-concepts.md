@@ -71,7 +71,7 @@ Annotations to specific pieces of data—rendered by the CIDOC CRM `P3 has note`
 ![alt_text](images/TM-Documentation-2-17.png "image_tooltip")
 
 
-Both `P3 has note` and `rdfs:comments` make statements _about_ the resource’s content and _do not_ comprise its content. For example, a `P3 has note` applied to an `E33 Linguistic Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33 Linguistic Object` resource). 
+Both `P3 has note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3 has note` applied to an `E33 Linguistic Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33 Linguistic Object` resource). 
 
 
 ```
