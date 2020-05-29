@@ -17,7 +17,7 @@ Both are worthy ontologies that have been seriously considered but ultimately di
 
 ## The Agent Relationship Ontology
 
-The [Agent Relationship Ontology](https://d-nb.info/standards/elementset/agrelon) (AgRelOn), developed by the _Deutsche National Bibliothek_, is designed to describe complex relations amongst people and groups. It uses various properties and classes to render them and could answer the needs of Creators in Canada. Such a model would look like the following: 
+The [Agent Relationship Ontology](https://d-nb.info/standards/elementset/agrelon) (AgRelOn), developed by the *Deutsche National Bibliothek*, is designed to describe complex relations amongst people and groups. It uses various properties and classes to render them and could answer the needs of Creators in Canada. Such a model would look like the following: 
 
 
 
