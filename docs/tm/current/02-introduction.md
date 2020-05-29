@@ -5,7 +5,7 @@ permalink: /target-model/current/introduction
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-# On This Page
+## On This Page
 
 * [Foreword](#foreword)
 * [Purpose of the Target Model](#purpose-of-the-target-model)
@@ -14,7 +14,7 @@ permalink: /target-model/current/introduction
 	* [Patterns](#patterns)
 	* [Examples](#examples)
 
-# Foreword
+## Foreword
 
 This document is based on the Artefact Semantic Reference Data Model by George Bruseker and follows a similar structure [(Bruseker 2019)](/target-model/current/bibliography#bruseker-2019). This work is also indebted to the [linked.art](https://linked.art/) project whose scope differs from that of CHIN’s, but whose review and discussions of issues are beneficial [(linked.art 2019a)](/target-model/current/bibliography#linked-art-2019a).
 
@@ -23,7 +23,7 @@ The current document is a work in progress and, as such, will be enhanced period
 *   *A chapter on PC14 and property chains.* As this pattern is used throughout the Target Model, it would be nice to have an explanation on how it works at the beginning. This will be done when [CHIN’s Github Issue #30](https://github.com/chin-rcip/chin-rcip/issues/30) is solved.
 *   *A complete mapping table.* The mapping table, which indicates how the Reference Documentation and Target Models concur, is not yet finished but will be added to the current document when it is finalised.
 
-# Purpose of the Target Model
+## Purpose of the Target Model
 
 In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/target-model/current/bibliography#canadian-heritage-information-network-chin-2019). This is in order to contribute to the breaking of data silos and give better access to Canadian heritage information online. Before modernising Artefacts Canada (AC) by converting it in accordance with LOD principles, CHIN will work on a smaller scale project titled *SemMuse Actors* (Actors), which will later be part of the larger Collections model supporting Artefacts Canada.
 
@@ -51,7 +51,7 @@ The Reference Documentation details the fields listed in the Reference Checklist
 
 The Target Model complies with LOD standards and, as such, will guide the transfer from the aforementioned unique format to RDF. In this process, museums’ data that is generally represented in tables or arborescences will be converted into a [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_Graph) in accordance with the structure and rules of Semantic Web Ontologies (using [CIDOC CRM](http://www.cidoc-crm.org/) and [FRBRoo](http://www.cidoc-crm.org/frbroo/home-0), although other ontologies such as [FOAF](http://xmlns.com/foaf/spec/), [Schema.org](https://schema.org/) might be used later). 
 
-# Methods and Sources
+## Methods and Sources
 
 This model has been developed using an incremental modeling framework informed by Linked Open Data principles, most notably interoperability, semantic richness and meaningfulness, shareability, usability, transparency, and collaboration. In accordance with the latter, the following best practices were adopted from the start:
 
@@ -91,11 +91,11 @@ More information about CIDOC CRM can be found on their [website](http://www.cido
 
 The current model, focused on actors related to objects from Canadian museums’ collections, consolidates the information pertaining to them in unique, non-authoritative records. Although CHIN is the custodian of the data that will be submitted to the model, this data will be provided by outside contributors (museums, libraries, researchers, etc.). As such, CHIN does not claim authority over the data content of records, nor does it intervene in museums’ data beyond mapping, cleaning and reconciliation as well as the creation of unique identifiers. CHIN’s role in cohering these data will be that of a custodian with no expert status on the information they represent.
 
-# Modelling Conventions
+## Modelling Conventions
 
 The following conventions will be used when representing modeling patterns in this document.
 
-## Patterns
+### Patterns
 
 The ontological relationships between classes have been represented diagrammatically where the structure of triples is visualised instead of the triples themselves. 
 
@@ -135,7 +135,7 @@ Sometimes, an `E55 Type` can only have a single instance in a specific pattern. 
 
 The diagram above represents the gender pattern. The middle element corresponds to the Reference Documentation “Gender” field (hence it is in bold) to signal that the content found in this field indicates the gender of the person (e.g. male, female, two-spirit, …). This information is then typed with another `E55 Type` that always has the “Gender” value to indicate that the aforementioned data (e.g. male, female, two-spirit, …) concerns gender. For example, Jean Paul Riopelle has the type “Male”, and this type has the type “Gender”.
 
-## Examples
+### Examples
 
 Throughout the documentation each example is represented in a pattern where instances are illustrated (in ovals rather than rectangles) in addition to their structured diagrams. Instances are represented in the examples, unlike in the modeling patterns where they are not.
 
