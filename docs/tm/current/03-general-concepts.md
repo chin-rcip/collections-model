@@ -5,7 +5,7 @@ permalink: /target-model/current/general-concepts
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-# The differences between `E39 Actor`, `E21 Person` and `E74 Group`
+## The differences between `E39 Actor`, `E21 Person` and `E74 Group`
 
 As Actors is centered on the creators of artefacts, the central class of the target model is `E39 Actor`. As CIDOC CRM indicates, “this class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019b, 22)](https://www.zotero.org/google-docs/?kFv0ft). There are two subclasses to `E39 Actor:` `E21 Person`, which comprises real persons; and `E74 Group`, which accounts for any type of gathering or organisation of `E39 Actor` acting collectively. As stated in CIDOC CRM, “a gathering of people becomes an `E74 Group` when it exhibits organisational characteristics usually typified by a set of ideas or beliefs held in common, or actions performed together [(CIDOC CRM 2019, 34–35)](https://www.zotero.org/google-docs/?95nfKK). As the project linked.art pointed out, the class `E39 Actor` “might be used when it is not certain whether the actor is a Person or an Organisation or Group” [(linked.art 2019b)](https://www.zotero.org/google-docs/?qUBVws).
 
@@ -18,7 +18,7 @@ For more details on this, please refer to the
 [Appendix F: Discussions, The Differences Between E39 Actor, E21 Person, and E74 Group](#heading=h.o7jvmfy3kcw0). 
 
 
-## Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
+### Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
 
 There are various ways to link a literal to an entity using different properties, each of which is intended to represent a specific type of human-readable statement. Therefore, it is important to assign the adequate properties to resources.
 
@@ -31,7 +31,7 @@ Heritage data can generally be classified into three kinds of strings explained 
 *   Literal content
 
 
-### Labels
+#### Labels
 
 Labels are used to provide a human-readable version of a resource’s content in addition to its URI as well as to handle data in several languages (i.e. labeling a piece of information as being in French or in English for example). They are rendered with the property `rdfs:label`.
 
@@ -59,7 +59,7 @@ Labels can be attached to any resource across the target model and, since they c
 
 
 
-### Annotations and Comments
+#### Annotations and Comments
 
 Annotations to specific pieces of data—rendered by the CIDOC CRM `P3 has note` property or by the <code>[rdfs:comment](https://www.w3.org/TR/rdf-schema/#ch_comment)</code> property in RDF—are used to describe or comment on a specific resource. 
 
@@ -105,7 +105,7 @@ Unless the creator of the annotation is impacting the model itself by their work
  
 
 
-### Literal Content
+#### Literal Content
 
 To represent the linguistic content of a resource—appellations, biographies or descriptions for example—`rdfs:comment` or `rdfs:label` are not suitable. Even though CIDOC CRM previously recommended the use of `P3 has note` to represent content [(Doerr and Ore 2019b, 20)](https://www.zotero.org/google-docs/?24yMfw), it is no longer the case as `P3 has note` “is a container for all informal descriptions about an object that have not been expressed in terms of CRM constructs. In particular it captures the characterisation of the item itself, its internal structures, appearance, etc”[(Doerr and Ore 2019d, 48)](https://www.zotero.org/google-docs/?2klVaf). To remedy this, CIDOC CRM has developed the `P190 has symbolic content` property to associate an instance of `E90 Symbolic Object` with a representation of its entire content in the form of a string of text [(Doerr and Ore 2019e, 114)](https://www.zotero.org/google-docs/?mVJQ1m).
 
@@ -138,7 +138,7 @@ Whether it would be preferable to use local CHIN classes in this case is discuss
 
 
 
-## Mapping problems and E33 Linguistic Object
+### Mapping problems and E33 Linguistic Object
 
 If the data of the contributing institution is clean—in other words, if it is not mixing data types and/or contents within single fields—, CHIN’s [Pipeline](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) along with the [Reference Documentation](https://drive.google.com/open?id=1-9B8plo0LZg-5H643mgJumzy6XEF3PYlAwGTFuHaxKA) and Target Model will successfully translate it from a relational to a semantic framework.  However, if the input data is poor—for example if it mixes different kinds of information within fields or if it contains heterogeneous natural language expressions—, it will not be possible to map it to semantic standards.
 
@@ -171,10 +171,10 @@ Had the value been "07.10.1923", the dates could have been encoded properly usin
 
 
 
-## Data Provenance
+### Data Provenance
 
 
-### Provenance of the Dataset
+#### Provenance of the Dataset
 
 One of the goals of Actors is to aggregate museum data from Canadian institutions and other sources in a single [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_Graph). To properly differentiate these data and manage questions of factual agreement and disagreement, it is crucial to track data provenance. But, once the data has been aggregated and deposited into a [triplestore](https://en.wikipedia.org/wiki/Triplestore)—a database for the storage and retrieval of RDF triples—the provenance of said data is lost (i.e. what institution or person contributed it). Loading RDF data into such a collection thus entails losing the ability to: 
 
@@ -183,7 +183,7 @@ One of the goals of Actors is to aggregate museum data from Canadian institution
 *   identify a subset of RDF triples (i.e. to identify their origin);
 *   determine whether a single triple is asserted once or multiple times (e.g. if a single triple is asserted by separate distinct sources as opposed to several times by a single source, thus asserting it more than once). 
 
-CHIN considers the best way to establish provenance throughout the model is to use Named Graphs rather than the longer, more complex `E13 Attribute Assignment` pattern (that would have to be repeatedly assigned to triples, each and every time, and would unnecessarily weigh down the model). For more information about this `E13 Attribute Assignment` pattern, see the 
+CHIN considersthe best way to establish provenance throughout the model is to use Named Graphs rather than the longer, more complex `E13 Attribute Assignment` pattern (that would have to be repeatedly assigned to triples, each and every time, and would unnecessarily weigh down the model). For more information about this `E13 Attribute Assignment` pattern, see the 
 
 <p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Appendix A: Data Provenance"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
@@ -243,7 +243,7 @@ Such Named Graphs can be expressed in various syntaxes such as [NQuads](https://
 
 
 
-### Record Provenance with Aggregated Contributors
+#### Record Provenance with Aggregated Contributors
 
 However, the Named Graph approach is problematic when aggregating data that has already been aggregated. This is the case of [Artists in Canada](https://app.pch.gc.ca/application/aac-aic/description-about.app?lang=en), a bilingual union list that identifies the location of documentation files on Canadian artists. Its data is submitted by specific institutions and its content is managed by the National Gallery of Canada whilst CHIN handles its technological maintenance [(National Gallery of Canada / Musée des beaux-arts du Canada 2019a; 2019b)](https://www.zotero.org/google-docs/?BzAdkM).
 
@@ -300,7 +300,7 @@ The best way to manage updates to named graphs is still unclear to CHIN and is d
 
 
 
-### Limits of and Issues with the Named Graph and “Record” approach
+#### Limits of and Issues with the Named Graph and “Record” approach
 
 The Named Graphs combined with a “record” approach lacks some of the precision and granularity of the `E13 Attribute Assignment` pattern (for more information about the `E13 Attribute Assignment pattern`, see the 
 
@@ -350,7 +350,7 @@ How to best manage uncertainty is discussed on <a href="https://github.com/chin-
 
 
 
-## Challenges When Representing Indigenous Realities 
+### Challenges When Representing Indigenous Realities 
 
 Actors aims to document creators from Canadian museums. As such, its model must render most, if not all, of the distinctive characteristics of communities across Canada. This includes communities that are typically underserved by traditional models, most notably Indigenous creators. An overview of current models and vocabularies indicates that they typically adopt a western point of view that does not adequately represent the realities of Indigenous Peoples' lives and artefacts. CHIN, in line with Canadian society's reckoning and path towards reconciliation, considers that respect and deference should be observed when it comes to Indigenous practices and beliefs. Museums are increasingly documenting and exhibiting Indigenous artefacts and this will likely lead, in the years to come, to an increased need for structures that encompass Indigenous characteristics. Thus, special attention will be paid to Indigenous conceptions within the model, particularly when it comes to choosing proper terms to label fields and data. Hopefully, this undertaking will better answer the needs of both Indigenous communities and GLAMs.
 
@@ -361,7 +361,7 @@ For more details on this, please see
 [Appendix F: Discussions, Challenges When Representing Indigenous Realities](#heading=h.4k6wwh518q3m).
 
 
-## Dates pattern
+### Dates pattern
 
 The dating pattern is the same throughout the model. In order to facilitate understanding and reading, it will not be reproduced in the rest of the diagrams of this document. .
 
