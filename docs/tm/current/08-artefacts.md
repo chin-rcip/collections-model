@@ -42,8 +42,7 @@ Jean Paul Riopelle produced the painting "Rue DeLorimier" at some point between 
 ```
 
 
-
-### Artefact (Before the Development of the Objects Facet)
+## Artefact (Before the Development of the Objects Facet)
 
 The Objects Facet semantic model will be developed later on.  In the meantime, some core information about artefacts must be modelled as part of Creators in Canada in order for this model to be functional and usable: 
 
