@@ -5,19 +5,17 @@ permalink: /target-model/current/appendix-b-appellations
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Appendix B: Appellations
-
 The primary identifier of the actor is the URI, but there are other such as the identifier of the providing museum, or others applied by CHIN. The property `P1 is identified by` and the class `E42 Identifier` are used in conjunction to render this and a label could be applied to the latter as well. [Linked.art](https://linked.art/model/base/#identifiers) faced the same problems when trying to render the content of resources and proposed to use the property `P190 has symbolic content` to display the content of the identifiers.
 
 
-### Language
+## Language
 
 CIDOC CRM suggests the use `E41 Appellation` for names but an `E41 Appellation` cannot have a `P72 has language` tag linked to it, as opposed to the `E33 Linguistic Object`. Usually, names do not need language tags (Stephen is still written Stephen in French and in English), but some of the most famous ones do (e.g. _Leonardo da Vinci _is _Léonard de Vinci_ in French). Moreover, group appellations sometimes change in accordance with the language of their display (e.g. _Museum of Fine Art of Montreal_ is _Musée des Beaux-Arts de Montréal _in French). It is possible to add a language label, but adding the language directly to the entity with the property `P72 has language` would ease the SPARQL requests. It is thus necessary to tag languages to appellations.
 
 Following in the footsteps of linked.art, CHIN could create a new `E33_E41 Linguistic Appellation` class, a subclass of both `E33 Linguistic Object` and `E41 Appellation`. This would make it possible to identify an `E39 Actor` with the `P1 is identified by` property whilst at the same time adding a language tag with the property `P72 has language`. It would also be possible to attribute both classes to the `E41 Appellation`, but that would make the pattern unnecessarily complex and complicate the mapping process. 
 
 
-### Preference
+## Preference
 
 CHIN will not determine the preferred appellation of an actor, but most museums have preferred and alternative names for actors and both should be accounted for in this model. CIDOC CRM has the `P139 has alternative form` property and it could be linked to the `E41 Appellation`, but if an actor has many alternative appellations that differs amongst institutions, this pattern would become very complex. 
 
@@ -76,7 +74,7 @@ Another solution would be to add an `E55 Type` to an `E33_E41 Linguistic Appella
 Such a pattern would make it easier to know which museum prefers which appellation whilst still displaying alternative names of an `E39 Actor`[^2].
 
 
-### Partitioning
+## Partitioning
 
 All this notwithstanding the fact that most appellations are a concatenation of different smaller appellations (e.g. a person’s name is composed of their first, middle and last names). It would be simpler not to distinguish between such parts, but museum name data is often partitioned so that not representing this could lead to a loss of information. In addition, the possibility to append affixes to the appellation (e.g. Sir or Doctor) might be useful to enable the querying of such information.
 
