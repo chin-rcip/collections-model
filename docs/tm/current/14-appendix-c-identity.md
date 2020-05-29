@@ -24,7 +24,7 @@ Identity fields could be represented using an event in the following way:
 ![alt_text](images/TM-Documentation-2-141.png "image_tooltip")
 
 
-However, both `E5 Event` and `E7 Activity` definitions establish that a _performance _has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are _performed _so that handling these concepts as either `E5 Event` or `E7 Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
+However, both `E5 Event` and `E7 Activity` definitions establish that a *performance* has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are *performed* so that handling these concepts as either `E5 Event` or `E7 Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
 
 
 ## With Bio CRM
