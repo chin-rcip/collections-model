@@ -107,7 +107,7 @@ In the case of Jean Paul Riopelle, the creator is documented as holding the Pain
 
 ### Social Status
 
-Whilst actors have professional or artistic occupations, people also hold social status(es), like being a leader, an Indigenous Community elder, or a knight. These cannot be modeled as occupations because they are not _pursued_ per se and do not fit the scope of `F51 Pursuit`.
+Whilst actors have professional or artistic occupations, people also hold social status(es), like being a leader, an Indigenous Community elder, or a knight. These cannot be modeled as occupations because they are not *pursued* per se and do not fit the scope of `F51 Pursuit`.
 
 [CIDOC CRM-Soc](http://www.cidoc-crm.org/crmsoc/) will have a class called “Phase” that may document such statuses, but it is still in development. In the meantime, the best way to model social statuses is to use an `E7 Activity` class carried out by the `E39 Actor` holding said status. 
 
@@ -215,7 +215,7 @@ CHIN is currently debating whether such a pattern should be adopted in order to 
 
 The Birth/Death and Formation/Dissolution patterns are modeled following the same pattern based on the logic of CIDOC CRM where there are events for the creation and ending of an `E39 Actor`. With this pattern, it is possible to date and place each of these events.
 
-The use of an `E67 Birth` event also enables linking to the biological mother of the `E39 Actor` with the property `P96 by mother`, and to their biological father with the property `P97 from father`. These two `E21 Person` only represent _biological _parents and any other type of parenthood (adoptive parents, etc.) should be rendered through relationships.
+The use of an `E67 Birth` event also enables linking to the biological mother of the `E39 Actor` with the property `P96 by mother`, and to their biological father with the property `P97 from father`. These two `E21 Person` only represent *biological* parents and any other type of parenthood (adoptive parents, etc.) should be rendered through relationships.
 
 For more details on this, please see 
 
@@ -358,7 +358,7 @@ Companies’ legal and official headquarters must also be documented. This is so
 
 As written above, the `E9 move` event is recommended in CIDOC CRM to document the change of location of `E19 Physical Objects` (including the `E21 Persons`). However, it does not document the location of that person, but rather the event of moving from one place to another.
 
-This pattern can document long travels as it relies on moving events with beginning and end dates. However, it does not comply with museum databases’ logic where actor _locations _are recorded rather than their _moving_. This means that if a museum has recorded that Jean Paul Riopelle lived in Montreal, then in Paris, then once again in Montreal, there would be  2 moving events rather than 3 living locations.
+This pattern can document long travels as it relies on moving events with beginning and end dates. However, it does not comply with museum databases’ logic where actor *locations* are recorded rather than their *moving*. This means that if a museum has recorded that Jean Paul Riopelle lived in Montreal, then in Paris, then once again in Montreal, there would be  2 moving events rather than 3 living locations.
 
 The `E9 Move` pattern documents the original location with the property `P27 moved from`, and the arrival location with the property `P26 moved to`. As the `E9 Move` class is an event, it can be located in time and the `E21 Person` it pertains to can be specified using a  `P25 moved` property. 
 
@@ -389,7 +389,7 @@ Jacques Cartier left France on the 20th of April 1534 and arrived in what is now
 
 #### Pattern 2: `E8 Acquisition` Event for `E74 Group`
 
-Whilst `E21 Persons` are physical objects that can move through space and time, `E74 Groups` are _conceptual _gatherings of either `E21 Persons` or other `E74 Groups`, which means that `E74 Groups` are not located in space and time.
+Whilst `E21 Persons` are physical objects that can move through space and time, `E74 Groups` are *conceptual* gatherings of either `E21 Persons` or other `E74 Groups`, which means that `E74 Groups` are not located in space and time.
 
 Because of that, `E74 Groups` cannot be participating in an `E9 Move` event. However, `E74 Groups` can be present geographically by owning a place. For example, a company may have a store in Montreal, a factory in Ottawa, and headquarters in Montreal as well. If headquarters are transferred from Montreal to Ottawa, the `E74 Group` will not `E9 Move`: rather, the initial location of the headquarters will close and a new location will be selected and occupied by the company.
 
