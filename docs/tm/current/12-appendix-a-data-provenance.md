@@ -5,8 +5,6 @@ permalink: /target-model/current/appendix-a-data-provenance
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Appendix A: Data Provenance
-
 As stated in the 
 
 <p id="gdcalert65" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Provenance of the Dataset"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert66">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
