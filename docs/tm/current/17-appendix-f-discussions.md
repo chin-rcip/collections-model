@@ -5,10 +5,7 @@ permalink: /target-model/current/appendix-f-discussions
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Appendix F: Discussions
-
-
-### Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
+## Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
 
 
     _This discussion pertains to the aforementioned 
@@ -47,7 +44,7 @@ E39 should be use in the last resort. But it is still possible to do a query to 
     
 
 
-### Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
+## Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
 
 
     _This discussion pertains to the aforementioned 
@@ -66,10 +63,9 @@ E39 should be use in the last resort. But it is still possible to do a query to 
         Philippe Michon (08:21 22 Jul): Stephen, I think it's important to add this to the text and keep the thread open for more discussions.
 
 
-### 
 
 
-### Discussion: Challenges When Representing Indigenous Realities
+## Discussion: Challenges When Representing Indigenous Realities
 
 
     _This discussion pertains to the aforementioned 
@@ -100,7 +96,7 @@ When it comes to the ontological mismatch, we do not have data yet, but it is so
         Philippe Michon (09:47 22 Jul): I think Stephen did a good summary of where we are. My first comment was there to remember us that we should already identify the fields where we need to reflect Indigenous realities. We are not at the stage of selecting the right vocabularies though.
 
 
-### Discussion: Identity Definitions
+## Discussion: Identity Definitions
 
 
     _This discussion pertains to the aforementioned 
@@ -110,8 +106,7 @@ When it comes to the ontological mismatch, we do not have data yet, but it is so
 [section](#heading=h.y9111e69u4we)_.
 
 
-#### 
-    Pertaining to Culture: 
+### Pertaining to Culture: 
 
 
         Philippe Michon (13:41 16 Jul): Should we remove "Indigenous" as anyone can be part of a community?
@@ -132,7 +127,7 @@ When it comes to the ontological mismatch, we do not have data yet, but it is so
         Karine Léonard Brouillet (11:07 12 Aug): I am not sure why the community has to be Indigenous. I think as long as Indigenous vocabularies are made available to document an artefact appropriately the field itself does not have to be. For example, a religious artist that belongs to a religious community might want to be affiliated with it. 
 
 
-#### Pertaining to Community: 
+### Pertaining to Community: 
 
 
         Philippe Michon (13:40 16 Jul): Should we create one field with a clear scope and specific vocabularies?
@@ -163,7 +158,7 @@ Maybe we have to look for a better definition of nationality that would be broad
 
 
 
-### Discussion: Identity Patterns
+## Discussion: Identity Patterns
 
 
     _This discussion pertains to the aforementioned 
@@ -185,10 +180,8 @@ Maybe we have to look for a better definition of nationality that would be broad
         Philippe Michon (12:00 22 Jul): I cannot edit my sentence without removing these comments and it might be good to keep them. Stephen, I let you make the changes. :)
 
 
-### 
 
-
-### Discussion: Nationality, Nationhood and Community With `E74 Group`
+## Discussion: Nationality, Nationhood and Community With `E74 Group`
 
 
     _This discussion pertains to the aforementioned 
@@ -237,7 +230,7 @@ E74 works well for Nationality, communities, etc. It is more a question of being
         Stephen Hart (09:49 6 Aug): Perfect
 
 
-### Discussion: Birth/Death of People and Formation/Dissolution of Groups
+## Discussion: Birth/Death of People and Formation/Dissolution of Groups
 
 
     _This discussion pertains to the aforementioned 
@@ -253,12 +246,10 @@ E74 works well for Nationality, communities, etc. It is more a question of being
         George Bruseker (09:50 22 Jul): The mother relationship is biological so it is properly modelled relative to the birth (your mom must have been there). The father and other relationships are more social (dad doesn't need to be there at the birth and until recently it was quite difficult to know who the father was
 
 
-### 
-    
+   
 
 
-### 
-    Discussion: Biography
+## Discussion: Biography
 
 
     _This discussion pertains to the aforementioned 
