@@ -5,8 +5,6 @@ permalink: /target-model/current/appendix-d-relationships
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Appendix D: Relationships
-
 Few ontologies have tackled the modeling of actors relationships, understood to be an association between different `E39 Actors`, thus creating a network of makers. The CIDOC CRM ontology does not render those ties well, although other options have attempted to do so: 
 
 
@@ -17,7 +15,7 @@ Few ontologies have tackled the modeling of actors relationships, understood to 
 Both are worthy ontologies that have been seriously considered but ultimately discarded for reasons explained below. 
 
 
-### The Agent Relationship Ontology
+## The Agent Relationship Ontology
 
 The [Agent Relationship Ontology](https://d-nb.info/standards/elementset/agrelon) (AgRelOn), developed by the _Deutsche National Bibliothek_, is designed to describe complex relations amongst people and groups. It uses various properties and classes to render them and could answer the needs of Creators in Canada. Such a model would look like the following: 
 
@@ -32,7 +30,7 @@ The [Agent Relationship Ontology](https://d-nb.info/standards/elementset/agrelon
 However, a property-based ontology entails the modification of the Target Model and the creation of a corresponding property everytime a new type of relationship has to be represented. In addition, a model with so many properties will quickly become overly complicated and hard to manage
 
 
-### Bio CRM
+## Bio CRM
 
 Two unofficial extensions of CIDOC CRM can handle the relationships between `E39 Actors`: bio CRM and a separate module of CIDOC CRM devoted to properties of properties.
 
