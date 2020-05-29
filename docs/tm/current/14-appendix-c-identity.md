@@ -5,8 +5,6 @@ permalink: /target-model/current/appendix-c-identity
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Appendix C: Identity
-
 As stated in the 
 
 <p id="gdcalert70" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Identity Patterns section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert71">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -14,7 +12,7 @@ As stated in the
 [Identity Patterns section](#heading=h.ukfrff7gaar3), CHIN has decided to use a simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
 
 
-### With `E5 Event`
+## With `E5 Event`
 
 Identity fields could be represented using an event in the following way: 
 
@@ -29,12 +27,12 @@ Identity fields could be represented using an event in the following way:
 However, both `E5 Event` and `E7 Activity` definitions establish that a _performance _has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are _performed _so that handling these concepts as either `E5 Event` or `E7 Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
 
 
-### With Bio CRM
+## With Bio CRM
 
 Bio CRM proposes another way to render genders and nationalities by linking a `bioc:Actor` with a `bioc:Actor_Role` that is neither an `E5 Event` nor an `E39 Actor`, but a subclass of `E1 CRM Entity`. However, this is not satisfactory as this new class cannot be dated without a `bioc:Event` that functions just as the CIDOC CRM `E5 Event`. This, for the same reasons as with the `E5 Event`, this pattern has been disqualified. 
 
 
-### With `ore:Aggregation`
+## With `ore:Aggregation`
 
 In their [discussions about gender and nationality](https://github.com/linked-art/linked.art/issues/152) the linked.art project has suggested to use the OAI-ORE Specifications ([http://www.openarchives.org/ore/1.0/datamodel](http://www.openarchives.org/ore/1.0/datamodel)), an approach that is similar to CIDOC CRM’s `E74 Group` but is composed of aggregated resources.
 
