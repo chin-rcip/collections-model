@@ -5,8 +5,6 @@ permalink: /target-model/current/appendix-e-moving-events
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-## Appendix E: Moving Events
-
 An `E39 Actor` may have had multiple addresses throughout their  life. Recording all of these and locating them geographically and temporally requires the use of `E9 Move`. With such a pattern, it is not the addresses of the `E39 Actor` that are documented, but the moving events of the actor from one place to another, that are recorded. Using such an approach would amount to the following pattern:
 
 
