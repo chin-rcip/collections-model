@@ -53,7 +53,7 @@ CIDOC CRM distinguishes visual representations (`E36 Visual Item`) from physical
 ![alt_text](images/TM-Documentation-2-131.png "image_tooltip")
 
 
-It is possible to link the physical `E24 Physical Man-Made Thing` image directly to the `E39 Actor` through the `P62 depicts` property, but this simpler pattern cannot link any _digital _image (`D1 Digital Object`) to the actor.  Considering how Actors will mostly manage digital images, a more complex pattern is necessary. 
+It is possible to link the physical `E24 Physical Man-Made Thing` image directly to the `E39 Actor` through the `P62 depicts` property, but this simpler pattern cannot link any *digital* image (`D1 Digital Object`) to the actor.  Considering how Actors will mostly manage digital images, a more complex pattern is necessary. 
 
 Distinguishing the URI of the `D1 Digital Object` from the URL of the digital image is necessary to refer to both resources independently. The URL of a digital image can be seen as its contact point (or address) typed as a URL assigned to an  `E41 Appellation`; it would thus be a string of text.
 
