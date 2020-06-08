@@ -5,14 +5,22 @@ permalink: /target-model/current/appendix-f-discussions
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
+## On This Page
+
+* [Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)
+* [Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
+* [Discussion: Challenges When Representing Indigenous Realities](#discussion-challenges-when-representing-indigenous-realities)
+* [Discussion: Identity Definitions](#discussion-identity-definitions)
+* [Discussion: Identity Patterns](#discussion-identity-patterns)
+* [Discussion: Nationality, Nationhood and Community With `E74 Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
+* [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birth/death-of-people-and-formation/dissolution-of-groups)
+* [Discussion: Biography](#discussion-biography)
+* [Notes](#notes)
+
 ## Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert85" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert86">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.3dy6vkm)*. 
+*This discussion pertains to the aforementioned [section](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)*. 
 
 
     Heather Dunn (18:14 22 Jul): if we know that some datasets have only e21 person (or if there are few E74 groups that are easily identified) we can still use those subclasses, right? Thinking of the AIC dataset - I think we could pretty easily identify the groups ("General Idea" and a couple of others)
@@ -40,18 +48,13 @@ If it's not distinguished in the museum data set, then we could try to reconcile
  \
 E39 should be use in the last resort. But it is still possible to do a query to modify and update from a E39 actor to an E21 Person or E74 Group.
 
-
     
 
 
 ## Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert86" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert87">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.1t3h5sf)*.
+*This discussion pertains to the aforementioned [section](#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)*.
 
 
         Philippe Michon (14:58 15 Jul): I wonder if we should create new patterns rather than adding comments. Perhaps, we should let the opportunity to use rdfs:comment or crm:p3_hasNote and look at the values there to enhance our model.
@@ -68,11 +71,7 @@ E39 should be use in the last resort. But it is still possible to do a query to 
 ## Discussion: Challenges When Representing Indigenous Realities
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert87" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert88">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.rlx5xbw1vxqv)*.
+*This discussion pertains to the aforementioned [section](#discussion-challenges-when-representing-indigenous-realities)*.
 
 
         Philippe Michon (08:10 16 Jul): Throughout the model, do we identify clearly which parts of the model and especially which vocabularies are concerned? I think it's important to point out where the vocabularies need to align with Indigenous realities.
@@ -99,11 +98,7 @@ When it comes to the ontological mismatch, we do not have data yet, but it is so
 ## Discussion: Identity Definitions
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert88" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert89">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.y9111e69u4we)*.
+*This discussion pertains to the aforementioned [section](#discussion-identity-definitions)*.
 
 
 ### Pertaining to Culture: 
@@ -161,11 +156,7 @@ Maybe we have to look for a better definition of nationality that would be broad
 ## Discussion: Identity Patterns
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert89" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert90">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.ukfrff7gaar3)*.
+*This discussion pertains to the aforementioned [section](#discussion-identity-patterns)*.
 
 
         Philippe Michon (13:48 16 Jul): Add: “Remember that e55 is considered as something unchangeable and always true.”
@@ -184,11 +175,7 @@ Maybe we have to look for a better definition of nationality that would be broad
 ## Discussion: Nationality, Nationhood and Community With `E74 Group`
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert90" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert91">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.2kwcz7fkiz9d)*.
+*This discussion pertains to the aforementioned [section](#discussion-nationality-nationhood-and-community-with-e74-group)*.
 
 
         George Bruseker (18:08 16 Jul): They don’t have to. A group at any moment is composed of some people and it’s those people in that relevant time that can act collectively.
@@ -233,11 +220,7 @@ E74 works well for Nationality, communities, etc. It is more a question of being
 ## Discussion: Birth/Death of People and Formation/Dissolution of Groups
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert91" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert92">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.dhrglii4cevr)*.
+*This discussion pertains to the aforementioned [section](#discussion-birth/death-of-people-and-formation/dissolution-of-groups)*.
 
 
         George Bruseker (09:48 22 Jul): yes crm only has properties for the brute physical facts right now. But CRMsoc will try to expand expressivity range. CHIN probably has great examples and would be welcome to participate.
@@ -252,11 +235,7 @@ E74 works well for Nationality, communities, etc. It is more a question of being
 ## Discussion: Biography
 
 
-    *This discussion pertains to the aforementioned 
-
-<p id="gdcalert92" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert93">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[section](#heading=h.147n2zr)*.
+*This discussion pertains to the aforementioned [section](#discussion-biography)*.
 
 
         George Bruseker (08:05 4 Sept.): I am not sure about this pattern. If you have a chunk of text from a biography cut and paste into a field in a db, then you have an E73 which p190 has symbolic content (the stuff you pasted in the database) and the relationship to the source, ie original document is p106 or p148 part of. The original document is also an E73 or E33 as you like.
