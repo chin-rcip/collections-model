@@ -42,11 +42,11 @@ Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
 
 ## Contributors: 
 
-Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Karine Léonard Brouillet (CHIN), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Trang Dang (CHIN), Xiaosong Chen (CIOB)
+Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Karine Léonard Brouillet (CHIN), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Sheila Carey (CHIN), Trang Dang (CHIN), Xiaosong Chen (CIOB)
 
 ## Thank Yous
 
- Cédric Jean-Marie (CIOB), Isabelle Jacques (MCC), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIOB), Sheila Carey (CHIN), CHIN's Advisory Committee and all the participants to our GitHub Issues.
+ Cédric Jean-Marie (CIOB), Isabelle Jacques (MCC), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIOB), CHIN's Advisory Committee and all the participants to our GitHub Issues.
 
 ## Institutions
 
