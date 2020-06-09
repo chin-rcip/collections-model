@@ -5,17 +5,18 @@ permalink: /target-model/current/appendix-c-identity
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-As stated in the 
+## On This Page
 
-<p id="gdcalert70" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Identity Patterns section"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert71">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+* [With `E5 Event`](#with-e5-event)
+* [With Bio CRM](#with-bio-crm)
+* [With `ore:Aggregation`](#with-oreaggregation)
 
-[Identity Patterns section](#heading=h.ukfrff7gaar3), CHIN has decided to use a simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
+As stated in the [Identity Patterns section](/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
 
 
 ## With `E5 Event`
 
 Identity fields could be represented using an event in the following way: 
-
 
 
 <p id="gdcalert71" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-141.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert72">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -56,17 +57,7 @@ The ORE ontology is composed of four classes: `ore:Aggregation`, `ore:Aggregated
 This ontology would therefore be appropriate to render the complexity of gender identification and nationalities, but would significantly complicate the Target Model. In addition it would rely on semantics that would be inconsistent with those of CIDOC CRM, rendering this part of the model problematic in the long term. Finally, it is not possible to express the period when the entity is part of the aggregation, so this would not be useful either. As a result, this approach has been dismissed. 
 
 
-<table>
-  <tr>
-   <td>💬 <em>Discussion:</em>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    George Bruseker (18:11 16 Jul): This seems like a very technical solution that provides semantics that are inconsistent with the rest of CRM.
-<p>
+| 💬 | *Discussion:* |
+| --- | --- |
+|| George Bruseker (18:11 16 Jul): This seems like a very technical solution that provides semantics that are inconsistent with the rest of CRM. <br/><br/> George Bruseker (18:13 16 Jul): I would suggest that if you need to tackle this topic in the future that there is a strong argument for a new event class for ‘identification’ of some sort. There are of course a lot of potential debates in this area and some dangerous territory around nature or nurture. That being said there is an element of declarativeness about gender, regardless of its biological status. It is something that people state (otherwise we could not know). If this argument holds water then one could track statements of identification in order to see how gender/sexuality evolves for individuals over time. |
 
-    George Bruseker (18:13 16 Jul): I would suggest that if you need to tackle this topic in the future that there is a strong argument for a new event class for ‘identification’ of some sort. There are of course a lot of potential debates in this area and some dangerous territory around nature or nurture. That being said there is an element of declarativeness about gender, regardless of its biological status. It is something that people state (otherwise we could not know). If this argument holds water then one could track statements of identification in order to see how gender/sexuality evolves for individuals over time.
-   </td>
-  </tr>
-</table>
