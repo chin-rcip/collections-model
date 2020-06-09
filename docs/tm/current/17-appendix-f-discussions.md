@@ -13,14 +13,14 @@ permalink: /target-model/current/appendix-f-discussions
 * [Discussion: Identity Definitions](#discussion-identity-definitions)
 * [Discussion: Identity Patterns](#discussion-identity-patterns)
 * [Discussion: Nationality, Nationhood and Community With `E74 Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
-* [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birth/death-of-people-and-formation/dissolution-of-groups)
+* [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)
 * [Discussion: Biography](#discussion-biography)
 * [Notes](#notes)
 
 ## Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
 
 
-*This discussion pertains to the aforementioned [section](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)*. 
+*This discussion pertains to the aforementioned [section](/target-model/current/general-concepts#the-differences-between-e39-actor-e21-person-and-e74-group)*. 
 
 
     Heather Dunn (18:14 22 Jul): if we know that some datasets have only e21 person (or if there are few E74 groups that are easily identified) we can still use those subclasses, right? Thinking of the AIC dataset - I think we could pretty easily identify the groups ("General Idea" and a couple of others)
@@ -54,7 +54,7 @@ E39 should be use in the last resort. But it is still possible to do a query to 
 ## Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
 
 
-*This discussion pertains to the aforementioned [section](#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)*.
 
 
         Philippe Michon (14:58 15 Jul): I wonder if we should create new patterns rather than adding comments. Perhaps, we should let the opportunity to use rdfs:comment or crm:p3_hasNote and look at the values there to enhance our model.
@@ -71,7 +71,7 @@ E39 should be use in the last resort. But it is still possible to do a query to 
 ## Discussion: Challenges When Representing Indigenous Realities
 
 
-*This discussion pertains to the aforementioned [section](#discussion-challenges-when-representing-indigenous-realities)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/general-concepts#challenges-when-representing-indigenous-realities)*.
 
 
         Philippe Michon (08:10 16 Jul): Throughout the model, do we identify clearly which parts of the model and especially which vocabularies are concerned? I think it's important to point out where the vocabularies need to align with Indigenous realities.
@@ -220,7 +220,7 @@ E74 works well for Nationality, communities, etc. It is more a question of being
 ## Discussion: Birth/Death of People and Formation/Dissolution of Groups
 
 
-*This discussion pertains to the aforementioned [section](#discussion-birth/death-of-people-and-formation/dissolution-of-groups)*.
+*This discussion pertains to the aforementioned [section](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)*.
 
 
         George Bruseker (09:48 22 Jul): yes crm only has properties for the brute physical facts right now. But CRMsoc will try to expand expressivity range. CHIN probably has great examples and would be welcome to participate.
