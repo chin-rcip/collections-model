@@ -5,6 +5,16 @@ permalink: /target-model/current/general-concepts
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
+## On This Page
+
+* [The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
+* [Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
+* [Mapping problems and E33 Linguistic Object](#mapping-problems-and-e33-linguistic-object)
+* [Data Provenance](#data-provenance)
+* [Challenges When Representing Indigenous Realities](#challenges-when-representing-indigenous-realities)
+* [Dates Pattern](#dates-pattern)
+
+
 ## The differences between `E39 Actor`, `E21 Person` and `E74 Group`
 
 As Actors is centered on the creators of artefacts, the central class of the target model is `E39 Actor`. As CIDOC CRM indicates, “this class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019b, 22)](https://www.zotero.org/google-docs/?kFv0ft). There are two subclasses to `E39 Actor:` `E21 Person`, which comprises real persons; and `E74 Group`, which accounts for any type of gathering or organisation of `E39 Actor` acting collectively. As stated in CIDOC CRM, “a gathering of people becomes an `E74 Group` when it exhibits organisational characteristics usually typified by a set of ideas or beliefs held in common, or actions performed together [(CIDOC CRM 2019, 34–35)](https://www.zotero.org/google-docs/?95nfKK). As the project linked.art pointed out, the class `E39 Actor` “might be used when it is not certain whether the actor is a Person or an Organisation or Group” [(linked.art 2019b)](https://www.zotero.org/google-docs/?qUBVws).
