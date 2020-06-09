@@ -5,8 +5,12 @@ permalink: /target-model/current/appendix-d-relationships
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
-Few ontologies have tackled the modeling of actors relationships, understood to be an association between different `E39 Actors`, thus creating a network of makers. The CIDOC CRM ontology does not render those ties well, although other options have attempted to do so: 
+## On This Page
 
+* [The Agent Relationship Ontology](#the-agent-relationship-ontology)
+* [Bio CRM](#bio-crm)
+
+Few ontologies have tackled the modeling of actors relationships, understood to be an association between different `E39 Actors`, thus creating a network of makers. The CIDOC CRM ontology does not render those ties well, although other options have attempted to do so: 
 
 
 *   The Agent Relationship Ontology.
@@ -34,15 +38,7 @@ However, a property-based ontology entails the modification of the Target Model 
 
 Two unofficial extensions of CIDOC CRM can handle the relationships between `E39 Actors`: bio CRM and a separate module of CIDOC CRM devoted to properties of properties.
 
-These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see 
-
-<p id="gdcalert74" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Birth"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert75">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Birth](#heading=h.dhrglii4cevr)), that to a group (see 
-
-<p id="gdcalert75" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Group Belonging"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert76">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Group Belonging](#heading=h.cnjof86v1w0s)) and other relationships described below.
+These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see [Birth](/target-model/current/life-events#birth/death-of-people-and-formation/dissolution-of-groups)), that to a group (see [Group Belonging](/target-model/current/life-events#group-belonging)) and other relationships described below.
 
 Bio CRM links `bioc:Actor` (a subclass of `E39 Actor`) to a relationship `bioc:Event` (a subclass of `E39 Event`) and specifies the role of the `bioc:Actor` in the relationship through `bioc:Actor_Role` (a direct subclass of `E1 CRM Entity`) in conjunction with `E55 Type`. By using `E55 Type` with a controlled vocabulary it is possible to represent multiple relationship types without changing the model.
 
@@ -66,43 +62,12 @@ However, this model may induce querying problems considering two events pertaini
 ![alt_text](images/TM-Documentation-2-145.png "image_tooltip")
 
 
-
-<table>
-  <tr>
-   <td>Actor
-   </td>
-   <td>Relationship
-   </td>
-   <td>Actor related
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="4" >Person 1
-   </td>
-   <td>Event of the beginning of the relationship A
-   </td>
-   <td>Person 2
-   </td>
-  </tr>
-  <tr>
-   <td>Event of the Ending of the relationship A
-   </td>
-   <td>Person 2
-   </td>
-  </tr>
-  <tr>
-   <td>Event of the beginning of the relationship B
-   </td>
-   <td>Person 2
-   </td>
-  </tr>
-  <tr>
-   <td>Event of the Ending of the relationship B
-   </td>
-   <td>Person 2
-   </td>
-  </tr>
-</table>
+| Actor | Relationship | Actor related |
+| --- | --- | --- |
+| Person 1 | Event of the beginning of the relationship A | Person 2 |
+| Person 1 | Event of the Ending of the relationship A | Person 2 |
+| Person 1 | Event of the beginning of the relationship B | Person 2 |
+| Person 1 | Event of the Ending of the relationship B | Person 2 |
 
 
 To connect the two `E5 Events` an remedy this problem, an `E70 Thing` has to be created at the beginning of the relationship as a stand-in for the relationship itself:
