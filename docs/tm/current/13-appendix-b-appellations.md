@@ -5,6 +5,12 @@ permalink: /target-model/current/appendix-b-appellations
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
+## On This Page
+
+* [Language](#language)
+* [Preference](#preference)
+* [Partitioning](#partitioning)
+
 The primary identifier of the actor is the URI, but there are other such as the identifier of the providing museum, or others applied by CHIN. The property `P1 is identified by` and the class `E42 Identifier` are used in conjunction to render this and a label could be applied to the latter as well. [Linked.art](https://linked.art/model/base/#identifiers) faced the same problems when trying to render the content of resources and proposed to use the property `P190 has symbolic content` to display the content of the identifiers.
 
 
@@ -20,31 +26,16 @@ Following in the footsteps of linked.art, CHIN could create a new `E33_E41 Lingu
 CHIN will not determine the preferred appellation of an actor, but most museums have preferred and alternative names for actors and both should be accounted for in this model. CIDOC CRM has the `P139 has alternative form` property and it could be linked to the `E41 Appellation`, but if an actor has many alternative appellations that differs amongst institutions, this pattern would become very complex. 
 
 
-```
-💡  Example:
-As an example to show the problems with the P139 has alternative form solution, we could have the following case about the appellation of an Actor:
+💡  Example: <br/>
+As an example to show the problems with the P139 has alternative form solution, we could have the following case about the appellation of an Actor:  
 
-Preferred Appellation
-Alternative Appellation
-Alternative Appellation
-Alternative Appellation
-Museum A
-Appellation 2
-Appellation 3
-Appellation 4
-Appellation 1
-Museum B
-Appellation 2
-Appellation 3
-Appellation 1
-—
-Museum C
-Appellation 1
-Appellation 2
-Appellation 4
-—
+| | Preferred Appellation | Alternative Appellation | Alternative Appellation | Alternative Appellation |
+| --- | --- | --- | --- | --- | 
+| Museum_A | Appellation 2 | Appellation 3 | Appellation 4 | Appellation 1 |
+| Museum_B | Appellation 2 | Appellation 3 | Appellation 1 | — |
+| Museum_C | Appellation 1 | Appellation 2 | Appellation 4 | — | 
 
-```
+
 
 
 The use of the `P139 has alternative form` property would entail the following model:
@@ -83,28 +74,19 @@ There are two options when trying to represent such partitioning:
 The first possibility is to directly distinguish between the different parts of the appellation of the `E39 Actor` by using `P1 is identified by`, `E33_E41 Linguistic Appellation`, and `P2 has type` and with an `E55 Type `to specify which part of the name is represented. However, this would make it impossible to know which parts of the non-preferred appellation should be linked together to create a full appellation. 
 
 
-```
-💡  Example:
-Considering an artist named Robert John Doe that is also known as Bob Doe and, in addition, uses the pseudonym Alfred, the aforementioned pattern would generate the following representation of information: 
 
-In such a case, the preferred appellation would remain Robert John Doe, but it would be impossible for the model to generate a full non-preferred appellation as it could not determine whether to select Bob or Alfred as a first name. 
-```
+| 💡  Example: <br/><br/>Considering an artist named Robert John Doe that is also known as Bob Doe and, in addition, uses the pseudonym Alfred, the aforementioned pattern would generate the following representation of information: <br/><br/> <br/>In such a case, the preferred appellation would remain Robert John Doe, but it would be impossible for the model to generate a full non-preferred appellation as it could not determine whether to select Bob or Alfred as a first name. |
+
 
 
 The second possibility, suggested by the [linked.art project](https://linked.art/model/actor/#parts-of-names), is to link the full name to the actor to subsequently partition it with the property `P106 is composed of`. 
 
 
-```
-💡  Example:
-Applying the same example to this pattern with amount to the following: 
 
-```
+| 💡  Example: <br/> <br/>Applying the same example to this pattern with amount to the following: |
+
 
 
 This second option makes it easier to query names, but it has the following problem: just as with the first option it was impossible to reassemble different parts, here it is complicated to correctly divide full appellations; finding a standard way of doing so is problematic and will likely lead to many errors.
 
-As mentioned 
-
-<p id="gdcalert69" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "above"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert70">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[above](#heading=h.1ksv4uv), the best solution to represent the both the language and the preference whilst still rendering partitioning is to instantiate the `E39 Actor` with both an `E41 Appellation` and an `E33 Linguistic Object`.
+As mentioned [above](/target-model/current/identification#identifiers-and-appellations), the best solution to represent the both the language and the preference whilst still rendering partitioning is to instantiate the `E39 Actor` with both an `E41 Appellation` and an `E33 Linguistic Object`.
