@@ -5,22 +5,30 @@ permalink: /target-model/current/life-events
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
+## On This Page
+
+* [Technique Used](#technique-used)
+* [Occupation](#occupation)
+* [Social Status](#social-status)
+* [Flourishing dates](#flourishing-dates)
+* [Specific traits](#specific-traits)
+* [Movements](#movements)
+* [Birth/Death of People and Formation/Dissolution of Groups](#birthdeath-of-people-and-formationdissolution-of-groups)
+* [Moving events](#moving-events)
+* [Legal Headquarter Attribution](#legal-headquarter-attribution)
+* [Pattern 1: E9 Move Event for E21 Person](#pattern-1-e9-move-event-for-e21-person)
+* [Pattern 2: E8 Acquisition Event for E74 Group](#pattern-2-e8-acquisition-event-for-e74-group)
+* [Pattern 3: E7 Activity Sojourn for E21 Person and E74 Group](#pattern-3-e7-activity-sojourn-for-e21-person-and-e74-group)
+* [Influences](#influences)
+
+
 ## Technique Used
 
-The modelisation of the production of artefacts (
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "see section below"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[see section below](#heading=h.ihv636)) documents some information pertaining to the role of the actor as well as the technique used to produce the object.
+The modelisation of the production of artefacts ([see section below](/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)) documents some information pertaining to the role of the actor as well as the technique used to produce the object.
 
 Because museums often document the techniques used by an actor by linking this information to said actor instead of linking it to the production of (an) artefact(s), an `E55 Type` has to be created in order to specify the technique and link it directly to the actor with the property `P2 has type`.
 
-There is a difference between a technique used by an actor, and the activity or occupation this actor could have in his life. For example, an actor A could be a painter, and use the technique watercolor but also have used once the technique sculpture, without being a sculptor. For the occupation, 
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "see below"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[see below](#heading=h.lyvgqltutk5t).
-
+There is a difference between a technique used by an actor, and the activity or occupation this actor could have in his life. For example, an actor A could be a painter, and use the technique watercolor but also have used once the technique sculpture, without being a sculptor. For the occupation, [see below](#occupation).
 
 
 <p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-117.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -30,28 +38,16 @@ There is a difference between a technique used by an actor, and the activity or 
 
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-CHIN’s is aware that this pattern is not ideal as it implies that an <code>E39_Actor</code> is a Technique. When this pattern was developed, there was no other way of representing the use of a technique by a creator in CIDOC CRM. However, two alternatives are currently being developed and could be leveraged at a later date: <a href="https://github.com/linked-art/linked.art/issues/237#issuecomment-611035443">Linked.Art’s  E13_Attribute_Assignment relationship strategy</a> or <a href="http://www.cidoc-crm.org/crmsoc/sites/default/files/CRMsoc_20190326.pdf">CRMsoc’s Phase class</a>.
-   </td>
-  </tr>
-</table>
+|  *To Be Discussed* <br/> <br/> CHIN is aware that this pattern is not ideal as it implies that an <code>E39_Actor</code> is a Technique. When this pattern was developed, there was no other way of representing the use of a technique by a creator in CIDOC CRM. However, two alternatives are currently being developed and could be leveraged at a later date: <a href="https://github.com/linked-art/linked.art/issues/237#issuecomment-611035443">Linked.Art’s  E13_Attribute_Assignment relationship strategy</a> or <a href="http://www.cidoc-crm.org/crmsoc/sites/default/files/CRMsoc_20190326.pdf">CRMsoc’s Phase class</a>. |
 
 
 
-```
-💡Example:
-In the case of Jean Paul Riopelle, the artist used the technique "drawing" and "painting".
-	
-```
+
+| 💡  Example: <br/><br/> In the case of Jean Paul Riopelle, the artist used the technique "drawing" and "painting". |
 
 
 
-### Occupation
+## Occupation
 
 As we have seen in the Technique section (
 
@@ -105,7 +101,7 @@ In the case of Jean Paul Riopelle, the creator is documented as holding the Pain
 
 
 
-### Social Status
+## Social Status
 
 Whilst actors have professional or artistic occupations, people also hold social status(es), like being a leader, an Indigenous Community elder, or a knight. These cannot be modeled as occupations because they are not *pursued* per se and do not fit the scope of `F51 Pursuit`.
 
@@ -145,7 +141,7 @@ There is also the question of modeling this kind of information under the Social
 
 
 
-### Flourishing dates
+## Flourishing dates
 
 The flourishing dates of an artist or maker are often an important piece of information for museums. In terms of modeling, the flourishing period is not an `E7 Activity` as the `E39 Actor` is not actively carrying his flourishing; it is rather an arbitrary event decided by other people (usually historians) so that it has been represented as an `E5 Event`. 
 
@@ -169,7 +165,7 @@ Cyril Henry Barraud, an English painter who participated in World War I as a war
 
 
 
-### Specific traits
+## Specific traits
 
 Most of the museums have unique fields to document specific collections or objects. How to deal with such types of information has not yet been determined. 
 
@@ -191,7 +187,7 @@ How to treat Business Output is a similar concern CHIN has. One possibility woul
 
 
 
-### Artistic Movements
+## Artistic Movements
 
 At the moment CHIN is unsure whether it should or needs to model artistic movements
 
@@ -211,7 +207,7 @@ CHIN is currently debating whether such a pattern should be adopted in order to 
 
 
 
-### Birth/Death of People and Formation/Dissolution of Groups
+## Birth/Death of People and Formation/Dissolution of Groups
 
 The Birth/Death and Formation/Dissolution patterns are modeled following the same pattern based on the logic of CIDOC CRM where there are events for the creation and ending of an `E39 Actor`. With this pattern, it is possible to date and place each of these events.
 
@@ -305,7 +301,7 @@ The Group was dissolved at an unknown date in 1936.
 
 
 
-### Moving events
+## Moving events
 
 Throughout their lives or activities, `E39 Actors` may travel, live or be present in various locations that are relevant to document. 
 
@@ -341,7 +337,7 @@ How to model the geographical presence of actors in general has not been determi
 
 
 
-#### Legal Headquarter Attribution
+### Legal Headquarter Attribution
 
 Companies’ legal and official headquarters must also be documented. This is something that could be done using the `E13 attribute assignment` class with the following pattern, although it is still under consideration and might change:
 
@@ -354,7 +350,7 @@ Companies’ legal and official headquarters must also be documented. This is so
 
 
 
-#### Pattern 1:  `E9 Move` Event for `E21 Person`
+### Pattern 1:  `E9 Move` Event for `E21 Person`
 
 As written above, the `E9 move` event is recommended in CIDOC CRM to document the change of location of `E19 Physical Objects` (including the `E21 Persons`). However, it does not document the location of that person, but rather the event of moving from one place to another.
 
@@ -387,7 +383,7 @@ Jacques Cartier left France on the 20th of April 1534 and arrived in what is now
 
 
 
-#### Pattern 2: `E8 Acquisition` Event for `E74 Group`
+### Pattern 2: `E8 Acquisition` Event for `E74 Group`
 
 Whilst `E21 Persons` are physical objects that can move through space and time, `E74 Groups` are *conceptual* gatherings of either `E21 Persons` or other `E74 Groups`, which means that `E74 Groups` are not located in space and time.
 
@@ -475,7 +471,7 @@ The pros and cons of each approach are discussed and examined in <a href="https:
 
 
 
-#### Pattern 3: `E7 Activity` Sojourn for `E21 Person` and `E74 Group`
+### Pattern 3: `E7 Activity` Sojourn for `E21 Person` and `E74 Group`
 
 Another way of modeling the locations where an `E39 Actor` went is to have a “sojourn” pattern representing where someone stayed rather than their movements across places. In this instance, “sojourns” encompass any location where an `E39 Actor` has stayed, including their customary residence, and are not limited to vacations or travels.
 
@@ -506,7 +502,7 @@ The Group of Seven met at the Studio Building in Toronto—a building where seve
 
 
 
-### Influences
+## Influences
 
 A creator might have been influenced by many things in their creative lives. These include people as well as other entities such as events or objects. However, CIDOC CRM traditionally represents influence through a relationship pattern articulated around associations between `E39 Actors`. To account for the richness of influences when it comes to creative endeavours, a different approach must be adopted as entities other than `E39 Actors` might influence a creator (events, styles, etc.). 
 
