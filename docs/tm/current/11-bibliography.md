@@ -5,6 +5,10 @@ permalink: /target-model/current/bibliography
 ---
 [Back to the Table of Contents](/target-model/current/information#table-of-contents)
 
+## On This Page
+
+* [Bibliography](#)
+
 <a name="bruseker-2019"></a>Bruseker, George. 2019. « Artefact Semantic Reference Data Model ». Unpublished.
 
 <a name="canadian-heritage-information-network-chin-2019"></a>Canadian Heritage Information Network (CHIN). 2019. « Canadian Heritage Information Network ». Governmental. Government of Canada Website. 23 octobre 2019. https://www.canada.ca/en/heritage-information-network.html.
