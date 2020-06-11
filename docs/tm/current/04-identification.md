@@ -9,11 +9,11 @@ permalink: /target-model/current/identification
 
 * [Identifiers and Appellations](#identifiers-and-appellations)
 * [Identity](#identity)
-* [Definitions](#definitions)
-* [Identity Patterns](#identity-patterns)
-* [Rendering Gender and Cultural Affiliation with E55 Type](#rendering-gender-and-cultural-affiliation-with-e55-type)
-* [Nationality, Nationhood and Community With E74 Group](#nationality-nationhood-and-community-with-e74-group)
-* [Group Type with E55 Type](#group-type-with-e55-type)
+	* [Definitions](#definitions)
+	* [Identity Patterns](#identity-patterns)
+	* [Rendering Gender and Cultural Affiliation with E55 Type](#rendering-gender-and-cultural-affiliation-with-e55-type)
+	* [Nationality, Nationhood and Community With E74 Group](#nationality-nationhood-and-community-with-e74-group)
+	* [Group Type with E55 Type](#group-type-with-e55-type)
 
 ## Identifiers and Appellations
 
