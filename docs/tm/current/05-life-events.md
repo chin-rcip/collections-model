@@ -15,10 +15,10 @@ permalink: /target-model/current/life-events
 * [Movements](#movements)
 * [Birth/Death of People and Formation/Dissolution of Groups](#birthdeath-of-people-and-formationdissolution-of-groups)
 * [Moving events](#moving-events)
-* [Legal Headquarter Attribution](#legal-headquarter-attribution)
-* [Pattern 1: E9 Move Event for E21 Person](#pattern-1-e9-move-event-for-e21-person)
-* [Pattern 2: E8 Acquisition Event for E74 Group](#pattern-2-e8-acquisition-event-for-e74-group)
-* [Pattern 3: E7 Activity Sojourn for E21 Person and E74 Group](#pattern-3-e7-activity-sojourn-for-e21-person-and-e74-group)
+	* [Legal Headquarter Attribution](#legal-headquarter-attribution)
+	* [Pattern 1: E9 Move Event for E21 Person](#pattern-1-e9-move-event-for-e21-person)
+	* [Pattern 2: E8 Acquisition Event for E74 Group](#pattern-2-e8-acquisition-event-for-e74-group)
+	* [Pattern 3: E7 Activity Sojourn for E21 Person and E74 Group](#pattern-3-e7-activity-sojourn-for-e21-person-and-e74-group)
 * [Influences](#influences)
 
 
@@ -38,7 +38,7 @@ There is a difference between a technique used by an actor, and the activity or 
 
 
 
-|  *To Be Discussed* <br/> <br/> CHIN is aware that this pattern is not ideal as it implies that an <code>E39_Actor</code> is a Technique. When this pattern was developed, there was no other way of representing the use of a technique by a creator in CIDOC CRM. However, two alternatives are currently being developed and could be leveraged at a later date: <a href="https://github.com/linked-art/linked.art/issues/237#issuecomment-611035443">Linked.Art’s  E13_Attribute_Assignment relationship strategy</a> or <a href="http://www.cidoc-crm.org/crmsoc/sites/default/files/CRMsoc_20190326.pdf">CRMsoc’s Phase class</a>. |
+| 🔎  *To Be Discussed* <br/> <br/> CHIN is aware that this pattern is not ideal as it implies that an <code>E39_Actor</code> is a Technique. When this pattern was developed, there was no other way of representing the use of a technique by a creator in CIDOC CRM. However, two alternatives are currently being developed and could be leveraged at a later date: <a href="https://github.com/linked-art/linked.art/issues/237#issuecomment-611035443">Linked.Art’s  E13_Attribute_Assignment relationship strategy</a> or <a href="http://www.cidoc-crm.org/crmsoc/sites/default/files/CRMsoc_20190326.pdf">CRMsoc’s Phase class</a>. |
 
 
 
@@ -49,40 +49,16 @@ There is a difference between a technique used by an actor, and the activity or 
 
 ## Occupation
 
-As we have seen in the Technique section (
-
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "see above"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[see above](#heading=h.1y810tw)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) (
-
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "see section below"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[see section below](#heading=h.ihv636)).
+As we have seen in the Technique section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
 
 But an actor could also have an occupation that is not linked to any production event and there is a difference between the role of an actor during a production event and an occupation in life (a person could be the writer during the production of a book, but their main occupation could be painter).
 
-There is also a difference between an occupation, like being a musician (even without being employed) and employment as an individual part of an `E74 group` (for example a musician in an orchestra). Such employment is modeled following the group belonging pattern explained 
-
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "below"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[below](#heading=h.cnjof86v1w0s).
+There is also a difference between an occupation, like being a musician (even without being employed) and employment as an individual part of an `E74 group` (for example a musician in an orchestra). Such employment is modeled following the group belonging pattern explained [below](/target-model/current/social-bonds#group-belonging).
 
 In order to account for these intricacies, the occupation is modeled with the class `F51 Pursuit` (from the CIDOC CRM extension of [FRBR](https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records), [FRBRoo](http://www.cidoc-crm.org/frbroo/)) which is an event that is `P14 carried out by` the `E39 Actor`. This `F51 Pursuit` occupation is then typed to specify which kind of occupation it is (paintor, sculptor, artist, etc.).
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-CHIN is currently examining whether an additional <code>E55 Type</code> is needed to specify if the occupation is a profession, leisure, etc. This issue is discussed on <a href=" https://github.com/chin-rcip/chin-rcip/issues/29">CHIN’s Github Issue #29</a>. 
-<p>
-We are also wondering whether the occupation pattern could be used to assign a type to the industry of a group and to describe the occupation of a group of artists? This issue is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/28">CHIN’s Github Issue #28</a>.
-   </td>
-  </tr>
-</table>
-
+| 🔎  *To Be Discussed* <br/><br/>CHIN is currently examining whether an additional <code>E55 Type</code> is needed to specify if the occupation is a profession, leisure, etc. This issue is discussed on <a href=" https://github.com/chin-rcip/chin-rcip/issues/29">CHIN’s Github Issue #29</a>. <br/><br/>We are also wondering whether the occupation pattern could be used to assign a type to the industry of a group and to describe the occupation of a group of artists? This issue is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/28">CHIN’s Github Issue #28</a>. |
 
 
 
@@ -93,13 +69,8 @@ We are also wondering whether the occupation pattern could be used to assign a t
 
 
 
-```
-💡Example:
-In the case of Jean Paul Riopelle, the creator is documented as holding the Painter profession in Montreal and in Paris, from 1940 until his death.
+| 💡  Example: <br/><br/>In the case of Jean Paul Riopelle, the creator is documented as holding the Painter profession in Montreal and in Paris, from 1940 until his death. |
 	
-```
-
-
 
 ## Social Status
 
@@ -115,30 +86,10 @@ Whilst actors have professional or artistic occupations, people also hold social
 ![alt_text](images/TM-Documentation-2-119.png "image_tooltip")
 
 
-
-```
-💡Example:
-Jean Paul Riopelle became, in 1969, officer of the Order of Canada and, in 1975, compagnon of the Order of Canada.
-	
-```
+| 💡  Example: <br/><br/> Jean Paul Riopelle became, in 1969, officer of the Order of Canada and, in 1975, companion of the Order of Canada. |
 
 
-
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-The question of the necessity of this Social Status pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/27">CHIN’s Github Issue #27</a>. 
-<p>
-There is also the question of modeling this kind of information under the Social Status pattern or with the Membership Group pattern. In the case of being an Officer of the Order of Canada, it could be modeled as being a member of the order, rather than performing the activity of Officer. CHIN will have to determine how information should be attributed to these patterns, according to which criteria, etc. 
-<p>
-<code>E13_Attribute_Assignment</code> would be a way to avoid using <code>E7_Activity</code> as a “Phase”.
-   </td>
-  </tr>
-</table>
-
+| 🔎  *To Be Discussed* <br/><br/>The question of the necessity of this Social Status pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/27">CHIN’s Github Issue #27</a>. <br/><br/>There is also the question of modeling this kind of information under the Social Status pattern or with the Membership Group pattern. In the case of being an Officer of the Order of Canada, it could be modeled as being a member of the order, rather than performing the activity of Officer. CHIN will have to determine how information should be attributed to these patterns, according to which criteria, etc. <br/><br/> <code>E13_Attribute_Assignment</code> would be a way to avoid using <code>E7_Activity</code> as a “Phase”. |
 
 
 ## Flourishing dates
@@ -156,13 +107,7 @@ The `E39 Actor` is a participant (modeled with the property `P11 has participant
 
 
 
-```
-💡Example:
-Cyril Henry Barraud, an English painter who participated in World War I as a war artist of the Canadian army is considered by Artists in Canada to have flourished between 1913 and 1915.
-
-	
-```
-
+| 💡  Example: <br/><br/> Cyril Henry Barraud, an English painter who participated in World War I as a war artist of the Canadian army is considered by Artists in Canada to have flourished between 1913 and 1915. |
 
 
 ## Specific traits
@@ -170,21 +115,7 @@ Cyril Henry Barraud, an English painter who participated in World War I as a war
 Most of the museums have unique fields to document specific collections or objects. How to deal with such types of information has not yet been determined. 
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-For the moment, CHIN is not considering such niche fields. However, a museum could submit a proposal for the addition of a field that it deems necessary and useful. CHIN could then assess whether it is relevant to model it. At the moment, CHIN is wondering whether this would be a suitable option, and if a “miscellaneous” field should be created as well to accommodate such data. 
-<p>
-This issue is discussed in <a href="https://github.com/chin-rcip/chin-rcip/issues/19">CHIN’s Github Issue #19</a>. 
-<p>
-How to treat Business Output is a similar concern CHIN has. One possibility would be to use the property <code>R59 had typical subject</code> on the <code>F51 Pursuit</code> activity of the group, as discussed in the <a href="https://github.com/chin-rcip/chin-rcip/issues/29">issue #29</a>.
-   </td>
-  </tr>
-</table>
-
+| 🔎 *To Be Discussed* <br/><br/>For the moment, CHIN is not considering such niche fields. However, a museum could submit a proposal for the addition of a field that it deems necessary and useful. CHIN could then assess whether it is relevant to model it. At the moment, CHIN is wondering whether this would be a suitable option, and if a “miscellaneous” field should be created as well to accommodate such data. <br/><br/>This issue is discussed in <a href="https://github.com/chin-rcip/chin-rcip/issues/19">CHIN’s Github Issue #19</a>. <br/><br/>How to treat Business Output is a similar concern CHIN has. One possibility would be to use the property <code>R59 had typical subject</code> on the <code>F51 Pursuit</code> activity of the group, as discussed in the <a href="https://github.com/chin-rcip/chin-rcip/issues/29">issue #29</a>. |
 
 
 ## Artistic Movements
@@ -192,19 +123,7 @@ How to treat Business Output is a similar concern CHIN has. One possibility woul
 At the moment CHIN is unsure whether it should or needs to model artistic movements
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-At the moment, movements are modeled by linking actors to groups, but this way of proceeding does not allow a datation of belonging to the movement, or even of the movement itself. In order to do so, an E5 Event would have to be used. 
-<p>
-CHIN is currently debating whether such a pattern should be adopted in order to allow datation, which is often important to art history and museums. This issue is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/21">CHIN’s Github Issue #21</a>. 
-   </td>
-  </tr>
-</table>
-
+| 🔎  *To Be Discussed* <br/><br/>At the moment, movements are modeled by linking actors to groups, but this way of proceeding does not allow a datation of belonging to the movement, or even of the movement itself. In order to do so, an E5 Event would have to be used. <br/><br/>CHIN is currently debating whether such a pattern should be adopted in order to allow datation, which is often important to art history and museums. This issue is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/21"> CHIN’s Github Issue #21</a>.|
 
 
 ## Birth/Death of People and Formation/Dissolution of Groups
@@ -213,29 +132,10 @@ The Birth/Death and Formation/Dissolution patterns are modeled following the sam
 
 The use of an `E67 Birth` event also enables linking to the biological mother of the `E39 Actor` with the property `P96 by mother`, and to their biological father with the property `P97 from father`. These two `E21 Person` only represent *biological* parents and any other type of parenthood (adoptive parents, etc.) should be rendered through relationships.
 
-For more details on this, please see 
-
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](#heading=h.p8bb8jkhzluz).
+For more details on this, please see [Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](/target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups).
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-CHIN is currently debating whether family relationships (including biological ties) should be modeled using the relationship pattern considering this would entail inconsistencies in the use of fields. 
-<p>
-This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/16">CHIN’s Github Issue #16</a>  as well as mentioned below when examining 
-
-<p id="gdcalert41" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Relationship patterns"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert42">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-<a href="#heading=h.2bn6wsx">Relationship patterns</a>. .
-   </td>
-  </tr>
-</table>
+| 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether family relationships (including biological ties) should be modeled using the relationship pattern considering this would entail inconsistencies in the use of fields. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/16">CHIN’s Github Issue #16</a> as well as mentioned below when examining [Relationship patterns](/target-model/current/social-bonds#relationships). |
 
 
 Any `E39 Actor` can carry out `E66 Formation` and `E67 Dissolution` events so that an `E74 Group` can be responsible for the creation of another `E74 Group`. 
@@ -243,7 +143,6 @@ Any `E39 Actor` can carry out `E66 Formation` and `E67 Dissolution` events so th
 The main challenge when it comes to the death of a person is accounting for the location of the remains of the deceased. Such locations as graves are sometimes recorded, most notably in WikiData, so that it appears best to model them despite the fact that CIDOC CRM does not easily render such data. 
 
 There are two ways to model such information: 
-
 
 
 *   with an `E24 Physical Man-Made Thing` representing the grave; 
@@ -257,11 +156,9 @@ In the absence of a simple solution, the `E9 Move` event has been chosen to repr
 
 The [project linked.art](https://linked.art/model/actor/#birth-and-death-formation-and-dissolution) came to the same conclusion and stated that:
 
-
-    “After death, people are still instances of Person which is a subclass of Actor, even though they can no longer carry out activities. People in comas or otherwise completely incapacitated also cannot carry out activities, but are not temporarily non-Actors. The modeling that death is a transformation from an instance of Person to an instance of Thing adds complexity for the sake of purity, but does not add any actual value. Thus a burial activity ([aat:300263485](http://vocab.getty.edu/aat/300263485)) buries a Person, not a Thing-that-used-to-be-a-Person. However if the skeleton is then dug up and exhibited, it is exhibited as a Thing. There is, therefore, a transition at some undetermined point.”
+| “After death, people are still instances of Person which is a subclass of Actor, even though they can no longer carry out activities. People in comas or otherwise completely incapacitated also cannot carry out activities, but are not temporarily non-Actors. The modeling that death is a transformation from an instance of Person to an instance of Thing adds complexity for the sake of purity, but does not add any actual value. Thus a burial activity ([aat:300263485](http://vocab.getty.edu/aat/300263485)) buries a Person, not a Thing-that-used-to-be-a-Person. However if the skeleton is then dug up and exhibited, it is exhibited as a Thing. There is, therefore, a transition at some undetermined point.” |
 
 Modeling the Birth and Death of an `E21 Person` looks like the following: 
-
 
 
 <p id="gdcalert42" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-121.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert43">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -270,35 +167,17 @@ Modeling the Birth and Death of an `E21 Person` looks like the following:
 ![alt_text](images/TM-Documentation-2-121.png "image_tooltip")
 
 
-
-```
-💡  Example:
-Jean Paul Riopelle was born on the 7th of October 1923 in Montreal to Anna Riopel and Léon-Léopold Riopelle.
-
-He died on the 12th of March 2002 at Saint-Antoine-de-l'Isle-aux-Grues and is buried in Montreal.
-
-```
+| 💡  Example: <br/><br/>Jean Paul Riopelle was born on the 7th of October 1923 in Montreal to Anna Riopel and Léon-Léopold Riopelle. <br/><br/>He died on the 12th of March 2002 at Saint-Antoine-de-l'Isle-aux-Grues and is buried in Montreal. |
 
 
 Modeling the Formation and Dissolution of an `E74 Group` looks like the following: 
 
-
-
 <p id="gdcalert43" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-122.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert44">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/TM-Documentation-2-122.png "image_tooltip")
 
 
-
-```
-💡  Example:
-The Group of Seven was founded by Lawren Harris on the 7th of May 1920 in Toronto.
-
-The Group was dissolved at an unknown date in 1936. 
-
-```
-
+| 💡  Example: <br/><br/>The Group of Seven was founded by Lawren Harris on the 7th of May 1920 in Toronto.<br/><br/>The Group was dissolved at an unknown date in 1936. |
 
 
 ## Moving events
@@ -309,33 +188,15 @@ In CIDOC CRM, there is a distinction between the physical `E21 Person` that is l
 
 In order to record the locations of persons and groups, additional patterns are required: :
 
-
-
 1. A CIDOC CRM `E9 Move` pattern must be established for the `E21 Person`
 2. Along with an `E8 Acquisition` event to record properties acquired by groups
 3. And `E7 Activity` patterns to model the sojourns of `E21 Person` and `E74 Group` in different locations.
 
-For more on this, please see 
-
-<p id="gdcalert44" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Appendix E: Moving Events"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert45">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Appendix E: Moving Events](#heading=h.aynjpld0l6iz).
+For more on this, please see [Appendix E: Moving Events](/target-model/current/appendix-e-moving-events#).
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-The best way to render different group locations throughout time is still debated amongst CHIN. This issue is discussed in <a href=" https://github.com/chin-rcip/chin-rcip/issues/18">CHIN’s Github Issue #18</a>. 
-<p>
-How to model the geographical presence of actors in general has not been determined either and is discussed in<a href="https://github.com/chin-rcip/chin-rcip/issues/31"> CHIN’s Github Issue #31</a>. 
-   </td>
-  </tr>
-</table>
-
-
+| 🔎  *To Be Discussed* <br/><br/>The best way to render different group locations throughout time is still debated amongst CHIN. This issue is discussed in <a href=" https://github.com/chin-rcip/chin-rcip/issues/18">CHIN’s Github Issue #18</a>. <br/><br/>How to model the geographical presence of actors in general has not been determined either and is discussed in<a href="https://github.com/chin-rcip/chin-rcip/issues/31"> CHIN’s Github Issue #31</a>. |
+   
 
 ### Legal Headquarter Attribution
 
@@ -367,20 +228,10 @@ The `E9 Move` pattern documents the original location with the property `P27 mov
 
 
 
-```
-💡  Example:
-Jean Paul Riopelle was born and lived in Montreal at the beginning of his life, but moved to Paris in 1947 before coming back to Montreal in 1948 and returning to Paris once again in December 1948:
-
-```
+| 💡  Example: <br/><br/>Jean Paul Riopelle was born and lived in Montreal at the beginning of his life, but moved to Paris in 1947 before coming back to Montreal in 1948 and returning to Paris once again in December 1948: |
 
 
-
-```
-💡  Example:
-Jacques Cartier left France on the 20th of April 1534 and arrived in what is now Newfoundland on the 10th of May 1534. The time he spent travelling can be modeled with CIDOC CRM: 
-
-```
-
+| 💡  Example: <br/><br/>Jacques Cartier left France on the 20th of April 1534 and arrived in what is now Newfoundland on the 10th of May 1534. The time he spent travelling can be modeled with CIDOC CRM: |
 
 
 ### Pattern 2: `E8 Acquisition` Event for `E74 Group`
@@ -396,30 +247,7 @@ In this pattern, the location where the `E74 Group` is established is considered
 This same `E22 Man-made Thing` real estate object is then located geographically with the property `P54 has current permanent location` and the class `E53 Place`. This property does not document when this real estate has been constructed and is an information that is beyond the scope of what CHIN will modelise as part of its Actors or Collections models.
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-Three properties in CIDOC CRM can be used to indicate the location of an <code>E22 Man Made Object</code> in an <code>E53 Place</code>:
-<ol>
-
-<li><code>P53 has former or current location</code>
-
-<li><code>P54 has current permanent location</code>
-
-<li><code>P55 has current location</code>
-
-<p>
-Which property is best to use is unclear considering <code>P54 has current permanent location</code> would be best for mobile objects, but CIDOC CRM rather uses <code>P53 has former or current location</code>.
-</li>
-</ol>
-   </td>
-  </tr>
-</table>
-
-
+| 🔎  *To Be Discussed*<br/><br/>Three properties in CIDOC CRM can be used to indicate the location of an <code>E22 Man Made Object</code> in an <code>E53 Place</code>: <br/><br/>1. <code>P53 has former or current location</code><br/>2. <code>P54 has current permanent location</code><br/>3. <code>P55 has current location</code><br/><br/>Which property is best to use is unclear considering <code>P54 has current permanent location</code> would be best for mobile objects, but CIDOC CRM rather uses <code>P53 has former or current location</code>. |
 
 
 <p id="gdcalert47" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-125.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert48">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -428,47 +256,16 @@ Which property is best to use is unclear considering <code>P54 has current perma
 ![alt_text](images/TM-Documentation-2-125.png "image_tooltip")
 
 
-
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-The main downside of such a pattern is that we need to add a pattern for the loss of title of the real estate, which has not yet been modeled.
-   </td>
-  </tr>
-</table>
+| 🔎  *To Be Discussed*<br/><br/>The main downside of such a pattern is that we need to add a pattern for the loss of title of the real estate, which has not yet been modeled. |
 
 
-
-```
-💡  Example:
-The company Example Inc. could have been established in 1881 with a single shopping location in Montreal.
-
-```
+| 💡  Example: <br/><br/>The company Example Inc. could have been established in 1881 with a single shopping location in Montreal. |
 
 
-
-```
-🔀 Alternative (Proposed by George Bruseker)
-George Bruseker proposed in one of the comments to create a new class, a CHIN:Establishing that would be the subclass of E7 Activity and E13 Attribute Assignment. A new property should also be created, CHIN:established, that would link the CHIN:Establishing event with the E53 Place.
-
-```
+| 🔀  Alternative (Proposed by George Bruseker) <br/><br/>George Bruseker proposed in one of the comments to create a new class, a CHIN:Establishing that would be the subclass of E7 Activity and E13 Attribute Assignment. A new property should also be created, CHIN:established, that would link the CHIN:Establishing event with the E53 Place. |
 
 
-
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-The pros and cons of each approach are discussed and examined in <a href="https://github.com/chin-rcip/chin-rcip/issues/31">CHIN’s Github Issue #31</a>. 
-   </td>
-  </tr>
-</table>
-
+| 🔎  *To Be Discussed*<br/><br/>The pros and cons of each approach are discussed and examined in <a href="https://github.com/chin-rcip/chin-rcip/issues/31">CHIN’s Github Issue #31</a>. |
 
 
 ### Pattern 3: `E7 Activity` Sojourn for `E21 Person` and `E74 Group`
@@ -486,20 +283,10 @@ In order to do so, an `E7 Activity` event is used and a “sojourn” type is as
 
 
 
-```
-💡  Example:
-Jean Paul Riopelle moved to Paris in 1947 before coming back to Montreal in 1948 and going once again to Paris in December 1948:
-
-```
+| 💡  Example:<br/><br/>Jean Paul Riopelle moved to Paris in 1947 before coming back to Montreal in 1948 and going once again to Paris in December 1948: |
 
 
-
-```
-💡  Example:
-The Group of Seven met at the Studio Building in Toronto—a building where several artist studios were situated. As we do not know of other places where these artists met on a regular basis, this is the only location associated with the group during its activity years, from 1920 to 1933.
-
-```
-
+| 💡  Example:<br/><br/>The Group of Seven met at the Studio Building in Toronto—a building where several artist studios were situated. As we do not know of other places where these artists met on a regular basis, this is the only location associated with the group during its activity years, from 1920 to 1933. |
 
 
 ## Influences
@@ -511,25 +298,4 @@ The `P15 was influenced by` property has an `E7 Activity` as a domain and any `E
 At the moment (version 2.1 of the TM), we do not have a pattern to render influences of non-actors on actors.
 
 
-<table>
-  <tr>
-   <td>🔎 
-   </td>
-   <td><em>To Be Discussed</em>
-<p>
-In the version 1.5 of the Target Model, there was a pattern close to the relationship pattern where a <code>P15 was influenced by</code> property was used in conjunction with an <code>E7 Activity</code> to which an “influence” type was assigned. This <code>E7 Activity</code> was then linked to the <code>E39 Actor</code> with the class <code>PC14 Carried out by</code> in the role of “was influenced by”, as shown below:
-<p>
-
-
-<p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-127.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/TM-Documentation-2-127.png" width="" alt="alt_text" title="image_tooltip">
-
-<p>
-The problem with this pattern is that it cannot render anything other than the fact that someone is <em>influenced by</em> something. If we want to model that someone <em>influenced something</em> for example, another pattern would have to be developed.
-<p>
-The necessity and relevance of using such a pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/33">CHIN’s Github Issue #33</a>. 
-   </td>
-  </tr>
-</table>
+| 🔎  *To Be Discussed* <br/><br/>In the version 1.5 of the Target Model, there was a pattern close to the relationship pattern where a <code>P15 was influenced by</code> property was used in conjunction with an <code>E7 Activity</code> to which an “influence” type was assigned. This <code>E7 Activity</code> was then linked to the <code>E39 Actor</code> with the class <code>PC14 Carried out by</code> in the role of “was influenced by”, as shown below: <br/><br/><p id="gdcalert49" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-127.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert50">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p><br/><br/><img src="images/TM-Documentation-2-127.png" width="" alt="alt_text" title="image_tooltip"><br/><br/>The problem with this pattern is that it cannot render anything other than the fact that someone is <em>influenced by</em> something. If we want to model that someone <em>influenced something</em> for example, another pattern would have to be developed.<br/><br/>The necessity and relevance of using such a pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/33">CHIN’s Github Issue #33</a>. |
