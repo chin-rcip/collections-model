@@ -11,6 +11,8 @@ permalink: /target-model/current/appendix-f-discussions
 * [Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
 * [Discussion: Challenges When Representing Indigenous Realities](#discussion-challenges-when-representing-indigenous-realities)
 * [Discussion: Identity Definitions](#discussion-identity-definitions)
+    * [Pertaining to Culture](#pertaining-to-culture)
+    * [Pertaining to Culture](#pertaining-to-community)
 * [Discussion: Identity Patterns](#discussion-identity-patterns)
 * [Discussion: Nationality, Nationhood and Community With `E74 Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
 * [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)
@@ -98,7 +100,7 @@ When it comes to the ontological mismatch, we do not have data yet, but it is so
 ## Discussion: Identity Definitions
 
 
-*This discussion pertains to the aforementioned [section](#discussion-identity-definitions)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/identification#definitions)*.
 
 
 ### Pertaining to Culture: 
@@ -156,7 +158,7 @@ Maybe we have to look for a better definition of nationality that would be broad
 ## Discussion: Identity Patterns
 
 
-*This discussion pertains to the aforementioned [section](#discussion-identity-patterns)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/identification#identity-patterns)*.
 
 
         Philippe Michon (13:48 16 Jul): Add: “Remember that e55 is considered as something unchangeable and always true.”
@@ -175,7 +177,7 @@ Maybe we have to look for a better definition of nationality that would be broad
 ## Discussion: Nationality, Nationhood and Community With `E74 Group`
 
 
-*This discussion pertains to the aforementioned [section](#discussion-nationality-nationhood-and-community-with-e74-group)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/identification#nationality-nationhood-and-community-with-e74-group)*.
 
 
         George Bruseker (18:08 16 Jul): They don’t have to. A group at any moment is composed of some people and it’s those people in that relevant time that can act collectively.
@@ -220,7 +222,7 @@ E74 works well for Nationality, communities, etc. It is more a question of being
 ## Discussion: Birth/Death of People and Formation/Dissolution of Groups
 
 
-*This discussion pertains to the aforementioned [section](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)*.
 
 
         George Bruseker (09:48 22 Jul): yes crm only has properties for the brute physical facts right now. But CRMsoc will try to expand expressivity range. CHIN probably has great examples and would be welcome to participate.
@@ -235,7 +237,7 @@ E74 works well for Nationality, communities, etc. It is more a question of being
 ## Discussion: Biography
 
 
-*This discussion pertains to the aforementioned [section](#discussion-biography)*.
+*This discussion pertains to the aforementioned [section](/target-model/current/descriptive-information#biography)*.
 
 
         George Bruseker (08:05 4 Sept.): I am not sure about this pattern. If you have a chunk of text from a biography cut and paste into a field in a db, then you have an E73 which p190 has symbolic content (the stuff you pasted in the database) and the relationship to the source, ie original document is p106 or p148 part of. The original document is also an E73 or E33 as you like.
