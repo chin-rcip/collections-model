@@ -9,8 +9,14 @@ permalink: /target-model/current/general-concepts
 
 * [The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
 * [Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
+  * [Labels](#labels)
+  * [Annotations](#annotations)
+  * [Literal Content](#literal-content)
 * [Mapping problems and E33 Linguistic Object](#mapping-problems-and-e33-linguistic-object)
 * [Data Provenance](#data-provenance)
+  * [Provenance of the Dataset](#provenance-of-the-dataset)
+  * [Record Provenance with Aggregated Contributors](#record-provenance-with-aggregated-contributors)
+  * [Limits of and Issues with the Named Graph and “Record” approach](#limits-of-and-issues-with-the-named-graph-and-record-approach)
 * [Challenges When Representing Indigenous Realities](#challenges-when-representing-indigenous-realities)
 * [Dates Pattern](#dates-pattern)
 
@@ -115,9 +121,8 @@ If the data of the contributing institution is clean—in other words, if it is 
 In such a case, a standard semantic mapping solution is to create an instance of `E33 Linguistic Object` that is typed using `E55 Type` in order to: 
 
 
-
-*   indicate the general kind of information held by the `E33 Linguistic Object`; 
-*   distinguish it from other `E33 Linguistic Objects` such as biographies. 
+* indicate the general kind of information held by the `E33 Linguistic Object`; 
+* distinguish it from other `E33 Linguistic Objects` such as biographies. 
 
 The language of the content must also be indicated and the data must be instantiated into an `rdfs:Literal` and connected to the `E33 Linguistic Object` instance through the `P190 has symbolic content` property. The instance of `E33 Linguistic Object` itself should be linked back to the node that it describes using the `P67 refers to` property. 
 
