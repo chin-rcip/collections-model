@@ -58,7 +58,7 @@ Labels are used to provide a human-readable version of a resource’s content in
 For example, if the occupation of an artist is documented using the AAT and has the URI <code>&lt;[http://vocab.getty.edu/page/aat/300411314](http://vocab.getty.edu/page/aat/300411314)></code>, it would be useful to add the label “artist painters” to that occupation so that humans can understand what that occupation is without going to the Getty website. Another example would be in the case of Birth events where it would be relevant to use a concatenation mechanism (at the mapping stage) to provide useful descriptive labels such as “Birth of Jean Paul Riopelle" so that anyone arriving directly at the birth event node has a good idea of what its function is.
 
 
-| 🚩 | **Important Information**<br/>Labels can be attached to any resource across the target model and, since they can be so easily added, they will not be displayed in the schemas below to facilitate readability. |
+| 🚩  *Important Information*<br/><br/>Labels can be attached to any resource across the target model and, since they can be so easily added, they will not be displayed in the schemas below to facilitate readability. |
 
 ### Annotations and Comments
 
@@ -75,11 +75,8 @@ Annotations to specific pieces of data—rendered by the CIDOC CRM `P3 has note`
 Both `P3 has note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3 has note` applied to an `E33 Linguistic Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33 Linguistic Object` resource). 
 
 
-```
-💡 Example:
-If a manufacturer is named "Woodwork Construction Ltd.", and we wish to express that its current name is based on the owner's previous company, an annotation can be used.
+| 💡  Example: <br/><br/>If a manufacturer is named "Woodwork Construction Ltd.", and we wish to express that its current name is based on the owner's previous company, an annotation can be used. |
 
-```
 
 
 For more details on this, please see [Appendix F: Discussions, Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](/target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts).
@@ -87,7 +84,7 @@ For more details on this, please see [Appendix F: Discussions, Semantic Differen
 Annotations should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new pattern in the model. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130 shows features of`. However, in the rare cases when something is really extraneous to the model but not to understanding, `P3 has note` and `rdfs:comment` are valid choices. If this is the case, `rdfs:comment` should be used when the annotation pertains to classes or properties (ontological content) whereas `P3 has note` should be used when the annotation pertains to museum data (cultural content).
 
 
-| 🚩 | **Important Information**<br/>Unless the creator of the annotation is impacting the model itself by their work, <code>rdfs:comment</code> should not be used and <code>P3 has note</code> should be preferred. |
+| 🚩  *Important Information*<br/><br/>Unless the creator of the annotation is impacting the model itself by their work, <code>rdfs:comment</code> should not be used and <code>P3 has note</code> should be preferred. |
  
 
 
@@ -96,22 +93,14 @@ Annotations should be used in edge cases when something is too complex and subtl
 To represent the linguistic content of a resource—appellations, biographies or descriptions for example—`rdfs:comment` or `rdfs:label` are not suitable. Even though CIDOC CRM previously recommended the use of `P3 has note` to represent content [(Doerr and Ore 2019b, 20)](https://www.zotero.org/google-docs/?24yMfw), it is no longer the case as `P3 has note` “is a container for all informal descriptions about an object that have not been expressed in terms of CRM constructs. In particular it captures the characterisation of the item itself, its internal structures, appearance, etc”[(Doerr and Ore 2019d, 48)](https://www.zotero.org/google-docs/?2klVaf). To remedy this, CIDOC CRM has developed the `P190 has symbolic content` property to associate an instance of `E90 Symbolic Object` with a representation of its entire content in the form of a string of text [(Doerr and Ore 2019e, 114)](https://www.zotero.org/google-docs/?mVJQ1m).
 
 
-```
-💡 Example:
-For example, the biography of Jean Paul Riopelle could have:
-a label "Biography of Jean Paul Riopelle";
-a note from the museum assessing the biography, stating that it has to be revised for example; 
-the content of the biography.
-From a modeling standpoint, this would look like the following: 
+| 💡  Example: <br/><br/>For example, the biography of Jean Paul Riopelle could have:<br/>- a label "Biography of Jean Paul Riopelle";<br/>- a note from the museum assessing the biography, stating that it has to be revised for example; <br/>- the content of the biography.<br/><br/>From a modeling standpoint, this would look like the following: |
 
-
-```
 
 
 The best way to represent the content of a resource is to follow CIDOC CRM’s approach rather than to rely on a homemade property that would only be used by CHIN. As is often the case in the LOD context, it is preferable to employ recognised and approved classes and properties rather than create new, “single use” ones.
 
 
-| 🔎 | **To Be Discussed**<br/>Whether it would be preferable to use local CHIN classes in this case is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/37">CHIN’s Github Issue #37</a>. |
+| 🔎  *To Be Discussed* <br/><br/>Whether it would be preferable to use local CHIN classes in this case is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/37">CHIN’s Github Issue #37</a>. |
 
 
 ## Mapping problems and E33 Linguistic Object
@@ -135,14 +124,7 @@ The language of the content must also be indicated and the data must be instanti
 
 
 
-```
-💡Example:
-For example, a museum could have recorded the birth of Jean Paul Riopelle with the following value:  "le septième jour du mois d'octobre 1923". Such a value could not be mapped as it is not compliant with XSD:Date format requirements. In order to nonetheless retain this information, an E33 Linguistic Object linked to an E52 Time-span can be created, as shown below:
-
-Had the value been "07.10.1923", the dates could have been encoded properly using the XSD:DateTime format, as shown below:
-
-
-```
+| 💡  Example:<br/><br/>For example, a museum could have recorded the birth of Jean Paul Riopelle with the following value:  "le septième jour du mois d'octobre 1923". Such a value could not be mapped as it is not compliant with XSD:Date format requirements. In order to nonetheless retain this information, an E33 Linguistic Object linked to an E52 Time-span can be created, as shown below:<br/><br/>Had the value been "07.10.1923", the dates could have been encoded properly using the XSD:DateTime format, as shown below: |
 
 
 
@@ -153,20 +135,21 @@ Had the value been "07.10.1923", the dates could have been encoded properly usin
 
 One of the goals of Actors is to aggregate museum data from Canadian institutions and other sources in a single [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_Graph). To properly differentiate these data and manage questions of factual agreement and disagreement, it is crucial to track data provenance. But, once the data has been aggregated and deposited into a [triplestore](https://en.wikipedia.org/wiki/Triplestore)—a database for the storage and retrieval of RDF triples—the provenance of said data is lost (i.e. what institution or person contributed it). Loading RDF data into such a collection thus entails losing the ability to: 
 
+* identify a subset of RDF triples (i.e. to identify their origin);
+* determine whether a single triple is asserted once or multiple times (e.g. if a single triple is asserted by separate distinct sources as opposed to several times by a single source, thus asserting it more than once). 
 
-
-*   identify a subset of RDF triples (i.e. to identify their origin);
-*   determine whether a single triple is asserted once or multiple times (e.g. if a single triple is asserted by separate distinct sources as opposed to several times by a single source, thus asserting it more than once). 
-
-CHIN considersthe best way to establish provenance throughout the model is to use Named Graphs rather than the longer, more complex `E13 Attribute Assignment` pattern (that would have to be repeatedly assigned to triples, each and every time, and would unnecessarily weigh down the model). For more information about this `E13 Attribute Assignment` pattern, see the [Appendix A: Data Provenance](/target-model/current/appendix-a-data-provenance).
+CHIN considers the best way to establish provenance throughout the model is to use Named Graphs rather than the longer, more complex `E13 Attribute Assignment` pattern (that would have to be repeatedly assigned to triples, each and every time, and would unnecessarily weigh down the model). For more information about this `E13 Attribute Assignment` pattern, see the [Appendix A: Data Provenance](/target-model/current/appendix-a-data-provenance).
 
 A [Named Graph](https://en.wikipedia.org/wiki/Named_graph) is a set of RDF triples that receives a fourth statement (the triples then become quadruples, or quads: `&lt;subject> &lt;predicate> &lt;object> &lt;graphname>`). This enables the treatment of the whole graph as a single entity which can receive attributes such as author, provenance, etc. Each triple within this Named Graph will inherit the graph’s information. Named Graphs also allow the use of specific subsets of the collected data based on graph identifiers [(Dodds and Davis 2019, 53)](https://www.zotero.org/google-docs/?a5qAir). One of their most useful characteristics is that they enable SPARQL queries within specific subsets of Named Graphs. 
 
-// EXAMPLE TO COME
+```
+ 💡  Example: 
+
+// EXAMPLE TO COME \\
+
+```
 
 From a modeling standpoint, such a collection of data would look like the following: 
-
-
 
 <p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-19.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
@@ -178,7 +161,8 @@ Such Named Graphs can be expressed in various syntaxes such as [NQuads](https://
 
 
 ```
-💡Example:
+ 💡 Example:
+
 {
   "@context": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -233,20 +217,15 @@ The easiest way to document such entries is to create an `E73 Information Object
 
 
 
-| 🔎 | **To Be Discussed**<br/>Whether it would be useful to use the same pattern to document non-aggregating contributors, such as a cataloguer responsible for the documentation of a record in an institution, is under discussion and your input on this matter would be useful. CHIN wants to explore the legal and ethical concerns of displaying personal information of individuals and will examine those with relevant experts. In the meantime, such information will not be recorded. <br/>For more details on this, see <a href="https://github.com/chin-rcip/chin-rcip/issues/34">CHIN’s GitHub Issue #34</a>. | 
+| 🔎  *To Be Discussed* <br/><br/>Whether it would be useful to use the same pattern to document non-aggregating contributors, such as a cataloguer responsible for the documentation of a record in an institution, is under discussion and your input on this matter would be useful. CHIN wants to explore the legal and ethical concerns of displaying personal information of individuals and will examine those with relevant experts. In the meantime, such information will not be recorded.<br/> <br/>For more details on this, see <a href="https://github.com/chin-rcip/chin-rcip/issues/34">CHIN’s GitHub Issue #34</a>. | 
 
 
 
-```
-💡 Example:
-In Artist in Canada, the record of Jean Paul Riopelle indicates that the information comes from the National Gallery of Canada and was created on 1985.03.13 and last modified on 2017.06.05.
-As CHIN has not yet determined how to document updates of information (something that will be developed later on), the creation date currently stands for the last modified version of the record. 
+| 💡  Example: <br/><br/>In Artist in Canada, the record of Jean Paul Riopelle indicates that the information comes from the National Gallery of Canada and was created on 1985.03.13 and last modified on 2017.06.05.<br/><br/>As CHIN has not yet determined how to document updates of information (something that will be developed later on), the creation date currently stands for the last modified version of the record. |
 
 
-```
 
-
-| 🔎 | **To Be Discussed**<br/>The best way to manage updates to named graphs is still unclear to CHIN and is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
+| 🔎  *To Be Discussed*<br/><br/>The best way to manage updates to named graphs is still unclear to CHIN and is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
 
 
 ### Limits of and Issues with the Named Graph and “Record” approach
@@ -256,13 +235,13 @@ The Named Graphs combined with a “record” approach lacks some of the precisi
 Also, this approach records the provenance of the data, but not the documents used by the contributing institutions themselves when documenting their records. 
 
 
-| 🔎 | **To Be Discussed**<br/>How to best identify who the creators of a record are is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/10">CHIN’s Github Issue #10</a>. |
+| 🔎  *To Be Discussed*<br/><br/>How to best identify who the creators of a record are is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/10">CHIN’s Github Issue #10</a>. |
 
 
-| 🔎 | **To Be Discussed**<br/>How to best manage updates is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
+| 🔎  *To Be Discussed*<br/><br/>How to best manage updates is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
 
 
-| 🔎 | **To Be Discussed**<br/>How to best manage uncertainty is discussed on <a href="https://github.com/chin-rcip/collections-model/issues/47">CHIN’s Github Issue #47</a>. |
+| 🔎  *To Be Discussed*<br/><br/>How to best manage uncertainty is discussed on <a href="https://github.com/chin-rcip/collections-model/issues/47">CHIN’s Github Issue #47</a>. |
 
 
 ## Challenges When Representing Indigenous Realities 
@@ -280,15 +259,12 @@ In CIDOC CRM, only `E2 Temporal Entities` and its subclasses (comprising events)
 
 This `E52 Time-Span` can then be delimited (using the XSD Date standards) with the use of 4 properties representing specific dates: 
 
-
-
-*   `P82a begin of the begin ` indicates that the time-span of the event may at the earliest have started on that date.
-*   `P81a end of the begin `indicates that the time-span of the event has without doubt at the latest started on that date.
-*   `P81b begin of the end` indicates that the time-span of the event has without doubt lasted at least until this date.
-*   `P82b end of the end `indicates that the time-span of the event may have lasted until that date.
+* `P82a begin of the begin ` indicates that the time-span of the event may at the earliest have started on that date.
+* `P81a end of the begin `indicates that the time-span of the event has without doubt at the latest started on that date.
+* `P81b begin of the end` indicates that the time-span of the event has without doubt lasted at least until this date.
+* `P82b end of the end `indicates that the time-span of the event may have lasted until that date.
 
 The diagram below illustrates the differences between these 4 properties (see the [CIDOC CRM documentation](http://www.cidoc-crm.org/guidelines-for-using-p82a-p82b-p81a-p81b) for more information about this):
-
 
 
 <p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-111.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
@@ -311,9 +287,4 @@ The full date pattern is as follows:
 ![alt_text](images/TM-Documentation-2-112.png "image_tooltip")
 
 
-
-```
-💡  Example:
-Pénelope Solette produced a painting that was presented to the public on the 10th of January 1997. Art historians consider she has started producing the work in October of 1996.
-
-```
+| 💡  Example:<br/><br/>Pénelope Solette produced a painting that was presented to the public on the 10th of January 1997. Art historians consider she has started producing the work in October of 1996. |
