@@ -101,37 +101,32 @@ The ontological relationships between classes have been represented diagrammatic
 
 It is important to note that in reality it is the instances that are connected to each other through properties, not the classes themselves like the diagrams might imply. For clarity and visibility sake however, modeling patterns will not display instances (they will be represented in examples however, as shown below). 
 
+<a name="001_Convention_ClassesAndProperties_p"></a>001_Convention_ClassesAndProperties_p
 <iframe frameborder="0" style="width:100%;height:220px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=001_Convention_ClassesAndProperties_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tP4V68oU1n7l5HedZXb5nFrfnYu2yHXg%26export%3Ddownload"></iframe>
-
-*Diagram Convention: Classes and Properties*
 
 For example, the diagram below illustrates that any instance of the class `E21 Person` can be linked to an instance of the class `E55 Type` through the property `P2 has type`.
 
+<a name="002_Convention_ClassesAndPropertiesExample_p"></a>002_Convention_ClassesAndPropertiesExample_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=002_Convention_ClassesAndPropertiesExample_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gr88pIpcq9FVA0Md9fZ74rwIPlAJi-4t%26export%3Ddownload"></iframe>
-
-*Diagram Convention: Classes and Properties Example*
 
 In some rare cases, two different classes are mentioned in the same box (e.g. `E33_Linguistic_Object` and `E41_Appellation`) in order to represent a multi-instantiation, meaning that two classes are used to define a single instance.
 
 To facilitate understanding and visually convey how CIDOC CRM entities are used to model different kinds of information, the colour conventions below have been adopted to represent top-level classes along with their subclasses. 
 
+<a name="003_Convention_Colors_p"></a>003_Convention_Colors_p
 <iframe frameborder="0" style="width:100%;height:243px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=003_Convention_Colors_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LMF5iRQKFyNoq5BkehhjQUy8xv1HVs8u%26export%3Ddownload"></iframe>
-
-*Diagram Convention: Colors*
 
 In addition, fields defined in the Reference Documentation are indicated in bold above their respective class name, as shown below:
 
+<a name="004_Convention_Field_p"></a>004_Convention_Field_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=004_Convention_Field_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HILva7PuFDfsCg5daNYxTva-BtlwTjBg%26export%3Ddownload"></iframe>
-
-*Diagram Convention: Fields*
 
 In the above diagram, the “Birth Place”,  “Birth Date Begin” and “Birth Date End” fields from the Reference Documentation are denoted in bold. In addition to facilitating the understanding of both the Target Model and its Reference Documentation, this also illustrates how the translation of the data to a semantic framework generates several new elements such as `E67 Birth` event and `E52 Time-Span`. 
 
 Sometimes, an `E55 Type` can only have a single instance in a specific pattern. In such a case, it is named in quotation marks underneath the name of the class, as follows:
 
+<a name="005_Convention_Metatype_p"></a>005_Convention_Metatype_p
 <iframe frameborder="0" style="width:100%;height:220px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=005_Convention_Metatype_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1qnZZqU6wsy-5dMs86vKqeWtJ-iuNHTlS%26export%3Ddownload"></iframe>
-
-*Diagram Convention: Metatypes*
 
 The diagram above represents the gender pattern. The middle element corresponds to the Reference Documentation “Gender” field (hence it is in bold) to signal that the content found in this field indicates the gender of the person (e.g. male, female, two-spirit, …). This information is then typed with another `E55 Type` that always has the “Gender” value to indicate that the aforementioned data (e.g. male, female, two-spirit, …) concerns gender. For example, Jean Paul Riopelle has the type “Male”, and this type has the type “Gender”.
 
@@ -141,8 +136,7 @@ Throughout the documentation each example is represented in a pattern where inst
 
 For example, the triples mapped to the gender pattern mentioned above would look like the following:
 
+<a name="006_Convention_Instances_p"></a>006_Convention_Instances_p
 <iframe frameborder="0" style="width:100%;height:323px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=006_Convention_Instances_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1C8p1lpiLNDykkf1HUK4SVfJ6jf0p6UQ5%26export%3Ddownload"></iframe>
-
-*Diagram Convention: Instances*
 
 In this diagram, each instance (the instances of Jean Paul Riopelle, of the gender Male, and of the type Gender) are linked together through properties in accordance with the structure of the corresponding pattern in the model.
