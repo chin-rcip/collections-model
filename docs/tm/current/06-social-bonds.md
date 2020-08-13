@@ -23,11 +23,8 @@ This is mostly useful to model the role of an actor in the production of an arte
 
 In order to do so, relationships have to be considered as activities performed consciously or unconsciously by `E39 Actors`. Being unconscious of performing an activity could be seen as going against the scope note of `E7 Activity` because it has to be performed intentionally. However, since the `E5 Event`‘s properties does not allow the modeling of roles, we opted to go with an `E7 Activity` for the moment. As such, they are modeled using the class `E7 Activity` linked to the `E39 Actors` involved using the property class `PC14 Carried out by`. The latter is then assigned a type with the property `P14.1 in the role of` and an `E55 Type` specifying the roles of each party involved, as shown in the following diagram:
 
-
-<p id="gdcalert52" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-128.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert53">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/TM-Documentation-2-128.png "image_tooltip")
+<a name="056_Pattern_Relationships_p"></a>056_Pattern_Relationships_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=056_Pattern_Relationships_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ubl5sPbPNStjDaQ3Io5y0I2p6S6flVg8%26export%3Ddownload"></iframe>
 
 
 The use of this pattern has a few advantages as it: 
@@ -42,10 +39,13 @@ The use of this pattern has a few advantages as it:
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle met the group Les Surréalistes when living in Paris in 1947; he was greatly influenced by the group throughout his life. |
 
+<a name="057_Example_RelationshipInfluenceRiopelle_p"></a>057_Example_RelationshipInfluenceRiopelle_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=057_Example_RelationshipInfluenceRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1QSSMYclP3kQctxGyGYBRuenW0fVVMXJB%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle married Françoise Lespérance, from then on Françoise Riopelle, in 1946. |
 
-
+<a name="058_Example_RelationshipMarriageRiopelle_p"></a>058_Example_RelationshipMarriageRiopelle_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=058_Example_RelationshipMarriageRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1JQWN2UZGBLdBwCsTOSZV511iGGLIlfcQ%26export%3Ddownload"></iframe>
 
 ## Group Belonging
 
@@ -53,14 +53,13 @@ CIDOC CRM has specific classes dedicated to rendering group belonging more adequ
 
 If the provider’s record documents an `E74 Group` and lists its members, then an `E85 Joining` (and an `E86 Leaving` if needed) will be created for each member (as discussed in the [issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) on GitHub).
 
-<p id="gdcalert54" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-129.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert55">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/TM-Documentation-2-129.png "image_tooltip")
-
+<a name="059_Pattern_GroupBelonging_p"></a>059_Pattern_GroupBelonging_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=059_Pattern_GroupBelonging_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1RvtLjlTiHJkl_VU6dlx0SgRBBbteInqc%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>A. J. Casson, an artist, joined the Group of Seven in 1923 as a member and remained so until the group's dissolution in 1933. |
 
+<a name="060_Example_GroupBelongingGroup7_p"></a>060_Example_GroupBelongingGroup7_p
+<iframe frameborder="0" style="width:100%;height:648px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=060_Example_GroupBelongingGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17xazTJlfANMP0MeeYme_hDyyU5hNv_Cp%26export%3Ddownload"></iframe>
 
 | 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether attending school should be modeled as being a member of the school or university’s group.<br/><br/>Likewise, being a member of any company or institution (such as a professor in a University) should also be modeled according to this pattern.<br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/11">CHIN’s Github Issue #11</a>. |
 
