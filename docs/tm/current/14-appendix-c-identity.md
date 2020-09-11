@@ -18,12 +18,9 @@ As stated in the [Identity Patterns section](/target-model/current/identificatio
 
 Identity fields could be represented using an event in the following way: 
 
+<a name="083_Pattern_IdentityWithEvent_p"></a>083_Pattern_IdentityWithEvent_p
 
-<p id="gdcalert71" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-141.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert72">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/TM-Documentation-2-141.png "image_tooltip")
-
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=083_Pattern_IdentityWithEvent_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1R18JnHXoI0G35ttgQvtt0annpSKRAm4V%26export%3Ddownload"></iframe>
 
 However, both `E5 Event` and `E7 Activity` definitions establish that a *performance* has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are *performed* so that handling these concepts as either `E5 Event` or `E7 Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
 
@@ -39,20 +36,14 @@ In their [discussions about gender and nationality](https://github.com/linked-ar
 
 The ORE ontology is composed of four classes: `ore:Aggregation`, `ore:AggregatedResource`, `ore:ResourceMap` and `ore:Proxy`.
 
-
-
 *   The `ore:Aggregation` class is a set of other resources. “They are more conceptual groupings, rather than physical ones” ([https://linked.art/model/collection/#aggregations](https://linked.art/model/collection/#aggregations)) 
 *   The `ore:AggregatedResource` class is a resource that is a constituent of an aggregation
 *   The `ore:ResourceMap` class is a resource with information consisting of assertions that describe a single aggregation, enumerate the constituent aggregated resources, and may include additional properties about the aggregation and aggregated resources. It must have a minimal number of metadata, at least `dcterms:creator` and `dcterms:modified`. The` ore:ResourceMap` seems mandatory, but neither linked.art ([https://linked.art/model/collection/](https://linked.art/model/collection/)) nor Europeana ([https://pro.europeana.eu/resources/apis/intro](https://pro.europeana.eu/resources/apis/intro)) use an `ore:ResourceMap` in their model.
 *   The `ore:Proxy` is a class that links the `ore:AggregatedResource` and the `ore:Aggregation` to qualify the` ore:AggregatedResource` in the context of the aggregation. For example, `ore:Proxy` is used to express sequencing between `ore:AggregatedResource` in an `ore:Aggregation` since “without any sequencing information, the order of Aggregated Resources cannot be inferred — they form an unordered set. It would not be legitimate for the Resource Map to express this sequencing by asserting a triple of the sort `&lt;AR-1> &lt;hasNext> &lt;AR-2>`, since this fact is only true in the context of the specific Aggregation, and is not a "global" fact” ([http://www.openarchives.org/ore/1.0/datamodel#Proxy](http://www.openarchives.org/ore/1.0/datamodel#Proxy)).
 
+<a name="084_Pattern_IdentityWithOreAggregation_p"></a>084_Pattern_IdentityWithOreAggregation_p
 
-
-<p id="gdcalert72" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/TM-Documentation-2-142.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert73">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/TM-Documentation-2-142.png "image_tooltip")
-
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=084_Pattern_IdentityWithOreAggregation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HSk1qe1t9UEI5sy1fCq2BPvZUHuOJUa4%26export%3Ddownload"></iframe>
 
 This ontology would therefore be appropriate to render the complexity of gender identification and nationalities, but would significantly complicate the Target Model. In addition it would rely on semantics that would be inconsistent with those of CIDOC CRM, rendering this part of the model problematic in the long term. Finally, it is not possible to express the period when the entity is part of the aggregation, so this would not be useful either. As a result, this approach has been dismissed. 
 
