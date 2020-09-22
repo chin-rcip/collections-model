@@ -45,7 +45,7 @@ Heritage data can generally be classified into three kinds of strings explained 
 Labels are used to provide a human-readable version of a resource’s content in addition to its URI as well as to handle data in several languages (i.e. labeling a piece of information as being in French or in English for example). They are rendered with the property `rdfs:label`.
 
 <a name="007_Pattern_Labels_p"></a>007_Pattern_Labels_p
-<iframe frameborder="0" style="width:100%;height:220px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=007_Pattern_Labels_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17oAGG4vgPUkCf0Nu3eOVwyMy4swS90a8%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=007_Pattern_Labels_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17oAGG4vgPUkCf0Nu3eOVwyMy4swS90a8%26export%3Ddownload"></iframe>
 
 For example, if the occupation of an artist is documented using the AAT and has the URI <code>&lt;[http://vocab.getty.edu/page/aat/300411314](http://vocab.getty.edu/page/aat/300411314)></code>, it would be useful to add the label “artist painters” to that occupation so that humans can understand what that occupation is without going to the Getty website. Another example would be in the case of Birth events where it would be relevant to use a concatenation mechanism (at the mapping stage) to provide useful descriptive labels such as “Birth of Jean Paul Riopelle" so that anyone arriving directly at the birth event node has a good idea of what its function is.
 
@@ -58,7 +58,7 @@ Annotations to specific pieces of data—rendered by the CIDOC CRM `P3 has note`
 
 
 <a name="008_Pattern_AnnotationsComments_p"></a>008_Pattern_AnnotationsComments_p
-<iframe frameborder="0" style="width:100%;height:350px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=008_Pattern_AnnotationsComments_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pI5Q8RfR8pKTsOM-fZD0dBwe9Z5ThBKL%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=008_Pattern_AnnotationsComments_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pI5Q8RfR8pKTsOM-fZD0dBwe9Z5ThBKL%26export%3Ddownload"></iframe>
 
 
 Both `P3 has note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3 has note` applied to an `E33 Linguistic Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33 Linguistic Object` resource). 
@@ -67,7 +67,7 @@ Both `P3 has note` and `rdfs:comments` make statements *about* the resource’s 
 | 💡  Example: <br/><br/>If a manufacturer is named "Woodwork Construction Ltd.", and we wish to express that its current name is based on the owner's previous company, an annotation can be used. | 
 
 <a name="009_Example_NoteWoodworkCompany_p"></a>009_Example_NoteWoodworkCompany_p
-<iframe frameborder="0" style="width:100%;height:463px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=009_Example_NoteWoodworkCompany_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1j2ssBSw_wLQod0LROH4BxSR12MXomSGM%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=009_Example_NoteWoodworkCompany_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1j2ssBSw_wLQod0LROH4BxSR12MXomSGM%26export%3Ddownload"></iframe>
 
 For more details on this, please see [Appendix F: Discussions, Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](/target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts).
 
@@ -85,7 +85,7 @@ To represent the linguistic content of a resource—appellations, biographies or
 | 💡  Example: <br/><br/>For example, the biography of Jean Paul Riopelle could have:<br/>- a label "Biography of Jean Paul Riopelle";<br/>- a note from the museum assessing the biography, stating that it has to be revised for example; <br/>- the content of the biography.<br/><br/>From a modeling standpoint, this would look like the following: |
 
 <a name="010_Example_LiteralContentBiographyRiopelle_p"></a>010_Example_LiteralContentBiographyRiopelle_p
-<iframe frameborder="0" style="width:100%;height:383px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=010_Example_LiteralContentBiographyRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10gUM2Jy9dQyNR8WIURdCtRWary6powUw%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=010_Example_LiteralContentBiographyRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D10gUM2Jy9dQyNR8WIURdCtRWary6powUw%26export%3Ddownload"></iframe>
 
 The best way to represent the content of a resource is to follow CIDOC CRM’s approach rather than to rely on a homemade property that would only be used by CHIN. As is often the case in the LOD context, it is preferable to employ recognised and approved classes and properties rather than create new, “single use” ones.
 
@@ -106,17 +106,17 @@ In such a case, a standard semantic mapping solution is to create an instance of
 The language of the content must also be indicated and the data must be instantiated into an `rdfs:Literal` and connected to the `E33 Linguistic Object` instance through the `P190 has symbolic content` property. The instance of `E33 Linguistic Object` itself should be linked back to the node that it describes using the `P67 refers to` property. 
 
 <a name="011_Pattern_MappingWithE33LinguisticObject_p"></a>011_Pattern_MappingWithE33LinguisticObject_p
-<iframe frameborder="0" style="width:100%;height:503px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=011_Pattern_MappingWithE33LinguisticObject_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-uzAimbVP_8WtWTXZlU0qUGWu9itlxEj%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=011_Pattern_MappingWithE33LinguisticObject_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-uzAimbVP_8WtWTXZlU0qUGWu9itlxEj%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>For example, a museum could have recorded the birth of Jean Paul Riopelle with the following value:  "le septième jour du mois d'octobre 1923". Such a value could not be mapped as it is not compliant with XSD:Date format requirements. In order to nonetheless retain this information, an E33 Linguistic Object linked to an E52 Time-span can be created, as shown below: |
 
 <a name="012_Example_MappingWithE33LinguisticObjectRiopelleBirth_p"></a>012_Example_MappingWithE33LinguisticObjectRiopelleBirth_p
-<iframe frameborder="0" style="width:100%;height:528px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=012_Example_MappingWithE33LinguisticObjectRiopelleBirth_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rFvm7LSMkLQMMEDGHJ2pJtMpSC5zDVtP%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=012_Example_MappingWithE33LinguisticObjectRiopelleBirth_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rFvm7LSMkLQMMEDGHJ2pJtMpSC5zDVtP%26export%3Ddownload"></iframe>
 
 | Had the value been "07.10.1923", the dates could have been encoded properly using the XSD:DateTime format, as shown below: |
 
 <a name="013_Example_TimeSpanRiopelleBirth_p"></a>013_Example_TimeSpanRiopelleBirth_p
-<iframe frameborder="0" style="width:100%;height:528px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=013_Example_TimeSpanRiopelleBirth_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1x8Nml8JxDEPwpRsOBabsrlRov3yJhMOY%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=013_Example_TimeSpanRiopelleBirth_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1x8Nml8JxDEPwpRsOBabsrlRov3yJhMOY%26export%3Ddownload"></iframe>
 
 ## Data Provenance
 
@@ -142,7 +142,7 @@ A [Named Graph](https://en.wikipedia.org/wiki/Named_graph) is a set of RDF tripl
 From a modeling standpoint, such a collection of data would look like the following: 
 
 <a name="014_Pattern_NamedGraph_p"></a>014_Pattern_NamedGraph_p
-<iframe frameborder="0" style="width:100%;height:663px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
 
 
 Such Named Graphs can be expressed in various syntaxes such as [NQuads](https://www.w3.org/2009/07/NamedGraph.html#syntax-1), [TRiG](https://www.w3.org/2009/07/NamedGraph.html#syntax-1), or [JSON-LD](https://www.w3.org/TR/json-ld11/#named-graphs), although they cannot be represented in RDF/XML. They are often represented as additional instances to the usual triples (that thus become quads), but can also be represented at the beginning of an RDF file such as in the following example. 
@@ -196,7 +196,7 @@ As those aggregated contributors also document the provenance of their data, it 
 The easiest way to document such entries is to create an `E73 Information Object` “record” instance linked to the individual `E39 Actor` it documents through the `P67 refers to` property. This same `E73 Information Object` is linked to its record contributor (a different `E39 Actor`) and dated through an `E65 Creation` event.
 
 <a name="015_Pattern_RecordContributor_p"></a>015_Pattern_RecordContributor_p
-<iframe frameborder="0" style="width:100%;height:533px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=015_Pattern_RecordContributor_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rsYOVLMwU_nSctm1Ys_6UA1eCuYcEiT9%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=015_Pattern_RecordContributor_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rsYOVLMwU_nSctm1Ys_6UA1eCuYcEiT9%26export%3Ddownload"></iframe>
 
 
 | 🔎  *To Be Discussed* <br/><br/>Whether it would be useful to use the same pattern to document non-aggregating contributors, such as a cataloguer responsible for the documentation of a record in an institution, is under discussion and your input on this matter would be useful. CHIN wants to explore the legal and ethical concerns of displaying personal information of individuals and will examine those with relevant experts. In the meantime, such information will not be recorded.<br/> <br/>For more details on this, see <a href="https://github.com/chin-rcip/chin-rcip/issues/34">CHIN’s GitHub Issue #34</a>. | 
@@ -205,7 +205,7 @@ The easiest way to document such entries is to create an `E73 Information Object
 | 💡  Example: <br/><br/>In Artist in Canada, the record of Jean Paul Riopelle indicates that the information comes from the National Gallery of Canada and was created on 1985.03.13 and last modified on 2017.06.05.<br/><br/>As CHIN has not yet determined how to document updates of information (something that will be developed later on), the creation date currently stands for the last modified version of the record. |
 
 <a name="016_Example_ProvenanceNGCRiopelle_p"></a>016_Example_ProvenanceNGCRiopelle_p
-<iframe frameborder="0" style="width:100%;height:723px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=016_Example_ProvenanceNGCRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D139DPJgQlF_QXGeL7-4wKnjbYTfwyMJzT%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=016_Example_ProvenanceNGCRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D139DPJgQlF_QXGeL7-4wKnjbYTfwyMJzT%26export%3Ddownload"></iframe>
 
 | 🔎  *To Be Discussed*<br/><br/>The best way to manage updates to named graphs is still unclear to CHIN and is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
 
@@ -249,7 +249,7 @@ This `E52 Time-Span` can then be delimited (using the XSD Date standards) with t
 The diagram below illustrates the differences between these 4 properties (see the [CIDOC CRM documentation](http://www.cidoc-crm.org/guidelines-for-using-p82a-p82b-p81a-p81b) for more information about this):
 
 <a name="017_Pattern_E2TemporalEntities_p"></a>017_Pattern_E2TemporalEntities_p
-<iframe frameborder="0" style="width:100%;height:401px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=017_Pattern_E2TemporalEntities_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18Sra-NJR6bdhjLz5xUTFPDuz3Hdd7sNz%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=017_Pattern_E2TemporalEntities_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18Sra-NJR6bdhjLz5xUTFPDuz3Hdd7sNz%26export%3Ddownload"></iframe>
 
 Because the `P82a begin of the begin` and `P82b end of the end` properties are the most encompassing delimiters of the event, it is wiser to use them systematically and to use the properties `P81a end of the begin` and `P81b begin of the end` only when we have such precise information that is specified as such.
 
@@ -258,10 +258,10 @@ It is also possible to add qualifiers to dates with the properties `P79 beginnin
 The full date pattern is as follows: 
 
 <a name="018_Pattern_FullDate_p"></a>018_Pattern_FullDate_p
-<iframe frameborder="0" style="width:100%;height:503px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=018_Pattern_FullDate_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1wN6iq5Mdzg0UMX5N03HRacOlC_tqNLxf%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=018_Pattern_FullDate_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1wN6iq5Mdzg0UMX5N03HRacOlC_tqNLxf%26export%3Ddownload"></iframe>
 
 
 | 💡  Example:<br/><br/>Pénelope Solette produced a painting that was presented to the public on the 10th of January 1997. Art historians consider she has started producing the work in October of 1996. |
 
 <a name="019_Example_TimeSolette_p"></a>019_Example_TimeSolette_p
-<iframe frameborder="0" style="width:100%;height:673px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=019_Example_TimeSolette_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1aW8wIzkXA2ZYrdi2Pru5LQzbX2AiBshk%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=019_Example_TimeSolette_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1aW8wIzkXA2ZYrdi2Pru5LQzbX2AiBshk%26export%3Ddownload"></iframe>
