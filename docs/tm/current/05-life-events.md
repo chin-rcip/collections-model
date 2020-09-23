@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Life Events
@@ -70,7 +69,7 @@ Whilst actors have professional or artistic occupations, people also hold social
 [CIDOC CRM-Soc](http://www.cidoc-crm.org/crmsoc/) will have a class called “Phase” that may document such statuses, but it is still in development. In the meantime, the best way to model social statuses is to use an `E7 Activity` class carried out by the `E39 Actor` holding said status. 
 
 <a name="035_Pattern_SocialStatus_p"></a>035_Pattern_SocialStatus_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=035_Pattern_SocialStatus_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1lKwj0Jw_ggXprABA7UFszDHHtMW7RALq%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=035_Pattern_SocialStatus_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1lKwj0Jw_ggXprABA7UFszDHHtMW7RALq%26export%3Ddownload"></iframe>
 
 
 | 💡  Example: <br/><br/> Jean Paul Riopelle became, in 1969, officer of the Order of Canada and, in 1975, companion of the Order of Canada. |
@@ -88,7 +87,7 @@ The flourishing dates of an artist or maker are often an important piece of info
 The `E39 Actor` is a participant (modeled with the property `P11 has participant`) of this `E5 Event` and this same event is typed as a flourishing event. This event can of course be situated chronologically and geographically.
 
 <a name="037_Pattern_Flourishing_p"></a>037_Pattern_Flourishing_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=037_Pattern_Flourishing_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ip83XvCu8RkvZO6FIWrilHE1kREJbl6r%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=037_Pattern_Flourishing_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ip83XvCu8RkvZO6FIWrilHE1kREJbl6r%26export%3Ddownload"></iframe>
 
 | 💡  Example: <br/><br/> Cyril Henry Barraud, an English painter who participated in World War I as a war artist of the Canadian army is considered by Artists in Canada to have flourished between 1913 and 1915. |
 
@@ -162,7 +161,7 @@ Modeling the Birth and Death of an `E21 Person` looks like the following:
 Modeling the Formation and Dissolution of an `E74 Group` looks like the following: 
 
 <a name="042_Pattern_GroupFormationDissolution_p"></a>042_Pattern_GroupFormationDissolution_p
-<iframe frameborder="0" style="width:100%;height:800px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=042_Pattern_GroupFormationDissolution_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P7hRu-rR8y22b1OOxripnPIqsD4pP2BW%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=042_Pattern_GroupFormationDissolution_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1P7hRu-rR8y22b1OOxripnPIqsD4pP2BW%26export%3Ddownload"></iframe>
 
 
 | 💡  Example: <br/><br/>The Group of Seven was founded by Lawren Harris on the 7th of May 1920 in Toronto. |
@@ -240,7 +239,7 @@ This same `E22 Man-made Thing` real estate object is then located geographically
 | 🔎  *To Be Discussed*<br/><br/>Three properties in CIDOC CRM can be used to indicate the location of an <code>E22 Man Made Object</code> in an <code>E53 Place</code>: <br/><br/>1. <code>P53 has former or current location</code><br/>2. <code>P54 has current permanent location</code><br/>3. <code>P55 has current location</code><br/><br/>Which property is best to use is unclear considering <code>P54 has current permanent location</code> would be best for mobile objects, but CIDOC CRM rather uses <code>P53 has former or current location</code>. |
 
 <a name="049_Pattern_GroupRealEstateAcquisition_p"></a>049_Pattern_GroupRealEstateAcquisition_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=049_Pattern_GroupRealEstateAcquisition_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VyQYTvQvbRa6NmlbpaWBxdQmAUgLNRmM%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=049_Pattern_GroupRealEstateAcquisition_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VyQYTvQvbRa6NmlbpaWBxdQmAUgLNRmM%26export%3Ddownload"></iframe>
 
 
 | 🔎  *To Be Discussed*<br/><br/>The main downside of such a pattern is that we need to add a pattern for the loss of title of the real estate, which has not yet been modeled. |
@@ -254,7 +253,7 @@ This same `E22 Man-made Thing` real estate object is then located geographically
 | 🔀  Alternative (Proposed by George Bruseker) <br/><br/>George Bruseker proposed in one of the comments to create a new class, a CHIN:Establishing that would be the subclass of E7 Activity and E13 Attribute Assignment. A new property should also be created, CHIN:established, that would link the CHIN:Establishing event with the E53 Place. |
 
 <a name="051_Pattern_CHINEstablishing_p"></a>051_Pattern_CHINEstablishing_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=051_Pattern_CHINEstablishing_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uTkEnKU60_luEPvi6a5BL91NFFMpXhEb%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=051_Pattern_CHINEstablishing_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uTkEnKU60_luEPvi6a5BL91NFFMpXhEb%26export%3Ddownload"></iframe>
 
 | 🔎  *To Be Discussed*<br/><br/>The pros and cons of each approach are discussed and examined in <a href="https://github.com/chin-rcip/chin-rcip/issues/31">CHIN’s Github Issue #31</a>. |
 
@@ -266,7 +265,7 @@ Another way of modeling the locations where an `E39 Actor` went is to have a “
 In order to do so, an `E7 Activity` event is used and a “sojourn” type is assigned to it. This same  `E7 Activity` is then situated geographically and temporally.
 
 <a name="052_Pattern_Sojourn_p"></a>052_Pattern_Sojourn_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=052_Pattern_Sojourn_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14N5th3YJ8tDZgVLeoW3kGLba2y5Mpm84%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=052_Pattern_Sojourn_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14N5th3YJ8tDZgVLeoW3kGLba2y5Mpm84%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle moved to Paris in 1947 before coming back to Montreal in 1948 and going once again to Paris in December 1948: |
 
