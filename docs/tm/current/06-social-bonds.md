@@ -59,7 +59,7 @@ If the provider’s record documents an `E74 Group` and lists its members, then 
 | 💡  Example:<br/><br/>A. J. Casson, an artist, joined the Group of Seven in 1923 as a member and remained so until the group's dissolution in 1933. |
 
 <a name="060_Example_GroupBelongingGroup7_p"></a>060_Example_GroupBelongingGroup7_p
-<iframe frameborder="0" style="width:100%;height:648px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=060_Example_GroupBelongingGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17xazTJlfANMP0MeeYme_hDyyU5hNv_Cp%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=060_Example_GroupBelongingGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17xazTJlfANMP0MeeYme_hDyyU5hNv_Cp%26export%3Ddownload"></iframe>
 
 | 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether attending school should be modeled as being a member of the school or university’s group.<br/><br/>Likewise, being a member of any company or institution (such as a professor in a University) should also be modeled according to this pattern.<br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/11">CHIN’s Github Issue #11</a>. |
 

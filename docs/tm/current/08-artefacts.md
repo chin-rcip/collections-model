@@ -21,13 +21,11 @@ A single `E12 Production` event can be attached to an `E22 Man-made Object`, whi
 | 🔎  *To Be Discussed*<br/><br/>CHIN is still debating whether a field should be added to document creations made “in the style of” to account for visual influence with a pattern such as <code>"in the style of" > affiliation</code>. |
 
 <a name="070_Pattern_Production_p"></a>070_Pattern_Production_p
-
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=070_Pattern_Production_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1CBIaxjeW5CySxVQIx-1d7uZ52nA0Bj9O%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle produced the painting "Rue DeLorimier" at some point between 1938 and 1943. As the only maker of the work, he is the sole artist in terms of priority and occupies a "painter" role. |
 
 <a name="071_Example_ProductionRueDelorimier_p"></a>071_Example_ProductionRueDelorimier_p
-
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=071_Example_ProductionRueDelorimier_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1sJga3epp53BIis47FFLwGTQMw16RYivt%26export%3Ddownload"></iframe>
 
 ## Artefact (Before the Development of the Objects Facet)
@@ -49,11 +47,9 @@ Finally, the date of fabrication and the place of production are documented usin
 
 
 <a name="072_Pattern_Artefact_p"></a>072_Pattern_Artefact_p
-
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=072_Pattern_Artefact_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HOzruVJyvSI96F3Ilt0mbNz7bX9obV1K%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>"Rue DeLorimier" was painted by Jean Paul Riopelle and is in the Montreal Museum of Fine Arts' collection. The identification number assigned by the MMFA is 2004.139 and the one assigned by CHIN is CHIN_001. Its medium is "Painting". |
 
 <a name="073_Example_ArtefactRueDelorimier_p"></a>073_Example_ArtefactRueDelorimier_p
-
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=073_Example_ArtefactRueDelorimier_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1V0V1_hxMdS8hVhseVFdmEldhp5sb-Fvv%26export%3Ddownload"></iframe>
