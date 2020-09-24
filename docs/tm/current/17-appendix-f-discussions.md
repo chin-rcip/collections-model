@@ -122,12 +122,3 @@ permalink: /target-model/current/appendix-f-discussions
 | | Philippe Michon (09:17 4 Sept.): I agree, +stephen.h.hart@gmail.com we will have to review this pattern. |
 | | Stephen Hart (14:13 15 Nov.): The pattern has been corrected (I made a mistake by inverting “biography text” and “source”. The use of p106 and p148 for the sources can still be an option. |
 
-
-<!-- Footnotes themselves at the bottom. -->
-## Notes
-
-[^1]:
-     Note that the scope of the date of the assignment date does not refer to the time this assertion was thought to be true, but to the time it was made.
-
-[^2]:
-     On the interface, we could simply display the appellation that is used the most as the primary appellation.
