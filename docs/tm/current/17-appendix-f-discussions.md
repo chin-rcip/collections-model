@@ -17,7 +17,6 @@ permalink: /target-model/current/appendix-f-discussions
 * [Discussion: Nationality, Nationhood and Community With `E74 Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
 * [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)
 * [Discussion: Biography](#discussion-biography)
-* [Notes](#notes)
 
 
 ## Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
