@@ -29,11 +29,9 @@ permalink: /target-model/current/bibliography
 
 <a name="doerr-and-ore-2019c"></a>———, éd. 2019c. « E39 Actor ». In Definition of the CIDOC Conceptual Reference Model, 22. CIDOC CRM Documentations, 6.2.7. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf).
 
-<a name="doerr-and-ore-2019d"></a>———, éd. 2019d. « E74 Group ». In Definition of the CIDOC Conceptual Reference Model, 34‑35. CIDOC CRM Documentations, 6.2.7. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf).
+<a name="doerr-and-ore-2019d"></a>———, éd. 2019d. « P3 Has Note ». In Definition of the CIDOC Conceptual Reference Model, 48. CIDOC CRM Documentations, 6.2.7. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf).
 
-<a name="doerr-and-ore-2019e"></a>———, éd. 2019e. « P3 Has Note ». In Definition of the CIDOC Conceptual Reference Model, 48. CIDOC CRM Documentations, 6.2.7. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf).
-
-<a name="doerr-and-ore-2019f"></a>———, éd. 2019f. « P190 Has Symbolic Content ». In Definition of the CIDOC Conceptual Reference Model, 114. CIDOC CRM Documentations, 6.2.7. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf).
+<a name="doerr-and-ore-2019e"></a>———, éd. 2019e. « P190 Has Symbolic Content ». In Definition of the CIDOC Conceptual Reference Model, 114. CIDOC CRM Documentations, 6.2.7. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v6.2.7_Definition_esIP.pdf).
 
 <a name="linked-art-2019a"></a>linked.art. 2019a. « Linked Art ». Linked.Art. 10 décembre 2019. [https://github.com/linked-art/linked.art/issues](https://github.com/linked-art/linked.art/issues).
 
