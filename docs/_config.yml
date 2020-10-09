@@ -23,7 +23,7 @@ email: pch.RCIP-CHIN.pch@canada.ca
 description: >- # this means to ignore newlines until "baseurl:"
   All the documentation pertaining to the Collections Model developed by CHIN.
   Toute la documentation à propos du modèle Collections développé par le RCIP.
-baseurl: "/collections-model" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  chin-rcip
