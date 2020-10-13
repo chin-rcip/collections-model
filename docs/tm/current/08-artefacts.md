@@ -3,7 +3,7 @@ layout: page
 title: Artefacts
 permalink: /target-model/current/artefacts
 ---
-[Back to the Table of Contents](/target-model/current/information#table-of-contents)
+[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
 ## On This Page
 

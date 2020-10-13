@@ -3,7 +3,7 @@ layout: page
 title: Life Events
 permalink: /target-model/current/life-events
 ---
-[Back to the Table of Contents](/target-model/current/information#table-of-contents)
+[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
 ## On This Page
 
@@ -24,7 +24,7 @@ permalink: /target-model/current/life-events
 
 ## Technique Used
 
-The modelisation of the production of artefacts ([see section below](/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)) documents some information pertaining to the role of the actor as well as the technique used to produce the object.
+The modelisation of the production of artefacts ([see section below](/collections-model/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)) documents some information pertaining to the role of the actor as well as the technique used to produce the object.
 
 Because museums often document the techniques used by an actor by linking this information to said actor instead of linking it to the production of (an) artefact(s), an `E55 Type` has to be created in order to specify the technique and link it directly to the actor with the property `P2 has type`.
 
@@ -43,11 +43,11 @@ There is a difference between a technique used by an actor, and the activity or 
 
 ## Occupation
 
-As we have seen in the Technique section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
+As we have seen in the Technique section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/collections-model/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
 
 But an actor could also have an occupation that is not linked to any production event and there is a difference between the role of an actor during a production event and an occupation in life (a person could be the writer during the production of a book, but their main occupation could be painter).
 
-There is also a difference between an occupation, like being a musician (even without being employed) and employment as an individual part of an `E74 group` (for example a musician in an orchestra). Such employment is modeled following the group belonging pattern explained [below](/target-model/current/social-bonds#group-belonging).
+There is also a difference between an occupation, like being a musician (even without being employed) and employment as an individual part of an `E74 group` (for example a musician in an orchestra). Such employment is modeled following the group belonging pattern explained [below](/collections-model/target-model/current/social-bonds#group-belonging).
 
 In order to account for these intricacies, the occupation is modeled with the class `F51 Pursuit` (from the CIDOC CRM extension of [FRBR](https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records), [FRBRoo](http://www.cidoc-crm.org/frbroo/)) which is an event that is `P14 carried out by` the `E39 Actor`. This `F51 Pursuit` occupation is then typed to specify which kind of occupation it is (paintor, sculptor, artist, etc.).
 
@@ -116,10 +116,10 @@ The Birth/Death and Formation/Dissolution patterns are modeled following the sam
 
 The use of an `E67 Birth` event also enables linking to the biological mother of the `E39 Actor` with the property `P96 by mother`, and to their biological father with the property `P97 from father`. These two `E21 Person` only represent *biological* parents and any other type of parenthood (adoptive parents, etc.) should be rendered through relationships.
 
-For more details on this, please see [Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](/target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups).
+For more details on this, please see [Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](/collections-model/target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups).
 
 
-| 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether family relationships (including biological ties) should be modeled using the relationship pattern considering this would entail inconsistencies in the use of fields. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/16">CHIN’s Github Issue #16</a> as well as mentioned below when examining [Relationship patterns](/target-model/current/social-bonds#relationships). |
+| 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether family relationships (including biological ties) should be modeled using the relationship pattern considering this would entail inconsistencies in the use of fields. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/16">CHIN’s Github Issue #16</a> as well as mentioned below when examining [Relationship patterns](/collections-model/target-model/current/social-bonds#relationships). |
 
 
 Any `E39 Actor` can carry out `E66 Formation` and `E67 Dissolution` events so that an `E74 Group` can be responsible for the creation of another `E74 Group`. 
@@ -186,7 +186,7 @@ In order to record the locations of persons and groups, additional patterns are 
 2. Along with an `E8 Acquisition` event to record properties acquired by groups
 3. And `E7 Activity` patterns to model the sojourns of `E21 Person` and `E74 Group` in different locations.
 
-For more on this, please see [Appendix E: Moving Events](/target-model/current/appendix-e-moving-events#).
+For more on this, please see [Appendix E: Moving Events](/collections-model/target-model/current/appendix-e-moving-events#).
 
 
 | 🔎  *To Be Discussed* <br/><br/>The best way to render different group locations throughout time is still debated amongst CHIN. This issue is discussed in <a href=" https://github.com/chin-rcip/chin-rcip/issues/18">CHIN’s Github Issue #18</a>. <br/><br/>How to model the geographical presence of actors in general has not been determined either and is discussed in<a href="https://github.com/chin-rcip/chin-rcip/issues/31"> CHIN’s Github Issue #31</a>. |

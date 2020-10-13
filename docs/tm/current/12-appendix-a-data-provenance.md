@@ -3,13 +3,13 @@ layout: page
 title: Appendix A - Data Provenance
 permalink: /target-model/current/appendix-a-data-provenance
 ---
-[Back to the Table of Contents](/target-model/current/information#table-of-contents)
+[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
 ## On This Page
 
 * [Data Provenance](#)
 
-As stated in the [Provenance of the Dataset](/target-model/current/general-concepts#data-provenance) section, one way of establishing data provenance would be to use the `E13 Attribute Assignment` event pattern described below and assign it to each triple so that their provenance can be documented. However, this would make the model in general much heavier as each triple would be assigned this pattern. From a processing standpoint this would become increasingly burdensome as the amount of data grows, which is why the Named Graph approach described in the Provenance of the Dataset section has been adopted. 
+As stated in the [Provenance of the Dataset](/collections-model/target-model/current/general-concepts#data-provenance) section, one way of establishing data provenance would be to use the `E13 Attribute Assignment` event pattern described below and assign it to each triple so that their provenance can be documented. However, this would make the model in general much heavier as each triple would be assigned this pattern. From a processing standpoint this would become increasingly burdensome as the amount of data grows, which is why the Named Graph approach described in the Provenance of the Dataset section has been adopted. 
 
 The `E13 Attribute Assignment` class represents the action of making assertions about the properties or relations between two items or concepts, as stated in the [CIDOC CRM Scope note](http://www.cidoc-crm.org/Entity/e13-attribute-assignment/version-6.2.2).
 

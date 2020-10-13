@@ -3,7 +3,7 @@ layout: page
 title: Descriptive Information
 permalink: /target-model/current/descriptive-information
 ---
-[Back to the Table of Contents](/target-model/current/information#table-of-contents)
+[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
 ## On This Page
 
@@ -13,11 +13,11 @@ permalink: /target-model/current/descriptive-information
 
 ## Biography
 
-CIDOC CRM dictates that textual information should be rendered with the class `E33 Linguistic Object`. The biography of an actor written by a museum staff member would enter in that category. Linking the `E39 Actor` to his biography requires the use of the `P67 refers to` property, thus indicating that the biography refers to the actor. As seen [above](/target-model/current/general-concepts#literal-content), the content of the biography is documented in a string of text linked to the `E33 Linguistic Object` through the property `P190 has symbolic content`.
+CIDOC CRM dictates that textual information should be rendered with the class `E33 Linguistic Object`. The biography of an actor written by a museum staff member would enter in that category. Linking the `E39 Actor` to his biography requires the use of the `P67 refers to` property, thus indicating that the biography refers to the actor. As seen [above](/collections-model/target-model/current/general-concepts#literal-content), the content of the biography is documented in a string of text linked to the `E33 Linguistic Object` through the property `P190 has symbolic content`.
 
 The author of the biography, most often a museum staff worker, relies on other sources of information when researching the life of the actor; said information and its sources should thus also be documented. The simplest and most semantically correct way to render such a citation is to use the Dublin Core property `dct:source` to quote the bibliographic citation as a string of text.
 
-For more details on this, please see [Appendix F: Discussions, Biography.](/target-model/current/appendix-f-discussions#discussion-biography)
+For more details on this, please see [Appendix F: Discussions, Biography.](/collections-model/target-model/current/appendix-f-discussions#discussion-biography)
 
 <a name="061_Pattern_Biography_p"></a>061_Pattern_Biography_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=061_Pattern_Biography_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1MW5F9Ybl02W4uyN20cxWln3J_rKuLb6x%26export%3Ddownload"></iframe>

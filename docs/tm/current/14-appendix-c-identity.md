@@ -3,7 +3,7 @@ layout: page
 title: Appendix C - Identity 
 permalink: /target-model/current/appendix-c-identity
 ---
-[Back to the Table of Contents](/target-model/current/information#table-of-contents)
+[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
 ## On This Page
 
@@ -11,7 +11,7 @@ permalink: /target-model/current/appendix-c-identity
 * [With Bio CRM](#with-bio-crm)
 * [With `ore:Aggregation`](#with-oreaggregation)
 
-As stated in the [Identity Patterns section](/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
+As stated in the [Identity Patterns section](/collections-model/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
 
 
 ## With `E5 Event`

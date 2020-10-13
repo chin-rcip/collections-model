@@ -3,7 +3,7 @@ layout: page
 title: Appendix B - Appellations
 permalink: /target-model/current/appendix-b-appellations
 ---
-[Back to the Table of Contents](/target-model/current/information#table-of-contents)
+[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
 ## On This Page
 
@@ -75,7 +75,7 @@ The second possibility, suggested by the [linked.art project](https://linked.art
 
 This second option makes it easier to query names, but it has the following problem: just as with the first option it was impossible to reassemble different parts, here it is complicated to correctly divide full appellations; finding a standard way of doing so is problematic and will likely lead to many errors.
 
-As mentioned [above](/target-model/current/identification#identifiers-and-appellations), the best solution to represent the both the language and the preference whilst still rendering partitioning is to instantiate the `E39 Actor` with both an `E41 Appellation` and an `E33 Linguistic Object`.
+As mentioned [above](/collections-model/target-model/current/identification#identifiers-and-appellations), the best solution to represent the both the language and the preference whilst still rendering partitioning is to instantiate the `E39 Actor` with both an `E41 Appellation` and an `E33 Linguistic Object`.
 
 ---
 <b id="f2">2</b> On the interface, we could simply display the appellation that is used the most as the primary appellation.[↩](#a2)
