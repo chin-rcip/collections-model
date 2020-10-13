@@ -33,7 +33,7 @@ However, a property-based ontology entails the modification of the Target Model 
 
 Two unofficial extensions of CIDOC CRM can handle the relationships between `E39 Actors`: bio CRM and a separate module of CIDOC CRM devoted to properties of properties.
 
-These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see [Birth](/collections-model/target-model/current/life-events#birth/death-of-people-and-formation/dissolution-of-groups)), that to a group (see [Group Belonging](/collections-model/target-model/current/life-events#group-belonging)) and other relationships described below.
+These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see [Birth](/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)), that to a group (see [Group Belonging](/collections-model/target-model/current/life-events#group-belonging)) and other relationships described below.
 
 Bio CRM links `bioc:Actor` (a subclass of `E39 Actor`) to a relationship `bioc:Event` (a subclass of `E39 Event`) and specifies the role of the `bioc:Actor` in the relationship through `bioc:Actor_Role` (a direct subclass of `E1 CRM Entity`) in conjunction with `E55 Type`. By using `E55 Type` with a controlled vocabulary it is possible to represent multiple relationship types without changing the model.
 
