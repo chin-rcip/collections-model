@@ -3,7 +3,7 @@ layout: page
 title: Licensing Documentation
 permalink: /licensing-documentation/
 ---
-[Version française](##normes-de-licenciation)
+[Version française](#normes-de-licenciation)
 
 # Licensing Framework
 
@@ -15,8 +15,8 @@ To foster customization, extension, and distribution of its content, CHIN takes 
 - Compatibility: alignment of the licenses applied to different content. 
 
 For more information on choosing a license, the following resources can be useful: 
-- Choosing an Open License: https://choosealicense.com/
-- Legal implications of Open Licensing:  https://opensource.guide/legal/
+- Choosing an Open License: [https://choosealicense.com/](https://choosealicense.com/)
+- Legal implications of Open Licensing: [https://opensource.guide/legal/](https://opensource.guide/legal/)
 
 ## Documentation Licensing: CC0
 
@@ -38,11 +38,13 @@ Although it is not obligatory, CHIN also recommends such disclosures to be made 
 
 ## References
 Creative Commons. 2020. ‘CC0’. *Creative Commons* (blog). 25 May 2020. https://creativecommons.org/share-your-work/public-domain/cc0/.
-Github. 2020a. ‘Choose an Open Source License’. Choose a License. 25 May 2020. https://choosealicense.com/.
-———. 2020b. ‘The Legal Side of Open Source’. Open Source Guides. 25 May 2020. https://opensource.guide/legal/.
-Legislative Services Branch. 2020. *Copyright Act (R.S.C., 1985, c. C-42)*. R.S.C., 1985, c. C-42. Vol. C–42. https://laws-lois.justice.gc.ca/eng/acts/c-42/page-9.html.
-Massachusetts Institute of Technology. ‘MIT License’. Open Source Initiative, 28 May 2020. https://opensource.org/licenses/MIT.
+Github. 2020a. ‘Choose an Open Source License’. Choose a License. 25 May 2020. [https://choosealicense.com/](https://choosealicense.com/).
 
+———. 2020b. ‘The Legal Side of Open Source’. Open Source Guides. 25 May 2020. [https://opensource.guide/legal/](https://opensource.guide/legal/).
+
+Legislative Services Branch. 2020. *Copyright Act (R.S.C., 1985, c. C-42)*. R.S.C., 1985, c. C-42. Vol. C–42. [https://laws-lois.justice.gc.ca/eng/acts/c-42/page-9.html](https://laws-lois.justice.gc.ca/eng/acts/c-42/page-9.html).
+
+Massachusetts Institute of Technology. ‘MIT License’. Open Source Initiative, 28 May 2020. [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 # Normes de licenciation
 
@@ -54,8 +56,8 @@ Afin d’encourager l’adaptation, l’enrichissement et le rayonnement de son 
 - Compatibilité : correspondance des licences s’appliquant à différents contenus. 
 
 Pour obtenir plus d’information sur la sélection d’une licence les ressources suivantes sont pertinentes : 
-- choix d’une licence ouverte : https://choosealicense.com/ (anglais seulement);
-- répercussions légales des licences ouvertes : https://opensource.guide/fr/legal/.  
+- choix d’une licence ouverte : [https://choosealicense.com/](https://choosealicense.com/) (anglais seulement);
+- répercussions légales des licences ouvertes : [https://opensource.guide/fr/legal/](https://opensource.guide/fr/legal/).  
 
 
 ## Licenciation de la documentation : CC0
@@ -78,9 +80,12 @@ Le RCIP recommande que tout contenu original, y compris le sien, fasse l’objet
 
 ## Références
 Creative Commons. 2020. « CC0 ». *Creative Commons* (blog). 25 mai 2020. https://creativecommons.org/share-your-work/public-domain/cc0/.
-Github. 2020a. « Choose an Open Source License ». Choose a License. 25 mai 2020. https://choosealicense.com/.
-———. 2020b. « The Legal Side of Open Source ». Open Source Guides. 25 mai 2020. https://opensource.guide/legal/.
-Massachussetts Institute of Technology. 2020. « MIT License ». Open Source Initiative. 28 mai 2020. https://opensource.org/licenses/MIT.
-Ministère de la Justice. 2020. *Loi sur le droit d’auteur (R.S.C., 1985, c. C-42)*. R.S.C., 1985, c. C-42. Vol. C‑42. https://laws-lois.justice.gc.ca/fra/lois/c-42/page-9.html.
+Github. 2020a. « Choose an Open Source License ». Choose a License. 25 mai 2020. [https://choosealicense.com/](https://choosealicense.com/).
+
+———. 2020b. « The Legal Side of Open Source ». Open Source Guides. 25 mai 2020. [https://opensource.guide/legal/](https://opensource.guide/legal/).
+
+Massachussetts Institute of Technology. 2020. « MIT License ». Open Source Initiative. 28 mai 2020. [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
+
+Ministère de la Justice. 2020. *Loi sur le droit d’auteur (R.S.C., 1985, c. C-42)*. R.S.C., 1985, c. C-42. Vol. C‑42. [https://laws-lois.justice.gc.ca/fra/lois/c-42/page-9.html](https://laws-lois.justice.gc.ca/fra/lois/c-42/page-9.html).
 
 
