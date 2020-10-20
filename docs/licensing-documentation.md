@@ -5,7 +5,7 @@ permalink: /licensing-documentation/
 ---
 [Version française](#normes-de-licenciation)
 
-# Licensing Framework
+## Licensing Framework
 
 In keeping with its mandate to offer open and accessible services to the public and in line with open data principles, CHIN relies on open source tools and standards as much as possible and makes sure to render its own content open. This contributes to a reduction of the burden of maintenance, harmonisation, and cross-documentation for the heritage community whilst also increasing the re-usability and visibility of data. Although this is not mandatory, CHIN recommends the use of licenses equivalent to its own whenever possible. 
 
@@ -18,7 +18,7 @@ For more information on choosing a license, the following resources can be usefu
 - Choosing an Open License: [https://choosealicense.com/](https://choosealicense.com/)
 - Legal implications of Open Licensing: [https://opensource.guide/legal/](https://opensource.guide/legal/)
 
-## Documentation Licensing: CC0
+### Documentation Licensing: CC0
 
 CHIN releases and updates technical documentation pertaining to its Collections model on a regular basis in order to explain its information infrastructure and to ensure the correct use of its tools. This documentation pertains to scope, design and specifications, as well as testing procedures and methodologies and includes diagrams and illustrations. 
 
@@ -36,7 +36,7 @@ Quoted elements remain righted and, as such, CHIN asks that users disclose, ackn
 - Making the rights status of the data used clear by linking directly to it or by making it available in a joined document, or referring to the information using a quotation.
 Although it is not obligatory, CHIN also recommends such disclosures to be made about any original content, including its own. In addition, considerate use of the data, by not misrepresenting data or its owners and by adequately contextualizing them and referencing them, is also requested. 
 
-## References
+### References
 Creative Commons. 2020. ‘CC0’. *Creative Commons* (blog). 25 May 2020. https://creativecommons.org/share-your-work/public-domain/cc0/.
 Github. 2020a. ‘Choose an Open Source License’. Choose a License. 25 May 2020. [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -46,7 +46,7 @@ Legislative Services Branch. 2020. *Copyright Act (R.S.C., 1985, c. C-42)*. R.S.
 
 Massachusetts Institute of Technology. ‘MIT License’. Open Source Initiative, 28 May 2020. [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
-# Normes de licenciation
+## Normes de licenciation
 
 Conformément à son mandat d’offrir des services ouverts et accessibles au public selon les principes des données ouvertes, le Réseau canadien d’information sur le patrimoine (RCIP) a recours autant que possible à des outils et à des normes dont le contenu et le code source sont ouverts et veille à ce qu’il en soit de même pour ses propres contributions. Pour la communauté du patrimoine, ces mesures contribuent à la réduction du fardeau lié à l’entretien, à la documentation croisée et à l’harmonisation des documents en plus d’améliorer la réutilisabilité et la visibilité des données. Le RCIP recommande donc l’utilisation de licences équivalentes aux siennes lorsque c’est possible.
 
@@ -60,7 +60,7 @@ Pour obtenir plus d’information sur la sélection d’une licence les ressourc
 - répercussions légales des licences ouvertes : [https://opensource.guide/fr/legal/](https://opensource.guide/fr/legal/).  
 
 
-## Licenciation de la documentation : CC0
+### Licenciation de la documentation : CC0
 
 Le RCIP publie et met à jour régulièrement des documents techniques sur son modèle Collections afin d’en expliquer l’infrastructure et de s’assurer de l’utilisation correcte de ses outils. La documentation, qui comprend des schémas et des illustrations, traite dela portée, de la conception et des caractéristiques du modèle ainsi que des méthodologies et des procédures d’essai qui l’accompagnent. 
 
@@ -78,7 +78,7 @@ Les éléments cités continuent cependant de faire l’objet de droits d’aute
 - la mention claire des droits liés aux données utilisées par l’ajout de liens directs vers la mention légale qui les accompagne, l’ajout d’une mention légale en pièce jointe ou la présentation de l’information requise entre guillemets.
 Le RCIP recommande que tout contenu original, y compris le sien, fasse l’objet de telles mentions et demande aux utilisateurs d’employer les données de façon responsable; c’est-à-dire d’éviter la fausse représentation des données ou de leurs propriétaires, de les contextualiser adéquatement et d’en faire mention lorsque c’est approprié.
 
-## Références
+### Références
 Creative Commons. 2020. « CC0 ». *Creative Commons* (blog). 25 mai 2020. https://creativecommons.org/share-your-work/public-domain/cc0/.
 Github. 2020a. « Choose an Open Source License ». Choose a License. 25 mai 2020. [https://choosealicense.com/](https://choosealicense.com/).
 
