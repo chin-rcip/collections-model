@@ -47,7 +47,7 @@ Distinguishing the URI of the `D1 Digital Object` from the URL of the digital im
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=064_Pattern_VisualItemImageUrl_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pENxJQXA721axvoY4jCV8vMY8-8XsQpR%26export%3Ddownload"></iframe>
 
 
-| 💡  Example: <br/><br/> The digital scan of Louis the XIV of France by Hyacinthe Rigaud would be available on Wikimedia Commons at the following URL: https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg ![Digital scan of Louis the XIV of France](https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg){:height="300px" width="200px"} |
+| 💡  Example: <br/><br/> The digital scan of Louis the XIV of France by Hyacinthe Rigaud would be available on Wikimedia Commons at the following URL: [https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg) ![Digital scan of Louis the XIV of France](https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg){:height="300px" width="200px"} |
 
 
 <a name="065_Example_VisualItemLouisxiv_p"></a>065_Example_VisualItemLouisxiv_p
@@ -60,7 +60,7 @@ Besides `E36 Visual Item`, other kinds of more symbolic visual items such as sig
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=066_Pattern_Mark_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1GzXllA_LfM1Y8RbrHkr7hkmS6_sQB3JC%26export%3Ddownload"></iframe>
 
 
-| 💡  Example: <br/><br/> Wikimedia Commons has digital representation of the signature of Michel de Montaigne available at the following URL: https://upload.wikimedia.org/wikipedia/commons/6/6d/Unterschrift_des_Michel_de_Montaigne.png ![Digital representation of the signature of Michel de Montaigne](https://upload.wikimedia.org/wikipedia/commons/6/6d/Unterschrift_des_Michel_de_Montaigne.png){:height="96px" width="223px"} |
+| 💡  Example: <br/><br/> Wikimedia Commons has digital representation of the signature of Michel de Montaigne available at the following URL: [https://upload.wikimedia.org/wikipedia/commons/6/6d/Unterschrift_des_Michel_de_Montaigne.png](https://upload.wikimedia.org/wikipedia/commons/6/6d/Unterschrift_des_Michel_de_Montaigne.png) ![Digital representation of the signature of Michel de Montaigne](https://upload.wikimedia.org/wikipedia/commons/6/6d/Unterschrift_des_Michel_de_Montaigne.png){:height="96px" width="223px"} |
 
 <a name="067_Example_MarkMontaigne_p"></a>067_Example_MarkMontaigne_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=067_Example_MarkMontaigne_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ZKzgqArC_GtzobCoN2_opNVGETAr-N9Q%26export%3Ddownload"></iframe>
