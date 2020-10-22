@@ -53,3 +53,6 @@ Finally, the date of fabrication and the place of production are documented usin
 
 <a name="073_Example_ArtefactRueDelorimier_p"></a>073_Example_ArtefactRueDelorimier_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=073_Example_ArtefactRueDelorimier_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1V0V1_hxMdS8hVhseVFdmEldhp5sb-Fvv%26export%3Ddownload"></iframe>
+
+
+> Previous: [Descriptive Information](/collections-model/target-model/current/descriptive-information)<br>Next: [Archival Document Location](/collections-model/target-model/current/archival-document-location)

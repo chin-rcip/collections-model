@@ -74,3 +74,5 @@ The property of properties module of CIDOC CRM follows the same logic as bio CRM
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=091_Pattern_RelationshipPc14_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1X32X1W_q8AzrAk0yes9Gh7XL87CNo4NH%26export%3Ddownload"></iframe>
 
 CHIN has thus elected to use the Property of property module as it is consistent with the rest of the model, adequately represent every relationship in compliant patterns (parenthood, group membership, etc.), and is more sustainable considering it is widely used by the community and well documented.
+
+> Previous:[Appendix C](/collections-model/target-model/current/appendix-c-identity)<br>Next: [Appendix E](/collections-model/target-model/current/appendix-e-moving-events)

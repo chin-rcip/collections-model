@@ -79,3 +79,5 @@ As mentioned [above](/collections-model/target-model/current/identification#iden
 
 ---
 <b id="f2">2</b> On the interface, we could simply display the appellation that is used the most as the primary appellation.[↩](#a2)
+
+> Previous: [Appendix A](/collections-model/target-model/current/appendix-a-data-provenance)<br>Next: [Appendix C](/collections-model/target-model/current/appendix-c-identity)

@@ -74,3 +74,5 @@ This documents the Actors Target Model, which is intended to model the Actors Fa
 <a name="_Actors2.0"></a>Target Model 1.5 Diagram
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://app.diagrams.net/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=_Actors2.0.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DbJDxz4p_R1VbLYgzzPbQ6YLNW6R0ArI%26export%3Ddownload"></iframe>
 
+
+> Next: [Introduction](/collections-model/target-model/current/introduction)

@@ -39,3 +39,6 @@ If multiple and contradictory statements are made about a resource, various and 
 
 ---
 <b id="f1">1</b> Note that the scope of the date of the assignment date does not refer to the time this assertion was thought to be true, but to the time it was made.[↩](#a1)
+
+
+> Previous: [Bibliography](/collections-model/target-model/current/bibliography)<br>Next: [Appendix B](/collections-model/target-model/current/appendix-b-appellations)

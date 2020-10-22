@@ -292,3 +292,5 @@ At the moment (version 2.1 of the TM), we do not have a pattern to render influe
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=055_Pattern_Influences_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KNO27qQ2axy07E1sO5H3AV45y1QLnFPx%26export%3Ddownload"></iframe>
 
 | The problem with this pattern is that it cannot render anything other than the fact that someone is <em>influenced by</em> something. If we want to model that someone <em>influenced something</em> for example, another pattern would have to be developed.<br/><br/>The necessity and relevance of using such a pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/33">CHIN’s Github Issue #33</a>. |
+
+> Previous: [Identification](/collections-model/target-model/current/identification)<br>Next: [Social Bonds](/collections-model/target-model/current/social-bonds)

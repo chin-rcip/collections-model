@@ -121,3 +121,4 @@ permalink: /target-model/current/appendix-f-discussions
 | | Philippe Michon (09:17 4 Sept.): I agree, +stephen.h.hart@gmail.com we will have to review this pattern. |
 | | Stephen Hart (14:13 15 Nov.): The pattern has been corrected (I made a mistake by inverting “biography text” and “source”. The use of p106 and p148 for the sources can still be an option. |
 
+> Previous: [Appendix E](/collections-model/target-model/current/appendix-e-moving-events)

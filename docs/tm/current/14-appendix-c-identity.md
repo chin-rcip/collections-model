@@ -50,3 +50,5 @@ This ontology would therefore be appropriate to render the complexity of gender 
 | --- | --- |
 || George Bruseker (18:11 16 Jul): This seems like a very technical solution that provides semantics that are inconsistent with the rest of CRM. <br/><br/> George Bruseker (18:13 16 Jul): I would suggest that if you need to tackle this topic in the future that there is a strong argument for a new event class for ‘identification’ of some sort. There are of course a lot of potential debates in this area and some dangerous territory around nature or nurture. That being said there is an element of declarativeness about gender, regardless of its biological status. It is something that people state (otherwise we could not know). If this argument holds water then one could track statements of identification in order to see how gender/sexuality evolves for individuals over time. |
 
+
+> Previous: [Appendix B](/collections-model/target-model/current/appendix-b-appellations)<br>Next: [Appendix D](/collections-model/target-model/current/appendix-d-relationships)

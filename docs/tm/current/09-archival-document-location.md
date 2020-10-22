@@ -23,3 +23,6 @@ Note that there is a distinction between the physical location of an institution
 
 <a name="084_Pattern_IdentityWithOreAggregation_p"></a>084_Pattern_IdentityWithOreAggregation_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=075_Example_DocumentLocationRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1xyt3QFP1G0blmWAjTEzOcI8NubU66AqG%26export%3Ddownload"></iframe>
+
+
+> Previous: [Artefacts](/collections-model/target-model/current/artefacts)<br>Next: [Legal Aspects (Rights)](/collections-model/target-model/current/legal-aspects-rights)

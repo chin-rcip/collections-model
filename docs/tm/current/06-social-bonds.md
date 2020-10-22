@@ -66,3 +66,4 @@ If the provider’s record documents an `E74 Group` and lists its members, then 
 
 | 🔎  *To Be Discussed* <br/><br/>Museums sometimes document groups by recording their members in a list. As such, they do not document which actors joined and left the group, and when. In such cases, a pattern such as <code>&lt;Group A> CHIN:hasMember &lt;Actor B></code> might be preferable in order to account for joining and leaving events of Actor B. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/15">CHIN’s Github Issue #15</a>. |
 
+> Previous: [Life Events](/collections-model/target-model/current/life-events)<br>Next: [Descriptive Information](/collections-model/target-model/current/descriptive-information)

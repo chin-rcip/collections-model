@@ -80,3 +80,6 @@ Most museums have a “remark” field linked to the actors and objects  they do
 
 <a name="069_Example_CuratorialNoteRiopelle_p"></a>069_Example_CuratorialNoteRiopelle_p
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=069_Example_CuratorialNoteRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1h86daQriZxfUhn7dnddrCUD-JI3P6-pZ%26export%3Ddownload"></iframe>
+
+
+> Previous: [Social Bonds](/collections-model/target-model/current/social-bonds)<br>Next: [Artefacts](/collections-model/target-model/current/artefacts)

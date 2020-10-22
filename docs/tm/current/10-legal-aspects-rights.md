@@ -18,3 +18,6 @@ Rights management can become very demanding in terms of resources. CHIN has thus
 
 
 Creative Commons [(Creative Commons 2020)](/collections-model/target-model/current/bibliography#creative-commons-2020) and Rights Statements [(Rights Statements 2020)](/collections-model/target-model/current/bibliography#rights-statements-2020) have their own URIs that can be implemented. The only issue is that these licenses are written solely in English, which is a problem considering CHIN’s bilingual obligations as a governmental agency.
+
+
+> Previous: [Archival Document Location](/collections-model/target-model/current/archival-document-location)<br>Next: [Bibliography](/collections-model/target-model/current/bibliography)

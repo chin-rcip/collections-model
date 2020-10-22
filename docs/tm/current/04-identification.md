@@ -190,3 +190,6 @@ The Group Type is an `E55 Type` linked to an `E74 Group` with the property `P2 h
 
 <a name="030_Example_GroupTypeGroup7_p"></a>030_Example_GroupTypeGroup7_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=030_Example_GroupTypeGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1udaOnfqEnDQ-hPQpFcg5v-Sb1UQoDNAX%26export%3Ddownload"></iframe>
+
+
+> Previous: [General Concepts](/collections-model/target-model/current/general-concepts)<br>Next: [Life Events](/collections-model/target-model/current/life-events)
