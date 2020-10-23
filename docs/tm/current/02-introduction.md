@@ -75,9 +75,9 @@ Even though CHIN intends to develop a model that will account for both Objects a
 
 For the purposes of this model, an actor encompasses any individual or group who took part in the creation of or is related to artefacts collected by museums. This includes creators (artists, artisans, manufacturers, groups of artists, etc.) as well as other important actors such as owners, patrons, persons depicted, etc. (please note that although all such profiles will be accounted for, only data that is compliant with privacy and legal legislation as well as the data provider’s wishes will be published). 
 
-CHIN has elected to develop Actors first as it is a smaller ensemble to modelise and because relationships are likely to be amongst the most complex parts of the final model so that tackling these first will give a good overview of the challenges to come. 
+CHIN has elected to develop a semantic model for Actors first as it is a smaller ensemble of data to model and also because the social relationships are likely to be amongst the most semantically complex parts of the final model. In addressing these first, CHIN will build experience and gain a good overview of the challenges to come. 
 
-Because this Actors Facet will be a small but determining aspect of the Collections model in general, it has been developed accordingly and the choice of an ontology has been reliant on three key factors that take the whole model into consideration:
+Because this Actors Facet will be a small but determining aspect of the Collections model (which will also include an Objects facet) in general, it has been developed accordingly and the choice of an ontology has been reliant on three key factors that take the whole model into consideration:
 
 1. Adoption by the heritage semantic community in order to foster interoperability; 
 2. Richness and sustainability of the ontology; 
@@ -85,7 +85,7 @@ Because this Actors Facet will be a small but determining aspect of the Collecti
 
 In this context, CHIN elected to work with the [CIDOC CRM ontology](http://www.cidoc-crm.org/versions-of-the-cidoc-crm). Because it has been developed by the [International Council of Museums](https://icom.museum/en/) (ICOM) for museums and with their needs in mind, it is by far the most used within this field. For this reason and because it is under ICOM’s custody through the special interest group dedicated to it ([CIDOC Conceptual Reference Model Special Interest Group, CRM SIG](http://network.icom.museum/cidoc/working-groups/crm-special-interest-group/)), CIDOC CRM also appears to be a sustainable choice. It is regularly updated and adapted to the needs of said community, thus offering a rich and precise framework to work with. Finally, as an event-based ontology, it is suited to adequately represent both Actors and Objects by linking instances (people, objects, etc.) together through events that can be situated in time and space. 
 
-Relationships are amongst the most difficult events to represent in CIDOC CRM as their complexity renders many patterns suitable to represent a single event. As such, treating the Actors Facet first seems to be preferable considering the Objects Facet will be more in line with what CIDOC CRM is usually utilised for: representing data pertaining to heritage or historical objects. 
+The complex variety of human activity documented in relation to actors is a significant challenge to represent accurately and semantically. For instance, social relationships are amongst the most difficult events to represent in CIDOC CRM as their complexity renders many patterns suitable to represent a single event. While the event modelling of CIDOC CRM provides the means in principle to represent such information, in practice the modelling developed there has a strong focus on the history of objects through time. As such, treating the Actors Facet first seems to be preferable considering the Objects Facet will be more in line with what CIDOC CRM is usually utilised for: representing data pertaining to heritage or historical objects. 
 
 More information about CIDOC CRM can be found on their [website](http://www.cidoc-crm.org/).
 
