@@ -129,10 +129,10 @@ The main challenge when it comes to the death of a person is accounting for the 
 There are two ways to model such information: 
 
 
-*   with an `E24 Physical Man-Made Thing` representing the grave; 
+*   with an `E24 Physical Human-Made Thing` representing the grave; 
 *   through a move of the `E21 Person` to his grave place after his death.
 
-The main challenge with creating an `E24 Physical Man-Made Thing` to represent the grave is to link this `E24 Physical Man-Made Thing` with the `E21 Person` as there is no simple way to do so.
+The main challenge with creating an `E24 Physical Human-Made Thing` to represent the grave is to link this `E24 Physical Human-Made Thing` with the `E21 Person` as there is no simple way to do so.
 
 Representing the post-death move of the `E21 Person` to their grave through an `E9 Move` event is easier to model, but it is conceptually problematic as a dead person is no longer an `E21 Person` capable of carrying out activities such as moving. The logic of CIDOC CRM dictates the creation of a new `E20 Biological Object` to replace the `E21 Person`, but that considerably and unnecessarily complicates the model. 
 
@@ -231,12 +231,12 @@ Because of that, `E74 Groups` cannot be participating in an `E9 Move` event. How
 
 Such an `E8 Acquisition` pattern can therefore be used to document the location of an `E74 Group` and its growth through time.
 
-In this pattern, the location where the `E74 Group` is established is considered to be real estate and, as such, is an `E22 Man-made Thing`. This real estate object is acquired by the `E74 Group` through an `E8 Acquisition` event (and the two properties `P22 transferred title to` and `P24 transferred title of`). 
+In this pattern, the location where the `E74 Group` is established is considered to be real estate and, as such, is an `E22 Human-made Thing`. This real estate object is acquired by the `E74 Group` through an `E8 Acquisition` event (and the two properties `P22 transferred title to` and `P24 transferred title of`). 
 
-This same `E22 Man-made Thing` real estate object is then located geographically with the property `P54 has current permanent location` and the class `E53 Place`. This property does not document when this real estate has been constructed and is an information that is beyond the scope of what CHIN will modelise as part of its Actors or Collections models.
+This same `E22 Human-made Thing` real estate object is then located geographically with the property `P54 has current permanent location` and the class `E53 Place`. This property does not document when this real estate has been constructed and is an information that is beyond the scope of what CHIN will modelise as part of its Actors or Collections models.
 
 
-| 🔎  *To Be Discussed*<br/><br/>Three properties in CIDOC CRM can be used to indicate the location of an <code>E22 Man Made Object</code> in an <code>E53 Place</code>: <br/><br/>1. <code>P53 has former or current location</code><br/>2. <code>P54 has current permanent location</code><br/>3. <code>P55 has current location</code><br/><br/>Which property is best to use is unclear considering <code>P54 has current permanent location</code> would be best for mobile objects, but CIDOC CRM rather uses <code>P53 has former or current location</code>. |
+| 🔎  *To Be Discussed*<br/><br/>Three properties in CIDOC CRM can be used to indicate the location of an <code>E22 Human Made Object</code> in an <code>E53 Place</code>: <br/><br/>1. <code>P53 has former or current location</code><br/>2. <code>P54 has current permanent location</code><br/>3. <code>P55 has current location</code><br/><br/>Which property is best to use is unclear considering <code>P54 has current permanent location</code> would be best for mobile objects, but CIDOC CRM rather uses <code>P53 has former or current location</code>. |
 
 <a name="049_Pattern_GroupRealEstateAcquisition_p"></a>049_Pattern_GroupRealEstateAcquisition_p
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=049_Pattern_GroupRealEstateAcquisition_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VyQYTvQvbRa6NmlbpaWBxdQmAUgLNRmM%26export%3Ddownload"></iframe>

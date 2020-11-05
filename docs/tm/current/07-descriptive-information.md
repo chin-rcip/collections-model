@@ -33,13 +33,13 @@ For more details on this, please see [Appendix F: Discussions, Biography.](/coll
 
 Actors are often depicted on images or photos and it is important to link those images to actors, not only to give a visual representation of them but also to identify people and groups represented on works of art.
 
-CIDOC CRM distinguishes visual representations (`E36 Visual Item`) from physical objects carrying such representations (`E24 Physical Man-Made Thing`) and from digital representations of such images (`D1 Digital Object`). The links between those three images concepts is depicted in the following diagram.
+CIDOC CRM distinguishes visual representations (`E36 Visual Item`) from physical objects carrying such representations (`E24 Physical Human-Made Thing`) and from digital representations of such images (`D1 Digital Object`). The links between those three images concepts is depicted in the following diagram.
 
 <a name="063_Pattern_VisualItemDigitalObject_p"></a>063_Pattern_VisualItemDigitalObject_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=063_Pattern_VisualItemDigitalObject_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Pk2bUZK8D12yLEmCSRBxQJz-tqWkR-4S%26export%3Ddownload"></iframe>
 
 
-It is possible to link the physical `E24 Physical Man-Made Thing` image directly to the `E39 Actor` through the `P62 depicts` property, but this simpler pattern cannot link any *digital* image (`D1 Digital Object`) to the actor.  Considering how Actors will mostly manage digital images, a more complex pattern is necessary. 
+It is possible to link the physical `E24 Physical Human-Made Thing` image directly to the `E39 Actor` through the `P62 depicts` property, but this simpler pattern cannot link any *digital* image (`D1 Digital Object`) to the actor.  Considering how Actors will mostly manage digital images, a more complex pattern is necessary. 
 
 Distinguishing the URI of the `D1 Digital Object` from the URL of the digital image is necessary to refer to both resources independently. The URL of a digital image can be seen as its contact point (or address) typed as a URL assigned to an  `E41 Appellation`; it would thus be a string of text.
 
