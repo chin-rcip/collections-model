@@ -12,7 +12,7 @@ permalink: /target-model/current/life-events
 * [Social Status](#social-status)
 * [Flourishing dates](#flourishing-dates)
 * [Specific traits](#specific-traits)
-* [Movements](#movements)
+* [Artistic Movements](#artistic-movements)
 * [Birth/Death of People and Formation/Dissolution of Groups](#birthdeath-of-people-and-formationdissolution-of-groups)
 * [Moving events](#moving-events)
 	* [Legal Headquarter Attribution](#legal-headquarter-attribution)
@@ -200,7 +200,7 @@ Companies’ legal and official headquarters must also be documented. This is so
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=045_Pattern_HQAssignment_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14PlQX6U990zXPxPxtp8tvf44vqeQm3TR%26export%3Ddownload"></iframe>
 
 
-### Pattern 1:  `E9 Move` Event for `E21 Person`
+### Pattern 1: `E9 Move` Event for `E21 Person`
 
 As written above, the `E9 move` event is recommended in CIDOC CRM to document the change of location of `E19 Physical Objects` (including the `E21 Persons`). However, it does not document the location of that person, but rather the event of moving from one place to another.
 
