@@ -18,7 +18,7 @@ permalink: /target-model/current/life-events
 	* [Legal Headquarter Attribution](#legal-headquarter-attribution)
 	* [Pattern 1: E9 Move Event for E21 Person](#pattern-1-e9-move-event-for-e21-person)
 	* [Pattern 2: E8 Acquisition Event for E74 Group](#pattern-2-e8-acquisition-event-for-e74-group)
-	* [Pattern 3: E7 Activity Stay for E21 Person and E74 Group](#pattern-3-e7-activity-stay-for-e21-person-and-e74-group)
+	* [E7 Activity Stay for E21 Person and E74 Group](#e7-activity-stay-for-e21-person-and-e74-group)
 * [Influences](#influences)
 
 
