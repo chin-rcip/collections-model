@@ -258,11 +258,11 @@ This same `E22 Human-made Thing` real estate object is then located geographical
 | 🔎  *To Be Discussed*<br/><br/>The pros and cons of each approach are discussed and examined in <a href="https://github.com/chin-rcip/chin-rcip/issues/31">CHIN’s Github Issue #31</a>. |
 
 
-### Pattern 3: `E7 Activity` Sojourn for `E21 Person` and `E74 Group`
+### `E7 Activity` Stay for `E21 Person` and `E74 Group`
 
-Another way of modeling the locations where an `E39 Actor` went is to have a “sojourn” pattern representing where someone stayed rather than their movements across places. In this instance, “sojourns” encompass any location where an `E39 Actor` has stayed, including their customary residence, and are not limited to vacations or travels.
+Another way of modeling the locations where an `E39 Actor` went is to have a “stay” pattern representing where someone stayed rather than their movements across places. In this instance, “stays” encompass any location where an `E39 Actor` has stayed, including their customary residence, and are not limited to vacations or travels.
 
-In order to do so, an `E7 Activity` event is used and a “sojourn” type is assigned to it. This same  `E7 Activity` is then situated geographically and temporally.
+In order to do so, an `E7 Activity` event is used and a “stay” type is assigned to it. This same  `E7 Activity` is then situated geographically and temporally.
 
 <a name="052_Pattern_Sojourn_p"></a>052_Pattern_Sojourn_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=052_Pattern_Sojourn_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14N5th3YJ8tDZgVLeoW3kGLba2y5Mpm84%26export%3Ddownload"></iframe>
