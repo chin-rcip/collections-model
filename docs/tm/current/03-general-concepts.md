@@ -10,7 +10,7 @@ permalink: /target-model/current/general-concepts
 * [The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
 * [Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
   * [Labels](#labels)
-  * [Annotations](#annotations)
+  * [Annotations and Comments](#annotations-and-comments)
   * [Literal Content](#literal-content)
 * [Mapping problems and E33 Linguistic Object](#mapping-problems-and-e33-linguistic-object)
 * [Data Provenance](#data-provenance)
