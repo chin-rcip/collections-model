@@ -1,0 +1,18 @@
+nps:
+
+- title: Introduction
+  url: /node-paths-specification/current/introduction
+
+- title: Entry Nodes
+  url: /node-paths-specification/current/entry-nodes
+  subfolderitems:
+  - page: Actor Appellation
+    url: /node-paths-specification/current/entry-nodes#actor-appellation
+    hash: actor-appellation
+  - page: Actor Appellation Language
+    url: /node-paths-specification/current/entry-nodes#actor-appellation-language
+    hash: actor-appellation-language
+
+- title: Bibliography
+  url: /node-paths-specification/current/bibliography
+

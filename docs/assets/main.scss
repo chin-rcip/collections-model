@@ -1,0 +1,81 @@
+---
+---
+
+@import "minima";
+
+html, body {
+	height: 100%;
+}
+
+/*--- styling <main> ---*/
+.main-with-sidebar {
+	display: -webkit-flex;
+  	display: flex;
+  	overflow: hidden;
+  	padding: 0;
+}
+
+.column {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	margin: 0 10px 0 10px;
+  	padding: 20px;
+
+}
+
+/*--- SIDEBAR ---*/
+
+li a.active {
+    font-weight: bold;
+}
+
+li a:link a:visited {
+	color: #1756a9;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sublist a {
+	padding-left: 20px;
+	color: #5c5962;
+}
+
+.sublist a:hover {
+	color: black;
+}
+
+.sidebar {
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #f2f2f2;
+  	flex-shrink: 0;
+}
+
+/*--- content column ---*/
+
+.main-with-sidebar div.wrapper{
+	margin-left: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+  .main-with-sidebar {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .sidebar {
+  	max-height: 110px;
+  	margin: 20px;
+  	border-style: solid;
+	border-width: 2px;
+	border-color: #f2f2f2;
+
+  }
+}

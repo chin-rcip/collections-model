@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Licensing Documentation
-permalink: /licensing-documentation/
+title: Licence
+permalink: /licence/
 ---
 [Version française](#normes-de-licenciation)
 

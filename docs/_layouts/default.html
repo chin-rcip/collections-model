@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content {% if page.sidebar %}main-with-sidebar{% endif %}" aria-label="Content">
+      {% if page.sidebar %}
+        <div class="column sidebar">
+          <h3>{% if page.sidebar == "nps" %}Node Paths Specification
+              {% elsif page.sidebar == "tm" %}Target Model{% endif %}
+          </h3>
+          <ul class="mainlist">
+            {% for item in site.data.sidetoc[page.sidebar] %}
+              {% assign item_url = "/collections-model" | append: item.url %}
+              <li>
+                <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
+                {% if item.subfolderitems[0] %}
+                  <ul class="sublist" style="{% if item.url != page.url %}display:none{% endif %}">
+                  {% for entry in item.subfolderitems %}
+                    {% assign entry_url = "/collections-model" | append: entry.url %}
+                    <li>
+                      <a href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}</a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      
+      <div class="column">
+        <div class="
+          {% if page.sidebar %}main-content
+          {% else %}wrapper
+          {% endif %}">
+          {{ content }}
+        </div>
+
+        {%- include footer.html -%}
+      </div>
+    </main>
+
+    <script type="text/javascript">
+      function active(element) {
+        var cur_active = document.getElementsByClassName("active");
+        var i;
+        for (i = 0; i < cur_active.length; i++) {
+          cur_active[i].setAttribute("class", "");
+        };
+        element.setAttribute("class", "active");
+      }
+    </script>
+    
+
+  </body>
+
+</html>
