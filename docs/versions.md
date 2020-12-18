@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Versions
-permalink: /target-model/
+permalink: /versions
 ---
 ## Current version
 
-[Working document of the Target Model](/target-model/current/information)
+[Working document of the Target Model](/collections-model/target-model/current/information)
 
 ## Stable versions
 
