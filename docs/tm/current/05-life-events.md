@@ -180,48 +180,21 @@ Throughout their lives or activities, `E39 Actors` may travel, live or be presen
 
 In CIDOC CRM, there is a distinction between the physical `E21 Person` that is located in space and can be subjected to `E9 Move` events, and the more abstract `E39 Actor` and `E74 Group` that do not move through space and time.
 
-In order to record the locations of persons and groups, additional patterns are required: :
+In order to record the locations of persons and groups, additional patterns are required:
 
-1. A CIDOC CRM `E9 Move` pattern must be established for the `E21 Person`
-2. Along with an `E8 Acquisition` event to record properties acquired by groups
-3. And `E7 Activity` patterns to model the sojourns of `E21 Person` and `E74 Group` in different locations.
+1. An `E8 Acquisition` event to record properties acquired by groups
+2. And `E7 Activity` pattern to model the stays of `E21 Person` and `E74 Group` in different locations.
 
-For more on this, please see [Appendix E: Moving Events](/collections-model/target-model/current/appendix-e-moving-events#).
-
-
-| 🔎  *To Be Discussed* <br/><br/>The best way to render different group locations throughout time is still debated amongst CHIN. This issue is discussed in <a href=" https://github.com/chin-rcip/chin-rcip/issues/18">CHIN’s Github Issue #18</a>. <br/><br/>How to model the geographical presence of actors in general has not been determined either and is discussed in<a href="https://github.com/chin-rcip/chin-rcip/issues/31"> CHIN’s Github Issue #31</a>. |
-   
+For more on this, please see [Appendix E: Moving Events](/collections-model/target-model/current/appendix-e-moving-events#) and [Github Issue #31](https://github.com/chin-rcip/collections-model/issues/31).
 
 ### Legal Headquarter Attribution
+
+*This pattern will be reviewed*
 
 Companies’ legal and official headquarters must also be documented. This is something that could be done using the `E13 attribute assignment` class with the following pattern, although it is still under consideration and might change:
 
 <a name="045_Pattern_HQAssignment_p"></a>045_Pattern_HQAssignment_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=045_Pattern_HQAssignment_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14PlQX6U990zXPxPxtp8tvf44vqeQm3TR%26export%3Ddownload"></iframe>
-
-
-### Pattern 1: `E9 Move` Event for `E21 Person`
-
-As written above, the `E9 move` event is recommended in CIDOC CRM to document the change of location of `E19 Physical Objects` (including the `E21 Persons`). However, it does not document the location of that person, but rather the event of moving from one place to another.
-
-This pattern can document long travels as it relies on moving events with beginning and end dates. However, it does not comply with museum databases’ logic where actor *locations* are recorded rather than their *moving*. This means that if a museum has recorded that Jean Paul Riopelle lived in Montreal, then in Paris, then once again in Montreal, there would be  2 moving events rather than 3 living locations.
-
-The `E9 Move` pattern documents the original location with the property `P27 moved from`, and the arrival location with the property `P26 moved to`. As the `E9 Move` class is an event, it can be located in time and the `E21 Person` it pertains to can be specified using a  `P25 moved` property. 
-
-
-<a name="046_Pattern_AddressMoving_p"></a>046_Pattern_AddressMoving_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=046_Pattern_AddressMoving_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rGkoWbDwaF0VtGnC-XLTLk9ybNdm2D0k%26export%3Ddownload"></iframe>
-
-
-| 💡  Example: <br/><br/>Jean Paul Riopelle was born and lived in Montreal at the beginning of his life, but moved to Paris in 1947 before coming back to Montreal in 1948 and returning to Paris once again in December 1948: |
-
-<a name="047_Example_MoveRiopelle_p"></a>047_Example_MoveRiopelle_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=047_Example_MoveRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1iJ8dEwglBXMA7LL9Ea9lfZTAslYCH7UG%26export%3Ddownload"></iframe>
-
-| 💡  Example: <br/><br/>Jacques Cartier left France on the 20th of April 1534 and arrived in what is now Newfoundland on the 10th of May 1534. The time he spent travelling can be modeled with CIDOC CRM: |
-
-<a name="048_Example_MoveCartier_p"></a>048_Example_MoveCartier_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=048_Example_MoveCartier_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1B4kxfNefgWggu1OGqp9z0w-92yqSoWVV%26export%3Ddownload"></iframe>
 
 ### Pattern 2: `E8 Acquisition` Event for `E74 Group`
 
