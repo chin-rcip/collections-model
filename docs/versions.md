@@ -5,7 +5,9 @@ permalink: /versions
 ---
 ## Current version
 
-[Working document of the Target Model](/collections-model/target-model/current/information)
+[Target Model Working Document](/collections-model/target-model/current/introduction)
+
+[Node Paths Specification Working Document](/collections-model/node-paths-specification/current/introduction)
 
 ## Stable versions
 
