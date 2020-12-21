@@ -3,7 +3,7 @@ layout: page
 title: Versions
 permalink: /versions
 ---
-## Current version
+## Current versions
 
 [Target Model Working Document](/collections-model/target-model/current/introduction)
 
