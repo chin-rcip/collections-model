@@ -239,7 +239,7 @@ The dating pattern is the same throughout the model. In order to facilitate unde
 
 In CIDOC CRM, only `E2 Temporal Entities` and its subclasses (comprising events), can be situated temporally. This is done through a time-span, modeled with the property `P4 has time-span` and the class `E52 Time-Span`.
 
-This `E52 Time-Span` can then be delimited (using the XSD Date standards) with the use of 4 properties representing specific dates: 
+This `E52 Time-Span` can then be delimited (using the `xsd:dateTime` standard) with the use of 4 properties representing specific dates: 
 
 * `P82a begin of the begin ` indicates that the time-span of the event may at the earliest have started on that date.
 * `P81a end of the begin `indicates that the time-span of the event has without doubt at the latest started on that date.
