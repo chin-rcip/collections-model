@@ -5,6 +5,8 @@ permalink: /target-model/current/introduction
 ---
 [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
 
+Version 2.1 ([Previous versions](/collections-model/versions))
+
 ## On This Page
 
 * [Foreword](#foreword)
@@ -13,6 +15,16 @@ permalink: /target-model/current/introduction
 * [Modelling Conventions](#modelling-conventions)
 	* [Patterns](#patterns)
 	* [Examples](#examples)
+
+## Dates: 
+
+Created date: 2019-05-13
+
+Last Update: 2020-12-22
+
+## Abstract: 
+
+This documents the Actors Target Model, which is intended to model the Actors Facet of CHIN’s Collections Model (that will cover collections data more broadly). It details what choices were made when developing patterns as well as why they were made, and offers diagrams representing these patterns. 
 
 ## Foreword
 
