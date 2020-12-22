@@ -1,18 +1,268 @@
-nps:
+tm:
 
 - title: Introduction
-  url: /node-paths-specification/current/introduction
+  url: /target-model/current/introduction
+  subfolder:
+  - page: Foreword
+    url: /target-model/current/introduction#foreword
+    hash: foreword
+  - page: Purpose of the Target Model
+    url: /target-model/current/introduction#purpose-of-the-target-model
+    hash: purpose-of-the-target-model
+  - page: Methods and Sources
+    url: /target-model/current/introduction#methods-and-sources
+    hash: methods-and-sources
+  - page: Modelling Conventions
+    url: /target-model/current/introduction#modelling-conventions
+    hash: modelling-conventions
+    subsubfolder:
+    - page: Patterns
+      url: /target-model/current/introduction#patterns
+      hash: patterns
+    - page: Examples
+      url: /target-model/current/introduction#examples
+      hash: examples
+
+- title: General Concepts
+  url: /target-model/current/general-concepts
+  subfolder:
+  - page: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
+    url: /target-model/current/general-concepts#the-differences-between-e39-actor-e21-person-and-e74-group
+    hash: the-differences-between-e39-actor-e21-person-and-e74-group
+  - page: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
+    url: /target-model/current/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
+    hash: semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
+    subsubfolder:
+    - page: Labels
+      url: /target-model/current/general-concepts#labels
+      hash: labels
+    - page: Annotations and Comments
+      url: /target-model/current/general-concepts#annotations-and-comments
+      hash: annotations-and-comments
+    - page: Literal Content
+      url: /target-model/current/general-concepts#literal-content
+      hash: literal-content
+  - page: Mapping problems and E33 Linguistic Object
+    url: /target-model/currentgeneral-concepts/general-concepts#mapping-problems-and-e33-linguistic-object
+    hash: mapping-problems-and-e33-linguistic-object
+  - page: Data Provenance
+    url: /target-model/current/general-concepts#data-provenance
+    hash: data-provenance
+    subsubfolder:
+    - page: Provenance of the Dataset
+      url: /target-model/current/general-concepts#provenance-of-the-dataset
+      hash: provenance-of-the-dataset
+    - page: Record Provenance with Aggregated Contributors
+      url: /target-model/current/general-concepts#record-provenance-with-aggregated-contributors
+      hash: record-provenance-with-aggregated-contributors
+    - page: Limits of and Issues with the Named Graph and “Record” approach
+      url: /target-model/current/general-concepts#limits-of-and-issues-with-the-named-graph-and-record-approach
+      hash: limits-of-and-issues-with-the-named-graph-and-record-approach
+  - page: Challenges When Representing Indigenous Realities
+    url: /target-model/current/general-concepts#challenges-when-representing-indigenous-realities
+    hash: challenges-when-representing-indigenous-realities
+  - page: Dates Pattern
+    url: /target-model/current/general-concepts#dates-pattern
+    hash: dates-pattern
+
+- title: Identification
+  url: /target-model/current/identification
+  subfolder:
+  - page: Identifiers and Appellations
+    url: /target-model/current/identification#identifiers-and-appellations
+    hash: identifiers-and-appellations
+  - page: Identity
+    url: /target-model/current/identification#identity
+    hash: identity
+    subsubfolder:
+    - page: Definitions
+      url: /target-model/current/identification#definitions
+      hash: definitions
+    - page: Identity Patterns
+      url: /target-model/current/identification#identity-patterns
+      hash: identity-patterns
+    - page: Rendering Gender and Cultural Affiliation with E55 Type
+      url: /target-model/current/identification#rendering-gender-and-cultural-affiliation-with-e55-type
+      hash: rendering-gender-and-cultural-affiliation-with-e55-type
+    - page: Nationality, Nationidentificationhood and Community With E74 Group
+      url: /target-model/current/identification#nationality-nationhood-and-community-with-e74-group
+      hash: nationality-nationhood-and-community-with-e74-group
+    - page: Group Type with E55 Type
+      url: /target-model/current/identification#group-type-with-e55-type
+      hash: group-type-with-e55-type
+
+- title: Life Events
+  url: /target-model/current/life-events
+  subfolder:
+  - page: Technique Used
+    url: /target-model/current/life-events#technique-used
+    hash: technique-used
+  - page: Occupation
+    url: /target-model/current/life-events#occupation
+    hash: occupation
+  - page: Social Status
+    url: /target-model/current/life-events#social-status
+    hash: social-status
+  - page: Flourishing dates
+    url: /target-model/current/life-events#flourishing-dates
+    hash: flourishing-dates
+  - page: Specific traits
+    url: /target-model/current/life-events#specific-traits
+    hash: specific-traits
+  - page: Artistic Movements
+    url: /target-model/current/life-events#artistic-movements
+    hash: artistic-movements
+  - page: Birth/Death of People and Formation/Dissolution of Groups
+    url: /target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups
+    hash: birthdeath-of-people-and-formationdissolution-of-groups
+  - page: Moving events
+    url: /target-model/current/life-events#moving-events
+    hash: moving-events
+    subsubfolder:
+    - page: Legal Headquarter Attribution
+      url: /target-model/current/life-events#legal-headquarter-attribution
+      hash: legal-headquarter-attribution
+    - page: E7 Activity Stay for E21 Person and E74 Group
+      url: /target-model/current/life-events#e7-activity-stay-for-e21-person-and-e74-group
+      hash: e7-activity-stay-for-e21-person-and-e74-group
+  - page: Influences
+    url: /target-model/current/life-events#influences
+    hash: influences
+
+- title: Social Bonds
+  url: /target-model/current/social-bonds
+  subfolder:
+  - page: Relationships
+    url: /target-model/current/social-bonds#relationships
+    hash: relationships
+  - page: Group Belonging
+    url: /target-model/current/social-bonds#group-belonging
+    hash: group-belonging
+- title: Descriptive Information
+  url: /target-model/current/descriptive-information
+  subfolder:
+  - page: Biography
+    url: /target-model/current/social-bonds#biography
+    hash: biography
+  - page: Visual Item
+    url: /target-model/current/social-bonds#visual-item
+    hash: visual-item
+  - page: Curatorial Note
+    url: /target-model/current/social-bonds#curatorial-note
+    hash: curatorial-note
+
+- title: Artefacts
+  url: /target-model/current/artefacts
+  subfolder:
+  - page: Artefact Creation and the Role of the Actor in the Creation
+    url: /target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation
+    hash: artefact-creation-and-the-role-of-the-actor-in-the-creation
+  - page: Artefact (Before the Development of the Objects Facet)
+    url: /target-model/current/artefacts#artefact-before-the-development-of-the-objects-facet
+    hash: artefact-before-the-development-of-the-objects-facet
+
+- title: Archival Document Location
+  url: /target-model/current/archival-document-location
+
+- title: Legal Aspects (Rights)
+  url: /target-model/current/legal-aspects-rights
+
+- title: Bibliography
+  url: /target-model/current/bibliography
+
+- title: Appendix A
+  url: /target-model/current/appendix-a-data-provenance
+
+- title: Appendix B
+  url: /target-model/current/appendix-b-appellations
+  subfolder:
+  - page: Language
+    url: /target-model/current/appendix-b-appellations#language
+    hash: language
+  - page: Preference
+    url: /target-model/current/appendix-b-appellations#preference
+    hash: preference
+  - page: Partitioning
+    url: /target-model/current/appendix-b-appellations#partitioning
+    hash: partitioning
+
+- title: Appendix C
+  url: /target-model/current/appendix-c-identity
+  subfolder:
+  - page: With `E5 Event`
+    url: /target-model/current/appendix-c-identity#with-e5-event
+    hash: with-e5-event
+  - page: With Bio CRM
+    url: /target-model/current/appendix-c-identity#with-bio-crm
+    hash: with-bio-crm
+  - page: With `ore:Aggregation`
+    url: /target-model/current/appendix-c-identity#with-oreaggregation
+    hash: with-oreaggregation
+
+- title: Appendix D
+  url: /target-model/current/appendix-d-relationships
+  subfolder:
+  - page: The Agent Relationship Ontology
+    url: /target-model/current/appendix-d-relationships#the-agent-relationship-ontology
+    hash: the-agent-relationship-ontology
+  - page: Bio CRM
+    url: /target-model/current/appendix-d-relationships#bio-crm
+    hash: bio-crm
+
+- title: Appendix E
+  url: /target-model/current/appendix-e-moving-events
+
+- title: Appendix F
+  url: /target-model/current/appendix-f-discussions
+  subfolder:
+  - page: Discussion - The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
+    url: /target-model/current/appendix-f-discussions#discussion-the-differences-between-e39-actor-e21-person-and-e74-group
+    hash: discussion-the-differences-between-e39-actor-e21-person-and-e74-group
+  - page: Discussion - Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
+    url: /target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
+    hash: discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
+  - page: Discussion - Challenges When Representing Indigenous Realities
+    url: /target-model/current/appendix-f-discussions#discussion-challenges-when-representing-indigenous-realities
+    hash: discussion-challenges-when-representing-indigenous-realities
+  - page: Discussion - Identity Definitions
+    url: /target-model/current/appendix-f-discussions#discussion-identity-definitions
+    hash: discussion-identity-definitions
+    subsubfolder:
+    - page: Pertaining to Culture
+      url: /target-model/current/appendix-f-discussions#pertaining-to-culture
+      hash: pertaining-to-culture
+    - page: Pertaining to Community
+      url: /target-model/current/appendix-f-discussions#pertaining-to-community
+      hash: pertaining-to-community
+  - page: Discussion - Identity Patterns
+    url: /target-model/current/appendix-f-discussions#discussion-identity-patterns
+    hash: discussion-identity-patterns
+  - page: Discussion - Nationality, Nationhood and Community With `E74 Group`
+    url: /target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74-group
+    hash: discussion-nationality-nationhood-and-community-with-e74-group
+  - page: Discussion - Birth/Death of People and Formation/Dissolution of Groups
+    url: /target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups
+    hash: discussion-birthdeath-of-people-and-formationdissolution-of-groups
+  - page: Discussion - Biography
+    url: /target-model/current/appendix-f-discussions#discussion-biography
+    hash: discussion-biography
+
+
+sps:
+
+- title: Introduction
+  url: /semantic-paths-specification/current/introduction
 
 - title: Entry Nodes
-  url: /node-paths-specification/current/entry-nodes
-  subfolderitems:
+  url: /semantic-paths-specification/current/entry-nodes
+  subfolder:
   - page: Actor Appellation
-    url: /node-paths-specification/current/entry-nodes#actor-appellation
+    url: /semantic-paths-specification/current/entry-nodes#actor-appellation
     hash: actor-appellation
   - page: Actor Appellation Language
-    url: /node-paths-specification/current/entry-nodes#actor-appellation-language
+    url: /semantic-paths-specification/current/entry-nodes#actor-appellation-language
     hash: actor-appellation-language
 
 - title: Bibliography
-  url: /node-paths-specification/current/bibliography
+  url: /semantic-paths-specification/current/bibliography
 

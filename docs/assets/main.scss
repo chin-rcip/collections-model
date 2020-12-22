@@ -9,7 +9,6 @@ html, body {
 
 /*--- styling <main> ---*/
 .main-with-sidebar {
-	/*height: 100%;*/
 	display: -webkit-flex;
   	display: flex;
   	overflow: hidden;
@@ -46,13 +45,18 @@ li a:link a:visited {
 	padding: 0;
 }
 
-.sublist a {
+.sublist>li>a {
 	padding-left: 20px;
 	color: #5c5962;
 }
 
 .sublist a:hover {
 	color: black;
+}
+
+.subsublist>li>a {
+	padding-left: 40px;
+	color: #5c5962;
 }
 
 .sidebar {

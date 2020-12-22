@@ -9,8 +9,8 @@
 
     <main class="page-content {% if page.sidebar %}main-with-sidebar{% endif %}" aria-label="Content">
       {% if page.sidebar %}
-        <div class="column sidebar">
-          <h3>{% if page.sidebar == "nps" %}Node Paths Specification
+        <div class="{% if page.sidebar %}column sidebar{% endif %}">
+          <h3>{% if page.sidebar == "sps" %}Semantic Paths Specification
               {% elsif page.sidebar == "tm" %}Target Model{% endif %}
           </h3>
           <ul class="mainlist">
@@ -18,12 +18,22 @@
               {% assign item_url = "/collections-model" | append: item.url %}
               <li>
                 <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
-                {% if item.subfolderitems[0] %}
+                {% if item.subfolder[0] %}
                   <ul class="sublist" style="{% if item.url != page.url %}display:none{% endif %}">
-                  {% for entry in item.subfolderitems %}
+                  {% for entry in item.subfolder %}
                     {% assign entry_url = "/collections-model" | append: entry.url %}
                     <li>
                       <a href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}</a>
+                      {% if entry.subsubfolder[0] %}
+                        <ul class="subsublist" style="{% if item.url != page.url %}display:none{% endif %}">
+                        {% for subentry in entry.subsubfolder %}
+                          {% assign subentry_url = "/collections-model" | append: subentry.url %}
+                          <li>
+                            <a href="{{ subentry_url }}" onclick="active(this)">{{ subentry.page }}</a>
+                          </li>
+                        {% endfor %}
+                        </ul>
+                      {% endif %}
                     </li>
                   {% endfor %}
                   </ul>
@@ -34,7 +44,7 @@
         </div>
       {% endif %}
       
-      <div class="column">
+      <div class="{% if page.sidebar %}column{% endif %}">
         <div class="
           {% if page.sidebar %}main-content
           {% else %}wrapper

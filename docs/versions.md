@@ -7,7 +7,7 @@ permalink: /versions
 
 [Target Model Working Document](/collections-model/target-model/current/introduction)
 
-[Node Paths Specification Working Document](/collections-model/node-paths-specification/current/introduction)
+[Semantic Paths Specification Working Document](/collections-model/semantic-paths-specification/current/introduction)
 
 ## Stable versions
 

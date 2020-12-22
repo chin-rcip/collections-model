@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Entry Nodes
-permalink: /node-paths-specification/current/entry-nodes
-sidebar: nps
+permalink: /semantic-paths-specification/current/entry-nodes
+sidebar: sps
 ---
 
 ---

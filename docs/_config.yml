@@ -36,7 +36,7 @@ header_pages:
   - about.md
   - licensing-documentation.md
   - tm/current/01-information.md
-  - nps/current/01-introduction.md
+  - sps/current/01-introduction.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
