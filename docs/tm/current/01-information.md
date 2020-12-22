@@ -3,8 +3,6 @@ layout: page
 title: Target Model
 permalink: /target-model/current/information
 ---
-Version 2.1 ([Previous versions](/collections-model/versions))
-
 ## On This Page
 
 * [Table of Contents](#table-of-contents)
