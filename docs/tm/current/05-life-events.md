@@ -196,58 +196,27 @@ Companies’ legal and official headquarters must also be documented. This is so
 <a name="045_Pattern_HQAssignment_p"></a>045_Pattern_HQAssignment_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=045_Pattern_HQAssignment_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14PlQX6U990zXPxPxtp8tvf44vqeQm3TR%26export%3Ddownload"></iframe>
 
-### Pattern 2: `E8 Acquisition` Event for `E74 Group`
-
-Whilst `E21 Persons` are physical objects that can move through space and time, `E74 Groups` are *conceptual* gatherings of either `E21 Persons` or other `E74 Groups`, which means that `E74 Groups` are not located in space and time.
-
-Because of that, `E74 Groups` cannot be participating in an `E9 Move` event. However, `E74 Groups` can be present geographically by owning a place. For example, a company may have a store in Montreal, a factory in Ottawa, and headquarters in Montreal as well. If headquarters are transferred from Montreal to Ottawa, the `E74 Group` will not `E9 Move`: rather, the initial location of the headquarters will close and a new location will be selected and occupied by the company.
-
-Such an `E8 Acquisition` pattern can therefore be used to document the location of an `E74 Group` and its growth through time.
-
-In this pattern, the location where the `E74 Group` is established is considered to be real estate and, as such, is an `E22 Human-made Thing`. This real estate object is acquired by the `E74 Group` through an `E8 Acquisition` event (and the two properties `P22 transferred title to` and `P24 transferred title of`). 
-
-This same `E22 Human-made Thing` real estate object is then located geographically with the property `P54 has current permanent location` and the class `E53 Place`. This property does not document when this real estate has been constructed and is an information that is beyond the scope of what CHIN will modelise as part of its Actors or Collections models.
-
-
-| 🔎  *To Be Discussed*<br/><br/>Three properties in CIDOC CRM can be used to indicate the location of an <code>E22 Human Made Object</code> in an <code>E53 Place</code>: <br/><br/>1. <code>P53 has former or current location</code><br/>2. <code>P54 has current permanent location</code><br/>3. <code>P55 has current location</code><br/><br/>Which property is best to use is unclear considering <code>P54 has current permanent location</code> would be best for mobile objects, but CIDOC CRM rather uses <code>P53 has former or current location</code>. |
-
-<a name="049_Pattern_GroupRealEstateAcquisition_p"></a>049_Pattern_GroupRealEstateAcquisition_p
-<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=049_Pattern_GroupRealEstateAcquisition_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VyQYTvQvbRa6NmlbpaWBxdQmAUgLNRmM%26export%3Ddownload"></iframe>
-
-
-| 🔎  *To Be Discussed*<br/><br/>The main downside of such a pattern is that we need to add a pattern for the loss of title of the real estate, which has not yet been modeled. |
-
-
-| 💡  Example: <br/><br/>The company Example Inc. could have been established in 1881 with a single shopping location in Montreal. |
-
-<a name="050_Example_AcquisitionExampleInc_p"></a>050_Example_AcquisitionExampleInc_p
-<iframe frameborder="0" style="width:100%;height:800px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=050_Example_AcquisitionExampleInc_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1NJdBWs5uhKVlJLR0sBWcmKiSPH1laZMM%26export%3Ddownload"></iframe>
-
-| 🔀  Alternative (Proposed by George Bruseker) <br/><br/>George Bruseker proposed in one of the comments to create a new class, a CHIN:Establishing that would be the subclass of E7 Activity and E13 Attribute Assignment. A new property should also be created, CHIN:established, that would link the CHIN:Establishing event with the E53 Place. |
-
-<a name="051_Pattern_CHINEstablishing_p"></a>051_Pattern_CHINEstablishing_p
-<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=051_Pattern_CHINEstablishing_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1uTkEnKU60_luEPvi6a5BL91NFFMpXhEb%26export%3Ddownload"></iframe>
-
-| 🔎  *To Be Discussed*<br/><br/>The pros and cons of each approach are discussed and examined in <a href="https://github.com/chin-rcip/chin-rcip/issues/31">CHIN’s Github Issue #31</a>. |
-
-
 ### `E7 Activity` Stay for `E21 Person` and `E74 Group`
 
-Another way of modeling the locations where an `E39 Actor` went is to have a “stay” pattern representing where someone stayed rather than their movements across places. In this instance, “stays” encompass any location where an `E39 Actor` has stayed, including their customary residence, and are not limited to vacations or travels.
+*Internal note: VR begins*
 
-In order to do so, an `E7 Activity` event is used and a “stay” type is assigned to it. This same  `E7 Activity` is then situated geographically and temporally.
+In most cases, our stakeholders record the fact of being somewhere instead of the moving event. Therefore, the way of modeling the locations where an `E39_Actor` went is to have an `E7_Activity`. In this instance, stays encompass any location where an `E39_Actor` has stayed, including their customary residence, and are not limited to vacations or travels.
 
-<a name="052_Pattern_Sojourn_p"></a>052_Pattern_Sojourn_p
+In order to do so, the `E7_Activity` event is used and a “Stay” type is attributed to it. This same `E7_Activity` is then situated geographically and temporally.
+
+*Internal note: VR ends*
+
+<a name="052_Pattern_Stay_p"></a>052_Pattern_Sojourn_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=052_Pattern_Sojourn_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14N5th3YJ8tDZgVLeoW3kGLba2y5Mpm84%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle moved to Paris in 1947 before coming back to Montreal in 1948 and going once again to Paris in December 1948: |
 
-<a name="053_Example_SojournRiopelle_p"></a>053_Example_SojournRiopelle_p
+<a name="053_Example_StayRiopelle_p"></a>053_Example_SojournRiopelle_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=053_Example_SojournRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dYngkqVWXFgBsBXpRzl64Dg6if24g60B%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>The Group of Seven met at the Studio Building in Toronto—a building where several artist studios were situated. As we do not know of other places where these artists met on a regular basis, this is the only location associated with the group during its activity years, from 1920 to 1933. |
 
-<a name="054_Example_SojournGroup7_p"></a>054_Example_SojournGroup7_p
+<a name="054_Example_StayGroup7_p"></a>054_Example_SojournGroup7_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=054_Example_SojournGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1NQIujp5uqqjfTH59NpusPjNKwDoX4n-s%26export%3Ddownload"></iframe>
 
 ## Influences
