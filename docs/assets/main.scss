@@ -9,6 +9,7 @@ html, body {
 
 /*--- styling <main> ---*/
 .main-with-sidebar {
+	/*height: 100%;*/
 	display: -webkit-flex;
   	display: flex;
   	overflow: hidden;
@@ -16,7 +17,7 @@ html, body {
 }
 
 .column {
-	height: 100%;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
@@ -26,6 +27,10 @@ html, body {
 }
 
 /*--- SIDEBAR ---*/
+
+.sidebar h3, li a {
+	white-space: nowrap;
+}
 
 li a.active {
     font-weight: bold;
@@ -55,6 +60,8 @@ li a:link a:visited {
 	border-right-width: 2px;
 	border-right-color: #f2f2f2;
   	flex-shrink: 0;
+  	max-width: calc((100% - 860px) / 2);
+  	min-width: 210px
 }
 
 /*--- content column ---*/
@@ -72,6 +79,7 @@ li a:link a:visited {
 
   .sidebar {
   	max-height: 110px;
+  	max-width: 100%;
   	margin: 20px;
   	border-style: solid;
 	border-width: 2px;
