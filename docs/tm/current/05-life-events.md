@@ -41,7 +41,7 @@ There is a difference between a technique used by an actor, and the activity or 
 
 ## Occupation
 
-As we have seen in the Technique section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/collections-model/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
+As we have seen in the Technique Used section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/collections-model/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
 
 But an actor could also have an occupation that is not linked to any production event and there is a difference between the role of an actor during a production event and an occupation in life (a person could be the writer during the production of a book, but their main occupation could be painter).
 
