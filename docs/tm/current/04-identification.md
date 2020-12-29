@@ -60,7 +60,7 @@ All the appellations and IDs of actors related to the documented actor will use 
 
 *   Dataset Provider ID
 *   Dataset Provider Appellation
-*   Actor Record Contributor Appellation
+*   Record Contributor Appellation
 *   Mother Appellation
 *   Father Appellation
 *   Founding Actor Appellation

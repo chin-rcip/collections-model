@@ -204,18 +204,18 @@ In order to do so, the `E7_Activity` event is used and a “Stay” type is attr
 
 *Internal note: VR ends*
 
-<a name="052_Pattern_Stay_p"></a>052_Pattern_Sojourn_p
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=052_Pattern_Sojourn_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14N5th3YJ8tDZgVLeoW3kGLba2y5Mpm84%26export%3Ddownload"></iframe>
+<a name="052_Pattern_Stay_p"></a>052_Pattern_Stay_p
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=052_Pattern_Stay_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14N5th3YJ8tDZgVLeoW3kGLba2y5Mpm84%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle moved to Paris in 1947 before coming back to Montreal in 1948 and going once again to Paris in December 1948: |
 
-<a name="053_Example_StayRiopelle_p"></a>053_Example_SojournRiopelle_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=053_Example_SojournRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dYngkqVWXFgBsBXpRzl64Dg6if24g60B%26export%3Ddownload"></iframe>
+<a name="053_Example_StayRiopelle_p"></a>053_Example_StayRiopelle_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=053_Example_StayRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dYngkqVWXFgBsBXpRzl64Dg6if24g60B%26export%3Ddownload"></iframe>
 
 | 💡  Example:<br/><br/>The Group of Seven met at the Studio Building in Toronto—a building where several artist studios were situated. As we do not know of other places where these artists met on a regular basis, this is the only location associated with the group during its activity years, from 1920 to 1933. |
 
-<a name="054_Example_StayGroup7_p"></a>054_Example_SojournGroup7_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=054_Example_SojournGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1NQIujp5uqqjfTH59NpusPjNKwDoX4n-s%26export%3Ddownload"></iframe>
+<a name="054_Example_StayGroup7_p"></a>054_Example_StayGroup7_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=054_Example_StayGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1NQIujp5uqqjfTH59NpusPjNKwDoX4n-s%26export%3Ddownload"></iframe>
 
 ## Influences
 
