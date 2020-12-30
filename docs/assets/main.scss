@@ -35,7 +35,7 @@ li a.active {
     font-weight: bold;
 }
 
-li a:link a:visited {
+li a:link, li a:visited {
 	color: #1756a9;
 }
 
@@ -65,8 +65,10 @@ li a:link a:visited {
 	border-right-color: #f2f2f2;
   	flex-shrink: 0;
   	max-width: calc((100% - 860px) / 2);
-  	min-width: 210px
+  	min-width: 210px;
 }
+
+
 
 /*--- content column ---*/
 
@@ -74,6 +76,24 @@ li a:link a:visited {
 	margin-left: 0;
 }
 
+/*--- align table text ---*/
+
+td {
+	vertical-align: top;
+}
+
+/*--- hide content ---*/
+
+.hidden-content {
+	display: none;
+}
+
+
+/*.full-path {
+	font-family: "Monaco";
+}*/
+
+/*--- style when changing windown size ---*/
 
 @media screen and (max-width: 800px) {
   .main-with-sidebar {
