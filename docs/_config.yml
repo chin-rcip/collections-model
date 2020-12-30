@@ -35,7 +35,7 @@ plugins:
 header_pages:
   - about.md
   - licensing-documentation.md
-  - tm/current/01-information.md
+  - tm/current/02-introduction.md
   - sps/current/01-introduction.md
 
 # Exclude from processing.

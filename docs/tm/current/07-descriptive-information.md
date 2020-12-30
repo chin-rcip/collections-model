@@ -2,9 +2,10 @@
 layout: page
 title: Descriptive Information
 permalink: /target-model/current/descriptive-information
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Biography](#biography)

@@ -2,9 +2,10 @@
 layout: page
 title: Legal Aspects (Rights)
 permalink: /target-model/current/legal-aspects-rights
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Legal Aspects (Rights)](#)

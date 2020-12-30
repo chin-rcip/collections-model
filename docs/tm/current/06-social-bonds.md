@@ -2,9 +2,10 @@
 layout: page
 title: Social Bonds
 permalink: /target-model/current/social-bonds
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Relationships](#relationships)

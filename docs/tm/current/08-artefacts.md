@@ -2,9 +2,10 @@
 layout: page
 title: Artefacts
 permalink: /target-model/current/artefacts
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Artefact Creation and the Role of the Actor in the Creation](#artefact-creation-and-the-role-of-the-actor-in-the-creation)

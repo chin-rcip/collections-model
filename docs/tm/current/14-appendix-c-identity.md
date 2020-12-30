@@ -2,9 +2,10 @@
 layout: page
 title: Appendix C - Identity 
 permalink: /target-model/current/appendix-c-identity
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [With `E5 Event`](#with-e5-event)

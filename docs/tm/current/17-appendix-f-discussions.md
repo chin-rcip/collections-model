@@ -2,9 +2,10 @@
 layout: page
 title: Appendix F - Discussions 
 permalink: /target-model/current/appendix-f-discussions
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)

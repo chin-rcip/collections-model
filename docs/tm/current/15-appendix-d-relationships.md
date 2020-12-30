@@ -2,9 +2,10 @@
 layout: page
 title: Appendix D - Relationships 
 permalink: /target-model/current/appendix-d-relationships
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [The Agent Relationship Ontology](#the-agent-relationship-ontology)

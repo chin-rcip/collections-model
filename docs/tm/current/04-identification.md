@@ -2,9 +2,10 @@
 layout: page
 title: Identification
 permalink: /target-model/current/identification
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Identifiers and Appellations](#identifiers-and-appellations)

@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Introduction
+title: Target Model
 permalink: /target-model/current/introduction
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 Version 2.1 ([Previous versions](/collections-model/versions))
 
 ## On This Page
 
+* [Abstract](#abstract)
 * [Foreword](#foreword)
 * [Purpose of the Target Model](#purpose-of-the-target-model)
 * [Methods and Sources](#methods-and-sources)
@@ -22,7 +24,7 @@ Created date: 2019-05-13
 
 Last Update: 2020-12-22
 
-## Abstract: 
+## Abstract 
 
 This documents the Actors Target Model, which is intended to model the Actors Facet of CHIN’s Collections Model (that will cover collections data more broadly). It details what choices were made when developing patterns as well as why they were made, and offers diagrams representing these patterns. 
 
@@ -55,7 +57,7 @@ To succeed in those objectives, two major steps are required:
 1. Conversion of inputed GLAM data to a unique format and structure (XML);
 2. Conversion of uniquely formatted data to structured RDF.
 
-To accomplish these successfully, CHIN has already developed an intended Data Pipeline [Documentation](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) and [Schema](https://drive.google.com/open?id=1qalobG-9YmV3cQ9-pBRYxRW9wQP2PrAg). This process relies on three major tools: the [Reference Checklist](https://drive.google.com/open?id=1Rnlreq5FlHxMu4oHFvahXakIVtAc4VqdoNoJ-3PagnU), the [Reference Documentation](https://drive.google.com/open?id=1-9B8plo0LZg-5H643mgJumzy6XEF3PYlAwGTFuHaxKA), and the Target Model. 
+To accomplish these successfully, CHIN has already developed an intended Data Pipeline [Documentation](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) and [Schema](https://drive.google.com/open?id=1qalobG-9YmV3cQ9-pBRYxRW9wQP2PrAg). This process relies on three major tools: the [Reference Checklist](https://drive.google.com/open?id=1Rnlreq5FlHxMu4oHFvahXakIVtAc4VqdoNoJ-3PagnU), the [Semantic Paths Specification](/collections-model/semantic-paths-specification/current/introduction), and the Target Model. 
 
 The Reference Checklist will be the reference for Canadian institutions to map their data to. It briefly describes the fields needed by CHIN to convert structural data to LOD standards through the Target Model and allows them to establish concordance with their own fields The Reference Checklist will guide the mapping of museums’ data—whose structures and formats are varied—to a single framework (whether it be in JSON-LD, RDF/XML or other formats). The main benefit of the Reference Checklist is its user-friendliness: by not relying directly on complex LOD structures, it makes the mapping process easier for non-specialists.  
 
@@ -153,4 +155,4 @@ For example, the triples mapped to the gender pattern mentioned above would look
 
 In this diagram, each instance (the instances of Jean Paul Riopelle, of the gender Male, and of the type Gender) are linked together through properties in accordance with the structure of the corresponding pattern in the model.
 
-> Previous: [Target Model](/collections-model/target-model/current/information)<br>Next: [General Concepts](/collections-model/target-model/current/general-concepts)
+> Next: [General Concepts](/collections-model/target-model/current/general-concepts)

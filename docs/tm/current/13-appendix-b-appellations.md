@@ -2,9 +2,10 @@
 layout: page
 title: Appendix B - Appellations
 permalink: /target-model/current/appendix-b-appellations
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Language](#language)

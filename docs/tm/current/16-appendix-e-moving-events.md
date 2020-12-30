@@ -2,9 +2,10 @@
 layout: page
 title: Appendix E - Moving Events 
 permalink: /target-model/current/appendix-e-moving-events
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Moving Events](#moving-events)

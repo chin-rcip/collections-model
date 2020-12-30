@@ -2,9 +2,10 @@
 layout: page
 title: Life Events
 permalink: /target-model/current/life-events
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Technique Used](#technique-used)

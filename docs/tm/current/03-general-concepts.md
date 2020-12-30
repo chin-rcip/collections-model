@@ -2,9 +2,10 @@
 layout: page
 title: General Concepts
 permalink: /target-model/current/general-concepts
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
@@ -95,7 +96,7 @@ The best way to represent the content of a resource is to follow CIDOC CRM’s a
 
 ## Mapping problems and E33 Linguistic Object
 
-If the data of the contributing institution is clean—in other words, if it is not mixing data types and/or contents within single fields—, CHIN’s [Pipeline](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) along with the [Reference Documentation](https://drive.google.com/open?id=1-9B8plo0LZg-5H643mgJumzy6XEF3PYlAwGTFuHaxKA) and Target Model will successfully translate it from a relational to a semantic framework.  However, if the input data is poor—for example if it mixes different kinds of information within fields or if it contains heterogeneous natural language expressions—, it will not be possible to map it to semantic standards.
+If the data of the contributing institution is clean—in other words, if it is not mixing data types and/or contents within single fields—, CHIN’s [Pipeline](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) along with the [Semantic Paths Specification](/collections-model/semantic-paths-specification/current/introduction) and Target Model will successfully translate it from a relational to a semantic framework.  However, if the input data is poor—for example if it mixes different kinds of information within fields or if it contains heterogeneous natural language expressions—, it will not be possible to map it to semantic standards.
 
 In such a case, a standard semantic mapping solution is to create an instance of `E33 Linguistic Object` that is typed using `E55 Type` in order to: 
 

@@ -2,9 +2,10 @@
 layout: page
 title: Archival Document Location
 permalink: /target-model/current/archival-document-location
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Archival Document Location](#)

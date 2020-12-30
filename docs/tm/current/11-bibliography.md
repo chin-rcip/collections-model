@@ -2,9 +2,10 @@
 layout: page
 title: Bibliography
 permalink: /target-model/current/bibliography
+sidebar: tm
 ---
-[Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
-
+<!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
+ -->
 ## On This Page
 
 * [Bibliography](#)

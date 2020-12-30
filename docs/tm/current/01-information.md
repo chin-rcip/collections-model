@@ -2,6 +2,7 @@
 layout: page
 title: Target Model
 permalink: /target-model/current/information
+sidebar: tm
 ---
 ## On This Page
 
