@@ -20,8 +20,8 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
-	margin: 0 10px 0 10px;
-  	padding: 20px;
+	margin: 0;
+  	padding: 30px;
 
 }
 
@@ -64,7 +64,8 @@ li a:link, li a:visited {
 	border-right-width: 2px;
 	border-right-color: #f2f2f2;
   	flex-shrink: 0;
-  	max-width: calc((100% - 860px) / 2);
+  	/*max-width: calc((100% - 800px) / 2);*/
+  	width: calc((100% - 800px) / 2 - 62px);
   	min-width: 210px;
 }
 
@@ -103,7 +104,7 @@ td {
 
   .sidebar {
   	max-height: 110px;
-  	max-width: 100%;
+  	width: 100%;
   	margin: 20px;
   	border-style: solid;
 	border-width: 2px;
