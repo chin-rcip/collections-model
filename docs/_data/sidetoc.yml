@@ -3,6 +3,9 @@ tm:
 - title: Introduction
   url: /target-model/current/introduction
   subfolder:
+  - page: Dates
+    url: /target-model/current/introduction#dates
+    hash: dates
   - page: Abstract
     url: /target-model/current/introduction#abstract
     hash: abstract
@@ -141,17 +144,18 @@ tm:
   - page: Group Belonging
     url: /target-model/current/social-bonds#group-belonging
     hash: group-belonging
+    
 - title: Descriptive Information
   url: /target-model/current/descriptive-information
   subfolder:
   - page: Biography
-    url: /target-model/current/social-bonds#biography
+    url: /target-model/current/descriptive-information#biography
     hash: biography
   - page: Visual Item
-    url: /target-model/current/social-bonds#visual-item
+    url: /target-model/current/descriptive-information#visual-item
     hash: visual-item
   - page: Curatorial Note
-    url: /target-model/current/social-bonds#curatorial-note
+    url: /target-model/current/descriptive-information#curatorial-note
     hash: curatorial-note
 
 - title: Artefacts
@@ -256,6 +260,9 @@ sps:
 - title: Introduction
   url: /semantic-paths-specification/current/introduction
   subfolder:
+  - page: Dates
+    url: /target-model/current/introduction#dates
+    hash: dates
   - page: Abstract
     url: /semantic-paths-specification/current/introduction#abstract
     hash: abstract
