@@ -8,6 +8,7 @@ sidebar: tm
  -->
 Version 2.1 ([Previous versions](/collections-model/versions))
 
+<div class="hidden-content">
 ## On This Page
 
 * [Abstract](#abstract)
@@ -17,8 +18,9 @@ Version 2.1 ([Previous versions](/collections-model/versions))
 * [Modelling Conventions](#modelling-conventions)
 	* [Patterns](#patterns)
 	* [Examples](#examples)
+</div>
 
-## Dates: 
+## Dates 
 
 Created date: 2019-05-13
 
@@ -118,7 +120,7 @@ It is important to note that in reality it is the instances that are connected t
 <a name="001_Convention_ClassesAndProperties_p"></a>001_Convention_ClassesAndProperties_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=001_Convention_ClassesAndProperties_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1tP4V68oU1n7l5HedZXb5nFrfnYu2yHXg%26export%3Ddownload"></iframe>
 
-For example, the diagram below illustrates that any instance of the class `E21 Person` can be linked to an instance of the class `E55 Type` through the property `P2 has type`.
+For example, the diagram below illustrates that any instance of the class `E21_Person` can be linked to an instance of the class `E55_Type` through the property `P2_has_type`.
 
 <a name="002_Convention_ClassesAndPropertiesExample_p"></a>002_Convention_ClassesAndPropertiesExample_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=002_Convention_ClassesAndPropertiesExample_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gr88pIpcq9FVA0Md9fZ74rwIPlAJi-4t%26export%3Ddownload"></iframe>
@@ -135,14 +137,14 @@ In addition, fields defined in the Reference Documentation are indicated in bold
 <a name="004_Convention_Field_p"></a>004_Convention_Field_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=004_Convention_Field_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HILva7PuFDfsCg5daNYxTva-BtlwTjBg%26export%3Ddownload"></iframe>
 
-In the above diagram, the “Birth Place”,  “Birth Date Begin” and “Birth Date End” fields from the Reference Documentation are denoted in bold. In addition to facilitating the understanding of both the Target Model and its Reference Documentation, this also illustrates how the translation of the data to a semantic framework generates several new elements such as `E67 Birth` event and `E52 Time-Span`. 
+In the above diagram, the “Birth Place”,  “Birth Date Begin” and “Birth Date End” fields from the Reference Documentation are denoted in bold. In addition to facilitating the understanding of both the Target Model and its Reference Documentation, this also illustrates how the translation of the data to a semantic framework generates several new elements such as `E67_Birth` event and `E52_Time-Span`. 
 
-Sometimes, an `E55 Type` can only have a single instance in a specific pattern. In such a case, it is named in quotation marks underneath the name of the class, as follows:
+Sometimes, an `E55_Type` can only have a single instance in a specific pattern. In such a case, it is named in quotation marks underneath the name of the class, as follows:
 
 <a name="005_Convention_Metatype_p"></a>005_Convention_Metatype_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=005_Convention_Metatype_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1qnZZqU6wsy-5dMs86vKqeWtJ-iuNHTlS%26export%3Ddownload"></iframe>
 
-The diagram above represents the gender pattern. The middle element corresponds to the Reference Documentation “Gender” field (hence it is in bold) to signal that the content found in this field indicates the gender of the person (e.g. male, female, two-spirit, …). This information is then typed with another `E55 Type` that always has the “Gender” value to indicate that the aforementioned data (e.g. male, female, two-spirit, …) concerns gender. For example, Jean Paul Riopelle has the type “Male”, and this type has the type “Gender”. When nothing follows the parentheses, it means that the data format is `xsd:string`. For example, the dates will be defined as `xsd:dateTime`. 
+The diagram above represents the gender pattern. The middle element corresponds to the Reference Documentation “Gender” field (hence it is in bold) to signal that the content found in this field indicates the gender of the person (e.g. male, female, two-spirit, …). This information is then typed with another `E55_Type` that always has the “Gender” value to indicate that the aforementioned data (e.g. male, female, two-spirit, …) concerns gender. For example, Jean Paul Riopelle has the type “Male”, and this type has the type “Gender”. When nothing follows the parentheses, it means that the data format is `xsd:string`. For example, the dates will be defined as `xsd:dateTime`. 
 
 ### Examples
 

@@ -6,25 +6,26 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
-* [Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)
+* [Discussion: The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)
 * [Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
 * [Discussion: Challenges When Representing Indigenous Realities](#discussion-challenges-when-representing-indigenous-realities)
 * [Discussion: Identity Definitions](#discussion-identity-definitions)
     * [Pertaining to Culture](#pertaining-to-culture)
     * [Pertaining to Community](#pertaining-to-community)
 * [Discussion: Identity Patterns](#discussion-identity-patterns)
-* [Discussion: Nationality, Nationhood and Community With `E74 Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
+* [Discussion: Nationality, Nationhood and Community With `E74_Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
 * [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)
 * [Discussion: Biography](#discussion-biography)
+</div>
 
-
-## Discussion: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
+## Discussion: The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`
 
 | 💬 | *This discussion pertains to the aforementioned [section](/collections-model/target-model/current/general-concepts#the-differences-between-e39-actor-e21-person-and-e74-group)*. |
 | --- | --- |
-| | Heather Dunn (18:14 22 Jul): if we know that some datasets have only e21 person (or if there are few E74 groups that are easily identified) we can still use those subclasses, right? Thinking of the AIC dataset - I think we could pretty easily identify the groups ("General Idea" and a couple of others) |
+| | Heather Dunn (18:14 22 Jul): if we know that some datasets have only e21 person (or if there are few E74 Groups that are easily identified) we can still use those subclasses, right? Thinking of the AIC dataset - I think we could pretty easily identify the groups ("General Idea" and a couple of others) |
 | | Philippe Michon (10:58 24 Jul): Of course, our process should always allows us to use the subclasses. That said, in our current pipeline (Stephen correct me if I'm wrong) we will have an XML/JSON file for managing e21 (persons) and another one for the e74 (groups). So the first step of the first script must be to segregate the Persons from the groups. <br/><br/>Heather, the reason why we think it's a good idea to have two different files is that there are quite a lot of differences between the person modeling and the group modeling.<br/><br/>Stephen and +george.bruseker@gmail.com, any comments on that? |
 | | Stephen Hart (20:20 24 Jul): Indeed, it is essential, for mapping reason, to manage differently groups and persons. Nonetheless, it would also be possible to have an "Actor" file for the cases where we either don't know or not sure if it's a person or a group. This last solution should really be the last resort, as once it has been mapped as an Actor, it would be resourceful to change it to a person or group. |
 | | George Bruseker (02:42 25 Jul): If you have a marker in the source dataset that allows you to distinguish E21 from E74 from E39 then you can either split the data (as it seems you suggest above) and do transforms separately OR, as if using 3M, can also just bake in 'if' statements, to determine how the mapping works for the different cases, loading all data in from one source file. |
@@ -89,7 +90,7 @@ sidebar: tm
 | | Philippe Michon (12:00 22 Jul): I cannot edit my sentence without removing these comments and it might be good to keep them. Stephen, I let you make the changes. :) |
 
 
-## Discussion: Nationality, Nationhood and Community With `E74 Group`
+## Discussion: Nationality, Nationhood and Community With `E74_Group`
 
 | 💬 | *This discussion pertains to the aforementioned [section](/collections-model/target-model/current/identification#nationality-nationhood-and-community-with-e74-group)*. |
 | --- | --- |

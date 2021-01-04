@@ -6,15 +6,17 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [Biography](#biography)
 * [Visual Item](#visual-item)
 * [Curatorial Note](#curatorial-note)
+</div>
 
 ## Biography
 
-CIDOC CRM dictates that textual information should be rendered with the class `E33 Linguistic Object`. The biography of an actor written by a museum staff member would enter in that category. Linking the `E39 Actor` to his biography requires the use of the `P67 refers to` property, thus indicating that the biography refers to the actor. As seen [above](/collections-model/target-model/current/general-concepts#literal-content), the content of the biography is documented in a string of text linked to the `E33 Linguistic Object` through the property `P190 has symbolic content`.
+CIDOC CRM dictates that textual information should be rendered with the class `E33_Linguistic_Object`. The biography of an actor written by a museum staff member would enter in that category. Linking the `E39_Actor` to his biography requires the use of the `P67_refers_to` property, thus indicating that the biography refers to the actor. As seen [above](/collections-model/target-model/current/general-concepts#literal-content), the content of the biography is documented in a string of text linked to the `E33_Linguistic_Object` through the property `P190_has_symbolic_content`.
 
 The author of the biography, most often a museum staff worker, relies on other sources of information when researching the life of the actor; said information and its sources should thus also be documented. The simplest and most semantically correct way to render such a citation is to use the Dublin Core property `dct:source` to quote the bibliographic citation as a string of text.
 
@@ -34,15 +36,15 @@ For more details on this, please see [Appendix F: Discussions, Biography.](/coll
 
 Actors are often depicted on images or photos and it is important to link those images to actors, not only to give a visual representation of them but also to identify people and groups represented on works of art.
 
-CIDOC CRM distinguishes visual representations (`E36 Visual Item`) from physical objects carrying such representations (`E24 Physical Human-Made Thing`) and from digital representations of such images (`D1 Digital Object`). The links between those three images concepts is depicted in the following diagram.
+CIDOC CRM distinguishes visual representations (`E36_Visual_Item`) from physical objects carrying such representations (`E24_Physical_Human-Made_Thing`) and from digital representations of such images (`D1_Digital_Object`). The links between those three images concepts is depicted in the following diagram.
 
 <a name="063_Pattern_VisualItemDigitalObject_p"></a>063_Pattern_VisualItemDigitalObject_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=063_Pattern_VisualItemDigitalObject_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Pk2bUZK8D12yLEmCSRBxQJz-tqWkR-4S%26export%3Ddownload"></iframe>
 
 
-It is possible to link the physical `E24 Physical Human-Made Thing` image directly to the `E39 Actor` through the `P62 depicts` property, but this simpler pattern cannot link any *digital* image (`D1 Digital Object`) to the actor.  Considering how Actors will mostly manage digital images, a more complex pattern is necessary. 
+It is possible to link the physical `E24_Physical_Human-Made_Thing` image directly to the `E39_Actor` through the `P62_depicts` property, but this simpler pattern cannot link any *digital* image (`D1_Digital_Object`) to the actor.  Considering how Actors will mostly manage digital images, a more complex pattern is necessary. 
 
-Distinguishing the URI of the `D1 Digital Object` from the URL of the digital image is necessary to refer to both resources independently. The URL of a digital image can be seen as its contact point (or address) typed as a URL assigned to an  `E41 Appellation`; it would thus be a string of text.
+Distinguishing the URI of the `D1_Digital_Object` from the URL of the digital image is necessary to refer to both resources independently. The URL of a digital image can be seen as its contact point (or address) typed as a URL assigned to an  `E41_Appellation`; it would thus be a string of text.
 
 <a name="064_Pattern_VisualItemImageUrl_p"></a>064_Pattern_VisualItemImageUrl_p
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=064_Pattern_VisualItemImageUrl_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pENxJQXA721axvoY4jCV8vMY8-8XsQpR%26export%3Ddownload"></iframe>
@@ -55,7 +57,7 @@ Distinguishing the URI of the `D1 Digital Object` from the URL of the digital im
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=065_Example_VisualItemLouisxiv_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1j-mYcUS-y42HH3tfzsVF7CYu_dT6iEfe%26export%3Ddownload"></iframe>
 
 
-Besides `E36 Visual Item`, other kinds of more symbolic visual items such as signatures, companies’ logos, etc. can be represented with the `E37 Mark` class connected to an `E39 Actor` following the same pattern as with the `E36 Visual Item`. However, this requires the use of the `PC138 represents` property class to add the `P138.1 mode of representation` property specifying that the `E37 Mark` represents the actor symbolically.
+Besides `E36_Visual_Item`, other kinds of more symbolic visual items such as signatures, companies’ logos, etc. can be represented with the `E37_Mark` class connected to an `E39_Actor` following the same pattern as with the `E36_Visual_Item`. However, this requires the use of the `PC138_represents` property class to add the `P138.1_mode_of_representation` property specifying that the `E37_Mark` represents the actor symbolically.
 
 <a name="066_Pattern_Mark_p"></a>066_Pattern_Mark_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=066_Pattern_Mark_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1GzXllA_LfM1Y8RbrHkr7hkmS6_sQB3JC%26export%3Ddownload"></iframe>
@@ -71,7 +73,7 @@ Besides `E36 Visual Item`, other kinds of more symbolic visual items such as sig
 
 ## Curatorial Note
 
-Most museums have a “remark” field linked to the actors and objects  they document in order to account for non-formatted text that is distinct from descriptive texts intended to be published (such as captions for example, which will be modelised later on as part of the Collections model). In order to model this kind of information, the `E33 Linguistic Object` class must be used before typing the text as a “curatorial note” using the` E55 Type` class. This `E33 Linguistic Object` can then be linked to the actor it is commenting on with the property `P67 refers to`. The creator of the curatorial note is considered to be the institution or person providing the data as it will be in its named graph. If a curator or member of the museum staff was an explicit author/creator, it would be possible to add a creation event that could then be linked to the creator of that curatorial note.
+Most museums have a “remark” field linked to the actors and objects  they document in order to account for non-formatted text that is distinct from descriptive texts intended to be published (such as captions for example, which will be modelised later on as part of the Collections model). In order to model this kind of information, the `E33_Linguistic_Object` class must be used before typing the text as a “curatorial note” using the `E55_Type` class. This `E33_Linguistic_Object` can then be linked to the actor it is commenting on with the property `P67_refers_to`. The creator of the curatorial note is considered to be the institution or person providing the data as it will be in its named graph. If a curator or member of the museum staff was an explicit author/creator, it would be possible to add a creation event that could then be linked to the creator of that curatorial note.
 
 <a name="068_Pattern_CuratorialNote_p"></a>068_Pattern_CuratorialNote_p
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=068_Pattern_CuratorialNote_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ueJAi79FDWdpOIPc30mHcCcBvQfgCJiP%26export%3Ddownload"></iframe>

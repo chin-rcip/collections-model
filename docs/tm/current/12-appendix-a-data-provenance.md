@@ -6,17 +6,19 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [Data Provenance](#)
+</div>
 
-As stated in the [Provenance of the Dataset](/collections-model/target-model/current/general-concepts#data-provenance) section, one way of establishing data provenance would be to use the `E13 Attribute Assignment` event pattern described below and assign it to each triple so that their provenance can be documented. However, this would make the model in general much heavier as each triple would be assigned this pattern. From a processing standpoint this would become increasingly burdensome as the amount of data grows, which is why the Named Graph approach described in the Provenance of the Dataset section has been adopted. 
+As stated in the [Provenance of the Dataset](/collections-model/target-model/current/general-concepts#data-provenance) section, one way of establishing data provenance would be to use the `E13_Attribute_Assignment` event pattern described below and assign it to each triple so that their provenance can be documented. However, this would make the model in general much heavier as each triple would be assigned this pattern. From a processing standpoint this would become increasingly burdensome as the amount of data grows, which is why the Named Graph approach described in the Provenance of the Dataset section has been adopted. 
 
-The `E13 Attribute Assignment` class represents the action of making assertions about the properties or relations between two items or concepts, as stated in the [CIDOC CRM Scope note](http://www.cidoc-crm.org/Entity/e13-attribute-assignment/version-6.2.2).
+The `E13_Attribute_Assignment` class represents the action of making assertions about the properties or relations between two items or concepts, as stated in the [CIDOC CRM Scope note](http://www.cidoc-crm.org/Entity/e13-attribute-assignment/version-6.2.2).
 
-This `E13 Attribute Assignment` event can link together an `E1 CRM Entity` to another `E1 CRM Entity`, which correspond to said items or concepts. The performer of this `E13 Attribute Assignment`—in other words the actor who stated this relationship between the two `E1 CRM Entity`—is the museum providing the data. As the  `E13 Attribute Assignment` is an event, it can be dated though an `E52 Time-Span`<sup id="a1">[1](#f1)</sup>, thus providing a way to represent both the provider of the data and the moment of provision. 
+This `E13_Attribute_Assignment` event can link together an `E1_CRM_Entity` to another `E1_CRM_Entity`, which correspond to said items or concepts. The performer of this `E13_Attribute_Assignment`—in other words the actor who stated this relationship between the two `E1_CRM_Entity`—is the museum providing the data. As the  `E13_Attribute_Assignment` is an event, it can be dated though an `E52_Time-Span`<sup id="a1">[1](#f1)</sup>, thus providing a way to represent both the provider of the data and the moment of provision. 
 
-In early 2019, the [CIDOC CRM team](http://www.cidoc-crm.org/Issue/ID-367-e13-attribute-assignment) discussed the fact that the `E13 Attribute Assignment` needs a property to denote which kind of property the attribute assignment is about. Their conclusion was to create a yet to be implemented new property `PXXX assigned property type` with a sub property of `P2 has type`. When it is made available, it would have been preferable to use `PXXX assigned property type.` Until then, the use of `P2 has type` in conjunction with `E55 Type` to specify the property the `E13 attribute assignment` is about would have been best. This pattern would be used for each triple, so that its provenance is documented: 
+In early 2019, the [CIDOC CRM team](http://www.cidoc-crm.org/Issue/ID-367-e13-attribute-assignment) discussed the fact that the `E13_Attribute_Assignment` needs a property to denote which kind of property the attribute assignment is about. Their conclusion was to create a yet to be implemented new property `PXXX assigned property type` with a sub property of `P2_has_type`. When it is made available, it would have been preferable to use `PXXX assigned property type.` Until then, the use of `P2_has_type` in conjunction with `E55_Type` to specify the property the `E13_attribute_assignment` is about would have been best. This pattern would be used for each triple, so that its provenance is documented: 
 
 <a name="076_Pattern_AttributeAssignment_p"></a>076_Pattern_AttributeAssignment_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=076_Pattern_AttributeAssignment_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D193Ej0Z_p8OsMopEOqx9XDN6MApKSi2FT%26export%3Ddownload"></iframe>
@@ -27,7 +29,7 @@ In early 2019, the [CIDOC CRM team](http://www.cidoc-crm.org/Issue/ID-367-e13-at
 <a name="077_Example_DataProvenanceCertainCarr_p"></a>077_Example_DataProvenanceCertainCarr_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=077_Example_DataProvenanceCertainCarr_np.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1wqaynDfWdj6v3DkBF_n5DKVJ03GpEYE3%26export%3Ddownload"></iframe>
 
-If multiple and contradictory statements are made about a resource, various and distinct `E13 Attribute Assignment` would be created and linked to their respective statement. For example, if Museum A attributes the date 1920 to the birth of an artist, and museum B attributes 1922, then we should have two `E13 Attribute Assignment` (one for each Museum) linked to the `E67 Birth`  event and linked to two different `E52 Time-Span`, 1920 and 1922, as shown in the example below:
+If multiple and contradictory statements are made about a resource, various and distinct `E13_Attribute_Assignment` would be created and linked to their respective statement. For example, if Museum A attributes the date 1920 to the birth of an artist, and museum B attributes 1922, then we should have two `E13_Attribute_Assignment` (one for each Museum) linked to the `E67_Birth`  event and linked to two different `E52_Time-Span`, 1920 and 1922, as shown in the example below:
 
 
 | 💡  Example: <br/><br/>In this example, the actor "Bob" was born in 1920 for Museum A and in 1922 for Museum B. |

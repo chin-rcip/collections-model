@@ -6,33 +6,35 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
-* [With `E5 Event`](#with-e5-event)
+* [With `E5_Event`](#with-e5-event)
 * [With Bio CRM](#with-bio-crm)
 * [With `ore:Aggregation`](#with-oreaggregation)
+</div>
 
-As stated in the [Identity Patterns section](/collections-model/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
+As stated in the [Identity Patterns section](/collections-model/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55_Type` pattern to identify gender and cultural affiliation whilst `E74_Group` will be used to identify nationality, nationhood and community. The `E55_Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
 
 
-## With `E5 Event`
+## With `E5_Event`
 
 Identity fields could be represented using an event in the following way: 
 
 <a name="083_Pattern_IdentityWithEvent_p"></a>083_Pattern_IdentityWithEvent_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=083_Pattern_IdentityWithEvent_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1R18JnHXoI0G35ttgQvtt0annpSKRAm4V%26export%3Ddownload"></iframe>
 
-However, both `E5 Event` and `E7 Activity` definitions establish that a *performance* has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are *performed* so that handling these concepts as either `E5 Event` or `E7 Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
+However, both `E5_Event` and `E7_Activity` definitions establish that a *performance* has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are *performed* so that handling these concepts as either `E5_Event` or `E7_Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
 
 
 ## With Bio CRM
 
-Bio CRM proposes another way to render genders and nationalities by linking a `bioc:Actor` with a `bioc:Actor_Role` that is neither an `E5 Event` nor an `E39 Actor`, but a subclass of `E1 CRM Entity`. However, this is not satisfactory as this new class cannot be dated without a `bioc:Event` that functions just as the CIDOC CRM `E5 Event`. This, for the same reasons as with the `E5 Event`, this pattern has been disqualified. 
+Bio CRM proposes another way to render genders and nationalities by linking a `bioc:Actor` with a `bioc:Actor_Role` that is neither an `E5_Event` nor an `E39_Actor`, but a subclass of `E1_CRM_Entity`. However, this is not satisfactory as this new class cannot be dated without a `bioc:Event` that functions just as the CIDOC CRM `E5_Event`. This, for the same reasons as with the `E5_Event`, this pattern has been disqualified. 
 
 
 ## With `ore:Aggregation`
 
-In their [discussions about gender and nationality](https://github.com/linked-art/linked.art/issues/152) the linked.art project has suggested to use the OAI-ORE Specifications ([http://www.openarchives.org/ore/1.0/datamodel](http://www.openarchives.org/ore/1.0/datamodel)), an approach that is similar to CIDOC CRM’s `E74 Group` but is composed of aggregated resources.
+In their [discussions about gender and nationality](https://github.com/linked-art/linked.art/issues/152) the linked.art project has suggested to use the OAI-ORE Specifications ([http://www.openarchives.org/ore/1.0/datamodel](http://www.openarchives.org/ore/1.0/datamodel)), an approach that is similar to CIDOC CRM’s `E74_Group` but is composed of aggregated resources.
 
 The ORE ontology is composed of four classes: `ore:Aggregation`, `ore:AggregatedResource`, `ore:ResourceMap` and `ore:Proxy`.
 

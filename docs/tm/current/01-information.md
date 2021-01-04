@@ -4,12 +4,14 @@ title: Target Model
 permalink: /target-model/current/information
 sidebar: tm
 ---
+<div class="hidden-content">
 ## On This Page
 
 * [Table of Contents](#table-of-contents)
 * [Institutions](#institutions)
 * [Dates](#dates)
 * [Abstract](#abstract)
+</div>
 
 ## Table of Contents
 

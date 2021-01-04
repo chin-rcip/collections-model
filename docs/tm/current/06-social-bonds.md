@@ -6,11 +6,12 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [Relationships](#relationships)
 * [Group Belonging](#group-belonging)
-
+</div>
 
 ## Relationships
 
@@ -18,11 +19,11 @@ One of the most important facets of actor documentation is the associations betw
 
 The CIDOC CRM ontology does not have classes or properties intended to manage the relationships between actors, mainly because it is oriented towards objects. Other ontologies have tried to deal with this issue, most notably Bio CRM [(Tuominen, Hyvönen, and Leskinen 2017)](/collections-model/target-model/current/bibliography#tuominen-hyvonen-and-leskinen-2017) or AgRelOn [(Löhden 2019)](/collections-model/target-model/current/bibliography#lohden-2019), but their approaches are not satisfactory (see [Appendix D: Relationships](/collections-model/target-model/current/appendix-d-relationships#) for a more detailed explanation). CIDOC CRM SIG has started to work on a new extension of CIDOC CRM to tackle social aspects, called CRM Soc [(CIDOC CRM Special Interest Group 2020)](/collections-model/target-model/current/bibliography#cidoc-crm-special-interest-group-2020). However promising, this project has not yet been completed and will probably be usable only later on. Meanwhile, this model has to handle relationships appropriately. 
 
-The property of property module, developed by CIDOC CRM SIG, offers a series of classes based on properties (the Property Class) in order to add properties on properties that have been made into classes. For example, the new module makes it possible to add a `P14.1 in the role of` on the property `P14 carried out by` that is now the class `PC14 Carried out by`, thus typing the role of the actor when committing an act.
+The property of property module, developed by CIDOC CRM SIG, offers a series of classes based on properties (the Property Class) in order to add properties on properties that have been made into classes. For example, the new module makes it possible to add a `P14.1_in_the_role_of` on the property `P14_carried_out_by` that is now the class `PC14_Carried_out_by`, thus typing the role of the actor when committing an act.
 
 This is mostly useful to model the role of an actor in the production of an artefact (see the chapter [Artefacts](/collections-model/target-model/current/artefacts#)), but it can also be used to type the role of an actor within a relationship.
 
-In order to do so, relationships have to be considered as activities performed consciously or unconsciously by `E39 Actors`. Being unconscious of performing an activity could be seen as going against the scope note of `E7 Activity` because it has to be performed intentionally. However, since the `E5 Event`‘s properties does not allow the modeling of roles, we opted to go with an `E7 Activity` for the moment. As such, they are modeled using the class `E7 Activity` linked to the `E39 Actors` involved using the property class `PC14 Carried out by`. The latter is then assigned a type with the property `P14.1 in the role of` and an `E55 Type` specifying the roles of each party involved, as shown in the following diagram:
+In order to do so, relationships have to be considered as activities performed consciously or unconsciously by `E39_Actors`. Being unconscious of performing an activity could be seen as going against the scope note of `E7_Activity` because it has to be performed intentionally. However, since the `E5_Event`‘s properties does not allow the modeling of roles, we opted to go with an `E7_Activity` for the moment. As such, they are modeled using the class `E7_Activity` linked to the `E39_Actors` involved using the property class `PC14_Carried_out_by`. The latter is then assigned a type with the property `P14.1_in_the_role_of` and an `E55_Type` specifying the roles of each party involved, as shown in the following diagram:
 
 <a name="056_Pattern_Relationships_p"></a>056_Pattern_Relationships_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=056_Pattern_Relationships_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ubl5sPbPNStjDaQ3Io5y0I2p6S6flVg8%26export%3Ddownload"></iframe>
@@ -50,9 +51,9 @@ The use of this pattern has a few advantages as it:
 
 ## Group Belonging
 
-CIDOC CRM has specific classes dedicated to rendering group belonging more adequately than with an accumulation of multiple relationships amongst individuals. The `P107 has current or former member` property establishes a direct link between an `E39 Actor` and an `E74 Group`, but it is not possible to date this membership. In order to do so, `E85 Joining` and `E86 Leaving` events must be added to the pattern. Finally, in order to qualify the type of membership, an `E55 Type` must be added with the `PC144 Joining with` property.
+CIDOC CRM has specific classes dedicated to rendering group belonging more adequately than with an accumulation of multiple relationships amongst individuals. The `P107_has_current_or_former_member` property establishes a direct link between an `E39_Actor` and an `E74_Group`, but it is not possible to date this membership. In order to do so, `E85_Joining` and `E86_Leaving` events must be added to the pattern. Finally, in order to qualify the type of membership, an `E55_Type` must be added with the `PC144_Joining_with` property.
 
-If the provider’s record documents an `E74 Group` and lists its members, then an `E85 Joining` (and an `E86 Leaving` if needed) will be created for each member (as discussed in the [issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) on GitHub).
+If the provider’s record documents an `E74_Group` and lists its members, then an `E85_Joining` (and an `E86_Leaving` if needed) will be created for each member (as discussed in the [issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) on GitHub).
 
 <a name="059_Pattern_GroupBelonging_p"></a>059_Pattern_GroupBelonging_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=059_Pattern_GroupBelonging_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1RvtLjlTiHJkl_VU6dlx0SgRBBbteInqc%26export%3Ddownload"></iframe>

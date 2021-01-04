@@ -6,9 +6,11 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [Bibliography](#)
+</div>
 
 <a name="bruseker-2019"></a>Bruseker, George. 2019. « Artefact Semantic Reference Data Model ». Unpublished.
 

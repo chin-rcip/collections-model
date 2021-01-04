@@ -6,12 +6,14 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [The Agent Relationship Ontology](#the-agent-relationship-ontology)
 * [Bio CRM](#bio-crm)
+</div>
 
-Few ontologies have tackled the modeling of actors relationships, understood to be an association between different `E39 Actors`, thus creating a network of makers. The CIDOC CRM ontology does not render those ties well, although other options have attempted to do so: 
+Few ontologies have tackled the modeling of actors relationships, understood to be an association between different `E39_Actors`, thus creating a network of makers. The CIDOC CRM ontology does not render those ties well, although other options have attempted to do so: 
 
 
 *   The Agent Relationship Ontology.
@@ -32,11 +34,11 @@ However, a property-based ontology entails the modification of the Target Model 
 
 ## Bio CRM
 
-Two unofficial extensions of CIDOC CRM can handle the relationships between `E39 Actors`: bio CRM and a separate module of CIDOC CRM devoted to properties of properties.
+Two unofficial extensions of CIDOC CRM can handle the relationships between `E39_Actors`: bio CRM and a separate module of CIDOC CRM devoted to properties of properties.
 
 These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see [Birth](/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)), that to a group (see [Group Belonging](/collections-model/target-model/current/life-events#group-belonging)) and other relationships described below.
 
-Bio CRM links `bioc:Actor` (a subclass of `E39 Actor`) to a relationship `bioc:Event` (a subclass of `E39 Event`) and specifies the role of the `bioc:Actor` in the relationship through `bioc:Actor_Role` (a direct subclass of `E1 CRM Entity`) in conjunction with `E55 Type`. By using `E55 Type` with a controlled vocabulary it is possible to represent multiple relationship types without changing the model.
+Bio CRM links `bioc:Actor` (a subclass of `E39_Actor`) to a relationship `bioc:Event` (a subclass of `E39_Event`) and specifies the role of the `bioc:Actor` in the relationship through `bioc:Actor_Role` (a direct subclass of `E1_CRM_Entity`) in conjunction with `E55_Type`. By using `E55_Type` with a controlled vocabulary it is possible to represent multiple relationship types without changing the model.
 
 There should therefore be two events representing the beginning of the relationship and its ending: 
 
@@ -56,7 +58,7 @@ However, this model may induce querying problems considering two events pertaini
 | Person 1 | Event of the Ending of the relationship B | Person 2 |
 
 
-To connect the two `E5 Events` an remedy this problem, an `E70 Thing` has to be created at the beginning of the relationship as a stand-in for the relationship itself:
+To connect the two `E5_Events` an remedy this problem, an `E70_Thing` has to be created at the beginning of the relationship as a stand-in for the relationship itself:
 
 <a name="088_Pattern_BioCrmE70Thing_p"></a>088_Pattern_BioCrmE70Thing_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=088_Pattern_BioCrmE70Thing_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1yw5-EP6YmCRsv0BIZOBVNppOxPYf0_bx%26export%3Ddownload"></iframe>
@@ -64,7 +66,7 @@ To connect the two `E5 Events` an remedy this problem, an `E70 Thing` has to be 
 <a name="089_Pattern_BioCrmE70ThingResult_p"></a>089_Pattern_BioCrmE70ThingResult_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=089_Pattern_BioCrmE70ThingResult_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14Q2srj9E4GAqLi2YbrEu2lriS4wNoxOK%26export%3Ddownload"></iframe>
 
-This would significantly complicate the model by creating for a single relationship both an `E5 Event` and an `E70 Thing` without the latter adding any information that is not already rendered by other entities. In addition, this pattern relies on a role to participate in events, which is problematic in and of itself. 
+This would significantly complicate the model by creating for a single relationship both an `E5_Event` and an `E70_Thing` without the latter adding any information that is not already rendered by other entities. In addition, this pattern relies on a role to participate in events, which is problematic in and of itself. 
 
 The property of properties module of CIDOC CRM follows the same logic as bio CRM, but complies with CIDOC CRM semantics and structure:
 

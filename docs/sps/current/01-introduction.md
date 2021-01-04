@@ -7,6 +7,7 @@ sidebar: sps
 
 Version 2.1 ([Previous versions](/collections-model/versions))
 
+<div class="hidden-content">
 ## On This Page
 
 * [Abstract](#abstract) 
@@ -17,8 +18,9 @@ Version 2.1 ([Previous versions](/collections-model/versions))
 	* [Specified Qualifier Node (SQN)](#specified-qualifier-node-sqn)
 	* [Node](#node)
 * [Documentation Structure](#documentation-structure)
+</div>
 
-## Dates: 
+## Dates
 
 Created date: 2019-05-13
 

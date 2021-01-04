@@ -32,9 +32,9 @@ tm:
 - title: General Concepts
   url: /target-model/current/general-concepts
   subfolder:
-  - page: The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
-    url: /target-model/current/general-concepts#the-differences-between-e39-actor-e21-person-and-e74-group
-    hash: the-differences-between-e39-actor-e21-person-and-e74-group
+  - page: The Differences Between E39_Actor, E21_Person and E74_Group
+    url: /target-model/current/general-concepts#the-differences-between-e39_actor-e21_person-and-e74_group
+    hash: the-differences-between-e39_actor-e21_person-and-e74_group
   - page: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
     url: /target-model/current/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
     hash: semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
@@ -48,9 +48,9 @@ tm:
     - page: Literal Content
       url: /target-model/current/general-concepts#literal-content
       hash: literal-content
-  - page: Mapping problems and E33 Linguistic Object
-    url: /target-model/currentgeneral-concepts/general-concepts#mapping-problems-and-e33-linguistic-object
-    hash: mapping-problems-and-e33-linguistic-object
+  - page: Mapping problems and E33_Linguistic_Object
+    url: /target-model/current/general-concepts#mapping-problems-and-e33_linguistic_object
+    hash: mapping-problems-and-e33_linguistic_object
   - page: Data Provenance
     url: /target-model/current/general-concepts#data-provenance
     hash: data-provenance
@@ -87,15 +87,15 @@ tm:
     - page: Identity Patterns
       url: /target-model/current/identification#identity-patterns
       hash: identity-patterns
-    - page: Rendering Gender and Cultural Affiliation with E55 Type
-      url: /target-model/current/identification#rendering-gender-and-cultural-affiliation-with-e55-type
-      hash: rendering-gender-and-cultural-affiliation-with-e55-type
-    - page: Nationality, Nationhood and Community With E74 Group
-      url: /target-model/current/identification#nationality-nationhood-and-community-with-e74-group
-      hash: nationality-nationhood-and-community-with-e74-group
-    - page: Group Type with E55 Type
-      url: /target-model/current/identification#group-type-with-e55-type
-      hash: group-type-with-e55-type
+    - page: Rendering Gender and Cultural Affiliation with E55_Type
+      url: /target-model/current/identification#rendering-gender-and-cultural-affiliation-with-e55_type
+      hash: rendering-gender-and-cultural-affiliation-with-e55_type
+    - page: Nationality, Nationhood and Community With E74_Group
+      url: /target-model/current/identification#nationality-nationhood-and-community-with-e74_group
+      hash: nationality-nationhood-and-community-with-e74_group
+    - page: Group Type with E55_Type
+      url: /target-model/current/identification#group-type-with-e55_type
+      hash: group-type-with-e55_type
 
 - title: Life Events
   url: /target-model/current/life-events
@@ -128,9 +128,9 @@ tm:
     - page: Legal Headquarter Attribution
       url: /target-model/current/life-events#legal-headquarter-attribution
       hash: legal-headquarter-attribution
-    - page: E7 Activity Stay for E21 Person and E74 Group
-      url: /target-model/current/life-events#e7-activity-stay-for-e21-person-and-e74-group
-      hash: e7-activity-stay-for-e21-person-and-e74-group
+    - page: E7_Activity Stay for E21_Person and E74_Group
+      url: /target-model/current/life-events#e7_activity-stay-for-e21_person-and-e74_group
+      hash: e7_activity-stay-for-e21_person-and-e74_group
   - page: Influences
     url: /target-model/current/life-events#influences
     hash: influences
@@ -196,13 +196,13 @@ tm:
 - title: Appendix C
   url: /target-model/current/appendix-c-identity
   subfolder:
-  - page: With `E5 Event`
-    url: /target-model/current/appendix-c-identity#with-e5-event
-    hash: with-e5-event
+  - page: With E5_Event
+    url: /target-model/current/appendix-c-identity#with-e5_event
+    hash: with-e5_event
   - page: With Bio CRM
     url: /target-model/current/appendix-c-identity#with-bio-crm
     hash: with-bio-crm
-  - page: With `ore:Aggregation`
+  - page: With ore:Aggregation
     url: /target-model/current/appendix-c-identity#with-oreaggregation
     hash: with-oreaggregation
 
@@ -222,9 +222,9 @@ tm:
 - title: Appendix F
   url: /target-model/current/appendix-f-discussions
   subfolder:
-  - page: Discussion - The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`
-    url: /target-model/current/appendix-f-discussions#discussion-the-differences-between-e39-actor-e21-person-and-e74-group
-    hash: discussion-the-differences-between-e39-actor-e21-person-and-e74-group
+  - page: Discussion - The Differences Between E39_Actor, E21_Person and E74_Group
+    url: /target-model/current/appendix-f-discussions#discussion-the-differences-between-e39_actor-e21_person-and-e74_group
+    hash: discussion-the-differences-between-e39_actor-e21_person-and-e74_group
   - page: Discussion - Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
     url: /target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
     hash: discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
@@ -244,9 +244,9 @@ tm:
   - page: Discussion - Identity Patterns
     url: /target-model/current/appendix-f-discussions#discussion-identity-patterns
     hash: discussion-identity-patterns
-  - page: Discussion - Nationality, Nationhood and Community With `E74 Group`
-    url: /target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74-group
-    hash: discussion-nationality-nationhood-and-community-with-e74-group
+  - page: Discussion - Nationality, Nationhood and Community With E74_Group
+    url: /target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74_group
+    hash: discussion-nationality-nationhood-and-community-with-e74_group
   - page: Discussion - Birth/Death of People and Formation/Dissolution of Groups
     url: /target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups
     hash: discussion-birthdeath-of-people-and-formationdissolution-of-groups

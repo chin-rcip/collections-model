@@ -6,28 +6,30 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [Identifiers and Appellations](#identifiers-and-appellations)
 * [Identity](#identity)
 	* [Definitions](#definitions)
 	* [Identity Patterns](#identity-patterns)
-	* [Rendering Gender and Cultural Affiliation with E55 Type](#rendering-gender-and-cultural-affiliation-with-e55-type)
-	* [Nationality, Nationhood and Community With E74 Group](#nationality-nationhood-and-community-with-e74-group)
-	* [Group Type with E55 Type](#group-type-with-e55-type)
+	* [Rendering Gender and Cultural Affiliation with `E55_Type`](#rendering-gender-and-cultural-affiliation-with-e55-type)
+	* [Nationality, Nationhood and Community With `E74_Group`](#nationality-nationhood-and-community-with-e74-group)
+	* [Group Type with `E55_Type`](#group-type-with-e55-type)
+</div>
 
 ## Identifiers and Appellations
 
-The primary identifier of an actor is its URI, but there are other identifiers associated to it as well, such as the identifiers assigned by contributing museums, or others applied by CHIN. They must be carefully recorded, maintained, and tracked in order to preserve the integrity of museum data. To render these identifiers, we use the property `P1 is identified by` and the class `E42 Identifier`.
+The primary identifier of an actor is its URI, but there are other identifiers associated to it as well, such as the identifiers assigned by contributing museums, or others applied by CHIN. They must be carefully recorded, maintained, and tracked in order to preserve the integrity of museum data. To render these identifiers, we use the property `P1_is_identified_by` and the class `E42_Identifier`.
 
 
 
 | 💡  Example: <br/><br/>For example, Jean Paul Riopelle's URI would be <mic.ca/uri/actor/1234> whilst his CHIN ID would be 1234, and his ID from Artists in Canada would be 13904. |
 
 
-In the case of names, CIDOC CRM suggests the use of `E41 Appellation`. However, the `E41 Appellation` cannot receive a `P72 has language` tag that would be linked to it, as opposed to the `E33 Linguistic Object`. Usually, names do not need language tags (Stephen is still written Stephen in French and in English), but some of the most famous ones do have specific variations (e.g. *Leonardo da Vinci* is *Léonard de Vinci* in French). Moreover, group names change according to language (e.g. *Montreal Museum of Fine Arts* is *Musée des beaux-arts de Montréal* in French). It is possible to tag a label with a language, but adding the language directly to the entity with the property `P72 has language` facilitates the scripting of SPARQL queries. This is why having a double instantiation for an `E39 Actor`, with both an `E41 Appellation` and an `E33 Linguistic Object`, is useful. 
+In the case of names, CIDOC CRM suggests the use of `E41_Appellation`. However, the `E41_Appellation` cannot receive a `P72_has_language` tag that would be linked to it, as opposed to the `E33_Linguistic_Object`. Usually, names do not need language tags (Stephen is still written Stephen in French and in English), but some of the most famous ones do have specific variations (e.g. *Leonardo da Vinci* is *Léonard de Vinci* in French). Moreover, group names change according to language (e.g. *Montreal Museum of Fine Arts* is *Musée des beaux-arts de Montréal* in French). It is possible to tag a label with a language, but adding the language directly to the entity with the property `P72_has_language` facilitates the scripting of SPARQL queries. This is why having a double instantiation for an `E39_Actor`, with both an `E41_Appellation` and an `E33_Linguistic_Object`, is useful. 
 
-Even if CHIN does not decide which name is preferred, most museums have preferred and alternative names for actors. To render this choice, this model will specify which appellation is preferred by which institution by using the `E55 Type` class (linked to a controlled vocabulary such as the AAT). CIDOC CRM also offers the `P139 has alternative form` property, a pattern that will not be used here as it is more complex and makes the preferred appellation dependant on the existence of an alternative one (for more information, see [Appendix B: Appellations](/collections-model/target-model/current/appendix-b-appellations)).
+Even if CHIN does not decide which name is preferred, most museums have preferred and alternative names for actors. To render this choice, this model will specify which appellation is preferred by which institution by using the `E55_Type` class (linked to a controlled vocabulary such as the AAT). CIDOC CRM also offers the `P139_has_alternative_form` property, a pattern that will not be used here as it is more complex and makes the preferred appellation dependant on the existence of an alternative one (for more information, see [Appendix B: Appellations](/collections-model/target-model/current/appendix-b-appellations)).
 
 The precedence of an appellation should be distinguished by relying on an authority vocabulary rather than a boolean because precedence nodes are more meaningful than a yes or no (e.g. this allows to search for all preferred appellations across actors, see the closed [issue #24](https://github.com/chin-rcip/chin-rcip/issues/24) on GitHub for more details).
 
@@ -45,7 +47,7 @@ The precedence of an appellation should be distinguished by relying on an author
 <a name="022_Example_AppellationRiopelle_p"></a>022_Example_AppellationRiopelle_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=022_Example_AppellationRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ePf29iGmYuXjRl3V63DQs5XctkIcPOUe%26export%3Ddownload"></iframe>
 
-Some appellations may have been used at a specific moment (e.g. the King is only called so as long as he is the reigning king) or may have evolved (e.g. companies that change their name). Such evolutions can be represented, as FRBRoo does, using the `F52 Name Use Activity` event linked to an `E41 Appellation` with the property `R56 used name`. This `F52 Name Use Activity` event can then be placed temporarily and typed with the `R61 occured in kind of context` property to specify in which context the name has been used (e.g. Charles Lutwidge Dodgson used the name ‘Lewis Carroll’ when writing children's books; for more details on this, please see the closed [issue #35](https://github.com/chin-rcip/chin-rcip/issues/35) on GitHub):  
+Some appellations may have been used at a specific moment (e.g. the King is only called so as long as he is the reigning king) or may have evolved (e.g. companies that change their name). Such evolutions can be represented, as FRBRoo does, using the `F52_Name_Use_Activity` event linked to an `E41_Appellation` with the property `R56_used_name`. This `F52_Name_Use_Activity` event can then be placed temporarily and typed with the `R61_occured_in_kind_of_context` property to specify in which context the name has been used (e.g. Charles Lutwidge Dodgson used the name ‘Lewis Carroll’ when writing children's books; for more details on this, please see the closed [issue #35](https://github.com/chin-rcip/chin-rcip/issues/35) on GitHub):  
 
 
 | 💡  Example 2: <br/><br/>Charles Lutwidge Dodgson used the pen name 'Lewis Carroll' from 1856 to his death in 1898 when publishing children's books whilst his work as a mathematician was published under his birth name Charles Lutwidge Dodgson. |
@@ -124,20 +126,20 @@ Even though the identity fields might seem redundant, they are interesting when 
 
 ### Identity Patterns
 
-There are three possible ways to render genders, communities, and nationalities in CIDOC CRM: with an `E55 Type`, with an `E5 Event`, or with the use of `E74 Group`. It is also possible to use external ontologies, like [bio CRM](https://helda.helsinki.fi//bitstream/handle/10138/236822/paper10.pdf?sequence=1) or [ORE Aggregation](http://www.openarchives.org/ore/1.0/datamodel).
+There are three possible ways to render genders, communities, and nationalities in CIDOC CRM: with an `E55_Type`, with an `E5_Event`, or with the use of `E74_Group`. It is also possible to use external ontologies, like [bio CRM](https://helda.helsinki.fi//bitstream/handle/10138/236822/paper10.pdf?sequence=1) or [ORE Aggregation](http://www.openarchives.org/ore/1.0/datamodel).
 
-For the moment, CHIN has decided to use the simple `E55 Type` pattern to identify gender and cultural affiliation whilst `E74 Group` will be used to identify nationality, nationhood and community. The `E55 Type` class will be used in conjunction with it to render what the type of the group is (see below). 
+For the moment, CHIN has decided to use the simple `E55_Type` pattern to identify gender and cultural affiliation whilst `E74_Group` will be used to identify nationality, nationhood and community. The `E55_Type` class will be used in conjunction with it to render what the type of the group is (see below). 
 
 See [Appendix C: Identity](/collections-model/target-model/current/appendix-c-identity) for a description of the rejected [E5 Event](/collections-model/target-model/current/appendix-c-identity#with-e5-event), [Bio CRM](/collections-model/target-model/current/appendix-c-identity#with-bio-crm) and [ore:Aggregation](/collections-model/target-model/current/appendix-c-identity#with-oreaggregation) patterns.
 
 
-#### Rendering Gender and Cultural Affiliation with `E55 Type` 
+#### Rendering Gender and Cultural Affiliation with `E55_Type` 
 
-The easiest and simplest way to handle the gender field is to add an `E55 Type` to an `E21 Person`. The simplicity of this pattern has one significant drawback: there is no way to determine when the element started or ended, because types are not dated. This makes it impossible to track peoples’ changes in gender over time. Moreover gender is not an inherent attribute of an individual. From a non-binary and non-biological perspective, gender is evolving and does not necessarily constitute a person’s definite attribute. 
+The easiest and simplest way to handle the gender field is to add an `E55_Type` to an `E21_Person`. The simplicity of this pattern has one significant drawback: there is no way to determine when the element started or ended, because types are not dated. This makes it impossible to track peoples’ changes in gender over time. Moreover gender is not an inherent attribute of an individual. From a non-binary and non-biological perspective, gender is evolving and does not necessarily constitute a person’s definite attribute. 
 
 For more details on this please see [Appendix F: Discussions, Identity Patterns](/collections-model/target-model/current/appendix-f-discussions#discussion-identity-patterns).
 
-At this time, an `E55 Type` pattern seems sufficient because museums currently do not, for the most part, hold data pertaining to creators’ genders, and even less so data recording when these changes occurred. This is thus the approach that will be adopted as it makes the model simpler and more efficient by removing the need for unnecessary complexity. 
+At this time, an `E55_Type` pattern seems sufficient because museums currently do not, for the most part, hold data pertaining to creators’ genders, and even less so data recording when these changes occurred. This is thus the approach that will be adopted as it makes the model simpler and more efficient by removing the need for unnecessary complexity. 
 
 <a name="024_Pattern_Gender_p"></a>024_Pattern_Gender_p
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=024_Pattern_Gender_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VPdvrCqlBYG62QWKne3TKj6XbrjqmY5L%26export%3Ddownload"></iframe>
@@ -159,11 +161,11 @@ Should it become necessary or useful, it would be possible to adopt a more compl
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=026_Example_GenderMonkman_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DdzMhxXriGaOnfaUA5sWoaU7BWrSJNX-%26export%3Ddownload"></iframe>
 
 
-#### Nationality, Nationhood and Community With `E74 Group`
+#### Nationality, Nationhood and Community With `E74_Group`
 
-Identifying (or being identified as) a member of a community or nationality is conceptually similar to joining an `E74 group` of people bound together so that it could be an appropriate way to render such concepts. 
+Identifying (or being identified as) a member of a community or nationality is conceptually similar to joining an `E74_Group` of people bound together so that it could be an appropriate way to render such concepts. 
 
-CIDOC CRM’s `E39 Actor` (a superclass of `E74 Group`) “comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019c, 22)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019c). Some believe, as stated in the linked.art issue 152, that all of the people who have had a particular nationality cannot take action as a single coherent entity, which would seem to disqualify `E74 Group` from representing the Identity fields [(Conal-Tuohy 2018)](/collections-model/target-model/current/bibliography#conal-tuohy-2018). However, a group, at any moment, is composed of some people and it is those people in that relevant time that can act collectively. Because using `E74 Group` enables datation, it is a preferable approach when documenting nationality as well as community membership. This is the approach that CHIN is considering at the moment, more out of convenience and efficacy than out of philosophical accuracy. As gender is not a cohesive group, it cannot be modeled as an `E74 Group`. 
+CIDOC CRM’s `E39_Actor` (a superclass of `E74_Group`) “comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019c, 22)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019c). Some believe, as stated in the linked.art issue 152, that all of the people who have had a particular nationality cannot take action as a single coherent entity, which would seem to disqualify `E74_Group` from representing the Identity fields [(Conal-Tuohy 2018)](/collections-model/target-model/current/bibliography#conal-tuohy-2018). However, a group, at any moment, is composed of some people and it is those people in that relevant time that can act collectively. Because using `E74_Group` enables datation, it is a preferable approach when documenting nationality as well as community membership. This is the approach that CHIN is considering at the moment, more out of convenience and efficacy than out of philosophical accuracy. As gender is not a cohesive group, it cannot be modeled as an `E74_Group`. 
 
 For more details on this, please see [Appendix F: Discussions, Nationality, Nationhood and Community With E74 Group](/collections-model/target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74-group). 
 
@@ -178,11 +180,11 @@ For more details on this, please see [Appendix F: Discussions, Nationality, Nati
 <a name="028_Example_NationalityRiopelle_p"></a>028_Example_NationalityRiopelle_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=028_Example_NationalityRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ZwohesWAtWQuip1ew4fMim4p3iyMWPuu%26export%3Ddownload"></iframe>
 
-#### Group Type with `E55 Type`
+#### Group Type with `E55_Type`
 
 The Group Type is a qualifier assigned to organisations in order to categorize them in ensembles based on their formally or informally stated mission or function.  It is intended to ease recognition of entities and determine whether a specific group is a museum, a company, a group of artists, etc. It will rely on the use of a controlled vocabulary to ensure consistency in the types proposed. 
 
-The Group Type is an `E55 Type` linked to an `E74 Group` with the property `P2 has type`. It is important to also type this `E55 Type` in order to distinguish it from other `E55 Type` elements linked to the same `E74 Group`.
+The Group Type is an `E55_Type` linked to an `E74_Group` with the property `P2_has_type`. It is important to also type this `E55_Type` in order to distinguish it from other `E55_Type` elements linked to the same `E74_Group`.
 
 <a name="029_Pattern_GroupType_p"></a>029_Pattern_GroupType_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=029_Pattern_GroupType_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XNASQ6iuZl3sMyMbMfs6RlWd3AX49Sg5%26export%3Ddownload"></iframe>

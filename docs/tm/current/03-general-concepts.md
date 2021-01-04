@@ -6,27 +6,28 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
-* [The Differences Between `E39 Actor`, `E21 Person` and `E74 Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
+* [The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
 * [Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
   * [Labels](#labels)
   * [Annotations and Comments](#annotations-and-comments)
   * [Literal Content](#literal-content)
-* [Mapping problems and E33 Linguistic Object](#mapping-problems-and-e33-linguistic-object)
+* [Mapping problems and `E33_Linguistic_Object`](#mapping-problems-and-e33-linguistic-object)
 * [Data Provenance](#data-provenance)
   * [Provenance of the Dataset](#provenance-of-the-dataset)
   * [Record Provenance with Aggregated Contributors](#record-provenance-with-aggregated-contributors)
   * [Limits of and Issues with the Named Graph and “Record” approach](#limits-of-and-issues-with-the-named-graph-and-record-approach)
 * [Challenges When Representing Indigenous Realities](#challenges-when-representing-indigenous-realities)
 * [Dates Pattern](#dates-pattern)
+</div>
 
+## The differences between `E39_Actor`, `E21_Person` and `E74_Group`
 
-## The differences between `E39 Actor`, `E21 Person` and `E74 Group`
+As Actors is centered on the creators of artefacts, the central class of the target model is `E39_Actor`. As CIDOC CRM indicates, “this class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019c, 22)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019c). There are two subclasses to `E39_Actor:` `E21_Person`, which comprises real persons; and `E74_Group`, which accounts for any type of gathering or organisation of `E39_Actor` acting collectively. As stated in CIDOC CRM, “a gathering of people becomes an `E74_Group` when it exhibits organisational characteristics usually typified by a set of ideas or beliefs held in common, or actions performed together [(CIDOC CRM 2019, 34–35)](/collections-model/target-model/current/bibliography#cidoc-crm-2019). As the project linked.art pointed out, the class `E39_Actor` “might be used when it is not certain whether the actor is a Person or an Organisation or Group” [(linked.art 2019b)](/collections-model/target-model/current/bibliography#linked-art-2019b).
 
-As Actors is centered on the creators of artefacts, the central class of the target model is `E39 Actor`. As CIDOC CRM indicates, “this class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019c, 22)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019c). There are two subclasses to `E39 Actor:` `E21 Person`, which comprises real persons; and `E74 Group`, which accounts for any type of gathering or organisation of `E39 Actor` acting collectively. As stated in CIDOC CRM, “a gathering of people becomes an `E74 Group` when it exhibits organisational characteristics usually typified by a set of ideas or beliefs held in common, or actions performed together [(CIDOC CRM 2019, 34–35)](/collections-model/target-model/current/bibliography#cidoc-crm-2019). As the project linked.art pointed out, the class `E39 Actor` “might be used when it is not certain whether the actor is a Person or an Organisation or Group” [(linked.art 2019b)](/collections-model/target-model/current/bibliography#linked-art-2019b).
-
-Some datasets might contain data pertaining to both actors and groups in a single field; in this case, it would be possible to use the `E39 Actor` superclass without any of its subclasses, although cleaning the data would be preferable. Such a practice should be avoided in order to maintain an efficient mapping process, but it would be interesting to flag such data (using comments or named graphs) as being in need of revision, and invite the public to clean it as this is an ideal crowdsourcing task.
+Some datasets might contain data pertaining to both actors and groups in a single field; in this case, it would be possible to use the `E39_Actor` superclass without any of its subclasses, although cleaning the data would be preferable. Such a practice should be avoided in order to maintain an efficient mapping process, but it would be interesting to flag such data (using comments or named graphs) as being in need of revision, and invite the public to clean it as this is an ideal crowdsourcing task.
 
 For more details on this, please refer to the [Appendix F: Discussions, The Differences Between E39 Actor, E21 Person, and E74 Group](/collections-model/target-model/current/appendix-f-discussions#discussion-the-differences-between-e39-actor-e21-person-and-e74-group). 
 
@@ -55,14 +56,14 @@ For example, if the occupation of an artist is documented using the AAT and has 
 
 ### Annotations and Comments
 
-Annotations to specific pieces of data—rendered by the CIDOC CRM `P3 has note` property or by the <code>[rdfs:comment](https://www.w3.org/TR/rdf-schema/#ch_comment)</code> property in RDF—are used to describe or comment on a specific resource. 
+Annotations to specific pieces of data—rendered by the CIDOC CRM `P3_has_note` property or by the <code>[rdfs:comment](https://www.w3.org/TR/rdf-schema/#ch_comment)</code> property in RDF—are used to describe or comment on a specific resource. 
 
 
 <a name="008_Pattern_AnnotationsComments_p"></a>008_Pattern_AnnotationsComments_p
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=008_Pattern_AnnotationsComments_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pI5Q8RfR8pKTsOM-fZD0dBwe9Z5ThBKL%26export%3Ddownload"></iframe>
 
 
-Both `P3 has note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3 has note` applied to an `E33 Linguistic Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33 Linguistic Object` resource). 
+Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3_has_note` applied to an `E33_Linguistic_Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33_Linguistic_Object` resource). 
 
 
 | 💡  Example: <br/><br/>If a manufacturer is named "Woodwork Construction Ltd.", and we wish to express that its current name is based on the owner's previous company, an annotation can be used. | 
@@ -72,7 +73,7 @@ Both `P3 has note` and `rdfs:comments` make statements *about* the resource’s 
 
 For more details on this, please see [Appendix F: Discussions, Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](/collections-model/target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts).
 
-Annotations should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new pattern in the model. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130 shows features of`. However, in the rare cases when something is really extraneous to the model but not to understanding, `P3 has note` and `rdfs:comment` are valid choices. If this is the case, `rdfs:comment` should be used when the annotation pertains to classes or properties (ontological content) whereas `P3 has note` should be used when the annotation pertains to museum data (cultural content).
+Annotations should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new pattern in the model. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130_shows_features_of`. However, in the rare cases when something is really extraneous to the model but not to understanding, `P3_has_note` and `rdfs:comment` are valid choices. If this is the case, `rdfs:comment` should be used when the annotation pertains to classes or properties (ontological content) whereas `P3_has_note` should be used when the annotation pertains to museum data (cultural content).
 
 
 | 🚩  *Important Information*<br/><br/>Unless the creator of the annotation is impacting the model itself by their work, <code>rdfs:comment</code> should not be used and <code>P3 has note</code> should be preferred. |
@@ -80,7 +81,7 @@ Annotations should be used in edge cases when something is too complex and subtl
 
 ### Literal Content
 
-To represent the linguistic content of a resource—appellations, biographies or descriptions for example—`rdfs:comment` or `rdfs:label` are not suitable. Even though CIDOC CRM previously recommended the use of `P3 has note` to represent content [(Doerr and Ore 2019b, 20)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019b), it is no longer the case as `P3 has note` “is a container for all informal descriptions about an object that have not been expressed in terms of CRM constructs. In particular it captures the characterisation of the item itself, its internal structures, appearance, etc”[(Doerr and Ore 2019d, 48)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019d). To remedy this, CIDOC CRM has developed the `P190 has symbolic content` property to associate an instance of `E90 Symbolic Object` with a representation of its entire content in the form of a string of text [(Doerr and Ore 2019e, 114)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019e).
+To represent the linguistic content of a resource—appellations, biographies or descriptions for example—`rdfs:comment` or `rdfs:label` are not suitable. Even though CIDOC CRM previously recommended the use of `P3_has_note` to represent content [(Doerr and Ore 2019b, 20)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019b), it is no longer the case as `P3_has_note` “is a container for all informal descriptions about an object that have not been expressed in terms of CRM constructs. In particular it captures the characterisation of the item itself, its internal structures, appearance, etc”[(Doerr and Ore 2019d, 48)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019d). To remedy this, CIDOC CRM has developed the `P190_has_symbolic_content` property to associate an instance of `E90_Symbolic_Object` with a representation of its entire content in the form of a string of text [(Doerr and Ore 2019e, 114)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019e).
 
 
 | 💡  Example: <br/><br/>For example, the biography of Jean Paul Riopelle could have:<br/>- a label "Biography of Jean Paul Riopelle";<br/>- a note from the museum assessing the biography, stating that it has to be revised for example; <br/>- the content of the biography.<br/><br/>From a modeling standpoint, this would look like the following: |
@@ -94,17 +95,17 @@ The best way to represent the content of a resource is to follow CIDOC CRM’s a
 | 🔎  *To Be Discussed* <br/><br/>Whether it would be preferable to use local CHIN classes in this case is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/37">CHIN’s Github Issue #37</a>. |
 
 
-## Mapping problems and E33 Linguistic Object
+## Mapping problems and `E33_Linguistic_Object`
 
 If the data of the contributing institution is clean—in other words, if it is not mixing data types and/or contents within single fields—, CHIN’s [Pipeline](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) along with the [Semantic Paths Specification](/collections-model/semantic-paths-specification/current/introduction) and Target Model will successfully translate it from a relational to a semantic framework.  However, if the input data is poor—for example if it mixes different kinds of information within fields or if it contains heterogeneous natural language expressions—, it will not be possible to map it to semantic standards.
 
-In such a case, a standard semantic mapping solution is to create an instance of `E33 Linguistic Object` that is typed using `E55 Type` in order to: 
+In such a case, a standard semantic mapping solution is to create an instance of `E33_Linguistic_Object` that is typed using `E55_Type` in order to: 
 
 
-* indicate the general kind of information held by the `E33 Linguistic Object`; 
-* distinguish it from other `E33 Linguistic Objects` such as biographies. 
+* indicate the general kind of information held by the `E33_Linguistic_Object`; 
+* distinguish it from other `E33_Linguistic_Objects` such as biographies. 
 
-The language of the content must also be indicated and the data must be instantiated into an `rdfs:Literal` and connected to the `E33 Linguistic Object` instance through the `P190 has symbolic content` property. The instance of `E33 Linguistic Object` itself should be linked back to the node that it describes using the `P67 refers to` property. 
+The language of the content must also be indicated and the data must be instantiated into an `rdfs:Literal` and connected to the `E33_Linguistic_Object` instance through the `P190_has_symbolic_content` property. The instance of `E33_Linguistic_Object` itself should be linked back to the node that it describes using the `P67_refers_to` property. 
 
 <a name="011_Pattern_MappingWithE33LinguisticObject_p"></a>011_Pattern_MappingWithE33LinguisticObject_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=011_Pattern_MappingWithE33LinguisticObject_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1-uzAimbVP_8WtWTXZlU0qUGWu9itlxEj%26export%3Ddownload"></iframe>
@@ -129,7 +130,7 @@ One of the goals of Actors is to aggregate museum data from Canadian institution
 * identify a subset of RDF triples (i.e. to identify their origin);
 * determine whether a single triple is asserted once or multiple times (e.g. if a single triple is asserted by separate distinct sources as opposed to several times by a single source, thus asserting it more than once). 
 
-CHIN considers the best way to establish provenance throughout the model is to use Named Graphs rather than the longer, more complex `E13 Attribute Assignment` pattern (that would have to be repeatedly assigned to triples, each and every time, and would unnecessarily weigh down the model). For more information about this `E13 Attribute Assignment` pattern, see the [Appendix A: Data Provenance](/collections-model/target-model/current/appendix-a-data-provenance).
+CHIN considers the best way to establish provenance throughout the model is to use Named Graphs rather than the longer, more complex `E13_Attribute_Assignment` pattern (that would have to be repeatedly assigned to triples, each and every time, and would unnecessarily weigh down the model). For more information about this `E13_Attribute_Assignment` pattern, see the [Appendix A: Data Provenance](/collections-model/target-model/current/appendix-a-data-provenance).
 
 A [Named Graph](https://en.wikipedia.org/wiki/Named_graph) is a set of RDF triples that receives a fourth statement (the triples then become quadruples, or quads: `&lt;subject> &lt;predicate> &lt;object> &lt;graphname>`). This enables the treatment of the whole graph as a single entity which can receive attributes such as author, provenance, etc. Each triple within this Named Graph will inherit the graph’s information. Named Graphs also allow the use of specific subsets of the collected data based on graph identifiers [(Dodds and Davis 2019, 53)](/collections-model/target-model/current/bibliography#dodds-and-davis-2019). One of their most useful characteristics is that they enable SPARQL queries within specific subsets of Named Graphs. 
 
@@ -194,7 +195,7 @@ In the case of such aggregated contributors, it is mandatory to have a named gra
 
 As those aggregated contributors also document the provenance of their data, it will be necessary to also identify the primary provenance of each entry (i.e. the institution that contributed it to Artists in Canada in the first place). For the purposes of this model an entry corresponds to the institutional record.
 
-The easiest way to document such entries is to create an `E73 Information Object` “record” instance linked to the individual `E39 Actor` it documents through the `P67 refers to` property. This same `E73 Information Object` is linked to its record contributor (a different `E39 Actor`) and dated through an `E65 Creation` event.
+The easiest way to document such entries is to create an `E73_Information_Object` “record” instance linked to the individual `E39_Actor` it documents through the `P67_refers_to` property. This same `E73_Information_Object` is linked to its record contributor (a different `E39_Actor`) and dated through an `E65_Creation` event.
 
 <a name="015_Pattern_RecordContributor_p"></a>015_Pattern_RecordContributor_p
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=015_Pattern_RecordContributor_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rsYOVLMwU_nSctm1Ys_6UA1eCuYcEiT9%26export%3Ddownload"></iframe>
@@ -213,7 +214,7 @@ The easiest way to document such entries is to create an `E73 Information Object
 
 ### Limits of and Issues with the Named Graph and “Record” approach
 
-The Named Graphs combined with a “record” approach lacks some of the precision and granularity of the `E13 Attribute Assignment` pattern (for more information about the `E13 Attribute Assignment pattern`, see [Appendix A: Data Provenance](/collections-model/target-model/current/appendix-a-data-provenance)). As the source is not specified on every triple, it is not possible to express complex information pertaining to specific triples. For example, it is not possible to indicate that a date attribution is uncertain.
+The Named Graphs combined with a “record” approach lacks some of the precision and granularity of the `E13_Attribute_Assignment` pattern (for more information about the `E13_Attribute_Assignment_pattern`, see [Appendix A: Data Provenance](/collections-model/target-model/current/appendix-a-data-provenance)). As the source is not specified on every triple, it is not possible to express complex information pertaining to specific triples. For example, it is not possible to indicate that a date attribution is uncertain.
 
 Also, this approach records the provenance of the data, but not the documents used by the contributing institutions themselves when documenting their records. 
 
@@ -238,23 +239,23 @@ For more details on this, please see [Appendix F: Discussions, Challenges When R
 
 The dating pattern is the same throughout the model. In order to facilitate understanding and reading, it will not be reproduced in the rest of the diagrams of this document.
 
-In CIDOC CRM, only `E2 Temporal Entities` and its subclasses (comprising events), can be situated temporally. This is done through a time-span, modeled with the property `P4 has time-span` and the class `E52 Time-Span`.
+In CIDOC CRM, only `E2_Temporal_Entities` and its subclasses (comprising events), can be situated temporally. This is done through a time-span, modeled with the property `P4_has_time-span` and the class `E52_Time-Span`.
 
-This `E52 Time-Span` can then be delimited (using the `xsd:dateTime` standard) with the use of 4 properties representing specific dates: 
+This `E52_Time-Span` can then be delimited (using the `xsd:dateTime` standard) with the use of 4 properties representing specific dates: 
 
-* `P82a begin of the begin ` indicates that the time-span of the event may at the earliest have started on that date.
-* `P81a end of the begin `indicates that the time-span of the event has without doubt at the latest started on that date.
-* `P81b begin of the end` indicates that the time-span of the event has without doubt lasted at least until this date.
-* `P82b end of the end `indicates that the time-span of the event may have lasted until that date.
+* `P82a_begin_of_the_begin_` indicates that the time-span of the event may at the earliest have started on that date.
+* `P81a_end_of_the_begin_`indicates that the time-span of the event has without doubt at the latest started on that date.
+* `P81b_begin_of_the_end` indicates that the time-span of the event has without doubt lasted at least until this date.
+* `P82b_end_of_the_end_`indicates that the time-span of the event may have lasted until that date.
 
 The diagram below illustrates the differences between these 4 properties (see the [CIDOC CRM documentation](http://www.cidoc-crm.org/guidelines-for-using-p82a-p82b-p81a-p81b) for more information about this):
 
 <a name="017_Pattern_E2TemporalEntities_p"></a>017_Pattern_E2TemporalEntities_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=017_Pattern_E2TemporalEntities_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D18Sra-NJR6bdhjLz5xUTFPDuz3Hdd7sNz%26export%3Ddownload"></iframe>
 
-Because the `P82a begin of the begin` and `P82b end of the end` properties are the most encompassing delimiters of the event, it is wiser to use them systematically and to use the properties `P81a end of the begin` and `P81b begin of the end` only when we have such precise information that is specified as such.
+Because the `P82a_begin_of_the_begin` and `P82b_end_of_the_end` properties are the most encompassing delimiters of the event, it is wiser to use them systematically and to use the properties `P81a_end_of_the_begin` and `P81b_begin_of_the_end` only when we have such precise information that is specified as such.
 
-It is also possible to add qualifiers to dates with the properties `P79 beginning is qualified by` and `P80 end is qualified by` in conjunction with an `rdfs:Literal`. Such qualifiers can include commentaries (e.g. presumed date) or typical qualifiers (e.g. circa, BC, etc.). 
+It is also possible to add qualifiers to dates with the properties `P79_beginning_is_qualified_by` and `P80_end_is_qualified_by` in conjunction with an `rdfs:Literal`. Such qualifiers can include commentaries (e.g. presumed date) or typical qualifiers (e.g. circa, BC, etc.). 
 
 The full date pattern is as follows: 
 

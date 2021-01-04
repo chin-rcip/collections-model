@@ -6,17 +6,18 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)
  -->
+<div class="hidden-content">
 ## On This Page
 
 * [Artefact Creation and the Role of the Actor in the Creation](#artefact-creation-and-the-role-of-the-actor-in-the-creation)
 * [Artefact (Before the Development of the Objects Facet)](#artefact-before-the-development-of-the-objects-facet)
-
+</div>
 
 ## Artefact Creation and the Role of the Actor in the Creation
 
-The [CRM extension module “property of properties”](http://www.cidoc-crm.org/sites/default/files/CRMpc_v1.1_0.rdfs) can render the roles of `E39 Actors` during the `E12 Production` event of an `E22 Human-made Object`. The property `P14 carried out by` is replaced by the class `PC14 Carried out by` and an `E55 Type` is assigned to the latter to represent the nature of the actor’s participation to the production of the artefact, whether in terms or their role (e.g. painter) or priority (minor or major). 
+The [CRM extension module “property of properties”](http://www.cidoc-crm.org/sites/default/files/CRMpc_v1.1_0.rdfs) can render the roles of `E39_Actors` during the `E12_Production` event of an `E22_Human-made_Object`. The property `P14_carried_out_by` is replaced by the class `PC14_Carried_out_by` and an `E55_Type` is assigned to the latter to represent the nature of the actor’s participation to the production of the artefact, whether in terms or their role (e.g. painter) or priority (minor or major). 
 
-A single `E12 Production` event can be attached to an `E22 Human-made Object`, which entails that multiple `E39 Actors` participating to the creation of a single artefact should all be attached to this one `E12 Production` event. If an `E39 Actor` endorses multiple roles in the creation, multiple `E55 Type` should be linked to the single `PC14 Carried out by` class. In addition, the production role of the actor must be linked to them directly so that it can be displayed as their occupation when querying the data. 
+A single `E12_Production` event can be attached to an `E22_Human-made_Object`, which entails that multiple `E39_Actors` participating to the creation of a single artefact should all be attached to this one `E12_Production` event. If an `E39_Actor` endorses multiple roles in the creation, multiple `E55_Type` should be linked to the single `PC14_Carried_out_by` class. In addition, the production role of the actor must be linked to them directly so that it can be displayed as their occupation when querying the data. 
 
 
 | 🔎  *To Be Discussed*<br/><br/>CHIN is still debating whether a field should be added to document creations made “in the style of” to account for visual influence with a pattern such as <code>"in the style of" > affiliation</code>. |
@@ -40,11 +41,11 @@ The Objects Facet semantic model will be developed later on.  In the meantime, s
 * Production Date;
 * Production Place.
 
-The first three elements, namely appellations and identifiers, follow the same pattern as `E39 Actor` except that there is no need to partition appellations (as was the case for the names of individuals). 
+The first three elements, namely appellations and identifiers, follow the same pattern as `E39_Actor` except that there is no need to partition appellations (as was the case for the names of individuals). 
 
-The type of artefact, however, has to be specified using `E55 Type` with the use of a vocabulary like [Nomenclature ](https://www.nomenclature.info/apropos-about.app?lang=en)or the [AAT](https://www.getty.edu/research/tools/vocabularies/aat/).
+The type of artefact, however, has to be specified using `E55_Type` with the use of a vocabulary like [Nomenclature ](https://www.nomenclature.info/apropos-about.app?lang=en)or the [AAT](https://www.getty.edu/research/tools/vocabularies/aat/).
 
-Finally, the date of fabrication and the place of production are documented using `E12 Production` events.
+Finally, the date of fabrication and the place of production are documented using `E12_Production` events.
 
 
 <a name="072_Pattern_Artefact_p"></a>072_Pattern_Artefact_p
