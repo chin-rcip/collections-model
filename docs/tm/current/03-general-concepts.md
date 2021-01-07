@@ -32,12 +32,12 @@ As CIDOC CRM offers general entities in order to ease the integration of heterog
 Whenever the use of `E55_Type` is sufficient to get the proper query results, the Target Model will not include homemade classes and properties.
 
 <a name="095_Convention_E55_Type_p"></a>095_Convention_E55_Type_p
-<iframe frameborder="0" style="width:100%;height:63px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=095_Convention_E55_Type_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1zopvBo8SRO48ifxkokg3vJiboOvo35y2%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=095_Convention_E55_Type_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1zopvBo8SRO48ifxkokg3vJiboOvo35y2%26export%3Ddownload"></iframe>
 
 In addition to this consideration, when several `E55_Type` of different kind are attached to the same entities, the model uses another level of `E55_Type` in order to type the first `E55_Type`. This second `E55_Type` is called a "Metatype" and it is useful to get a way to distinguish different `E55_Type` in a SPARQL query.
 
 <a name="096_Convention_E55_Metatype_p"></a>096_Convention_E55_Metatype_p.drawio
-<iframe frameborder="0" style="width:100%;height:245px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=096_Convention_E55_Metatype_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1JIedt0kZZ2AEaW2nAwcpVoOb8vj00Wtr%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=096_Convention_E55_Metatype_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1JIedt0kZZ2AEaW2nAwcpVoOb8vj00Wtr%26export%3Ddownload"></iframe>
 
 *To be reviewed - end*   
 
