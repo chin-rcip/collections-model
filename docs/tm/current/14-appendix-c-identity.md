@@ -22,7 +22,7 @@ As stated in the [Identity Patterns section](/collections-model/target-model/cur
 Identity fields could be represented using an event in the following way: 
 
 <a name="083_Pattern_IdentityWithEvent_p"></a>083_Pattern_IdentityWithEvent_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=083_Pattern_IdentityWithEvent_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1R18JnHXoI0G35ttgQvtt0annpSKRAm4V%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=083_Pattern_IdentityWithEvent_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1R18JnHXoI0G35ttgQvtt0annpSKRAm4V%26export%3Ddownload"></iframe>
 
 However, both `E5_Event` and `E7_Activity` definitions establish that a *performance* has to occur on the part of the actor for them to apply. Neither gender nor community or nationality are *performed* so that handling these concepts as either `E5_Event` or `E7_Activity` would not be in semantic conformity to [CIDOC CRM](http://www.cidoc-crm.org/Entity/e7-activity/version-6.2.2)’s guidelines. This option has thus been dismissed.
 
@@ -44,7 +44,7 @@ The ORE ontology is composed of four classes: `ore:Aggregation`, `ore:Aggregated
 *   The `ore:Proxy` is a class that links the `ore:AggregatedResource` and the `ore:Aggregation` to qualify the` ore:AggregatedResource` in the context of the aggregation. For example, `ore:Proxy` is used to express sequencing between `ore:AggregatedResource` in an `ore:Aggregation` since “without any sequencing information, the order of Aggregated Resources cannot be inferred — they form an unordered set. It would not be legitimate for the Resource Map to express this sequencing by asserting a triple of the sort `&lt;AR-1> &lt;hasNext> &lt;AR-2>`, since this fact is only true in the context of the specific Aggregation, and is not a "global" fact” ([http://www.openarchives.org/ore/1.0/datamodel#Proxy](http://www.openarchives.org/ore/1.0/datamodel#Proxy)).
 
 <a name="084_Pattern_IdentityWithOreAggregation_p"></a>084_Pattern_IdentityWithOreAggregation_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=084_Pattern_IdentityWithOreAggregation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HSk1qe1t9UEI5sy1fCq2BPvZUHuOJUa4%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=084_Pattern_IdentityWithOreAggregation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HSk1qe1t9UEI5sy1fCq2BPvZUHuOJUa4%26export%3Ddownload"></iframe>
 
 This ontology would therefore be appropriate to render the complexity of gender identification and nationalities, but would significantly complicate the Target Model. In addition it would rely on semantics that would be inconsistent with those of CIDOC CRM, rendering this part of the model problematic in the long term. Finally, it is not possible to express the period when the entity is part of the aggregation, so this would not be useful either. As a result, this approach has been dismissed. 
 

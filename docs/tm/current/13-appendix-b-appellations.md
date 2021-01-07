@@ -41,14 +41,14 @@ As an example to show the problems with the P139 has alternative form solution, 
 The use of the `P139_has_alternative_form` property would entail the following model:
 
 <a name="079_Example_Appellation-1_p"></a>079_Example_Appellation-1_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=079_Example_Appellation-1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rWEaZkslgKv8X2ItLoCKJxT5_7utcMwv%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=079_Example_Appellation-1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rWEaZkslgKv8X2ItLoCKJxT5_7utcMwv%26export%3Ddownload"></iframe>
 
 This is complex from a modeling standpoint as the preferred appellation relies on the existence of the alternative appellation. This would significantly complicate SPARQL requests as, when looking for the different appellations of an actor, the same appellation would be unnecessarily present multiple times. Moreover, when looking for a specific appellation, it would be difficult to differentiate between preferred and non-preferred appellations. In other words, the property, and not the vocabulary, would be the carrier of meaning.
 
 Another solution would be to add an `E55_Type` to an `E33_E41_Linguistic_Appellation` to indicate preference based on an authority vocabulary (such as the AAT with the terms “preferred” and “non-preferred”). This would entail the following model: 
 
 <a name="080_Example_Appellation-2_p"></a>080_Example_Appellation-2_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=080_Example_Appellation-2_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D15i1yXBJ2_5nmskHps5yfBCDbjbCKqW12%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=080_Example_Appellation-2_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D15i1yXBJ2_5nmskHps5yfBCDbjbCKqW12%26export%3Ddownload"></iframe>
 
 Such a pattern would make it easier to know which museum prefers which appellation whilst still displaying alternative names of an `E39_Actor`<sup id="a2">[2](#f2)</sup>.
 
@@ -64,7 +64,7 @@ The first possibility is to directly distinguish between the different parts of 
 | 💡  Example: <br/><br/>Considering an artist named Robert John Doe that is also known as Bob Doe and, in addition, uses the pseudonym Alfred, the aforementioned pattern would generate the following representation of information: |
 
 <a name="081_Example_Partitioning-1_p"></a>081_Example_Partitioning-1_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=081_Example_Partitioning-1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XEU9ea13wzDUQAYDnOY4cGLumEe2PUp-%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=081_Example_Partitioning-1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XEU9ea13wzDUQAYDnOY4cGLumEe2PUp-%26export%3Ddownload"></iframe>
 
 | In such a case, the preferred appellation would remain Robert John Doe, but it would be impossible for the model to generate a full non-preferred appellation as it could not determine whether to select Bob or Alfred as a first name. |
 
@@ -74,7 +74,7 @@ The second possibility, suggested by the [linked.art project](https://linked.art
 | 💡  Example: <br/> <br/>Applying the same example to this pattern with amount to the following: |
 
 <a name="082_Example_Partitioning-2_p"></a>082_Example_Partitioning-2_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=082_Example_Partitioning-2_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11vOUKsQhZld3GyIThlFbY6UJmIpHqs33%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=082_Example_Partitioning-2_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11vOUKsQhZld3GyIThlFbY6UJmIpHqs33%26export%3Ddownload"></iframe>
 
 This second option makes it easier to query names, but it has the following problem: just as with the first option it was impossible to reassemble different parts, here it is complicated to correctly divide full appellations; finding a standard way of doing so is problematic and will likely lead to many errors.
 

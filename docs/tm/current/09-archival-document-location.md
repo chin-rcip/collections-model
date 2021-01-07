@@ -19,13 +19,13 @@ Most museums as well as other heritage organisations hold archival records about
 Note that there is a distinction between the physical location of an institution (e.g. the city, address, or building where it is established—which is documented as an `E53_Place`) and the institution itself (i.e. an `E74_Group`). 
 
 <a name="074_Pattern_DocumentLocation_p"></a>074_Pattern_DocumentLocation_p
-<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=074_Pattern_DocumentLocation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KHjjLjchjT6wIcKq8gZaY9FCjK6ItKr4%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=074_Pattern_DocumentLocation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KHjjLjchjT6wIcKq8gZaY9FCjK6ItKr4%26export%3Ddownload"></iframe>
 
 
 | 💡  Example:<br/><br/>Artists in Canada indicates that Artexte and the University of Calgary Library both have archival documents about Jean Paul Riopelle. The Artexte archival documents have the call number "410 - RIOPELLE, JEAN PAUL"; the University of Calgary call number is unknown. |
 
 <a name="075_Example_DocumentLocationRiopelle_p"></a>075_Example_DocumentLocationRiopelle_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=075_Example_DocumentLocationRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1xyt3QFP1G0blmWAjTEzOcI8NubU66AqG%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=075_Example_DocumentLocationRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1xyt3QFP1G0blmWAjTEzOcI8NubU66AqG%26export%3Ddownload"></iframe>
 
 
 > Previous: [Artefacts](/collections-model/target-model/current/artefacts)<br>Next: [Legal Aspects (Rights)](/collections-model/target-model/current/legal-aspects-rights)

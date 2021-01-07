@@ -34,18 +34,18 @@ Even if CHIN does not decide which name is preferred, most museums have preferre
 The precedence of an appellation should be distinguished by relying on an authority vocabulary rather than a boolean because precedence nodes are more meaningful than a yes or no (e.g. this allows to search for all preferred appellations across actors, see the closed [issue #24](https://github.com/chin-rcip/chin-rcip/issues/24) on GitHub for more details).
 
 <a name="020_Pattern_IdentifiersAppellations_p"></a>020_Pattern_IdentifiersAppellations_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=020_Pattern_IdentifiersAppellations_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Na5HNOLWpr2fcpOFvw9Gr1MCSurMrnHT%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=020_Pattern_IdentifiersAppellations_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Na5HNOLWpr2fcpOFvw9Gr1MCSurMrnHT%26export%3Ddownload"></iframe>
 
 
 | 💡  Example 1:  <br/><br/>Jean Paul Riopelle's IDs could be: <br/>Different Identifiers <br/>URI: mic.ca/uri/actor/1234 <br/>CHIN ID: 1234 <br/>Artist in Canada ID: 13904 |
 
 <a name="021_Example_IdentifierRiopelle_p"></a>021_Example_IdentifierRiopelle_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=021_Example_IdentifierRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dDstiGxnpsmqzr0O-aRHCYp6IwqAmWPD%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=021_Example_IdentifierRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dDstiGxnpsmqzr0O-aRHCYp6IwqAmWPD%26export%3Ddownload"></iframe>
 
 | Different appellations: <br/>	Jean Paul Riopelle <br/>Jean-Paul Riopelle <br/>Jean P. Riopelle <br/> |
 
 <a name="022_Example_AppellationRiopelle_p"></a>022_Example_AppellationRiopelle_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=022_Example_AppellationRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ePf29iGmYuXjRl3V63DQs5XctkIcPOUe%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=022_Example_AppellationRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ePf29iGmYuXjRl3V63DQs5XctkIcPOUe%26export%3Ddownload"></iframe>
 
 Some appellations may have been used at a specific moment (e.g. the King is only called so as long as he is the reigning king) or may have evolved (e.g. companies that change their name). Such evolutions can be represented, as FRBRoo does, using the `F52_Name_Use_Activity` event linked to an `E41_Appellation` with the property `R56_used_name`. This `F52_Name_Use_Activity` event can then be placed temporarily and typed with the `R61_occured_in_kind_of_context` property to specify in which context the name has been used (e.g. Charles Lutwidge Dodgson used the name ‘Lewis Carroll’ when writing children's books; for more details on this, please see the closed [issue #35](https://github.com/chin-rcip/chin-rcip/issues/35) on GitHub):  
 
@@ -53,7 +53,7 @@ Some appellations may have been used at a specific moment (e.g. the King is only
 | 💡  Example 2: <br/><br/>Charles Lutwidge Dodgson used the pen name 'Lewis Carroll' from 1856 to his death in 1898 when publishing children's books whilst his work as a mathematician was published under his birth name Charles Lutwidge Dodgson. |
 
 <a name="023_Example_AppellationCarroll_p"></a>023_Example_AppellationCarroll_p
-<iframe frameborder="0" style="width:100%;height:900px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=023_Example_AppellationCarroll_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1krJ7vWTrqMbxaEsV4Bog7XryrdjbF7-P%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:900px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=023_Example_AppellationCarroll_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1krJ7vWTrqMbxaEsV4Bog7XryrdjbF7-P%26export%3Ddownload"></iframe>
 
 | 🔎  *To Be Discussed* <br/><br/>It is debated whether an appellation is unique to it bearer (the URI of the appellation would be &lt;mic.ca/uri/appellation/0014582> and only linked to John Doe) or if this appellation is shared by all its bearer (the URI of that appellation would then be &lt;mic.ca/uri/appellation/john_doe> and shared by every John Doe).<br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/25"> CHIN’s Github Issue #25</a>.|
 
@@ -142,7 +142,7 @@ For more details on this please see [Appendix F: Discussions, Identity Patterns]
 At this time, an `E55_Type` pattern seems sufficient because museums currently do not, for the most part, hold data pertaining to creators’ genders, and even less so data recording when these changes occurred. This is thus the approach that will be adopted as it makes the model simpler and more efficient by removing the need for unnecessary complexity. 
 
 <a name="024_Pattern_Gender_p"></a>024_Pattern_Gender_p
-<iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=024_Pattern_Gender_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VPdvrCqlBYG62QWKne3TKj6XbrjqmY5L%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=024_Pattern_Gender_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VPdvrCqlBYG62QWKne3TKj6XbrjqmY5L%26export%3Ddownload"></iframe>
 
 Should it become necessary or useful, it would be possible to adopt a more complex approach in the future with `ore:aggregation` or another pattern.
 
@@ -153,12 +153,12 @@ Should it become necessary or useful, it would be possible to adopt a more compl
 | 💡  Example:<br/><br/>In the case of Jean Paul Riopelle, the artist would have as gender "Male". |
 
 <a name="025_Example_GenderRiopelle_p"></a>025_Example_GenderRiopelle_p
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=025_Example_GenderRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PZzHbKs9k8R1rNukxShCdhZQBGlYf8uJ%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=025_Example_GenderRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PZzHbKs9k8R1rNukxShCdhZQBGlYf8uJ%26export%3Ddownload"></iframe>
 
 | Kent Monkman would be described as having the gender "Two-Spirit"|
 
 <a name="026_Example_GenderMonkman_p"></a>026_Example_GenderMonkman_p
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=026_Example_GenderMonkman_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DdzMhxXriGaOnfaUA5sWoaU7BWrSJNX-%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=026_Example_GenderMonkman_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DdzMhxXriGaOnfaUA5sWoaU7BWrSJNX-%26export%3Ddownload"></iframe>
 
 
 #### Nationality, Nationhood and Community With `E74_Group`
@@ -172,13 +172,19 @@ For more details on this, please see [Appendix F: Discussions, Nationality, Nati
 
 | 🔎  *To Be Discussed* <br/><br/>Some issues about this pattern are discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/13"> CHIN’s Github Issue #13</a>. |
 
-<a name="027_Pattern_Identity_p"></a>027_Pattern_Identity_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=027_Pattern_Identity_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LEawkI5ayALX1OORfR6exLOCSOPccyeD%26export%3Ddownload"></iframe>
+<a name="027a_Pattern_Identity_Nationality_p"></a>027a_Pattern_Identity_Nationality_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=027_Pattern_Identity_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LEawkI5ayALX1OORfR6exLOCSOPccyeD%26export%3Ddownload"></iframe>
+
+<a name="027b_Pattern_Identity_Nationhood_p"></a>027a_Pattern_Identity_Nationhood_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=027b_Pattern_Identity_Nationhood_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1K79JTFXTMacM-lyGjr6yNxC-t9YTR3UK%26export%3Ddownload"></iframe>
+
+<a name="027c_Pattern_Identity_Community_p"></a>027c_Pattern_Identity_Community_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=027c_Pattern_Identity_Community_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1I59CaWE-bj2nxJkbQtQeUMfp6KpJOM5n%26export%3Ddownload"></iframe>
 
 | 💡 Example:<br/><br/>In the case of Jean Paul Riopelle, the artist is Canadian since his birth on the 7th of October 1923. |
 
 <a name="028_Example_NationalityRiopelle_p"></a>028_Example_NationalityRiopelle_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=028_Example_NationalityRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ZwohesWAtWQuip1ew4fMim4p3iyMWPuu%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=028_Example_NationalityRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ZwohesWAtWQuip1ew4fMim4p3iyMWPuu%26export%3Ddownload"></iframe>
 
 #### Group Type with `E55_Type`
 
@@ -187,12 +193,12 @@ The Group Type is a qualifier assigned to organisations in order to categorize t
 The Group Type is an `E55_Type` linked to an `E74_Group` with the property `P2_has_type`. It is important to also type this `E55_Type` in order to distinguish it from other `E55_Type` elements linked to the same `E74_Group`.
 
 <a name="029_Pattern_GroupType_p"></a>029_Pattern_GroupType_p
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=029_Pattern_GroupType_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XNASQ6iuZl3sMyMbMfs6RlWd3AX49Sg5%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=029_Pattern_GroupType_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1XNASQ6iuZl3sMyMbMfs6RlWd3AX49Sg5%26export%3Ddownload"></iframe>
 
 | 💡 Example:<br/><br/> The Group of Seven has "Group of Artists" as a group type. |
 
 <a name="030_Example_GroupTypeGroup7_p"></a>030_Example_GroupTypeGroup7_p
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=030_Example_GroupTypeGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1udaOnfqEnDQ-hPQpFcg5v-Sb1UQoDNAX%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=030_Example_GroupTypeGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1udaOnfqEnDQ-hPQpFcg5v-Sb1UQoDNAX%26export%3Ddownload"></iframe>
 
 
 > Previous: [General Concepts](/collections-model/target-model/current/general-concepts)<br>Next: [Life Events](/collections-model/target-model/current/life-events)
