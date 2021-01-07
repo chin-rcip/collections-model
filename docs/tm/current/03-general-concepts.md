@@ -23,6 +23,24 @@ sidebar: tm
 * [Dates Pattern](#dates-pattern)
 </div>
 
+*To be reviewed - begin*
+
+## Prioritization of `E55_Type` and `P2_has_type` over new classes and properties
+
+As CIDOC CRM offers general entities in order to ease the integration of heterogeneous cultural heritage data, it is important to specify those entities by using `E55_Type`. Another option would be to define new subclasses and subproperties in order to extend CIDOC CRM which is a CIDOC CRM's recommended practice. However, maintaining those new entities has a cost and their creation will require a clear identification of the current limits of CIDOC CRM and the potential benefits. If a particular use case arises, CHIN will prefer to work in cooperation with the CRM-SIG or any other committee managing CIDOC CRM extension to develop those new entities.
+
+Whenever the use of `E55_Type` is sufficient to get the proper query results, the Target Model will not include homemade classes and properties.
+
+<a name="095_Convention_E55_Type_p"></a>095_Convention_E55_Type_p
+<iframe frameborder="0" style="width:100%;height:63px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=095_Convention_E55_Type_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1zopvBo8SRO48ifxkokg3vJiboOvo35y2%26export%3Ddownload"></iframe>
+
+In addition to this consideration, when several `E55_Type` of different kind are attached to the same entities, the model uses another level of `E55_Type` in order to type the first `E55_Type`. This second `E55_Type` is called a "Metatype" and it is useful to get a way to distinguish different `E55_Type` in a SPARQL query.
+
+<a name="096_Convention_E55_Metatype_p"></a>096_Convention_E55_Metatype_p.drawio
+<iframe frameborder="0" style="width:100%;height:245px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=096_Convention_E55_Metatype_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1JIedt0kZZ2AEaW2nAwcpVoOb8vj00Wtr%26export%3Ddownload"></iframe>
+
+*To be reviewed - end*   
+
 ## The differences between `E39_Actor`, `E21_Person` and `E74_Group`
 
 As Actors is centered on the creators of artefacts, the central class of the target model is `E39_Actor`. As CIDOC CRM indicates, “this class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Doerr and Ore 2019c, 22)](/collections-model/target-model/current/bibliography#doerr-and-ore-2019c). There are two subclasses to `E39_Actor:` `E21_Person`, which comprises real persons; and `E74_Group`, which accounts for any type of gathering or organisation of `E39_Actor` acting collectively. As stated in CIDOC CRM, “a gathering of people becomes an `E74_Group` when it exhibits organisational characteristics usually typified by a set of ideas or beliefs held in common, or actions performed together [(CIDOC CRM 2019, 34–35)](/collections-model/target-model/current/bibliography#cidoc-crm-2019). As the project linked.art pointed out, the class `E39_Actor` “might be used when it is not certain whether the actor is a Person or an Organisation or Group” [(linked.art 2019b)](/collections-model/target-model/current/bibliography#linked-art-2019b).
@@ -49,7 +67,7 @@ Labels are used to provide a human-readable version of a resource’s content in
 <a name="007_Pattern_Labels_p"></a>007_Pattern_Labels_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=007_Pattern_Labels_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17oAGG4vgPUkCf0Nu3eOVwyMy4swS90a8%26export%3Ddownload"></iframe>
 
-For example, if the occupation of an artist is documented using the AAT and has the URI <code>&lt;[http://vocab.getty.edu/page/aat/300411314](http://vocab.getty.edu/page/aat/300411314)></code>, it would be useful to add the label “artist painters” to that occupation so that humans can understand what that occupation is without going to the Getty website. Another example would be in the case of Birth events where it would be relevant to use a concatenation mechanism (at the mapping stage) to provide useful descriptive labels such as “Birth of Jean Paul Riopelle" so that anyone arriving directly at the birth event node has a good idea of what its function is.
+For example, if the occupation of an artist is documented using the AAT and has the URI [`http://vocab.getty.edu/page/aat/300411314`](http://vocab.getty.edu/page/aat/300411314), it would be useful to add the label “artist painters” to that occupation so that humans can understand what that occupation is without going to the Getty website. Another example would be in the case of Birth events where it would be relevant to use a concatenation mechanism (at the mapping stage) to provide useful descriptive labels such as “Birth of Jean Paul Riopelle" so that anyone arriving directly at the birth event node has a good idea of what its function is.
 
 
 | 🚩  *Important Information*<br/><br/>Labels can be attached to any resource across the target model and, since they can be so easily added, they will not be displayed in the schemas below to facilitate readability. |
