@@ -595,9 +595,9 @@ sps:
   - page: Object Medium
     url: /semantic-paths-specification/current/entry-nodes#object-medium
     hash: object-medium
-  # - page: Occupation
-  #   url: /semantic-paths-specification/current/entry-nodes#occupation
-  #   hash: occupation
+  - page: Occupation Type
+    url: /semantic-paths-specification/current/entry-nodes#occupation-type
+    hash: occupation-type
   - page: Occupation Date Begin
     url: /semantic-paths-specification/current/entry-nodes#occupation-date-begin
     hash: occupation-date-begin
@@ -613,9 +613,6 @@ sps:
   - page: Occupation Place
     url: /semantic-paths-specification/current/entry-nodes#occupation-place
     hash: occupation-place
-  # - page: Occupation Type
-  #   url: /semantic-paths-specification/current/entry-nodes#occupation-type
-  #   hash: occupation-type
   - page: Production Actor Priority
     url: /semantic-paths-specification/current/entry-nodes#production-actor-priority
     hash: production-actor-priority
@@ -670,9 +667,9 @@ sps:
   - page: Relationship Type
     url: /semantic-paths-specification/current/entry-nodes#relationship-type
     hash: relationship-type
-  # - page: Social Status
-  #   url: /semantic-paths-specification/current/entry-nodes#social-status
-  #   hash: social-status
+  - page: Social Status Type
+    url: /semantic-paths-specification/current/entry-nodes#social-status-type
+    hash: social-status-type
   - page: Social Status Date Begin
     url: /semantic-paths-specification/current/entry-nodes#social-status-date-begin
     hash: social-status-date-begin
@@ -688,9 +685,6 @@ sps:
   - page: Social Status Place
     url: /semantic-paths-specification/current/entry-nodes#social-status-place
     hash: social-status-place
-  # - page: Social Status Type
-  #   url: /semantic-paths-specification/current/entry-nodes#social-status-type
-  #   hash: social-status-type
   - page: Stay Date Begin
     url: /semantic-paths-specification/current/entry-nodes#stay-date-begin
     hash: stay-date-begin
