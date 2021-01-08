@@ -32,6 +32,9 @@ tm:
 - title: General Concepts
   url: /target-model/current/general-concepts
   subfolder:
+  - page: Prioritization of E55_Type and P2_has_type over new classes and properties
+    url: /target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
+    hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
   - page: The Differences Between E39_Actor, E21_Person and E74_Group
     url: /target-model/current/general-concepts#the-differences-between-e39_actor-e21_person-and-e74_group
     hash: the-differences-between-e39_actor-e21_person-and-e74_group
