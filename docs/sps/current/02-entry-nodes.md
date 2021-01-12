@@ -70,8 +70,8 @@ sidebar: sps
 |**Scope**|This field qualifies the Part of the Actor Appellation and conceptually characterizes Parts of the Actor Appellation in order to facilitate identification, belonging to larger entities (such as families or brands) and placement in the Appellation.|
 |**Generated Bond(s)**|E55\_Type|
 |**Dependency(ies)**|[Actor Appellation Part](#actor-appellation-part)|
-|**Related SQN(s)**|Appellation Part Type: Definition|
-|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P106\_is\_composed\_of -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P2\_has\_type -\> **crm:E55\_Type** (*-\> crm:P2\_has\_type -\> crm:E55\_Type\[" Appellation Part Type"\]*)</span>|
+|**Related SQN(s)**|Type of Appellation Part: Definition|
+|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P106\_is\_composed\_of -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P2\_has\_type -\> **crm:E55\_Type** (*-\> crm:P2\_has\_type -\> crm:E55\_Type\["Type of Appellation Part"\]*)</span>|
 |**Target Model View(s)**|[Identifiers and Appellations](https://chin-rcip.github.io/collections-model/target-model/current/identification#identifiers-and-appellations)|
 |**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
 |**Typical Case(s)**|The record of a painting in a collection by the painter Emily Carr entitled *Kitwancool*made in 1928. “Emily” is the first name actor appellation part type and “Carr” is the last name actor appellation part type.|
@@ -110,8 +110,8 @@ sidebar: sps
 |**Scope**|This field qualifies the Actor Appellation and conceptually characterizes Actor Appellations in order to facilitate identification and belonging to larger entities (such as families or brands).|
 |**Generated Bond(s)**|E55\_Type|
 |**Dependency(ies)**|[Actor Appellation](#actor-appellation)|
-|**Related SQN(s)**|Appellation Type: Definition|
-|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P2\_has\_type -\> **crm:E55\_Type** (*-\> crm:P2\_has\_type -\> crm:E55\_Type\[“Appellation Type”\]*)</span>|
+|**Related SQN(s)**|Type of Appellation: Definition|
+|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P2\_has\_type -\> **crm:E55\_Type** (*-\> crm:P2\_has\_type -\> crm:E55\_Type\[“Type of Appellation”\]*)</span>|
 |**Target Model View(s)**|[Identifiers and Appellations](https://chin-rcip.github.io/collections-model/target-model/current/identification#identifiers-and-appellations)|
 |**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be (semi-)automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
 |**Typical Case(s)**|“DAIM” (Actor Appellation Type “Pseudonym”) is the artist name used by Mirko Reisser (Actor Appellation Type “Name”).<br><br>“Tate” (Actor Appellation Type “Corporate Name”) is the name used by the Tate institution which also has other, distinctive Actor Appellations for each of its branches (Actor Appellation “Tate”, Actor Appellation Type “Brand Name”; Actor Appellation “Tate Britain”, Actor Appellation Type “Brand Name”; Actor Appellation “Tate Modern”, Actor Appellation Type “Brand Name”; Actor Appellation “Tate Modern 1”, Actor Appellation Type “Brand Name”; Actor Appellation “Tate Modern 2”, Actor Appellation Type “Brand Name”; Actor Appellation “Tate St Ives”, Actor Appellation Type “Brand Name”; Actor Appellation “Tate Liverpool”, Actor Appellation Type “Brand Name”).|
@@ -1310,15 +1310,14 @@ sidebar: sps
 
 ---
 
-<div class="hidden-content">
-## Group Type<br><br>**THIS NODE IS NOT DOCUMENTED YET IN THE TARGET MODEL (needs a new name)**
+## Group Type
 
 |---|---|
 |**Scope**|This field conceptually characterizes organizations in order to categorize them in ensembles based on their formally or informally stated mission or function.|
 |**Generated Bond(s)**|E55\_Type|
 |**Dependency(ies)**|E74\_Group|
-|**Related SQN(s)**|Group Type: Definition|
-|**Full Path**|<span class="full-path">crm:E74\_Group -\> crm:P2\_has\_type -\> crm:E55\_Type (*-\> crm:P2\_has\_type -\> crm:E55\_Type\["Group Type"\]*)</span>|
+|**Related SQN(s)**|Type of Group: Definition|
+|**Full Path**|<span class="full-path">crm:E74\_Group -\> crm:P2\_has\_type -\> crm:E55\_Type (*-\> crm:P2\_has\_type -\> crm:E55\_Type\["Type of Group"\]*)</span>|
 |**Target Model View(s)**|[Group Type with E55 Type](https://chin-rcip.github.io/collections-model/target-model/current/identification#group-type-with-e55-type)|
 |**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
 |**Typical Case(s)**|The “Société d’art contemporain” (Group Appellation) was an “Artist Group” (Group Type) founded in Montréal (Birth/Formation Place) in January 1939 (Group Joining Date Begin) by John Lyman (Actor Appellation, Founding Actor Appellation) who was its founder (Group Member Role) along with 24 other artists.|
@@ -1330,7 +1329,6 @@ sidebar: sps
 |**Reference(s)**|[(Art & Architecture Thesaurus 2019t)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019t), [(Art & Architecture Thesaurus 2019v)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019v), [(Art & Architecture Thesaurus 2019w)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019w), [(Art & Architecture Thesaurus 2019x)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019x), [(Le Boeuf et al. 2015, sec. E55 Type)](/collections-model/semantic-paths-specification/current/bibliography#le-boeuf-et-al-2015), [(Le Boeuf et al. 2015, sec. E74 Group)](/collections-model/semantic-paths-specification/current/bibliography#le-boeuf-et-al-2015), [(Free Dictionary 2019z)](/collections-model/semantic-paths-specification/current/bibliography#free-dictionary-2019z), [(Wikipedia 2019a)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019a), [(Wikipedia 2019c)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019c), [(Wikipedia 2019ak)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019ak), [(Wikipedia 2019al)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019al), [(Wikipedia 2019an)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019an), [(Wikipedia 2019ap)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019ap)|
 
 ---
-</div>
 
 ## Image Bibliographical Mention
 
@@ -1858,8 +1856,8 @@ sidebar: sps
 |**Scope**|This field qualifies the Object Appellation and conceptually characterizes Object Appellations in order to facilitate identification and belonging to larger entities (such as families or brands).|
 |**Generated Bond(s)**|E55\_Type|
 |**Dependency(ies)**|[Object Appellation](#object-appellation)|
-|**Related SQN(s)**|Appellation Type: Definition|
-|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P02i\_is\_range\_of -\> crm:PC14\_carried\_out\_by -\> crm:P01\_has\_domain -\> crm:E12\_Production -\> crm:P108\_has\_produced -\> crm:E22\_Human-Made\_Object -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P2\_has\_type -\> **crm:E55\_Type** (*-\> crm:P2\_has\_type -\> crm:E55\_Type\[“Appellation Type”\]*)</span>|
+|**Related SQN(s)**|Type of Appellation: Definition|
+|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P02i\_is\_range\_of -\> crm:PC14\_carried\_out\_by -\> crm:P01\_has\_domain -\> crm:E12\_Production -\> crm:P108\_has\_produced -\> crm:E22\_Human-Made\_Object -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P2\_has\_type -\> **crm:E55\_Type** (*-\> crm:P2\_has\_type -\> crm:E55\_Type\[“Type of Appellation”\]*)</span>|
 |**Target Model View(s)**|[Artefact (Before the Development of the Objects Facet)](https://chin-rcip.github.io/collections-model/target-model/current/artefacts#artefact-before-the-development-of-the-objects-facet)|
 |**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
 |**Typical Case(s)**|*Flightstop* (Object Appellation; Object Appellation Language “English”; Object Appellation Type “Title”; Object Appellation Preference “Preferred”) is a sculpture (Object Medium and Technique) by artist (Occupation Type) Michael Snow (Actor Appellation), sometimes titled *Flight Stop*(Object Appellation; Object Appellation Language “English”; Object Appellation Type “Title”; Object Appellation Preference “Non-Preferred”). It has been displayed at the Toronto Eaton Centre (Object Record Contributor Appellation) since 1979 (Object Record Date Begin) when it was made and installed.|
