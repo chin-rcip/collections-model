@@ -496,9 +496,9 @@ sps:
   - page: Group Member Role
     url: /semantic-paths-specification/current/entry-nodes#group-member-role
     hash: group-member-role
-  # - page: Group Type
-  #   url: /semantic-paths-specification/current/entry-nodes#group-type
-  #   hash: group-type
+  - page: Group Type
+    url: /semantic-paths-specification/current/entry-nodes#group-type
+    hash: group-type
   - page: Image Bibliographical Mention
     url: /semantic-paths-specification/current/entry-nodes#image-bibliographical-mention
     hash: image-bibliographical-mention
