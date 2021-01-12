@@ -215,8 +215,13 @@ As those aggregated contributors also document the provenance of their data, it 
 
 The easiest way to document such entries is to create an `E73_Information_Object` “record” instance linked to the individual `E39_Actor` it documents through the `P67_refers_to` property. This same `E73_Information_Object` is linked to its record contributor (a different `E39_Actor`) and dated through an `E65_Creation` event.
 
-<a name="015_Pattern_RecordContributor_p"></a>015_Pattern_RecordContributor_p
-<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=015_Pattern_RecordContributor_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rsYOVLMwU_nSctm1Ys_6UA1eCuYcEiT9%26export%3Ddownload"></iframe>
+<a name="015a_Pattern_RecordContributor_Actor_p"></a>015a_Pattern_RecordContributor_Actor_p
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=015a_Pattern_RecordContributor_Actor_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1rsYOVLMwU_nSctm1Ys_6UA1eCuYcEiT9%26export%3Ddownload"></iframe>
+
+The same pattern is applied to a “record” instance linked to an artefact (`E22_Human-Made_Object`).
+
+<a name="015b_Pattern_RecordContributor_Artefact_p"></a>015b_Pattern_RecordContributor_Artefact_p
+<iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=015b_Pattern_RecordContributor_Artefact_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1svxBqY5Heh3oqz0oQ8BFyWZ95jAJYQtv%26export%3Ddownload"></iframe>
 
 
 | 🔎  *To Be Discussed* <br/><br/>Whether it would be useful to use the same pattern to document non-aggregating contributors, such as a cataloguer responsible for the documentation of a record in an institution, is under discussion and your input on this matter would be useful. CHIN wants to explore the legal and ethical concerns of displaying personal information of individuals and will examine those with relevant experts. In the meantime, such information will not be recorded.<br/> <br/>For more details on this, see <a href="https://github.com/chin-rcip/chin-rcip/issues/34">CHIN’s GitHub Issue #34</a>. | 
