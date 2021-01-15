@@ -74,15 +74,14 @@ For example, if the occupation of an artist is documented using the AAT and has 
 
 ### Annotations and Comments
 
-Annotations to specific pieces of data—rendered by the CIDOC CRM `P3_has_note` property or by the <code>[rdfs:comment](https://www.w3.org/TR/rdf-schema/#ch_comment)</code> property in RDF—are used to describe or comment on a specific resource. 
+Annotations to specific pieces of data—rendered by the CIDOC CRM `P3_has_note` property or by the [`rdfs:comment`](https://www.w3.org/TR/rdf-schema/#ch_comment) property in RDF—are used to describe or comment on a specific resource. 
 
 
 <a name="008_Pattern_AnnotationsComments_p"></a>008_Pattern_AnnotationsComments_p
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=008_Pattern_AnnotationsComments_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pI5Q8RfR8pKTsOM-fZD0dBwe9Z5ThBKL%26export%3Ddownload"></iframe>
 
 
-Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3_has_note` applied to an `E33_Linguistic_Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33_Linguistic_Object` resource). 
-
+`P3_has_note` is used to annotate extra information regarding the museum content once the mapping process is completed (e.g. the image URL is not valid/working). If the note comes from the dataset itself, the [Curatorial Note](https://chin-rcip.github.io/collections-model/target-model/current/descriptive-information#curatorial-note) pattern must be used. On the other hand, `rdfs:comments` is used especially to add comments on classes and properties. Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3_has_note` applied to an `E33_Linguistic_Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33_Linguistic_Object` resource). 
 
 | 💡  Example: <br/><br/>If a manufacturer is named "Woodwork Construction Ltd.", and we wish to express that its current name is based on the owner's previous company, an annotation can be used. | 
 
@@ -91,8 +90,9 @@ Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s 
 
 For more details on this, please see [Appendix F: Discussions, Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](/collections-model/target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts).
 
-Annotations should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new pattern in the model. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130_shows_features_of`. However, in the rare cases when something is really extraneous to the model but not to understanding, `P3_has_note` and `rdfs:comment` are valid choices. If this is the case, `rdfs:comment` should be used when the annotation pertains to classes or properties (ontological content) whereas `P3_has_note` should be used when the annotation pertains to museum data (cultural content).
+The **Annotation** Entry Nodes (`P3_has_note`) should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new specific pattern for this purpose and that no other pattern could host the information. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130_shows_features_of`. 
 
+To summarize, in the rare cases when something is really extraneous to the model but not to understanding, `P3_has_note` and `rdfs:comment` are valid choices. 
 
 | 🚩  *Important Information*<br/><br/>Unless the creator of the annotation is impacting the model itself by their work, <code>rdfs:comment</code> should not be used and <code>P3 has note</code> should be preferred. |
  
