@@ -36,7 +36,7 @@ The use of this pattern has a few advantages as it:
 * Is a symmetric pattern so that it does not structurally induce an artificial hierarchy between the actors that would misrepresent their relationship;
 * Is bi-directional so that Actor A being linked to Actor B is as true as Actor B being linked to Actor A. 
 
-| 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether family relationships (including biological ties) should be modeled using the relationship pattern considering this would entail inconsistencies in the use of fields. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/16">CHIN’s Github Issue #16</a> as well as mentioned above when examining [Birth/Death and Formation/Dissolution patterns](/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups) | 
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #16](https://github.com/chin-rcip/chin-rcip/issues/16) as well as mentioned above when examining [Birth/Death and Formation/Dissolution patterns](/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups) |
 
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle met the group Les Surréalistes when living in Paris in 1947; he was greatly influenced by the group throughout his life. |
@@ -63,9 +63,9 @@ If the provider’s record documents an `E74_Group` and lists its members, then 
 <a name="060_Example_GroupBelongingGroup7_p"></a>060_Example_GroupBelongingGroup7_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=060_Example_GroupBelongingGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17xazTJlfANMP0MeeYme_hDyyU5hNv_Cp%26export%3Ddownload"></iframe>
 
-| 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether attending school should be modeled as being a member of the school or university’s group.<br/><br/>Likewise, being a member of any company or institution (such as a professor in a University) should also be modeled according to this pattern.<br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/11">CHIN’s Github Issue #11</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #11](https://github.com/chin-rcip/chin-rcip/issues/11) |
 
 
-| 🔎  *To Be Discussed* <br/><br/>Museums sometimes document groups by recording their members in a list. As such, they do not document which actors joined and left the group, and when. In such cases, a pattern such as <code>&lt;Group A> CHIN:hasMember &lt;Actor B></code> might be preferable in order to account for joining and leaving events of Actor B. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/15">CHIN’s Github Issue #15</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) |
 
 > Previous: [Life Events](/collections-model/target-model/current/life-events)<br>Next: [Descriptive Information](/collections-model/target-model/current/descriptive-information)
