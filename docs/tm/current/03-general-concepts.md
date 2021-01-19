@@ -74,15 +74,14 @@ For example, if the occupation of an artist is documented using the AAT and has 
 
 ### Annotations and Comments
 
-Annotations to specific pieces of data—rendered by the CIDOC CRM `P3_has_note` property or by the <code>[rdfs:comment](https://www.w3.org/TR/rdf-schema/#ch_comment)</code> property in RDF—are used to describe or comment on a specific resource. 
+Annotations to specific pieces of data—rendered by the CIDOC CRM `P3_has_note` property or by the [`rdfs:comment`](https://www.w3.org/TR/rdf-schema/#ch_comment) property in RDF—are used to describe or comment on a specific resource. 
 
 
 <a name="008_Pattern_AnnotationsComments_p"></a>008_Pattern_AnnotationsComments_p
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=008_Pattern_AnnotationsComments_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pI5Q8RfR8pKTsOM-fZD0dBwe9Z5ThBKL%26export%3Ddownload"></iframe>
 
 
-Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3_has_note` applied to an `E33_Linguistic_Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33_Linguistic_Object` resource). 
-
+`P3_has_note` is used to annotate extra information regarding the museum content once the mapping process is completed (e.g. the image URL is not valid/working). If the note comes from the dataset itself, the [Curatorial Note](https://chin-rcip.github.io/collections-model/target-model/current/descriptive-information#curatorial-note) pattern must be used. On the other hand, `rdfs:comments` is used especially to add comments on classes and properties. Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s content and *do not* comprise its content. For example, a `P3_has_note` applied to an `E33_Linguistic_Object` annotates the latter’s text, but does not include it (i.e. it does not contain the expression of the `E33_Linguistic_Object` resource). 
 
 | 💡  Example: <br/><br/>If a manufacturer is named "Woodwork Construction Ltd.", and we wish to express that its current name is based on the owner's previous company, an annotation can be used. | 
 
@@ -91,8 +90,9 @@ Both `P3_has_note` and `rdfs:comments` make statements *about* the resource’s 
 
 For more details on this, please see [Appendix F: Discussions, Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](/collections-model/target-model/current/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts).
 
-Annotations should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new pattern in the model. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130_shows_features_of`. However, in the rare cases when something is really extraneous to the model but not to understanding, `P3_has_note` and `rdfs:comment` are valid choices. If this is the case, `rdfs:comment` should be used when the annotation pertains to classes or properties (ontological content) whereas `P3_has_note` should be used when the annotation pertains to museum data (cultural content).
+The **Annotation** Entry Nodes (`P3_has_note`) should be used in edge cases when something is too complex and subtle to be adequately expressed by creating a new specific pattern for this purpose and that no other pattern could host the information. They should not be dismissed entirely, but they should be used with caution. In the Woodwork example mentioned above, it would also be possible to use `P130_shows_features_of`. 
 
+To summarize, in the rare cases when something is really extraneous to the model but not to understanding, `P3_has_note` and `rdfs:comment` are valid choices. 
 
 | 🚩  *Important Information*<br/><br/>Unless the creator of the annotation is impacting the model itself by their work, <code>rdfs:comment</code> should not be used and <code>P3 has note</code> should be preferred. |
  
@@ -110,7 +110,7 @@ To represent the linguistic content of a resource—appellations, biographies or
 The best way to represent the content of a resource is to follow CIDOC CRM’s approach rather than to rely on a homemade property that would only be used by CHIN. As is often the case in the LOD context, it is preferable to employ recognised and approved classes and properties rather than create new, “single use” ones.
 
 
-| 🔎  *To Be Discussed* <br/><br/>Whether it would be preferable to use local CHIN classes in this case is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/37">CHIN’s Github Issue #37</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #37](https://github.com/chin-rcip/chin-rcip/issues/37) |
 
 
 ## Mapping problems and `E33_Linguistic_Object`
@@ -224,7 +224,7 @@ The same pattern is applied to a “record” instance linked to an artefact (`E
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=015b_Pattern_RecordContributor_Artefact_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1svxBqY5Heh3oqz0oQ8BFyWZ95jAJYQtv%26export%3Ddownload"></iframe>
 
 
-| 🔎  *To Be Discussed* <br/><br/>Whether it would be useful to use the same pattern to document non-aggregating contributors, such as a cataloguer responsible for the documentation of a record in an institution, is under discussion and your input on this matter would be useful. CHIN wants to explore the legal and ethical concerns of displaying personal information of individuals and will examine those with relevant experts. In the meantime, such information will not be recorded.<br/> <br/>For more details on this, see <a href="https://github.com/chin-rcip/chin-rcip/issues/34">CHIN’s GitHub Issue #34</a>. | 
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #34](https://github.com/chin-rcip/chin-rcip/issues/34) | 
 
 
 | 💡  Example: <br/><br/>In Artist in Canada, the record of Jean Paul Riopelle indicates that the information comes from the National Gallery of Canada and was created on 1985.03.13 and last modified on 2017.06.05.<br/><br/>As CHIN has not yet determined how to document updates of information (something that will be developed later on), the creation date currently stands for the last modified version of the record. |
@@ -232,7 +232,7 @@ The same pattern is applied to a “record” instance linked to an artefact (`E
 <a name="016_Example_ProvenanceNGCRiopelle_p"></a>016_Example_ProvenanceNGCRiopelle_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=016_Example_ProvenanceNGCRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D139DPJgQlF_QXGeL7-4wKnjbYTfwyMJzT%26export%3Ddownload"></iframe>
 
-| 🔎  *To Be Discussed*<br/><br/>The best way to manage updates to named graphs is still unclear to CHIN and is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #14](https://github.com/chin-rcip/chin-rcip/issues/14) |
 
 
 ### Limits of and Issues with the Named Graph and “Record” approach
@@ -242,13 +242,13 @@ The Named Graphs combined with a “record” approach lacks some of the precisi
 Also, this approach records the provenance of the data, but not the documents used by the contributing institutions themselves when documenting their records. 
 
 
-| 🔎  *To Be Discussed*<br/><br/>How to best identify who the creators of a record are is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/10">CHIN’s Github Issue #10</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #10](https://github.com/chin-rcip/chin-rcip/issues/10) |
 
 
-| 🔎  *To Be Discussed*<br/><br/>How to best manage updates is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/14">CHIN’s Github Issue #14</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #14](https://github.com/chin-rcip/chin-rcip/issues/14) |
 
 
-| 🔎  *To Be Discussed*<br/><br/>How to best manage uncertainty is discussed on <a href="https://github.com/chin-rcip/collections-model/issues/47">CHIN’s Github Issue #47</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #47](https://github.com/chin-rcip/collections-model/issues/47) |
 
 
 ## Challenges When Representing Indigenous Realities 

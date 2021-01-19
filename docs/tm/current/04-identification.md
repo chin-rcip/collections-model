@@ -55,7 +55,7 @@ Some appellations may have been used at a specific moment (e.g. the King is only
 <a name="023_Example_AppellationCarroll_p"></a>023_Example_AppellationCarroll_p
 <iframe frameborder="0" style="width:100%;height:900px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=023_Example_AppellationCarroll_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1krJ7vWTrqMbxaEsV4Bog7XryrdjbF7-P%26export%3Ddownload"></iframe>
 
-| 🔎  *To Be Discussed* <br/><br/>It is debated whether an appellation is unique to it bearer (the URI of the appellation would be &lt;mic.ca/uri/appellation/0014582> and only linked to John Doe) or if this appellation is shared by all its bearer (the URI of that appellation would then be &lt;mic.ca/uri/appellation/john_doe> and shared by every John Doe).<br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/25"> CHIN’s Github Issue #25</a>.|
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #25](https://github.com/chin-rcip/chin-rcip/issues/25) |
 
 
 All the appellations and IDs of actors related to the documented actor will use the Appellation and Identifier patterns presented above. This includes the following fields as they appear in the Reference Documentation:
@@ -147,7 +147,7 @@ At this time, an `E55_Type` pattern seems sufficient because museums currently d
 Should it become necessary or useful, it would be possible to adopt a more complex approach in the future with `ore:aggregation` or another pattern.
 
 
-| 🔎  *To Be Discussed* <br/><br/> Several discussions on this topic highlighted that modeling fields that contribute to diminishing marginalisation should be considered like one of CHIN’s collaborator mentioned:<br/><br/> “So long as it is clear that multiple E55 gender identities can be related to a given E21 Person, this could provide a smoothest route to representing complexity of identity with limited museum data. whilst "model the documentation" is a key rule to follow, it should not be an excuse to continue marginalisation, and I think MiC can strike a balance between the data that there is, and the data that arguably there should be made space for” <br/><br/>Philippe Michon agreed and replied the following: <br/><br/>"You're right, I think we have to provide a more complex pattern eventually to demonstrate the need of more relevant data around this reality."<br/><br/>CHIN is thus wondering whether it would be necessary to adopt this more complex  <code>ore:aggregation</code> approach and would appreciate your input on this matter.<br/><br/>Some of the  issues related to this identity pattern are discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/13"> CHIN’s Github Issue #13</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #13](https://github.com/chin-rcip/chin-rcip/issues/13) |
 
 
 | 💡  Example:<br/><br/>In the case of Jean Paul Riopelle, the artist would have as gender "Male". |
@@ -169,8 +169,7 @@ CIDOC CRM’s `E39_Actor` (a superclass of `E74_Group`) “comprises people, eit
 
 For more details on this, please see [Appendix F: Discussions, Nationality, Nationhood and Community With E74 Group](/collections-model/target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74-group). 
 
-
-| 🔎  *To Be Discussed* <br/><br/>Some issues about this pattern are discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/13"> CHIN’s Github Issue #13</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #13](https://github.com/chin-rcip/chin-rcip/issues/13) |
 
 <a name="027a_Pattern_Identity_Nationality_p"></a>027a_Pattern_Identity_Nationality_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=027_Pattern_Identity_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LEawkI5ayALX1OORfR6exLOCSOPccyeD%26export%3Ddownload"></iframe>

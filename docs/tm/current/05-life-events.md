@@ -52,7 +52,7 @@ There is also a difference between an occupation, like being a musician (even wi
 In order to account for these intricacies, the occupation is modeled with the class `F51_Pursuit` (from the CIDOC CRM extension of [FRBR](https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records), [FRBRoo](http://www.cidoc-crm.org/frbroo/)) which is an event that is `P14_carried_out_by` the `E39_Actor`. This `F51_Pursuit` occupation is then typed to specify which kind of occupation it is (paintor, sculptor, artist, etc.).
 
 
-| 🔎  *To Be Discussed* <br/><br/>CHIN is currently examining whether an additional <code>E55 Type</code> is needed to specify if the occupation is a profession, leisure, etc. This issue is discussed on <a href=" https://github.com/chin-rcip/chin-rcip/issues/29">CHIN’s Github Issue #29</a>. <br/><br/>We are also wondering whether the occupation pattern could be used to assign a type to the industry of a group and to describe the occupation of a group of artists? This issue is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/28">CHIN’s Github Issue #28</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #29](https://github.com/chin-rcip/chin-rcip/issues/29)<br/><br/>And ... <br/><br/>This topic is discussed in [Issue #28](https://github.com/chin-rcip/chin-rcip/issues/28) |
 
 <a name="033_Pattern_Occupation_p"></a>033_Pattern_Occupation_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=033_Pattern_Occupation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1JdZ7dhPt4eJBHDCstGVxmGL-Gnoa-jpa%26export%3Ddownload"></iframe>
@@ -77,7 +77,7 @@ Whilst actors have professional or artistic occupations, people also hold social
 <a name="036_Example_SocialStatusRiopelle_p"></a>036_Example_SocialStatusRiopelle_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=036_Example_SocialStatusRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1AOUj5hq0L2QjthOcexP02kcRzzKsB146%26export%3Ddownload"></iframe>
 
-| 🔎  *To Be Discussed* <br/><br/>The question of the necessity of this Social Status pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/27">CHIN’s Github Issue #27</a>. <br/><br/>There is also the question of modeling this kind of information under the Social Status pattern or with the Membership Group pattern. In the case of being an Officer of the Order of Canada, it could be modeled as being a member of the order, rather than performing the activity of Officer. CHIN will have to determine how information should be attributed to these patterns, according to which criteria, etc. <br/><br/> <code>E13_Attribute_Assignment</code> would be a way to avoid using <code>E7_Activity</code> as a “Phase”. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #27](https://github.com/chin-rcip/chin-rcip/issues/27) |
 
 
 ## Flourishing dates
@@ -99,7 +99,7 @@ The `E39_Actor` is a participant (modeled with the property `P11_has_participant
 Most of the museums have unique fields to document specific collections or objects. How to deal with such types of information has not yet been determined. 
 
 
-| 🔎 *To Be Discussed* <br/><br/>For the moment, CHIN is not considering such niche fields. However, a museum could submit a proposal for the addition of a field that it deems necessary and useful. CHIN could then assess whether it is relevant to model it. At the moment, CHIN is wondering whether this would be a suitable option, and if a “miscellaneous” field should be created as well to accommodate such data. <br/><br/>This issue is discussed in <a href="https://github.com/chin-rcip/chin-rcip/issues/19">CHIN’s Github Issue #19</a>. <br/><br/>How to treat Business Output is a similar concern CHIN has. One possibility would be to use the property <code>R59 had typical subject</code> on the <code>F51 Pursuit</code> activity of the group, as discussed in the <a href="https://github.com/chin-rcip/chin-rcip/issues/29">issue #29</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #19](https://github.com/chin-rcip/chin-rcip/issues/19)<br/><br/>And... <br/><br/>This topic is discussed in [Issue #29](https://github.com/chin-rcip/chin-rcip/issues/29) |
 
 
 ## Artistic Movements
@@ -107,7 +107,7 @@ Most of the museums have unique fields to document specific collections or objec
 At the moment CHIN is unsure whether it should or needs to model artistic movements
 
 
-| 🔎  *To Be Discussed* <br/><br/>At the moment, movements are modeled by linking actors to groups, but this way of proceeding does not allow a datation of belonging to the movement, or even of the movement itself. In order to do so, an E5 Event would have to be used. <br/><br/>CHIN is currently debating whether such a pattern should be adopted in order to allow datation, which is often important to art history and museums. This issue is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/21"> CHIN’s Github Issue #21</a>.|
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #21](https://github.com/chin-rcip/chin-rcip/issues/21) |
 
 
 ## Birth/Death of People and Formation/Dissolution of Groups
@@ -119,7 +119,7 @@ The use of an `E67_Birth` event also enables linking to the biological mother of
 For more details on this, please see [Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](/collections-model/target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups).
 
 
-| 🔎  *To Be Discussed* <br/><br/>CHIN is currently debating whether family relationships (including biological ties) should be modeled using the relationship pattern considering this would entail inconsistencies in the use of fields. <br/><br/>This is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/16">CHIN’s Github Issue #16</a> as well as mentioned below when examining [Relationship patterns](/collections-model/target-model/current/social-bonds#relationships). |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #16](https://github.com/chin-rcip/chin-rcip/issues/16) |
 
 
 Any `E39_Actor` can carry out `E66_Formation` and `E67_Dissolution` events so that an `E74_Group` can be responsible for the creation of another `E74_Group`. 
@@ -227,12 +227,9 @@ The `P15_was_influenced_by` property has an `E7_Activity` as a domain and any `E
 
 At the moment (version 2.1 of the TM), we do not have a pattern to render influences of non-actors on actors.
 
-
-| 🔎  *To Be Discussed* <br/><br/>In the version 1.5 of the Target Model, there was a pattern close to the relationship pattern where a <code>P15 was influenced by</code> property was used in conjunction with an <code>E7 Activity</code> to which an “influence” type was assigned. This <code>E7 Activity</code> was then linked to the <code>E39 Actor</code> with the class <code>PC14 Carried out by</code> in the role of “was influenced by”, as shown below: |
-
 <a name="055_Pattern_Influences_p"></a>055_Pattern_Influences_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=055_Pattern_Influences_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KNO27qQ2axy07E1sO5H3AV45y1QLnFPx%26export%3Ddownload"></iframe>
 
-| The problem with this pattern is that it cannot render anything other than the fact that someone is <em>influenced by</em> something. If we want to model that someone <em>influenced something</em> for example, another pattern would have to be developed.<br/><br/>The necessity and relevance of using such a pattern is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/33">CHIN’s Github Issue #33</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue* <br/><br/>This topic is discussed in [Issue #33](https://github.com/chin-rcip/chin-rcip/issues/33) |
 
 > Previous: [Identification](/collections-model/target-model/current/identification)<br>Next: [Social Bonds](/collections-model/target-model/current/social-bonds)
