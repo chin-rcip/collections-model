@@ -36,7 +36,7 @@ The use of this pattern has a few advantages as it:
 * Is a symmetric pattern so that it does not structurally induce an artificial hierarchy between the actors that would misrepresent their relationship;
 * Is bi-directional so that Actor A being linked to Actor B is as true as Actor B being linked to Actor A. 
 
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #16](https://github.com/chin-rcip/chin-rcip/issues/16) as well as mentioned above when examining [Birth/Death and Formation/Dissolution patterns](/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups) |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #16](https://github.com/chin-rcip/chin-rcip/issues/16) as well as mentioned when examining [Birth/Death and Formation/Dissolution patterns](/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups) |
 
 
 | 💡  Example:<br/><br/>Jean Paul Riopelle met the group Les Surréalistes when living in Paris in 1947; he was greatly influenced by the group throughout his life. |
