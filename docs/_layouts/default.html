@@ -18,7 +18,7 @@
               {% assign item_url = "/collections-model" | append: item.url %}
               <li>
                 <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}
-                  <span class="tooltip">{{ subentry.page }}</span>
+                  <span class="tooltip">{{ item.title }}</span>
                 </a>
                 {% if item.subfolder[0] %}
                   <ul class="sublist" style="{% if item.url != page.url %}display:none{% endif %}">
