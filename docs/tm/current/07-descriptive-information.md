@@ -68,7 +68,7 @@ Besides `E36_Visual_Item`, other kinds of more symbolic visual items such as sig
 <a name="067_Example_MarkMontaigne_p"></a>067_Example_MarkMontaigne_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=067_Example_MarkMontaigne_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ZKzgqArC_GtzobCoN2_opNVGETAr-N9Q%26export%3Ddownload"></iframe>
 
-| 🔎  *To Be Discussed* <br/><br/>The best way to model images, URLs and other aspects of visual  representations is discussed on <a href="https://github.com/chin-rcip/chin-rcip/issues/17">CHIN’s Github Issue #17</a>. |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #17](https://github.com/chin-rcip/chin-rcip/issues/17) |
 
 
 ## Curatorial Note
