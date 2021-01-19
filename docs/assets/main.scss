@@ -7,11 +7,13 @@ html, body {
 	height: 100%;
 }
 
+code {
+	font-size: inherit;
+}
 /*--- styling <main> ---*/
 .main-with-sidebar {
 	display: -webkit-flex;
   	display: flex;
-  	overflow: hidden;
   	padding: 0;
 }
 
@@ -27,16 +29,16 @@ html, body {
 
 /*--- SIDEBAR ---*/
 
-.sidebar h3, li a {
-	white-space: nowrap;
-}
-
 li a.active {
-    font-weight: bold;
+    color: #1756a9;
 }
 
-li a:link, li a:visited {
-	color: #1756a9;
+/*li a:link, li a:visited {
+	color: #5c5962;
+}
+*/
+.sidebar a {
+	color: #5c5962;
 }
 
 .sidebar ul {
@@ -45,18 +47,19 @@ li a:link, li a:visited {
 	padding: 0;
 }
 
+.mainlist>li>a {
+	font-weight: bold;
+}
 .sublist>li>a {
 	padding-left: 20px;
-	color: #5c5962;
 }
 
-.sublist a:hover {
+.sidebar a:hover {
 	color: black;
 }
 
 .subsublist>li>a {
 	padding-left: 40px;
-	color: #5c5962;
 }
 
 .sidebar {
@@ -64,12 +67,62 @@ li a:link, li a:visited {
 	border-right-width: 2px;
 	border-right-color: #f2f2f2;
   	flex-shrink: 0;
-  	/*max-width: calc((100% - 800px) / 2);*/
-  	width: calc((100% - 800px) / 2 - 62px);
   	min-width: 210px;
+  	white-space: nowrap;
 }
 
+@media screen and (min-width: 801px) {
+	.main-with-sidebar {
+		overflow: hidden;
+	}
 
+	.sidebar {
+	  	width: calc((100% - 800px) / 2 - 62px);
+	}
+
+	.sidebar a {
+		display: inline-block;
+		overflow: hidden;
+	  	text-overflow: ellipsis;
+	}
+
+	.mainlist>li>a {
+		width: calc(100%);
+	}
+
+	.sublist>li>a {
+		width: calc(100% - 20px);
+	}
+
+	.subsublist>li>a {
+		width: calc(100% - 40px);
+	}
+
+	.tooltip {
+	  display: none;
+	  background-color: black;
+	  color: #fff;
+	  text-align: left;
+	  font-weight: normal;
+	  border-radius: 5px;
+	  white-space: nowrap;
+	  padding: 5px;
+	  position: absolute;
+	  z-index: 1;
+	}
+
+	.tooltip::after {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  right: 100%;
+	  margin-top: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: transparent black transparent transparent;
+	}
+
+}
 
 /*--- content column ---*/
 
@@ -104,7 +157,6 @@ td {
 
   .sidebar {
   	max-height: 110px;
-  	width: 100%;
   	margin: 20px;
   	border-style: solid;
 	border-width: 2px;

@@ -133,7 +133,7 @@ For the moment, CHIN has decided to use the simple `E55_Type` pattern to identif
 See [Appendix C: Identity](/collections-model/target-model/current/appendix-c-identity) for a description of the rejected [E5 Event](/collections-model/target-model/current/appendix-c-identity#with-e5-event), [Bio CRM](/collections-model/target-model/current/appendix-c-identity#with-bio-crm) and [ore:Aggregation](/collections-model/target-model/current/appendix-c-identity#with-oreaggregation) patterns.
 
 
-#### Rendering Gender and Cultural Affiliation with `E55_Type` 
+### Rendering Gender and Cultural Affiliation with `E55_Type` 
 
 The easiest and simplest way to handle the gender field is to add an `E55_Type` to an `E21_Person`. The simplicity of this pattern has one significant drawback: there is no way to determine when the element started or ended, because types are not dated. This makes it impossible to track peoples’ changes in gender over time. Moreover gender is not an inherent attribute of an individual. From a non-binary and non-biological perspective, gender is evolving and does not necessarily constitute a person’s definite attribute. 
 
@@ -161,7 +161,7 @@ Should it become necessary or useful, it would be possible to adopt a more compl
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=026_Example_GenderMonkman_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DdzMhxXriGaOnfaUA5sWoaU7BWrSJNX-%26export%3Ddownload"></iframe>
 
 
-#### Nationality, Nationhood and Community With `E74_Group`
+### Nationality, Nationhood and Community With `E74_Group`
 
 Identifying (or being identified as) a member of a community or nationality is conceptually similar to joining an `E74_Group` of people bound together so that it could be an appropriate way to render such concepts. 
 
@@ -186,7 +186,7 @@ For more details on this, please see [Appendix F: Discussions, Nationality, Nati
 <a name="028_Example_NationalityRiopelle_p"></a>028_Example_NationalityRiopelle_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=028_Example_NationalityRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ZwohesWAtWQuip1ew4fMim4p3iyMWPuu%26export%3Ddownload"></iframe>
 
-#### Group Type with `E55_Type`
+### Group Type with `E55_Type`
 
 The Group Type is a qualifier assigned to organisations in order to categorize them in ensembles based on their formally or informally stated mission or function.  It is intended to ease recognition of entities and determine whether a specific group is a museum, a company, a group of artists, etc. It will rely on the use of a controlled vocabulary to ensure consistency in the types proposed. 
 

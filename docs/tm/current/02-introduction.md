@@ -9,6 +9,8 @@ sidebar: tm
 Version 2.1 ([Previous versions](/collections-model/versions))
 
 <div class="hidden-content">
+---
+
 ## On This Page
 
 * [Abstract](#abstract)
@@ -20,15 +22,21 @@ Version 2.1 ([Previous versions](/collections-model/versions))
 	* [Examples](#examples)
 </div>
 
+---
+
 ## Dates 
 
 Created date: 2019-05-13
 
 Last Update: 2020-12-22
 
+---
+
 ## Abstract 
 
 This documents the Actors Target Model, which is intended to model the Actors Facet of CHIN’s Collections Model (that will cover collections data more broadly). It details what choices were made when developing patterns as well as why they were made, and offers diagrams representing these patterns. 
+
+---
 
 ## Foreword
 
@@ -38,6 +46,8 @@ The current document is a work in progress and, as such, will be enhanced period
 
 *   *A chapter on PC14 and property chains.* As this pattern is used throughout the Target Model, it would be nice to have an explanation on how it works at the beginning. This will be done when [CHIN’s Github Issue #30](https://github.com/chin-rcip/chin-rcip/issues/30) is solved.
 *   *A complete mapping table.* The mapping table, which indicates how the Reference Documentation and Target Models concur, is not yet finished but will be added to the current document when it is finalised.
+
+---
 
 ## Purpose of the Target Model
 
@@ -66,6 +76,8 @@ The Reference Checklist will be the reference for Canadian institutions to map t
 The Reference Documentation details the fields listed in the Reference Checklist and further documents them by providing, in addition to brief definitions, more precise scope notes detailing the information a field can accommodate as well as a bibliography for each definition. It also provides information pertaining to the field’s use, its hierarchical position within CHIN’s model structure and the associated mandatory fields that must be filled for the data to be properly processed. It also presents the types of values the field accommodates and expects along with technical field requirements. Finally, in addition to relevant comments and details, the Reference Documentation offers descriptions of typical and edge cases that exemplify how institutions might document information with regards to other fields. 
 
 The Target Model complies with LOD standards and, as such, will guide the transfer from the aforementioned unique format to RDF. In this process, museums’ data that is generally represented in tables or arborescences will be converted into a [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_Graph) in accordance with the structure and rules of Semantic Web Ontologies (using [CIDOC CRM](http://www.cidoc-crm.org/) and [FRBRoo](http://www.cidoc-crm.org/frbroo/home-0), although other ontologies such as [FOAF](http://xmlns.com/foaf/spec/), [Schema.org](https://schema.org/) might be used later). 
+
+---
 
 ## Methods and Sources
 
@@ -106,6 +118,8 @@ The complex variety of human activity documented in relation to actors is a sign
 More information about CIDOC CRM can be found on their [website](http://www.cidoc-crm.org/).
 
 The current model, focused on actors related to objects from Canadian museums’ collections, consolidates the information pertaining to them in unique, non-authoritative records. Although CHIN is the custodian of the data that will be submitted to the model, this data will be provided by outside contributors (museums, libraries, researchers, etc.). As such, CHIN does not claim authority over the data content of records, nor does it intervene in museums’ data beyond mapping, cleaning and reconciliation as well as the creation of unique identifiers. CHIN’s role in cohering these data will be that of a custodian with no expert status on the information they represent.
+
+---
 
 ## Modelling Conventions
 

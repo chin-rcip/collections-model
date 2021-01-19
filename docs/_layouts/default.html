@@ -17,19 +17,27 @@
             {% for item in site.data.sidetoc[page.sidebar] %}
               {% assign item_url = "/collections-model" | append: item.url %}
               <li>
-                <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
+                <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}
+                  <span class="tooltip">{{ subentry.page }}</span>
+                </a>
                 {% if item.subfolder[0] %}
                   <ul class="sublist" style="{% if item.url != page.url %}display:none{% endif %}">
                   {% for entry in item.subfolder %}
                     {% assign entry_url = "/collections-model" | append: entry.url %}
                     <li>
-                      <a href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}</a>
+                      <a id="toc-{{ entry.hash }}" href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}
+                        <span class="tooltip">{{ entry.page }}</span>
+                      </a>
+                      
                       {% if entry.subsubfolder[0] %}
                         <ul class="subsublist" style="{% if item.url != page.url %}display:none{% endif %}">
                         {% for subentry in entry.subsubfolder %}
                           {% assign subentry_url = "/collections-model" | append: subentry.url %}
                           <li>
-                            <a href="{{ subentry_url }}" onclick="active(this)">{{ subentry.page }}</a>
+                            <a id="toc-{{ subentry.hash }}" href="{{ subentry_url }}" onclick="active(this)">{{ subentry.page }}
+                              <span class="tooltip">{{ subentry.page }}</span>
+                            </a>
+                            
                           </li>
                         {% endfor %}
                         </ul>
@@ -44,7 +52,7 @@
         </div>
       {% endif %}
       
-      <div class="{% if page.sidebar %}column{% endif %}">
+      <div class="{% if page.sidebar %}column content{% endif %}">
         <div class="
           {% if page.sidebar %}main-content
           {% else %}wrapper
@@ -64,7 +72,74 @@
           cur_active[i].setAttribute("class", "");
         };
         element.setAttribute("class", "active");
-      }
+      };
+
+      function highlight() {
+        var headers = $(".main-content :header"); // get all headers in the main-content
+        var anchor = $(".sidebar a:visible")[3] // get the 4th <a> to get its offset top later.
+        var x;
+        for (x = 0; x < headers.length; x++) {
+          var header_top = $(headers[x]).offset().top;
+          
+
+          if (header_top > 30){
+            if (header_top < 250){
+              var header_id = $(headers[x]).attr("id");
+              // var toc_x = $("#toc-"+header_id);
+            } else {
+              var header_id = $(headers[x -1]).attr("id");
+              // var toc_x = $("#toc-"+header_id);
+            }
+            var toc_x = $("#toc-"+header_id);
+            if (Boolean(header_id)) {
+              $(".active").removeClass("active");
+              toc_x.addClass("active");
+              // scroll to active <a> of sidebar
+              $(".sidebar").animate({
+                scrollTop: toc_x.offset().top - $(anchor).offset().top}, 100);
+              break
+            } else { break }
+            
+          }
+
+        }
+      };
+
+      $(document).ready(function() {
+        // Hide all tooltips
+        $(".tooltip").hide();
+        highlight();
+
+      });
+
+       // scroll sidebar and highlight corresponding headers
+      $(".column.content").scroll(function(){
+        highlight();
+      });
+
+      // tooltips  
+      $(".sidebar a").on({
+        mouseenter: function(){
+          if ($(window).width() > 800){
+            var top = $(this).offset().top + $(this).height();
+            var left = $(".sidebar").width();
+            var tooltip = $(this).children("span");
+            // set tooltip top and left position
+            tooltip.css({"left": left + 40, "top": top - 30});
+            // console.log($(this).outerWidth(), $(this)[0].scrollWidth);
+            // showing tooltip only if ".sidebar a" outerWidth < its scrollWidth
+            if ($(this).outerWidth() + 0.5 < $(this)[0].scrollWidth){
+              tooltip.show();
+            }
+          };
+          
+        },
+
+        mouseleave: function(){
+          var tooltip = $(this).children("span");
+          tooltip.hide();
+        }
+      });
     </script>
     
 

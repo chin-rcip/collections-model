@@ -689,7 +689,7 @@ sidebar: sps
 |---|---|
 |**Scope**|This field records information that is supplemental and associated with an Actor about which it offers further knowledge. It includes comments, remarks, descriptions that would not be biographical, explanations, notes, grades or evaluations, etc.|
 |**Generated Bond(s)**|rdfs:Literal|
-|**Dependency(ies)**|E39\_Actor<br><br>Any other field the curatorial note pertains to|
+|**Dependency(ies)**|E39\_Actor<br><br>E22\_Human-Made_Object|
 |**Related SQN(s)**|Curatorial Note: Definition|
 |**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P67i\_is\_referred\_to\_by -\> crm:E33\_Linguistic\_Object (*-\> crm:P2\_has\_type -\> crm:E55\_Type\["Curatorial Note"\]*) -\> crm:P190\_has\_symbolic\_content -\> **xsd:string**</span>|
 |**Target Model View(s)**|[Curatorial Note](https://chin-rcip.github.io/collections-model/target-model/current/descriptive-information#curatorial-note)|
