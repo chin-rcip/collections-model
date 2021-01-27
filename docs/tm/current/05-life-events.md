@@ -193,8 +193,8 @@ For more on this, please see [Appendix E: Moving Events](/collections-model/targ
 
 Companies’ legal and official headquarters must also be documented. This is something that could be done using the `E13_attribute_assignment` class with the following pattern, although it is still under consideration and might change:
 
-<a name="045_Pattern_HQAssignment_p"></a>045_Pattern_HQAssignment_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=045_Pattern_HQAssignment_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14PlQX6U990zXPxPxtp8tvf44vqeQm3TR%26export%3Ddownload"></iframe>
+<!-- <a name="045_Pattern_HQAssignment_p"></a>045_Pattern_HQAssignment_p -->
+<!-- <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=045_Pattern_HQAssignment_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D14PlQX6U990zXPxPxtp8tvf44vqeQm3TR%26export%3Ddownload"></iframe> -->
 
 ### `E7_Activity` Stay for `E21_Person` and `E74_Group`
 
@@ -227,8 +227,8 @@ The `P15_was_influenced_by` property has an `E7_Activity` as a domain and any `E
 
 At the moment (version 2.1 of the TM), we do not have a pattern to render influences of non-actors on actors.
 
-<a name="055_Pattern_Influences_p"></a>055_Pattern_Influences_p
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=055_Pattern_Influences_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KNO27qQ2axy07E1sO5H3AV45y1QLnFPx%26export%3Ddownload"></iframe>
+<!-- <a name="055_Pattern_Influences_p"></a>055_Pattern_Influences_p -->
+<!-- <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=055_Pattern_Influences_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1KNO27qQ2axy07E1sO5H3AV45y1QLnFPx%26export%3Ddownload"></iframe> -->
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue* <br/><br/>This topic is discussed in [Issue #33](https://github.com/chin-rcip/chin-rcip/issues/33) |
 
