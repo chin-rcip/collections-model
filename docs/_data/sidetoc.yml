@@ -28,6 +28,9 @@ tm:
     - page: Examples
       url: /target-model/current/introduction#examples
       hash: examples
+  - page: A-Z Diagram
+    url: /target-model/current/introduction#a-z-diagram
+    hash: a-z-diagram
 
 - title: General Concepts
   url: /target-model/current/general-concepts
