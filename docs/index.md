@@ -11,6 +11,7 @@ layout: home
 ![A-Z Diagram](images/000_Patterns_2.1_p.jpg)
 A-Z Diagram
 > The interactive version can be viewed [here](/collections-model/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Disclaimer: This is an English-only diagram.</span>
+> La version interactive peut être consultée [ici](/collections-model/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Avertissement: Il s'agit d'un diagramme en anglais seulement.</span> 
 
 Collections is the model currently developed by CHIN to represent Canadian institutions heritage data and documentation. Although CHIN is the custodian of the data that will be submitted in Collections, this data will be provided by outside contributors exclusively (museums, libraries, researchers, etc.). Collections will include at least two major facets (Actors and Objects) along with multiple views (Creators in Canada, Artefacts Canada). These will be interrelated and offer the environment necessary to better display Canadian heritage and content online through custom websites, platforms, and applications.
 
