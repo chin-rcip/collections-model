@@ -142,7 +142,14 @@ td {
 	display: none;
 }
 
+/*--- disclaimer ---*/
 
+blockquote {
+	font-size: 1rem;
+}
+.disclaimer {
+	color: slategray;
+}
 /*.full-path {
 	font-family: "Monaco";
 }*/

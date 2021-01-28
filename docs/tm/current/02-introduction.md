@@ -19,6 +19,7 @@ Version 2.1 ([Previous versions](/collections-model/versions))
 * [Modelling Conventions](#modelling-conventions)
 	* [Patterns](#patterns)
 	* [Examples](#examples)
+* [A-Z Diagram](#a-z-diagram)
 </div>
 
 ## Dates 
@@ -161,5 +162,12 @@ For example, the triples mapped to the gender pattern mentioned above would look
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=006_Convention_Instances_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1C8p1lpiLNDykkf1HUK4SVfJ6jf0p6UQ5%26export%3Ddownload"></iframe>
 
 In this diagram, each instance (the instances of Jean Paul Riopelle, of the gender Male, and of the type Gender) are linked together through properties in accordance with the structure of the corresponding pattern in the model.
+
+## A-Z Diagram
+
+Below is an overview diagram that includes **all current patterns** in the Target Model. Each pattern is enclosed in a blue-dotted bubble, the title of which is linked to its corresponding section in the Target Model. Also, each shape in the diagram is linked to its corresponding Node in the [Semantic Paths Specification](/collections-model/semantic-paths-specification/current/introduction).
+
+<a name="000_Patterns_2.1_p"></a>000_Patterns_2.1_p
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=000_Patterns_2.1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D125_6c1wx8iNrqSgqioi3HjvpqTbmyWlM%26export%3Ddownload"></iframe>
 
 > Next: [General Concepts](/collections-model/target-model/current/general-concepts)
