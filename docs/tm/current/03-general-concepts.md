@@ -159,14 +159,29 @@ A [Named Graph](https://en.wikipedia.org/wiki/Named_graph) is a set of RDF tripl
 
 ```
 
+*To be reviewed - begin*
+
+In terms of named graph's granularity, CHIN has been discussing whether to implement it at a whole dataset or record level. To support CHIN's research on Named Graph, a survey on the implementation of named graphs in the CIDOC CRM community, was sent out to members of the CRM-SIG mailing list. Based on its result and the final discussion with the Semantic Committee, CHIN has decided to implement named graph at the dataset level for the following reasons:
+
+- It is the most common practice at least within the CIDOC CRM community.
+- It allows a lower technological barrier as not all available softwares and processes might be able to support a more granular record level.
+- It prevents the issue of 'border entities', i.e. the shared nodes of multiple entities, for example, the 'Birth' node shared between an Actor and the parents. As all entities (from the same provider) will be placed in one named graph, there would be no concern over whether to which entity the shared node belongs.
+- It is not too difficult nor complicated to set a SPARQL query based on CHIN's Target Model to retrieve data of a single entity (all triples pertaining to such entity, mainly an Actor or an Object) as provider's data will be mapped to the Target Model. As such, it eliminates the concern over the possibility of missing information that might not be included in the query.
+
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #45](https://github.com/chin-rcip/chin-rcip/issues/45) |
+
+
 From a modeling standpoint, such a collection of data would look like the following: 
 
 <a name="014_Pattern_NamedGraph_p"></a>014_Pattern_NamedGraph_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
 
+In the example below, the two main roles that CHIN envisions for the Named Graph provenance data are displayed. Firstly, there is "Creator" which is used to type the `E39_Actor` who converts the provider's data into RDF graph.  Secondly, there is "Provider" which is used to type the `E39_Actor` responsible of the original dataset. The current pattern is scalable if the future process requires new types.
+
+<a name="014a_Example_NamedGraph_p"></a>014a_Example_NamedGraph_p
+<iframe frameborder="0" style="width:100%;height:1074px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=014a_Example_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D185A9nr1WSQdzoCkY_Geiuiroghe1pVBZ%26export%3Ddownload"></iframe>
 
 Such Named Graphs can be expressed in various syntaxes such as [NQuads](https://www.w3.org/2009/07/NamedGraph.html#syntax-1), [TRiG](https://www.w3.org/2009/07/NamedGraph.html#syntax-1), or [JSON-LD](https://www.w3.org/TR/json-ld11/#named-graphs), although they cannot be represented in RDF/XML. They are often represented as additional instances to the usual triples (that thus become quads), but can also be represented at the beginning of an RDF file such as in the following example. 
-
 
 ```
  💡 Example:
@@ -204,10 +219,13 @@ Such Named Graphs can be expressed in various syntaxes such as [NQuads](https://
 
 ```
 
+Therefore, if the users want to retrieve the provenance data, they will have to include the graph clause in their SPARQL query. 
+
+*To be reviewed -end*
 
 ### Record Provenance with Aggregated Contributors
 
-However, the Named Graph approach is problematic when aggregating data that has already been aggregated. This is the case of [Artists in Canada](https://app.pch.gc.ca/application/aac-aic/description-about.app?lang=en), a bilingual union list that identifies the location of documentation files on Canadian artists. Its data is submitted by specific institutions and its content is managed by the National Gallery of Canada whilst CHIN handles its technological maintenance [(National Gallery of Canada / Musée des beaux-arts du Canada 2019a)](/collections-model/target-model/current/bibliography#national-gallery-of-canada-musée-des-beaux-arts-du-canada-2019a); [(National Gallery of Canada / Musée des beaux-arts du Canada 2019b)](/collections-model/target-model/current/bibliography#national-gallery-of-canada-musée-des-beaux-arts-du-canada-2019b).
+However, the dataset level Named Graph approach is problematic when aggregating data that has already been aggregated. This is the case of [Artists in Canada](https://app.pch.gc.ca/application/aac-aic/description-about.app?lang=en), a bilingual union list that identifies the location of documentation files on Canadian artists. Its data is submitted by specific institutions and its content is managed by the National Gallery of Canada whilst CHIN handles its technological maintenance [(National Gallery of Canada / Musée des beaux-arts du Canada 2019a)](/collections-model/target-model/current/bibliography#national-gallery-of-canada-musée-des-beaux-arts-du-canada-2019a); [(National Gallery of Canada / Musée des beaux-arts du Canada 2019b)](/collections-model/target-model/current/bibliography#national-gallery-of-canada-musée-des-beaux-arts-du-canada-2019b).
 
 In the case of such aggregated contributors, it is mandatory to have a named graph for the whole contributor in order for users to be able to query specific information from it (for example if someone wants to search only within Artists in Canada).
 
@@ -234,21 +252,14 @@ The same pattern is applied to a “record” instance linked to an artefact (`E
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #14](https://github.com/chin-rcip/chin-rcip/issues/14) |
 
-
 ### Limits of and Issues with the Named Graph and “Record” approach
 
-The Named Graphs combined with a “record” approach lacks some of the precision and granularity of the `E13_Attribute_Assignment` pattern (for more information about the `E13_Attribute_Assignment_pattern`, see [Appendix A: Data Provenance](/collections-model/target-model/current/appendix-a-data-provenance)). As the source is not specified on every triple, it is not possible to express complex information pertaining to specific triples. For example, it is not possible to indicate that a date attribution is uncertain.
+The Named Graphs combined with a “record” approach lacks some of the precision and granularity of the `E13_Attribute_Assignment` pattern (for more information about the `E13_Attribute_Assignment` pattern, see [Appendix A: Data Provenance](/collections-model/target-model/current/appendix-a-data-provenance)). As the source is not specified on every triple, it is not possible to express complex information pertaining to specific triples. For example, it is not possible to indicate that a date attribution is uncertain.
 
 Also, this approach records the provenance of the data, but not the documents used by the contributing institutions themselves when documenting their records. 
 
 
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #10](https://github.com/chin-rcip/chin-rcip/issues/10) |
-
-
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #14](https://github.com/chin-rcip/chin-rcip/issues/14) |
-
-
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #47](https://github.com/chin-rcip/collections-model/issues/47) |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #10](https://github.com/chin-rcip/chin-rcip/issues/10)<br/><br/>This topic is discussed in [Issue #14](https://github.com/chin-rcip/chin-rcip/issues/14)<br/><br/>This topic is discussed in [Issue #47](https://github.com/chin-rcip/collections-model/issues/47) |
 
 
 ## Challenges When Representing Indigenous Realities 
