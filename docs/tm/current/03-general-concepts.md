@@ -174,7 +174,7 @@ In terms of named graph's granularity, CHIN has been discussing whether to imple
 From a modeling standpoint, such a collection of data would look like the following: 
 
 <a name="014_Pattern_NamedGraph_p"></a>014_Pattern_NamedGraph_p
-<iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
 
 In the example below, the two main roles that CHIN envisions for the Named Graph provenance data are displayed. Firstly, there is "Creator" which is used to type the `E39_Actor` who converts the provider's data into RDF graph.  Secondly, there is "Provider" which is used to type the `E39_Actor` responsible of the original dataset. The current pattern is scalable if the future process requires new types.
 
