@@ -155,7 +155,7 @@ A [Named Graph](https://en.wikipedia.org/wiki/Named_graph) is a set of RDF tripl
 ```
  💡  Example: 
 
-// EXample to come when we will have a first dataset \\
+// Example to come when we will have a first dataset \\
 
 ```
 
@@ -194,30 +194,31 @@ Such Named Graphs can be expressed in various syntaxes such as [NQuads](https://
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "prov": "http://www.w3.org/ns/prov#",
-    "crm": "http://www.cidoc-crm.org/cidoc-crm/"
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "crmdig": "http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/",
+    "frbroo": "http://iflastandards.info/ns/fr/frbr/frbroo/"
   },
-  "@id": "http://mic.ca/graph/wikidata0001",
-  "@type": "prov:Entity",
-  "@type": "crm:E73_Information_Object
-  "prov:wasAttributedTo": {
-        "@id": "http://mic.ca/actor/9999"
-      },
+  "@id": "http://mic.ca/uri/digital_object/001",
+  "@type": "crmdig:D1_Digital_Object",
   "@graph": [
     {
-      "@id": "http://mic.ca/actor/9999",
-      "@type": "crm:E74_Group",
-      "@type": "prov:Agent"
-    },
-    {
-      "@id": "http://mic.ca/occupation/Printmaker",
-      "@type": "crm:E55_Type",
-      "crm:P2_has_type": {
-        "@id": "http://mic.ca/occupation_type/Occupation"
-      },
-      "rdfs:label": "Printmaker"
+      	"@id": "http://mic.ca/uri/actor/9999",
+      	"@type": "crm:E21_Person",
+      	"crm:P14i_performed": {
+	      	"@type": "frbroo:F51_Pursuit",
+	      	"crm:P2_has_type": {
+			    "@id": "http://mic.ca/occupation/Printmaker",
+			    "rdfs:label": "Printmaker",
+			    "@type": "crm:E55_Type",
+			    "crm:P2_has_type": {
+			        "@id": "http://mic.ca/occupation_type/Occupation",
+			        "rdfs:label": "Occupation",
+			        "@type": "crm:E55_Type"
+	      		}
+	    	}
+	  	}
     }
-  ]
+  	]
 }
 
 ```
