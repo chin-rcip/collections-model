@@ -161,17 +161,18 @@ A [Named Graph](https://en.wikipedia.org/wiki/Named_graph) is a set of RDF tripl
 
 *To be reviewed - begin*
 
-In terms of named graph's granularity, CHIN has been discussing whether to implement it at a whole dataset or record level. To support CHIN's research on Named Graph, a survey on the implementation of named graphs in the CIDOC CRM community, was sent out to members of the CRM-SIG mailing list. Based on its result and the final discussion with the Semantic Committee, CHIN has decided to implement named graph at the dataset level for the following reasons:
+The granularity of the dataset structure is partly associated with the level at which Named Graph(s) are implemented. CHIN has been discussing whether a provider’s dataset-based named graph would be better for data provenance documentation and information management or if a more granular record-based named graph would be relevant. To support CHIN’s research on Named Graph, a survey on their implementation in the CIDOC CRM community was sent out to members of the CRM-SIG mailing list. Based on its result and the final discussion with the Semantic Committee, CHIN has decided to implement named graph at the dataset level for the following reasons:
 
-- It is the most common practice at least within the CIDOC CRM community.
-- It allows a lower technological barrier as not all available softwares and processes might be able to support a more granular record level.
-- It prevents the issue of 'border entities', i.e. the shared nodes of multiple entities, for example, the 'Birth' node shared between an Actor and the parents. As all entities (from the same provider) will be placed in one named graph, there would be no concern over whether to which entity the shared node belongs.
-- It is not too difficult nor complicated to set a SPARQL query based on CHIN's Target Model to retrieve data of a single entity (all triples pertaining to such entity, mainly an Actor or an Object) as provider's data will be mapped to the Target Model. As such, it eliminates the concern over the possibility of missing information that might not be included in the query.
+* It is the most common practice, at least within the CIDOC CRM community.
+* It allows a lower technological barrier as not all available softwares and processes might be able to support a more granular record level structure.
+* It prevents the issue of ‘border entities’, i.e. the shared nodes of multiple entities, for example, the ‘Birth’ node shared between an Actor and the parents. As all entities (from the same provider) will be placed in one named graph, there would be no concern over whether to which entity the shared node belongs.
+* It is not too difficult nor complicated to set a SPARQL query based on CHIN’s Target Model to retrieve data of a single entity (all triples pertaining to such entity, mainly an Actor or an Object) as provider’s data will be mapped to the Target Model. As such, it eliminates the concern over the possibility of missing information that might not be included in the query.
+
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #45](https://github.com/chin-rcip/chin-rcip/issues/45) |
 
 
-CHIN has decided to use only CIDOC CRM's entities to document the provenance data. The actors involved in the process are connected to the dataset creation event through a `PC14_carried_out_by` in order to associate them with their role in the process. From a modeling standpoint, such a collection of data would look like the following: 
+CHIN has decided to use only CIDOC CRM's entities to document the provenance data. The actors involved in the process are connected to the dataset creation event through a `PC14_carried_out_by` in order to associate them with their role (`E55_Type`) in the process. From a modeling standpoint, such a collection of data would look like the following: 
 
 <a name="014_Pattern_NamedGraph_p"></a>014_Pattern_NamedGraph_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
