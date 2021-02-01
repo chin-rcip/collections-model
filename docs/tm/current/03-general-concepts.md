@@ -171,12 +171,14 @@ In terms of named graph's granularity, CHIN has been discussing whether to imple
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #45](https://github.com/chin-rcip/chin-rcip/issues/45) |
 
 
-From a modeling standpoint, such a collection of data would look like the following: 
+CHIN has decided to use only CIDOC CRM's entities to document the provenance data. The actors involved in the process are connected to the dataset creation event through a `PC14_carried_out_by` in order to associate them with their role in the process. From a modeling standpoint, such a collection of data would look like the following: 
 
 <a name="014_Pattern_NamedGraph_p"></a>014_Pattern_NamedGraph_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=014_Pattern_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1G2MBh4jcxAXv9YUJ-8MVDzLBaowem4EZ%26export%3Ddownload"></iframe>
 
 In the example below, the two main roles that CHIN envisions for the Named Graph provenance data are displayed. Firstly, there is "Creator" which is used to type the `E39_Actor` who converts the provider's data into RDF graph.  Secondly, there is "Provider" which is used to type the `E39_Actor` responsible of the original dataset. The current pattern is scalable if the future process requires new types.
+
+| 💡  Example 1:  <br/><br/>The National Gallery of Canada (NGC) has been mapped to CHIN's Target Model on January 15th 2021. CHIN was in charge of the mapping and the NGC provided the input data. (fictive use case) |
 
 <a name="014a_Example_NamedGraph_p"></a>014a_Example_NamedGraph_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=014a_Example_NamedGraph_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D185A9nr1WSQdzoCkY_Geiuiroghe1pVBZ%26export%3Ddownload"></iframe>
