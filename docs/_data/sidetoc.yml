@@ -412,18 +412,18 @@ sps:
   - page: Curatorial Note Language
     url: /semantic-paths-specification/current/entry-nodes#curatorial-note-language
     hash: curatorial-note-language
-  # - page: Dataset Creation Date Begin
-  #   url: /semantic-paths-specification/current/entry-nodes#dataset-creation-date-begin
-  #   hash: dataset-creation-date-begin
-  # - page: Dataset Creation Date End
-  #   url: /semantic-paths-specification/current/entry-nodes#dataset-creation-date-end
-  #   hash: dataset-creation-date-end
-  # - page: Dataset Provider Appellation
-  #   url: /semantic-paths-specification/current/entry-nodes#dataset-provider-appellation
-  #   hash: dataset-provider-appellation
-  # - page: Dataset Provider ID
-  #   url: /semantic-paths-specification/current/entry-nodes#dataset-provider-id
-  #   hash: dataset-provider-id
+  - page: Dataset Creation Date Begin
+    url: /semantic-paths-specification/current/entry-nodes#dataset-creation-date-begin
+    hash: dataset-creation-date-begin
+  - page: Dataset Creation Date End
+    url: /semantic-paths-specification/current/entry-nodes#dataset-creation-date-end
+    hash: dataset-creation-date-end
+  - page: Dataset Creation Participant Appellation
+    url: /semantic-paths-specification/current/entry-nodes#dataset-creation-participant-appellation
+    hash: dataset-creation-participant-appellation
+  - page: Dataset Creation Participant Role
+    url: /semantic-paths-specification/current/entry-nodes#dataset-creation-participant-role
+    hash: dataset-creation-participant-role
   - page: Death/Dissolution Date Begin
     url: /semantic-paths-specification/current/entry-nodes#deathdissolution-date-begin
     hash: deathdissolution-date-begin

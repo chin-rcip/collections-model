@@ -744,89 +744,85 @@ sidebar: sps
 
 ---
 
-<div class="hidden-content">
-## Dataset Creation Date Begin<br><br>**THIS NODE IS NOT DOCUMENTED YET IN THE TARGET MODEL**
+## Dataset Creation Date Begin
+
+*To be reviewed - begin*
 
 |---|---|
-|**Scope**|This field designates the earliest temporal instant of the creation of the dataset by the cataloguing entity (person or institution).|
+|**Scope**|This field designates the earliest temporal instant of the creation of a dataset.|
 |**Generated Bond(s)**|rdfs:Literal|
-|**Dependency(ies)**|To be completed|
-|**Full Path**|<span class="full-path">To be completed</span>|
-|**Target Model View(s)**|To be completed|
+|**Dependency(ies)**|crmdig:D1\_Digital\_Object|
+|**Full Path**|<span class="full-path">crmdig:D1\_Digital\_Object -\> crm:P94i\_was\_created\_by -\> crm:E65\_Creation -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P82a\_begin\_of\_the\_begin -\> **xsd:dateTime**</span>|
+|**Target Model View(s)**|[Provenance of the Dataset](https://chin-rcip.github.io/collections-model/target-model/current/general-concepts#provenance-of-the-dataset)|
 |**Semantic Valuation**|*Low*: The value provided temporalizes the beginning of the event, but this information cannot be automatically extracted and formatted.<br><br>*Medium*: The date can be automatically extracted from the value provided (and from textual content that surrounds it if applicable) and can be formatted using the YYYY-MM-DD convention.<br>Accepted Value Type(s): String<br><br>*High*: The date is the sole value provided and is formatted using the date convention.<br>Accepted Value Type(s): DateTime (YYYY-MM-DDThh:mm:ss)|
-|**Typical Case(s)**|To Come|
-|**Edge Case(s)**|To Come|
-|**Value Origin(s)**|Actors Checklist: Dataset Creation Date Begin: Provider Data|
+|**Typical Case(s)**|Ingenium submits a dataset to CHIN who then maps the data to CHIN's Target Model and generates the RDF graph on 2021-01-02. The creation begins at 2021-01-02T00:00:00 (Dataset Creation Date Begin) and ends at 2021-01-02T23:59:59 (Dataset Creation Date End).|
+|**Edge Case(s)**|TBD|
+|**Value Origin(s)**|Actors Checklist: Dataset Creation Date Begin: CHIN/Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
-|**Comment(s)**|This does not indicate the date the dataset was created by CHIN; rather, it refers to the date the dataset was created by the cataloguer at the contributing institution. Since the dataset is created by CHIN, there is no need for the institution to record this date and this field has been deprecated.<br><br>CHIN recommends using the following format when entering dates: “YYYY-MM-DD HH:MM:SS”. However, if the data cannot be converted to such a format (such as in the case of an era), a string can be used (e.g. 2019?).|
+|**Comment(s)**|The creation of a dataset means the mapping of provided data by an institution to CHIN's Target Model and its conversion to RDF format. This would indicates the date the dataset was created by CHIN or any other institution who generates the RDF graph.<br><br>CHIN recommends using the following format when entering dates: “YYYY-MM-DD HH:MM:SS”. However, if the data cannot be converted to such a format (such as in the case of an era), a string can be used (e.g. 2019?).|
 |**Reference(s)**|[(Semantic Web Interest Group 2019)](/collections-model/semantic-paths-specification/current/bibliography#semantic-web-interest-group-2019), [(Wikipedia 2019d)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019d)|
 
 ---
-</div>
 
-<div class="hidden-content">
-## Dataset Creation Date End<br><br>**THIS NODE IS NOT DOCUMENTED YET IN THE TARGET MODEL**
+## Dataset Creation Date End
 
 |---|---|
-|**Scope**|This field designates the latest temporal instant of the creation of the dataset by the cataloguing entity (person or institution).|
+|**Scope**|This field designates the latest temporal instant of the creation of a dataset.|
 |**Generated Bond(s)**|rdfs:Literal|
-|**Dependency(ies)**|To be completed|
-|**Full Path**|<span class="full-path">To be completed</span>|
-|**Target Model View(s)**|To be completed|
+|**Dependency(ies)**|crmdig:D1\_Digital\_Object|
+|**Full Path**|<span class="full-path">crmdig:D1\_Digital\_Object -\> crm:P94i\_was\_created\_by -\> crm:E65\_Creation -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P82b\_end\_of\_the\_end -\> **xsd:dateTime**</span>|
+|**Target Model View(s)**|[Provenance of the Dataset](https://chin-rcip.github.io/collections-model/target-model/current/general-concepts#provenance-of-the-dataset)|
 |**Semantic Valuation**|*Low*: The value provided temporalizes the beginning of the event, but this information cannot be automatically extracted and formatted.<br><br>*Medium*: The date can be automatically extracted from the value provided (and from textual content that surrounds it if applicable) and can be formatted using the YYYY-MM-DD convention.<br>Accepted Value Type(s): String<br><br>*High*: The date is the sole value provided and is formatted using the date convention.<br>Accepted Value Type(s): DateTime (YYYY-MM-DDThh:mm:ss)|
-|**Typical Case(s)**|To Come|
-|**Edge Case(s)**|To Come|
-|**Value Origin(s)**|Actors Checklist: Dataset Creation Date End: Provider Data|
+|**Typical Case(s)**|Ingenium submits a dataset to CHIN who then maps the data to CHIN's Target Model and generates the RDF graph on 2021-01-02. The creation begins at 2021-01-02T00:00:00 (Dataset Creation Date Begin) and ends at 2021-01-02T23:59:59 (Dataset Creation Date End).|
+|**Edge Case(s)**|TBD|
+|**Value Origin(s)**|Actors Checklist: Dataset Creation Date End: CHIN/Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
-|**Comment(s)**|This does not indicate the date the record CHIN ended the creation of the dataset; rather, it refers to the date the cataloguer at the contributing institution ended the creation of the dataset. Since the dataset is created by CHIN, there is no need for the institution to record this date and this field has been deprecated.<br><br>CHIN recommends using the following format when entering dates: “YYYY-MM-DD HH:MM:SS”. However, if the data cannot be converted to such a format (such as in the case of an era), a string can be used (e.g. 2019?).|
+|**Comment(s)**|The creation of a dataset means the mapping of provided data by an institution to CHIN's Target Model and its conversion to RDF format. This would indicates the date the dataset was created by CHIN or any other institution who generates the RDF graph.<br><br>CHIN recommends using the following format when entering dates: “YYYY-MM-DD HH:MM:SS”. However, if the data cannot be converted to such a format (such as in the case of an era), a string can be used (e.g. 2019?).|
 |**Reference(s)**|[(Semantic Web Interest Group 2019)](/collections-model/semantic-paths-specification/current/bibliography#semantic-web-interest-group-2019), [(Wikipedia 2019d)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019d)|
 
 ---
-</div>
 
-<div class="hidden-content">
-## Dataset Provider Appellation<br><br>**THIS NODE IS NOT DOCUMENTED YET IN THE TARGET MODEL**
+## Dataset Creation Participant Appellation
 
 |---|---|
-|**Scope**|This field designates the entire identifying word(s), number(s), symbol(s) or code(s) by which an institution providing a dataset (collection of records) to CHIN is identified.|
+|**Scope**|This field designates the entire identifying word(s), number(s), symbol(s) or code(s) by which an institution participating in the creation of a dataset is identified.|
 |**Generated Bond(s)**|rdfs:Literal|
-|**Dependency(ies)**|To be completed|
-|**Full Path**|<span class="full-path">To be completed</span>|
-|**Target Model View(s)**|To be completed|
+|**Dependency(ies)**|crmdig:D1_Digital_Object|
+|**Full Path**|<span class="full-path">crmdig:D1\_Digital\_Object -\> crm:P94i\_was\_created\_by -\> crm:E65\_Creation -\> crm:P01i\_is\_domain\_of -\> crm:PC14\_carried\_out\_by -\> crm:P02\_has\_range -\> crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P190\_has\_symbolic\_content -\> **xsd:string**</span>|
+|**Target Model View(s)**|[Provenance of the Dataset](https://chin-rcip.github.io/collections-model/target-model/current/general-concepts#provenance-of-the-dataset)|
 |**Semantic Valuation**|*Low*:<br><br>*Medium*:<br><br>*High*:|
-|**Typical Case(s)**|If Ingenium submits a dataset to CHIN, the latter would be associated to “Ingenium” (Dataset Provider Appellation)|
-|**Edge Case(s)**|A single institution might have two distinct databases that would be unconnected and thus two Dataset Provider IDs with a single Dataset Provider Appellation.<br><br>A single institution might have more than a single Dataset Provider Appellation as well and, in this case, CHIN would have to determine which one it will use. For example, a dataset coming from the “Canada Science and Technology Museum” (Dataset Provider Appellation) could also be considered to come from “Ingenium” (Dataset Provider Appellation).<br><br>Museums can be considered Actors just as much as Dataset Providers so that where to apply annotations and curatorial notes might be tricky in specific cases such as changes that were brought to the name (e.g. Ingenium), etc. For example, if Ingenium provided datasets prior to 2018 under their previous Appellation “Canada Science and Technology Museum Corporation” and are now providing under “Ingenium” CHIN will have to determine which Dataset Provider Appellation to use for a single ID, whether to have to Dataset Provider Appellations (each linked to a Dataset Provider ID) or when to use which Dataset Provider Appellation with the single Dataset Provider ID, as well as how to display that information.|
-|**Value Origin(s)**|Actors Checklist: Dataset Provider Appellation: Provider Data|
+|**Typical Case(s)**|If Ingenium submits a dataset to CHIN, the former would be associated to “Ingenium” (Dataset Creation Participant Appellation) in a role of a "Provider" (Dataset Creation Participant Role), and the latter would be associated to “Canadian Heritage Information Network” (Dataset Creation Participant Appellation) in a role of a "Creator" (Dataset Creation Participant Role).|
+|**Edge Case(s)**|A single institution might have more than a single Dataset Creation Participant Appellation as well and, in this case, CHIN would have to determine which one it will use. For example, a dataset coming from the “Canada Science and Technology Museum” (Dataset Creation Participant Appellation) could also be considered to come from “Ingenium” (Dataset Creation Participant Appellation).<!-- <br><br>Museums can be considered Actors just as much as Dataset Creation Participants so that where to apply annotations and curatorial notes might be tricky in specific cases such as changes that were brought to the name (e.g. Ingenium), etc. For example, if Ingenium provided datasets prior to 2018 under their previous Appellation “Canada Science and Technology Museum Corporation” and are now providing under “Ingenium” CHIN will have to determine which Dataset Creation Participant Appellation to use for a single ID, whether to have two Dataset Creation Participant Appellations (each linked to a Dataset Provider ID) or when to use which Dataset Provider Appellation with the single Dataset Provider ID, as well as how to display that information. -->|
+|**Value Origin(s)**|Actors Checklist: Dataset Creation Participant Appellation: Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
-|**Comment(s)**|This field is mandatory and enables the identification of all records provided by a given institution, whether it is an aggregator (e.g. NovaMuse) or a GLAM (e.g. National Gallery of Canada).|
+|**Comment(s)**|The creation of a dataset means the mapping of provided data by an institution to CHIN's Target Model and its conversion to RDF format. This field is mandatory and enables the identification of all institutions involving in the dataset creation, from provider to creator, and whether it is an aggregator (e.g. NovaMuse, Canadian Heritage Information Network) or a GLAM (e.g. National Gallery of Canada).|
 |**Reference(s)**|[(Art & Architecture Thesaurus 2019d)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019d), [(Le Boeuf et al. 2015, sec. E41 Appellation)](/collections-model/semantic-paths-specification/current/bibliography#le-boeuf-et-al-2015), [(Free Dictionary 2019a)](/collections-model/semantic-paths-specification/current/bibliography#free-dictionary-2019a), [(Free Dictionary 2019f)](/collections-model/semantic-paths-specification/current/bibliography#free-dictionary-2019f)|
 
 ---
-</div>
 
-<div class="hidden-content">
-## Dataset Provider ID<br><br>**THIS NODE IS NOT DOCUMENTED YET IN THE TARGET MODEL**
+## Dataset Creation Participant Role
 
 |---|---|
-|**Scope**|This field designates the unique identifying combination of alphanumeric characters assigned to an institution providing data in order to distinguish it from other such institutions (that which is recorded in the Providing Institution Appellation).|
-|**Generated Bond(s)**|rdfs:Literal|
-|**Dependency(ies)**|To be completed|
-|**Full Path**|<span class="full-path">To be completed</span>|
-|**Target Model View(s)**|To be completed|
-|**Semantic Valuation**|*Low*:<br><br>*Medium*:<br><br>*High*:|
-|**Typical Case(s)**|Ingenium is assigned the Dataset Provider ID “5677342” by CHIN.|
-|**Edge Case(s)**|A single institution might have two distinct databases that would be unconnected and thus two Dataset Provider IDs with a single Dataset Provider Appellation.<br><br>A single institution might have more than a single Dataset Provider Appellation as well and, in this case, CHIN would have to determine which one it will use. For example, a dataset coming from the “Canada Science and Technology Museum” (Dataset Provider Appellation) could also be considered to come from “Ingenium” (Dataset Provider Appellation).<br><br>Museums can be considered Actors just as much as Dataset Providers so that where to apply annotations and curatorial notes might be tricky in specific cases such as changes that were brought to the name (e.g. Ingenium), etc. For example, if Ingenium provided datasets prior to 2018 under their previous Appellation “Canada Science and Technology Museum Corporation” and are now providing under “Ingenium” CHIN will have to determine which Dataset Provider Appellation to use for a single ID, whether to have to Dataset Provider Appellations (each linked to a Dataset Provider ID) or when to use which Dataset Provider Appellation with the single Dataset Provider ID, as well as how to display that information.|
-|**Value Origin(s)**|Actors Checklist: Dataset Provider ID: Provider Data|
-|**Controlled List/Term**|N/A|
+|**Scope**|This field indicates the parts, activities, functions, and duties endorsed by an actor with regards to the creation of a dataset.|
+|**Generated Bond(s)**|E55\_Type|
+|**Dependency(ies)**|[Dataset Creation Participant Appellation](#dataset-creation-participant-appellation)|
+|**Full Path**|<span class="full-path">crmdig:D1\_Digital\_Object -\> crm:P94i\_was\_created\_by -\> crm:E65\_Creation -\> crm:P01i\_is\_domain\_of -\> crm:PC14\_carried\_out\_by -\> crm:P14.1\_in\_the\_role\_of -\> **crm:E55\_Type**</span>|
+|**Target Model View(s)**|[Provenance of the Dataset](https://chin-rcip.github.io/collections-model/target-model/current/general-concepts#provenance-of-the-dataset)|
+|**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
+|**Typical Case(s)**|If Ingenium submits a dataset to CHIN, the former would be associated to “Ingenium” (Dataset Creation Participant Appellation) in a role of a "Provider" (Dataset Creation Participant Role), and the latter would be associated to “Canadian Heritage Information Network” (Dataset Creation Participant Appellation) in a role of a "Creator" (Dataset Creation Participant Role).|
+|**Edge Case(s)**|TBD|
+|**Value Origin(s)**|Actors Checklist: Dataset Creation Participant Role: Provider Data|
+|**Controlled List/Term**|TBD|
 |**Potential Error(s)**|TBD|
-|**Comment(s)**|This ID is generated and administered by CHIN.|
-|**Reference(s)**|[(Art & Architecture Thesaurus 2019c)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019c), [(Art & Architecture Thesaurus 2019k)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019k), [(Bekiari et al. 2015, sec. F13 Identifier)](/collections-model/semantic-paths-specification/current/bibliography#bekiari-et-al-2015), [(Wikipedia 2019d)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019d), [(Wikipedia 2019ac)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019ac)|
+|**Comment(s)**|The creation of a dataset means the mapping of provided data by an institution to CHIN's Target Model and its conversion to RDF format. Thus, there are two main roles in the creation of a dataset: the Provider of the raw dataset and the Creator of the RDF graph.|
+|**Reference(s)**|[(Art & Architecture Thesaurus 2019l)](/collections-model/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019l), [(Deutsche National Bibliothek 2019)](/collections-model/semantic-paths-specification/current/bibliography#deutsche-national-bibliothek-2019), [(Free Dictionary 2019ae)](/collections-model/semantic-paths-specification/current/bibliography#free-dictionary-2019ae), [(Free Dictionary 2019l)](/collections-model/semantic-paths-specification/current/bibliography#free-dictionary-2019l), [(Masolo et al. 2004)](/collections-model/semantic-paths-specification/current/bibliography#masolo-et-al-2004), [[(Wenglinsky 2017)](](/collections-model/semantic-paths-specification/current/bibliography#wenglinsky-martin-2017), [(Wikipedia 2019ar)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019ar), [(Wikipedia 2019n)](/collections-model/semantic-paths-specification/current/bibliography#wikipedia-2019n)|
+
+*To be reviewed - end*
 
 ---
-</div>
 
 ## Death/Dissolution Date Begin
 
@@ -875,7 +871,7 @@ sidebar: sps
 |**Full Path**|<span class="full-path">crm:E21\_Person -\> crm:P100i\_died\_in -\> crm:E69\_Death -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P82b\_end\_of\_the\_end -\> xsd:dateTime<br><br>crm:E74\_Group -\> crm:P99i\_was\_dissolved\_by -\> crm:E68\_Dissolution -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P82b\_end\_of\_the\_end -\> **xsd:dateTime**</span>|
 |**Target Model View(s)**|[Birth/Death of People and Formation/Dissolution of Groups](https://chin-rcip.github.io/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)|
 |**Semantic Valuation**|*Low*: The value provided temporalizes the beginning of the event, but this information cannot be automatically extracted and formatted.<br><br>*Medium*: The date can be automatically extracted from the value provided (and from textual content that surrounds it if applicable) and can be formatted using the YYYY-MM-DD convention.<br>Accepted Value Type(s): String<br><br>*High*: The date is the sole value provided and is formatted using the date convention.<br>Accepted Value Type(s): DateTime (YYYY-MM-DDThh:mm:ss)|
-|**Typical Case(s)**|To Come|
+|**Typical Case(s)**|TBD|
 |**Edge Case(s)**|Some important dates in history have alternative names that could be considered to be either alternate appellations or qualifiers, such as 9/11, Victory in Europe Day, D-Day, etc.|
 |**Value Origin(s)**|Actors Checklist: Death/Dissolution Date End: Provider Data|
 |**Controlled List/Term**|N/A|
@@ -894,7 +890,7 @@ sidebar: sps
 |**Full Path**|<span class="full-path">crm:E21\_Person -\> crm:P100i\_died\_in -\> crm:E69\_Death -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P80\_end\_is\_qualified\_by -\> xsd:string<br><br>crm:E74\_Group -\> crm:P99i\_was\_dissolved\_by -\> crm:E68\_Dissolution -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P80\_end\_is\_qualified\_by -\> **xsd:string**</span>|
 |**Target Model View(s)**|[Birth/Death of People and Formation/Dissolution of Groups](https://chin-rcip.github.io/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)|
 |**Semantic Valuation**|*Low*: The value provided qualifies the date of the event, but this information is unstructured and cannot be automatically formatted.<br><br>*Medium*: The value provided qualifies the date of the event and can be (semi-)automatically cleaned and formatted using CHIN’s convention regarding qualifiers (to be decided)<br>Accepted Value Type(s): String<br><br>*High*: The qualifier is the sole value provided and is structured and formatted using CHIN’s convention regarding qualifiers (to be decided)<br>Accepted Value Type(s): String|
-|**Typical Case(s)**|To Come|
+|**Typical Case(s)**|TBD|
 |**Edge Case(s)**|Some important dates in history have alternative names that could be considered to be either alternate appellations or qualifiers, such as 9/11, Victory in Europe Day, D-Day, etc.|
 |**Value Origin(s)**|Actors Checklist: Death/Dissolution Date End Qualifier: Provider Data|
 |**Controlled List/Term**|TBD|
@@ -913,7 +909,7 @@ sidebar: sps
 |**Full Path**|<span class="full-path">crm:E21\_Person -\> crm:P100i\_died\_in -\> crm:E69\_Death -\> crm:P7\_took\_place\_at -\> crm:E53\_Place<br><br>crm:E74\_Group -\> crm:P99i\_was\_dissolved\_by -\> crm:E68\_Dissolution -\> crm:P7\_took\_place\_at -\> **crm:E53\_Place**</span>|
 |**Target Model View(s)**|[Birth/Death of People and Formation/Dissolution of Groups](https://chin-rcip.github.io/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)|
 |**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
-|**Typical Case(s)**|To Come|
+|**Typical Case(s)**|TBD|
 |**Edge Case(s)**|Just for the Birth/Formation Place, the death of an Actor happening in their childhood home could be considered an Annotation on the Death/Dissolution Place or a Death/Dissolution Place in and of itself.<br><br>A group might not have a single Dissolution Place as its members can consider themselves part of a collective without sharing a common space. Alternatively, this poses the question of whether an online meeting space is considered to be a Place.|
 |**Value Origin(s)**|Actors Checklist: Death/Dissolution Place: Provider Data|
 |**Controlled List/Term**|TBD|
@@ -952,7 +948,7 @@ sidebar: sps
 |**Target Model View(s)**|[Birth/Death of People and Formation/Dissolution of Groups](https://chin-rcip.github.io/collections-model/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)|
 |**Semantic Valuation**|*Low*: The provided values contain unstructured information of the appellation, such as it cannot be parsed automatically by reconciliation tools, but still contains the required information.<br><br>*Medium*: The provided values contain structured information that can be automatically cleaned and reconciled with other entities in other datasets.<br>Accepted Value Type(s): String<br><br>*High*: The provided values only contain structured information that can be automatically reconciled with other entities in other datasets.<br>Accepted Value Type(s): String|
 |**Typical Case(s)**|Diplomat “Peter Dale Scott” (Actor Appellation) was born to painter “Marian Mildred Dale Scott” (Mother Appellation) and poet and law professor “Francis Reginald Scott” (Father Appellation).<br><br>Painter “Emily Carr” (Actor Appellation) was born to “Emily (Saunders) Carr” (Mother Appellation) and Richard Carr (Father Appellation).|
-|**Edge Case(s)**|To Come|
+|**Edge Case(s)**|TBD|
 |**Value Origin(s)**|Actors Checklist: Father Appellation: Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
@@ -1360,7 +1356,7 @@ sidebar: sps
 |**Target Model View(s)**|[Visual Item](https://chin-rcip.github.io/collections-model/target-model/current/descriptive-information#visual-item)|
 |**Semantic Valuation**|*Low*: N/A<br><br>*Medium*: N/A<br>Accepted Value Type(s): URL<br><br>*High*: The value provided is an URL that follows the W3C conventions on URLs and should not be broken.<br>Accepted Value Type(s): URL|
 |**Typical Case(s)**|*Mawu-che-hitoowin: A Gathering of People for any Purpose* is a 1992 (Object Record Date Begin & Object Record Date End) installation (Object Medium & Image Medium) by Rebecca Belmore (Actor Appellation). The mention appended to an image of Belmore’s work could be the following:<br><br>Belmore, Rebecca. 1992. *Mawu-Che-Hitoowin: A Gathering of People for Any Purpose*. Installation.<br><br>A URL associated to that image might be the following: “[https://www.rebeccabelmore.com/exhibit/Mawu-che-hitoowin.html](https://www.rebeccabelmore.com/exhibit/Mawu-che-hitoowin.html#null)”|
-|**Edge Case(s)**|To Come|
+|**Edge Case(s)**|TBD|
 |**Value Origin(s)**|Actors Checklist: Image URL: Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
@@ -1420,7 +1416,7 @@ sidebar: sps
 |**Target Model View(s)**|[Visual Item](https://chin-rcip.github.io/collections-model/target-model/current/descriptive-information#visual-item)|
 |**Semantic Valuation**|*Low*: N/A<br><br>*Medium*: N/A<br><br>*High*: The value provided is an URL that follows the W3C conventions on URLs and should not be broken.<br>Accepted Value Type(s): URL|
 |**Typical Case(s)**|Candice Breitz did *Profile Variation* in 2017. The video contains an image showing the back of a person's head with a shaved Visa Inc. logo.<br><br>The Visa logo could be marked within the image, in which case it would have to be quoted using Mark Bibliographical Mention (“Breitz, Candice. 2017. *Profile Variation*. HD video. Artwork.”). In this example the Mark Type would be “Logo” and the Mark URL would point to this image:<br><br>![Image\_2](media/image2.png)<br>Visa Inc. 2014. Logo detail.<br>Unknown (Vector graphics image by Fma12). This W3C-unspecified vector image was created with CorelDRAW, Public domain, via Wikimedia Commons.<br>[https://upload.wikimedia.org/wikipedia/commons/5/53/Visa_2014_logo_detail.svg](https://upload.wikimedia.org/wikipedia/commons/5/53/Visa_2014_logo_detail.svg) (Mark URL)<br><br>Considering the Visa logo is copyrighted, CHIN would have to check that the institution providing the image has the rights to both the video (of which there is a still image above) and the logo.|
-|**Edge Case(s)**|To Come|
+|**Edge Case(s)**|TBD|
 |**Value Origin(s)**|Actors Checklist: Mark URL: Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
@@ -2072,7 +2068,7 @@ sidebar: sps
 |**Target Model View(s)**|[Occupation](https://chin-rcip.github.io/collections-model/target-model/current/life-events#occupation)|
 |**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
 |**Typical Case(s)**|Marc Séguin (Actor Appellation) is a visual artist (Occupation Type), novelist (Occupation Type), and farmer (Occupation Type). His first solo exhibition dates back to 1996 (Occupation Type “Visual Artist”; Occupation Date Begin “1996”; Occupation Date Begin Qualifier “before”) and he has practiced in Montréal, QC, Hemmingford, QC and Brooklyn, NY (Occupation Places). His first novel, *La Foi du braconnier*, was published in 2009 (Occupation Type “Novelist”; Occupation Date Begin “2009”; Occupation Date Begin Qualifier “circa”). He owns a family farm in Hemmingford, QC (Occupation Type “Farmer”; Occupation Date Begin “2008”; Occupation Date Begin Qualifier “before”; Occupation Place “Hemmingford, QC”).|
-|**Edge Case(s)**|To Come|
+|**Edge Case(s)**|TBD|
 |**Value Origin(s)**|Actors Checklist: Occupation Place: Provider Data|
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
