@@ -24,7 +24,7 @@
                   <ul class="sublist" style="{% if item.url != page.url %}display:none{% endif %}">
                   {% for entry in item.subfolder %}
                     {% assign entry_url = "/collections-model" | append: entry.url %}
-                    <li>
+                    <li class="{{ entry.lang }}">
                       <a id="toc-{{ entry.hash }}" href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}
                         <span class="tooltip">{{ entry.page }}</span>
                       </a>
@@ -81,13 +81,12 @@
         for (x = 0; x < headers.length; x++) {
           var header_top = $(headers[x]).offset().top;
           
-
           if (header_top > 30){
             if (header_top < 250){
               var header_id = $(headers[x]).attr("id");
               // var toc_x = $("#toc-"+header_id);
             } else {
-              var header_id = $(headers[x -1]).attr("id");
+              var header_id = $(headers[x - 1]).attr("id");
               // var toc_x = $("#toc-"+header_id);
             }
             var toc_x = $("#toc-"+header_id);
@@ -105,12 +104,49 @@
         }
       };
 
+
       $(document).ready(function() {
-        // Hide all tooltips
+        // Hide all tooltips on window load
         $(".tooltip").hide();
         highlight();
 
+        // dropdown menu toggle
+
+        $(".has-dropdown").click(function(){
+          var other_dropdown = $(".has-dropdown").not(this);
+          other_dropdown.removeClass("visible");
+          other_dropdown.find(".dropdown").removeClass("visible");
+          // $(".has-dropdown,.dropdown").removeClass("visible");
+          $(this).find(".dropdown").toggleClass("visible");
+          $(this).toggleClass("visible");
+        });
+
+        // language buttons
+        var lang_sect_id = $(".lang-section").attr("id");
+        $("button#"+lang_sect_id).addClass("activate");
       });
+
+      
+      // click anywhere in the html to hide dropdown menu
+      $(document).on("click", function(event){
+        // console.log($(event.target))
+        if (!$(event.target).hasClass("has-dropdown")){
+          console.log(event.target);
+          $(".has-dropdown,.dropdown").removeClass("visible");
+        }
+      });
+
+
+      // switching language by clicking language button
+      $(".lang-buttons>button").click(function(){
+        $(this).siblings().removeClass("activate");
+        $(this).addClass("activate");
+        var lang = $(this).attr("id");
+        $(".lang-section").hide();
+        $(".sublist li").hide();
+        $("div#"+lang).show();
+        $(".sublist li."+lang).show();
+      })
 
        // scroll sidebar and highlight corresponding headers
       $(".column.content").scroll(function(){

@@ -37,6 +37,7 @@ header_pages:
   - licensing-documentation.md
   - tm/current/02-introduction.md
   - sps/current/01-introduction.md
+  - resources/current/lod-benefits-challenges.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

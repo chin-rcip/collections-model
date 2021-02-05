@@ -712,3 +712,75 @@ sps:
 
 - title: Bibliography
   url: /semantic-paths-specification/current/bibliography
+
+
+
+lodbc:
+
+- title: LOD - Benefits and Challenges<br>DOL - Avantages et défis
+  url: /resources/current/lod-benefits-challenges-dol-avantages-defis
+  subfolder:
+    - page: Dates
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#dates
+      hash: dates
+      lang: en
+    - page: Abstract
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#abstract
+      hash: abstract
+      lang: en
+    - page: Linked Open Data LOD for Cultural Institutions
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#linked-open-data-lod-for-cultural-institutions
+      hash: linked-open-data-lod-for-cultural-institutions
+      lang: en
+    - page: Benefits
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#benefits
+      hash: benefits
+      lang: en
+    - page: Challenges
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#challenges
+      hash: challenges
+      lang: en
+    - page: Feasibility Guidelines
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#feasibility-guidelines
+      hash: feasibility-guidelines
+      lang: en
+    - page: Best Practices for Publishing LOD
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#best-practices-for-publishing-lod
+      hash: best-practices-for-publishing-lod
+      lang: en
+    - page: Selected Bibliography
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#selected-bibliography
+      hash: selected-bibliography
+      lang: en
+    - page: Dates
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#dates
+      hash: dates
+      lang: fr
+    - page: Résumé
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#resume
+      hash: resume
+      lang: fr
+    - page: Données ouvertes liées DOL pour les institutions culturelles
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
+      hash: donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
+      lang: fr
+    - page: Avantages
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#avantages
+      hash: avantages
+      lang: fr
+    - page: Défis
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#defis
+      hash: defis
+      lang: fr
+    - page: Lignes directrices sur la faisabilité
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#lignes-directrices-sur-la-faisabilite
+      hash: lignes-directrices-sur-la-faisabilite
+      lang: fr
+    - page: Pratiques exemplaires pour la publication des DOL
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#pratiques-exemplaires-pour-la-publication-des-dol
+      hash: pratiques-exemplaires-pour-la-publication-des-dol
+      lang: fr
+    - page: Bibliographie sommaire
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#bibliographie-sommaire
+      hash: bibliographie-sommaire
+      lang: fr
