@@ -12,6 +12,8 @@ permalink: /licence
 
 <div class="lang-section" id="en" markdown="1">
 
+<h1 class="post-title">Licence</h1>
+
 ## Licensing Framework
 
 In keeping with its mandate to offer open and accessible services to the public and in line with open data principles, CHIN relies on open source tools and standards as much as possible and makes sure to render its own content open. This contributes to a reduction of the burden of maintenance, harmonisation, and cross-documentation for the heritage community whilst also increasing the re-usability and visibility of data. Although this is not mandatory, CHIN recommends the use of licenses equivalent to its own whenever possible. 
@@ -56,6 +58,8 @@ Massachusetts Institute of Technology. ‘MIT License’. Open Source Initiative
 </div>
 
 <div class="lang-section" id="fr" markdown="1"> 
+
+<h1 class="post-title">Licence</h1>
 
 ## Normes de licenciation
 

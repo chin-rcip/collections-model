@@ -5,7 +5,7 @@ permalink: /resources/current/lod-benefits-challenges-dol-avantages-defis
 sidebar: lodbc
 group: resources
 ---
-<h1 class="post-title">Données ouvertes et liées - Avantages et défis</h1>
+<!-- <h1 class="post-title">Données ouvertes et liées - Avantages et défis</h1> -->
 
 <div class="lang-buttons">
   <button id="en">EN</button>
@@ -13,6 +13,8 @@ group: resources
 </div>
 
 <div class="lang-section" id="en" markdown="1">
+
+<h1 class="post-title">Linked Open Data - Benefits and Challenges</h1>
 
 ## Dates {#dates-en}
 
@@ -174,6 +176,8 @@ Additional steps necessary for the production of LOD have also been identified b
 <!-- --- -->
 
 <div class="lang-section" id="fr" markdown="1">
+
+<h1 class="post-title">Données ouvertes et liées - Avantages et défis</h1>
 
 ## Dates {#dates-fr}
 

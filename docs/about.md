@@ -12,6 +12,8 @@ permalink: /about
 
 <div class="lang-section" id="en" markdown="1">
 
+<h1 class="post-title">About</h1>
+
 ## Collections Model Documentation
 
 In keeping with its mandate to assist Canadian museums in documenting, managing, and sharing information about their collections, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in Linked Open Data (LOD). CHIN is currently working on the semantic representation of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour. 
@@ -48,6 +50,8 @@ Cédric Jean-Marie (CIOB), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIO
 </div>
 
 <div class="lang-section" id="fr" markdown="1">
+
+<h1 class="post-title">À Propos</h1>
 
 ## Documentation du modèle Collections {#documentation-du-modele-collections}
 

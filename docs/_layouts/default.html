@@ -16,7 +16,7 @@
           <ul class="mainlist">
             {% for item in site.data.sidetoc[page.sidebar] %}
               {% assign item_url = "/collections-model" | append: item.url %}
-              <li>
+              <li class="{{ item.lang }}">
                 <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}
                   <span class="tooltip">{{ item.title }}</span>
                 </a>
@@ -111,14 +111,17 @@
       function content_by_lang(element){
         var lang = get_lang(element);
         $(".lang-section").hide();
-        $(".sublist li").filter(".en,.fr").hide();
+        $(".mainlist li").filter(".en,.fr").hide();
         $("div#"+lang).show();
-        $(".sublist li."+lang).show();
+        $(".mainlist li."+lang).show();
       };
 
 
 
       $(document).ready(function() {
+        if (Boolean($(".lang-section"))){
+          $(".post-header").hide();
+        };
         // Hide all tooltips on window load
         $(".tooltip").hide();
         highlight();
@@ -134,15 +137,12 @@
 
         // detect language of content by the first visible header
         var hders = $(".content :header").not("h1"); // get all headers in the main-content except <h1>
-        console.log(hders);
         var a;
         for (a = 0; a < hders.length; a++) {
           var headtop = $(hders[a]).offset().top;
-          console.log(hders[a]);
           if (headtop > 50){
             var lang_sect = $(hders[a]).parent();
             var lang_sect_id = get_lang(lang_sect);
-            console.log(lang_sect_id);
             content_by_lang(lang_sect);
             
             $("button#"+lang_sect_id).addClass("activate");
