@@ -20,6 +20,8 @@ Version 2.1 ([Previous versions](/collections-model/versions))
 * [Documentation Structure](#documentation-structure)
 </div>
 
+> <span class="disclaimer">DISCLAIMER: The documentation hereby accessible is a collection of working documents. As such, although it is publically released, it does not constitute an official publication and changes are made on an ongoing basis. Because of these regular modifications, the majority of this content is presented in English and will only be translated once a stable and official publication occurs.<span>
+	
 ## Dates
 
 Created date: 2019-05-13
