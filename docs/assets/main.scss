@@ -11,10 +11,18 @@ code {
 	font-size: inherit;
 }
 /*--- styling <main> ---*/
-.main-with-sidebar {
+.page-content {
 	display: -webkit-flex;
   	display: flex;
+  	flex-direction: column;
   	padding: 0;
+}
+
+.main-with-sidebar {
+	/*display: -webkit-flex;
+  	display: flex;*/
+  	/*padding: 0;*/
+  	flex-direction: row;
 }
 
 .column {
@@ -72,13 +80,13 @@ li a.active {
 }
 
 /*hide french sidebar*/
-.sidebar .fr {
+/*.sidebar .fr {
 	display: none;
-}
+}*/
 
 
 @media screen and (min-width: 801px) {
-	.main-with-sidebar {
+	.page-content {
 		overflow: hidden;
 	}
 
@@ -141,9 +149,9 @@ li a.active {
 
 /*--- content column ---*/
 
-.main-with-sidebar div.wrapper{
+/*.main-with-sidebar div.wrapper{
 	margin-left: 0;
-}
+}*/
 
 
 
@@ -241,9 +249,9 @@ header .wrapper {
 	font-weight: bold;
 }
 
-div#fr {
+/*div#fr {
 	display: none;
-}
+}*/
 
 
 /*--- style when changing windown size ---*/

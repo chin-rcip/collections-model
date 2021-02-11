@@ -1,11 +1,18 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
-[Version française](#documentation-du-modèle-collections)
+<!-- [Version française](#documentation-du-modele-collections) -->
 
-# Collections Model Documentation
+<div class="lang-buttons">
+  <button id="en">EN</button>
+  <button id="fr">FR</button>
+</div>
+
+<div class="lang-section" id="en" markdown="1">
+
+## Collections Model Documentation
 
 In keeping with its mandate to assist Canadian museums in documenting, managing, and sharing information about their collections, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in Linked Open Data (LOD). CHIN is currently working on the semantic representation of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour. 
 
@@ -15,19 +22,19 @@ The documentation hereby accessible is a collection of working documents. As suc
 
 Active issues will be prioritised and closed issues will be monitored on a more punctual basis. 
 
-## Main Editors: 
+### Main Editors: 
 
 Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
 
-## Contributors: 
+### Contributors: 
 
 Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Isabelle Jacques (MCC), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Sheila Carey (CHIN), Xiaosong Chen (CIOB)
 
-## Thank Yous
+### Thank Yous
 
 Cédric Jean-Marie (CIOB), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIOB), CHIN's Advisory Committee and all the participants to our GitHub Issues.
 
-## Institutions
+### Institutions
 
 * AKM: Aga Khan Museum 
 * CHIN: Canadian Heritage Information Network 
@@ -38,7 +45,11 @@ Cédric Jean-Marie (CIOB), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIO
 * TAKIN: Takin.solutions Ltd.
 * UdeM: Université de Montréal
 
-# Documentation du modèle Collections
+</div>
+
+<div class="lang-section" id="fr" markdown="1">
+
+## Documentation du modèle Collections {#documentation-du-modele-collections}
 
 Le Réseau canadien d’information sur le patrimoine (RCIP) a pour mandat d’appuyer les musées canadiens dans leur travail de documentation et de gestion de leurs collections. Dans ce cadre, le RCIP prévoit offrir en données ouvertes et liées (DOL) les ressources qu’il crée et les données qu’il agrège, ce pourquoi l’organisation travaille actuellement à la représentation sémantique des acteurs dans le cadre de son projet Acteurs qui s’intégrera éventuellement à un effort de modélisation plus large dédié aux Collections. 
 
@@ -48,19 +59,19 @@ La documentation présentée ici est une collection de documents de travail. À 
 
 Le suivi des problèmes actifs sera priorisé et les problèmes clos seront monitorés sur une base ponctuelle. 
 
-## Éditeurs principaux et Éditrices principales : 
+### Éditeurs principaux et Éditrices principales : 
 
 Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)
 
-## Contributeurs et Contributrices: 
+### Contributeurs et Contributrices: 
 
 Bruno Lemay (RCIP), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (RCIP), George Bruseker (TAKIN), Heather Dunn (RCIP), Isabelle Jacques (MCC), Katrina Ojaste (RCIP), Ludovic Font (RCIP),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (RCIP), Nathalie Guénette (RCIP), Sheila Carey (RCIP), Xiaosong Chen (DGDPI)
 
-## Remerciements
+### Remerciements
 
 Cédric Jean-Marie (DGDPI), Madeleine Lafaille (RCIP), Patrick Des Ruisseaux (DGDPI), le comité consultatif du RCIP et tous les participants et participantes à nos enjeux Github (Github Issues).
 
-## Institutions
+### Institutions
 
 * AKM: Aga Khan Museum 
 * CRIH: Centre de recherche interuniversitaire sur les humanités
@@ -70,3 +81,5 @@ Cédric Jean-Marie (DGDPI), Madeleine Lafaille (RCIP), Patrick Des Ruisseaux (DG
 * RCIP: Réseau canadien d'information sur le patrimoine  
 * TAKIN: Takin.solutions Ltd.
 * UdeM: Université de Montréal
+
+</div>

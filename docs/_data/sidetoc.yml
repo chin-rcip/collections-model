@@ -721,14 +721,14 @@ lodbc:
   url: /resources/current/lod-benefits-challenges-dol-avantages-defis
   subfolder:
     - page: Dates
-      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#dates
-      hash: dates
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#dates-en
+      hash: dates-en
       lang: en
     - page: Abstract
       url: /resources/current/lod-benefits-challenges-dol-avantages-defis#abstract
       hash: abstract
       lang: en
-    - page: Linked Open Data LOD for Cultural Institutions
+    - page: Linked Open Data (LOD) for Cultural Institutions
       url: /resources/current/lod-benefits-challenges-dol-avantages-defis#linked-open-data-lod-for-cultural-institutions
       hash: linked-open-data-lod-for-cultural-institutions
       lang: en
@@ -753,14 +753,14 @@ lodbc:
       hash: selected-bibliography
       lang: en
     - page: Dates
-      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#dates
-      hash: dates
+      url: /resources/current/lod-benefits-challenges-dol-avantages-defis#dates-fr
+      hash: dates-fr
       lang: fr
     - page: Résumé
       url: /resources/current/lod-benefits-challenges-dol-avantages-defis#resume
       hash: resume
       lang: fr
-    - page: Données ouvertes liées DOL pour les institutions culturelles
+    - page: Données ouvertes liées (DOL) pour les institutions culturelles
       url: /resources/current/lod-benefits-challenges-dol-avantages-defis#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
       hash: donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
       lang: fr

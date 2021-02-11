@@ -4,15 +4,20 @@
 
 layout: home
 ---
-[Version française](#aperçu-du-modèle-collections)
+<!-- [Version française](#apercu-du-modele-collections) -->
+
+<div class="lang-buttons">
+  <button id="en">EN</button>
+  <button id="fr">FR</button>
+</div>
+
+<div class="lang-section" id="en" markdown="1">
 
 ## Collections Model Overview
 
 ![A-Z Diagram](images/000_Patterns_2.1_p.jpg)
-A-Z Diagram - Diagramme de A à Z
+A-Z Diagram
 > The interactive version can be viewed [here](/collections-model/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Disclaimer: This is an English-only diagram.</span>
-> 
-> La version interactive peut être consultée [ici](/collections-model/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Avertissement: Il s'agit d'un diagramme en anglais seulement.</span> 
 
 Collections is the model currently developed by CHIN to represent Canadian institutions heritage data and documentation. Although CHIN is the custodian of the data that will be submitted in Collections, this data will be provided by outside contributors exclusively (museums, libraries, researchers, etc.). Collections will include at least two major facets (Actors and Objects) along with multiple views (Creators in Canada, Artefacts Canada). These will be interrelated and offer the environment necessary to better display Canadian heritage and content online through custom websites, platforms, and applications.
 
@@ -22,7 +27,15 @@ The Actors and Objects facets will be equal and interrelated. The only reason th
 
 The documentation hereby accessible is a collection of working documents. As such, although it is publically released, it does not constitute an official publication and changes are made on an ongoing basis. Because of these regular modifications, the majority of this content is presented in English and will only be translated once a stable and official publication occurs.
 
-## Aperçu du modèle Collections
+</div>
+
+<div class="lang-section" id="fr" markdown="1">
+
+## Aperçu du modèle Collections {#apercu-du-modele-collections}
+
+![A-Z Diagram](images/000_Patterns_2.1_p.jpg)
+Diagramme de A à Z
+> La version interactive peut être consultée [ici](/collections-model/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Avertissement: Il s'agit d'un diagramme en anglais seulement.</span> 
 
 Le modèle Collections est actuellement développé par le RCIP pour représenter les données et la documentation sur le patrimoine des établissements canadiens. Bien que le RCIP soit le gardien des données qui seront versées dans les Collections, ces données seront fournies exclusivement par des collaborateurs externes (p. ex. musées, bibliothèques, chercheurs). Collections comprendra au moins deux facettes principales (Acteurs et Objets) ainsi que plusieurs affichages (Créateurs au Canada, Artefacts Canada). Ceux-ci seront interreliés et offriront l’environnement nécessaire pour mieux présenter le patrimoine et le contenu canadiens en ligne au moyen de sites Web, de plateformes et d’applications sur mesure.
 
@@ -31,3 +44,5 @@ Collections est un projet complexe qui prévoit la refonte de l’offre en ligne
 Les facettes Acteurs et Objets seront égales et interreliées. La distinction entre ces deux facettes permet un développement progressif du modèle Collections (la facette Acteurs étant de plus petite envergure) . Collections impliquera de nombreux champs complexes liés aux objets (techniques, matériaux, supports, etc.), ainsi qu’aux acteurs (personnes et groupes). Il s’agit donc d’un projet ambitieux, tant sur le plan du développement que de l’exécution.
 
 La documentation présentée ici est une collection de documents de travail. À ce titre, bien qu’elle soit publiquement disponible, elle ne constitue en rien une publication officielle et des changements y sont apportés sur une base régulière. En raison de ces modifications régulières, la majorité du contenu présenté ici n'est disponible qu'en anglais et ne sera traduit que lors de la publication d'une version stable et officielle de cette documentation.
+
+</div>

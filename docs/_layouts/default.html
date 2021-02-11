@@ -52,7 +52,7 @@
         </div>
       {% endif %}
       
-      <div class="{% if page.sidebar %}column content{% endif %}">
+      <div class="column content">
         <div class="
           {% if page.sidebar %}main-content
           {% else %}wrapper
@@ -84,13 +84,12 @@
           if (header_top > 30){
             if (header_top < 250){
               var header_id = $(headers[x]).attr("id");
-              // var toc_x = $("#toc-"+header_id);
             } else {
               var header_id = $(headers[x - 1]).attr("id");
-              // var toc_x = $("#toc-"+header_id);
             }
-            var toc_x = $("#toc-"+header_id);
+            
             if (Boolean(header_id)) {
+              var toc_x = $("#toc-"+header_id);
               $(".active").removeClass("active");
               toc_x.addClass("active");
               // scroll to active <a> of sidebar
@@ -104,6 +103,20 @@
         }
       };
 
+      function get_lang(element){
+        var language = $(element).attr("id");
+        return language
+      };
+
+      function content_by_lang(element){
+        var lang = get_lang(element);
+        $(".lang-section").hide();
+        $(".sublist li").filter(".en,.fr").hide();
+        $("div#"+lang).show();
+        $(".sublist li."+lang).show();
+      };
+
+
 
       $(document).ready(function() {
         // Hide all tooltips on window load
@@ -111,19 +124,33 @@
         highlight();
 
         // dropdown menu toggle
-
         $(".has-dropdown").click(function(){
           var other_dropdown = $(".has-dropdown").not(this);
           other_dropdown.removeClass("visible");
           other_dropdown.find(".dropdown").removeClass("visible");
-          // $(".has-dropdown,.dropdown").removeClass("visible");
           $(this).find(".dropdown").toggleClass("visible");
           $(this).toggleClass("visible");
         });
 
-        // language buttons
-        var lang_sect_id = $(".lang-section").attr("id");
-        $("button#"+lang_sect_id).addClass("activate");
+        // detect language of content by the first visible header
+        var hders = $(".content :header").not("h1"); // get all headers in the main-content except <h1>
+        console.log(hders);
+        var a;
+        for (a = 0; a < hders.length; a++) {
+          var headtop = $(hders[a]).offset().top;
+          console.log(hders[a]);
+          if (headtop > 50){
+            var lang_sect = $(hders[a]).parent();
+            var lang_sect_id = get_lang(lang_sect);
+            console.log(lang_sect_id);
+            content_by_lang(lang_sect);
+            
+            $("button#"+lang_sect_id).addClass("activate");
+
+            break
+          }
+
+        }
       });
 
       
@@ -131,7 +158,6 @@
       $(document).on("click", function(event){
         // console.log($(event.target))
         if (!$(event.target).hasClass("has-dropdown")){
-          console.log(event.target);
           $(".has-dropdown,.dropdown").removeClass("visible");
         }
       });
@@ -141,11 +167,7 @@
       $(".lang-buttons>button").click(function(){
         $(this).siblings().removeClass("activate");
         $(this).addClass("activate");
-        var lang = $(this).attr("id");
-        $(".lang-section").hide();
-        $(".sublist li").hide();
-        $("div#"+lang).show();
-        $(".sublist li."+lang).show();
+        content_by_lang(this);
       })
 
        // scroll sidebar and highlight corresponding headers

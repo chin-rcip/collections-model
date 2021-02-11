@@ -1,9 +1,16 @@
 ---
 layout: page
 title: Licence
-permalink: /licence/
+permalink: /licence
 ---
-[Version française](#normes-de-licenciation)
+<!-- [Version française](#normes-de-licenciation) -->
+
+<div class="lang-buttons">
+  <button id="en">EN</button>
+  <button id="fr">FR</button>
+</div>
+
+<div class="lang-section" id="en" markdown="1">
 
 ## Licensing Framework
 
@@ -45,6 +52,10 @@ Github. 2020a. ‘Choose an Open Source License’. Choose a License. 25 May 202
 Legislative Services Branch. 2020. *Copyright Act (R.S.C., 1985, c. C-42)*. R.S.C., 1985, c. C-42. Vol. C–42. [https://laws-lois.justice.gc.ca/eng/acts/c-42/page-9.html](https://laws-lois.justice.gc.ca/eng/acts/c-42/page-9.html).
 
 Massachusetts Institute of Technology. ‘MIT License’. Open Source Initiative, 28 May 2020. [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
+
+</div>
+
+<div class="lang-section" id="fr" markdown="1"> 
 
 ## Normes de licenciation
 
@@ -88,4 +99,4 @@ Massachussetts Institute of Technology. 2020. « MIT License ». Open Source I
 
 Ministère de la Justice. 2020. *Loi sur le droit d’auteur (R.S.C., 1985, c. C-42)*. R.S.C., 1985, c. C-42. Vol. C‑42. [https://laws-lois.justice.gc.ca/fra/lois/c-42/page-9.html](https://laws-lois.justice.gc.ca/fra/lois/c-42/page-9.html).
 
-
+</div>

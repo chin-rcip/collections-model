@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Linked Open Data - Benefits and Challenges / Données ouvertes et liées - Avantages et défis
+title: Linked Open Data - Benefits and Challenges
 permalink: /resources/current/lod-benefits-challenges-dol-avantages-defis
 sidebar: lodbc
 group: resources
 ---
-<!-- [Version française](#données-ouvertes-liées-pour-les-institutions-culturelles) -->
+<h1 class="post-title">Données ouvertes et liées - Avantages et défis</h1>
 
 <div class="lang-buttons">
   <button id="en">EN</button>
@@ -14,17 +14,17 @@ group: resources
 
 <div class="lang-section" id="en" markdown="1">
 
-### Dates
+## Dates {#dates-en}
 
 Created date: 2019-08-28
 
 Last update: 2020-10-22
 
-### Abstract
+## Abstract
 
 This working document is intended to give an overview of the benefits and challenges of opening up and semanticizing data, as well as the potential challenges an institution might face in doing so.
 
-### Linked Open Data (LOD) for Cultural Institutions
+## Linked Open Data (LOD) for Cultural Institutions
 
 At the moment, CHIN is developing a model intended for Canadian collections of artefacts. Its facet dedicated to people and groups is currently being developed and will be tested shortly. The Objects facet of this [Collections model](https://chin-rcip.github.io/collections-model/target-model/current/introduction) is intended to be able to align with [linked.art](https://linked.art/model/index.html)’s model for art institutions.
 
@@ -40,7 +40,7 @@ If, as an institution, you want to semanticize your data, CHIN would be happy to
 
 You will find below a list of benefits and challenges that we have identified as part of our research. Keep in mind that many of the challenges can be mitigated by using a strategic approach.
 
-### Benefits
+## Benefits
 
 Linked open data offer a number of advantages, especially when it comes to accessibility and visibility online. LOD are a set of tools and principles that can benefit heritage institutions because they can:
 
@@ -90,7 +90,7 @@ Institutions that do enter the open-access arena usually do so for the following
 
 - It fosters community engagement and expands the reach and scalability of online collections.
 
-### Challenges
+## Challenges
 
 - The value of the data catalogue is realized when it is *used* by people, so that it relies on *engagement of users* more than on *availability of data*:
     - Users should be in a position to discover the data they are anticipating and be equipped to use it;
@@ -116,7 +116,7 @@ Institutions that do enter the open-access arena usually do so for the following
     - Fear of criticism when it comes to problematic, incomplete or inaccurate datasets is a real concern for institutions;
     - Converting an existing dataset to an LOD portal can be daunting, especially as information technologies and management systems have been developed without considering public use or the groups that are now likely to mobilize the data.
 
-### Feasibility Guidelines
+## Feasibility Guidelines
 
 In an interview with Jason Bailey, Neal Stimler suggested the following process to navigate the opening of your data ([Bailey 2019: 1-2](#bailey-2019)):
 
@@ -143,7 +143,7 @@ In an interview with Jason Bailey, Neal Stimler suggested the following process 
 
 6.  An internal working group or project team from relevant areas across the organization should be assembled. The internal group would be directed by a project manager who leads the project vision and has ultimate decision-making authority. Partnerships with allied organizations engaged with an institution’s users and working directly with Creative Commons is strongly recommended to implement best practices.
 
-### Best Practices for Publishing LOD
+## Best Practices for Publishing LOD
 
 Additional steps necessary for the production of LOD have also been identified by Bernadette Hyland, Ghislain A. Atemezing and Boris Villazón-Terrazas [(Hyland, Atemezing, and Villazón-Terrazas 2014)](#hyland-et-al-2014):
 
@@ -167,7 +167,7 @@ Additional steps necessary for the production of LOD have also been identified b
 
 10. Abide by the social contract you enter as an LOD publisher: As an LOD publisher, you must recognize your responsibility in maintaining your data so that it is up to date and accessible. In order to do so, you could for instance create a discussion channel to keep track of issues submitted by users or help decide which model to implement.
 
-### Selected Bibliography
+## Selected Bibliography
 
 </div>
 
@@ -175,17 +175,17 @@ Additional steps necessary for the production of LOD have also been identified b
 
 <div class="lang-section" id="fr" markdown="1">
 
-### Dates
+## Dates {#dates-fr}
 
 Date de création : 2019-08-28
 
 Dernière mise à jour : 2020-01-27
 
-### Résumé {#resume}
+## Résumé {#resume}
 
 Le présent document de travail vise à donner un aperçu des avantages qu’offrent l’ouverture et la sémantisation des données, ainsi que des défis que cela comporte. Il décrit aussi les obstacles que pourraient avoir à surmonter les institutions qui s’engagent dans ce processus.
 
-### Données ouvertes liées (DOL) pour les institutions culturelles {#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles}
+## Données ouvertes liées (DOL) pour les institutions culturelles {#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles}
 
 Le Réseau canadien d’information sur le patrimoine (RCIP) travaille actuellement à la création d’un modèle destiné aux collections canadiennes d’artefacts. Son volet consacré aux personnes et aux groupes est en cours d’élaboration et sera testé prochainement. Le volet Objets de ce [modèle Collections](https://chin-rcip.github.io/collections-model/target-model/current/introduction) est conçu de manière à pouvoir s’aligner sur le modèle de [linked.art](https://linked.art/model/index.html) pour les institutions artistiques. 
 
@@ -201,7 +201,7 @@ Si, en tant qu’institution, vous désirez sémantiser vos données, le RCIP se
 
 Vous trouverez ci-dessous une liste des avantages et des défis que nous avons identifiés dans le cadre de notre recherche. Gardez à l’esprit que de nombreux défis peuvent être atténués par l’utilisation d’une approche stratégique. 
 
-### Avantages
+## Avantages
 
 Les données ouvertes liées offrent un certain nombre d’avantages, notamment en ce qui concerne l’accessibilité et la visibilité en ligne. Les DOL sont un ensemble d’outils et de principes dont les institutions patrimoniales peuvent tirer profit, car elles peuvent :
 
@@ -251,7 +251,7 @@ Les institutions qui entrent dans le domaine du libre accès le font généralem
 
 - Le libre accès favorise la mobilisation de la communauté et élargit la portée et le potentiel de croissance des collections en ligne. 
 
-### Défis {#defis}
+## Défis {#defis}
 
 - C’est l’utilisation du catalogue de données par des personnes qui lui donne sa valeur; celle-ci repose davantage sur la mobilisation des utilisateurs que sur la disponibilité des données :
     - Les utilisateurs doivent être en mesure de découvrir les données auxquelles ils s’attendent et être outillés pour les utiliser;
@@ -277,7 +277,7 @@ Les institutions qui entrent dans le domaine du libre accès le font généralem
     - Les institutions craignent de s’exposer à des critiques en cas de jeux de données problématiques, incomplets ou inexacts;
     - La conversion d’un jeu de données existant en un portail de DOL peut être une tâche intimidante, d’autant plus que les technologies de l’information et les systèmes de gestion ont été créés sans tenir compte d’une utilisation publique ou des groupes qui sont maintenant susceptibles de mobiliser les données. 
 
-### Lignes directrices sur la faisabilité {#lignes-directrices-sur-la-faisabilite}
+## Lignes directrices sur la faisabilité {#lignes-directrices-sur-la-faisabilite}
 
 Dans une entrevue avec Jason Bailey, Neal Stimler a suggéré qu’on adopte le processus suivant pour procéder à l’ouverture des données ([Bailey, 2019 : 1-2](#bailey-2019)) : 
 
@@ -304,7 +304,7 @@ Dans une entrevue avec Jason Bailey, Neal Stimler a suggéré qu’on adopte le 
 
 6.  Constituer un groupe de travail ou une équipe de projet à l’interne dans les secteurs pertinents de l’organisation. Ce groupe est généralement dirigé par un chef de projet responsable de la vision du projet qui a un pouvoir de décision définitif. Il est fortement recommandé d’établir des partenariats avec des organisations alliées engagées auprès des utilisateurs d’une institution et travaillant directement avec Creative Commons pour mettre en œuvre des pratiques exemplaires.
 
-### Pratiques exemplaires pour la publication des DOL 
+## Pratiques exemplaires pour la publication des DOL 
 
 Des étapes supplémentaires nécessaires à la production des DOL ont également été établies par Bernadette Hyland, Ghislain A. Atemezing et Boris Villazón-Terrazas ([Hyland, Atemezing et Villazón-Terrazas, 2014](#hyland-et-al-2014)) :
 
@@ -328,7 +328,7 @@ Des étapes supplémentaires nécessaires à la production des DOL ont égalemen
 
 10. Respecter le contrat social qui lie les éditeurs de DOL : En tant qu’éditeur de DOL, vous avez la responsabilité de tenir vos données à jour et de faire en sorte qu’elles restent accessibles. ¿ cette fin, vous pouvez par exemple créer un espace de discussion pour faire le suivi des questions soumises par les utilisateurs ou pour décider du modèle à mettre en œuvre.
 
-### Bibliographie sommaire
+## Bibliographie sommaire
 
 </div>
 
