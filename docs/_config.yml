@@ -38,6 +38,7 @@ header_pages:
   - tm/current/02-introduction.md
   - sps/current/01-introduction.md
   - resources/current/lod-benefits-challenges.md
+  - resources/current/tools.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -231,6 +231,10 @@ header .wrapper {
  	flex-direction: column;
   }
 
+.dropdown>a {
+	margin: 10px;
+}
+
 .site-nav {
 	z-index: 1;
 }
