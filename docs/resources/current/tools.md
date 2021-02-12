@@ -16,7 +16,7 @@ group: resources
 
 ## CRITERIA {#criteria-en}
 
-[![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png)](https://github.com/chin-rcip/criteria) \| [`Live demo`](http://chinrcip.pythonanywhere.com/) \| MIT License
+[![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png)](https://github.com/chin-rcip/criteria) \| [`Live demonstrator`](http://chinrcip.pythonanywhere.com/) \| MIT License
 
 **C**idoc c**R**m **I**n **T**riples m**ER**maid d**I**agr**A**ms (CRITERIA) is a Python tool that converts RDF files (based on [CIDOC CRM model](http://www.cidoc-crm.org/)) into [Mermaid](https://mermaid-js.github.io/mermaid/#/) markdown to generate (flowchart) diagrams.
 
@@ -52,7 +52,7 @@ and to load all libraries:
 
 ## CRITERIA {#criteria-fr}
 
-[![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png)](https://github.com/chin-rcip/criteria#criteria-2) \| [`Démo en ligne`](http://chinrcip.pythonanywhere.com/) \| Licence MIT
+[![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png)](https://github.com/chin-rcip/criteria#criteria-2) \| [`Démonstrateur en ligne`](http://chinrcip.pythonanywhere.com/) \| Licence MIT
 
 CRITERIA (acronyme anglais de **C**idoc c**R**m **I**n **T**riples m**ER**maid d**I**agr**A**ms) est un outil Python permettant de convertir des fichiers RDF (basés sur le [modèle CIDOC CRM](http://www.cidoc-crm.org/)) en format [Mermaid](https://mermaid-js.github.io/mermaid/#/) markdown pour générer des diagrammes.
 
