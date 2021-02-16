@@ -2,6 +2,8 @@
 layout: page
 title: Semantic Paths Specification
 permalink: /semantic-paths-specification/current/introduction
+titre: Spécification des chemins sémantiques
+lien: /semantic-paths-specification/current/introduction
 sidebar: sps
 ---
 

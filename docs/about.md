@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about
+titre: À Propos
+lien: /about#francais
 ---
 <!-- [Version française](#documentation-du-modele-collections) -->
 
@@ -51,7 +53,7 @@ Cédric Jean-Marie (CIOB), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIO
 
 <div class="lang-section" id="fr" markdown="1">
 
-<h1 class="post-title">À Propos</h1>
+<h1 class="post-title" id="francais">À Propos</h1>
 
 ## Documentation du modèle Collections {#documentation-du-modele-collections}
 

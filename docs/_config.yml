@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Collections Model
+titre: Modèle Collections
 email: pch.RCIP-CHIN.pch@canada.ca
 description: >- # this means to ignore newlines until "baseurl:"
   All the documentation pertaining to the Collections Model developed by CHIN.

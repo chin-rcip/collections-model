@@ -2,6 +2,8 @@
 layout: page
 title: Target Model
 permalink: /target-model/current/introduction
+titre: Modèle cible
+lien: /target-model/current/introduction
 sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/target-model/current/information#table-of-contents)

@@ -4,7 +4,10 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title{% if site.titre %} en{% endif %}" rel="author" href="{{ '/'' | relative_url }}">{{ site.title | escape }}</a>
+    {% if site.titre %}
+      <a class="site-title fr" rel="author" href="{{ '/' | relative_url | append: '#apercu-du-modele-collections' }}">{{ site.titre | escape }}</a>
+    {% endif %}
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -22,8 +25,10 @@
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
               {%- unless my_page.group -%}
-                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              
+                <a class="page-link {% if my_page.titre %}en{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- if my_page.titre -%}
+                <a class="page-link fr" href="{{ my_page.lien | relative_url }}">{{ my_page.titre | escape }}</a>
+                {%- endif -%}
               {%- endunless -%}
             {%- endif -%}
           {%- endfor -%}
@@ -39,13 +44,26 @@
               {%- endfor -%}
             </div>
           </div> -->
-          <div class="has-dropdown page-link">Resources &#9662;
+          <div class="has-dropdown page-link en">Resources &#9662;
             <div class="dropdown">
               {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
                 {%- if my_page.group == "resources" -%}
-                  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  <a class="{% if my_page.titre %}en{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+          </div>
+          <!-- french headings -->
+          <div class="has-dropdown page-link fr">Ressources &#9662;
+            <div class="dropdown">
+              {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.titre -%}
+                {%- if my_page.group == "resources" -%}
+                  <a class="fr" href="{{ my_page.lien | relative_url }}">{{ my_page.titre | escape }}</a>
                 {%- endif -%}
                 {%- endif -%}
               {%- endfor -%}

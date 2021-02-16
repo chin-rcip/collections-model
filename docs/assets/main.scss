@@ -233,12 +233,21 @@ header .wrapper {
 
 .dropdown>a {
 	margin: 10px;
+	color: #111;
+	line-height: 1.5;
 }
 
 .site-nav {
 	z-index: 1;
 }
 
+.site-nav .page-link:not(:last-child) {
+     margin-right: 0; 
+}
+
+.site-nav .page-link {
+     margin-left: 20px; 
+}
 
 /*--- language ---*/
 

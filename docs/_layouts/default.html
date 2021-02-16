@@ -75,7 +75,7 @@
       };
 
       function highlight() {
-        var headers = $(".main-content :header"); // get all headers in the main-content
+        var headers = $(".main-content :header").not("h1"); // get all headers in the main-content
         var anchor = $(".sidebar a:visible")[3] // get the 4th <a> to get its offset top later.
         var x;
         for (x = 0; x < headers.length; x++) {
@@ -103,6 +103,7 @@
         }
       };
 
+      // showing content by language
       function get_lang(element){
         var language = $(element).attr("id");
         return language
@@ -110,16 +111,25 @@
 
       function content_by_lang(element){
         var lang = get_lang(element);
-        $(".lang-section").hide();
-        $(".mainlist li").filter(".en,.fr").hide();
-        $("div#"+lang).show();
-        $(".mainlist li."+lang).show();
+        if (lang != "fr") {
+          $("body .en, div#en").show();
+          $("body .fr, div#fr").hide();
+        } else {
+          $("body .en, div#en").hide();
+          $("body .fr, div#fr").show();
+        }
+        // $(".site-header .en,.site-header .fr").hide();
+        // $(".lang-section").hide();
+        // $(".mainlist li").filter(".en,.fr").hide();
+        // $(".site-header ."+lang).show();
+        // $("div#"+lang).show();
+        // $(".mainlist li."+lang).show();
       };
 
 
 
       $(document).ready(function() {
-        if (Boolean($(".lang-section"))){
+        if ($(".lang-section").length>0){
           $(".post-header").hide();
         };
         // Hide all tooltips on window load
@@ -140,11 +150,11 @@
         var a;
         for (a = 0; a < hders.length; a++) {
           var headtop = $(hders[a]).offset().top;
-          if (headtop > 50){
+          if (headtop > 60){
             var lang_sect = $(hders[a]).parent();
             var lang_sect_id = get_lang(lang_sect);
             content_by_lang(lang_sect);
-            
+            console.log(hders[a],headtop,lang_sect);
             $("button#"+lang_sect_id).addClass("activate");
 
             break

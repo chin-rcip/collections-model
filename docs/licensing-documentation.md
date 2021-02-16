@@ -2,6 +2,8 @@
 layout: page
 title: Licence
 permalink: /licence
+titre: Licence
+lien: /licence#francais
 ---
 <!-- [Version française](#normes-de-licenciation) -->
 
@@ -59,7 +61,7 @@ Massachusetts Institute of Technology. ‘MIT License’. Open Source Initiative
 
 <div class="lang-section" id="fr" markdown="1"> 
 
-<h1 class="post-title">Licence</h1>
+<h1 class="post-title" id="francais">Licence</h1>
 
 ## Normes de licenciation
 

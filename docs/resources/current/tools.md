@@ -2,6 +2,8 @@
 layout: page
 title: Tools
 permalink: /resources/current/tools
+titre: Outils
+lien: /resources/current/tools#outils
 group: resources
 ---
 
@@ -48,7 +50,7 @@ and to load all libraries:
 
 <div class="lang-section" id="fr" markdown="1">
 
-<h1 class="post-title">Outils</h1>
+<h1 class="post-title" id="outils">Outils</h1>
 
 ## CRITERIA {#criteria-fr}
 

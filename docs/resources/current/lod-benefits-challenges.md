@@ -2,6 +2,8 @@
 layout: page
 title: Linked Open Data - Benefits and Challenges
 permalink: /resources/current/lod-benefits-challenges-dol-avantages-defis
+titre: Données ouvertes et liées - Avantages et défis
+lien: /resources/current/lod-benefits-challenges-dol-avantages-defis#francais
 sidebar: lodbc
 group: resources
 ---
@@ -177,7 +179,7 @@ Additional steps necessary for the production of LOD have also been identified b
 
 <div class="lang-section" id="fr" markdown="1">
 
-<h1 class="post-title">Données ouvertes et liées - Avantages et défis</h1>
+<h1 class="post-title" id="francais">Données ouvertes et liées - Avantages et défis</h1>
 
 ## Dates {#dates-fr}
 
