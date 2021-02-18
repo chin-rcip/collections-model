@@ -184,7 +184,7 @@ sidebar: sps
 ## Actor Appellation Use Date End Qualifier
 
 |---|---|
-|**Scope**|This field qualifies the latest temporal instant of the use of the appellation.|
+|**Scope**|This field qualifies the latest temporal instant of the use of the Actor Appellation.|
 |**Generated Bond(s)**|rdfs:Literal|
 |**Dependency(ies)**|[Actor Appellation](#actor-appellation)<br><br>[Actor Appellation Use Date End](#actor-appellation-use-date-end-qualifier)|
 |**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> frbr:R64i\_was\_name\_used\_by -\> frbr:F52\_Name\_Use\_Activity -\> crm:P4\_has\_time-span -\> crm:E52\_Time-Span -\> crm:P80\_end\_is\_qualified\_by -\> **xsd:string**</span>|
@@ -792,7 +792,7 @@ sidebar: sps
 |**Dependency(ies)**|crmdig:D1_Digital_Object|
 |**Full Path**|<span class="full-path">crmdig:D1\_Digital\_Object -\> crm:P94i\_was\_created\_by -\> crm:E65\_Creation -\> crm:P01i\_is\_domain\_of -\> crm:PC14\_carried\_out\_by -\> crm:P02\_has\_range -\> crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> crm:P190\_has\_symbolic\_content -\> **xsd:string**</span>|
 |**Target Model View(s)**|[Provenance of the Dataset](https://chin-rcip.github.io/collections-model/target-model/current/general-concepts#provenance-of-the-dataset)|
-|**Semantic Valuation**|*Low*:<br><br>*Medium*:<br><br>*High*:|
+|**Semantic Valuation**|*Low*: The provided values contain unstructured information of the appellation, such as it cannot be parsed automatically by reconciliation tools, but still contains the required information.<br><br>*Medium*: The provided values contain structured information that can be automatically cleaned and reconciled with other entities in other datasets.<br>Accepted Value Type(s): String<br><br>*High*: The provided values only contain structured information that can be automatically reconciled with other entities in other datasets.<br>Accepted Value Type(s): String|
 |**Typical Case(s)**|If Ingenium submits a dataset to CHIN, the former would be associated to “Ingenium” (Dataset Creation Participant Appellation) in a role of a "Provider" (Dataset Creation Participant Role), and the latter would be associated to “Canadian Heritage Information Network” (Dataset Creation Participant Appellation) in a role of a "Creator" (Dataset Creation Participant Role).|
 |**Edge Case(s)**|A single institution might have more than a single Dataset Creation Participant Appellation as well and, in this case, CHIN would have to determine which one it will use. For example, a dataset coming from the “Canada Science and Technology Museum” (Dataset Creation Participant Appellation) could also be considered to come from “Ingenium” (Dataset Creation Participant Appellation).<!-- <br><br>Museums can be considered Actors just as much as Dataset Creation Participants so that where to apply annotations and curatorial notes might be tricky in specific cases such as changes that were brought to the name (e.g. Ingenium), etc. For example, if Ingenium provided datasets prior to 2018 under their previous Appellation “Canada Science and Technology Museum Corporation” and are now providing under “Ingenium” CHIN will have to determine which Dataset Creation Participant Appellation to use for a single ID, whether to have two Dataset Creation Participant Appellations (each linked to a Dataset Provider ID) or when to use which Dataset Provider Appellation with the single Dataset Provider ID, as well as how to display that information. -->|
 |**Value Origin(s)**|Actors Checklist: Dataset Creation Participant Appellation: Provider Data|
@@ -1408,7 +1408,7 @@ sidebar: sps
 ## Mark URL
 
 |---|---|
-|**Scope**|This designates symbols, signs, signatures or short texts applied to artefacts in order to indicate the creator, owner, dedications, purpose, etc.|
+|**Scope**|Unique resource locator that provides the address on the internet, in addition to the identification, of the symbols, signs, signatures or short texts applied to artefacts in order to indicate the creator, owner, dedications, purpose, etc., according to one of a variety of protocols.|
 |**Generated Bond(s)**|rdfs:Literal|
 |**Dependency(ies)**|E39\_Actor|
 |**Related SQN(s)**|Symbolic: Definition<br><br>URL: Definition|
@@ -1907,7 +1907,7 @@ sidebar: sps
 ## Object Image URL
 
 |---|---|
-|**Scope**|This field accommodates visual depictions of the object.|
+|**Scope**|Unique resource locator that provides the address on the internet of the visual depictions of the object, according to one of a variety of protocols.|
 |**Generated Bond(s)**|rdfs:Literal|
 |**Dependency(ies)**|E22\_Human-Made\_Object|
 |**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P02i\_is\_range\_of -\> crm:PC14\_carried\_out\_by -\> crm:P01\_has\_domain -\> crm:E12\_Production -\> crm:P108\_has\_produced -\> crm:E22\_Human-Made\_Object -\> crm:P138i\_has\_representation -\> crm:E36\_Visual\_Item -\> crm:P165i\_is\_incorporated\_in -\> crmdig:D1\_Digital\_Object -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation -\> crm:P190\_has\_symbolic\_content -\> **xsd:string**</span>|
