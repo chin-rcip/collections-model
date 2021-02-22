@@ -149,6 +149,9 @@ li a.active {
 
 /*--- content column ---*/
 
+.column.content a {
+	overflow-wrap: anywhere;
+}
 /*.main-with-sidebar div.wrapper{
 	margin-left: 0;
 }*/

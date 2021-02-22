@@ -87,9 +87,10 @@
             } else {
               var header_id = $(headers[x - 1]).attr("id");
             }
-            
-            if (Boolean(header_id)) {
+            // console.log(header_id);
+            if (header_id != undefined) {
               var toc_x = $("#toc-"+header_id);
+              // console.log(toc_x);
               $(".active").removeClass("active");
               toc_x.addClass("active");
               // scroll to active <a> of sidebar
@@ -154,7 +155,6 @@
             var lang_sect = $(hders[a]).parent();
             var lang_sect_id = get_lang(lang_sect);
             content_by_lang(lang_sect);
-            console.log(hders[a],headtop,lang_sect);
             $("button#"+lang_sect_id).addClass("activate");
 
             break

@@ -406,9 +406,9 @@ sps:
   - page: Curatorial Note Content
     url: /semantic-paths-specification/current/entry-nodes#curatorial-note-content
     hash: curatorial-note-content
-  - page: Curatorial Note Author
-    url: /semantic-paths-specification/current/entry-nodes#curatorial-note-author
-    hash: curatorial-note-author
+  - page: Curatorial Note Author Appellation
+    url: /semantic-paths-specification/current/entry-nodes#curatorial-note-author-appellation
+    hash: curatorial-note-author-appellation
   - page: Curatorial Note Language
     url: /semantic-paths-specification/current/entry-nodes#curatorial-note-language
     hash: curatorial-note-language
