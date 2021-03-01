@@ -30,71 +30,50 @@ Version 2.1 ([Previous versions](/collections-model/versions))
 
 Created date: 2019-05-13
 
-Last Update: 2020-12-22
+Last Update: 2021-03-01
 
 ## Abstract 
 
-This documents the Actors Target Model, which is intended to model the Actors Facet of CHIN’s Collections Model (that will cover collections data more broadly). It details what choices were made when developing patterns as well as why they were made, and offers diagrams representing these patterns. 
+The Actors Target Model is intended to model the Actors Facet of CHIN’s Collections Model (that will cover collections data more broadly). Patterns most relevant to actors' lives are presented along with diagrams and examples illustrating them, as well as a record and explanation of relevant decisions that were made when developing said patterns.  
 
-
-## Foreword
-
-This document is based on the Artefact Semantic Reference Data Model by George Bruseker and follows a similar structure [(Bruseker 2019)](/collections-model/target-model/current/bibliography#bruseker-2019). This work is also indebted to the [linked.art](https://linked.art/) project whose scope differs from that of CHIN’s, but whose review and discussions of issues are beneficial [(linked.art 2019a)](/collections-model/target-model/current/bibliography#linked-art-2019a).
-
-The current document is a work in progress and, as such, will be enhanced periodically. Elements currently missing include: 
-
-*   *A chapter on PC14 and property chains.* As this pattern is used throughout the Target Model, it would be nice to have an explanation on how it works at the beginning. This will be done when [CHIN’s Github Issue #30](https://github.com/chin-rcip/chin-rcip/issues/30) is solved.
-*   *A complete mapping table.* The mapping table, which indicates how the Reference Documentation and Target Models concur, is not yet finished but will be added to the current document when it is finalised.
+The current document is a work in progress and, as such, will be enhanced periodically. Elements currently under development or review are listed as [issues](https://github.com/chin-rcip/collections-model/issues).  
 
 
 ## Purpose of the Target Model
 
-In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model/target-model/current/bibliography#canadian-heritage-information-network-chin-2019). This is in order to contribute to the breaking of data silos and give better access to Canadian heritage information online. Before modernising Artefacts Canada (AC) by converting it in accordance with LOD principles, CHIN will work on a smaller scale project titled *Actors* (Actors), which will later be part of the larger Collections model supporting Artefacts Canada.
+In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model/target-model/current/bibliography#canadian-heritage-information-network-chin-2019) in an effort to give better access to Canadian heritage information online. Work on the Actors facet of CHIN's larger Collections model, intended to support a future LOD deployment of Artefacts Canada, is documented here. 
 
 The scope of this project is to consolidate, in unique records, the information pertaining to actors related to objects from Canadian museums collections. An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to artefacts collected by Canadian museums. 
 
-That said, specific museums may document targeted or niche aspects of an actor's life or object, aspects that are relevant solely to that museum (e.g. a museum dedicated to firefighters might document the level of first-aid training an actor received). The Actors and/or Collections models will not model such specific information in order to  avoid unnecessary complexity as many museums will have individual needs that are not shared by their counterparts. See the closed Issue #19 for the detailed discussion about this topic.
+That said, specific museums may document targeted or niche aspects of an actor's life or object, aspects that are relevant solely to that museum (e.g. a museum dedicated to firefighters might document the level of first-aid training an actor received). The Actors and/or Collections models will not model such specific information in order to avoid unnecessary complexity as many museums will have individual needs that are not shared by their counterparts (for a detailed discussion of this issue, see Issue #19).
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #19](https://github.com/chin-rcip/collections-model/issues/19) |
 
-The first challenge will be to standardize into a single format data that will be varied in structure, format and languages when collecting and aggregating them. The second and most ambitious challenge will be to reconcile data coming from numerous and varied sources. Reconciling, here, implies two main steps:
+The objective of the model is to collect, standardize, and aggregate data that is varied in structure, format and languages. This will involve reconciling data coming from numerous and varied sources through two main steps:
 
-1. Identifying single entities amongst different entries that manifest the same information; 
-2. Attributing to these entries unique identifiers that relate them to those single entities.
+1. Identifying single entities amongst different entries that contain the same information; 
+2. Attributing unique identifiers to these entries in order to relate them to said single entities.
 
-To succeed in those objectives, two major steps are required:
+This, in turn, will require the:
 
 1. Conversion of inputed GLAM data to a unique format and structure (XML);
 2. Conversion of uniquely formatted data to structured RDF.
 
-To accomplish these successfully, CHIN has already developed an intended Data Pipeline [Documentation](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) and [Schema](https://drive.google.com/open?id=1qalobG-9YmV3cQ9-pBRYxRW9wQP2PrAg). This process relies on three major tools: the [Reference Checklist](https://drive.google.com/open?id=1Rnlreq5FlHxMu4oHFvahXakIVtAc4VqdoNoJ-3PagnU), the [Semantic Paths Specification](/collections-model/semantic-paths-specification/current/introduction), and the Target Model. 
-
-The Reference Checklist will be the reference for Canadian institutions to map their data to. It briefly describes the fields needed by CHIN to convert structural data to LOD standards through the Target Model and allows them to establish concordance with their own fields The Reference Checklist will guide the mapping of museums’ data—whose structures and formats are varied—to a single framework (whether it be in JSON-LD, RDF/XML or other formats). The main benefit of the Reference Checklist is its user-friendliness: by not relying directly on complex LOD structures, it makes the mapping process easier for non-specialists.  
-
-The Reference Documentation details the fields listed in the Reference Checklist and further documents them by providing, in addition to brief definitions, more precise scope notes detailing the information a field can accommodate as well as a bibliography for each definition. It also provides information pertaining to the field’s use, its hierarchical position within CHIN’s model structure and the associated mandatory fields that must be filled for the data to be properly processed. It also presents the types of values the field accommodates and expects along with technical field requirements. Finally, in addition to relevant comments and details, the Reference Documentation offers descriptions of typical and edge cases that exemplify how institutions might document information with regards to other fields. 
-
-The Target Model complies with LOD standards and, as such, will guide the transfer from the aforementioned unique format to RDF. In this process, museums’ data that is generally represented in tables or arborescences will be converted into a [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_Graph) in accordance with the structure and rules of Semantic Web Ontologies (using [CIDOC CRM](http://www.cidoc-crm.org/) and [FRBRoo](http://www.cidoc-crm.org/frbroo/home-0), although other ontologies such as [FOAF](http://xmlns.com/foaf/spec/), [Schema.org](https://schema.org/) might be used later). 
-
+In this process, data that is generally structured in tables or arborescences is converted into a [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_Graph) using [CIDOC CRM](http://www.cidoc-crm.org/) and [FRBRoo](http://www.cidoc-crm.org/frbroo/home-0), although other ontologies such as [FOAF](http://xmlns.com/foaf/spec/) or [Schema.org](https://schema.org/) might be used eventually). 
 
 ## Methods and Sources
 
-This model has been developed using an incremental modeling framework informed by Linked Open Data principles, most notably interoperability, semantic richness and meaningfulness, shareability, usability, transparency, and collaboration. In accordance with the latter, the following best practices were adopted from the start:
-
-1. Use [URIs](https://en.wikipedia.org/wiki/Uniform_resource_identifier) to identify elements; 
-2. Use open standards such as [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework) or [SPARQL](https://en.wikipedia.org/wiki/SPARQL); 
-3. Refer to other elements using their [URIs](https://en.wikipedia.org/wiki/HTTP) whenever possible. 
-
-In addition, in order to facilitate collaboration and reuse, a transparent approach to development has been adopted whereas issues pertaining to the model are publically displayed and discussed on [Github](https://github.com/chin-rcip/chin-rcip), along with relevant documentation. 
+In order to facilitate collaboration and reuse, a transparent approach to development has been adopted whereas issues pertaining to the model are publically displayed and discussed on [Github](https://github.com/chin-rcip/chin-rcip), along with relevant documentation. 
 
 This model is being developed using a prototyping and iterative approach whereas a first version will be tested in the following manner:
 
-1. Releasing a first version of the model documentation and submitting it to advice from targeted experts. 
-2. Revising the model accordingly. 
-3. Testing the model with suitable open dataset in order to test CHIN’s [Data Pipeline](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) and model, from the ingestion of the data to its publication. 
-4. Revising the model accordingly. 
-5. Testing the model with a second open dataset to validate reconciliation, and revising accordingly as many times as necessary. 
-6. Releasing the data in LOD (SPARQL endpoint, public interface). 
-7. Expanding the model with relevant fields using the same methods, eventually expanding it with an Objects Facet using the same approach and having learned from the development of the Actors Facet. This will likely entail starting over this same process at a larger scale as well as updating the Actors Facet where necessary. 
+1. Releasing a first version of the Actors model and submitting it to advice from targeted experts; 
+2. Revising the model accordingly;
+3. Testing the model with suitable open datasets in order to test CHIN’s [Data Pipeline](https://drive.google.com/open?id=1W_vsT_Br86BRR92SWEqFX90861Nu3mUTmx_fAyuOE5A) and model, from the ingestion of the data to its publication; 
+4. Revising the model accordingly;
+5. Testing the model with a second open dataset to validate reconciliation, and revising accordingly as many times as necessary; 
+6. Releasing the data in LOD (SPARQL endpoint, public interface); 
+7. Expanding the model with relevant fields using the same methods, eventually expanding it with an Objects Facet using the same approach and having learned from the development of the Actors Facet (this will likely entail starting over this same process at a larger scale as well as updating the Actors Facet where necessary). 
 
 Even though CHIN intends to develop a model that will account for both Objects and Actors from Canadian collections, it has for now focused on the representation of Actors in order to allow for an incremental development of the Collections model where Actors and Objects facets will be equal and interrelated. 
 
