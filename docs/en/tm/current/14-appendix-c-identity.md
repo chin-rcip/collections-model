@@ -7,13 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [With `E5_Event`](#with-e5-event)
-* [With Bio CRM](#with-bio-crm)
-* [With `ore:Aggregation`](#with-oreaggregation)
-</div>
 
 As stated in the [Identity Patterns section](/collections-model/en/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55_Type` pattern to identify gender and cultural affiliation whilst `E74_Group` will be used to identify nationality, nationhood and community. The `E55_Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
 

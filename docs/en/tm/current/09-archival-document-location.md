@@ -7,11 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Archival Document Location](#)
-</div>
 
 Most museums as well as other heritage organisations hold archival records about the creators they document. For example, the [Artists in Canada](https://app.pch.gc.ca/application/aac-aic/description-about.app?lang=en) database documents this information as well as its primary sources. In CIDOC CRM, there is a distinction between information itself and the physical object this information is in (such as a book, a document, etc.). It is therefore necessary to create  an `E22_Human-Made_Object` in conjunction with an `E31_Document` in order to document (with the property `P70_documents`) the `E39_Actor`. This pattern enables the localisation of the physical archival document by linking this `E22_Human-Made_Object` to an `E53_Place` through a `P54_has_current_permanent_location` property. This also enables the recording of its call number as an `E42_Identifier` along with a `P1_is_identified_by` property. 
 

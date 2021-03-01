@@ -7,21 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Technique Used](#technique-used)
-* [Occupation](#occupation)
-* [Social Status](#social-status)
-* [Flourishing dates](#flourishing-dates)
-* [Specific traits](#specific-traits)
-* [Artistic Movements](#artistic-movements)
-* [Birth/Death of People and Formation/Dissolution of Groups](#birthdeath-of-people-and-formationdissolution-of-groups)
-* [Moving events](#moving-events)
-	* [Legal Headquarter Attribution](#legal-headquarter-attribution)
-	* [E7 Activity Stay for E21 Person and E74 Group](#e7-activity-stay-for-e21-person-and-e74-group)
-* [Influences](#influences)
-</div>
 
 ## Technique Used
 

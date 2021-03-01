@@ -7,13 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Biography](#biography)
-* [Visual Item](#visual-item)
-* [Curatorial Note](#curatorial-note)
-</div>
 
 ## Biography
 

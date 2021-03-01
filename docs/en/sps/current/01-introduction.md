@@ -8,18 +8,7 @@ sidebar: sps
 
 Version 2.1 ([Previous versions](/collections-model/en/versions))
 
-<div class="hidden-content">
-## On This Page
 
-* [Abstract](#abstract) 
-* [Foreword](#foreword)
-* [Glossary](#glossary)
-	* [Entry Node](#entry-node)
-	* [Generated Node](#generated-node)
-	* [Specified Qualifier Node (SQN)](#specified-qualifier-node-sqn)
-	* [Node](#node)
-* [Documentation Structure](#documentation-structure)
-</div>
 
 > DISCLAIMER: The documentation hereby accessible is a collection of working documents. As such, although it is publically released, it does not constitute an official publication and changes are made on an ongoing basis. Because of these regular modifications, <span class="disclaimer">the majority of this content is presented in **English** and will only be translated once a stable and official publication occurs.</span>
 	

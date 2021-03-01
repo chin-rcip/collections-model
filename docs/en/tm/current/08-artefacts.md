@@ -7,12 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Artefact Creation and the Role of the Actor in the Creation](#artefact-creation-and-the-role-of-the-actor-in-the-creation)
-* [Artefact (Before the Development of the Objects Facet)](#artefact-before-the-development-of-the-objects-facet)
-</div>
 
 ## Artefact Creation and the Role of the Actor in the Creation
 

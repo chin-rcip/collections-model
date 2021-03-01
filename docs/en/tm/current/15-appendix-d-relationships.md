@@ -7,12 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [The Agent Relationship Ontology](#the-agent-relationship-ontology)
-* [Bio CRM](#bio-crm)
-</div>
 
 Few ontologies have tackled the modeling of actors relationships, understood to be an association between different `E39_Actors`, thus creating a network of makers. The CIDOC CRM ontology does not render those ties well, although other options have attempted to do so: 
 

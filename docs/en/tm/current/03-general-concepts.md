@@ -7,22 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`](#the-differences-between-e39-actor-e21-person-and-e74-group)
-* [Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
-  * [Labels](#labels)
-  * [Annotations and Comments](#annotations-and-comments)
-  * [Literal Content](#literal-content)
-* [Mapping problems and `E33_Linguistic_Object`](#mapping-problems-and-e33-linguistic-object)
-* [Data Provenance](#data-provenance)
-  * [Provenance of the Dataset](#provenance-of-the-dataset)
-  * [Record Provenance with Aggregated Contributors](#record-provenance-with-aggregated-contributors)
-  * [Limits of and Issues with the Named Graph and “Record” approach](#limits-of-and-issues-with-the-named-graph-and-record-approach)
-* [Challenges When Representing Indigenous Realities](#challenges-when-representing-indigenous-realities)
-* [Dates Pattern](#dates-pattern)
-</div>
 
 *To be reviewed - begin*
 

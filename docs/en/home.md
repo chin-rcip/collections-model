@@ -4,13 +4,10 @@
 
 layout: home
 language: en
+title: Collections Model Overview
 permalink: /en
 other_link: /fr
 ---
-
-<!-- ## Collections Model Overview -->
-
-## Collections Model Overview
 
 ![A-Z Diagram](../images/000_Patterns_2.1_p.jpg)
 A-Z Diagram

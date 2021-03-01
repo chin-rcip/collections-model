@@ -9,19 +9,7 @@ sidebar: tm
  -->
 Version 2.1 ([Previous versions](/collections-model/en/versions))
 
-<div class="hidden-content">
 
-## On This Page
-
-* [Abstract](#abstract)
-* [Foreword](#foreword)
-* [Purpose of the Target Model](#purpose-of-the-target-model)
-* [Methods and Sources](#methods-and-sources)
-* [Modelling Conventions](#modelling-conventions)
-	* [Patterns](#patterns)
-	* [Examples](#examples)
-* [A-Z Diagram](#a-z-diagram)
-</div>
 
 > DISCLAIMER: The documentation hereby accessible is a collection of working documents. As such, although it is publically released, it does not constitute an official publication and changes are made on an ongoing basis. Because of these regular modifications, <span class="disclaimer">the majority of this content is presented in **English** and will only be translated once a stable and official publication occurs.</span>
 	

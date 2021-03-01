@@ -7,11 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Legal Aspects (Rights)](#)
-</div>
 
 Certain data might be subject to legal rights such as in the case of digital reproductions of art or copyrighted documentation of artefacts. It could also be the case of some textual information such as biographies.
 

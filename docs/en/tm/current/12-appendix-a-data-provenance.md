@@ -7,11 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Data Provenance](#)
-</div>
 
 As stated in the [Provenance of the Dataset](/collections-model/en/target-model/current/general-concepts#data-provenance) section, one way of establishing data provenance would be to use the `E13_Attribute_Assignment` event pattern described below and assign it to each triple so that their provenance can be documented. However, this would make the model in general much heavier as each triple would be assigned this pattern. From a processing standpoint this would become increasingly burdensome as the amount of data grows, which is why the Named Graph approach described in the Provenance of the Dataset section has been adopted. 
 

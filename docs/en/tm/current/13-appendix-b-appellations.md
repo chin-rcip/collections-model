@@ -7,13 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Language](#language)
-* [Preference](#preference)
-* [Partitioning](#partitioning)
-</div>
 
 The primary identifier of the actor is the URI, but there are other such as the identifier of the providing museum, or others applied by CHIN. The property `P1_is_identified_by` and the class `E42_Identifier` are used in conjunction to render this and a label could be applied to the latter as well. [Linked.art](https://linked.art/model/base/#identifiers) faced the same problems when trying to render the content of resources and proposed to use the property `P190_has_symbolic_content` to display the content of the identifiers.
 

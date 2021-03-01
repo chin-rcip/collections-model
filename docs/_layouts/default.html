@@ -7,6 +7,8 @@
 
     {%- include header.html -%}
 
+    {%- include search.html -%}
+
     <div class="modal" id="lang-warning" style="display: none;">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -120,7 +122,10 @@
         $("#lang-warning").show();
       };
 
-
+      // show search modal
+      $("#search-icon").on("click", function(){
+        $("#search-modal").show();
+      });
 
       // showing content by language
       // function get_lang(element){

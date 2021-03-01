@@ -7,20 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Discussion: The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`](#discussion-the-differences-between-e39-actor-e21-person-and-e74-group)
-* [Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts](#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)
-* [Discussion: Challenges When Representing Indigenous Realities](#discussion-challenges-when-representing-indigenous-realities)
-* [Discussion: Identity Definitions](#discussion-identity-definitions)
-    * [Pertaining to Culture](#pertaining-to-culture)
-    * [Pertaining to Community](#pertaining-to-community)
-* [Discussion: Identity Patterns](#discussion-identity-patterns)
-* [Discussion: Nationality, Nationhood and Community With `E74_Group`](#discussion-nationality-nationhood-and-community-with-e74-group)
-* [Discussion: Birth/Death of People and Formation/Dissolution of Groups](#discussion-birthdeath-of-people-and-formationdissolution-of-groups)
-* [Discussion: Biography](#discussion-biography)
-</div>
 
 ## Discussion: The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`
 

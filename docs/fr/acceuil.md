@@ -4,12 +4,10 @@
 
 layout: home
 language: fr
+title: Aperçu du modèle Collections
 permalink: /fr
 other_link: /en
 ---
-<!-- [Version française](#apercu-du-modele-collections) -->
-
-## Aperçu du modèle Collections {#apercu-du-modele-collections}
 
 ![A-Z Diagram](../images/000_Patterns_2.1_p.jpg)
 Diagramme de A à Z

@@ -7,17 +7,7 @@ sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-<div class="hidden-content">
-## On This Page
 
-* [Identifiers and Appellations](#identifiers-and-appellations)
-* [Identity](#identity)
-	* [Definitions](#definitions)
-	* [Identity Patterns](#identity-patterns)
-	* [Rendering Gender and Cultural Affiliation with `E55_Type`](#rendering-gender-and-cultural-affiliation-with-e55-type)
-	* [Nationality, Nationhood and Community With `E74_Group`](#nationality-nationhood-and-community-with-e74-group)
-	* [Group Type with `E55_Type`](#group-type-with-e55-type)
-</div>
 
 ## Identifiers and Appellations
 
