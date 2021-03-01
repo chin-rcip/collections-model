@@ -7,6 +7,18 @@
 
     {%- include header.html -%}
 
+    <div class="modal" id="lang-warning" style="display: none;">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div style="text-align: justify; padding: 10px 30px">
+           <h3 class="disclaimer">AVERTISSEMENT: Il s’agit un contenu en anglais seulement.</h3>
+        <p><em>La documentation présentée ici est une collection de documents de travail. À ce titre, bien qu’elle soit publiquement disponible, elle ne constitue en rien une publication officielle et des changements y sont apportés sur une base régulière. En raison de ces modifications régulières, <span class="disclaimer">la majorité du contenu présenté ici n'est disponible qu'en anglais et ne sera traduit que lors de la publication d'une version stable et officielle de cette documentation.</span></em></p>
+        <button class="close">OK</button>
+        </div>
+       
+      </div>
+    </div>
+
     <main class="page-content {% if page.sidebar %}main-with-sidebar{% endif %}" aria-label="Content">
       {% if page.sidebar %}
         <div class="{% if page.sidebar %}column sidebar{% endif %}">
@@ -75,7 +87,7 @@
       };
 
       function highlight() {
-        var headers = $(".main-content :header").not("h1"); // get all headers in the main-content
+        var headers = $(".main-content :header"); // get all headers in the main-content
         var anchor = $(".sidebar a:visible")[3] // get the 4th <a> to get its offset top later.
         var x;
         for (x = 0; x < headers.length; x++) {
@@ -104,35 +116,41 @@
         }
       };
 
-      // showing content by language
-      function get_lang(element){
-        var language = $(element).attr("id");
-        return language
+      function lang_warning(){
+        $("#lang-warning").show();
       };
 
-      function content_by_lang(element){
-        var lang = get_lang(element);
-        if (lang != "fr") {
-          $("body .en, div#en").show();
-          $("body .fr, div#fr").hide();
-        } else {
-          $("body .en, div#en").hide();
-          $("body .fr, div#fr").show();
-        }
-        // $(".site-header .en,.site-header .fr").hide();
-        // $(".lang-section").hide();
-        // $(".mainlist li").filter(".en,.fr").hide();
-        // $(".site-header ."+lang).show();
-        // $("div#"+lang).show();
-        // $(".mainlist li."+lang).show();
-      };
+
+
+      // showing content by language
+      // function get_lang(element){
+      //   var language = $(element).attr("id");
+      //   return language
+      // };
+
+      // function content_by_lang(element){
+      //   var lang = get_lang(element);
+      //   if (lang != "fr") {
+      //     $("body .en, div#en").show();
+      //     $("body .fr, div#fr").hide();
+      //   } else {
+      //     $("body .en, div#en").hide();
+      //     $("body .fr, div#fr").show();
+      //   }
+      //   // $(".site-header .en,.site-header .fr").hide();
+      //   // $(".lang-section").hide();
+      //   // $(".mainlist li").filter(".en,.fr").hide();
+      //   // $(".site-header ."+lang).show();
+      //   // $("div#"+lang).show();
+      //   // $(".mainlist li."+lang).show();
+      // };
 
 
 
       $(document).ready(function() {
-        if ($(".lang-section").length>0){
-          $(".post-header").hide();
-        };
+        // if ($(".lang-section").length>0){
+        //   $(".post-header").hide();
+        // };
         // Hide all tooltips on window load
         $(".tooltip").hide();
         highlight();
@@ -146,39 +164,51 @@
           $(this).toggleClass("visible");
         });
 
-        // detect language of content by the first visible header
-        var hders = $(".content :header").not("h1"); // get all headers in the main-content except <h1>
-        var a;
-        for (a = 0; a < hders.length; a++) {
-          var headtop = $(hders[a]).offset().top;
-          if (headtop > 60){
-            var lang_sect = $(hders[a]).parent();
-            var lang_sect_id = get_lang(lang_sect);
-            content_by_lang(lang_sect);
-            $("button#"+lang_sect_id).addClass("activate");
+        // // detect language of content by the first visible header
+        // var hders = $(".content :header").not("h1"); // get all headers in the main-content except <h1>
+        // var a;
+        // for (a = 0; a < hders.length; a++) {
+        //   var headtop = $(hders[a]).offset().top;
+        //   if (headtop > 60){
+        //     var lang_sect = $(hders[a]).parent();
+        //     var lang_sect_id = get_lang(lang_sect);
+        //     content_by_lang(lang_sect);
+        //     $("button#"+lang_sect_id).addClass("activate");
 
-            break
-          }
+        //     break
+        //   }
 
-        }
+        // }
       });
 
-      
+      $(".close").on("click", function(){
+        $(".modal").hide();
+      });
+
+      // $(document).on("click", function(event){
+      //   if ($(event.target).hasClass("modal")){
+      //     $("#search-modal").hide();
+      //   };
+      // });
+
       // click anywhere in the html to hide dropdown menu
       $(document).on("click", function(event){
-        // console.log($(event.target))
+        console.log($(event.target))
         if (!$(event.target).hasClass("has-dropdown")){
           $(".has-dropdown,.dropdown").removeClass("visible");
-        }
+        };
+        if ($(event.target).hasClass("modal")){
+          $(".modal").hide();
+        };
       });
 
 
-      // switching language by clicking language button
-      $(".lang-buttons>button").click(function(){
-        $(this).siblings().removeClass("activate");
-        $(this).addClass("activate");
-        content_by_lang(this);
-      })
+      // // switching language by clicking language button
+      // $(".lang-buttons>button").click(function(){
+      //   $(this).siblings().removeClass("activate");
+      //   $(this).addClass("activate");
+      //   content_by_lang(this);
+      // })
 
        // scroll sidebar and highlight corresponding headers
       $(".column.content").scroll(function(){

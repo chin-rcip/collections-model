@@ -3,6 +3,97 @@
 
 @import "minima";
 
+
+
+/*--- Search ---*/
+#search-icon {
+    /*margin-right: 15px;*/
+}
+#search-icon:hover {
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 10px;
+}
+input {
+    width: 90%;
+    height: 2rem; 
+    font-size: 1rem; 
+    float: left;
+    box-sizing: border-box;
+}
+form>button {
+    cursor: pointer;
+    border-left: none;
+    width: auto;
+    height: 2rem;
+}
+form::after {
+    content: "";
+    clear: both;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 100px;
+}
+.modal-content {
+    width: 60%;
+    max-height: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+}
+.close {
+    float: right;
+    color: #aaaaaa;
+
+}
+span.close {
+	line-height: 0;
+    font-size: 28px;
+}
+button.close {
+	padding: 5px 10px;
+}
+.close:hover, .close:focus {
+    color: #000; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.lunrsearchresult .title {
+    color: #d9230f;
+}
+.lunrsearchresult .url {
+    color: silver;
+}
+.lunrsearchresult a {
+    display: block;
+    color: #777;
+}
+.lunrsearchresult a:hover, .lunrsearchresult a:focus {
+    text-decoration: none;
+}
+.lunrsearchresult a:hover .title {
+    text-decoration: underline;
+}
+#lunrsearchresults>ul {
+    margin-top: 30px;
+}
+
+
+
 html, body {
 	height: 100%;
 }
@@ -137,12 +228,12 @@ li a.active {
 	}
 
 	/*language buttons*/
-	.lang-buttons {
+	/*.lang-buttons {
 		position: fixed;
 		right: 30px;
 		top: 62px;
 		
-	}
+	}*/
 }
 
 
@@ -180,7 +271,7 @@ blockquote {
 	font-size: 1rem;
 }
 .disclaimer {
-	color: slategray;
+	color: crimson;
 }
 /*.full-path {
 	font-family: "Monaco";
@@ -254,8 +345,14 @@ header .wrapper {
 
 /*--- language ---*/
 
+.lang-buttons a {
+	color: white;
+	background-color: black;
+	padding: 5px;
+	border-radius: 100%;
+}
 
-.lang-buttons>button {
+/*.lang-buttons>button {
 	padding: 5px;
 	cursor: pointer;
 }
@@ -264,7 +361,7 @@ header .wrapper {
 	color: #1756a9;
 	font-weight: bold;
 }
-
+*/
 /*div#fr {
 	display: none;
 }*/
@@ -286,11 +383,11 @@ header .wrapper {
 	border-color: #f2f2f2;
 
   }
-
+/*
   .lang-buttons {
 	position: fixed;
 	right: 30px;
 	bottom: 10px;
 	
-  }
+  }*/
 }
