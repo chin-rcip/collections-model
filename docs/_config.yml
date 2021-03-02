@@ -24,7 +24,7 @@ email: pch.RCIP-CHIN.pch@canada.ca
 description: >- # this means to ignore newlines until "baseurl:"
   All the documentation pertaining to the Collections Model developed by CHIN.
   Toute la documentation à propos du modèle Collections développé par le RCIP.
-baseurl: "/collections-model" # the subpath of your site, e.g. /blog
+baseurl: "/collections-model_modele-collections" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  chin-rcip
@@ -33,13 +33,20 @@ github_username:  chin-rcip
 theme: minima
 plugins:
   - jekyll-feed
-header_pages:
-  - about.md
-  - licensing-documentation.md
-  - tm/current/02-introduction.md
-  - sps/current/01-introduction.md
-  - resources/current/lod-benefits-challenges.md
-  - resources/current/tools.md
+header_pages_en:
+  - en/about.md
+  - en/licensing-documentation.md
+  - en/tm/current/02-introduction.md
+  - en/sps/current/01-introduction.md
+  - en/resources/current/lod-benefits-challenges.md
+  - en/resources/current/tools.md
+header_pages_fr:
+  - fr/a-propos.md
+  - fr/licence.md
+  - fr/mc/actuel/02-introduction.md
+  - fr/scs/actuel/01-introduction.md
+  - fr/ressources/actuel/lod-avantages-defis.md
+  - fr/ressources/actuel/outils.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

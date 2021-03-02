@@ -3,11 +3,29 @@
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title{% if site.titre %} en{% endif %}" rel="author" href="{{ '/'' | relative_url }}">{{ site.title | escape }}</a>
-    {% if site.titre %}
-      <a class="site-title fr" rel="author" href="{{ '/' | relative_url | append: '#apercu-du-modele-collections' }}">{{ site.titre | escape }}</a>
+    {% if page.language == "en" %}
+      {%- assign page_paths = site.header_pages_en -%}
+      {%- assign site_title = site.title -%}
+      {%- assign site_link = '/' | relative_url | append: 'en' -%}
+      {%- assign header_groups = "resources" | split: ", " -%}
+      {%- assign other_link = page.other_link -%}
+      {%- assign language = "FR" -%}
+    {% elsif page.language == "fr" %}
+      {%- assign page_paths = site.header_pages_fr -%}
+      {%- assign site_title = site.titre -%}
+      {%- assign site_link = '/' | relative_url | append: 'fr' -%}
+      {%- assign header_groups = "ressources" | split: ", " -%}
+      {%- assign other_link = page.other_link -%}
+      {%- assign language = "EN" -%}
+    {% else %}
+      {%- assign site_title = site.title | append: '-' | append: site.titre -%}
+      {%- assign site_link = '/' | relative_url -%}
     {% endif %}
+    
+    <a class="site-title" rel="author" href="{{ site_link }}">{{ site_title | escape }}</a>
+<!--     {% if site.titre %}
+      <a class="site-title fr" rel="author" href="{{ '/' | relative_url | append: '#apercu-du-modele-collections' }}">{{ site.titre | escape }}</a>
+    {% endif %} -->
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -21,14 +39,15 @@
         </label>
 
         <div class="trigger">
+          <a class="page-link" id="search-icon">&#128269;</a>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
               {%- unless my_page.group -%}
-                <a class="page-link {% if my_page.titre %}en{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                {%- if my_page.titre -%}
+                <a class="page-link" href="{% if my_page.url == '/fr/etre-traduit' %}{{ my_page.other_link | relative_url }}{% else %}{{ my_page.url | relative_url }}{% endif %}">{{ my_page.title | escape }}</a>
+               <!--  {%- if my_page.titre -%}
                 <a class="page-link fr" href="{{ my_page.lien | relative_url }}">{{ my_page.titre | escape }}</a>
-                {%- endif -%}
+                {%- endif -%} -->
               {%- endunless -%}
             {%- endif -%}
           {%- endfor -%}
@@ -44,20 +63,21 @@
               {%- endfor -%}
             </div>
           </div> -->
-          <div class="has-dropdown page-link en">Resources &#9662;
+
+         <!--  <div class="has-dropdown page-link">{{ header_groups[1] }} &#9662;
             <div class="dropdown">
               {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
                 {%- if my_page.group == "resources" -%}
-                  <a class="{% if my_page.titre %}en{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {%- endif -%}
                 {%- endif -%}
               {%- endfor -%}
             </div>
-          </div>
+          </div> -->
           <!-- french headings -->
-          <div class="has-dropdown page-link fr">Ressources &#9662;
+          <!-- <div class="has-dropdown page-link fr">Ressources &#9662;
             <div class="dropdown">
               {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -68,8 +88,31 @@
                 {%- endif -%}
               {%- endfor -%}
             </div>
+          </div> -->
+
+          {%- if header_groups -%}
+          {%- for group in header_groups -%}
+            <div class="has-dropdown page-link">{{ group | capitalize }} &#9662;
+              <div class="dropdown">
+                {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title and my_page.group -%}
+                  {%- if my_page.group == group -%}
+                    <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- endfor -%}
+          {%- endif -%}
+
+          <div class="lang-buttons page-link">
+            <a {% if other_link %}href="/collections-model_modele-collections{{ other_link }}"{% else %}href="javascript:void(0)" onclick="lang_warning()"{% endif %}>{{ language }}</a>
+            <!-- <button id="fr">Franc</button> -->
           </div>
         </div>
+       
       </nav>
     {%- endif -%}
   </div>

@@ -1,0 +1,77 @@
+<!-- The following code for Search feature via lunr.js was based on the example sourced from https://jekyllcodex.org/without-plugin/search-lunr/# -->
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+<script>
+{% assign counter = 0 %}
+var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}/collections-model_modele-collections{{ page.url }}",
+    "title": "{% if page.titleEn %}{{ page.titleEn}}{% else %}{{ page.title }}{% endif %}",
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | replace: '</td>', ' ' | strip_html | strip_newlines |   replace: 'EN-', '' | replace: 'FR', '' | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }{% if forloop.last %}{% else %}, {% endif %}{% endif %}{% endfor %}];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('body')
+    this.metadataWhitelist = ['position']
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        // document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        
+        if(results.length > 0){
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                // var body = documents[ref]['body'].substring(0,160)+'...';
+                var metadata = results[i]['matchData']['metadata']
+                for (const [key, value] of Object.entries(metadata)){
+                    if ('body' in metadata[key]){
+                        var position = metadata[key]['body']['position'][0][0];
+                        var body = documents[ref]['body'].substring(position-80,position)+'<strong>'+documents[ref]['body'].substring(position,position+key.length+1)+'</strong>'+documents[ref]['body'].substring(position+key.length+1,position+80)+'...';
+                    } else {
+                        var body = documents[ref]['body'].substring(0,160)+'...';
+                    }
+                    
+                    
+                    break
+                }
+                // var position = results[i]['matchData']['metadata'][term]['body']['position'][0][0]
+                
+                // console.log(position);
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "' target='_blank'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Aucun résultat trouvé...</li>";
+        }
+    }
+    return false;
+}
+</script>
+
+
+<div id="search-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="search-close">&times;</span>
+        <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" />
+            <button type="submit">&#128269;</button>
+        </form>
+        <p><em>e.g. 'entry nodes', '+entry +nodes', 'title:entry title:nodes'...</em></p>
+        <div id="lunrsearchresults">
+            <ul></ul>
+        </div>
+    </div>
+</div>
