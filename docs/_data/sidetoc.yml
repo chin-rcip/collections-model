@@ -9,9 +9,6 @@ tm:
   - page: Abstract
     url: /en/target-model/current/introduction#abstract
     hash: abstract
-  - page: Foreword
-    url: /en/target-model/current/introduction#foreword
-    hash: foreword
   - page: Purpose of the Target Model
     url: /en/target-model/current/introduction#purpose-of-the-target-model
     hash: purpose-of-the-target-model

@@ -5,7 +5,7 @@ title: Identification
 permalink: /en/target-model/current/identification
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
  -->
 
 
@@ -20,7 +20,7 @@ The primary identifier of an actor is its URI, but there are other identifiers a
 
 In the case of names, CIDOC CRM suggests the use of `E41_Appellation`. However, the `E41_Appellation` cannot receive a `P72_has_language` tag that would be linked to it, as opposed to the `E33_Linguistic_Object`. Usually, names do not need language tags (Stephen is still written Stephen in French and in English), but some of the most famous ones do have specific variations (e.g. *Leonardo da Vinci* is *Léonard de Vinci* in French). Moreover, group names change according to language (e.g. *Montreal Museum of Fine Arts* is *Musée des beaux-arts de Montréal* in French). It is possible to tag a label with a language, but adding the language directly to the entity with the property `P72_has_language` facilitates the scripting of SPARQL queries. This is why having a double instantiation for an `E39_Actor`, with both an `E41_Appellation` and an `E33_Linguistic_Object`, is useful. 
 
-Even if CHIN does not decide which name is preferred, most museums have preferred and alternative names for actors. To render this choice, this model will specify which appellation is preferred by which institution by using the `E55_Type` class (linked to a controlled vocabulary such as the AAT). CIDOC CRM also offers the `P139_has_alternative_form` property, a pattern that will not be used here as it is more complex and makes the preferred appellation dependant on the existence of an alternative one (for more information, see [Appendix B: Appellations](/collections-model/en/target-model/current/appendix-b-appellations)).
+Even if CHIN does not decide which name is preferred, most museums have preferred and alternative names for actors. To render this choice, this model will specify which appellation is preferred by which institution by using the `E55_Type` class (linked to a controlled vocabulary such as the AAT). CIDOC CRM also offers the `P139_has_alternative_form` property, a pattern that will not be used here as it is more complex and makes the preferred appellation dependant on the existence of an alternative one (for more information, see [Appendix B: Appellations](/collections-model_modele-collections/en/target-model/current/appendix-b-appellations)).
 
 The precedence of an appellation should be distinguished by relying on an authority vocabulary rather than a boolean because precedence nodes are more meaningful than a yes or no (e.g. this allows to search for all preferred appellations across actors, see the closed [issue #24](https://github.com/chin-rcip/chin-rcip/issues/24) on GitHub for more details).
 
@@ -100,7 +100,7 @@ We gather under the term “identity” six fields that can define the identity 
 | 🔎  *To Be Discussed*<br/><br/>We are currently debating whether it would be best to offer a dedicated Indigenous community field, or if other fields would be necessary to adequately answer the needs of Indigenous Peoples. |
 
 
-For more details on this, please see [Appendix F: Discussions, Identity Definitions](/collections-model/en/target-model/current/appendix-f-discussions#discussion-identity-definitions).
+For more details on this, please see [Appendix F: Discussions, Identity Definitions](/collections-model_modele-collections/en/target-model/current/appendix-f-discussions#discussion-identity-definitions).
 
 
 | 💡 Example:<br/><br/>Jean Paul Riopelle would currently be described as such:<br> * Gender Type: Male <br/> * Nationality: Canadian, Québécois <br/> * Cultural Affiliation Type: Canadian <br/> * Nationhood: n/a <br/> * Community: n/a |
@@ -121,14 +121,14 @@ There are three possible ways to render genders, communities, and nationalities 
 
 For the moment, CHIN has decided to use the simple `E55_Type` pattern to identify gender and cultural affiliation whilst `E74_Group` will be used to identify nationality, nationhood and community. The `E55_Type` class will be used in conjunction with it to render what the type of the group is (see below). 
 
-See [Appendix C: Identity](/collections-model/en/target-model/current/appendix-c-identity) for a description of the rejected [E5 Event](/collections-model/en/target-model/current/appendix-c-identity#with-e5-event), [Bio CRM](/collections-model/en/target-model/current/appendix-c-identity#with-bio-crm) and [ore:Aggregation](/collections-model/en/target-model/current/appendix-c-identity#with-oreaggregation) patterns.
+See [Appendix C: Identity](/collections-model_modele-collections/en/target-model/current/appendix-c-identity) for a description of the rejected [E5 Event](/collections-model_modele-collections/en/target-model/current/appendix-c-identity#with-e5-event), [Bio CRM](/collections-model_modele-collections/en/target-model/current/appendix-c-identity#with-bio-crm) and [ore:Aggregation](/collections-model_modele-collections/en/target-model/current/appendix-c-identity#with-oreaggregation) patterns.
 
 
 ### Rendering Gender and Cultural Affiliation with `E55_Type` 
 
 The easiest and simplest way to handle the gender field is to add an `E55_Type` to an `E21_Person`. The simplicity of this pattern has one significant drawback: there is no way to determine when the element started or ended, because types are not dated. This makes it impossible to track peoples’ changes in gender over time. Moreover gender is not an inherent attribute of an individual. From a non-binary and non-biological perspective, gender is evolving and does not necessarily constitute a person’s definite attribute. 
 
-For more details on this please see [Appendix F: Discussions, Identity Patterns](/collections-model/en/target-model/current/appendix-f-discussions#discussion-identity-patterns).
+For more details on this please see [Appendix F: Discussions, Identity Patterns](/collections-model_modele-collections/en/target-model/current/appendix-f-discussions#discussion-identity-patterns).
 
 At this time, an `E55_Type` pattern seems sufficient because museums currently do not, for the most part, hold data pertaining to creators’ genders, and even less so data recording when these changes occurred. This is thus the approach that will be adopted as it makes the model simpler and more efficient by removing the need for unnecessary complexity. 
 
@@ -156,9 +156,9 @@ Should it become necessary or useful, it would be possible to adopt a more compl
 
 Identifying (or being identified as) a member of a community or nationality is conceptually similar to joining an `E74_Group` of people bound together so that it could be an appropriate way to render such concepts. 
 
-CIDOC CRM’s `E39_Actor` (a superclass of `E74_Group`) “comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Le Boeuf et al. 2015, sec. E39 Actor)](/collections-model/en/target-model/current/bibliography#le-boeuf-et-al-2015). Some believe, as stated in the linked.art issue 152, that all of the people who have had a particular nationality cannot take action as a single coherent entity, which would seem to disqualify `E74_Group` from representing the Identity fields [(Conal-Tuohy 2018)](/collections-model/en/target-model/current/bibliography#conal-tuohy-2018). However, a group, at any moment, is composed of some people and it is those people in that relevant time that can act collectively. Because using `E74_Group` enables datation, it is a preferable approach when documenting nationality as well as community membership. This is the approach that CHIN is considering at the moment, more out of convenience and efficacy than out of philosophical accuracy. As gender is not a cohesive group, it cannot be modeled as an `E74_Group`. 
+CIDOC CRM’s `E39_Actor` (a superclass of `E74_Group`) “comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible” [(Le Boeuf et al. 2015, sec. E39 Actor)](/collections-model_modele-collections/en/target-model/current/bibliography#le-boeuf-et-al-2015). Some believe, as stated in the linked.art issue 152, that all of the people who have had a particular nationality cannot take action as a single coherent entity, which would seem to disqualify `E74_Group` from representing the Identity fields [(Conal-Tuohy 2018)](/collections-model_modele-collections/en/target-model/current/bibliography#conal-tuohy-2018). However, a group, at any moment, is composed of some people and it is those people in that relevant time that can act collectively. Because using `E74_Group` enables datation, it is a preferable approach when documenting nationality as well as community membership. This is the approach that CHIN is considering at the moment, more out of convenience and efficacy than out of philosophical accuracy. As gender is not a cohesive group, it cannot be modeled as an `E74_Group`. 
 
-For more details on this, please see [Appendix F: Discussions, Nationality, Nationhood and Community With E74 Group](/collections-model/en/target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74-group). 
+For more details on this, please see [Appendix F: Discussions, Nationality, Nationhood and Community With E74 Group](/collections-model_modele-collections/en/target-model/current/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74-group). 
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #13](https://github.com/chin-rcip/chin-rcip/issues/13) |
 
@@ -191,4 +191,4 @@ The Group Type is an `E55_Type` linked to an `E74_Group` with the property `P2_h
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=030_Example_GroupTypeGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1udaOnfqEnDQ-hPQpFcg5v-Sb1UQoDNAX%26export%3Ddownload"></iframe>
 
 
-> Previous: [General Concepts](/collections-model/en/target-model/current/general-concepts)<br>Next: [Life Events](/collections-model/en/target-model/current/life-events)
+> Previous: [General Concepts](/collections-model_modele-collections/en/target-model/current/general-concepts)<br>Next: [Life Events](/collections-model_modele-collections/en/target-model/current/life-events)

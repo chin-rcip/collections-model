@@ -5,11 +5,11 @@ title: Appendix C - Identity
 permalink: /en/target-model/current/appendix-c-identity
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
  -->
 
 
-As stated in the [Identity Patterns section](/collections-model/en/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55_Type` pattern to identify gender and cultural affiliation whilst `E74_Group` will be used to identify nationality, nationhood and community. The `E55_Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
+As stated in the [Identity Patterns section](/collections-model_modele-collections/en/target-model/current/identification#identity-patterns), CHIN has decided to use a simple `E55_Type` pattern to identify gender and cultural affiliation whilst `E74_Group` will be used to identify nationality, nationhood and community. The `E55_Type` class will be used in conjunction with it to render what the type of the group is. The following patterns have been rejected for reasons explained below. 
 
 
 ## With `E5_Event`
@@ -49,4 +49,4 @@ This ontology would therefore be appropriate to render the complexity of gender 
 || George Bruseker (18:11 16 Jul): This seems like a very technical solution that provides semantics that are inconsistent with the rest of CRM. <br/><br/> George Bruseker (18:13 16 Jul): I would suggest that if you need to tackle this topic in the future that there is a strong argument for a new event class for ‘identification’ of some sort. There are of course a lot of potential debates in this area and some dangerous territory around nature or nurture. That being said there is an element of declarativeness about gender, regardless of its biological status. It is something that people state (otherwise we could not know). If this argument holds water then one could track statements of identification in order to see how gender/sexuality evolves for individuals over time. |
 
 
-> Previous: [Appendix B](/collections-model/en/target-model/current/appendix-b-appellations)<br>Next: [Appendix D](/collections-model/en/target-model/current/appendix-d-relationships)
+> Previous: [Appendix B](/collections-model_modele-collections/en/target-model/current/appendix-b-appellations)<br>Next: [Appendix D](/collections-model_modele-collections/en/target-model/current/appendix-d-relationships)

@@ -11,7 +11,7 @@ other_link: /en
 
 ![A-Z Diagram](../images/000_Patterns_2.1_p.jpg)
 Diagramme de A à Z
-> La version interactive peut être consultée [ici](/collections-model/en/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Avertissement: Il s'agit d'un diagramme en anglais seulement.</span> 
+> La version interactive peut être consultée [ici](/collections-model_modele-collections/en/target-model/current/introduction#a-z-diagram). <span class="disclaimer">Avertissement: Il s'agit d'un diagramme en anglais seulement.</span> 
 
 Le modèle Collections est actuellement développé par le RCIP pour représenter les données et la documentation sur le patrimoine des établissements canadiens. Bien que le RCIP soit le gardien des données qui seront versées dans les Collections, ces données seront fournies exclusivement par des collaborateurs externes (p. ex. musées, bibliothèques, chercheurs). Collections comprendra au moins deux facettes principales (Acteurs et Objets) ainsi que plusieurs affichages (Créateurs au Canada, Artefacts Canada). Ceux-ci seront interreliés et offriront l’environnement nécessaire pour mieux présenter le patrimoine et le contenu canadiens en ligne au moyen de sites Web, de plateformes et d’applications sur mesure.
 

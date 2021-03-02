@@ -5,7 +5,7 @@ title: Appendix D - Relationships
 permalink: /en/target-model/current/appendix-d-relationships
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
  -->
 
 
@@ -32,7 +32,7 @@ However, a property-based ontology entails the modification of the Target Model 
 
 Two unofficial extensions of CIDOC CRM can handle the relationships between `E39_Actors`: bio CRM and a separate module of CIDOC CRM devoted to properties of properties.
 
-These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see [Birth](/collections-model/en/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)), that to a group (see [Group Belonging](/collections-model/en/target-model/current/life-events#group-belonging)) and other relationships described below.
+These extensions enable the representation of complex relationships such as that to biological parents in the birth event (see [Birth](/collections-model_modele-collections/en/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)), that to a group (see [Group Belonging](/collections-model_modele-collections/en/target-model/current/life-events#group-belonging)) and other relationships described below.
 
 Bio CRM links `bioc:Actor` (a subclass of `E39_Actor`) to a relationship `bioc:Event` (a subclass of `E39_Event`) and specifies the role of the `bioc:Actor` in the relationship through `bioc:Actor_Role` (a direct subclass of `E1_CRM_Entity`) in conjunction with `E55_Type`. By using `E55_Type` with a controlled vocabulary it is possible to represent multiple relationship types without changing the model.
 
@@ -74,4 +74,4 @@ The property of properties module of CIDOC CRM follows the same logic as bio CRM
 
 CHIN has thus elected to use the Property of property module as it is consistent with the rest of the model, adequately represent every relationship in compliant patterns (parenthood, group membership, etc.), and is more sustainable considering it is widely used by the community and well documented.
 
-> Previous:[Appendix C](/collections-model/en/target-model/current/appendix-c-identity)<br>Next: [Appendix E](/collections-model/en/target-model/current/appendix-e-moving-events)
+> Previous:[Appendix C](/collections-model_modele-collections/en/target-model/current/appendix-c-identity)<br>Next: [Appendix E](/collections-model_modele-collections/en/target-model/current/appendix-e-moving-events)

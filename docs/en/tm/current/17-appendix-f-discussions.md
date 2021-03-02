@@ -5,13 +5,13 @@ title: Appendix F - Discussions
 permalink: /en/target-model/current/appendix-f-discussions
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
  -->
 
 
 ## Discussion: The Differences Between `E39_Actor`, `E21_Person` and `E74_Group`
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/general-concepts#the-differences-between-e39-actor-e21-person-and-e74-group)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/general-concepts#the-differences-between-e39-actor-e21-person-and-e74-group)*. |
 | --- | --- |
 | | Heather Dunn (18:14 22 Jul): if we know that some datasets have only e21 person (or if there are few E74 Groups that are easily identified) we can still use those subclasses, right? Thinking of the AIC dataset - I think we could pretty easily identify the groups ("General Idea" and a couple of others) |
 | | Philippe Michon (10:58 24 Jul): Of course, our process should always allows us to use the subclasses. That said, in our current pipeline (Stephen correct me if I'm wrong) we will have an XML/JSON file for managing e21 (persons) and another one for the e74 (groups). So the first step of the first script must be to segregate the Persons from the groups. <br/><br/>Heather, the reason why we think it's a good idea to have two different files is that there are quite a lot of differences between the person modeling and the group modeling.<br/><br/>Stephen and +george.bruseker@gmail.com, any comments on that? |
@@ -23,7 +23,7 @@ sidebar: tm
     
 ## Discussion: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts)*. |
 | --- | --- |
 | | Philippe Michon (14:58 15 Jul): I wonder if we should create new patterns rather than adding comments. Perhaps, we should let the opportunity to use rdfs:comment or crm:p3_hasNote and look at the values there to enhance our model. |
 | | George Bruseker (07:11 22 Jul): It is an interesting case of where you actually really do want to 'comment'. Comment is the edge case when you really can't express something the model because of its complexity and subtlety. It seems that this shouldn't be cut off entirely, just used with "extreme caution". For example, in this case, another potential would be to model using P130 shows features of. Sometimes, however, if something is really extraneous to the model but not to understanding, p3/comment has a validity. |
@@ -32,7 +32,7 @@ sidebar: tm
 
 ## Discussion: Challenges When Representing Indigenous Realities
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/general-concepts#challenges-when-representing-indigenous-realities)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/general-concepts#challenges-when-representing-indigenous-realities)*. |
 | --- | --- |
 | | Philippe Michon (08:10 16 Jul): Throughout the model, do we identify clearly which parts of the model and especially which vocabularies are concerned? I think it's important to point out where the vocabularies need to align with Indigenous realities. |
 | | George Bruseker (17:50 16 Jul): Who will mark/say this? Would there eventually be the possibility to have a dialogue/dialogues over this with different communities in relation to real use cases? <br/><br/>Vocabularies are arguably relatively 'easy' in a semantic perspective, since the same object can be classified as having a different meaning by different communities and these classifications need not be commensurable. There can simply be parallel, unreconciled vocabularies. Where this perspective breaks down, however, is if there is an ontological mismatch of commitments. If one group relates to the object a mere object and another relates to it as something endowed with agency, then we have a more complex level of disagreement. Are there already obvious examples? |
@@ -45,7 +45,7 @@ sidebar: tm
 
 ### Pertaining to Culture: 
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/identification#definitions)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/identification#definitions)*. |
 | --- | --- |
 | | Philippe Michon (13:41 16 Jul): Should we remove "Indigenous" as anyone can be part of a community? |
 | | Stephen Hart (09:36 22 Jul): In my opinion, there is a huge difference between an Indigenous community, which seems part of there cultural way of dividing populations, and our western way of "community". That is why I have included the "culture" field, to represent other belonging feeling that is not the nationality. |
@@ -56,7 +56,7 @@ sidebar: tm
 
 ### Pertaining to Community: 
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/identification#definitions)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/identification#definitions)*. |
 | --- | --- |
 | | Philippe Michon (13:40 16 Jul): Should we create one field with a clear scope and specific vocabularies? |
 | | George Bruseker (07:46 22 Jul): seems like it would help with equivocation issues. |
@@ -70,7 +70,7 @@ sidebar: tm
 
 ## Discussion: Identity Patterns
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/identification#identity-patterns)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/identification#identity-patterns)*. |
 | --- | --- |
 | | Philippe Michon (13:48 16 Jul): Add: “Remember that e55 is considered as something unchangeable and always true.” |
 | | George Bruseker (18:10 16 Jul): Adding a type to something doesn’t mean that you are asserting that this is its natural kind. It is just that you don't have a way to say when it started and when it stopped. This is a problem if you want to trace changes in people's gender or sexuality over time. Do you have that data though? |
@@ -80,7 +80,7 @@ sidebar: tm
 
 ## Discussion: Nationality, Nationhood and Community With `E74_Group`
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/identification#nationality-nationhood-and-community-with-e74-group)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/identification#nationality-nationhood-and-community-with-e74-group)*. |
 | --- | --- |
 | | George Bruseker (18:08 16 Jul): They don’t have to. A group at any moment is composed of some people and it’s those people in that relevant time that can act collectively. |
 | | Stephen Hart (09:48 17 Jul): But what about former generations? Someone's death does not mean he loses his nationality (or gender), he is still a member of that group, but unable to act. That's why in my opinion the group pattern is not suitable. |
@@ -97,7 +97,7 @@ sidebar: tm
 
 ## Discussion: Birth/Death of People and Formation/Dissolution of Groups
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/life-events#birthdeath-of-people-and-formationdissolution-of-groups)*. |
 | --- | --- |
 | | George Bruseker (09:48 22 Jul): yes crm only has properties for the brute physical facts right now. But CRMsoc will try to expand expressivity range. CHIN probably has great examples and would be welcome to participate.|
 | | George Bruseker (09:50 22 Jul): The mother relationship is biological so it is properly modelled relative to the birth (your mom must have been there). The father and other relationships are more social (dad doesn't need to be there at the birth and until recently it was quite difficult to know who the father was |
@@ -105,10 +105,10 @@ sidebar: tm
 
 ## Discussion: Biography
 
-| 💬 | *This discussion pertains to the aforementioned [section](/collections-model/en/target-model/current/descriptive-information#biography)*. |
+| 💬 | *This discussion pertains to the aforementioned [section](/collections-model_modele-collections/en/target-model/current/descriptive-information#biography)*. |
 | --- | --- |
 | | George Bruseker (08:05 4 Sept.): I am not sure about this pattern. If you have a chunk of text from a biography cut and paste into a field in a db, then you have an E73 which p190 has symbolic content (the stuff you pasted in the database) and the relationship to the source, ie original document is p106 or p148 part of. The original document is also an E73 or E33 as you like.|
 | | Philippe Michon (09:17 4 Sept.): I agree, +stephen.h.hart@gmail.com we will have to review this pattern. |
 | | Stephen Hart (14:13 15 Nov.): The pattern has been corrected (I made a mistake by inverting “biography text” and “source”. The use of p106 and p148 for the sources can still be an option. |
 
-> Previous: [Appendix E](/collections-model/en/target-model/current/appendix-e-moving-events)
+> Previous: [Appendix E](/collections-model_modele-collections/en/target-model/current/appendix-e-moving-events)

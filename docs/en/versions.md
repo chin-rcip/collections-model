@@ -6,9 +6,9 @@ permalink: /en/versions
 ---
 ## Current versions
 
-[Target Model Working Document](/collections-model/en/target-model/current/introduction)
+[Target Model Working Document](/collections-model_modele-collections/en/target-model/current/introduction)
 
-[Semantic Paths Specification Working Document](/collections-model/en/semantic-paths-specification/current/introduction)
+[Semantic Paths Specification Working Document](/collections-model_modele-collections/en/semantic-paths-specification/current/introduction)
 
 ## Stable versions
 

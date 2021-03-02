@@ -20,7 +20,7 @@ This working document is intended to give an overview of the benefits and challe
 
 ## Linked Open Data (LOD) for Cultural Institutions
 
-At the moment, CHIN is developing a model intended for Canadian collections of artefacts. Its facet dedicated to people and groups is currently being developed and will be tested shortly. The Objects facet of this [Collections model](/collections-model/en/target-model/current/introduction) is intended to be able to align with [linked.art](https://linked.art/model/index.html)’s model for art institutions.
+At the moment, CHIN is developing a model intended for Canadian collections of artefacts. Its facet dedicated to people and groups is currently being developed and will be tested shortly. The Objects facet of this [Collections model](/collections-model_modele-collections/en/target-model/current/introduction) is intended to be able to align with [linked.art](https://linked.art/model/index.html)’s model for art institutions.
 
 If, as an institution, you want to semanticize your data, CHIN would be happy to collaborate with you on this matter and advise you as best we can. As a general rule, you should take the following main elements into consideration:
 
