@@ -6,6 +6,6 @@ layout: landing-page
 ---
 
 	
-[English](/collections-model_modele-collections/en/)
-[Français](/collections-model_modele-collections/fr/)
+[English](/collections-model/en/)
+[Français](/collections-model/fr/)
 
