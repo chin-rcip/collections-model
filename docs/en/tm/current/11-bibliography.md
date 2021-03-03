@@ -5,7 +5,7 @@ title: Bibliography
 permalink: /en/target-model/current/bibliography
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
 
 
@@ -42,4 +42,4 @@ sidebar: tm
 <a name="tuominen-hyvonen-and-leskinen-2017"></a>Tuominen, Jouni, Eero Hyvönen, et Petri Leskinen. 2017. « Bio CRM: A Data Model for Representing Biographical Data for Prosopographical Research ». In Biographical Data in a Digital World 2017, 59‑66. Biographical Data in a Digital World. Linz, AT: Biographical Data in a Digital World. [https://doi.org/10.5281/zenodo.1040712](https://doi.org/10.5281/zenodo.1040712).
 
 
-> Previous: [Legal Aspects (Rights)](/collections-model_modele-collections/en/target-model/current/legal-aspects-rights)<br>Next: [Appendix A](/collections-model_modele-collections/en/target-model/current/appendix-a-data-provenance)
+> Previous: [Legal Aspects (Rights)](/collections-model/en/target-model/current/legal-aspects-rights)<br>Next: [Appendix A](/collections-model/en/target-model/current/appendix-a-data-provenance)

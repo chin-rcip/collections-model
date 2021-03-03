@@ -29,7 +29,7 @@
           </h3>
           <ul class="mainlist">
             {% for item in site.data.sidetoc[page.sidebar] %}
-              {% assign item_url = "/collections-model_modele-collections" | append: item.url %}
+              {% assign item_url = "/collections-model" | append: item.url %}
               <li class="{{ item.lang }}">
                 <a href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}
                   <span class="tooltip">{{ item.title }}</span>
@@ -37,7 +37,7 @@
                 {% if item.subfolder[0] %}
                   <ul class="sublist" style="{% if item.url != page.url %}display:none{% endif %}">
                   {% for entry in item.subfolder %}
-                    {% assign entry_url = "/collections-model_modele-collections" | append: entry.url %}
+                    {% assign entry_url = "/collections-model" | append: entry.url %}
                     <li class="{{ entry.lang }}">
                       <a id="toc-{{ entry.hash }}" href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}
                         <span class="tooltip">{{ entry.page }}</span>
@@ -46,7 +46,7 @@
                       {% if entry.subsubfolder[0] %}
                         <ul class="subsublist" style="{% if item.url != page.url %}display:none{% endif %}">
                         {% for subentry in entry.subsubfolder %}
-                          {% assign subentry_url = "/collections-model_modele-collections" | append: subentry.url %}
+                          {% assign subentry_url = "/collections-model" | append: subentry.url %}
                           <li>
                             <a id="toc-{{ subentry.hash }}" href="{{ subentry_url }}" onclick="active(this)">{{ subentry.page }}
                               <span class="tooltip">{{ subentry.page }}</span>

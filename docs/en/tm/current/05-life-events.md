@@ -5,13 +5,13 @@ title: Life Events
 permalink: /en/target-model/current/life-events
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
 
 
 ## Technique Used
 
-The modelisation of the production of artefacts ([see section below](/collections-model_modele-collections/en/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)) documents some information pertaining to the role of the actor as well as the technique used to produce the object.
+The modelisation of the production of artefacts ([see section below](/collections-model/en/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)) documents some information pertaining to the role of the actor as well as the technique used to produce the object.
 
 Because museums often document the techniques used by an actor by linking this information to said actor instead of linking it to the production of (an) artefact(s), an `E55_Type` has to be created in order to specify the technique and link it directly to the actor with the property `P2_has_type`.
 
@@ -30,11 +30,11 @@ There is a difference between a technique used by an actor, and the activity or 
 
 ## Occupation
 
-As we have seen in the Technique Used section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/collections-model_modele-collections/en/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
+As we have seen in the Technique Used section ([see above](#technique-used)), some information pertaining to the role of an actor can be documented when modeling the production of (an) artefact(s) ([see section below](/collections-model/en/target-model/current/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation)).
 
 But an actor could also have an occupation that is not linked to any production event and there is a difference between the role of an actor during a production event and an occupation in life (a person could be the writer during the production of a book, but their main occupation could be painter).
 
-There is also a difference between an occupation, like being a musician (even without being employed) and employment as an individual part of an `E74_Group` (for example a musician in an orchestra). Such employment is modeled following the group belonging pattern explained [below](/collections-model_modele-collections/en/target-model/current/social-bonds#group-belonging).
+There is also a difference between an occupation, like being a musician (even without being employed) and employment as an individual part of an `E74_Group` (for example a musician in an orchestra). Such employment is modeled following the group belonging pattern explained [below](/collections-model/en/target-model/current/social-bonds#group-belonging).
 
 In order to account for these intricacies, the occupation is modeled with the class `F51_Pursuit` (from the CIDOC CRM extension of [FRBR](https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records), [FRBRoo](http://www.cidoc-crm.org/frbroo/)) which is an event that is `P14_carried_out_by` the `E39_Actor`. This `F51_Pursuit` occupation is then typed to specify which kind of occupation it is (paintor, sculptor, artist, etc.).
 
@@ -103,7 +103,7 @@ The Birth/Death and Formation/Dissolution patterns are modeled following the sam
 
 The use of an `E67_Birth` event also enables linking to the biological mother of the `E39_Actor` with the property `P96_by_mother`, and to their biological father with the property `P97_from_father`. These two `E21_Person` only represent *biological* parents and any other type of parenthood (adoptive parents, etc.) should be rendered through relationships.
 
-For more details on this, please see [Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](/collections-model_modele-collections/en/target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups).
+For more details on this, please see [Appendix F: Discussions, Birth/Death of People and Formation/Dissolution of Groups](/collections-model/en/target-model/current/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups).
 
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #16](https://github.com/chin-rcip/chin-rcip/issues/16) |
@@ -172,7 +172,7 @@ In order to record the locations of persons and groups, additional patterns are 
 1. An `E8_Acquisition` event to record properties acquired by groups
 2. And `E7_Activity` pattern to model the stays of `E21_Person` and `E74_Group` in different locations.
 
-For more on this, please see [Appendix E: Moving Events](/collections-model_modele-collections/en/target-model/current/appendix-e-moving-events#) and [Github Issue #31](https://github.com/chin-rcip/collections-model/issues/31).
+For more on this, please see [Appendix E: Moving Events](/collections-model/en/target-model/current/appendix-e-moving-events#) and [Github Issue #31](https://github.com/chin-rcip/collections-model/issues/31).
 
 ### Legal Headquarter Attribution
 
@@ -219,4 +219,4 @@ At the moment (version 2.1 of the TM), we do not have a pattern to render influe
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue* <br/><br/>This topic is discussed in [Issue #33](https://github.com/chin-rcip/chin-rcip/issues/33) |
 
-> Previous: [Identification](/collections-model_modele-collections/en/target-model/current/identification)<br>Next: [Social Bonds](/collections-model_modele-collections/en/target-model/current/social-bonds)
+> Previous: [Identification](/collections-model/en/target-model/current/identification)<br>Next: [Social Bonds](/collections-model/en/target-model/current/social-bonds)

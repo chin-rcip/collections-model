@@ -5,9 +5,9 @@ title: Target Model
 permalink: /en/target-model/current/introduction
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
-Version 2.1 ([Previous versions](/collections-model_modele-collections/en/versions))
+Version 2.1 ([Previous versions](/collections-model/en/versions))
 
 > DISCLAIMER: The documentation hereby accessible is a collection of working documents. As such, although it is publically released, it does not constitute an official publication and changes are made on an ongoing basis. Because of these regular modifications, <span class="disclaimer">the majority of this content is presented in **English** and will only be translated once a stable and official publication occurs<span>.
 	
@@ -26,7 +26,7 @@ The current document is a work in progress and, as such, will be enhanced period
 
 ## Purpose of the Target Model
 
-In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model_modele-collections/en/target-model/current/bibliography#canadian-heritage-information-network-chin-2019) in an effort to give better access to Canadian heritage information online. Work on the Actors facet of CHIN's larger Collections model, intended to support a future LOD deployment of Artefacts Canada, is documented here. 
+In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model/en/target-model/current/bibliography#canadian-heritage-information-network-chin-2019) in an effort to give better access to Canadian heritage information online. Work on the Actors facet of CHIN's larger Collections model, intended to support a future LOD deployment of Artefacts Canada, is documented here. 
 
 The scope of this project is to consolidate, in unique records, the information pertaining to actors related to objects from Canadian museums collections. An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to artefacts collected by Canadian museums. 
 
@@ -102,19 +102,19 @@ To facilitate understanding and visually convey how CIDOC CRM entities are used 
 <a name="003_Convention_Colors_p"></a>003_Convention_Colors_p
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=003_Convention_Colors_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LMF5iRQKFyNoq5BkehhjQUy8xv1HVs8u%26export%3Ddownload"></iframe>
 
-In addition, [entry nodes](/collections-model_modele-collections/en/semantic-paths-specification/current/introduction#entry-node) defined in the [Semantic Paths Specification](/collections-model_modele-collections/en/semantic-paths-specification/current/introduction) are indicated in bold above their respective class name, as shown below:
+In addition, [entry nodes](/collections-model/en/semantic-paths-specification/current/introduction#entry-node) defined in the [Semantic Paths Specification](/collections-model/en/semantic-paths-specification/current/introduction) are indicated in bold above their respective class name, as shown below:
 
 <a name="004_Convention_Field_p"></a>004_Convention_Field_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=004_Convention_Field_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HILva7PuFDfsCg5daNYxTva-BtlwTjBg%26export%3Ddownload"></iframe>
 
-In the above diagram, bolded styling denotes the [Birth/Formation Place](/collections-model_modele-collections/en/semantic-paths-specification/current/entry-nodes#birthformation-place),  [Birth/Formation Date Begin](/collections-model_modele-collections/en/semantic-paths-specification/current/entry-nodes#birthformation-date-begin) and [Birth/Formation Date End](/collections-model_modele-collections/en/semantic-paths-specification/current/entry-nodes#birthformation-date-end) nodes. In addition to facilitating understanding, this also illustrates how the translation of inputed data to a semantic framework generates several new elements such as `E67_Birth` and `E52_Time-Span`. 
+In the above diagram, bolded styling denotes the [Birth/Formation Place](/collections-model/en/semantic-paths-specification/current/entry-nodes#birthformation-place),  [Birth/Formation Date Begin](/collections-model/en/semantic-paths-specification/current/entry-nodes#birthformation-date-begin) and [Birth/Formation Date End](/collections-model/en/semantic-paths-specification/current/entry-nodes#birthformation-date-end) nodes. In addition to facilitating understanding, this also illustrates how the translation of inputed data to a semantic framework generates several new elements such as `E67_Birth` and `E52_Time-Span`. 
 
 Occasionally, an `E55_Type` can only have a single instance in a specific pattern. In such a case, it is named in quotation marks underneath the name of the class, as follows:
 
 <a name="005_Convention_Metatype_p"></a>005_Convention_Metatype_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=005_Convention_Metatype_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1qnZZqU6wsy-5dMs86vKqeWtJ-iuNHTlS%26export%3Ddownload"></iframe>
 
-The diagram above represents the gender pattern: the middle element corresponds to the [Gender Type](/collections-model_modele-collections/en/semantic-paths-specification/current/entry-nodes#gender-type) entry node (bolded), which records the gender of the actor (e.g. male, female, two-spirit, etc.). This information is then designated as pertaining to gender by another `E55_Type` that always has the value "Gender". For example, Jean Paul Riopelle is typed as "Male", and this information is designated as being of the type “Gender”. 
+The diagram above represents the gender pattern: the middle element corresponds to the [Gender Type](/collections-model/en/semantic-paths-specification/current/entry-nodes#gender-type) entry node (bolded), which records the gender of the actor (e.g. male, female, two-spirit, etc.). This information is then designated as pertaining to gender by another `E55_Type` that always has the value "Gender". For example, Jean Paul Riopelle is typed as "Male", and this information is designated as being of the type “Gender”. 
 
 When nothing follows parentheses, the data format is `xsd:string`; otherwise, the data format is specified (e.g. dates using `xsd:dateTime`). 
 
@@ -129,9 +129,9 @@ In this diagram, each instance (Jean Paul Riopelle, Male, Gender Type) are linke
 
 ## A-Z Diagram
 
-Below is an overview diagram that includes **all current patterns** in the Target Model. Each pattern is enclosed in a blue-dotted bubble, the title of which is linked to its corresponding section in the Target Model. Also, each shape in the diagram is linked to its corresponding node in the [Semantic Paths Specification](/collections-model_modele-collections/en/semantic-paths-specification/current/introduction).
+Below is an overview diagram that includes **all current patterns** in the Target Model. Each pattern is enclosed in a blue-dotted bubble, the title of which is linked to its corresponding section in the Target Model. Also, each shape in the diagram is linked to its corresponding node in the [Semantic Paths Specification](/collections-model/en/semantic-paths-specification/current/introduction).
 
 <a name="000_Patterns_2.1_p"></a>000_Patterns_2.1_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=000_Patterns_2.1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D125_6c1wx8iNrqSgqioi3HjvpqTbmyWlM%26export%3Ddownload"></iframe>
 
-> Next: [General Concepts](/collections-model_modele-collections/en/target-model/current/general-concepts)
+> Next: [General Concepts](/collections-model/en/target-model/current/general-concepts)

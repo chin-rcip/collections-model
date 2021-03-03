@@ -5,17 +5,17 @@ title: Descriptive Information
 permalink: /en/target-model/current/descriptive-information
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
 
 
 ## Biography
 
-CIDOC CRM dictates that textual information should be rendered with the class `E33_Linguistic_Object`. The biography of an actor written by a museum staff member would enter in that category. Linking the `E39_Actor` to his biography requires the use of the `P67_refers_to` property, thus indicating that the biography refers to the actor. As seen [above](/collections-model_modele-collections/en/target-model/current/general-concepts#literal-content), the content of the biography is documented in a string of text linked to the `E33_Linguistic_Object` through the property `P190_has_symbolic_content`.
+CIDOC CRM dictates that textual information should be rendered with the class `E33_Linguistic_Object`. The biography of an actor written by a museum staff member would enter in that category. Linking the `E39_Actor` to his biography requires the use of the `P67_refers_to` property, thus indicating that the biography refers to the actor. As seen [above](/collections-model/en/target-model/current/general-concepts#literal-content), the content of the biography is documented in a string of text linked to the `E33_Linguistic_Object` through the property `P190_has_symbolic_content`.
 
 The author of the biography, most often a museum staff worker, relies on other sources of information when researching the life of the actor; said information and its sources should thus also be documented. The simplest and most semantically correct way to render such a citation is to use the Dublin Core property `dct:source` to quote the bibliographic citation as a string of text.
 
-For more details on this, please see [Appendix F: Discussions, Biography.](/collections-model_modele-collections/en/target-model/current/appendix-f-discussions#discussion-biography)
+For more details on this, please see [Appendix F: Discussions, Biography.](/collections-model/en/target-model/current/appendix-f-discussions#discussion-biography)
 
 <a name="061_Pattern_Biography_p"></a>061_Pattern_Biography_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=061_Pattern_Biography_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1MW5F9Ybl02W4uyN20cxWln3J_rKuLb6x%26export%3Ddownload"></iframe>
@@ -80,4 +80,4 @@ Most museums have a “remark” field linked to the actors and objects  they do
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=069_Example_CuratorialNoteRiopelle_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1h86daQriZxfUhn7dnddrCUD-JI3P6-pZ%26export%3Ddownload"></iframe>
 
 
-> Previous: [Social Bonds](/collections-model_modele-collections/en/target-model/current/social-bonds)<br>Next: [Artefacts](/collections-model_modele-collections/en/target-model/current/artefacts)
+> Previous: [Social Bonds](/collections-model/en/target-model/current/social-bonds)<br>Next: [Artefacts](/collections-model/en/target-model/current/artefacts)

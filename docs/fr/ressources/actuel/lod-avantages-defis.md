@@ -20,7 +20,7 @@ Le présent document de travail vise à donner un aperçu des avantages qu’off
 
 ## Données ouvertes liées (DOL) pour les institutions culturelles {#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles}
 
-Le Réseau canadien d’information sur le patrimoine (RCIP) travaille actuellement à la création d’un modèle destiné aux collections canadiennes d’artefacts. Son volet consacré aux personnes et aux groupes est en cours d’élaboration et sera testé prochainement. Le volet Objets de ce [modèle Collections](/collections-model_modele-collections/en/target-model/current/introduction) est conçu de manière à pouvoir s’aligner sur le modèle de [linked.art](https://linked.art/model/index.html) pour les institutions artistiques. 
+Le Réseau canadien d’information sur le patrimoine (RCIP) travaille actuellement à la création d’un modèle destiné aux collections canadiennes d’artefacts. Son volet consacré aux personnes et aux groupes est en cours d’élaboration et sera testé prochainement. Le volet Objets de ce [modèle Collections](/collections-model/en/target-model/current/introduction) est conçu de manière à pouvoir s’aligner sur le modèle de [linked.art](https://linked.art/model/index.html) pour les institutions artistiques. 
 
 Si, en tant qu’institution, vous désirez sémantiser vos données, le RCIP sera heureux de collaborer avec vous à ce sujet et de vous conseiller du mieux qu’il le peut. De manière générale, vous devriez prendre en considération les principaux éléments suivants :  
 

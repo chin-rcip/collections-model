@@ -5,7 +5,7 @@ title: Legal Aspects (Rights)
 permalink: /en/target-model/current/legal-aspects-rights
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
 
 
@@ -17,7 +17,7 @@ Rights management can become very demanding in terms of resources. CHIN has thus
 | 🔎  *To Be Discussed* <br/><br/>CHIN is still trying to determine what would be the easiest and simplest way to handle rights with institutions. Is the open and copyright free limitation sufficient or is it too demanding of institutions? What type of export would best suit the needs of institutions in the long term? |
 
 
-Creative Commons [(Creative Commons 2020)](/collections-model_modele-collections/en/target-model/current/bibliography#creative-commons-2020) and Rights Statements [(Rights Statements 2020)](/collections-model_modele-collections/en/target-model/current/bibliography#rights-statements-2020) have their own URIs that can be implemented.
+Creative Commons [(Creative Commons 2020)](/collections-model/en/target-model/current/bibliography#creative-commons-2020) and Rights Statements [(Rights Statements 2020)](/collections-model/en/target-model/current/bibliography#rights-statements-2020) have their own URIs that can be implemented.
 
 
-> Previous: [Archival Document Location](/collections-model_modele-collections/en/target-model/current/archival-document-location)<br>Next: [Bibliography](/collections-model_modele-collections/en/target-model/current/bibliography)
+> Previous: [Archival Document Location](/collections-model/en/target-model/current/archival-document-location)<br>Next: [Bibliography](/collections-model/en/target-model/current/bibliography)

@@ -5,7 +5,7 @@ title: Appendix E - Moving Events
 permalink: /en/target-model/current/appendix-e-moving-events
 sidebar: tm
 ---
-<!-- [Back to the Table of Contents](/collections-model_modele-collections/en/target-model/current/information#table-of-contents)
+<!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->
 
 
@@ -29,4 +29,4 @@ It would also be possible to create an `E7_Activity` that would stand in for a s
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=094_Pattern_Sojourn_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1EjJKURs3c5ltx-ZMRJQdbEA-iVkC7zeM%26export%3Ddownload"></iframe>
 
 
-> Previous:[Appendix D](/collections-model_modele-collections/en/target-model/current/appendix-d-relationships)<br>Next: [Appendix F](/collections-model_modele-collections/en/target-model/current/appendix-f-discussions)
+> Previous:[Appendix D](/collections-model/en/target-model/current/appendix-d-relationships)<br>Next: [Appendix F](/collections-model/en/target-model/current/appendix-f-discussions)
