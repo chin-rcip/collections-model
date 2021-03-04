@@ -3,6 +3,7 @@ layout: page
 language: en
 title: Appendix E - Moving Events 
 permalink: /en/target-model/current/appendix-e-moving-events
+other_link: /fr/modele-cible/actuel/introduction
 sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)

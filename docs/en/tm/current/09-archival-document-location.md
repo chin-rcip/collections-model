@@ -3,6 +3,7 @@ layout: page
 language: en
 title: Archival Document Location
 permalink: /en/target-model/current/archival-document-location
+other_link: /fr/modele-cible/actuel/introduction
 sidebar: tm
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)

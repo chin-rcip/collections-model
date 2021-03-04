@@ -3,6 +3,7 @@ layout: page
 language: en
 title: Bibilography
 permalink: /en/semantic-paths-specification/current/bibliography
+other_link: /fr/specification-des-chemins-semantiques/actuel/introduction
 sidebar: sps
 ---
 

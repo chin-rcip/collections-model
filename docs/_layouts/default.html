@@ -9,18 +9,6 @@
 
     {%- include search.html -%}
 
-    <div class="modal" id="lang-warning" style="display: none;">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <div style="text-align: justify; padding: 10px 30px">
-           <h3 class="disclaimer">AVERTISSEMENT: Il s’agit un contenu en anglais seulement.</h3>
-        <p><em>La documentation présentée ici est une collection de documents de travail. À ce titre, bien qu’elle soit publiquement disponible, elle ne constitue en rien une publication officielle et des changements y sont apportés sur une base régulière. En raison de ces modifications régulières, <span class="disclaimer">la majorité du contenu présenté ici n'est disponible qu'en anglais et ne sera traduit que lors de la publication d'une version stable et officielle de cette documentation.</span></em></p>
-        <button class="close">OK</button>
-        </div>
-       
-      </div>
-    </div>
-
     <main class="page-content {% if page.sidebar %}main-with-sidebar{% endif %}" aria-label="Content">
       {% if page.sidebar %}
         <div class="{% if page.sidebar %}column sidebar{% endif %}">
@@ -118,9 +106,6 @@
         }
       };
 
-      function lang_warning(){
-        $("#lang-warning").show();
-      };
 
       // show search modal
       $("#search-icon").on("click", function(){

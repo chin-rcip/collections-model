@@ -3,6 +3,7 @@ layout: page
 language: en
 title: Semantic Paths Specification
 permalink: /en/semantic-paths-specification/current/introduction
+other_link: /fr/specification-des-chemins-semantiques/actuel/introduction
 sidebar: sps
 ---
 

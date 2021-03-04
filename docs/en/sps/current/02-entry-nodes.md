@@ -3,6 +3,7 @@ layout: page
 language: en
 title: Entry Nodes
 permalink: /en/semantic-paths-specification/current/entry-nodes
+other_link: /fr/specification-des-chemins-semantiques/actuel/introduction
 sidebar: sps
 ---
 
