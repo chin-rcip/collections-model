@@ -3,7 +3,6 @@ layout: page
 language: en
 title: Tools
 permalink: /en/resources/current/tools
-titre: Outils
 other_link: /fr/ressources/actuel/outils
 group: resources
 ---

@@ -1,3 +1,10 @@
+# h3:
+
+# - tm: Target Model
+# - sps: Semantic Paths Sepcification
+# - lodbc: LOD - Benefits and Challenges
+# - ng1: Named Graph Survey Report (1)
+
 tm:
 
 - title: Introduction
@@ -772,4 +779,89 @@ lodad:
     url: /fr/ressources/actuel/dol-avantages-defis#bibliographie-sommaire
     hash: bibliographie-sommaire
 
+
+ng1:
+
+- title: Named Graph Survey Report (1)
+  url: /en/technical-reports/current/named-graph-survey-report-1
+- title: Introduction
+  url: /en/technical-reports/current/named-graph-survey-report-1#introduction 
+  hash: introduction 
+- title: Survey Question Categories and Question Structure
+  url: /en/technical-reports/current/named-graph-survey-report-1#survey-question-categories-and-question-structure 
+  hash: survey-question-categories-and-question-structure
+  subfolder:
+  - page: 1. General Approach
+    url: /en/technical-reports/current/named-graph-survey-report-1#1-general-approach 
+    hash: 1-general-approach
+    subsubfolder:
+    - page: Question 1 - Named Graph Use in Data Management
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-1-named-graph-use-in-data-management 
+      hash: question-1-named-graph-use-in-data-management 
+    - page: Question 2 - Named Graph Format
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-2-named-graph-format 
+      hash: question-2-named-graph-format 
+  - page: 2. Named Graph Use for Aggregation
+    url: /en/technical-reports/current/named-graph-survey-report-1#2-named-graph-use-for-aggregation
+    hash: 2-named-graph-use-for-aggregation
+    subsubfolder:
+    - page: Question 3 - Named Graph Use in Aggregation Processes
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-3-named-graph-use-in-aggregation-processes 
+      hash: question-3-named-graph-use-in-aggregation-processes 
+    - page: Question 4 - Named Graph Application Level
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-4-named-graph-application-level 
+      hash: question-4-named-graph-application-level 
+    - page: Question 5 - Named Graph Process Application Point
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-5-named-graph-process-application-point 
+      hash: question-5-named-graph-process-application-point 
+  - page: 3. Named Graph Functions
+    url: /en/technical-reports/current/named-graph-survey-report-1#3-named-graph-functions 
+    hash: 3-named-graph-functions
+    subsubfolder:
+    - page: Question 6 - Other Named Graph Functions / Applications
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-6-other-named-graph-functions--applications 
+      hash: question-6-other-named-graph-functions--applications 
+  - page: 4. Named Graph Shape / Border
+    url: /en/technical-reports/current/named-graph-survey-report-1#4-named-graph-shape--border 
+    hash: 4-named-graph-shape--border
+    subsubfolder:
+    - page: Question 7 - Named Graph Policy
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-7-named-graph-policy 
+      hash: question-7-named-graph-policy 
+    - page: Question 8 - Named Graph Definition Parameters
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-8-named-graph-definition-parameters 
+      hash: question-8-named-graph-definition-parameters 
+  - page: 5. Named Graphs and Information Retrieval
+    url: /en/technical-reports/current/named-graph-survey-report-1#5-named-graphs-and-information-retrieval
+    hash: 5-named-graphs-and-information-retrieval
+    subsubfolder:
+    - page: Question 9 - Named Graph and Query Functionality
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-9-named-graph-and-query-functionality 
+      hash: question-9-named-graph-and-query-functionality 
+  - page: 6. General Information
+    url: /en/technical-reports/current/named-graph-survey-report-1#6-general-information 
+    hash: 6-general-information 
+    subsubfolder:
+    - page: Question 10 - Additional Info
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-10-additional-info 
+      hash: question-10-additional-info 
+    - page: Question 11 - Projects and Software of Note
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-11-projects-and-software-of-note 
+      hash: question-11-projects-and-software-of-note 
+    - page: Question 12 - Survey Adequacy
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-12-survey-adequacy 
+      hash: question-12-survey-adequacy 
+  - page: 7. Demographics
+    url: /en/technical-reports/current/named-graph-survey-report-1#7-demographics 
+    hash: 7-demographics
+    subsubfolder:
+    - page: Question 0 - Demographics
+      url: /en/technical-reports/current/named-graph-survey-report-1#question-0-demographics 
+      hash: question-0-demographics 
+- title: General Survey Results Discussion
+  url: /en/technical-reports/current/named-graph-survey-report-1#general-survey-results-discussion 
+  hash: general-survey-results-discussion 
+- title: Conclusion
+  url: /en/technical-reports/current/named-graph-survey-report-1#conclusion 
+  hash: conclusion 
 
