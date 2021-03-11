@@ -2,7 +2,7 @@
 layout: page
 language: fr
 title: Outils
-permalink: fr/ressources/actuel/outils
+permalink: /fr/ressources/actuel/outils
 other_link: /en/resources/current/tools
 group: ressources
 ---

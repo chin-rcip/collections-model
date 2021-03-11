@@ -865,3 +865,68 @@ ng1:
   url: /en/technical-reports/current/named-graph-survey-report-1#conclusion 
   hash: conclusion 
 
+
+tutcidocfr:
+
+- title: Tutoriel CIDOC CRM
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm
+- title: Résumé
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#resume
+  hash: resume
+- title: Vocabulaire essentiel
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#vocabulaire-essentiel
+  hash: vocabulaire-essentiel
+  subfolder:
+  - page: Classe
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#classe
+    hash: classe 
+  - page: Entité
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#entite
+    hash: entite 
+  - page: Instance
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#instance
+    hash: instance 
+  - page: Propriété
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#propriete
+    hash: propriete
+- title: Versions et extensions
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#versions-et-extensions
+  hash: versions-et-extensions 
+- title: Structuration des entités de CIDOC CRM
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#structuration-des-entites-de-cidoc-crm
+  hash: structuration-des-entites-de-cidoc-crm 
+  subfolder:
+  - page: Nomenclature de CIDOC CRM
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#nomenclature-de-cidoc-crm
+    hash: nomenclature-de-cidoc-crm 
+  - page: Classes
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#classes
+    hash: classes 
+  - page: Propriétés
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#proprietes
+    hash: proprietes 
+  - page: Domaine et Portée
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#domaine-et-portee
+    hash: domaine-et-portee 
+  - page: Super-classe/Sous-classe et Super-propriété/Sous-propriété
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#super-classesous-classe-et-super-proprietesous-propriete
+    hash: super-classesous-classe-et-super-proprietesous-propriete 
+- title: Cadre conceptuel de CIDOC CRM
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#cadre-conceptuel-de-cidoc-crm
+  hash: cadre-conceptuel-de-cidoc-crm 
+  subfolder:
+  - page: Entités temporelles
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#entites-temporelles
+    hash: entites-temporelles 
+  - page: Classes principales de CIDOC CRM
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#classes-principales-de-cidoc-crm
+    hash: classes-principales-de-cidoc-crm 
+  - page: Gestion de la temporalité dans CIDOC CRM
+    url: /fr/ressources/actuel/tutoriel-cidoc-crm#gestion-de-la-temporalite-dans-cidoc-crm
+    hash: gestion-de-la-temporalite-dans-cidoc-crm 
+- title: Identifier la bonne entité
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#identifier-la-bonne-entite
+  hash: identifier-la-bonne-entite 
+- title: Aide-mémoire
+  url: /fr/ressources/actuel/tutoriel-cidoc-crm#aide-memoire
+  hash: aide-memoire 

@@ -40,6 +40,7 @@ header_pages_en:
   - en/sps/current/01-introduction.md
   - en/resources/current/lod-benefits-challenges.md
   - en/resources/current/tools.md
+  - en/resources/current/cidoc-crm-tutorial.md
   - en/reports/current/ng-report-1.md
 header_pages_fr:
   - fr/a-propos.md
@@ -48,6 +49,7 @@ header_pages_fr:
   - fr/scs/actuel/01-introduction.md
   - fr/ressources/actuel/lod-avantages-defis.md
   - fr/ressources/actuel/outils.md
+  - fr/ressources/actuel/tutoriel-cidoc-crm.md
   - fr/rapports/actuel/gn-rapport-1.md
 
 # Exclude from processing.
