@@ -119,6 +119,39 @@ The language of the content must also be indicated and the data must be instanti
 <a name="013_Example_TimeSpanRiopelleBirth_p"></a>013_Example_TimeSpanRiopelleBirth_p
 <iframe frameborder="0" style="width:100%;height:500px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=013_Example_TimeSpanRiopelleBirth_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1x8Nml8JxDEPwpRsOBabsrlRov3yJhMOY%26export%3Ddownload"></iframe>
 
+
+## PC Classes
+
+In the CIDOC CRM ontology, some properties can be qualified in order to describe more efficiently the nature of the link between two entities. For instance, the property `P14_carried_out_by` can be specified with the role in which an activity is carried out. This is achieved in the ontology by making a statement on a property. For example, the property `P14_carried_out_by` is linked to a vocabulary term defining the role through the property `P14.1_in_the_role_of`. While conceptually such a structure is a logical inference, it causes some problems implementing it in RDF.
+
+The problem is as follows: In RDF, classes can be instantiated, but not properties. In other words, the instance of a class can be the subject or the object of a triple, while the link between those two entities is always properties’ URI. Therefore, if a specific link needs to be qualified (for example that a specific carrying out of an activity is made under a certain role), using the property’s URI as subject of this qualifying triple would imply that the property itself is always qualified, even in other occurrences of this property. For example, if a role A is used to specify a unique property `P14_carried_out_by` between Actor B and Activity C, other occurrences of that property `P14_carried_out_by` would also  be linked to the role A.
+
+<a name="097a_PC_ClassesExamples_1_p"></a>097a_PC_ClassesExamples_1_p
+<iframe frameborder="0" style="width:100%;height:423px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=097a_PC_ClassesExamples_1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D11vR6__SHZCNhK0DGOh2jJnetnpp3i28L%26export%3Ddownload"></iframe>
+
+To remedy this, a technical addition to CIDOC CRM, called Property-Class Specification (or PC), has been developed by the CRM SIG in 2014. In this extension, the properties in question have been reified (in other words they have been transformed into classes) so that instances of those new Property-Class can become the subject of other triples without affecting the rest of the model.
+
+For example, a new class, called PC14_carried_out_by can be used instead of the property `P14_carried_out_by`. An instance of that PC14_carried_out_by can then be specified with a role through the property P14.1_carried_out_by. Because it is the instance of that property class that is used as the subject of that triple, the role only applies to that specific occurrence.
+In order to link the two entities’ domain and range of the previous property, two new properties, `P01_has_domain` and `P02_has_range` have been created. Therefore, instead of  having the triple:
+```
+Actor A → P14_carried_out_by → Activity
+```
+With the PC Specification, it is:
+```
+Actor A ← P01_has_domain ← PC14_carried_out_by → P02_has_range → Activity
+```
+
+<a name="097b_PC_ClassesExamples_2_p"></a>097b_PC_ClassesExamples_2_p
+<iframe frameborder="0" style="width:100%;height:443px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=097b_PC_ClassesExamples_2_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1vqJBTUeb3RvLAvADWxUeLt69-TN51_uM%26export%3Ddownload"></iframe>
+
+The hierarchy of this extension is rather simple. Each new property class is a subclass of a new root class called PC0_CRM_Property. This minimalistic hierarchy, however, causes some problems. First, it does not follow the CIDOC CRM property hierarchy, which means that some of the property Pxx.1, that should normally be inherited to sub-classes, are not. It is the case of `P67.1_has_type` (domain PC67_refers_to) that cannot be used with the property class `PC138_represents`, even though `P138_represents` is sub-property of `P67_refers_to` in CRMbase. Second, PC0_CRM_Property is not a subclass of E1_CRM_Entity, or any other CRMbase entity. This means that the property classes are not semantically linked to CIDOC CRM.
+
+The PC classes that are used throughout the Target Model are:
+- PC14_carried_out_by, in the Relationship and the Artefact production patterns
+- PC138_represents, in the Visual Item - Mark pattern
+- PC144_joined_with, in the Group belonging pattern
+
+
 ## Data Provenance
 
 

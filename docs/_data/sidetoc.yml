@@ -42,9 +42,9 @@ tm:
   - page: Prioritization of E55_Type and P2_has_type over new classes and properties
     url: /en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
     hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
-  - page: The Differences Between E39_Actor, E21_Person and E74_Group
-    url: /en/target-model/current/general-concepts#the-differences-between-e39_actor-e21_person-and-e74_group
-    hash: the-differences-between-e39_actor-e21_person-and-e74_group
+  - page: Differences Between E39_Actor, E21_Person and E74_Group
+    url: /en/target-model/current/general-concepts#differences-between-e39_actor-e21_person-and-e74_group
+    hash: differences-between-e39_actor-e21_person-and-e74_group
   - page: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
     url: /en/target-model/current/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
     hash: semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
@@ -61,6 +61,9 @@ tm:
   - page: Mapping problems and E33_Linguistic_Object
     url: /en/target-model/current/general-concepts#mapping-problems-and-e33_linguistic_object
     hash: mapping-problems-and-e33_linguistic_object
+  - page: PC Classes
+    url: /en/target-model/current/general-concepts#pc-classes
+    hash: pc-classes
   - page: Data Provenance
     url: /en/target-model/current/general-concepts#data-provenance
     hash: data-provenance
