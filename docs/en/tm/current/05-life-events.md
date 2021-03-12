@@ -39,8 +39,10 @@ There is also a difference between an occupation, like being a musician (even wi
 
 In order to account for these intricacies, the occupation is modeled with the class `F51_Pursuit` (from the CIDOC CRM extension of [FRBR](https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records), [FRBRoo](http://www.cidoc-crm.org/frbroo/)) which is an event that is `P14_carried_out_by` the `E39_Actor`. This `F51_Pursuit` occupation is then typed to specify which kind of occupation it is (paintor, sculptor, artist, etc.).
 
+When it comes to schooling activities, the [Group Belonging](https://chin-rcip.github.io/collections-model/en/target-model/current/social-bonds#group-belonging) pattern is certainly the most common option as museums describe essentially the fact of being a member of a school rather than the schooling activity itself. However, the current pattern could be used if the input data is not referring to any institution in particular (e.g., this person was a student from 1952 to 1964). To describe the latter, we do not have a consensus whether this pattern or the [Social Status](https://chin-rcip.github.io/collections-model/en/target-model/current/life-events#social-status) one should be used.
 
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #29](https://github.com/chin-rcip/chin-rcip/issues/29)<br/><br/>And ... <br/><br/>This topic is discussed in [Issue #28](https://github.com/chin-rcip/chin-rcip/issues/28) |
+
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #27](https://github.com/chin-rcip/chin-rcip/issues/27), [Issue #28](https://github.com/chin-rcip/chin-rcip/issues/28), and [Issue #29](https://github.com/chin-rcip/chin-rcip/issues/29) |
 
 <a name="033_Pattern_Occupation_p"></a>033_Pattern_Occupation_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=033_Pattern_Occupation_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1JdZ7dhPt4eJBHDCstGVxmGL-Gnoa-jpa%26export%3Ddownload"></iframe>
@@ -55,6 +57,8 @@ In order to account for these intricacies, the occupation is modeled with the cl
 Whilst actors have professional or artistic occupations, people also hold social status(es), like being a leader, an Indigenous Community elder, or a knight. These cannot be modeled as occupations because they are not *pursued* per se and do not fit the scope of `F51_Pursuit`.
 
 [CIDOC CRM-Soc](http://www.cidoc-crm.org/crmsoc/) will have a class called “Phase” that may document such statuses, but it is still in development. In the meantime, the best way to model social statuses is to use an `E7_Activity` class carried out by the `E39_Actor` holding said status. 
+
+When it comes to schooling activities, the [Group Belonging](https://chin-rcip.github.io/collections-model/en/target-model/current/social-bonds#group-belonging) pattern is certainly the most common option as museums describe essentially the fact of being a member of a school rather than the schooling activity itself. However, the current pattern could be used if the input data is not referring to any institution in particular (e.g., this person was a student from 1952 to 1964). To describe the latter, we do not have a consensus whether this pattern or the [Occupation](https://chin-rcip.github.io/collections-model/en/target-model/current/life-events#occupation) one should be used.
 
 <a name="035_Pattern_SocialStatus_p"></a>035_Pattern_SocialStatus_p
 <iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=035_Pattern_SocialStatus_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1lKwj0Jw_ggXprABA7UFszDHHtMW7RALq%26export%3Ddownload"></iframe>

@@ -52,6 +52,8 @@ CIDOC CRM has specific classes dedicated to rendering group belonging more adequ
 
 If the provider’s record documents an `E74_Group` and lists its members, then an `E85_Joining` (and an `E86_Leaving` if needed) will be created for each member (as discussed in the [issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) on GitHub).
 
+When it comes to schooling activities, the current pattern is certainly the most common option as museums describe essentially the fact of being a member of a school rather than the schooling activity itself. However, the [Occupation](https://chin-rcip.github.io/collections-model/en/target-model/current/life-events#occupation) or the [Social Status](https://chin-rcip.github.io/collections-model/en/target-model/current/life-events#social-status) patterns could be used if the input data is not referring to any institution in particular (e.g., this person was a student from 1952 to 1964). To describe the latter, we do not have a consensus on which of these two patterns is the most appropriate one.
+
 <a name="059_Pattern_GroupBelonging_p"></a>059_Pattern_GroupBelonging_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=059_Pattern_GroupBelonging_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1RvtLjlTiHJkl_VU6dlx0SgRBBbteInqc%26export%3Ddownload"></iframe>
 
@@ -60,9 +62,6 @@ If the provider’s record documents an `E74_Group` and lists its members, then 
 <a name="060_Example_GroupBelongingGroup7_p"></a>060_Example_GroupBelongingGroup7_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=060_Example_GroupBelongingGroup7_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D17xazTJlfANMP0MeeYme_hDyyU5hNv_Cp%26export%3Ddownload"></iframe>
 
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #11](https://github.com/chin-rcip/chin-rcip/issues/11) |
-
-
-| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) |
+| ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #11](https://github.com/chin-rcip/chin-rcip/issues/11) and [Issue #15](https://github.com/chin-rcip/chin-rcip/issues/15) |
 
 > Previous: [Life Events](/collections-model/en/target-model/current/life-events)<br>Next: [Descriptive Information](/collections-model/en/target-model/current/descriptive-information)
