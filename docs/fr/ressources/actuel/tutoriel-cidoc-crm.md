@@ -14,7 +14,7 @@ group: ressources
 
 **Date de création:** 2021-02-01
 
-**Date de mise à jour:** 2021-02-04
+**Date de mise à jour:** 2021-03-12
 
 ## Résumé {#resume}
 
@@ -25,7 +25,7 @@ Ce document explique comment utiliser la documentation de CIDOC CRM afin de dét
 
 ### Classe
 
-Une classe fédère des [instances](#instance) qui partagent des caractéristiques communes sur la base desquels ces instances sont mobilisées similairement puisque des instances d’une même classe ont la possibilité d’utiliser les mêmes [propriétés](#propriete).
+Une classe fédère des [instances](#instance) qui partagent des caractéristiques communes sur la base desquelles ces instances sont mobilisées similairement puisque des instances d’une même classe ont la possibilité d’utiliser les mêmes [propriétés](#propriete).
 
 ### Entité {#entite}
 
@@ -41,7 +41,7 @@ Une propriété décrit le lien qui existe entre deux [instances](#instance).
 
 ## Versions et extensions
 
-Le *Conceptual Reference Model* du *Comité International pour la Documentation* du *Conseil International des Musées* (CIDOC CRM) est une ontologie formelle dont la version originale anglophone est mise à jour sur une base régulière. Lorsque CIDOC CRM est utilisé à des fins de recherche, il s’avère la plupart du temps judicieux de se référer à la dernière version publiée. En date du 1er février 2021, il s’agit de la version 7.0. Lorsque CIDOC CRM est utilisé à des fins d'implémentation d’un modèle, il est préférable de se référer à la version de laquelle découle le dernier fichier RDF disponible. Actuellement, il s’agit de la version 6.2.1.
+Le *Conceptual Reference Model* du *Comité International pour la Documentation* du *Conseil International des Musées* (CIDOC CRM) est une ontologie formelle dont la version originale anglophone est mise à jour sur une base régulière. Lorsque CIDOC CRM est utilisé à des fins de recherche, il s’avère la plupart du temps judicieux de se référer à la dernière version publiée. En date du 12 mars 2021, il s’agit de la version 7.1. Lorsque CIDOC CRM est utilisé à des fins d'implémentation d’un modèle, il est préférable de se référer à la version de laquelle découle le dernier fichier RDF disponible. Actuellement, il s’agit de la version 6.2.1.
 
 La liste de toutes les versions est accessible [ici](http://www.cidoc-crm.org/versions-of-the-cidoc-crm).
 
@@ -115,7 +115,7 @@ Chaque entité est décrite à l’aide d’une série de champs dont certains s
 
   - Pour les classes:
     
-      - “Subclass of” et “Superclass of” identifie les classes à un niveau de distance de la classe consultée dans la hiérarchie. L’utilisateur peut aussi avoir une vue de l’ensemble de la hiérarchie en consultant les pages xliii et xlvi de la spécification de CIDOC CRM ([version 7.0.1](http://www.cidoc-crm.org/Version/version-7.0.1)).
+      - “Subclass of” et “Superclass of” identifie les classes à un niveau de distance de la classe consultée dans la hiérarchie. L’utilisateur peut aussi avoir une vue de l’ensemble de la hiérarchie en consultant les pages xxxiv à xxxvi de la spécification de CIDOC CRM ([version 7.1](http://www.cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf)).
     
       - “Scope Note” définit les instances qui font partie d’une classe.
     
