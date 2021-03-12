@@ -16,7 +16,7 @@ Version 2.1 ([Previous versions](/collections-model/en/versions))
 
 Created date: 2019-05-13
 
-Last Update: 2021-03-01
+Last Update: 2021-03-12
 
 ## Abstract 
 
