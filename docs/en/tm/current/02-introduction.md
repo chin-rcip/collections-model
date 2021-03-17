@@ -29,9 +29,9 @@ The current document is a work in progress and, as such, will be enhanced period
 
 In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model/en/target-model/current/bibliography#canadian-heritage-information-network-chin-2019) in an effort to give better access to Canadian heritage information online. Work on the Actors facet of CHIN's larger Collections model, intended to support a future LOD deployment of Artefacts Canada, is documented here. 
 
-The scope of this project is to consolidate, in unique records, the information pertaining to actors related to objects from Canadian museums collections. An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to artefacts collected by Canadian museums. 
+The scope of this project is to consolidate, in unique records, the information pertaining to actors related to objects from Canadian collections. An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to artefacts collected by Canadian institutions. 
 
-That said, specific museums may document targeted or niche aspects of an actor's life or object, aspects that are relevant solely to that museum (e.g. a museum dedicated to firefighters might document the level of first-aid training an actor received). The Actors and/or Collections models will not model such specific information in order to avoid unnecessary complexity as many museums will have individual needs that are not shared by their counterparts (for a detailed discussion of this issue, see Issue #19).
+That said, specific institutions may document targeted or niche aspects of an actor's life or object, aspects that are relevant solely to them (e.g. a museum dedicated to firefighters might document the level of first-aid training an actor received). The Collections model will not model such specific information in order to avoid unnecessary complexity as many collecting institutions will have individual needs that are not shared by their counterparts (for a detailed discussion of this issue, see Issue #19).
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #19](https://github.com/chin-rcip/collections-model/issues/19) |
 
@@ -61,7 +61,7 @@ CHIN intends to develop a model that will account for Objects and Actors facets 
 6. Releasing the data in LOD (SPARQL endpoint, public interface); 
 7. Expanding the model with relevant fields using the same methods, eventually expanding it with an Objects Facet using the same approach and having learned from the development of the Actors Facet (this will likely entail starting over this same process at a larger scale as well as updating the Actors Facet where necessary). 
 
-CHIN has elected to develop the Actors facet first as it is a smaller ensemble of data to model. For the purposes of this model, an actor encompasses any individual or group who took part in the creation of or is related to cultural artefacts documented by a submissioner. This includes creators (artists, artisans, manufacturers, groups of artists, etc.) as well as other important actors such as owners, patrons, persons depicted, etc. (please note that although all such profiles will be accounted for, only data that is compliant with privacy and legal legislation as well as submissioner’s wishes will be published).
+CHIN has elected to develop the Actors facet first as it is a smaller ensemble of data to model. For the purposes of this model, an actor encompasses any individual or group who took part in the creation of or is related to cultural artefacts documented by a data provider. This includes creators (artists, artisans, manufacturers, groups of artists, etc.) as well as other important actors such as owners, patrons, persons depicted, etc. (although all such profiles will be accounted for, only data that is compliant with privacy and legal legislation as well as provider’s wishes will be published).
 
 Because this Actors facet will be a small but determining aspect of the Collections model in general, it has been developed accordingly and the choice of an ontology has been reliant on three key factors that take the whole model into consideration:
 
@@ -71,11 +71,11 @@ Because this Actors facet will be a small but determining aspect of the Collecti
 
 In this context, CHIN elected to work with the [CIDOC CRM ontology](http://www.cidoc-crm.org/versions-of-the-cidoc-crm). Because it has been developed by the [International Council of Museums](https://icom.museum/en/) (ICOM) for heritage institutions and with their needs in mind, it is by far the most used within this field. For this reason and because it is under ICOM’s custody through the special interest group dedicated to it ([CIDOC Conceptual Reference Model Special Interest Group, CRM SIG](http://network.icom.museum/cidoc/working-groups/crm-special-interest-group/)), CIDOC CRM also appears to be a sustainable choice. It is regularly updated and adapted to the needs of said community, thus offering a rich and precise framework to work with. Finally, as an event-based ontology, it is suited to adequately represent both Actors and Objects by linking instances (people, objects, etc.) together through events that can be situated in time and space. 
 
-Historically, CIDOC CRM has a strong focus on the recorded history of objects through time. As such, the Objects Facet will be more in line with what CIDOC CRM is traditionally used for. Treating the Actors facet first offers more time to examine the complex variety of human activity documented in relation to actors, which is a significant challenge to represent accurately and semantically (e.g. social relationships are amongst the most difficult elements to represent in CIDOC CRM as their complexity and the multiple understandings of a single event they carry renders several patterns suitable to the representation of a single event). 
+Historically, CIDOC CRM has a strong focus on the recorded history of objects through time. As such, the Objects Facet will be more in line with what CIDOC CRM is traditionally used for. Treating the Actors facet first offers more time to examine the complex variety of human activities documented in relation to actors, which is a significant challenge to represent accurately and semantically (e.g. social relationships are amongst the most difficult elements to represent in CIDOC CRM as their complexity and the multiple understandings of a single event they carry renders several patterns suitable to the representation of a single event). 
 
 More information about CIDOC CRM can be found on their [website](http://www.cidoc-crm.org/).
 
-The current model is meant to consolidate the information pertaining to actors in unique, non-authoritative records. Although CHIN is the custodian of submitted data, the latter is owned by external contributors (museums, libraries, researchers, etc.). As such, CHIN does not claim authority over the data content of records, nor does it intervene in submissioners’ data beyond mapping, cleaning, reconciliation, and the creation of unique identifiers. CHIN’s role in cohering these data will be that of a custodian with no expert status on the information they represent.
+The current model is meant to consolidate the information pertaining to actors in unique, non-authoritative records. Although CHIN is the custodian of submitted data, the latter is owned by external providers (museums, libraries, researchers, etc.). As such, CHIN does not claim authority over the data content of records, nor does it intervene in providers’ data beyond mapping, cleaning, reconciliation, and the creation of unique identifiers. CHIN’s role in cohering these data will be that of a custodian with no expert status on the information they represent.
 
 
 ## Modelling Conventions
@@ -96,7 +96,7 @@ For example, the diagram below illustrates that any instance of the class `E21_P
 <a name="002_Convention_ClassesAndPropertiesExample_p"></a>002_Convention_ClassesAndPropertiesExample_p
 <iframe frameborder="0" style="width:100%;height:200px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=002_Convention_ClassesAndPropertiesExample_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gr88pIpcq9FVA0Md9fZ74rwIPlAJi-4t%26export%3Ddownload"></iframe>
 
-*Two* different classes mentioned in the same box (e.g. `E33_Linguistic_Object` and `E41_Appellation`) indicate multi-instantiation (i.e. two classes are used to define a single instance).
+*Two* different classes mentioned in the same box (e.g. `E33_Linguistic_Object` and `E41_Appellation`) indicate multiple instantiation (i.e. two classes are used to define a single instance).
 
 To facilitate understanding and visually convey how CIDOC CRM entities are used to model different kinds of information, the colour conventions below have been adopted to represent top-level classes along with their subclasses. 
 
@@ -121,16 +121,16 @@ When nothing follows parentheses, the data format is `xsd:string`; otherwise, th
 
 ### Examples
 
-Each example is represented with a pattern where instances are illustrated in ovals rather than rectangles. For example, triples mapped to the gender pattern mentioned above:
+Each example is illustrated with a pattern where instances are illustrated in ovals rather than rectangles. For example, triples mapped to the gender pattern mentioned above:
 
 <a name="006_Convention_Instances_p"></a>006_Convention_Instances_p
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=006_Convention_Instances_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1C8p1lpiLNDykkf1HUK4SVfJ6jf0p6UQ5%26export%3Ddownload"></iframe>
 
-In this diagram, each instance (Jean Paul Riopelle, Male, Gender Type) are linked together through properties in accordance with the structure of the corresponding pattern in the model.
+In this diagram, instances (Jean Paul Riopelle, Male, Gender Type) are linked together through properties in accordance with the structure of the corresponding pattern in the model.
 
 ## A-Z Diagram
 
-Below is an overview diagram that includes **all current patterns** in the Target Model. Each pattern is enclosed in a blue-dotted bubble, the title of which is linked to its corresponding section in the Target Model. Also, each shape in the diagram is linked to its corresponding node in the [Semantic Paths Specification](/collections-model/en/semantic-paths-specification/current/introduction).
+Below is an overview diagram that includes **all current patterns** in the Target Model. Each pattern is enclosed in a blue-dotted bubble, the title of which is linked to its corresponding section in the Target Model; each shape in the diagram is linked to its corresponding node in the [Semantic Paths Specification](/collections-model/en/semantic-paths-specification/current/introduction).
 
 <a name="000_Patterns_2.1_p"></a>000_Patterns_2.1_p
 <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=000_Patterns_2.1_p.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D125_6c1wx8iNrqSgqioi3HjvpqTbmyWlM%26export%3Ddownload"></iframe>
