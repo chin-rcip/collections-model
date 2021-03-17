@@ -12,9 +12,9 @@ sidebar: tm
 
 ## Artefact Creation and the Role of the Actor in the Creation
 
-The [CRM extension module “property of properties”](http://www.cidoc-crm.org/sites/default/files/CRMpc_v1.1_0.rdfs) can render the roles of `E39_Actors` during the `E12_Production` event of an `E22_Human-made_Object`. The property `P14_carried_out_by` is replaced by the class `PC14_Carried_out_by` and an `E55_Type` is assigned to the latter to represent the nature of the actor’s participation to the production of the artefact, whether in terms or their role (e.g. painter) or priority (minor or major). 
+The [CRM extension module “property of properties”](http://www.cidoc-crm.org/sites/default/files/CRMpc_v1.1_0.rdfs) can render the roles of `E39_Actor` instances during the `E12_Production` event of an `E22_Human-made_Object`. The property `P14_carried_out_by` is replaced by the class `PC14_Carried_Out_By` and an `E55_Type` is assigned to the latter to represent the nature of the actor’s participation in the production of the artefact, whether in terms or their role (e.g. painter) or priority (minor or major). 
 
-A single `E12_Production` event can be attached to an `E22_Human-made_Object`, which entails that multiple `E39_Actors` participating to the creation of a single artefact should all be attached to this one `E12_Production` event. If an `E39_Actor` endorses multiple roles in the creation, multiple `E55_Type` should be linked to the single `PC14_Carried_out_by` class. In addition, the production role of the actor must be linked to them directly so that it can be displayed as their occupation when querying the data. 
+A single `E12_Production` event can be attached to an `E22_Human-made_Object`, which entails that several `E39_Actor` (all participating to the creation of a single artefact) should be attached to this one `E12_Production` event. If an `E39_Actor` endorses multiple roles in the creation, multiple `E55_Type` should be linked to the single `PC14_Carried_Out_By`. In addition, the production role of the actor must be linked to them directly so that it can be displayed as their occupation when querying the data. 
 
 
 | 🔎  *To Be Discussed*<br/><br/>CHIN is still debating whether a field should be added to document creations made “in the style of” to account for visual influence with a pattern such as <code>"in the style of" > affiliation</code>. |
@@ -29,20 +29,20 @@ A single `E12_Production` event can be attached to an `E22_Human-made_Object`, w
 
 ## Artefact (Before the Development of the Objects Facet)
 
-The Objects Facet semantic model will be developed later on.  In the meantime, some core information about artefacts must be modelled as part of Creators in Canada in order for this model to be functional and usable: 
+Until the Objects facet of this model is developed, core information about artefacts must be modelled, notably: 
 
-* Object IDs (the one assigned by CHIN and the ones assigned by museums);
-* Object Appellations; 
-* Object Medium (painting, sculpture, etc.);
-* Object Visuals (when copyrights free); 
-* Production Date;
-* Production Place.
+* [Object IDs](/collections-model/en/semantic-paths-specification/current/entry-nodes#object-id) (the ID assigned by CHIN as well as others assigned by providers);
+* [Object appellations](/collections-model/en/semantic-paths-specification/current/entry-nodes#object-appellation); 
+* [Object medium](/collections-model/en/semantic-paths-specification/current/entry-nodes#object-medium) (painting, sculpture, etc.);
+* [Object image](/collections-model/en/semantic-paths-specification/current/entry-nodes#object-image-url)(when available and copyrights free); 
+* [Production date](/collections-model/en/semantic-paths-specification/current/entry-nodes#production-date-begin);
+* [Production place](/collections-model/en/semantic-paths-specification/current/entry-nodes#production-place).
 
-The first three elements, namely appellations and identifiers, follow the same pattern as `E39_Actor` except that there is no need to partition appellations (as was the case for the names of individuals). 
+The first two elements, namely identifiers and appellations, follow the same identifying patterns as `E39_Actor` except that there is no need to partition appellations (as was the case for the name of individuals). 
 
-The type of artefact, however, has to be specified using `E55_Type` with the use of a vocabulary like [Nomenclature ](https://www.nomenclature.info/apropos-about.app?lang=en)or the [AAT](https://www.getty.edu/research/tools/vocabularies/aat/).
+The type of artefact, however, has to be specified using an `E55_Type` along with a vocabulary such as [Nomenclature](https://www.nomenclature.info/apropos-about.app?lang=en)or the [AAT](https://www.getty.edu/research/tools/vocabularies/aat/).
 
-Finally, the date of fabrication and the place of production are documented using `E12_Production` events.
+Finally, the production date and place are documented using `E12_Production` events.
 
 
 <a name="072_Pattern_Artefact_p"></a>072_Pattern_Artefact_p
