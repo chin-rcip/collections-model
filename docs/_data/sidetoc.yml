@@ -61,9 +61,9 @@ tm:
   - page: Mapping problems and E33_Linguistic_Object
     url: /en/target-model/current/general-concepts#mapping-problems-and-e33_linguistic_object
     hash: mapping-problems-and-e33_linguistic_object
-  - page: PC Classes
-    url: /en/target-model/current/general-concepts#pc-classes
-    hash: pc-classes
+  - page: Property-Classes
+    url: /en/target-model/current/general-concepts#property-classes
+    hash: property-classes
   - page: Data Provenance
     url: /en/target-model/current/general-concepts#data-provenance
     hash: data-provenance
