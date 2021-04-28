@@ -8,11 +8,9 @@ sidebar: lodbc
 group: resources
 ---
 
-## Dates
+**Created date**: 2019-08-28
 
-Created date: 2019-08-28
-
-Last update: 2020-10-22
+**Last update**: 2020-10-22
 
 ## Abstract
 

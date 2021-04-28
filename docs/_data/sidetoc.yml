@@ -724,69 +724,69 @@ sps:
 
 lodbc:
 
-- title: LOD - Benefits and Challenges
-  url: /en/resources/current/lod-benefits-challenges
-  subfolder:
-  - page: Dates
-    url: /en/resources/current/lod-benefits-challenges#dates
-    hash: dates
-  - page: Abstract
-    url: /en/resources/current/lod-benefits-challenges#abstract
-    hash: abstract
-  - page: Linked Open Data (LOD) for Cultural Institutions
-    url: /en/resources/current/lod-benefits-challenges#linked-open-data-lod-for-cultural-institutions
-    hash: linked-open-data-lod-for-cultural-institutions
-  - page: Benefits
-    url: /en/resources/current/lod-benefits-challenges#benefits
-    hash: benefits
-  - page: Challenges
-    url: /en/resources/current/lod-benefits-challenges#challenges
-    hash: challenges
-  - page: Feasibility Guidelines
-    url: /en/resources/current/lod-benefits-challenges#feasibility-guidelines
-    hash: feasibility-guidelines
-  - page: Best Practices for Publishing LOD
-    url: /en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod
-    hash: best-practices-for-publishing-lod
-  - page: Selected Bibliography
-    url: /en/resources/current/lod-benefits-challenges#selected-bibliography
-    hash: selected-bibliography
+# - title: LOD - Benefits and Challenges
+#   url: /en/resources/current/lod-benefits-challenges
+#   subfolder:
+# - title: Dates
+#   url: /en/resources/current/lod-benefits-challenges#dates
+#   hash: dates
+- title: Abstract
+  url: /en/resources/current/lod-benefits-challenges#abstract
+  hash: abstract
+- title: Linked Open Data (LOD) for Cultural Institutions
+  url: /en/resources/current/lod-benefits-challenges#linked-open-data-lod-for-cultural-institutions
+  hash: linked-open-data-lod-for-cultural-institutions
+- title: Benefits
+  url: /en/resources/current/lod-benefits-challenges#benefits
+  hash: benefits
+- title: Challenges
+  url: /en/resources/current/lod-benefits-challenges#challenges
+  hash: challenges
+- title: Feasibility Guidelines
+  url: /en/resources/current/lod-benefits-challenges#feasibility-guidelines
+  hash: feasibility-guidelines
+- title: Best Practices for Publishing LOD
+  url: /en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod
+  hash: best-practices-for-publishing-lod
+- title: Selected Bibliography
+  url: /en/resources/current/lod-benefits-challenges#selected-bibliography
+  hash: selected-bibliography
 
 lodad:
 
-- title: DOL - Avantages et défis
-  url: /fr/ressources/actuel/dol-avantages-defis
-  subfolder:
-  - page: Dates
-    url: /fr/ressources/actuel/dol-avantages-defis#dates
-    hash: dates
-  - page: Résumé
-    url: /fr/ressources/actuel/dol-avantages-defis#resume
-    hash: resume
-  - page: Données ouvertes liées (DOL) pour les institutions culturelles
-    url: /fr/ressources/actuel/dol-avantages-defis#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
-    hash: donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
-  - page: Avantages
-    url: /fr/ressources/actuel/dol-avantages-defis#avantages
-    hash: avantages
-  - page: Défis
-    url: /fr/ressources/actuel/dol-avantages-defis#defis
-    hash: defis
-  - page: Lignes directrices sur la faisabilité
-    url: /fr/ressources/actuel/dol-avantages-defis#lignes-directrices-sur-la-faisabilite
-    hash: lignes-directrices-sur-la-faisabilite
-  - page: Pratiques exemplaires pour la publication des DOL
-    url: /fr/ressources/actuel/dol-avantages-defis#pratiques-exemplaires-pour-la-publication-des-dol
-    hash: pratiques-exemplaires-pour-la-publication-des-dol
-  - page: Bibliographie sommaire
-    url: /fr/ressources/actuel/dol-avantages-defis#bibliographie-sommaire
-    hash: bibliographie-sommaire
+# - title: DOL - Avantages et défis
+#   url: /fr/ressources/actuel/dol-avantages-defis
+#   subfolder:
+# - title: Dates
+#   url: /fr/ressources/actuel/dol-avantages-defis#dates
+#   hash: dates
+- title: Résumé
+  url: /fr/ressources/actuel/dol-avantages-defis#resume
+  hash: resume
+- title: Données ouvertes liées (DOL) pour les institutions culturelles
+  url: /fr/ressources/actuel/dol-avantages-defis#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
+  hash: donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
+- title: Avantages
+  url: /fr/ressources/actuel/dol-avantages-defis#avantages
+  hash: avantages
+- title: Défis
+  url: /fr/ressources/actuel/dol-avantages-defis#defis
+  hash: defis
+- title: Lignes directrices sur la faisabilité
+  url: /fr/ressources/actuel/dol-avantages-defis#lignes-directrices-sur-la-faisabilite
+  hash: lignes-directrices-sur-la-faisabilite
+- title: Pratiques exemplaires pour la publication des DOL
+  url: /fr/ressources/actuel/dol-avantages-defis#pratiques-exemplaires-pour-la-publication-des-dol
+  hash: pratiques-exemplaires-pour-la-publication-des-dol
+- title: Bibliographie sommaire
+  url: /fr/ressources/actuel/dol-avantages-defis#bibliographie-sommaire
+  hash: bibliographie-sommaire
 
 
 ng1:
 
-- title: Named Graph Survey Report (1)
-  url: /en/technical-reports/current/named-graph-survey-report-1
+# - title: Named Graph Survey Report (1)
+#   url: /en/technical-reports/current/named-graph-survey-report-1
 - title: Introduction
   url: /en/technical-reports/current/named-graph-survey-report-1#introduction 
   hash: introduction 
@@ -871,8 +871,8 @@ ng1:
 
 tutcidocfr:
 
-- title: Tutoriel CIDOC CRM
-  url: /fr/ressources/actuel/tutoriel-cidoc-crm
+# - title: Tutoriel CIDOC CRM
+#   url: /fr/ressources/actuel/tutoriel-cidoc-crm
 - title: Résumé
   url: /fr/ressources/actuel/tutoriel-cidoc-crm#resume
   hash: resume
@@ -933,3 +933,63 @@ tutcidocfr:
 - title: Aide-mémoire
   url: /fr/ressources/actuel/tutoriel-cidoc-crm#aide-memoire
   hash: aide-memoire 
+
+
+urireport:
+
+# - title: URIs Technical Report
+#   url: /en/technical-reports/current/uris-technical-report
+- title: Abstract
+  url: /en/technical-reports/current/uris-technical-report#abstract
+  hash: abstract
+- title: Context
+  url: /en/technical-reports/current/uris-technical-report#context
+  hash: context
+  subfolder:
+  - page: CHIN Linked Open Data Work
+    url: /en/technical-reports/current/uris-technical-report#chin-linked-open-data-work
+    hash: chin-linked-open-data-work
+  - page: Statement of Intent
+    url: /en/technical-reports/current/uris-technical-report#statement-of-intent
+    hash: statement-of-intent
+- title: Organizing Principles
+  url: /en/technical-reports/current/uris-technical-report#organizing-principles
+  hash: organizing-principles
+- title: CHIN Recommended Specification
+  url: /en/technical-reports/current/uris-technical-report#chin-recommended-specification
+  hash: chin-recommended-specification
+  subfolder:
+  - page: Content Negotiation - URLs Derived from URIs
+    url: /en/technical-reports/current/uris-technical-report#content-negotiation---urls-derived-from-uris
+    hash: content-negotiation---urls-derived-from-uris
+    subsubfolder:
+    - page: Data Format Specific Representations
+      url: /en/technical-reports/current/uris-technical-report#data-format-specific-representations 
+      hash: data-format-specific-representations
+    - page: Human-Readable Interfaces
+      url: /en/technical-reports/current/uris-technical-report#human-readable-interfaces 
+      hash: human-readable-interfaces
+  - page: URI Template
+    url: /en/technical-reports/current/uris-technical-report#uri-template
+    hash: uri-template
+    subsubfolder:
+    - page: Scheme - Secure Protocole
+      url: /en/technical-reports/current/uris-technical-report#scheme---secure-protocole 
+      hash: scheme---secure-protocole
+    - page: Domain - Project Oriented
+      url: /en/technical-reports/current/uris-technical-report#domain---project-oriented 
+      hash: domain---project-oriented
+    - page: Segments - Meaningful to the Organization
+      url: /en/technical-reports/current/uris-technical-report#segments---meaningful-to-the-organization 
+      hash: segments---meaningful-to-the-organization
+    - page: Slug - Semi-Opaque
+      url: /en/technical-reports/current/uris-technical-report#slug---semi-opaque 
+      hash: slug---semi-opaque
+- title: Management
+  url: /en/technical-reports/current/uris-technical-report#management
+  hash: management
+- title: Bibliography
+  url: /en/technical-reports/current/uris-technical-report#bibliography
+  hash: bibliography
+
+

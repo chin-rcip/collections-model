@@ -170,10 +170,10 @@ li a.active {
   	white-space: nowrap;
 }
 
-/*hide french sidebar*/
-/*.sidebar .fr {
-	display: none;
-}*/
+/*wrap sidebar heading*/
+.sidebar h3 {
+	white-space: normal;
+}
 
 
 @media screen and (min-width: 801px) {

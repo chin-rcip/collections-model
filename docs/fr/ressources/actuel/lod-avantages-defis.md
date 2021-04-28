@@ -8,11 +8,9 @@ sidebar: lodad
 group: ressources
 ---
 
-## Dates
+**Date de création** : 2019-08-28
 
-Date de création : 2019-08-28
-
-Dernière mise à jour : 2020-01-27
+**Dernière mise à jour** : 2020-01-27
 
 ## Résumé {#resume}
 

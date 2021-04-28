@@ -13,7 +13,8 @@
       {% if page.sidebar %}
         <div class="{% if page.sidebar %}column sidebar{% endif %}">
           <h3>{% if page.sidebar == "sps" %}Semantic Paths Specification
-              {% elsif page.sidebar == "tm" %}Target Model{% endif %}
+              {% elsif page.sidebar == "tm" %}Target Model
+              {% else %}{{ page.title}}{% endif %}
           </h3>
           <!-- <h3>site.data.sidetoc[h3][page.sidebar]</h3> -->
           <ul class="mainlist">

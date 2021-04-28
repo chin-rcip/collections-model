@@ -42,6 +42,7 @@ header_pages_en:
   - en/resources/current/tools.md
   - en/resources/current/cidoc-crm-tutorial.md
   - en/reports/current/ng-report-1.md
+  - en/reports/current/uris-technical-report.md
 header_pages_fr:
   - fr/a-propos.md
   - fr/licence.md
@@ -51,6 +52,7 @@ header_pages_fr:
   - fr/ressources/actuel/outils.md
   - fr/ressources/actuel/tutoriel-cidoc-crm.md
   - fr/rapports/actuel/gn-rapport-1.md
+  - fr/rapports/actuel/rapport-technique-uris.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
