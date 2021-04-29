@@ -196,12 +196,21 @@
       });
 
 
-      // // switching language by clicking language button
-      // $(".lang-buttons>button").click(function(){
-      //   $(this).siblings().removeClass("activate");
-      //   $(this).addClass("activate");
-      //   content_by_lang(this);
-      // })
+      // switching language by clicking language button
+      $(".lang-buttons-content>button").click(function(){
+        $(this).siblings().removeClass("activate");
+        $(this).addClass("activate");
+        // content_by_lang(this);
+        var button_id = $(this).attr("id");
+        if (button_id == "second-lang"){
+          $(".second-lang").addClass("show");
+          // var title = "{% if page.titleEn %}{{ page.titleEn}}{% else %}{{ page.title }}{% endif %}";
+          // $(".post-title").text(title);
+        } else {
+          $(".second-lang").removeClass("show");
+          // $(".post-title").text("{{ page.title }}");
+        }
+      });
 
        // scroll sidebar and highlight corresponding headers
       $(".column.content").scroll(function(){

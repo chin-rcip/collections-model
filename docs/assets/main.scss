@@ -228,12 +228,12 @@ li a.active {
 	}
 
 	/*language buttons*/
-	/*.lang-buttons {
+	.lang-buttons-content {
 		position: fixed;
 		right: 30px;
-		top: 62px;
+		top: 80px;
 		
-	}*/
+	}
 }
 
 
@@ -352,20 +352,22 @@ header .wrapper {
 	border-radius: 100%;
 }
 
-/*.lang-buttons>button {
+.lang-buttons-content>button {
 	padding: 5px;
 	cursor: pointer;
 }
-.lang-buttons>button.activate {
+.lang-buttons-content>button.activate {
 	padding: 10px;
 	color: #1756a9;
 	font-weight: bold;
 }
-*/
-/*div#fr {
-	display: none;
-}*/
 
+.second-lang {
+    display: none;
+}
+.second-lang.show {
+    display: table-cell;
+}
 
 /*--- style when changing windown size ---*/
 
@@ -387,11 +389,11 @@ header .wrapper {
   .dropdown {
   	white-space: normal
   }
-/*
-  .lang-buttons {
+
+  .lang-buttons-content {
 	position: fixed;
 	right: 30px;
 	bottom: 10px;
 	
-  }*/
+  }
 }
