@@ -25,7 +25,7 @@ The Semantic Paths Specification presents the semantic links between CIDOC CRM e
 
 ## Foreword
 
-The Semantic Paths Specification (SPS) provides a granular view of the [Collections Model](/collections-model/) and is intended for those who want to develop a mapping process or SPARQL queries. It is meant to be used in conjunction with the [Target Model](/collections-model/en/target-model/current/introduction) (TM), which describes the relations between [nodes](#node) through a set of patterns, although at the moment only [entry nodes](#entry-node) are documented.
+The Semantic Paths Specification (SPS) provides a granular view of [DOPHEDA](/collections-model/) and is intended for those who want to develop a mapping process or SPARQL queries. It is meant to be used in conjunction with the [Target Model](/collections-model/en/target-model/current/introduction) (TM), which describes the relations between [nodes](#node) through a set of patterns, although at the moment only [entry nodes](#entry-node) are documented.
 
 Each node is defined by a precise [scope note](#scope) detailing the data values it can accommodate, as well as by its [generated bond](#generated-bonds), [semantic valuation](#semantic-valuation) and [controlled list/terms](#controlled-listterm). The context of each node can be explored through its [dependencies](#dependencies), its [related specified qualifier node(s)](#related-sqns), its [full path](#full-path), its visualized position in the [Target Model view](#target-model-views), and its [value origin](#value-origins). In addition to relevant [comments](#comments) and [potential errors](#potential-errors), the SPS also lists [typical](#typical-cases) and [edge cases](#edge-cases) that exemplify how providers might document information with regards to other fields. [References](#references) for each node are also included.
 
@@ -45,7 +45,7 @@ Automatically generated node that represent parts of the full semantic relations
 
 In addition to categorization purposes, specified qualifier nodes are sometimes descriptively used to identify which property is involved in an attribute assignment pattern or to represent the semantic information pertaining to [CRMpc](http://www.cidoc-crm.org/sites/default/files/CRMpc_v1.1_0.rdfs) instances.
 
-The singular URI used for categorization will be selected from a controlled vocabulary or thesaurus that is particular to the Collections Model project.
+The singular URI used for categorization will be selected from a controlled vocabulary or thesaurus that is particular to the DOPHEDA project.
 
 #### Node
 

@@ -18,7 +18,7 @@ Le présent document de travail vise à donner un aperçu des avantages qu’off
 
 ## Données ouvertes liées (DOL) pour les institutions culturelles {#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles}
 
-Le Réseau canadien d’information sur le patrimoine (RCIP) travaille actuellement à la création d’un modèle destiné aux collections canadiennes d’artefacts. Son volet consacré aux personnes et aux groupes est en cours d’élaboration et sera testé prochainement. Le volet Objets de ce [modèle Collections](/collections-model/en/target-model/current/introduction) est conçu de manière à pouvoir s’aligner sur le modèle de [linked.art](https://linked.art/model/index.html) pour les institutions artistiques. 
+Le Réseau canadien d’information sur le patrimoine (RCIP) travaille actuellement à la création d’un modèle destiné aux collections canadiennes d’artefacts. Son volet consacré aux personnes et aux groupes est en cours d’élaboration et sera testé prochainement. Le volet Objets de [DOPHEDA](/collections-model/en/target-model/current/introduction) est conçu de manière à pouvoir s’aligner sur le modèle de [linked.art](https://linked.art/model/index.html) pour les institutions artistiques. 
 
 Si, en tant qu’institution, vous désirez sémantiser vos données, le RCIP sera heureux de collaborer avec vous à ce sujet et de vous conseiller du mieux qu’il le peut. De manière générale, vous devriez prendre en considération les principaux éléments suivants :  
 
@@ -143,7 +143,7 @@ Des étapes supplémentaires nécessaires à la production des DOL ont égalemen
 
 2.  Sélectionner un jeu de données : Les DOL sont un processus par étapes qui est mieux compris lorsqu’on travaille avec un ensemble de données bien connu qui peut être utile à son organisation, à ses partenaires ou au public.
 
-3.  Modéliser les données : Cette étape comprend de nombreuses problématiques qu’il est nécessaire d’éclaircir, telles que les modèles sémantiques à utiliser ou la façon d’utiliser correctement un modèle sémantique pour assurer une bonne agrégation du contenu. Le RCIP peut vous conseiller sur ces questions, en particulier si vous utilisez son modèle Collections.
+3.  Modéliser les données : Cette étape comprend de nombreuses problématiques qu’il est nécessaire d’éclaircir, telles que les modèles sémantiques à utiliser ou la façon d’utiliser correctement un modèle sémantique pour assurer une bonne agrégation du contenu. Le RCIP peut vous conseiller sur ces questions, en particulier si vous utilisez DOPHEDA.
 
 4.  Indiquer une licence appropriée : Il est crucial de choisir la bonne licence pour ce qui est de l’utilisation et de la production de DOL afin que les données soient à la fois gérables pour votre organisation et réutilisables.
 

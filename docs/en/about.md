@@ -6,9 +6,9 @@ permalink: /en/about
 other_link: /fr/a-propos
 ---
 
-## Collections Model Documentation
+## DOPHEDA Documentation
 
-In keeping with its mandate to assist Canadian museums in documenting, managing, and sharing information about their collections, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in Linked Open Data (LOD). CHIN is currently working on the semantic representation of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour. 
+In keeping with its mandate to assist Canadian museums in documenting, managing, and sharing information about their collections, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in Linked Open Data (LOD). CHIN is currently working on the semantic representation of actors and intends the Actors project to later be part of a larger DOPHEDA LOD modelisation endeavour. 
 
 The scope of this project is to consolidate, in unique records, the information pertaining to actors related to objects from Canadian museums collections. An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to a collected artefact. 
 

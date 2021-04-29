@@ -18,7 +18,7 @@ This working document is intended to give an overview of the benefits and challe
 
 ## Linked Open Data (LOD) for Cultural Institutions
 
-At the moment, CHIN is developing a model intended for Canadian collections of artefacts. Its facet dedicated to people and groups is currently being developed and will be tested shortly. The Objects facet of this [Collections model](/collections-model/en/target-model/current/introduction) is intended to be able to align with [linked.art](https://linked.art/model/index.html)’s model for art institutions.
+At the moment, CHIN is developing a model intended for Canadian collections of artefacts. Its facet dedicated to people and groups is currently being developed and will be tested shortly. The Objects facet of [DOPHEDA](/collections-model/en/target-model/current/introduction) is intended to be able to align with [linked.art](https://linked.art/model/index.html)’s model for art institutions.
 
 If, as an institution, you want to semanticize your data, CHIN would be happy to collaborate with you on this matter and advise you as best we can. As a general rule, you should take the following main elements into consideration:
 
@@ -143,7 +143,7 @@ Additional steps necessary for the production of LOD have also been identified b
 
 2.  Select a dataset: LOD is a step-by-step process that is best understood when working with a well-known dataset that can be useful to your organization, partners or the public.
 
-3.  Model the data: This step includes many questions such as which semantic models to use or how to properly use a semantic model to ensure the proper aggregation of content. CHIN can advise you on these matters, especially if you are using its Collections Model.
+3.  Model the data: This step includes many questions such as which semantic models to use or how to properly use a semantic model to ensure the proper aggregation of content. CHIN can advise you on these matters, especially if you are using DOPHEDA.
 
 4.  Specify an appropriate license: Choosing the right license is a crucial part of using and producing LOD so that data is both manageable for your organization and reusable.
 

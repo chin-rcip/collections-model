@@ -20,18 +20,18 @@ Last Update: 2021-03-12
 
 ## Abstract 
 
-The Actors Target Model is intended to model the Actors facet of CHIN’s Collections Model (that will cover collections data more broadly). Patterns most relevant to actors' lives are presented along with diagrams and examples illustrating them, as well as a record and explanation of relevant decisions that were made when developing said patterns.  
+The Actors Target Model is intended to model the Actors facet of CHIN’s DOPHEDA (that will cover collections data more broadly). Patterns most relevant to actors' lives are presented along with diagrams and examples illustrating them, as well as a record and explanation of relevant decisions that were made when developing said patterns.  
 
 The current document is a work in progress and, as such, will be enhanced periodically. Elements currently under development or review are listed as [issues](https://github.com/chin-rcip/collections-model/issues).  
 
 
 ## Purpose of the Target Model
 
-In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model/en/target-model/current/bibliography#canadian-heritage-information-network-chin-2019) in an effort to give better access to Canadian heritage information online. Work on the Actors facet of CHIN's larger Collections model, intended to support a future LOD deployment of Artefacts Canada, is documented here. 
+In keeping with its mandate to “assist Canadian museums in documenting, managing, and sharing information about their collections”, the Canadian Heritage Information Network (CHIN) plans to provide the resources it creates and the data it aggregates in linked open data (LOD) [(Canadian Heritage Information Network (CHIN) 2019)](/collections-model/en/target-model/current/bibliography#canadian-heritage-information-network-chin-2019) in an effort to give better access to Canadian heritage information online. Work on the Actors facet of CHIN's larger DOPHEDA, intended to support a future LOD deployment of Artefacts Canada, is documented here. 
 
 The scope of this project is to consolidate, in unique records, the information pertaining to actors related to objects from Canadian collections. An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to artefacts collected by Canadian institutions. 
 
-That said, specific institutions may document targeted or niche aspects of an actor's life or object, aspects that are relevant solely to them (e.g. a museum dedicated to firefighters might document the level of first-aid training an actor received). The Collections model will not model such specific information in order to avoid unnecessary complexity as many collecting institutions will have individual needs that are not shared by their counterparts (for a detailed discussion of this issue, see Issue #19).
+That said, specific institutions may document targeted or niche aspects of an actor's life or object, aspects that are relevant solely to them (e.g. a museum dedicated to firefighters might document the level of first-aid training an actor received). DOPHEDA will not model such specific information in order to avoid unnecessary complexity as many collecting institutions will have individual needs that are not shared by their counterparts (for a detailed discussion of this issue, see Issue #19).
 
 | ![GitHub Mark](https://user-images.githubusercontent.com/48293227/104475587-49182180-558d-11eb-87fc-9f95190cb332.png) *Related Github Issue*<br/><br/>This topic is discussed in [Issue #19](https://github.com/chin-rcip/collections-model/issues/19) |
 
@@ -63,7 +63,7 @@ CHIN intends to develop a model that will account for Objects and Actors facets 
 
 CHIN has elected to develop the Actors facet first as it is a smaller ensemble of data to model. For the purposes of this model, an actor encompasses any individual or group who took part in the creation of or is related to cultural artefacts documented by a data provider. This includes creators (artists, artisans, manufacturers, groups of artists, etc.) as well as other important actors such as owners, patrons, persons depicted, etc. (although all such profiles will be accounted for, only data that is compliant with privacy and legal legislation as well as provider’s wishes will be published).
 
-Because this Actors facet will be a small but determining aspect of the Collections model in general, it has been developed accordingly and the choice of an ontology has been reliant on three key factors that take the whole model into consideration:
+Because this Actors facet will be a small but determining aspect of DOPHEDA in general, it has been developed accordingly and the choice of an ontology has been reliant on three key factors that take the whole model into consideration:
 
 1. Adoption by the heritage semantic community in order to foster interoperability; 
 2. Richness and sustainability of the ontology; 

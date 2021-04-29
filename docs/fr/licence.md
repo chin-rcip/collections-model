@@ -22,7 +22,7 @@ Pour obtenir plus d’information sur la sélection d’une licence les ressourc
 
 ### Licenciation de la documentation : CC0
 
-Le RCIP publie et met à jour régulièrement des documents techniques sur son modèle Collections afin d’en expliquer l’infrastructure et de s’assurer de l’utilisation correcte de ses outils. La documentation, qui comprend des schémas et des illustrations, traite dela portée, de la conception et des caractéristiques du modèle ainsi que des méthodologies et des procédures d’essai qui l’accompagnent. 
+Le RCIP publie et met à jour régulièrement des documents techniques sur DOPHEDA afin d’en expliquer l’infrastructure et de s’assurer de l’utilisation correcte de ses outils. La documentation, qui comprend des schémas et des illustrations, traite dela portée, de la conception et des caractéristiques du modèle ainsi que des méthodologies et des procédures d’essai qui l’accompagnent. 
 
 La documentation du RCIP comprend trois types d’information :  
 1. Contenu original du RCIP

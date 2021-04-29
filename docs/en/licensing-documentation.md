@@ -21,7 +21,7 @@ For more information on choosing a license, the following resources can be usefu
 
 ### Documentation Licensing: CC0
 
-CHIN releases and updates technical documentation pertaining to its Collections model on a regular basis in order to explain its information infrastructure and to ensure the correct use of its tools. This documentation pertains to scope, design and specifications, as well as testing procedures and methodologies and includes diagrams and illustrations. 
+CHIN releases and updates technical documentation pertaining tos DOPHEDA on a regular basis in order to explain its information infrastructure and to ensure the correct use of its tools. This documentation pertains to scope, design and specifications, as well as testing procedures and methodologies and includes diagrams and illustrations. 
 
 CHIN’s documentation comprises three types of information: 
 1. CHIN original content;

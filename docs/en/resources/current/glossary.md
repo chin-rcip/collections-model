@@ -16,7 +16,7 @@ group: resources
 
 **Last update**: 2021-04-08
 
-*Glossary of essential terms for DOPHEDA projects; definitions are informative rather than normative. Please note that examples of the term in use are currently only available in English (in the English and bilingual glossaries).*
+*Glossary of essential terms for the DOPHEDA projects; definitions are informative rather than normative. Please note that examples of the term in use are currently only available in English (in the English and bilingual glossaries).*
 
 <div class="lang-buttons-content">
   <button id="first-lang" class="activate">EN</button>
@@ -135,7 +135,7 @@ group: resources
 <tr class="even">
 <td class="first-lang"><h3 id="content-noun">content (noun)</h3>
 <p><em>Def.</em> Data or information found in a resource or dataset.</p>
-<p><em>Ex.</em> “These will be interrelated and offer the environment necessary to better display Canadian heritage and <strong>content</strong> online through custom websites, platforms, and applications” (<a href="https://chin-rcip.github.io/collections-model/en">Collections Model Overview 2020</a>).</p>
+<p><em>Ex.</em> “These will be interrelated and offer the environment necessary to better display Canadian heritage and <strong>content</strong> online through custom websites, platforms, and applications” (<a href="https://chin-rcip.github.io/collections-model/en">DOPHEDA Overview 2020</a>).</p>
 <p><em>Note.</em> It is advised to prefer more precise terms such as data, dataset, information, record, value, etc.</p>
 <br>
 <p><em>Def. (content negotiation)</em> Mechanisms that enable different representations of a resource to be associated to the same URI so that users can mobilize the version that best fits their needs.</p>
@@ -152,7 +152,7 @@ group: resources
 <p><em>Ex.</em> “This field designates the entire identifying word(s), number(s), symbol(s) or code(s) by which a <strong>contributor</strong>, whether individual or not, providing data for a record (actor or object) is identified. This can include names, titles, or other designations” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#record-contributor-appellation">Semantic Paths Specification 2020</a>). </p>
 <br>
 <p><em>Def. (authorship)</em> People who comment on the contents of a piece of work without being directly and actively involved in the writing process. </p>
-<p><em>Ex.</em> “Main editors [and] <strong>contributors</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About Collections Model 2020</a>). </p></td>
+<p><em>Ex.</em> “Main editors [and] <strong>contributors</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About DOPHEDA 2020</a>). </p></td>
 <td class="second-lang"><h3>contributeur (nom féminin)</h3>
 <p><em>Def. (soumission de données)</em> Personne qui entre et enregistre les données dans une structure de données. </p>
 <br>
@@ -162,7 +162,7 @@ group: resources
 <tr class="even">
 <td class="first-lang"><h3 id="creation-noun">creation (noun)</h3>
 <p><em>Def. (heritage)</em> Process of designing and causing something to exist</p>
-<p><em>Ex.</em> “An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to a collected artefact” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About Collections Model 2020</a>).</p>
+<p><em>Ex.</em> “An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to a collected artefact” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About DOPHEDA 2020</a>).</p>
 <br>
 <p><em>Def. (semantics)</em> Process of designing and defining to bring a semantic entity into existence.</p>
 <p><em>Ex.</em> “Although the <strong>creation</strong> of new classes and properties is encouraged by some authoritative institutions, it leads to a bulkier model (hence complexifying the recording process) and a larger number of classes to handle (thus complicating practitioners' queries)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties">Target Model 2020</a>).</p>
@@ -295,7 +295,7 @@ group: resources
 <p><em>Ex.</em> “Whenever possible, this node should be used in conjunction with Actor Appellation Use Date End to indicate the interval of the <strong>described</strong> event” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-begin">Semantic Paths Specification 2020</a>).</p>
 <br>
 <p><em>Def. (textual)</em> A verbal account of something.</p>
-<p><em>Ex.</em> “Most museums have a “remark” field linked to the actors and objects they document in order to account for non-formatted text that is distinct from <strong>descriptive</strong> texts intended to be published (such as captions for example, which will be modelized later on as part of the Collections model)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/descriptive-information#curatorial-note">Target Model 2020</a>).</p></td>
+<p><em>Ex.</em> “Most museums have a “remark” field linked to the actors and objects they document in order to account for non-formatted text that is distinct from <strong>descriptive</strong> texts intended to be published (such as captions for example, which will be modelized later on as part of DOPHEDA)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/descriptive-information#curatorial-note">Target Model 2020</a>).</p></td>
 <td class="second-lang"><h3>description (nom féminin)</h3>
 <p><em>Def. (sémantique)</em> Représentation sémantique de quelque chose grâce à un patron conceptuel.</p>
 <br>
@@ -351,7 +351,7 @@ group: resources
 <tr class="even">
 <td class="first-lang"><h3 id="editor-noun">editor (noun)</h3>
 <p><em>Def.</em> People who directly and actively contribute to the writing of a piece of work and are typically granted administrative access to the platform on which the information is displayed.</p>
-<p><em>Ex.</em> “Main <strong>editors</strong> [and] contributors” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About Collections Model 2020</a>).</p>
+<p><em>Ex.</em> “Main <strong>editors</strong> [and] contributors” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About DOPHEDA 2020</a>).</p>
 <p><em>Note.</em> Sometimes also referred to as “main editor”.</p>
 <p><em>Note.</em> Differentiate from Contributor.</p></td>
 <td class="second-lang"><h3>éditeur (nom)</h3>
@@ -441,7 +441,7 @@ group: resources
 <p><em>Note.</em> Differentiate from Knowledge base, Named graph.</p>
 <br>
 <p><em>Def. (knowledge representation)</em> Knowledge base that has been reasoned upon automatically based on semantic rules, enabling it to be processed by information systems; a knowledge base is a knowledge representation.</p>
-<p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelization endeavour” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About Collections Model 2020</a>).</p>
+<p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelization endeavour” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About DOPHEDA 2020</a>).</p>
 <p><em>Note.</em> The terme representation is often used as a shorthand.</p></td>
 <td class="second-lang"><h3>connaissance (nom féminin)</h3>
 <p><em>Def.</em> Information ou compréhension du monde (par opposition aux enregistrements de cette information).</p>
@@ -468,7 +468,7 @@ group: resources
 <tr class="even">
 <td class="first-lang"><h3 id="library-noun">library (noun)</h3>
 <p><em>Def.</em> Collection of resources used by a computer program.</p>
-<p><em>Ex.</em> “This is a repository hosting all diagrams.net (draw.io) <strong>libraries</strong> for the ontologies used in the context of CHIN’s Linked Open Data (LOD) projects, mainly CIDOC CRM” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/tools#diagramsnet-libraries">Collections Model Tools 2021</a>).</p></td>
+<p><em>Ex.</em> “This is a repository hosting all diagrams.net (draw.io) <strong>libraries</strong> for the ontologies used in the context of CHIN’s Linked Open Data (LOD) projects, mainly CIDOC CRM” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/tools#diagramsnet-libraries">DOPHEDA Tools 2021</a>).</p></td>
 <td class="second-lang"><h3>bibliothèque logicielle (nom féminin)</h3>
 <p><em>Def.</em> Collection de ressources utilisées par un programme informatique.</p></td>
 </tr>
@@ -645,7 +645,7 @@ group: resources
 <tr class="odd">
 <td class="first-lang"><h3 id="record-noun">record (noun)</h3>
 <p><em>Def.</em> Entry in a database.</p>
-<p><em>Ex.</em> “The scope of this project is to consolidate, in unique <strong>records</strong>, the information pertaining to actors related to objects from Canadian museums collections” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About Collections Model 2020</a>).</p>
+<p><em>Ex.</em> “The scope of this project is to consolidate, in unique <strong>records</strong>, the information pertaining to actors related to objects from Canadian museums collections” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About DOPHEDA 2020</a>).</p>
 <p><em>Syn.</em> Entry.</p></td>
 <td class="second-lang"><h3>enregistrement (nom masculin)</h3>
 <p><em>Def.</em> Entrée dans une base de données.</p>
@@ -654,11 +654,11 @@ group: resources
 <tr class="even">
 <td class="first-lang"><h3 id="representation-noun">representation (noun)</h3>
 <p><em>Def.</em> Semantic conceptualization of information as it is developed in the context of an ontology; the context will often indicate whether the term pertains to the semanticization of data or to formal semantic representation.</p>
-<p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour” <a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About Collections Model 2020</a>).</p>
+<p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour” <a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About DOPHEDA 2020</a>).</p>
 <p><em>Note.</em> The term representation is often used as a shorthand.</p>
 <br>
 <p><em>Def. (knowledge representation)</em> Knowledge base that has been reasoned upon automatically based on semantic rules, enabling it to be processed by information systems; a knowledge base is a knowledge representation.</p>
-<p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelization endeavour” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About Collections Model 2020</a>).</p>
+<p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelization endeavour” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About DOPHEDA 2020</a>).</p>
 <br>
 <p><em>Def. (semantic representation)</em> Embodiment of a semantic ensemble in a technical format (JSON-LD, etc.).</p>
 <p><em>Ex.</em> “An organization producing LOD must assign unique identifiers called Uniform Resource Identifiers (URIs) to its data. These URIs must be based on HTTP protocol and be stable, machine- and human-readable, and dereferenceable (accessible in different <strong>representations</strong> such as HTML or JSON-LD)” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod">LOD Benefits and Challenges 2021</a>).</p>
@@ -731,7 +731,7 @@ group: resources
 <tr class="even">
 <td class="first-lang"><h3 id="specification-noun">specification (noun)</h3>
 <p><em>Def.</em> Record of instructions pertaining to a process, most often modelling.</p>
-<p><em>Ex.</em> “In supplement to the Target Model (TM) documentation, the Semantic Paths <strong>Specification</strong> (SPS) documentation aims to provide a more granular view of the Collections Model, in particular for those who would like to understand the mapping process or would like to construct SPARQL queries” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#foreword">Semantic Paths Specification 2020</a>).</p>
+<p><em>Ex.</em> “In supplement to the Target Model (TM) documentation, the Semantic Paths <strong>Specification</strong> (SPS) documentation aims to provide a more granular view of DOPHEDA, in particular for those who would like to understand the mapping process or would like to construct SPARQL queries” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#foreword">Semantic Paths Specification 2020</a>).</p>
 <p><em>Note.</em> Differentiate from Dataset, Documentation.</p></td>
 <td class="second-lang"><h3>spécification (nom féminin)</h3>
 <p><em>Def.</em> Instructions au sujet d’un processus, le plus souvent un processus de modélisation.</p>
@@ -771,7 +771,7 @@ group: resources
 <tr class="odd">
 <td class="first-lang"><h3 id="view-noun">view (noun)</h3>
 <p><em>Def.</em> Perspective on a set of data.</p>
-<p><em>Ex.</em> “In supplement to the Target Model (TM) documentation, the Semantic Paths Specification (SPS) documentation aims to provide a more granular <strong>view</strong> of the Collections Model, in particular for those who would like to understand the mapping process or would like to construct SPARQL queries” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#biography-bibliographical-mention">Semantic Paths Specification 2020</a>).</p></td>
+<p><em>Ex.</em> “In supplement to the Target Model (TM) documentation, the Semantic Paths Specification (SPS) documentation aims to provide a more granular <strong>view</strong> of DOPHEDA, in particular for those who would like to understand the mapping process or would like to construct SPARQL queries” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#biography-bibliographical-mention">Semantic Paths Specification 2020</a>).</p></td>
 <td class="second-lang"><h3>vue (nom féminin)</h3>
 <p><em>Def.</em> Perspective sur un ensemble de données.</p></td>
 </tr>
