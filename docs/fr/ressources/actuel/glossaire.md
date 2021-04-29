@@ -17,7 +17,7 @@ group: ressources
 **Dernière mise à jour**: 2021-04-08
 
 
-*Glossaire des termes essentiels pour les projets DOPHEDA ; les définitions sont de nature informative plutôt que normatives.*
+*Glossaire des termes essentiels pour les projets DOPHEDA ; les définitions sont de nature informative plutôt que normatives. Veuillez noter que les exemples de l'utilisation du terme ne sont actuellement disponibles qu'en anglais. Pour les consulter, veuillez visionner la version bilingue de ce glossaire ou la version unilingue anglophone.*
 
 <div class="lang-buttons-content">
   <button id="first-lang" class="activate">FR</button>
@@ -75,16 +75,22 @@ group: ressources
 <tr class="odd">
 <td class="first-lang"><h3 id="cas-nom-masculin">cas (nom masculin)</h3>
 <p><em>Def. (cas d’usage)</em> Description détaillée d’une situation qui détermine et permet de tester les interactions d’un système afin d’évaluer s’il remplit adéquatement ses fonctions (distinguer d’Étude de cas).</p>
+<br>
 <p><em>Def. (cas limite)</em> Description d’une situation qui remet en question les limites de la définition ou des paramètres d’un champ (opposé Cas typique).</p>
+<br>
 <p><em>Def. (cas typique)</em> Description d’une situation qui correspond de manière caractéristique à la définition ou aux paramètres d’un champ (opposé Cas limite).</p>
+<br>
 <p><em>Def. (étude de cas)</em> Description détaillée et rapprochée d’une situation particulière (distinguer de Cas d’usage).</p></td>
 <td class="second-lang"><h3>case (noun)</h3>
 <p><em>Def. (use case)</em> Detailed description of a situation that determines and subsequently tests the interactions in a system to evaluate whether it adequately fulfills its function (differentiate from Case Study).</p>
 <p><em>Ex.</em> “The Semantic Paths Specification presents the semantic links between CIDOC CRM entities that form the patterns presented in the Target Model and intended to answer <strong>use cases</strong> relevant to the project” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#abstract">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (edge case)</em> Description of a situation that would test the boundaries of a field’s definition or parameters (opposite Typical Case).</p>
 <p><em>Ex. “</em>In addition to relevant comments and potential errors, the SPS offers descriptions of typical and <strong>edge cases</strong> that exemplify how institutions might document information with regards to other fields” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#foreword">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (typical case)</em> Description of a situation that would fit within the boundaries of a field’s definition or parameters (opposite Edge Case).</p>
 <p><em>Ex. “</em>In addition to relevant comments and potential errors, the SPS offers descriptions of <strong>typical</strong> and edge <strong>cases</strong> that exemplify how institutions might document information with regards to other fields” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#foreword">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (case study)</em> Detailed and up-close examination of a particular situation (differentiate from Use Case).</p>
 <p><em>Ex.</em> “TBD” (URL).</p></td>
 </tr>
@@ -109,10 +115,13 @@ group: ressources
 <p><em>Def.</em> Catégorie d’instances qui partagent des caractéristiques communes, lesquelles signalent leur appartenance à la classe ; une classe peut être la portée et/ou le domaine d’une propriété.</p>
 <p><em>Note.</em> Pertinent pour Classification, Domaine, Portée.</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p>
+<br>
 <p><em>Def. (propriété-classe)</em> Propriété réifiée dont les instances peuvent être les sujets ou les objets d’autres triplets ; cette réification transforme fonctionnellement de telles propriétés en classes.</p>
 <p><em>Note.</em> L’abréviation “PC”, conformément à leur code dans le CIDOC CRM, est parfois utilisée à des fins de concision.</p>
+<br>
 <p><em>Def. (sous-classe)</em> Classe qui est la spécialisation d’une ou de plusieurs autre(s) classe(s) (sa ou ses super-classe(s)).</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p>
+<br>
 <p><em>Def. (super-classe)</em> Classe qui est une généralisation d’une ou de plusieurs autre(s) classe(s) (sa ou ses sous-classe(s)).</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p></td>
 <td class="second-lang"><h3>class (noun)</h3>
@@ -120,12 +129,15 @@ group: ressources
 <p><em>Ex.</em> “Although the creation of new classes and properties is encouraged by some authoritative institutions, it leads to a bulkier model (hence complexifying the recording process) and a larger number of <strong>classes</strong> to handle (thus complicating practitioners’ queries)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties">Target Model 2020</a>).</p>
 <p><em>Note.</em> Relevant to Classification, Domain, Property, Range.</p>
 <p><em>Note.</em> For a more detailed definition, see CIDOC CRM’s definition (Github URL to come).</p>
+<br>
 <p><em>Def. (property-class)</em> Reified property whose instances can become the subjects or objects of other triples; this reification functionally turns such properties into classes.</p>
 <p><em>Ex.</em> “A technical addition to CIDOC CRM, called Property-Class Specification (or PC), has been developed by the CRM SIG in 2014. In this extension, the properties in question have been reified (in other words they have been transformed into classes) so that instances of those new <strong>property-classes</strong> can become the subject of other triples without affecting the rest of the model. The properties in question have been reified (in other words they have been transformed into classes) so that instances of those new <strong>property-classes</strong> can become the subject of other triples without affecting the rest of the model” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#pc-classes">Target Model 2020</a>).</p>
 <p><em>Note.</em> Sometimes abbreviated to “PC” per their CIDOC CRM code.</p>
+<br>
 <p><em>Def. (sub-class)</em> A class that is a specialization one or more other class(es) (its super-class(es)).</p>
 <p><em>Ex.</em> “It appears preferable (and most often doable) to specify entities by using <code class="language-plaintext highlighter-rouge">E55_Type</code> rather than create new <strong>sub-classes</strong> and sub-properties” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts">Target Model 2020</a>).</p>
 <p><em>Note.</em> For a more detailed definition, see CIDOC CRM’s definition (Github URL to come).</p>
+<br>
 <p><em>Def. (super-class)</em> A class that is a generalization of one or more other class(es) (its sub-class(es)).</p>
 <p><em>Ex.</em> “Some datasets might contain data pertaining to both actors and groups in a single field; in such a case, the use of the <code class="language-plaintext highlighter-rouge">E39_Actor</code> <strong>super-class</strong> rather than of its sub-classes is possible (although such a practice should be avoided in order to maintain an efficient mapping process, and cleaning the data would be both preferable and more effective in the long term)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#differences-between-e39_actor-e21_person-and-e74_group">Target Model 2020</a>).</p>
 <p><em>Note.</em> For a more detailed definition, see CIDOC CRM’s definition (Github URL to come).</p></td>
@@ -148,22 +160,28 @@ group: ressources
 <td class="first-lang"><h3 id="connaissance-nom-feminin">connaissance (nom féminin)</h3>
 <p><em>Def.</em> Information ou compréhension du monde (par opposition aux enregistrements de cette information).</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p>
+<br>
 <p><em>Def. (base de connaissances)</em> Système sémantique de données structurées et non-structurées sur lequel des activités de raisonnement logique peuvent être appliquées par des algorithmes ou par inférence ; le terme est souvent utilisé pour établir une distinction avec des bases de données relationnelles.</p>
 <p><em>Note.</em> Différencier de Graphe de connaissances.</p>
+<br>
 <p><em>Def. (graphe de connaissances)</em> Base de connaissances qui utilise une structure de modèle de données en graphe pour stocker des descriptions d’entités liées sémantiquement ; un graphe de connaissances est toujours une base de connaissances, mais une base de connaissances n’est pas toujours un graphe de connaissance.</p>
 <p><em>Note.</em> Différencier de Graphe de connaissances, Graphe nommé.</p>
+<br>
 <p><em>Def. (représentation des connaissances)</em> Base de connaissances qui a fait l’objet de raisonnements logiques sur la base de règles sémantiques afin de pouvoir être traitée par des systèmes d’information ; une base de connaissances est une représentation des connaissances.</p>
 <p><em>Note.</em> Le terme représentation est souvent utilisé à des fins de concision.</p></td>
 <td class="second-lang"><h3>knowledge (noun)</h3>
 <p><em>Def.</em> Information or understanding as it is in the world, rather than records.</p>
 <p><em>Ex.</em> “This field records supplemental information associated with a particular piece of data about which it offers further <strong>knowledge</strong>, such as a comment, remark, description, explanation, note, grade or evaluation, etc.” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#annotation">Semantic Paths Specification 2020</a>).</p>
 <p><em>Note.</em> For a more detailed overview of the Knowledge Creation Process, see CIDOC CRM’s definition (Github URL to come).</p>
+<br>
 <p><em>Def. (knowledge base)</em> System of semantically organized structured and unstructured data that can be reasoned upon by inference or reasoning engines; the term is often used to establish a distinction with relational databases.</p>
 <p><em>Ex</em>. TBD URL</p>
 <p><em>Note.</em> Differentiate from Named graph.</p>
+<br>
 <p><em>Def. (knowledge graph)</em> Knowledge base that uses a graph-structured data model to store semantically linked descriptions of entities; a knowledge graph is always a knowledge base but a knowledge base is not always a knowledge graph.</p>
 <p><em>Ex.</em> “[The scope is the] description of the data values accommodated by the Node; this includes both the formal data type expected and the semantic meaning of the Node within a <strong>knowledge graph</strong> (formally indicated by the full semantic path as defined below)” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#documentation-structure">Semantic Paths Specification 2020</a>).</p>
 <p><em>Note.</em> Differentiate from Knowledge base, Named graph.</p>
+<br>
 <p><em>Def. (knowledge representation)</em> Knowledge base that has been reasoned upon automatically based on semantic rules, enabling it to be processed by information systems; a knowledge base is a knowledge representation.</p>
 <p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelization endeavour” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About Collections Model 2020</a>).</p>
 <p><em>Note.</em> The terme representation is often used as a shorthand.</p></td>
@@ -179,11 +197,13 @@ group: ressources
 <td class="first-lang"><h3 id="contenu-nom-masculin">contenu (nom masculin)</h3>
 <p><em>Def.</em> Donnée(s) ou information(s) trouvées dans une ressource ou un jeu de données.</p>
 <p><em>Note.</em> Il est recommandé d’utiliser des termes plus précis tels que données, jeu de données, information, enregistrement, valeur, etc.</p>
+<br>
 <p><em>Def. (négociation de contenu)</em> Mécanismes qui permettent d’associer à un seul URI différentes représentations de cette même ressource de sorte que l’utilisateur peut mobiliser la version qui lui est la plus utile.</p></td>
 <td class="second-lang"><h3>content (noun)</h3>
 <p><em>Def.</em> Data or information found in a resource or dataset.</p>
 <p><em>Ex.</em> “These will be interrelated and offer the environment necessary to better display Canadian heritage and <strong>content</strong> online through custom websites, platforms, and applications” (<a href="https://chin-rcip.github.io/collections-model/en">Collections Model Overview 2020</a>).</p>
 <p><em>Note.</em> It is advised to prefer more precise terms such as data, dataset, information, record, value, etc.</p>
+<br>
 <p><em>Def. (content negotiation)</em> Mechanisms that enable different representations of a resource to be associated to the same URI so that users can mobilize the version that best fits their needs.</p>
 <p><em>Ex.</em> “<strong>Content negotiation</strong>’s fundamental concept is the distinction between the URI of an entity and its manifestations, which typically take the form of uniform resource locators (URLs, whose forms are not governed by the same principles as those of URIs).” (URI Technical Report 2021).</p></td>
 </tr>
@@ -191,21 +211,25 @@ group: ressources
 <td class="first-lang"><h3 id="contributeur-nom-feminin">contributeur (nom féminin)</h3>
 <p><em>Def. (auctorialité)</em> Personnes qui commentent le contenu d’un ouvrage sans être directement et activement impliqués dans sa rédaction.</p>
 <p><em>Note.</em> Différencier d’Éditeur.</p>
+<br>
 <p><em>Def. (soumission de données)</em> Personne qui entre et enregistre les données dans une structure de données.</p></td>
 <td class="second-lang"><h3>contributor (noun)</h3>
 <p><em>Def. (authorship)</em> People who comment on the contents of a piece of work without being directly and actively involved in the writing process.</p>
 <p><em>Ex.</em> “Main editors [and] <strong>contributors</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About Collections Model 2020</a>).</p>
+<br>
 <p><em>Def. (data provision)</em> Person recording data in a data structure.</p>
 <p><em>Ex.</em> “This field designates the entire identifying word(s), number(s), symbol(s) or code(s) by which a <strong>contributor</strong>, whether individual or not, providing data for a record (actor or object) is identified. This can include names, titles, or other designations” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#record-contributor-appellation">Semantic Paths Specification 2020</a>).</p></td>
 </tr>
 <tr class="odd">
 <td class="first-lang"><h3 id="creation-nom-feminin">création (nom féminin)</h3>
 <p><em>Def. (patrimoine)</em> Processus de conceptualisation et d’avènement d’une chose.</p>
+<br>
 <p><em>Def. (sémantique)</em> Processus de conceptualisation et de mise en place qui mène une entité sémantique à exister.</p>
 <p><em>Note.</em> Il est recommandé d’utiliser des termes plus précis tels que développer, introduire, etc.</p></td>
 <td class="second-lang"><h3>creation (noun)</h3>
 <p><em>Def. (heritage)</em> Process of designing and causing something to exist</p>
 <p><em>Ex.</em> “An actor includes any individual (artist, artisan, etc.) or group (manufacturer, group of artists, etc.) who took part in the creation of or is related to a collected artefact” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About Collections Model 2020</a>).</p>
+<br>
 <p><em>Def. (semantics)</em> Process of designing and defining to bring a semantic entity into existence.</p>
 <p><em>Ex.</em> “Although the <strong>creation</strong> of new classes and properties is encouraged by some authoritative institutions, it leads to a bulkier model (hence complexifying the recording process) and a larger number of classes to handle (thus complicating practitioners' queries)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties">Target Model 2020</a>).</p>
 <p><em>Note.</em> It is advised to prefer more precise verbs such as development, introduction, etc.</p></td>
@@ -236,10 +260,12 @@ group: ressources
 <tr class="odd">
 <td class="first-lang"><h3 id="description-nom-feminin">description (nom féminin)</h3>
 <p><em>Def. (sémantique)</em> Représentation sémantique de quelque chose grâce à un patron conceptuel.</p>
+<br>
 <p><em>Def. (textuelle)</em> Le récit de quelque chose.</p></td>
 <td class="second-lang"><h3>description (noun)</h3>
 <p><em>Def. (semantics)</em> Semantic representation of something by a pattern.</p>
 <p><em>Ex.</em> “Whenever possible, this node should be used in conjunction with Actor Appellation Use Date End to indicate the interval of the <strong>described</strong> event” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-begin">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (textual)</em> A verbal account of something.</p>
 <p><em>Ex.</em> “Most museums have a “remark” field linked to the actors and objects they document in order to account for non-formatted text that is distinct from <strong>descriptive</strong> texts intended to be published (such as captions for example, which will be modelized later on as part of the Collections model)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/descriptive-information#curatorial-note">Target Model 2020</a>).</p></td>
 </tr>
@@ -293,10 +319,12 @@ group: ressources
 <tr class="odd">
 <td class="first-lang"><h3 id="domaine-dapplication-nom-masculin">domaine d’application (nom masculin)</h3>
 <p><em>Def.</em> Portée de l’application d’un terme ou d’une entité.</p>
+<br>
 <p><em>Def. (note d’application)</em> Définition de la portée de l’application d’un terme ou d’une entité.</p></td>
 <td class="second-lang"><h3>scope (noun)</h3>
 <p><em>Def.</em> Range of application of a term or entity.</p>
 <p><em>Ex.</em> “Whilst actors have professional or artistic occupations, people also hold social status(es), like being a leader, an Indigenous Community elder, or a knight. These cannot be modeled as occupations because they are not pursued per se and do not fit the <strong>scope</strong> of F51_Pursuit” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/life-events#social-status">Target Model 2020</a>).</p>
+<br>
 <p><em>Def. (scope note)</em> Definition of the range of application of a term or entity.</p>
 <p><em>Ex.</em> “Each node is defined by a precise <strong>scope note</strong> detailing the data values it can accommodate, as well as by its generated bond, semantic valuation and controlled list/terms” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#foreword">Semantic Paths Specification 2020</a>).</p></td>
 </tr>
@@ -304,24 +332,35 @@ group: ressources
 <td class="first-lang"><h3 id="donnee-nom-feminin">donnée (nom féminin)</h3>
 <p><em>Def.</em> Élément(s) d’information ayant fait l’objet d’une collecte ; le plus souvent utilisé au pluriel.</p>
 <p><em>Note.</em> Ces éléments d’information peuvent prendre plusieurs formes, voir notamment Connaissance, Documentation, Enregistrement, Information, Métadonnée.</p>
+<br>
 <p><em>Def. (données d’entrée)</em> (jeu de) données originales qui n’ont pas été enrichies et qui ont été soumises par un Soumissionnaire (opposé Données extrantes).</p>
 <p><em>Syn</em>. Données entrantes, Entrant.</p>
 <p><em>Note.</em> Différencier de Provenance, Données d’origine.</p>
+<br>
 <p><em>Def. (données d’origine)</em> Information primaire ayant fait l’objet d’un enregistrement par un soumissionnaire de données.</p>
 <p><em>Note.</em> Différencier de Données d’entrée, Données de provenance.</p>
+<br>
 <p><em>Def. (données de provenance)</em> Données au sujet du·de la créateur·rice ou propriétaire original·e d’une pièce d’information.</p>
+<br>
 <p><em>Def. (données désordonnées)</em> Données qui sont caractérisées par leur nature hétérogène et non-standardisée, par l’absence de certains enregistrements dans le jeu de données ou par la présence générale d’erreurs (opposé Données propres).</p>
+<br>
 <p><em>Def. (données extrantes)</em> Le produit résultant d’un processus appliqué à (un jeu) de(s) données (opposé Données d’entrée).</p>
 <p><em>Syn.</em> Données extrantes, Extrant.</p>
+<br>
 <p><em>Def. (données propres)</em> Données qui sont caractérisées par leur nature standardisée et structurée ainsi que la facilité à les mettre en correspondance et à les enrichir (opposé Données désordonnées).</p>
 <p><em>Syn</em>. Données ordonnées.</p>
+<br>
 <p><em>Def. (données non-structurées)</em> Données qui ne sont pas conformes aux principes d’un (ou de plusieurs) modèle(s) de données ; il s’agit typiquement de données principalement textuelles et plus complexes à analyser (opposé Données structurées).</p>
+<br>
 <p><em>Def. (données structurées)</em> Données qui sont conformes aux principes énoncés par un modèle de données et qui comportent un encodage conférant du sens aux différents éléments qui le composent ; il s’agit typiquement de données tabulaires ou sémantiques qui peuvent analysées (opposé Données non-structurées).</p>
+<br>
 <p><em>Def. (format de données</em>) Manière standardisée dont une information est encodée à des fins de stockage et de récupération dans un fichier informatique.</p>
 <p><em>Syn.</em> Format de fichier.</p>
 <p><em>Note.</em> Différencier de Représentation.</p>
+<br>
 <p><em>Def. (jeu de données)</em> Ensemble de données recueillies, qui prennent le plus souvent la forme d’un entrant fourni par un soumissionnaire.</p>
 <p><em>Note.</em> CIDOC CRM réfère souvent à ceci en utilisant le terme “documentation” .</p>
+<br>
 <p><em>Def. (modèle de données)</em> Modélisation abstraite qui organise des éléments de données, le plus souvent en patrons conceptuels ; dans le cas de DOL un modèle de données est le plus souvent une utilisation appliquée d’une ontologie afin de répondre à des besoins précis.</p>
 <p><em>Note.</em> Préférer à Modèle sauf lorsqu’il est question d’un agencement de modèles et d’ontologies.</p>
 <p><em>Note.</em> Dans le contexte de la spécification du RCIP, le terme “le modèle” est parfois utilisé à des fins de concision pour référer au “Modèle de données du RCIP”.</p></td>
@@ -329,36 +368,47 @@ group: ressources
 <p><em>Def</em>. Piece(s) of collected information; most often used in the plural.</p>
 <p><em>Ex.</em> “The easiest way for an institution to semanticize its <strong>data</strong> is to use a pre-existing model rather than develop one of its own” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/lod-benefits-challenges#linked-open-data-lod-for-cultural-institutions">LOD Benefits and Challenges 2020</a>).</p>
 <p><em>Note.</em> Such pieces of information can take several forms, see amongst others Documentation, Information, Knowledge, Metadata, Record.</p>
+<br>
 <p><em>Def. (input data)</em> Original and unenriched data(set) submitted by a Provider (opposite Output data).</p>
 <p><em>Ex.</em> “If the <strong>input data</strong> is messy—for example if it mixes different kinds of information within fields or if it contains heterogeneous natural language expressions—, it will not be possible to map it to semantic standards” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#mapping-problems-and-e33_linguistic_object">Target Model 2020</a>).</p>
 <p><em>Syn.</em> Input.</p>
 <p><em>Note.</em> Differentiate from Provenance and Source data.</p>
+<br>
 <p><em>Def. (source data)</em> Primary information that was documented by a provider.</p>
 <p><em>Ex.</em> “They are automatically populated with URIs (instances and classes) and labels that are generated by scripts and are inferred from but not present in the <strong>source datasets</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#generated-node">Semantic Paths Specification 2020</a>).</p>
 <p><em>Note.</em> Differentiate from Input and Provenance data.</p>
+<br>
 <p><em>Def. (data provenance)</em> Data about the original creator or owner of a piece of information.</p>
 <p><em>Ex.</em> “To properly differentiate these data and manage questions of factual agreement and disagreement, it is crucial to track data <strong>provenance</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#provenance-of-the-dataset">Target Model 2020</a>).</p>
 <p><em>Syn.</em> Provenance.</p>
 <p><em>Note.</em> Differentiate from Source data.</p>
+<br>
 <p><em>Def. (messy data)</em> Data that are characterized by their heterogeneous nature, non-standard character, missing entries in the dataset or general errors (opposite Clean data).</p>
 <p><em>Ex.</em> “If the input data is <strong>messy</strong>—for example if it mixes different kinds of information within fields or if it contains heterogeneous natural language expressions—, it will not be possible to map it to semantic standards” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#mapping-problems-and-e33_linguistic_object">Target Model 2020</a>).</p>
+<br>
 <p><em>Def. (output data)</em> The (dataset) product of a process applied to (a) data(set) (opposite Input data).</p>
 <p><em>Ex.</em> TBD (URL)</p>
 <p><em>Syn.</em> Output.</p>
+<br>
 <p><em>Def. (clean data)</em> Data that are characterized by their standardized, structured, and easily mapped and enriched nature (opposite Messy Data).</p>
 <p><em>Ex.</em> “If the data of the contributing institution is clean—in other words, if it is not mixing data types and/or contents within single fields—, CHIN’s Pipeline along with the Semantic Paths Specification and Target Model will successfully translate it from a relational to a semantic framework” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#mapping-problems-and-e33_linguistic_object">Target Model 2020</a>).</p>
 <p><em>Syn.</em> Tidy data.</p>
+<br>
 <p><em>Def. (unstructured data)</em> Data that does not conform to a data model; it is typically text-heavy data that is harder to analyze (opposite Structured data).</p>
 <p><em>Ex.</em> “The provided values contain <strong>unstructured</strong> information of the appellation, such as there is no systematic and automatic way to recognise the different part of an appellation or it cannot be parsed automatically by reconciliation tools, but still contains the required information” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#actor-appellation">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (structured data)</em> Data that conforms to a data model, thus using embedded code to give meaning to its respective components; it is typically either tabular or semantic data that can be easily analyzed (opposite Unstructured data).</p>
 <p><em>Ex.</em> “The provided values only contain <strong>structured</strong> information that can be automatically reconciled with other entities in other datasets” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/entry-nodes#actor-appellation">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (data format)</em> Standard way information is encoded for storage and retrieval in a computer file.</p>
 <p><em>Ex.</em> “There are several tools on the market that allow you to transform tabular data into RDF <strong>formats</strong> following ontological patterns” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod">LOD Benefits and Challenges 2020</a>).</p>
 <p><em>Syn.</em> File format.</p>
 <p><em>Note.</em> Differentiate from Representation.</p>
+<br>
 <p><em>Def. (dataset)</em> Ensemble of collected data, typically submitted as input by a data provider.</p>
 <p><em>Ex.</em> “Converting an existing <strong>dataset</strong> to an LOD portal can be daunting, especially as information technologies and management systems have been developed without considering public use or the groups that are now likely to mobilize the data” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/lod-benefits-challenges#challenges">LOD Benefits and Challenges 2020</a>).</p>
 <p><em>Note.</em> CIDOC CRM often refers to this as “documentation".</p>
+<br>
 <p><em>Def. (data model)</em> An abstract modelization that organizes elements of data, most often in patterns; in the case of LOD a data model is most often the applied use of an ontology to answer specific needs.</p>
 <p><em>Ex.</em> “The objective of the [CHIN’s <strong>data</strong>] <strong>model</strong> is to collect, standardize, and aggregate data that is varied in structure, format and languages” (Target Model 2020).</p>
 <p><em>Note.</em> Prefer to Model unless referring to an unspecified mix of data models and ontologies.</p>
@@ -457,11 +507,13 @@ group: ressources
 <tr class="even">
 <td class="first-lang"><h3 id="identifiant-nom-masculin">identifiant (nom masculin)</h3>
 <p><em>Def.</em> Combinaison alphanumérique de caractères assignée à une entité par une organisation reconnue ; ceci inclut des identifiants qui ne sont pas des URIs ainsi que des URIs.</p>
+<br>
 <p><em>Def. (URI)</em> Combinaison alphanumérique de caractères assignée à une ressource afin qu’elle soit dotée d’une adresse unique.</p>
 <p><em>Note.</em> URI est l’abréviation anglophone de l’identifiant uniforme de ressource (“Uniform Resource Identifier”) mais reste le terme le plus utilisé même en français.</p></td>
 <td class="second-lang"><h3>identifier (noun)</h3>
 <p><em>Def.</em> Combination of alphanumeric characters assigned to an entity by a recognized organization; these include Non-URI IDs as well as URIs.</p>
 <p><em>Ex.</em> “The primary <strong>identifier</strong> of an actor is its URI, but there are other identifiers associated to it as well, such as the identifiers assigned by contributing museums, or others applied by CHIN” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/identification#identifiers-and-appellations">Target Model 2020</a>).</p>
+<br>
 <p><em>Def. (URI)</em> Combination of alphanumeric characters assigned to a resource to provide it with a unique address where it can be found.</p>
 <p><em>Ex.</em> “An organization producing LOD must assign unique identifiers called <strong>Uniform Resource Identifiers (URIs)</strong> to its data” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod">LOD Benefits and Challenges 2021</a>).</p>
 <p><em>Note.</em> URI stands for Uniform Resource Identifier.</p></td>
@@ -476,12 +528,14 @@ group: ressources
 <tr class="even">
 <td class="first-lang"><h3 id="instance-nom-feminin">instance (nom féminin)</h3>
 <p><em>Def.</em> Élément créé spécifiquement comme représentant d’une classe particulière dont il porte les caractéristiques ; cette création s’appelle instantiation.</p>
+<br>
 <p><em>Def. (instantiation double ou multiple)</em> Création d’un élément comme représentant de plusieurs classes particulières dont il porte les caractéristiques.</p>
 <p><em>Note.</em> L’instantiation multiple est le processus au cours duquel une instance relevant de plusieurs classes est créée alors que de multiples instances d’une seule classe sont plusieurs instances qui portent chacune les caractéristiques de cette classe.</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p></td>
 <td class="second-lang"><h3>instance (noun)</h3>
 <p><em>Def.</em> Element created as a representative of a particular class of which it carries the characteristics; this creation is referred to as instantiation.</p>
 <p><em>Ex.</em> “CIDOC CRM has developed the <code class="language-plaintext highlighter-rouge">P190_has_symbolic_content</code> property to associate an <strong>instance</strong> of <code class="language-plaintext highlighter-rouge">E90_Symbolic_Object</code> with a representation of its entire content in the form of a string of text” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#literal-content">Target Model 2020</a>).</p>
+<br>
 <p><em>Def. (double or multiple instantiation)</em> Creation of an element that is a representative of more than a single class and carries the characteristics of all classes it instantiates.</p>
 <p><em>Ex.</em> “Two different classes mentioned in the same box (e.g. <code class="language-plaintext highlighter-rouge">E33_Linguistic_Object</code> and <code class="language-plaintext highlighter-rouge">E41_Appellation</code>) indicate <strong>multiple instantiation</strong> (i.e. two classes are used to define a single instance)” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/introduction#patterns">Target Model 2020</a>).</p>
 <p><em>Note.</em> Multiple instantiation is the process by which a single instance of several classes is created whereas multiple instances of a class refer to several instances that each carry the characteristics of this single class.</p>
@@ -527,18 +581,24 @@ group: ressources
 <tr class="even">
 <td class="first-lang"><h3 id="nœud-nom-masculin">nœud (nom masculin)</h3>
 <p><em>Def.</em> Point d’interaction signifiant dans le réseau d’un modèle sémantique.</p>
+<br>
 <p><em>Def. (nœud de saisie)</em> Nœud où une valeur est attendue depuis le champ correspondant d’un soumissionnaire.</p>
+<br>
 <p><em>Def. (nœud doté d’un qualifiant spécifié)</em> Nœud contenant des termes spécifiques issus de vocabulaires contrôlés et qui catégorise une autre nœud d’instance en utilisant un URI singulier.</p>
 <p><em>Note.</em> Lorsque le nœud doté d’un qualifiant spécifié catégorise une instance qui est aussi un type, il s’agit d’un métatype.</p>
+<br>
 <p><em>Def. (nœud généré)</em> Nœud automatiquement peuplé d’URIs (d’instances et de classes) et de libellés générés par des scripts, lesquels sont inférés mais ne sont pas présents dans le jeu de données d’origine.</p></td>
 <td class="second-lang"><h3>node (noun)</h3>
 <p><em>Def</em>. Meaningful point of interaction in the model’s semantic network.</p>
 <p><em>Ex.</em> “A <strong>node</strong> is a meaningful point of interaction in the model’s semantic network. It contains information and connects non-hierarchically to other nodes in order to contextualise and link this information” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#node">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (entry node)</em> Node where a value is expected to be extracted from a provider’s dataset corresponding field.</p>
 <p><em>Ex.</em> “[Generated nodes] are automatically generated nodes that represent parts of the full semantic relationship between <strong>entry nodes</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#generated-node">Semantic Paths Specification 2020</a>).</p>
+<br>
 <p><em>Def. (specified qualifier node)</em> Node that contains specific vocabulary terms and categorizes another instance node using a singular URI.</p>
 <p><em>Ex.</em> “In addition to categorization purposes, <strong>specified qualifier nodes</strong> are sometimes descriptively used to identify which property is involved in an Attribute Assignment pattern or to represent the semantic information pertaining to CRMpc instances” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#specified-qualifier-node-sqn">Semantic Paths Specification 2020</a>).</p>
 <p><em>Note.</em> When the specified qualifier node categorizes an instance that is also a type, it is a metatype.</p>
+<br>
 <p><em>Def. (generated node)</em> Node that is automatically populated with URIs (instances and classes) and labels generated by scripts, and is inferred from but not present in the source dataset(s).</p>
 <p><em>Ex.</em> “[<strong>Generated nodes</strong>] are automatically generated nodes that represent parts of the full semantic relationship between entry nodes” (<a href="https://chin-rcip.github.io/collections-model/en/semantic-paths-specification/current/introduction#generated-node">Semantic Paths Specification 2020</a>).</p></td>
 </tr>
@@ -585,26 +645,34 @@ group: ressources
 <tr class="even">
 <td class="first-lang"><h3 id="propriete-nom-feminin">propriété (nom féminin)</h3>
 <p><em>Def.</em> Entité définissant la relation spécifique entre des instances ; les propriétés sont typiquement lues depuis le domaine vers la portée.</p>
+<br>
 <p><em>Def. (propriété-classe)</em> Propriété réifiée dont les instances peuvent être les sujets ou les objets d’autres triplets ; cette réification transforme fonctionnellement de telles propriétés en classes.</p>
 <p><em>Note.</em> L’abréviation “PC”, conformément à leur code dans le CIDOC CRM, est parfois utilisée à des fins de concision.</p>
+<br>
 <p><em>Def. (propriété inverse)</em> Interprétation inverse d’une propriété depuis la portée vers le domaine, plutôt que du domaine vers la portée.</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p>
+<br>
 <p><em>Def. (sous-propriété)</em> Propriété qui est la spécialisation d’une ou de plusieurs autre(s) propriété(s) (sa ou ses super-propriété(s)).</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p>
+<br>
 <p><em>Def. (super-propriété)</em> Propriété qui est une généralisation d’une ou de plusieurs autre(s) propriété(s) (sa ou ses sous-propriété(s)).</p>
 <p><em>Note.</em> Pour une définition plus détaillée, voir la définition du CIDOC CRM (URL à venir).</p></td>
 <td class="second-lang"><h3>property (noun)</h3>
 <p><em>Def.</em> Entity defining the specific relationship between instances; it is typically directed from domain to range.</p>
 <p><em>Ex. Ex.</em> “The <code class="language-plaintext highlighter-rouge">P15_was_influenced_by</code> <strong>property</strong> has an <code class="language-plaintext highlighter-rouge">E7_Activity</code> as a domain and any <code class="language-plaintext highlighter-rouge">E1_CRM_Entity</code> as a range” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/life-events#influences">Target Model 2020</a>).</p>
+<br>
 <p><em>Def. (property-class)</em> Reified properties whose instances can become the subjects of other triples; this reification functionally turns such properties into classes.</p>
 <p><em>Ex.</em> “A technical addition to CIDOC CRM, called <strong>property-class</strong> Specification (or PC), has been developed by the CRM SIG in 2014. In this extension, the properties in question have been reified (in other words they have been transformed into classes) so that instances of those new <strong>property-class</strong> can become the subject of other triples without affecting the rest of the model. The properties in question have been reified (in other words they have been transformed into classes) so that instances of those new <strong>property-class</strong> can become the subject of other triples without affecting the rest of the model” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#pc-classes">Target Model 2020</a>).</p>
 <p><em>Note.</em> Sometimes abbreviated to “PC” per their CIDOC CRM code.</p>
+<br>
 <p><em>Def. (inverse property)</em> Reversed interpretation of a property from range to domain, rather than domain to range.</p>
 <p><em>Ex.</em> TBD (URL)</p>
 <p><em>Note.</em> For a more detailed definition, see CIDOC CRM’s definition (URL to come).</p>
+<br>
 <p><em>Def. (sub-property)</em> A property that is a specialization of another property (its super-property).</p>
 <p><em>Ex.</em> “It appears preferable (and most often doable) to specify entities by using <code class="language-plaintext highlighter-rouge">E55_Type</code> rather than create new sub-classes and <strong>sub-properties</strong>” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts">Target Model 2020</a>).</p>
 <p><em>Note.</em> For a more detailed definition, see CIDOC CRM’s definition (URL to come).</p>
+<br>
 <p><em>Def. (super-property)</em> A property that is a generalization of one or more other property(ies) (its sub-property(ies)).</p>
 <p><em>Ex.</em> “This minimalistic hierarchy, however, does not follow the CRMbase hierarchy conventions according to which some of Pxx.1 properties would inherit the characteristics of their super-properties” (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/general-concepts#pc-classes">Target Model 2020</a>).</p>
 <p><em>Note.</em> For a more detailed definition, see CIDOC CRM’s definition (URL to come).</p></td>
@@ -619,8 +687,10 @@ group: ressources
 <tr class="even">
 <td class="first-lang"><h3 id="representation-nom-feminin">représentation (nom féminin)</h3>
 <p><em>Def.</em> Conceptualisation sémantique de l’information dans le contexte d’une ontologie; le contexte indiquera s’il s’agit de la sémantisation des données ou d’une représentation sémantique formelle.</p>
+<br>
 <p><em>Def. (représentation des connaissances)</em> Base de connaissances qui a fait l’objet de raisonnements logiques sur la base de règles sémantiques afin de pouvoir être traitée par des systèmes d’information ; une base de connaissances est une représentation des connaissances.</p>
 <p><em>Note.</em> Le terme représentation est souvent utilisé à des fins de concision.</p>
+<br>
 <p><em>Def. (représentation sémantique)</em> Incarnation d’un ensemble sémantique dans un format technique (JSON-LD, etc.).</p>
 <p><em>Note.</em> Différencier de Base de connaissances, Graphe de connaissances, Représentation des connaissances, Syntaxe.</p>
 <p><em>Note.</em> Le terme représentation est souvent utilisé à des fins de concision.</p></td>
@@ -628,8 +698,10 @@ group: ressources
 <p><em>Def.</em> Semantic conceptualization of information as it is developed in the context of an ontology; the context will often indicate whether the term pertains to the semanticization of data or to formal semantic representation.</p>
 <p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelisation endeavour” <a href="https://chin-rcip.github.io/collections-model/en/about#contributors">About Collections Model 2020</a>).</p>
 <p><em>Note.</em> The term representation is often used as a shorthand.</p>
+<br>
 <p><em>Def. (knowledge representation)</em> Knowledge base that has been reasoned upon automatically based on semantic rules, enabling it to be processed by information systems; a knowledge base is a knowledge representation.</p>
 <p><em>Ex.</em> “CHIN is currently working on the semantic <strong>representation</strong> of actors and intends the Actors project to later be part of a larger Collections LOD modelization endeavour” (<a href="https://chin-rcip.github.io/collections-model/en/about#collections-model-documentation">About Collections Model 2020</a>).</p>
+<br>
 <p><em>Def. (semantic representation)</em> Embodiment of a semantic ensemble in a technical format (JSON-LD, etc.).</p>
 <p><em>Ex.</em> “An organization producing LOD must assign unique identifiers called Uniform Resource Identifiers (URIs) to its data. These URIs must be based on HTTP protocol and be stable, machine- and human-readable, and dereferenceable (accessible in different <strong>representations</strong> such as HTML or JSON-LD)” (<a href="https://chin-rcip.github.io/collections-model/en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod">LOD Benefits and Challenges 2021</a>).</p>
 <p><em>Note.</em> Differentiate from Knowledge base, Knowledge graph, Knowledge representation, Syntax.</p>

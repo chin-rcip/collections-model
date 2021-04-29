@@ -982,6 +982,9 @@ urireport:
 - title: Management
   url: /en/technical-reports/current/uris-technical-report#management
   hash: management
+- title: Notes
+  url: /en/technical-reports/current/uris-technical-report#notes
+  hash: notes
 - title: Bibliography
   url: /en/technical-reports/current/uris-technical-report#bibliography
   hash: bibliography

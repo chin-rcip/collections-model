@@ -294,6 +294,17 @@ This question is currently being examined by CHIN and will be added once its wri
 
 For comments or inquiries, please do not hesitate to contact us at <pch.RCIP-CHIN.pch@canada.ca> with the subject “URI Technical Report”.
 
+---
+
+#### Notes
+
+<a name="note-1"></a><sup>1</sup> Actors are understood here as people, companies, groups, institutions and other acting agents.
+
+<a name="note-2"></a><sup>2</sup> This is the approach CHIN will take for the moment, although further research on ontology URIs will be conducted in the coming months, and a dedicated template might be devised as a result of this research.
+
+<a name="note-3"></a><sup>3</sup> Once the model has been expanded and more use cases emerge, a hierarchy of classes might be established for this purpose.
+
+--- 
 
 ## Bibliography
 
@@ -323,12 +334,4 @@ For comments or inquiries, please do not hesitate to contact us at <pch.RCIP-CHI
 
 <a name="w3c-2014"></a>W3C. 2014. ‘URI Design and Management for Persistence’. Data on the Web Best Practices. 2014. [https://www.w3.org/2013/dwbp/wiki/URI\_Design\_and\_Management\_for\_Persistence](https://www.w3.org/2013/dwbp/wiki/URI_Design_and_Management_for_Persistence).
 
----
 
-**Notes**
-
-<a name="note-1"></a>1.  Actors are understood here as people, companies, groups, institutions and other acting agents.
-
-<a name="note-2"></a>2.  This is the approach CHIN will take for the moment, although further research on ontology URIs will be conducted in the coming months, and a dedicated template might be devised as a result of this research.
-
-<a name="note-3"></a>3.  Once the model has been expanded and more use cases emerge, a hierarchy of classes might be established for this purpose.
