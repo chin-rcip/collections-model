@@ -161,36 +161,36 @@ Additional steps necessary for the production of LOD have also been identified b
 
 ## Selected Bibliography
 
-<a name="bailey-2019"></a>Bailey, Jason. 2019. « Solving Art’s Data Problem - Part One, Museums ». *Artnome* (blog). 29 avril 2019. [https://www.artnome.com/news/2019/4/29/solving-arts-data-problem-part-one-museums](https://www.artnome.com/news/2019/4/29/solving-arts-data-problem-part-one-museums).
+<a name="bailey-2019"></a>Bailey, Jason. 2019. « Solving Art’s Data Problem - Part One, Museums ». *Artnome* (blog). April 29, 2019. [https://www.artnome.com/news/2019/4/29/solving-arts-data-problem-part-one-museums](https://www.artnome.com/news/2019/4/29/solving-arts-data-problem-part-one-museums).
 
-<a name="open-art-data-2018"></a>Data, Open Art. 2018. « Museums: Interactive Map with Wikidata ». *Open Data Art* (blog). 16 décembre 2018. [https://www.openartdata.org/2018/12/museums-map-wikidata.html](https://www.openartdata.org/2018/12/museums-map-wikidata.html).
+<a name="open-art-data-2018"></a>Data, Open Art. 2018. « Museums: Interactive Map with Wikidata ». *Open Data Art* (blog). December 16, 2018. [https://www.openartdata.org/2018/12/museums-map-wikidata.html](https://www.openartdata.org/2018/12/museums-map-wikidata.html).
 
-<a name="edson-2019"></a>Edson, Michael Peter. 2019. « Wikimania 2019 Keynote Address ». Keynote présenté à Wikimania 2019, Stockholm, SE, avril 29. [https://www.youtube.com/watch?v=9NBonp9KLz8](https://www.youtube.com/watch?v=9NBonp9KLz8).
+<a name="edson-2019"></a>Edson, Michael Peter. 2019. « Wikimania 2019 Keynote Address ». Keynote presented at Wikimania 2019, Stockholm, SE, April 29. [https://www.youtube.com/watch?v=9NBonp9KLz8](https://www.youtube.com/watch?v=9NBonp9KLz8).
 
 <a name="goldman-2018"></a>Goldman, Kathryn. 2018. « Open Access Images of Public Domain Work ». *Creative Law Center* (blog). 2018. [https://creativelawcenter.com/museums-open-access-images/](https://creativelawcenter.com/museums-open-access-images/).
 
-<a name="hyland-et-al-2014"></a>Hyland, Bernadette, Ghislain A. Atemezing, et Boris Villazón-Terrazas. 2014. « Best Practices for Publishing Linked Data ». W3C Working Group Note. 9 janvier 2014. [https://www.w3.org/TR/ld-bp/](https://www.w3.org/TR/ld-bp/).
+<a name="hyland-et-al-2014"></a>Hyland, Bernadette, Ghislain A. Atemezing, and Boris Villazón-Terrazas. 2014. « Best Practices for Publishing Linked Data ». W3C Working Group Note. January 9, 2014. [https://www.w3.org/TR/ld-bp/](https://www.w3.org/TR/ld-bp/).
 
-<a name="kela-2019"></a>Kela, Riitta. 2019. « Opening Collections as Open Data: Challenges and Possibilities ». Dans *Documenting Culture: A Culture of Documentation*. International Council of Museums (ICOM). Tokyo, JP.
+<a name="kela-2019"></a>Kela, Riitta. 2019. « Opening Collections as Open Data: Challenges and Possibilities ». In *Documenting Culture: A Culture of Documentation*. International Council of Museums (ICOM). Tokyo, JP.
 
-<a name="mccarthy-2019"></a>McCarthy, Douglas. 2019. « Licensing Policy and Practice in Open Glam ». *Medium*, 30 mai 2019. [https://medium.com/open-glam/licensing-policy-and-practice-in-open-glam-49c867b49de8](https://medium.com/open-glam/licensing-policy-and-practice-in-open-glam-49c867b49de8).
+<a name="mccarthy-2019"></a>McCarthy, Douglas. 2019. « Licensing Policy and Practice in Open Glam ». *Medium*, May 30, 2019. [https://medium.com/open-glam/licensing-policy-and-practice-in-open-glam-49c867b49de8](https://medium.com/open-glam/licensing-policy-and-practice-in-open-glam-49c867b49de8).
 
-<a name="oomen-et-al-2016"></a>Oomen, Johan, Enno Meijers, et Wilbert Helmus. 2016. « Network Digital Heritage: Towards A Distributed Network of Heritage Information ». International Conference on Digital Preservation (IPRES). Amsterdam, NL: Dutch Digital Heritage Network. [https://www.netwerkdigitaalerfgoed.nl/wp-content/uploads/2018/02/NDE\_PositionPaper\_NetworkHeritageInformation-EN-v2.pdf](https://www.netwerkdigitaalerfgoed.nl/wp-content/uploads/2018/02/NDE_PositionPaper_NetworkHeritageInformation-EN-v2.pdf).
+<a name="oomen-et-al-2016"></a>Oomen, Johan, Enno Meijers, and Wilbert Helmus. 2016. « Network Digital Heritage: Towards A Distributed Network of Heritage Information ». International Conference on Digital Preservation (IPRES). Amsterdam, NL: Dutch Digital Heritage Network. [https://www.netwerkdigitaalerfgoed.nl/wp-content/uploads/2018/02/NDE\_PositionPaper\_NetworkHeritageInformation-EN-v2.pdf](https://www.netwerkdigitaalerfgoed.nl/wp-content/uploads/2018/02/NDE_PositionPaper_NetworkHeritageInformation-EN-v2.pdf).
 
-<a name="open-glam-2020"></a>Open GLAM. 2020. « Declaration on Open Access for Cultural Heritage ». 21 janvier 2020. [https://docs.google.com/document/d/1CpDGlWLgkEYJC5A2HJ\_Os8XYEv7ONOIBYAobSFzWm14/edit?usp=embed\_facebook](https://docs.google.com/document/d/1CpDGlWLgkEYJC5A2HJ_Os8XYEv7ONOIBYAobSFzWm14/edit?usp=embed_facebook).
+<a name="open-glam-2020"></a>Open GLAM. 2020. « Declaration on Open Access for Cultural Heritage ». January 21, 2020. [https://docs.google.com/document/d/1CpDGlWLgkEYJC5A2HJ\_Os8XYEv7ONOIBYAobSFzWm14/edit?usp=embed\_facebook](https://docs.google.com/document/d/1CpDGlWLgkEYJC5A2HJ_Os8XYEv7ONOIBYAobSFzWm14/edit?usp=embed_facebook).
 
-<a name="okf-2012"></a>Open Knowledge Foundation. 2012. « Resources ». OpenGLAM. 27 novembre 2012. [https://openglam.org/resources/](https://openglam.org/resources/).
+<a name="okf-2012"></a>Open Knowledge Foundation. 2012. « Resources ». OpenGLAM. November 27, 2012. [https://openglam.org/resources/](https://openglam.org/resources/).
 
 <a name="openess-2017"></a>*Openness: Politics, Practices, Poetics*. 2017. Living Archives. Malmˆ, SE: Malmˆ University. [http://muep.mau.se/bitstream/handle/2043/23606/openness\_final.pdf?sequence=2\&isAllowed=y\#page=14](http://muep.mau.se/bitstream/handle/2043/23606/openness_final.pdf?sequence=2&isAllowed=y#page=14).
 
-<a name="sanderhoff-2014"></a>Sanderhoff, Merete, éd. 2014. *Sharing Is Caring: Openness and Sharing in The Cultural Heritage Sector*. Traduit par Néné La Beet et René Lauritsen. Copenhagen, DK: Statens Museum for Kunst. [https://www.smk.dk/en/article/the-sharing-is-caring-anthology/](https://www.smk.dk/en/article/the-sharing-is-caring-anthology/).
+<a name="sanderhoff-2014"></a>Sanderhoff, Merete, ed. 2014. *Sharing Is Caring: Openness and Sharing in The Cultural Heritage Sector*. Translated by Néné La Beet and René Lauritsen. Copenhagen, DK: Statens Museum for Kunst. [https://www.smk.dk/en/article/the-sharing-is-caring-anthology/](https://www.smk.dk/en/article/the-sharing-is-caring-anthology/).
 
 <a name="schrier-2014"></a>Schrier, Bill. 2014. « Government Open Data: Benefits, Strategies, and Use ». *The Evans School Review*, Alumni Perspective, 4 (1): 12‑27.
 
-<a name="stimler-rawlison-2019"></a>Stimler, Neal, et Louise Rawlinson. 2019. « Where Are The Edit and Upload Buttons? Dynamic Futures for Museum Collections Online ». Dans *MuseWeb*. Boston, MA: MuseWeb 2019. [https://mw19.mwconf.org/paper/where-are-the-edit-and-upload-buttons-dynamic-futures-for-museum-collections-online/](https://mw19.mwconf.org/paper/where-are-the-edit-and-upload-buttons-dynamic-futures-for-museum-collections-online/).
+<a name="stimler-rawlison-2019"></a>Stimler, Neal, and Louise Rawlinson. 2019. « Where Are The Edit and Upload Buttons? Dynamic Futures for Museum Collections Online ». Dans *MuseWeb*. Boston, MA: MuseWeb 2019. [https://mw19.mwconf.org/paper/where-are-the-edit-and-upload-buttons-dynamic-futures-for-museum-collections-online/](https://mw19.mwconf.org/paper/where-are-the-edit-and-upload-buttons-dynamic-futures-for-museum-collections-online/).
 
-<a name="stinson-2018"></a>Stinson, Alex. 2018. « Wikidata in Collections: Building a Universal Language for Connecting GLAM Catalogs ». *Medium* (blog). 9 avril 2018. [https://medium.com/freely-sharing-the-sum-of-all-knowledge/wikidata-in-collections-building-a-universal-language-for-connecting-glam-catalogs-59b14aa3214c](https://medium.com/freely-sharing-the-sum-of-all-knowledge/wikidata-in-collections-building-a-universal-language-for-connecting-glam-catalogs-59b14aa3214c).
+<a name="stinson-2018"></a>Stinson, Alex. 2018. « Wikidata in Collections: Building a Universal Language for Connecting GLAM Catalogs ». *Medium* (blog). April 9, 2018. [https://medium.com/freely-sharing-the-sum-of-all-knowledge/wikidata-in-collections-building-a-universal-language-for-connecting-glam-catalogs-59b14aa3214c](https://medium.com/freely-sharing-the-sum-of-all-knowledge/wikidata-in-collections-building-a-universal-language-for-connecting-glam-catalogs-59b14aa3214c).
 
-<a name="vathana-2013"></a>Vathana, Anly, et Dev Pramil Audsin. 2013. « An Open Analysis on Open Data ». Submission paper. Dans *Open Data on the Web*, 4. London, GB: W3C. [https://www.w3.org/2013/04/odw/odw13\_submission\_33.pdf](https://www.w3.org/2013/04/odw/odw13_submission_33.pdf).
+<a name="vathana-2013"></a>Vathana, Anly, and Dev Pramil Audsin. 2013. « An Open Analysis on Open Data ». Submission paper. In *Open Data on the Web*, 4. London, GB: W3C. [https://www.w3.org/2013/04/odw/odw13\_submission\_33.pdf](https://www.w3.org/2013/04/odw/odw13_submission_33.pdf).
 
-<a name="wallace-2017"></a>Wallace, Andrea. 2017. « Access and the Digital Surrogate: Openness as a Philosophy ». Présenté à National Digital Forum, Wellington, NZ, novembre 27. [https://www.youtube.com/watch?v=crKUIxIX3sY](https://www.youtube.com/watch?v=crKUIxIX3sY).
+<a name="wallace-2017"></a>Wallace, Andrea. 2017. « Access and the Digital Surrogate: Openness as a Philosophy ». Presented at National Digital Forum, Wellington, NZ, November 27. [https://www.youtube.com/watch?v=crKUIxIX3sY](https://www.youtube.com/watch?v=crKUIxIX3sY).
