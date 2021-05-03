@@ -205,7 +205,7 @@ group: ressources
 <p><em>Note.</em> It is advised to prefer more precise terms such as data, dataset, information, record, value, etc.</p>
 <br>
 <p><em>Def. (content negotiation)</em> Mechanisms that enable different representations of a resource to be associated to the same URI so that users can mobilize the version that best fits their needs.</p>
-<p><em>Ex.</em> “<strong>Content negotiation</strong>’s fundamental concept is the distinction between the URI of an entity and its manifestations, which typically take the form of uniform resource locators (URLs, whose forms are not governed by the same principles as those of URIs).” (URI Technical Report 2021).</p></td>
+<p><em>Ex.</em> “<strong>Content negotiation</strong>’s fundamental concept is the distinction between the URI of an entity and its manifestations, which typically take the form of uniform resource locators (URLs, whose forms are not governed by the same principles as those of URIs).” (<a href="https://chin-rcip.github.io/collections-model/en/technical-reports/current/uris-technical-report#content-negotiation---urls-derived-from-uris">URIs Technical Report 2021</a>).</p></td>
 </tr>
 <tr class="even">
 <td class="first-lang"><h3 id="contributeur-nom-feminin">contributeur (nom féminin)</h3>
