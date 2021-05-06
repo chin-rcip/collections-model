@@ -22,7 +22,7 @@ Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philip
 
 ### Contributors: 
 
-Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Isabelle Jacques (MCC), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Sheila Carey (CHIN), Xiaosong Chen (CIOB)
+Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIHN-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Isabelle Jacques (MCC), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Sheila Carey (CHIN), Xiaosong Chen (CIOB)
 
 ### Thank Yous
 
