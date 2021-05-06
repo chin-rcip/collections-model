@@ -23,7 +23,7 @@ Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philip
 
 ### Contributeurs et Contributrices: 
 
-Bruno Lemay (RCIP), Emmanuel Château-Dutier (CRIH-UdeM), Erin Canning (AKM), Ern Bieman (RCIP), George Bruseker (TAKIN), Heather Dunn (RCIP), Isabelle Jacques (MCC), Katrina Ojaste (RCIP), Ludovic Font (RCIP),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (RCIP), Nathalie Guénette (RCIP), Sheila Carey (RCIP), Xiaosong Chen (DGDPI)
+Bruno Lemay (RCIP), Emmanuel Château-Dutier (CRIHN-UdeM), Erin Canning (AKM), Ern Bieman (RCIP), George Bruseker (TAKIN), Heather Dunn (RCIP), Isabelle Jacques (MCC), Katrina Ojaste (RCIP), Ludovic Font (RCIP),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (RCIP), Nathalie Guénette (RCIP), Sheila Carey (RCIP), Xiaosong Chen (DGDPI)
 
 ### Remerciements
 
