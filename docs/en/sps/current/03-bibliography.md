@@ -71,11 +71,12 @@ sidebar: sps
 
 <a name="art-architecture-thesaurus-2020f"></a>———. 2020f. « Authors. » Art & Architecture Thesaurus Online Full Record Display. January 29, 2020. [http://www.getty.edu/vow/AATFullDisplay?find=author&logic=AND&note=&english=N&prev_page=1&subjectid=300025492](http://www.getty.edu/vow/AATFullDisplay?find=author&logic=AND&note=&english=N&prev_page=1&subjectid=300025492)
 
-<a name="bekiari-et-al-2015"></a>Bekiari, Chryssoula, Martin Doerr, Patrick Le Boeuf, and Pat Riva, eds. 2015. *FRBR Object-Oriented Definition and Mapping from FRBRER, FRAD and FRSAD*. FRBRoo Documentations, 2.4. International Council of Museums (ICOM). [http://www.cidoc-crm.org/frbroo/sites/default/files/FRBRoo\_V2.4.pdf](http://www.cidoc-crm.org/frbroo/sites/default/files/FRBRoo\_V2.4.pdf)
+<a name="bekiari-et-al-2015"></a>Bekiari, Chryssoula, Martin Doerr, Patrick Le Boeuf, and Pat Riva, eds. 2015. *FRBR Object-Oriented Definition and Mapping from FRBRER, FRAD and FRSAD*. FRBRoo Documentations, 2.4. International Council of Museums (ICOM). [http://www.cidoc-crm.org/frbroo/sites/default/files/FRBRoo\_V2.4.pdf](http://www.cidoc-crm.org/frbroo/sites/default/files/FRBRoo_V2.4.pdf)
 
-<a name="canadian-heritage-2016"></a>Canadian Heritage. 2016. « Aalto, Harri. » In *Artists in Canada*. Ottawa, ON: Government of Canada / Gouvernement du Canada. [https://app.pch.gc.ca/application/aac-aic/artiste\_detailler\_ind-artist\_detail\_ind.app?lang=en\&qlang=en\&rID=1\&pID=1\&fID=2\&anm=Aalto%2C+Harri\&sort=AM\_ASC\&ps=50\&pID1=1\&ps1=50\&ansf=TAM\&sort1=ascending](https://app.pch.gc.ca/application/aac-aic/artiste\_detailler\_ind-artist\_detail\_ind.app?lang=en\&qlang=en\&rID=1\&pID=1\&fID=2\&anm=Aalto%2C+Harri\&sort=AM\_ASC\&ps=50\&pID1=1\&ps1=50\&ansf=TAM\&sort1=ascending)
+<a name="canadian-heritage-2016"></a>Canadian Heritage. 2016. « Aalto, Harri. » In *Artists in Canada*. Ottawa, ON: Government of Canada / Gouvernement du Canada. [https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?rID=1&fID=2&lang=en&qlang=en&pID=1&an=Aalto+Harri&ps=50&sort=AM_ASC](https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?rID=1&fID=2&lang=en&qlang=en&pID=1&an=Aalto+Harri&ps=50&sort=AM_ASC)
 
-<a name="canadian-heritage-information-network-1999"></a>Canadian Heritage Information Network (CHIN). 1999. « Technique. » CHIN Data Dictionary. February 9, 1999. [https://app.pch.gc.ca/application/ddrcip-chindd/field\_detailler\_rechercher-search\_field\_detail.app?lang=en\&qlang=en\&rID=1032\&dd=sh-hs\&sub=technique\&mne=\&pID=1\&ac=false\&rac=false](https://app.pch.gc.ca/application/ddrcip-chindd/field\_detailler\_rechercher-search\_field\_detail.app?lang=en\&qlang=en\&rID=1032\&dd=sh-hs\&sub=technique\&mne=\&pID=1\&ac=false\&rac=false)
+
+<a name="canadian-heritage-information-network-1999"></a>Canadian Heritage Information Network (CHIN). 1999. « Technique. » CHIN Data Dictionary. February 9, 1999. [https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_rechercher-search_field_detail.app?rID=1032&dd=sh-hs&ac=false&rac=false&lang=en&qlang=en&sub=Technique&mne=&pID=1](https://app.pch.gc.ca/application/ddrcip-chindd/field_detailler_rechercher-search_field_detail.app?rID=1032&dd=sh-hs&ac=false&rac=false&lang=en&qlang=en&sub=Technique&mne=&pID=1)
 
 <a name="deutsche-national-bibliothek-2019"></a>Deutsche National Bibliothek. 2019. « AgRelOn. » AgRelOn, an Agent Relationship Ontology. October 2, 2019. [https://d-nb.info/standards/elementset/agrelon](https://d-nb.info/standards/elementset/agrelon)
 
@@ -165,13 +166,13 @@ sidebar: sps
 
 <a name="free-dictionary-2020d"></a>———. 2020d. « Use. » In *The Free Dictionary*. Huntingdon Valley, PA: Farlex. [https://www.thefreedictionary.com/use](https://www.thefreedictionary.com/use)
 
-<a name="hart-2020"></a>Hart, Stephen. (2019) 2020. « Actors Target Model Documentation. » Canadian Heritage Information Network (CHIN). [https://docs.google.com/document/d/1XQdulUGj\_w\_icXihgP6ODiME3Xo9WHXTkWtCUYx8xfg/edit](https://docs.google.com/document/d/1XQdulUGj\_w\_icXihgP6ODiME3Xo9WHXTkWtCUYx8xfg/edit)
+<a name="hart-2020"></a>Hart, Stephen. (2019) 2020. « Actors Target Model Documentation. » Canadian Heritage Information Network (CHIN). [https://docs.google.com/document/d/1XQdulUGj\_w\_icXihgP6ODiME3Xo9WHXTkWtCUYx8xfg/edit](https://docs.google.com/document/d/1XQdulUGj_w_icXihgP6ODiME3Xo9WHXTkWtCUYx8xfg/edit)
 
-<a name="le-boeuf-et-al-2015"></a>Le Boeuf, Patrick, Martin Doerr, Christian Emil Ore, and Stephen Stead, eds. 2015. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 6.2.1. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/cidoc\_crm\_version\_6.2.1.pdf](http://www.cidoc-crm.org/sites/default/files/cidoc\_crm\_version\_6.2.1.pdf)
+<a name="le-boeuf-et-al-2015"></a>Le Boeuf, Patrick, Martin Doerr, Christian Emil Ore, and Stephen Stead, eds. 2015. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 6.2.1. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/cidoc\_crm\_version\_6.2.1.pdf](http://www.cidoc-crm.org/sites/default/files/cidoc_crm_version_6.2.1.pdf)
 
 <a name="masolo-et-al-2004"></a>Masolo, Claudio, Laure Vieu, Emanuele Bottazzi, Carola Catenacci, Roberta Ferrario, Aldo Gangemi, and Nicola Guarino. 2004. « Social Roles and Their Descriptions. » In *Principles of Knowledge Representation and Reasoning: Proceedings of the Ninth International Conference KR2004*, edited by Didier Dubois, Christopher Welty, and Mary-Anne Williams, 267–77. Ontology. Whistler, BC: KR2004. [https://www.irit.fr/publis/LILAC/MVBCFGG-KR04.pdf](https://www.irit.fr/publis/LILAC/MVBCFGG-KR04.pdf)
 
-<a name="museum-of-modern-art-2019"></a>Museum of Modern Art. 2019. « Technique. » Museum of Modern Art Glossary of Art Terms. September 25, 2019. [https://www.moma.org/learn/moma\_learning/glossary/\#t](https://www.moma.org/learn/moma\_learning/glossary/\#t)
+<a name="museum-of-modern-art-2019"></a>Museum of Modern Art. 2019. « Technique. » Museum of Modern Art Glossary of Art Terms. September 25, 2019. [https://www.moma.org/learn/moma\_learning/glossary/\#t](https://www.moma.org/learn/moma_learning/glossary/\#t)
 
 <a name="ontario-native-literacy-coalition-2010"></a>Ontario Native Literacy Coalition. 2010. *Thirteen Moons Curriculum Practitioner Guide*. LBS 2–3. Ohsweken, ON: Ontario Native Literacy Coalition. [https://onlc.ca/wp-content/uploads/2014/06/13-Moon-curriculum2.pdf](https://onlc.ca/wp-content/uploads/2014/06/13-Moon-curriculum2.pdf)
 
@@ -187,57 +188,57 @@ sidebar: sps
 
 <a name="thesaurus-of-geographic-names-2019"></a>Thesaurus of Geographic Names. 2019. « World. » Thesaurus of Geographic Names Online Full Record Display. September 30, 2019. [http://www.getty.edu/vow/TGNFullDisplay?find=Europe\&place=\&nation=\&english=Y\&subjectid=7029392](http://www.getty.edu/vow/TGNFullDisplay?find=Europe\&place=\&nation=\&english=Y\&subjectid=7029392)
 
-<a name="w3schools-2019"></a>w3schools.com. 2019. « CSS Flexbox (Flexible Box). » W3schools. October 8, 2019. [https://www.w3schools.com/css/css3\_flexbox.asp](https://www.w3schools.com/css/css3\_flexbox.asp)
+<a name="w3schools-2019"></a>w3schools.com. 2019. « CSS Flexbox (Flexible Box). » W3schools. October 8, 2019. [https://www.w3schools.com/css/css3\_flexbox.asp](https://www.w3schools.com/css/css3_flexbox.asp)
 
 <a name="waller-susan-2018"></a>Waller, Susan. 2018. “Marie-Guillemine Benoist, Portrait of Madeleine.” Smarthistory (blog). September 26, 2018. [https://smarthistory.org/benoist-portrait/](https://smarthistory.org/benoist-portrait/)
 
 <a name="wenglinsky-martin-2017"></a>Wenglinsky, Martin. 2017. « The Fundamentals of Social Roles. » Wenglinsky Review. November 16, 2017. [https://www.wenglinskyreview.com/wenglinsky-review-a-journal-of-culture-politics/2017/11/16/the-fundamentals-of-social-roles](https://www.wenglinskyreview.com/wenglinsky-review-a-journal-of-culture-politics/2017/11/16/the-fundamentals-of-social-roles)
 
-<a name="wikipedia-2019a"></a>Wikipedia. 2019a. « Type (Model Theory). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Type\_(model\_theory)\&oldid=885719390](https://en.wikipedia.org/w/index.php?title=Type\_(model\_theory)\&oldid=885719390)
+<a name="wikipedia-2019a"></a>Wikipedia. 2019a. « Type (Model Theory). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Type\_(model\_theory)\&oldid=885719390](https://en.wikipedia.org/w/index.php?title=Type_(model_theory)\&oldid=885719390)
 
 <a name="wikipedia-2019b"></a>———. 2019b. « Vocation. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Vocation\&oldid=901258438](https://en.wikipedia.org/w/index.php?title=Vocation\&oldid=901258438)
 
-<a name="wikipedia-2019c"></a>———. 2019c. « Organizational Founder. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Organizational\_founder\&oldid=906165130](https://en.wikipedia.org/w/index.php?title=Organizational\_founder\&oldid=906165130)
+<a name="wikipedia-2019c"></a>———. 2019c. « Organizational Founder. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Organizational\_founder\&oldid=906165130](https://en.wikipedia.org/w/index.php?title=Organizational_founder\&oldid=906165130)
 
-<a name="wikipedia-2019d"></a>———. 2019d. « Named Graph. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Named\_graph\&oldid=906545728](https://en.wikipedia.org/w/index.php?title=Named\_graph\&oldid=906545728)
+<a name="wikipedia-2019d"></a>———. 2019d. « Named Graph. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Named\_graph\&oldid=906545728](https://en.wikipedia.org/w/index.php?title=Named_graph\&oldid=906545728)
 
 <a name="wikipedia-2019e"></a>———. 2019e. « URL. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=URL\&oldid=909233629](https://en.wikipedia.org/w/index.php?title=URL\&oldid=909233629)
 
-<a name="wikipedia-2019f"></a>———. 2019f. « Social Position. » In *Wikipedia*. San Francisco, CA: WIkipedia. [https://en.wikipedia.org/w/index.php?title=Social\_position\&oldid=909936778](https://en.wikipedia.org/w/index.php?title=Social\_position\&oldid=909936778)
+<a name="wikipedia-2019f"></a>———. 2019f. « Social Position. » In *Wikipedia*. San Francisco, CA: WIkipedia. [https://en.wikipedia.org/w/index.php?title=Social\_position\&oldid=909936778](https://en.wikipedia.org/w/index.php?title=Social_position\&oldid=909936778)
 
-<a name="wikipedia-2019g"></a>———. 2019g. « Dissolution (Law). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Dissolution\_(law)\&oldid=910282591](https://en.wikipedia.org/w/index.php?title=Dissolution\_(law)\&oldid=910282591)
+<a name="wikipedia-2019g"></a>———. 2019g. « Dissolution (Law). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Dissolution\_(law)\&oldid=910282591](https://en.wikipedia.org/w/index.php?title=Dissolution_(law)\&oldid=910282591)
 
-<a name="wikipedia-2019h"></a>———. 2019h. « Personal Name. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Personal\_name\&oldid=910620796](https://en.wikipedia.org/w/index.php?title=Personal\_name\&oldid=910620796)
+<a name="wikipedia-2019h"></a>———. 2019h. « Personal Name. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Personal\_name\&oldid=910620796](https://en.wikipedia.org/w/index.php?title=Personal_name\&oldid=910620796)
 
-<a name="wikipedia-2019i"></a>———. 2019i. « Product Naming. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Product\_naming\&oldid=911824342](https://en.wikipedia.org/w/index.php?title=Product\_naming\&oldid=911824342)
+<a name="wikipedia-2019i"></a>———. 2019i. « Product Naming. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Product\_naming\&oldid=911824342](https://en.wikipedia.org/w/index.php?title=Product_naming\&oldid=911824342)
 
 <a name="wikipedia-2019j"></a>———. 2019j. « Typification. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Typification\&oldid=912266423](https://en.wikipedia.org/w/index.php?title=Typification\&oldid=912266423)
 
 <a name="wikipedia-2019k"></a>———. 2019k. « Sojourn. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Sojourn\&oldid=913259354](https://en.wikipedia.org/w/index.php?title=Sojourn\&oldid=913259354)
 
-<a name="wikipedia-2019l"></a>———. 2019l. « International Standard Classification of Occupations. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=International\_Standard\_Classification\_of\_Occupations\&oldid=913875856](https://en.wikipedia.org/w/index.php?title=International\_Standard\_Classification\_of\_Occupations\&oldid=913875856)
+<a name="wikipedia-2019l"></a>———. 2019l. « International Standard Classification of Occupations. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=International\_Standard\_Classification\_of\_Occupations\&oldid=913875856](https://en.wikipedia.org/w/index.php?title=International_Standard_Classification_of_Occupations\&oldid=913875856)
 
 <a name="wikipedia-2019m"></a>———. 2019m. « Polity. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Polity\&oldid=913885880](https://en.wikipedia.org/w/index.php?title=Polity\&oldid=913885880)
 
 <a name="wikipedia-2019n"></a>———. 2019n. « Role. » In *Wikipedia*. San Francisco, CA: 2019-09-27. [https://en.wikipedia.org/w/index.php?title=Role\&oldid=913886933](https://en.wikipedia.org/w/index.php?title=Role\&oldid=913886933)
 
-<a name="wikipedia-2019o"></a>———. 2019o. « List of Chinese Monarchs. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=List\_of\_Chinese\_monarchs\&oldid=914514650](https://en.wikipedia.org/w/index.php?title=List\_of\_Chinese\_monarchs\&oldid=914514650)
+<a name="wikipedia-2019o"></a>———. 2019o. « List of Chinese Monarchs. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=List\_of\_Chinese\_monarchs\&oldid=914514650](https://en.wikipedia.org/w/index.php?title=List_of_Chinese_monarchs\&oldid=914514650)
 
 <a name="wikipedia-2019p"></a>———. 2019p. « Job. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Job\&oldid=914586801](https://en.wikipedia.org/w/index.php?title=Job\&oldid=914586801)
 
-<a name="wikipedia-2019q"></a>———. 2019q. « Gender Expression. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Gender\_expression\&oldid=914836934](https://en.wikipedia.org/w/index.php?title=Gender\_expression\&oldid=914836934)
+<a name="wikipedia-2019q"></a>———. 2019q. « Gender Expression. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Gender\_expression\&oldid=914836934](https://en.wikipedia.org/w/index.php?title=Gender_expression\&oldid=914836934)
 
-<a name="wikipedia-2019r"></a>———. 2019r. « Calendrier républicain. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://fr.wikipedia.org/w/index.php?title=Calendrier\_r%C3%A9publicain\&oldid=162662934](https://fr.wikipedia.org/w/index.php?title=Calendrier\_r%C3%A9publicain\&oldid=162662934)
+<a name="wikipedia-2019r"></a>———. 2019r. « Calendrier républicain. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://fr.wikipedia.org/w/index.php?title=Calendrier\_r%C3%A9publicain\&oldid=162662934](https://fr.wikipedia.org/w/index.php?title=Calendrier_r%C3%A9publicain\&oldid=162662934)
 
 <a name="wikipedia-2019s"></a>———. 2019s. « Community. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Community\&oldid=916027950](https://en.wikipedia.org/w/index.php?title=Community\&oldid=916027950)
 
 <a name="wikipedia-2019t"></a>———. 2019t. « Employment. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Employment\&oldid=916047911](https://en.wikipedia.org/w/index.php?title=Employment\&oldid=916047911)
 
-<a name="wikipedia-2019u"></a>———. 2019u. « Cultural Identity. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Cultural\_identity\&oldid=916151708](https://en.wikipedia.org/w/index.php?title=Cultural\_identity\&oldid=916151708)
+<a name="wikipedia-2019u"></a>———. 2019u. « Cultural Identity. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Cultural\_identity\&oldid=916151708](https://en.wikipedia.org/w/index.php?title=Cultural_identity\&oldid=916151708)
 
 <a name="wikipedia-2019v"></a>———. 2019v. « Gender. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Gender\&oldid=916147070](https://en.wikipedia.org/w/index.php?title=Gender\&oldid=916147070)
 
-<a name="wikipedia-2019w"></a>———. 2019w. « List of Calendars. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=List\_of\_calendars\&oldid=916189911](https://en.wikipedia.org/w/index.php?title=List\_of\_calendars\&oldid=916189911)
+<a name="wikipedia-2019w"></a>———. 2019w. « List of Calendars. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=List\_of\_calendars\&oldid=916189911](https://en.wikipedia.org/w/index.php?title=List_of_calendars\&oldid=916189911)
 
 <a name="wikipedia-2019x"></a>———. 2019x. « Biography. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Biography\&oldid=916287036](https://en.wikipedia.org/w/index.php?title=Biography\&oldid=916287036)
 
@@ -245,17 +246,17 @@ sidebar: sps
 
 <a name="wikipedia-2019z"></a>———. 2019z. « Skill. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Skill\&oldid=916388934](https://en.wikipedia.org/w/index.php?title=Skill\&oldid=916388934)
 
-<a name="wikipedia-2019aa"></a>———. 2019aa. « Corporate Identity. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Corporate\_identity\&oldid=916460256](https://en.wikipedia.org/w/index.php?title=Corporate\_identity\&oldid=916460256)
+<a name="wikipedia-2019aa"></a>———. 2019aa. « Corporate Identity. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Corporate\_identity\&oldid=916460256](https://en.wikipedia.org/w/index.php?title=Corporate_identity\&oldid=916460256)
 
 <a name="wikipedia-2019ab"></a>———. 2019ab. « Father. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Father\&oldid=916627602](https://en.wikipedia.org/w/index.php?title=Father\&oldid=916627602)
 
 <a name="wikipedia-2019ac"></a>———. 2019ac. « Identifier. » In *Wikipedia*. San Francisco: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Identifier\&oldid=916543641](https://en.wikipedia.org/w/index.php?title=Identifier\&oldid=916543641)
 
-<a name="wikipedia-2019ad"></a>———. 2019ad. « Malcolm X. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Malcolm\_X\&oldid=916483423](https://en.wikipedia.org/w/index.php?title=Malcolm\_X\&oldid=916483423)
+<a name="wikipedia-2019ad"></a>———. 2019ad. « Malcolm X. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Malcolm\_X\&oldid=916483423](https://en.wikipedia.org/w/index.php?title=Malcolm_X\&oldid=916483423)
 
-<a name="wikipedia-2019ae"></a>———. 2019ae. « Natural Language. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Natural\_language\&oldid=916580397](https://en.wikipedia.org/w/index.php?title=Natural\_language\&oldid=916580397)
+<a name="wikipedia-2019ae"></a>———. 2019ae. « Natural Language. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Natural\_language\&oldid=916580397](https://en.wikipedia.org/w/index.php?title=Natural_language\&oldid=916580397)
 
-<a name="wikipedia-2019af"></a>———. 2019af. « List of Legal Entity Types by Country. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=List\_of\_legal\_entity\_types\_by\_country\&oldid=916771637](https://en.wikipedia.org/w/index.php?title=List\_of\_legal\_entity\_types\_by\_country\&oldid=916771637)
+<a name="wikipedia-2019af"></a>———. 2019af. « List of Legal Entity Types by Country. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=List\_of\_legal\_entity\_types\_by\_country\&oldid=916771637](https://en.wikipedia.org/w/index.php?title=List_of_legal_entity_types_by_country\&oldid=916771637)
 
 <a name="wikipedia-2019ag"></a>———. 2019ag. « Career. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Career\&oldid=916936639](https://en.wikipedia.org/w/index.php?title=Career\&oldid=916936639)
 
@@ -265,9 +266,9 @@ sidebar: sps
 
 <a name="wikipedia-2019aj"></a>———. 2019aj. « Nationality. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Nationality\&oldid=917626329](https://en.wikipedia.org/w/index.php?title=Nationality\&oldid=917626329)
 
-<a name="wikipedia-2019ak"></a>———. 2019ak. « Peer Group. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Peer\_group\&oldid=917584897](https://en.wikipedia.org/w/index.php?title=Peer\_group\&oldid=917584897)
+<a name="wikipedia-2019ak"></a>———. 2019ak. « Peer Group. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Peer\_group\&oldid=917584897](https://en.wikipedia.org/w/index.php?title=Peer_group\&oldid=917584897)
 
-<a name="wikipedia-2019al"></a>———. 2019al. « Type (Biology). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Type\_(biology)\&oldid=917747654](https://en.wikipedia.org/w/index.php?title=Type\_(biology)\&oldid=917747654)
+<a name="wikipedia-2019al"></a>———. 2019al. « Type (Biology). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Type\_(biology)\&oldid=917747654](https://en.wikipedia.org/w/index.php?title=Type_(biology)\&oldid=917747654)
 
 <a name="wikipedia-2019am"></a>———. 2019am. « Location. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Location\&oldid=917956446](https://en.wikipedia.org/w/index.php?title=Location\&oldid=917956446)
 
@@ -275,25 +276,25 @@ sidebar: sps
 
 <a name="wikipedia-2019ao"></a>———. 2019ao. « Snarkitecture. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Snarkitecture\&oldid=918604636](https://en.wikipedia.org/w/index.php?title=Snarkitecture\&oldid=918604636)
 
-<a name="wikipedia-2019ap"></a>———. 2019ap. « Social Group. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Social\_group\&oldid=918633840](https://en.wikipedia.org/w/index.php?title=Social\_group\&oldid=918633840)
+<a name="wikipedia-2019ap"></a>———. 2019ap. « Social Group. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Social\_group\&oldid=918633840](https://en.wikipedia.org/w/index.php?title=Social_group\&oldid=918633840)
 
 <a name="wikipedia-2019aq"></a>———. 2019aq. « Mother. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Mother\&oldid=918830080](https://en.wikipedia.org/w/index.php?title=Mother\&oldid=918830080)
 
-<a name="wikipedia-2019ar"></a>———. 2019ar. « Interpersonal Relationship. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Interpersonal\_relationship\&oldid=918983104](https://en.wikipedia.org/w/index.php?title=Interpersonal\_relationship\&oldid=918983104)
+<a name="wikipedia-2019ar"></a>———. 2019ar. « Interpersonal Relationship. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Interpersonal\_relationship\&oldid=918983104](https://en.wikipedia.org/w/index.php?title=Interpersonal_relationship\&oldid=918983104)
 
 <a name="wikipedia-2019as"></a>———. 2019as. « Marginalia. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Marginalia\&oldid=919036683](https://en.wikipedia.org/w/index.php?title=Marginalia\&oldid=919036683)
 
-<a name="wikipedia-2019at"></a>———. 2019at. « Social Class. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Social\_class\&oldid=919948870](https://en.wikipedia.org/w/index.php?title=Social\_class\&oldid=919948870)
+<a name="wikipedia-2019at"></a>———. 2019at. « Social Class. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Social\_class\&oldid=919948870](https://en.wikipedia.org/w/index.php?title=Social_class\&oldid=919948870)
 
-<a name="wikipedia-2019au"></a>———. 2019au. « Social Status. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Social\_status\&oldid=919949019](https://en.wikipedia.org/w/index.php?title=Social\_status\&oldid=919949019)
+<a name="wikipedia-2019au"></a>———. 2019au. « Social Status. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Social\_status\&oldid=919949019](https://en.wikipedia.org/w/index.php?title=Social_status\&oldid=919949019)
 
 <a name="wikipedia-2019av"></a>———. 2019av. « Annotation. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Annotation\&oldid=920543333](https://en.wikipedia.org/w/index.php?title=Annotation\&oldid=920543333)
 
-<a name="wikipedia-2019aw"></a>———. 2019aw. « Topic and Comment. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Topic\_and\_comment\&oldid=927801773](https://en.wikipedia.org/w/index.php?title=Topic\_and\_comment\&oldid=927801773)
+<a name="wikipedia-2019aw"></a>———. 2019aw. « Topic and Comment. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Topic\_and\_comment\&oldid=927801773](https://en.wikipedia.org/w/index.php?title=Topic_and_comment\&oldid=927801773)
 
-<a name="wikipedia-2019ax"></a>———. 2019ax. « Note (Typography). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Note\_(typography)\&oldid=930336448](https://en.wikipedia.org/w/index.php?title=Note\_(typography)\&oldid=930336448)
+<a name="wikipedia-2019ax"></a>———. 2019ax. « Note (Typography). » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Note\_(typography)\&oldid=930336448](https://en.wikipedia.org/w/index.php?title=Note_(typography)\&oldid=930336448)
 
-<a name="wikipedia-2020a"></a>———. 2020a. « Wangechi Mutu. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Wangechi\_Mutu\&oldid=938431881](https://en.wikipedia.org/w/index.php?title=Wangechi\_Mutu\&oldid=938431881)
+<a name="wikipedia-2020a"></a>———. 2020a. « Wangechi Mutu. » In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Wangechi\_Mutu\&oldid=938431881](https://en.wikipedia.org/w/index.php?title=Wangechi_Mutu\&oldid=938431881)
 
 <a name="wikipedia-2020b"></a>———. 2020b. “Author.” In *Wikipedia*. San Francisco, CA: Wikipedia. [https://en.wikipedia.org/w/index.php?title=Author&oldid=93570682](https://en.wikipedia.org/w/index.php?title=Author&oldid=935706829).
 

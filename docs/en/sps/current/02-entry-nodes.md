@@ -101,7 +101,7 @@ sidebar: sps
 |**Value Origin(s)**|Actors Checklist: Actor Appellation Precedence: Provider Data|
 |**Controlled List/Term**|TBD|
 |**Potential Error(s)**|NULL|
-?|**Comment(s)**|CHIN will not express or ascribe precedence to one value over another and only the provider of the information can do so.|
+|**Comment(s)**|CHIN will not express or ascribe precedence to one value over another and only the provider of the information can do so.|
 |**Reference(s)**|[(Art & Architecture Thesaurus 2019g)](/collections-model/en/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019g), [(Art & Architecture Thesaurus 2019h)](/collections-model/en/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2019h), [(Free Dictionary 2019j)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2019j)|
 
 ---

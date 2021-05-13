@@ -22,7 +22,7 @@ sidebar: tm
 
 <a name="dodds-and-davis-2019"></a>Dodds, Leigh, and Ian Davis, ed. 2019. « Named Graph ». In Linked Data Patterns: A Pattern Catalogue for Modelling, Publishing, and Consuming Linked Data, 53‑54. [https://patterns.dataincubator.org/book/named-graphs.html](https://patterns.dataincubator.org/book/named-graphs.html).
 
-<a name="le-boeuf-et-al-2015"></a>Le Boeuf, Patrick, Martin Doerr, Christian Emil Ore, and Stephen Stead, eds. 2015. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 6.2.1. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/cidoc\_crm\_version\_6.2.1.pdf](http://www.cidoc-crm.org/sites/default/files/cidoc\_crm\_version\_6.2.1.pdf)
+<a name="le-boeuf-et-al-2015"></a>Le Boeuf, Patrick, Martin Doerr, Christian Emil Ore, and Stephen Stead, eds. 2015. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 6.2.1. Paris, FR: International Council of Museums (ICOM). [http://www.cidoc-crm.org/sites/default/files/cidoc\_crm\_version\_6.2.1.pdf](http://www.cidoc-crm.org/sites/default/files/cidoc_crm_version_6.2.1.pdf)
 
 <a name="linked-art-2019a"></a>linked.art. 2019a. « Linked Art ». Linked.Art. December 10, 2019. [https://github.com/linked-art/linked.art/issues](https://github.com/linked-art/linked.art/issues).
 
