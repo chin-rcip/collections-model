@@ -10,8 +10,6 @@ group: technical reports
 
 **Version**: 2.1
 
-**Authors**: Trang Dang, Stephen Hart, Karine Léonard Brouillet, Philippe Michon
-
 **Created date**: 2020-04-24
 
 **Last update**: 2021-04-27

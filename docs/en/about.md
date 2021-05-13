@@ -16,6 +16,10 @@ The documentation hereby accessible is a collection of working documents. As suc
 
 Active issues will be prioritised and closed issues will be monitored on a more punctual basis. 
 
+### Authors:
+
+Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
+
 ### Main Editors: 
 
 Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)

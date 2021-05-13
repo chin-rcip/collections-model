@@ -8,7 +8,7 @@ sidebar: ng1
 group: technical reports
 ---
 
-**Authors**: George Bruseker (Takin.solutions), Trang Dang (CHIN), Stephen Hart (CHIN), Philippe Michon (CHIN)
+**Co-authors**: George Bruseker (Takin.solutions)
 
 **Date**: 23/2/2021
 

@@ -17,6 +17,10 @@ La documentation présentée ici est une collection de documents de travail. À 
 
 Le suivi des problèmes actifs sera priorisé et les problèmes clos seront monitorés sur une base ponctuelle. 
 
+### Auteurs et Auteures :
+
+Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)
+
 ### Éditeurs principaux et Éditrices principales : 
 
 Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)

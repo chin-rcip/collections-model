@@ -10,8 +10,6 @@ group: ressources
 
 **Version**: 1.0
 
-**Auteurs**: Karine Léonard Brouillet, Philippe Michon
-
 **Date de création**: 2021-02-26
 
 **Dernière mise à jour**: 2021-04-08
