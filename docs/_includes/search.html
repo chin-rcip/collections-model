@@ -61,8 +61,13 @@ function lunr_search(term) {
                 var metadata = results[i]['matchData']['metadata']
                 for (const [key, value] of Object.entries(metadata)){
                     if ('body' in metadata[key]){
-                        var position = metadata[key]['body']['position'][0][0];
-                        var body = documents[ref]['body'].substring(position-80,position)+'<strong>'+documents[ref]['body'].substring(position,position+key.length+1)+'</strong>'+documents[ref]['body'].substring(position+key.length+1,position+80)+'...';
+                        var body = '';
+                        var p = metadata[key]['body']['position'];
+                        for (var x=0; x < p.length; x++) {
+                            var position = p[x][0];
+                            var r = '...'+documents[ref]['body'].substring(position-50,position)+'<strong>'+documents[ref]['body'].substring(position,position+key.length+1)+'</strong>'+documents[ref]['body'].substring(position+key.length+1,position+50)+'...'+'<br>';
+                            body += r;
+                        }
                     } else {
                         var body = documents[ref]['body'].substring(0,160)+'...';
                     }
@@ -76,7 +81,7 @@ function lunr_search(term) {
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "' target='_blank'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
             }
         } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Aucun résultat trouvé...</li>";
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>{% if page.url contains '/en/' %}No result found...{% elsif page.url contains '/fr/' %}Aucun résultat trouvé...{% endif %}</li>";
         }
     }
     return false;
@@ -88,7 +93,7 @@ function lunr_search(term) {
     <div class="modal-content">
         <span class="close" id="search-close">&times;</span>
         <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-            <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" />
+            <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="{% if page.url contains '/en/' %}Search{% elsif page.url contains '/fr/' %}Rechercher{% endif %} via Lunr.js" />
             <button type="submit">&#128269;</button>
         </form>
         <p><em>e.g. 'entry nodes', '+entry +nodes', 'title:entry title:nodes'...</em></p>
