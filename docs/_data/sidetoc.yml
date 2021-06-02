@@ -68,9 +68,9 @@ tm:
     - page: Record Provenance with Aggregated Contributors
       url: /en/target-model/current/general-concepts#record-provenance-with-aggregated-contributors
       hash: record-provenance-with-aggregated-contributors
-    - page: Limits of and Issues with the Named Graph and “Record” approach
-      url: /en/target-model/current/general-concepts#limits-of-and-issues-with-the-named-graph-and-record-approach
-      hash: limits-of-and-issues-with-the-named-graph-and-record-approach
+    # - page: Limits of and Issues with the Named Graph and “Record” approach
+    #   url: /en/target-model/current/general-concepts#limits-of-and-issues-with-the-named-graph-and-record-approach
+    #   hash: limits-of-and-issues-with-the-named-graph-and-record-approach
   - page: Challenges When Representing Indigenous Realities
     url: /en/target-model/current/general-concepts#challenges-when-representing-indigenous-realities
     hash: challenges-when-representing-indigenous-realities
