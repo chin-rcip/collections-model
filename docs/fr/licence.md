@@ -4,6 +4,8 @@ language: fr
 title: Licence
 permalink: /fr/licence
 other_link: /en/licence
+date: 2021-04-29
+description: Normes de licenciation de toute la documentation à propos de DOPHEDA développé par le RCIP.
 ---
 
 ## Normes de licenciation

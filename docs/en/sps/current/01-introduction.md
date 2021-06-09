@@ -5,6 +5,8 @@ title: Semantic Paths Specification
 permalink: /en/semantic-paths-specification/current/introduction
 other_link: /fr/specification-des-chemins-semantiques/actuel/introduction
 sidebar: sps
+date: 2021-03-22
+description: The Semantic Paths Specification presents the semantic links between CIDOC CRM entities that form the patterns presented in the Target Model and intended to answer use cases relevant to the project.
 ---
 
 Version 2.1 ([Previous versions](/collections-model/en/versions))

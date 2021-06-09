@@ -5,6 +5,8 @@ title: Target Model
 permalink: /en/target-model/current/introduction
 other_link: /fr/modele-cible/actuel/introduction
 sidebar: tm
+date: 2021-03-12
+description: The Actors Target Model is intended to model the Actors facet of CHIN’s DOPHEDA (that will cover collections data more broadly). Patterns most relevant to actors' lives are presented along with diagrams and examples illustrating them, as well as a record and explanation of relevant decisions that were made when developing said patterns. The current document is a work in progress and, as such, will be enhanced periodically. Elements currently under development or review are listed as issues.
 ---
 <!-- [Back to the Table of Contents](/collections-model/en/target-model/current/information#table-of-contents)
  -->

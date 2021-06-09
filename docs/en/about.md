@@ -4,6 +4,7 @@ language: en
 title: About
 permalink: /en/about
 other_link: /fr/a-propos
+date: 2021-05-12
 ---
 
 ## DOPHEDA Documentation

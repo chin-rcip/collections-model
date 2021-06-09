@@ -6,6 +6,8 @@ permalink: /en/technical-reports/current/uris-technical-report
 other_link: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uris
 sidebar: urireport
 group: technical reports
+date: 2021-04-27
+description: This technical report details the (1) organizing principles that dictate the (2) recommended CHIN URI specification template and the (3) management of these URIs (currently under development and projected to be released here in a subsequent version). As such, it is focused on the elements that are directly relevant to CHIN as an organization and is directed at decision-makers it reports to. That said, the current document can be used by other heritage or governmental organizations to derive internal guidelines for the publication of URIs.
 ---
 
 **Version**: 2.1

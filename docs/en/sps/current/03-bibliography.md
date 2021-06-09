@@ -5,6 +5,8 @@ title: Bibilography
 permalink: /en/semantic-paths-specification/current/bibliography
 other_link: /fr/specification-des-chemins-semantiques/actuel/introduction
 sidebar: sps
+date: 2021-03-22
+description: Bibliography of the Semantic Paths Specification, which presents the semantic links between CIDOC CRM entities that form the patterns presented in the Target Model and intended to answer use cases relevant to the project.
 ---
 
 <a name="art-architecture-thesaurus-2019a"></a>Art & Architecture Thesaurus. 2019a. « Call Numbers. » Art & Architecture Thesaurus Online Full Record Display. 2019. [http://www.getty.edu/vow/AATFullDisplay?find=call+number\&logic=AND\&note=\&english=N\&prev\_page=1\&subjectid=300311706](http://www.getty.edu/vow/AATFullDisplay?find=call+number\&logic=AND\&note=\&english=N\&prev\_page=1\&subjectid=300311706)

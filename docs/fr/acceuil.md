@@ -7,6 +7,7 @@ language: fr
 title: Aperçu de DOPHEDA
 permalink: /fr
 other_link: /en
+date: 2021-04-29
 ---
 
 ![A-Z Diagram](../images/000_Patterns_2.1_p.jpg)

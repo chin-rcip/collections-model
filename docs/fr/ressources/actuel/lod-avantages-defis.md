@@ -6,11 +6,13 @@ permalink: /fr/ressources/actuel/dol-avantages-defis
 other_link: /en/resources/current/lod-benefits-challenges
 sidebar: lodad
 group: ressources
+date: 2020-10-22
+description: Le présent document de travail vise à donner un aperçu des avantages qu’offrent l’ouverture et la sémantisation des données, ainsi que des défis que cela comporte. Il décrit aussi les obstacles que pourraient avoir à surmonter les institutions qui s’engagent dans ce processus.
 ---
 
 **Date de création** : 2019-08-28
 
-**Dernière mise à jour** : 2020-01-27
+**Dernière mise à jour** : 2020-10-22
 
 ## Résumé {#resume}
 

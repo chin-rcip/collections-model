@@ -4,6 +4,7 @@ language: fr
 title: À Propos
 permalink: /fr/a-propos
 other_link: /en/about
+date: 2021-03-12
 ---
 <!-- [Version française](#documentation-du-modele-collections) -->
 

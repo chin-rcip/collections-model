@@ -6,6 +6,8 @@ permalink: /en/resources/current/lod-benefits-challenges
 other_link: /fr/ressources/actuel/dol-avantages-defis
 sidebar: lodbc
 group: resources
+date: 2020-10-22
+description: This working document is intended to give an overview of the benefits and challenges of opening up and semanticizing data, as well as the potential challenges an institution might face in doing so.
 ---
 
 **Created date**: 2019-08-28

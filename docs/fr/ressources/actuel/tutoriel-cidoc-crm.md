@@ -6,6 +6,8 @@ permalink: /fr/ressources/actuel/tutoriel-cidoc-crm
 other_link: /en/resources/current/cidoc-crm-tutorial
 sidebar: tutcidocfr
 group: ressources
+date: 2021-03-12
+description: Ce document explique comment utiliser la documentation de CIDOC CRM afin de déterminer les entités susceptibles de répondre à un besoin particulier. Afin d’y parvenir, certains concepts associés aux données ouvertes et liées sont sommairement définis.
 ---
 
 **Version:** 1.0

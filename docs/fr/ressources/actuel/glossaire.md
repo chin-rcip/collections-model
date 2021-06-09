@@ -6,6 +6,8 @@ permalink: /fr/ressources/actuel/glossaire
 other_link: /en/resources/current/glossary
 sidebar: glossaire
 group: ressources
+date: 2021-04-08
+description: Glossaire des termes essentiels pour les projets DOPHEDA ; les définitions sont de nature informative plutôt que normatives. Veuillez noter que les exemples de l'utilisation du terme ne sont actuellement disponibles qu'en anglais. Pour les consulter, veuillez visionner la version bilingue de ce glossaire ou la version unilingue anglophone.
 ---
 
 **Version**: 1.0
