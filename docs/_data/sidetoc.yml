@@ -317,6 +317,9 @@ sps:
   - page: Actor Appellation Type
     url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-type
     hash: actor-appellation-type
+  - page: Actor Appellation Use Context
+    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-context
+    hash: actor-appellation-use-context
   - page: Actor Appellation Use Date Begin
     url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-begin
     hash: actor-appellation-use-date-begin
@@ -329,9 +332,6 @@ sps:
   - page: Actor Appellation Use Date End Qualifier
     url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-end-qualifier
     hash: actor-appellation-use-date-end-qualifier
-  - page: Actor Appellation Use Context
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-context
-    hash: actor-appellation-use-context
   - page: Actor ID
     url: /en/semantic-paths-specification/current/entry-nodes#actor-id
     hash: actor-id

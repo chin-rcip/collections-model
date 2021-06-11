@@ -128,6 +128,24 @@ description: The Semantic Paths Specification presents the semantic links betwee
 
 ---
 
+## Actor Appellation Use Context
+
+|---|---|
+|**Scope**|This field designates the circumstances in which an appellation is employed either by an actor to refer to themselves or by those around them to refer to them.|
+|**Generated Bond(s)**|E55\_Type|
+|**Dependency(ies)**|[Actor Appellation](#actor-appellation)|
+|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> frbr:R64i\_was\_name\_used\_by -\> frbr:F52\_Name\_Use\_Activity -\> frbr:R61\_occured\_in\_kind\_of\_context -\> **crm:E55\_Type**</span>|
+|**Target Model View(s)**|[Identifiers and Appellations](/collections-model/en/target-model/current/identification#identifiers-and-appellations)|
+|**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the proper vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
+|**Typical Case(s)**|Charles Lutwidge Dodgson wrote *Alice's Adventures in Wonderland* under his pen name “Lewis Carroll” while continuing to publish work as a mathematician under his birth name. He would thus have two Actor Appellations (“Charles Lutwidge Dodgson”, Actor Appellation Type “Birth Name”, Actor Appellation Use Context “Customary Name”; “Lewis Carroll”, Actor Appellation Type “Pen Name”, Actor Appellation Use Context “Children’s Book Writing”).|
+|**Edge Case(s)**|N/A|
+|**Value Origin(s)**|Actors Checklist: Actor Appellation Use Context: Provider Data|
+|**Controlled List/Term**|TBD|
+|**Potential Error(s)**|As the accepted vocabularies for this node will be reused in other nodes, the Actor Appellation Use Context might not be recorded in this field.|
+|**Comment(s)**|For this reason, this field might be deprecated upon future revision and any information it would hold will be recorded using either a curatorial note or an annotation. In the case of an annotation (if it is relevant), it is debatable whether it should be applied to the Appellation or to the Actor themself.|
+|**Reference(s)**|[(Art & Architecture Thesaurus 2020e)](/collections-model/en/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2020e), [(Bekiari et al. 2015, sec. F52 Name Use Activity)](/collections-model/en/semantic-paths-specification/current/bibliography#bekiari-et-al-2015), [(Free Dictionary 2020c)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2020c), [(Free Dictionary 2020d)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2020d)|
+
+---
 ## Actor Appellation Use Date Begin
 
 |---|---|
@@ -200,25 +218,6 @@ description: The Semantic Paths Specification presents the semantic links betwee
 |**Controlled List/Term**|N/A|
 |**Potential Error(s)**|TBD|
 |**Comment(s)**|There can be more than one qualifier at once for a single Actor Appellation Use Date End (e.g. “BCE” and “BC”, which is the same information, the former being qualified using the non-christian acronym for “Before Common Era” and the latter using the christian “Before Christ”).|
-|**Reference(s)**|[(Art & Architecture Thesaurus 2020e)](/collections-model/en/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2020e), [(Bekiari et al. 2015, sec. F52 Name Use Activity)](/collections-model/en/semantic-paths-specification/current/bibliography#bekiari-et-al-2015), [(Free Dictionary 2020c)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2020c), [(Free Dictionary 2020d)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2020d)|
-
----
-
-## Actor Appellation Use Context
-
-|---|---|
-|**Scope**|This field designates the circumstances in which an appellation is employed either by an actor to refer to themselves or by those around them to refer to them.|
-|**Generated Bond(s)**|E55\_Type|
-|**Dependency(ies)**|[Actor Appellation](#actor-appellation)|
-|**Full Path**|<span class="full-path">crm:E39\_Actor -\> crm:P1\_is\_identified\_by -\> crm:E41\_Appellation + crm:E33\_Linguistic\_Object -\> frbr:R64i\_was\_name\_used\_by -\> frbr:F52\_Name\_Use\_Activity -\> frbr:R61\_occured\_in\_kind\_of\_context -\> **crm:E55\_Type**</span>|
-|**Target Model View(s)**|[Identifiers and Appellations](/collections-model/en/target-model/current/identification#identifiers-and-appellations)|
-|**Semantic Valuation**|*Low*: The value provided is a string that cannot be parsed automatically by reconciliation tools but still contains the required information.<br><br>*Medium*: The value provided is a string that can be automatically cleaned and reconciled using controlled vocabularies specified by CHIN. In the event that the value is adequately structured but does not reconcile with any terms from the controlled vocabulary, and provided that it is deemed relevant, CHIN will add the term to the proper vocabulary.<br>Accepted Value Type(s): String<br><br>*High*: The provided value is a string that can be automatically reconciled with the controlled vocabularies specified by CHIN.<br>Accepted Value Type(s): String, URI|
-|**Typical Case(s)**|Charles Lutwidge Dodgson wrote *Alice's Adventures in Wonderland* under his pen name “Lewis Carroll” while continuing to publish work as a mathematician under his birth name. He would thus have two Actor Appellations (“Charles Lutwidge Dodgson”, Actor Appellation Type “Birth Name”, Actor Appellation Use Context “Customary Name”; “Lewis Carroll”, Actor Appellation Type “Pen Name”, Actor Appellation Use Context “Children’s Book Writing”).|
-|**Edge Case(s)**|N/A|
-|**Value Origin(s)**|Actors Checklist: Actor Appellation Use Context: Provider Data|
-|**Controlled List/Term**|TBD|
-|**Potential Error(s)**|As the accepted vocabularies for this node will be reused in other nodes, the Actor Appellation Use Context might not be recorded in this field.|
-|**Comment(s)**|For this reason, this field might be deprecated upon future revision and any information it would hold will be recorded using either a curatorial note or an annotation. In the case of an annotation (if it is relevant), it is debatable whether it should be applied to the Appellation or to the Actor themself.|
 |**Reference(s)**|[(Art & Architecture Thesaurus 2020e)](/collections-model/en/semantic-paths-specification/current/bibliography#art-architecture-thesaurus-2020e), [(Bekiari et al. 2015, sec. F52 Name Use Activity)](/collections-model/en/semantic-paths-specification/current/bibliography#bekiari-et-al-2015), [(Free Dictionary 2020c)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2020c), [(Free Dictionary 2020d)](/collections-model/en/semantic-paths-specification/current/bibliography#free-dictionary-2020d)|
 
 ---
