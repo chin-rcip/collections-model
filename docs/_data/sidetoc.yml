@@ -1392,3 +1392,95 @@ glossaire:
 - title: web sémantique (nom masculin)
   url: /fr/ressources/actuel/glossaire#web-semantique-nom-masculin
   hash: web-semantique-nom-masculin 
+
+
+
+diagramsen:
+
+- title: Main Use
+  url: /en/resources/current/how-to/diagrams-net-libraries#main-use
+  hash: main-use
+- title: Context
+  url: /en/resources/current/how-to/diagrams-net-libraries#context
+  hash: context
+- title: Essential Vocabularies and Prior Knowledge
+  url: /en/resources/current/how-to/diagrams-net-libraries#essential-vocabularies-and-prior-knowledge
+  hash: essential-vocabularies-and-prior-knowledge
+- title: Intended Audience(s) and Section Description
+  url: /en/resources/current/how-to/diagrams-net-libraries#intended-audiences-and-section-description
+  hash: intended-audiences-and-section-description
+- title: Instructions
+  url: /en/resources/current/how-to/diagrams-net-libraries#instructions
+  hash: instructions
+  subfolder:  
+  - page: Loading the Libraries
+    url: /en/resources/current/how-to/diagrams-net-libraries#loading-the-libraries
+    hash: loading-the-libraries
+    subsubfolder:
+    - page: Opening a Library File
+      url: /en/resources/current/how-to/diagrams-net-libraries#opening-a-library-file
+      hash: opening-a-library-file
+    - page: Loading a Library via a URL
+      url: /en/resources/current/how-to/diagrams-net-libraries#loading-a-library-via-a-url
+      hash: loading-a-library-via-a-url
+  - page: Using the Libraries
+    url: /en/resources/current/how-to/diagrams-net-libraries#using-the-libraries
+    hash: using-the-libraries
+- title: Memory Aids
+  url: /en/resources/current/how-to/diagrams-net-libraries#memory-aids
+  hash: memory-aids
+- title: To Know More
+  url: /en/resources/current/how-to/diagrams-net-libraries#to-know-more
+  hash: to-know-more
+- title: License
+  url: /en/resources/current/how-to/diagrams-net-libraries#license
+  hash: license
+- title: Bibliography
+  url: /en/resources/current/how-to/diagrams-net-libraries#bibliography
+  hash: bibliography
+
+diagramsfr:
+
+- title: Utilisation principale
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#utilisation-principale
+  hash: utilisation-principale
+- title: Contexte
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#contexte
+  hash: contexte
+- title: Vocabulaire de base et connaissances préalables
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#vocabulaire-de-base-et-connaissances-prealables
+  hash: vocabulaire-de-base-et-connaissances-prealables
+- title: Auditoire visé et description des sections
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#auditoire-vise-et-description-des-sections
+  hash: auditoire-vise-et-description-des-sections
+- title: Instructions
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#instructions
+  hash: instructions
+  subfolder:
+  - page: Chargement des bibliothèques
+    url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#chargement-des-bibliotheques
+    hash: chargement-des-bibliotheques
+    subsubfolder:
+    - page: Ouverture d’une bibliothèque
+      url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#ouverture-dune-bibliotheque
+      hash: ouverture-dune-bibliotheque
+    - page: Chargement d’une bibliothèque par son URL
+      url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#chargement-dune-bibliothèque-par-son-URL
+      hash: chargement-dune-bibliothèque-par-son-URL
+  - page: Utilisation des bibliothèques
+    url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#utilisation-des-bibliotheques
+    hash: utilisation-des-bibliotheques
+- title: Aide-mémoire
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#aide-memoire
+  hash: aide-memoire
+- title: Pour en savoir plus
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#pour-en-savoir-plus
+  hash: pour-en-savoir-plus
+- title: Licence
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#licence
+  hash: licence
+- title: Bibliographie
+  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#bibliographie
+  hash: bibliographie
+
+

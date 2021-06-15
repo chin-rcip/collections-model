@@ -7,14 +7,14 @@
       {%- assign page_paths = site.header_pages_en -%}
       {%- assign site_title = site.title -%}
       {%- assign site_link = '/' | relative_url | append: 'en' -%}
-      {%- assign header_groups = "resources, technical reports" | split: ", " -%}
+      {%- assign header_groups = "resources:how-to, technical reports" | split: ", " -%}
       {%- assign other_link = page.other_link -%}
       {%- assign language = "FR" -%}
     {% elsif page.language == "fr" %}
       {%- assign page_paths = site.header_pages_fr -%}
       {%- assign site_title = site.titre -%}
       {%- assign site_link = '/' | relative_url | append: 'fr' -%}
-      {%- assign header_groups = "ressources, rapports techniques" | split: ", " -%}
+      {%- assign header_groups = "ressources:mode d'emploi, rapports techniques" | split: ", " -%}
       {%- assign other_link = page.other_link -%}
       {%- assign language = "EN" -%}
     {% else %}
@@ -49,17 +49,38 @@
 
 
           {%- if header_groups -%}
-          {%- for group in header_groups -%}
-            <div class="has-dropdown page-link">{{ group | capitalize }} &#9662;
+          {%- for groups in header_groups -%}
+          {%- assign group = groups | split: ":" -%}
+          {%- assign subgroups = group[1] | split: "/" -%}
+            <div class="has-dropdown page-link">{{ group[0] | capitalize }} &#9662;
               <div class="dropdown">
                 {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.title and my_page.group -%}
-                  {%- if my_page.group == group -%}
+                  {%- if my_page.group == group[0] -%}
+                    {%- unless my_page.subgroup -%}
                     <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    {%- endunless -%}
                   {%- endif -%}
                 {%- endif -%}
                 {%- endfor -%}
+
+                {%- if subgroups -%}
+                {%- for subgroup in subgroups -%}
+                <div class="has-dropdown">{{ subgroup | capitalize }} &#9662;
+                  <div class="dropdown">
+                    {%- for path in page_paths -%}
+                    {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.title and my_page.subgroup -%}
+                      {%- if my_page.subgroup == subgroup%}
+                        <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                      {%- endif -%}
+                    {%- endif -%}
+                    {%- endfor -%}
+                  </div>
+                </div>
+                {%- endfor -%}
+                {%- endif -%}
               </div>
             </div>
           {%- endfor -%}

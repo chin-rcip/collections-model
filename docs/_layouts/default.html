@@ -149,13 +149,21 @@
         highlight();
 
         // dropdown menu toggle
-        $(".has-dropdown").click(function(){
-          var other_dropdown = $(".has-dropdown").not(this);
-          other_dropdown.removeClass("visible");
-          other_dropdown.find(".dropdown").removeClass("visible");
-          $(this).find(".dropdown").toggleClass("visible");
-          $(this).toggleClass("visible");
-        });
+        // $(".has-dropdown").click(function(){
+        //   var other_dropdown = $(".trigger>.has-dropdown").not(this);
+        //   other_dropdown.removeClass("visible");
+        //   other_dropdown.find(".dropdown").removeClass("visible");      
+        //   $(this).children(".dropdown").toggleClass("visible");
+        //   $(this).toggleClass("visible");
+        //   console.log($(this).children(".dropdown").text())
+        // });
+
+        // $(".has-subdropdown").click(function(){
+        //   console.log($(this),$(this).children())
+        //   $(this).children(".dropdown").toggleClass("visible");
+        //   $(this).toggleClass("visible");
+
+        // });
 
         // // detect language of content by the first visible header
         // var hders = $(".content :header").not("h1"); // get all headers in the main-content except <h1>
@@ -186,9 +194,19 @@
 
       // click anywhere in the html to hide dropdown menu
       $(document).on("click", function(event){
-        console.log($(event.target))
         if (!$(event.target).hasClass("has-dropdown")){
-          $(".has-dropdown,.dropdown").removeClass("visible");
+            $(".has-dropdown,.dropdown").removeClass("visible");
+        } else {
+          // var other_dropdown = $(".has-dropdown").not(event.target);
+          if (!$(event.target).parent().hasClass(".dropdown.visible")){
+            var other_dropdown = $(event.target).siblings();
+            other_dropdown.removeClass("visible");
+            other_dropdown.find(".dropdown").removeClass("visible"); 
+          }     
+          $(event.target).children(".dropdown").toggleClass("visible");
+          $(event.target).toggleClass("visible");
+          console.log($(event.target).children(".dropdown").text())
+          
         };
         if ($(event.target).hasClass("modal")){
           $(".modal").hide();

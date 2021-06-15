@@ -320,12 +320,16 @@ header .wrapper {
     z-index: 1;
   }
 
+.dropdown .dropdown {
+	position: static;
+	background-color: lightgrey;
+}
 .dropdown.visible {
  	display: flex;
  	flex-direction: column;
   }
 
-.dropdown>a {
+.dropdown>a, .dropdown>div {
 	margin: 10px;
 	color: #111;
 	line-height: 1.5;
@@ -367,6 +371,10 @@ header .wrapper {
 }
 .second-lang.show {
     display: table-cell;
+}
+
+img {
+	border: 1px solid lightgray;
 }
 
 /*--- style when changing windown size ---*/
