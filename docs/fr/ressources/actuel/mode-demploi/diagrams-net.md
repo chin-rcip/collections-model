@@ -173,7 +173,7 @@ Pour trouver une forme en particulier (classes ou propriétés), entrez son code
 
   - Interrogez l’outil de recherche pour trouver une entité par son code ou son titre.
 
-## Pour en savoir plus
+## Pour plus d'informations
 
 Pour en savoir plus sur la création, l’échange et le chargement des bibliothèques de formes dans diagrams.net, consultez les ressources documentaires suivantes (en anglais seulement) :
 

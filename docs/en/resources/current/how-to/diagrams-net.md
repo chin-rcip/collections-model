@@ -173,7 +173,7 @@ To search for any shape, either classes or properties, enter its CIDOC CRM code
 
   - Use the Search tool to find an entity, either by code and/or label.
 
-## To Know More
+## For More Information
 
 Consult the following resources for further information on how to generate, share and load diagrams.net’s custom libraries in general:
 
@@ -181,7 +181,7 @@ Consult the following resources for further information on how to generate, shar
 
   - [http://jgraph.github.io/drawio-libs/](http://jgraph.github.io/drawio-libs/)
 
-## License
+## Licence
 
 Files in this repository are made available under the MIT License. To meet the attribution requirements of this license, you must indicate the copyright holder using the following:
 
