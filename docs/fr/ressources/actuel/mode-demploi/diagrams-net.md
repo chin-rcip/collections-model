@@ -187,6 +187,9 @@ Les fichiers de ce répertoire sont distribués en vertu de la licence MIT. Pour
 
 > Copyright (c) 2021 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada
 
+> diagrams.net est distribué sous la licence [Apache License 2.0](https://github.com/jgraph/drawio/blob/dev/LICENSE).
+> Copyright 2021 diagrams.net (JGraph)
+
 ## Bibliographie
 
 Benson, David. 2020. « *Work with Custom Shape Libraries* ». Legacy desk – do not use. 15 septembre 2020. [https://drawio.freshdesk.com/support/solutions/articles/16000067790-work-with-custom-shape-libraries](https://drawio.freshdesk.com/support/solutions/articles/16000067790-work-with-custom-shape-libraries). (En anglais seulement)
