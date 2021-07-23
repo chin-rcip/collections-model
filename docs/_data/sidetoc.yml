@@ -1483,4 +1483,117 @@ diagramsfr:
   url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#bibliographie
   hash: bibliographie
 
+criteriaen:
+
+- title: Main Use
+  url: /en/resources/current/how-to/criteria#main-use
+  hash: main-use
+- title: Context
+  url: /en/resources/current/how-to/criteria#context
+  hash: context
+- title: Essential Vocabularies and Prior Knowledge
+  url: /en/resources/current/how-to/criteria#essential-vocabularies-and-prior-knowledge
+  hash: essential-vocabularies-and-prior-knowledge
+- title: Intended Audiences
+  url: /en/resources/current/how-to/criteria#intended-audiences
+  hash: intended-audiences
+- title: Instructions
+  url: /en/resources/current/how-to/criteria#instructions
+  hash: instructions
+  subfolder:
+  - page: Live demonstrator
+    url: /en/resources/current/how-to/criteria#live-demonstrator
+    hash: live-demonstrator
+    subsubfolder:
+    - page: Recommended browsers
+      url: /en/resources/current/how-to/criteria#recommended-browsers
+      hash: recommended-browsers
+    - page: Usage
+      url: /en/resources/current/how-to/criteria#usage
+      hash: usage
+  - page: Command Line Interface (CLI)
+    url: /en/resources/current/how-to/criteria#command-line-interface-cli
+    hash: command-line-interface-cli
+    subsubfolder:
+    - page: Installation
+      url: /en/resources/current/how-to/criteria#installation
+      hash: installation
+    - page: Requirements
+      url: /en/resources/current/how-to/criteria#requirements
+      hash: requirements
+    - page: Usage
+      url: /en/resources/current/how-to/criteria#usage-1
+      hash: usage-1
+- title: Memory Aids
+  url: /en/resources/current/how-to/criteria#memory-aids
+  hash: memory-aids
+- title: For More Information
+  url: /en/resources/current/how-to/criteria#for-more-information
+  hash: for-more-information
+- title: Licence
+  url: /en/resources/current/how-to/criteria#licence
+  hash: licence
+- title: Notable Users
+  url: /en/resources/current/how-to/criteria#notable-users
+  hash: notable-users
+- title: Bibliography
+  url: /en/resources/current/how-to/criteria#bibliography
+  hash: bibliography
+
+criteriafr:
+
+- title: Utilisation principale
+  url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-principale
+  hash: utilisation-principale
+- title: Contexte
+  url: /fr/ressources/actuel/mode-demploi/criteria#contexte
+  hash: contexte
+- title: Vocabulaire de base et connaissances préalables
+  url: /fr/ressources/actuel/mode-demploi/criteria#vocabulaire-de-base-et-connaissances-prealables
+  hash: vocabulaire-de-base-et-connaissances-prealables
+- title: Auditoires visés
+  url: /fr/ressources/actuel/mode-demploi/criteria#auditoires-vises
+  hash: auditoires-vises
+- title: Instructions
+  url: /fr/ressources/actuel/mode-demploi/criteria#instructions
+  hash: instructions
+  subfolder:
+  - page: Démonstrateur en ligne
+    url: /fr/ressources/actuel/mode-demploi/criteria#demonstrateur-en-ligne
+    hash: demonstrateur-en-ligne
+    subsubfolder:
+    - page: Navigateurs recommandés
+      url: /fr/ressources/actuel/mode-demploi/criteria#navigateurs-recommandes
+      hash: navigateurs-recommandes
+    - page: Utilisation
+      url: /fr/ressources/actuel/mode-demploi/criteria#utilisation
+      hash: utilisation
+  - page: Interface en ligne de commande
+    url: /fr/ressources/actuel/mode-demploi/criteria#interface-en-ligne-de-commande
+    hash: interface-en-ligne-de-commande
+    subsubfolder:
+    - page: Installation
+      url: /fr/ressources/actuel/mode-demploi/criteria#installation
+      hash: installation
+    - page: Dépendances
+      url: /fr/ressources/actuel/mode-demploi/criteria#dependances
+      hash: dependances
+    - page: Utilisation
+      url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-1
+      hash: utilisation-1
+- title: Aide-mémoire
+  url: /fr/ressources/actuel/mode-demploi/criteria#aide-memoire
+  hash: aide-memoire
+- title: Pour en savoir plus
+  url: /fr/ressources/actuel/mode-demploi/criteria#pour-en-savoir-plus
+  hash: pour-en-savoir-plus
+- title: Licence
+  url: /fr/ressources/actuel/mode-demploi/criteria#licence
+  hash: licence
+- title: Utilisateurs dignes de mention
+  url: /fr/ressources/actuel/mode-demploi/criteria#utilisateurs-dignes-de-mention
+  hash: utilisateurs-dignes-de-mention
+- title: Bibliographie
+  url: /fr/ressources/actuel/mode-demploi/criteria#bibliographie
+  hash: bibliographie
 
