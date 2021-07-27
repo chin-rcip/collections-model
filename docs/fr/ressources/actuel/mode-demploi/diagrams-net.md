@@ -53,16 +53,16 @@ Chaque bibliothèque contient les formes de toutes les [classes](https://chin-rc
 
 <table>
 <tbody>
-<tr><td style="background-color: #FFFFFF">`E1_CRM_Entity` et toute sous-classe ne faisant pas partie des classes ci-dessous (#FFFFFF)</td></tr>
-<tr><td style="background-color: #82C3EC">`E2_Temporal_Entity` et ses sous-classes (#82C3EC)</td></tr>
-<tr><td style="background-color: #FAB565">`E55_Type` et ses sous-classes (#FAB565)</td></tr>
-<tr><td style="background-color: #86BCC8">`E52_Time-Span` et ses sous-classes (#86BCC8)</td></tr>
-<tr><td style="background-color: #FEF3BA">`E41_Appellation` et ses sous-classes (#FEF3BA)</td></tr>
-<tr><td style="background-color: #94CC7D">`E53_Place` et ses sous-classes (#94CC7D)</td></tr>
-<tr><td style="background-color: #FDDC34">`E28_Conceptual_Object` et ses sous-classes (#FDDC34)</td></tr>
-<tr><td style="background-color: #E1BA9C">`E18_Physical_Thing` et ses sous-classes (#E1BA9C)</td></tr>
-<tr><td style="background-color: #FFBDCA">`E41_Actor` et ses sous-classes (#FFBDCA)</td></tr>
-<tr><td style="background-color: #CC80FF">Toutes les PC_Classes (#CC80FF)</td></tr>
+<tr><td style="background-color: #FFFFFF"><code class="language-plaintext highlighter-rouge">E1_CRM_Entity</code> et toute sous-classe ne faisant pas partie des classes ci-dessous (#FFFFFF)</td></tr>
+<tr><td style="background-color: #82C3EC"><code class="language-plaintext highlighter-rouge">E2_Temporal_Entity</code> et ses sous-classes (#82C3EC)</td></tr>
+<tr><td style="background-color: #FAB565"><code class="language-plaintext highlighter-rouge">E55_Type</code> et ses sous-classes (#FAB565)</td></tr>
+<tr><td style="background-color: #86BCC8"><code class="language-plaintext highlighter-rouge">E52_Time-Span</code> et ses sous-classes (#86BCC8)</td></tr>
+<tr><td style="background-color: #FEF3BA"><code class="language-plaintext highlighter-rouge">E41_Appellation</code> et ses sous-classes (#FEF3BA)</td></tr>
+<tr><td style="background-color: #94CC7D"><code class="language-plaintext highlighter-rouge">E53_Place</code> et ses sous-classes (#94CC7D)</td></tr>
+<tr><td style="background-color: #FDDC34"><code class="language-plaintext highlighter-rouge">E28_Conceptual_Object</code> et ses sous-classes (#FDDC34)</td></tr>
+<tr><td style="background-color: #E1BA9C"><code class="language-plaintext highlighter-rouge">E18_Physical_Thing</code> et ses sous-classes (#E1BA9C)</td></tr>
+<tr><td style="background-color: #FFBDCA"><code class="language-plaintext highlighter-rouge">E41_Actor</code> et ses sous-classes (#FFBDCA)</td></tr>
+<tr><td style="background-color: #CC80FF">Toutes les <code class="language-plaintext highlighter-rouge">PC_Classes</code> (#CC80FF)</td></tr>
 </tbody>
 </table>
 
