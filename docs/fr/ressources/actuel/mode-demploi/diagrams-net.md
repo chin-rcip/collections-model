@@ -70,11 +70,11 @@ Chaque bibliothèque contient les formes de toutes les [classes](https://chin-rc
 
 Quiconque voulant visualiser des modèles de données fondés sur le CIDOC CRM et ses extensions peut utiliser cet outil. Selon la version de diagrams.net utilisée, deux versions permettent de charger les bibliothèques :
 
-  - [version bureau (version locale)](#ouverture-dune-bibliothèque)
+  - [version bureau (version locale)](#ouverture-dune-bibliotheque)
 
-  - [version en ligne](#chargement-dune-bibliothèque-par-son-url)
+  - [version en ligne](#chargement-dune-bibliotheque-par-son-url)
 
-Vous trouverez à la rubrique [Utilisation des bibliothèques](#utilisation-des-bibliothèques) une description plus approfondie des bibliothèques et des conseils sur leur utilisation.
+Vous trouverez à la rubrique [Utilisation des bibliothèques](#utilisation-des-bibliotheques) une description plus approfondie des bibliothèques et des conseils sur leur utilisation.
 
 ## Instructions
 
@@ -127,7 +127,7 @@ OU
 
 ![](/collections-model/images/diagrams_net_fr_1.png)
 
-#### Chargement d’une bibliothèque par son URL {#chargement-dune-bibliothèque-par-son-URL}
+#### Chargement d’une bibliothèque par son URL {#chargement-dune-bibliotheque-par-son-URL}
 
 *Cette option est la plus appropriée à l’usage en ligne du logiciel diagrams.net.*
 
