@@ -321,8 +321,11 @@ header .wrapper {
   }
 
 .dropdown .dropdown {
-	position: static;
+	/*position: absolute;*/
 	background-color: lightgrey;
+	width: calc(100% + 20px);
+    right: -15px;
+    white-space: normal;
 }
 .dropdown.visible {
  	display: flex;
