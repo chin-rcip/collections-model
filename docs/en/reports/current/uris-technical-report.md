@@ -292,7 +292,7 @@ This question is currently being examined by CHIN and will be added once its wri
 
   - Relevant envisioned integrity and security principles and/or protocols.
 
-For comments or inquiries, please do not hesitate to contact us at <pch.RCIP-CHIN.pch@canada.ca> with the subject “URI Technical Report”.
+For comments or inquiries, please do not hesitate to contact us at <rcip-chin@pch.gc.ca> with the subject “URI Technical Report”.
 
 ---
 

@@ -20,7 +20,7 @@ description: Ce document présente un aperçu de ce que CRITERIA offre comme fon
 
 **Résumé** : Ce document présente un aperçu de ce que CRITERIA offre comme fonctionnalités ainsi que les instructions à suivre pour utiliser l’outil.
 
-**Pour information** : Si vous avez des questions ou des commentaires sur CRITERIA, veuillez consulter la section [Issues](https://github.com/chin-rcip/CRITERIA/issues) (et créez une nouvelle problématique « Issue » si pertinent) ou communiquez avec nous par courriel, à l’adresse [pch.RCIP-CHIN.pch@canada.ca](mailto:pch.RCIP-CHIN.pch@canada.ca). Indiquez « CRITERIA » en objet.
+**Pour information** : Si vous avez des questions ou des commentaires sur CRITERIA, veuillez consulter la section [Issues](https://github.com/chin-rcip/CRITERIA/issues) (et créez une nouvelle problématique « Issue » si pertinent) ou communiquez avec nous par courriel, à l’adresse [rcip-chin@pch.gc.ca](mailto:rcip-chin@pch.gc.ca). Indiquez « CRITERIA » en objet.
 
 
 ## Utilisation principale

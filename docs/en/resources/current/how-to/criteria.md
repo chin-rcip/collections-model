@@ -20,7 +20,7 @@ description: This document details an overview of CRITERIA, its usage, and instr
 
 **Abstract**: This document details an overview of CRITERIA, its usage, and instructions.
 
-**Contact**: For questions or comments regarding CRITERIA, please consult the [Issues](https://github.com/chin-rcip/CRITERIA/issues) section (and open an Issue if it is relevant) or contact us by email at the following address: [pch.RCIP-CHIN.pch@canada.ca](mailto:pch.RCIP-CHIN.pch@canada.ca) with “CRITERIA” in the subject line.
+**Contact**: For questions or comments regarding CRITERIA, please consult the [Issues](https://github.com/chin-rcip/CRITERIA/issues) section (and open an Issue if it is relevant) or contact us by email at the following address: [rcip-chin@pch.gc.ca](mailto:rcip-chin@pch.gc.ca) with “CRITERIA” in the subject line.
 
 
 ## Main Use

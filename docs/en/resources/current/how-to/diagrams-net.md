@@ -20,7 +20,7 @@ description: This document provides an overview of diagrams.net libraries and in
 
 **Abstract**: This document provides an overview of diagrams.net libraries and instructions on how to use them.
 
-**Contact**: For any questions and/or feedback, please contact us at pch.RCIP-CHIN.pch@canada.ca, indicating “diagrams.net libraries” in the subject line of the email.
+**Contact**: For any questions and/or feedback, please contact us at rcip-chin@pch.gc.ca, indicating “diagrams.net libraries” in the subject line of the email.
 
 ## Main Use
 

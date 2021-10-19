@@ -19,7 +19,7 @@ description: Ce document présente un aperçu des bibliothèques logicielles dia
 
 **Résumé** : Ce document présente un aperçu des bibliothèques logicielles diagrams.net et explique comment les utiliser.
 
-**Des questions?** : Veuillez adresser vos questions et commentaires par courriel à l’adresse [pch.RCIP-CHIN.pch@canada.ca](mailto:pch.RCIP-CHIN.pch@canada.ca). Précisez « Bibliothèques diagrams.net » dans l’objet.
+**Des questions?** : Veuillez adresser vos questions et commentaires par courriel à l’adresse [rcip-chin@pch.gc.ca](mailto:rcip-chin@pch.gc.ca). Précisez « Bibliothèques diagrams.net » dans l’objet.
 
 ## Utilisation principale
 
