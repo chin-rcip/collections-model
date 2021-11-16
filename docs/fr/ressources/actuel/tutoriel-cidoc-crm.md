@@ -181,11 +181,17 @@ Chaque entité est décrite à l’aide d’une série de champs, dont en voici 
 ## Bibliographie
 
 Bekiari, Chryssoula, George Bruseker, Martin Doerr, Christian-Emil Ore, Stephen Stead, et Athanasios Velios, éd. 2021. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 7.1. Paris, FR-IDF: CIDOC CRM  Special Interest Group. [http://cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf](http://cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf).
+
 CIDOC CRM. 2021. « CRMgeo ». 2021. [http://www.cidoc-crm.org/crmgeo/home-5](http://www.cidoc-crm.org/crmgeo/home-5).
+
 CIDOC CRM Special Interest Group. 2021. « Tutorials ». CIDOC CRM. octobre 2021. [http://www.cidoc-crm.org/tutorialPageRes](http://www.cidoc-crm.org/tutorialPageRes).
+
 FORTH. 2015. *CRMgeo: A Spatiotemporal Model: An Extension of CIDOC CRM to Link the CIDOC CRM to GeoSPARQL through a Spatiotemporal Refinement*. GR. [http://www.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf](http://www.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf).
+
 Groupe de travail canadien pour la traduction du CIDOC CRM. 2021. « Traduction en français du CIDOC CRM ». Traduction en français du CIDOC CRM. 3 juin 2021. [https://chin-rcip.github.io/cidoc_crm_fr-ca/](https://chin-rcip.github.io/cidoc_crm_fr-ca/).
+
 Guillem, Anaïs, et George Bruseker. (2017) 2021. « CIDOC CRM Game ». CIDOC CRM Game. 2021. [http://www.cidoc-crm-game.org/](http://www.cidoc-crm-game.org/).
+
 Stead, Stephen. 2008. « CIDOC CRM Tutorial ». CIDOC CRM. novembre 2008. [http://www.cidoc-crm.org/cidoc-crm-tutorial](http://www.cidoc-crm.org/cidoc-crm-tutorial).
 
 
