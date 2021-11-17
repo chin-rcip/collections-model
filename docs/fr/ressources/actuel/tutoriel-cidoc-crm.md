@@ -116,7 +116,7 @@ Afin de faciliter la recherche dans la spécification du CIDOC CRM, certaines cl
   
 Diagramme des classes principales du CIDOC CRM
 
-<iframe frameborder="0" style="width:100%;height:363px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1MyiY_AgcstOBtW7-QBOAc4xNJEEeZ5oX"></iframe>
+<iframe frameborder="0" style="width:100%;height:363px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CRM_ClassesPrincipales_2021-11-04.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1u6bnEUFB4WMzagTiurfA-PZgnjmPmrlT%26export%3Ddownload"></iframe>
 
 La classe `E2_Entité_temporelle` et ses sous-classes permettent de lier les personnes ou groupes qui ont participé à un évènement aux objets physiques ou conceptuels utilisés ou créés lors de celui-ci. La durée de cet évènement peut être indiquée en utilisant la classe `E52_Intervalle_temporel` et les lieux où se déroule l’action peuvent être identifiés grâce à la classe `E53_Lieu`.
 
@@ -130,7 +130,7 @@ Trois propriétés (illustrées ci-dessous) permettent de documenter l’interva
 
 Diagramme de l’intervalle de temps
 
-<iframe frameborder="0" style="width:100%;height:302px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1bFAryIxZFbx580XXD4PmSl0dMNjeApys"></iframe>
+<iframe frameborder="0" style="width:100%;height:302px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CRM_Temporalite_2021-11-04.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pALuxT_l-7QJpzfr7XSeJlKGAG22Zoux%26export%3Ddownload"></iframe>
 
 Premièrement, la propriété `P191_a_eu_pour_durée` permet d’indiquer pendant combien de temps l’évènement s’est déroulé : par exemple, l'évènement a duré trois jours.
 
