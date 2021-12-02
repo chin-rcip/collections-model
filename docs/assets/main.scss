@@ -241,7 +241,7 @@ li a.active {
 /*--- content column ---*/
 
 .column.content a {
-	overflow-wrap: anywhere;
+	overflow-wrap: break-word;
 }
 /*.main-with-sidebar div.wrapper{
 	margin-left: 0;
@@ -251,11 +251,18 @@ li a.active {
 
 /*--- align table text ---*/
 
+.content table {
+	table-layout: fixed;
+	word-wrap: break-word;
+}
 td {
 	vertical-align: top;
+	width: 20%;
 }
 
-
+td+td {
+	width: auto;
+}
 
 /*--- hide content ---*/
 
