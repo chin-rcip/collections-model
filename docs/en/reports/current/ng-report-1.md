@@ -112,7 +112,12 @@ The analytic responses were:
 
 The descriptive responses for the motivation for the adoption of particular named graph format (2.b.) included:
 
-<table><thead><tr class="header"><th>Type></th><th>Reason</th></tr></thead><tbody><tr class="odd"><td>General</td><td><p>readability</p><p>recommendation</p></td></tr><tr class="even"><td>N-Quad></td><td><p>data loading</p><p>compact</p><p>data management</p><p>ease of use></p></td></tr><tr class="odd"><td>Tri-G</td><td>readability</td></tr><tr class="even"><td>JSON-LD</td><td>publication</td></tr></tbody></table>
+|Type|Reason|
+|---|---|
+|General|readability<br>recommendation|
+|N-Quad|data loading<br>compact<br>data management<br>ease of use|
+|Tri-G|readability|
+|JSON-LD|publication|
 
 We can conclude from these results that the more widely adopted format is N-Quad because of its facilitation of data management operations, particularly data loading. Additional named graph formats find use for publication and in order to facilitate readability. The general motivation for adopting a particular format tends to follow the function it is to be put to use in supporting the desired named graph actions. In the survey results, there is a strong focus on the functionality of data management, for which there is a tendency to favour the N-Quad format.
 
