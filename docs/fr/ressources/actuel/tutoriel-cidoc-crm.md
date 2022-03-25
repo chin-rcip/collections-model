@@ -30,7 +30,7 @@ description: Ce document explique comment utiliser la documentation de CIDOC CRM
 
 ## Contexte
 
-Le *Conceptual Reference Model* du *Comité international pour la documentation* (CIDOC CRM) est une ontologie formelle ayant pour objectif de faciliter l’intégration, la médiation et l’échange d’informations patrimoniales hétérogènes. Plus spécifiquement, ce modèle définit la sémantique qui sous-tend les schèmes de base de données et les structures des documents utilisés par les institutions muséales et patrimoniales. En outre, il permet d’expliquer la logique de ce que ces institutions documentent afin de favoriser l’interopérabilité sémantique.
+Le *Conceptual Reference Model* du Comité international pour la documentation (CIDOC CRM) est une ontologie formelle ayant pour objectif de faciliter l’intégration, la médiation et l’échange d’informations patrimoniales hétérogènes. Plus spécifiquement, ce modèle définit la sémantique qui sous-tend les schèmes de base de données et les structures des documents utilisés par les institutions muséales et patrimoniales. En outre, il permet d’expliquer la logique de ce que ces institutions documentent afin de favoriser l’interopérabilité sémantique.
 
 ## Vocabulaire de base et connaissances préalables {#vocabulaire-de-base-et-connaissances-prealables}
 
@@ -45,7 +45,7 @@ Avant de poursuivre, toute personne utilisant le CIDOC CRM, que ce soit à des f
 
 ### Auditoire
 
-Ce tutoriel s’adresse aux personnes ayant des connaissances techniques et informatiques préalables qui désirent se familiariser avec le CIDOC CRM.  
+Ce tutoriel s’adresse aux personnes ayant des connaissances techniques et informatiques préalables qui désirent se familiariser avec le CIDOC CRM.
 
 ### Sections
 
@@ -113,7 +113,7 @@ Certaines entités ne font partie d’aucune de ces deux catégories; c’est no
 #### Classes principales du CIDOC CRM
 
 Afin de faciliter la recherche dans la spécification du CIDOC CRM, certaines classes peuvent être utilisées comme point de départ pour identifier l’entité la plus appropriée à un besoin. Le diagramme suivant met en lumière les classes principales du CIDOC CRM :
-  
+
 Diagramme des classes principales du CIDOC CRM
 
 <iframe frameborder="0" style="width:100%;height:363px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CRM_ClassesPrincipales_2021-11-04.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1u6bnEUFB4WMzagTiurfA-PZgnjmPmrlT%26export%3Ddownload"></iframe>
@@ -155,7 +155,6 @@ Chaque entité est décrite à l’aide d’une série de champs, dont en voici 
 * « Exemples » illustre des instances possibles de la classe.
 * « Propriétés » identifie les propriétés immédiatement associées à la classe consultée (c.-à-d. que cette classe en est le domaine). Les propriétés associées aux super-classes d’une classe peuvent aussi être mobilisées par cette dernière même si elles ne sont pas listées dans ce champ. Il en va de même pour les propriétés inverses. Pour avoir un aperçu de l’ensemble des propriétés, de leurs domaines et de leurs portées, il est pertinent de se référer à la [hiérarchie générale](http://www.cidoc-crm.org/Version/version-7.1.1). 
 
-
 **Pour les propriétés**
 
 * « Domaine » et « Portée » identifient rapidement le domaine et la portée de la propriété consultée.
@@ -173,25 +172,24 @@ Chaque entité est décrite à l’aide d’une série de champs, dont en voici 
 
 ## Pour plus d’informations
 
-- [Jeu d’apprentissage du CIDOC CRM](http://www.cidoc-crm-game.org/) (en anglais seulement)
-- [Tutoriels sur des aspects précis du CIDOC CRM](http://www.cidoc-crm.org/tutorialPageRes) (la plupart en anglais)
-- [Site du Groupe de travail canadien pour la traduction du CIDOC CRM](https://chin-rcip.github.io/cidoc_crm_fr-ca/)
-- [Vidéo de présentation du CIDOC CRM](http://www.cidoc-crm.org/cidoc-crm-tutorial) (en anglais seulement)
+* [Jeu d’apprentissage du CIDOC CRM](http://www.cidoc-crm-game.org/) (en anglais seulement)
+* [Tutoriels sur des aspects précis du CIDOC CRM](http://www.cidoc-crm.org/tutorialPageRes) (la plupart en anglais)
+* [Site du Groupe de travail canadien pour la traduction du CIDOC CRM](https://chin-rcip.github.io/cidoc_crm_fr-ca/)
+* [Vidéo de présentation du CIDOC CRM](http://www.cidoc-crm.org/cidoc-crm-tutorial) (en anglais seulement)
 
 ## Bibliographie
 
-Bekiari, Chryssoula, George Bruseker, Martin Doerr, Christian-Emil Ore, Stephen Stead, et Athanasios Velios, éd. 2021. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 7.1. Paris, FR-IDF: CIDOC CRM  Special Interest Group. [http://cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf](http://cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf).
+Bekiari, Chryssoula, George Bruseker, Martin Doerr, Christian-Emil Ore, Stephen Stead, et Athanasios Velios, éd. *Definition of the CIDOC Conceptual Reference Model*. CIDOC CRM Documentations, 7.1. Paris, FR-IDF: CIDOC CRM Special Interest Group, 2021. [http://cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf](http://cidoc-crm.org/sites/default/files/CIDOC%20CRM_v.7.1%20%5B8%20March%202021%5D.pdf).
 
-CIDOC CRM. 2021. « CRMgeo ». 2021. [http://www.cidoc-crm.org/crmgeo/home-5](http://www.cidoc-crm.org/crmgeo/home-5).
+CIDOC CRM. « CRMgeo ». 2021. [http://www.cidoc-crm.org/crmgeo/home-5](http://www.cidoc-crm.org/crmgeo/home-5).
 
-CIDOC CRM Special Interest Group. 2021. « Tutorials ». CIDOC CRM. octobre 2021. [http://www.cidoc-crm.org/tutorialPageRes](http://www.cidoc-crm.org/tutorialPageRes).
+CIDOC CRM Special Interest Group. « Tutorials ». CIDOC CRM. Octobre 2021. [http://www.cidoc-crm.org/tutorialPageRes](http://www.cidoc-crm.org/tutorialPageRes).
 
-FORTH. 2015. *CRMgeo: A Spatiotemporal Model: An Extension of CIDOC CRM to Link the CIDOC CRM to GeoSPARQL through a Spatiotemporal Refinement*. GR. [http://www.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf](http://www.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf).
+FORTH. *CRMgeo: A Spatiotemporal Model: An Extension of CIDOC CRM to Link the CIDOC CRM to GeoSPARQL through a Spatiotemporal Refinement*. GR. 2015. [http://www.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf](http://www.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf).
 
-Groupe de travail canadien pour la traduction du CIDOC CRM. 2021. « Traduction en français du CIDOC CRM ». Traduction en français du CIDOC CRM. 3 juin 2021. [https://chin-rcip.github.io/cidoc_crm_fr-ca/](https://chin-rcip.github.io/cidoc_crm_fr-ca/).
+Groupe de travail canadien pour la traduction du CIDOC CRM. « Traduction en français du CIDOC CRM ». Traduction en français du CIDOC CRM. 3 juin 2021. [https://chin-rcip.github.io/cidoc_crm_fr-ca/](https://chin-rcip.github.io/cidoc_crm_fr-ca/).
 
-Guillem, Anaïs, et George Bruseker. (2017) 2021. « CIDOC CRM Game ». CIDOC CRM Game. 2021. [http://www.cidoc-crm-game.org/](http://www.cidoc-crm-game.org/).
+Guillem, Anaïs, et George Bruseker. « CIDOC CRM Game ». CIDOC CRM Game. 2021 [2017]. [http://www.cidoc-crm-game.org/](http://www.cidoc-crm-game.org/).
 
-Stead, Stephen. 2008. « CIDOC CRM Tutorial ». CIDOC CRM. novembre 2008. [http://www.cidoc-crm.org/cidoc-crm-tutorial](http://www.cidoc-crm.org/cidoc-crm-tutorial).
-
+Stead, Stephen. « CIDOC CRM Tutorial ». CIDOC CRM. Novembre 2008. [http://www.cidoc-crm.org/cidoc-crm-tutorial](http://www.cidoc-crm.org/cidoc-crm-tutorial).
 
