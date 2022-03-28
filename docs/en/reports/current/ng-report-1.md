@@ -7,7 +7,7 @@ other_link: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1
 sidebar: ng1
 group: technical reports
 coauthor: George Bruseker
-date: 2021-02-23
+date: 2022-03-11
 description: This report is based on a survey organized together with the Canadian Heritage Information Network (CHIN) and Takin.solutions directed to the CIDOC CRM community. The survey aimed to gain an understanding of the current state of the art regarding actual named graph use in practical implementation and management of semantic data sets that have adopted the CIDOC CRM ontology. In order to guide decision making on CHIN’s named graph usage, it was seen to be best to consult with leading experts in the field of both semantics and CIDOC CRM to understand current best practice. CHIN could use this information not only to understand the present usage but also to build a projection of likely future usage and opportunity for achieving harmonization and standardization across projects. In this sense, through this survey, CHIN could seek to understand with regards to its on-going work on this topic, how it might play a role in the CH semantic data community in general in helping to push forward the conversation for common guidelines and understanding regarding the use of this technique in practice.
 ---
 
@@ -15,7 +15,7 @@ description: This report is based on a survey organized together with the Canadi
 
 **Co-authors**: George Bruseker (Takin.solutions)
 
-**Date**: 2021-02-23
+**Date**: 2022-03-11
  
 ## Introduction
 

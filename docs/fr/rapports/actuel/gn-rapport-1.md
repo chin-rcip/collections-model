@@ -7,7 +7,7 @@ other_link: /en/technical-reports/current/named-graph-survey-report-1
 sidebar: ng1fr
 group: rapports techniques
 coauthor: George Bruseker
-date: 2021-02-23
+date: 2022-03-11
 description: Ce rapport est basé sur une enquête organisée en collaboration avec le Réseau canadien d’information sur le patrimoine (RCIP) et Takin.solutions et destinée à la communauté du CIDOC CRM. L’enquête visait à comprendre l’utilisation réelle des graphes nommés dans la mise en application pratique et la gestion des jeux de données sémantiques qui ont adopté l’ontologie CIDOC CRM. Afin de guider la prise de décision sur l’utilisation des graphes nommés par le RCIP, il a été jugé préférable de consulter les principaux spécialistes du domaine de la sémantique et du CIDOC CRM pour comprendre les meilleures pratiques actuelles. Le RCIP pourrait utiliser ces informations non seulement pour comprendre l’utilisation actuelle, mais aussi pour établir une projection de l’utilisation future probable et des possibilités d’harmonisation et de standardisation entre les projets. En ce sens, grâce à cette enquête, le RCIP pourrait chercher à comprendre, en ce qui concerne son travail en cours sur le sujet, comment il pourrait jouer un rôle dans la communauté des données sémantiques patrimoniales canadiennes en général en aidant à faire avancer la conversation pour des directives et une compréhension communes concernant l’utilisation de cette technique dans la pratique.
 ---
 
@@ -15,7 +15,7 @@ description: Ce rapport est basé sur une enquête organisée en collaboration a
 
 **Co-auteurs** : George Bruseker (Takin.solutions)
 
-**Date** : 2021-02-23
+**Date** : 2022-03-11
   
 ## Introduction
 
