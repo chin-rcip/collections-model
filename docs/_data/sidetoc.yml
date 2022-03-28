@@ -1118,9 +1118,9 @@ urireport:
   url: /en/technical-reports/current/uris-technical-report#chin-recommended-specification
   hash: chin-recommended-specification
   subfolder:
-  - page: Content Negotiation - URLs Derived from URIs
-    url: /en/technical-reports/current/uris-technical-report#content-negotiation---urls-derived-from-uris
-    hash: content-negotiation---urls-derived-from-uris
+  - page: Content Negotiation—URLs Derived from URIs
+    url: /en/technical-reports/current/uris-technical-report#content-negotiationurls-derived-from-uris
+    hash: content-negotiationurls-derived-from-uris
     subsubfolder:
     - page: Data Format Specific Representations
       url: /en/technical-reports/current/uris-technical-report#data-format-specific-representations 
@@ -1132,18 +1132,18 @@ urireport:
     url: /en/technical-reports/current/uris-technical-report#uri-template
     hash: uri-template
     subsubfolder:
-    - page: Scheme - Secure Protocole
-      url: /en/technical-reports/current/uris-technical-report#scheme---secure-protocole 
-      hash: scheme---secure-protocole
-    - page: Domain - Project Oriented
-      url: /en/technical-reports/current/uris-technical-report#domain---project-oriented 
-      hash: domain---project-oriented
-    - page: Segments - Meaningful to the Organization
-      url: /en/technical-reports/current/uris-technical-report#segments---meaningful-to-the-organization 
-      hash: segments---meaningful-to-the-organization
-    - page: Slug - Semi-Opaque
-      url: /en/technical-reports/current/uris-technical-report#slug---semi-opaque 
-      hash: slug---semi-opaque
+    - page: Scheme—Secure Protocol
+      url: /en/technical-reports/current/uris-technical-report#schemesecure-protocol
+      hash: schemesecure-protocol
+    - page: Domain—Project Oriented
+      url: /en/technical-reports/current/uris-technical-report#domainproject-oriented 
+      hash: domainproject-oriented
+    - page: Segments—Meaningful to the Organization
+      url: /en/technical-reports/current/uris-technical-report#segmentsmeaningful-to-the-organization 
+      hash: segmentsmeaningful-to-the-organization
+    - page: Slug—Semi-Opaque
+      url: /en/technical-reports/current/uris-technical-report#slugsemi-opaque 
+      hash: slugsemi-opaque
 - title: Management
   url: /en/technical-reports/current/uris-technical-report#management
   hash: management
@@ -1154,6 +1154,65 @@ urireport:
   url: /en/technical-reports/current/uris-technical-report#bibliography
   hash: bibliography
 
+
+
+urireportfr:
+
+- title: Résumé
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#resume
+  hash: resume
+- title: Contexte
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#contexte
+  hash: contexte
+  subfolder:
+  - page: Travail sur les données ouvertes et liées au RCIP
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#travail-sur-les-donnees-ouvertes-et-liees-au-rcip
+    hash: travail-sur-les-donnees-ouvertes-et-liees-au-rcip
+  - page: Déclaration d’intention
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#declaration-dintention
+    hash: declaration-dintention
+- title: Principes d’organisation
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#principes-dorganisation
+  hash: principes-dorganisation
+- title: Spécification recommandée par le RCIP
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#specification-recommandee-par-le-rcip
+  hash: specification-recommandee-par-le-rcip
+  subfolder:
+  - page: Négociation de contenu – adresses URL dérivées d’URI
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#negociation-de-contenu-adresses-url-derivees-duri
+    hash: negociation-de-contenu-adresses-url-derivees-duri
+    subsubfolder:
+    - page: Représentations propres au format de données
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#representations-propres-au-format-de-donnees
+      hash: representations-propres-au-format-de-donnees
+    - page: Interfaces lisibles par l'humain
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#interfaces-lisibles-par-lhumain
+      hash: interfaces-lisibles-par-lhumain
+  - page: Modèle d’URI
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#modele-duri
+    hash: modele-duri
+    subsubfolder:
+    - page: Schéma – Protocole sécurisé
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#schema-protocole-securise
+      hash: schema-protocole-securise
+    - page: Domaine – Axé sur les projets
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#domaine-axe-sur-les-projets
+      hash: domaine-axe-sur-les-projets
+    - page: Segments – Significatifs pour l’organisation
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#segments-significatifs-pour-lorganisation
+      hash: segments-significatifs-pour-lorganisation
+    - page: Identifiant pour adresse URL – Semi-Opaque
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#identifiant-pour-adresse-url-semi-opaque
+      hash: identifiant-pour-adresse-url-semi-opaque
+- title: Gestion
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#gestion
+  hash: gestion
+- title: Notes
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#notes
+  hash: notes
+- title: Bibliographie
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#bibliographie
+  hash: bibliographie
 
 glossary:
 
