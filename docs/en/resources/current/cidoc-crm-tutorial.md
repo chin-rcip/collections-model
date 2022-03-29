@@ -117,7 +117,7 @@ To facilitate searches in the CIDOC CRM specification, certain classes can be us
 
 Diagram of the CIDOC CRM’s main classes
 
-<iframe frameborder="0" style="width:100%;height:363px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CRM_ClassesPrincipales_2021-11-04.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1u6bnEUFB4WMzagTiurfA-PZgnjmPmrlT%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:363px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CRM_MainClasses_2019-12-08#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1FCeNoxLPlfJ5Kc0IcMmN3pcJPJPNzgwg%26export%3Ddownload"></iframe>
 
 The class `E2_Temporal_Entity` and its sub-classes make it possible to link the individuals or groups that participated in an event to the physical or conceptual objects used or created during the event. The event’s duration can be indicated using the class `E52_Time-Span` and identify the places where the action occurs using the class `E53_Place`.
 
@@ -131,7 +131,7 @@ Three properties (shown below) are used to document the time interval during whi
 
 Time interval diagram
 
-<iframe frameborder="0" style="width:100%;height:302px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CRM_Temporalite_2021-11-04.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1pALuxT_l-7QJpzfr7XSeJlKGAG22Zoux%26export%3Ddownload"></iframe>
+<iframe frameborder="0" style="width:100%;height:302px;" src="https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=005_CRM_Temporalite_2021-11-04-EN.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1wk1lohCuGxyHgo1pPKMZ6ZZn0720M94d%26export%3Ddownload"></iframe>
 
 First, the property `P191_had_duration` allows to indicate for how long the event took place: for example, the event lasted three days.
 
