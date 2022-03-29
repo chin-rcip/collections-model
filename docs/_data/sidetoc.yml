@@ -1821,3 +1821,86 @@ criteriafr:
   url: /fr/ressources/actuel/mode-demploi/criteria#bibliographie
   hash: bibliographie
 
+choosingmodel:
+
+- title: Choosing a Model
+  url: /en/resources/current/how-to/choosing-lod-model#choosing-a-model
+  hash: choosing-a-model
+  subfolder:
+  - page: Project Assessment
+    url: /en/resources/current/how-to/choosing-lod-model#project-assessment
+    hash: project-assessment
+    subsubfolder:
+    - page: Project Purpose
+      url: /en/resources/current/how-to/choosing-lod-model#project-purpose
+      hash: project-purpose
+    - page: Project Resources
+      url: /en/resources/current/how-to/choosing-lod-model#project-resources
+      hash: project-resources
+    - page: Semanticization Objectives
+      url: /en/resources/current/how-to/choosing-lod-model#semanticization-objectives
+      hash: semanticization-objectives
+    - page: Dataset Features
+      url: /en/resources/current/how-to/choosing-lod-model#dataset-features
+      hash: dataset-features
+  - page: Model Assessment
+    url: /en/resources/current/how-to/choosing-lod-model#model-assessment
+    hash: model-assessment
+    subsubfolder:
+    - page: Patterns Coverage
+      url: /en/resources/current/how-to/choosing-lod-model#patterns-coverage
+      hash: patterns-coverage
+    - page: Relevancy
+      url: /en/resources/current/how-to/choosing-lod-model#relevancy
+      hash: relevancy
+    - page: Adaptability
+      url: /en/resources/current/how-to/choosing-lod-model#adaptability
+      hash: adaptability
+    - page: Sustainability and Maintenance
+      url: /en/resources/current/how-to/choosing-lod-model#sustainability-and-maintenance
+      hash: sustainability-and-maintenance
+- title: Bibliography
+  url: /en/resources/current/how-to/choosing-lod-model#bibliography
+  hash: bibliography
+
+choixmodele:
+
+- title: Choix d’un modèle
+  url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#choix-dun-modele
+  hash: choix-dun-modele
+  subfolder:
+  - page: Évaluation du projet
+    url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#evaluation-du-projet
+    hash: evaluation-du-projet
+    subsubfolder:
+    - page: Objectif du projet
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#objectif-du-projet
+      hash: objectif-du-projet
+    - page: Ressources du projet
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#ressources-du-projet
+      hash: ressources-du-projet
+    - page: Objectifs de la sémantisation
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#objectifs-de-la-semantisation
+      hash: objectifs-de-la-semantisation
+    - page: Caractéristiques du jeu de données
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#caracteristiques-du-jeu-de-donnees
+      hash: caracteristiques-du-jeu-de-donnees
+  - page: Évaluation du modèle
+    url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#evaluation-du-modele
+    hash: evaluation-du-modele
+    subsubfolder:
+    - page: Couverture des patrons conceptuels
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#couverture-des-patrons-conceptuels
+      hash: couverture-des-patrons-conceptuels
+    - page: Pertinence
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#pertinence
+      hash: pertinence
+    - page: Adaptabilité
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#adaptabilite
+      hash: adaptabilite
+    - page: Durabilité et maintenance
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#durabilite-et-maintenance
+      hash: durabilite-et-maintenance
+- title: Bibliographie
+  url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#bibliographie
+  hash: bibliographie
