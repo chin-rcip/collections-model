@@ -134,11 +134,11 @@ Diagramme de l’intervalle de temps
 
 Premièrement, la propriété `P191_a_eu_pour_durée` permet d’indiquer pendant combien de temps l’évènement s’est déroulé : par exemple, l'évènement a duré trois jours.
 
-Deuxièmement, la propriété `P81_a_couvert` — ou ses équivalents fonctionnels et plus précis `P81a_fin_du_début` et `P81b_début_de_la_fin` — permet d’indiquer le moment lors duquel l’évènement a eu lieu : par exemple, l’évènement a eu lieu le 2 février 2020 (il est possible qu’il ait commencé avant ou qu’il se soit terminé après, mais il est établi que le 2 février 2020, cet évènement était en cours).
+Deuxièmement, la propriété `P81_a_couvert` — ou ses équivalents fonctionnels et plus précis `P81a_la_fin_du_début` et `P81b_le_début_de_la_fin` — permet d’indiquer le moment lors duquel l’évènement a eu lieu : par exemple, l’évènement a eu lieu le 2 février 2020 (il est possible qu’il ait commencé avant ou qu’il se soit terminé après, mais il est établi que le 2 février 2020, cet évènement était en cours).
 
-Troisièmement, les propriétés `P82a_début_du_début` et `P82b_fin_de_la_fin` permettent d’indiquer les limites temporelles de la période durant laquelle l’entièreté de l’évènement s’est déroulée. L’utilisation de ces propriétés plus précises substitue celle de `P82_a_eu_lieu_durant` et permet d’indiquer les périodes où il est établi que l’évènement n’avait *pas* lieu. Cette troisième option est la plus courante dans le secteur patrimonial.
+Troisièmement, les propriétés `P82a_le_début_du_début` et `P82b_la_fin_de_la_fin` permettent d’indiquer les limites temporelles de la période durant laquelle l’entièreté de l’évènement s’est déroulée. L’utilisation de ces propriétés plus précises substitue celle de `P82_a_eu_lieu_durant` et permet d’indiquer les périodes où il est établi que l’évènement n’avait *pas* lieu. Cette troisième option est la plus courante dans le secteur patrimonial.
 
-À noter que les spécialisations des propriétés `P81_a_couvert` et `P82_a_eu_lieu_durant` (`P81a_fin_du_début` et `P81b_début_de_la_fin` ainsi que `P82a_début_du_début` et `P82b_fin_de_la_fin`) ne sont pas recensées dans la spécification actuelle du CIDOC CRM, bien qu’elles soient fréquemment utilisées et recensées dans sa dernière version en RDF.
+À noter que les spécialisations des propriétés `P81_a_couvert` et `P82_a_eu_lieu_durant` (`P81a_la_fin_du_début` et `P81b_le_début_de_la_fin` ainsi que `P82a_le_début_du_début` et `P82b_la_fin_de_la_fin`) ne sont pas recensées dans la spécification actuelle du CIDOC CRM, bien qu’elles soient fréquemment utilisées et recensées dans sa dernière version en RDF.
 
 ### Identifier la bonne entité {#identifier-la-bonne-entite}
 
