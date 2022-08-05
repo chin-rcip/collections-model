@@ -53,7 +53,7 @@ Cette section comprend les questions suivantes :
   * Oui
   * Non
   * Autre
-* 1.b. Décrivez, en résumé, les utilisations que vous faites des constructions de graphes nommés dans votre pratique de la gestion des données sémantiques.
+* 1.b. Décrivez, en résumé, les utilisations que vous faites des construits de graphes nommés dans votre pratique de la gestion des données sémantiques.
 * 2.a. Quel format de graphe nommé utilisez-vous?
   * Tri-X
   * Tri-G
@@ -84,7 +84,7 @@ La partie qualitative de la question (1.b.) demande aux personnes sondées de fo
 3. Gérer les données en termes d’opérations CRUD;
 4. Séparer les types de données (p. ex. séparer l’ontologie des données).
 
-La fonctionnalité permettant de fournir la provenance des données intégrées est la principale raison invoquée pour l’adoption des graphes nommés. Cette raison est suivie de près et est vaguement liée à la fonction d’utilisation du graphe nommé pour définir un « enregistrement » dans le sens d'une base de données classique. La notion d’« enregistrement » est fortement liée à la nécessité d’utiliser les graphes nommés pour gérer le graphe de données sémantiques au fil du temps, un enregistrement étant souvent assimilé à un jeu de données, soit dans son ensemble, soit en ce qui concerne ses parties initiales, tel que fourni et défini par un soumissionnaire de données. La création d’une unité d’enregistrement est liée à la troisième fonctionnalité établie par les personnes sondées : la gestion des données. Le graphe nommé en tant qu’enregistrement de provenance d’un soumissionnaire est une unité d'information qui peut être utilisée pour déterminer quelles données mettre à jour après un changement de soumissionnaire de données intégrées. Différentes organisations adoptent différents niveaux de division à cet égard, l’enregistrement étant défini tant au niveau du jeu de données du soumissionnaire qu’au niveau du document individuel considéré du côté de la source. Certains des systèmes d’information mentionnés pour la gestion des données sémantiques (p. ex. ResearchSpace) permettent/utilisent également la construction de graphes nommés pour la gestion interne des données, ce qui signifie que les graphes nommés sont adoptés par défaut lors du choix d'une solution technologique particulière. Le dernier point mentionné dans les réponses est l’utilisation de graphes nommés pour isoler des types de données spécifiques les uns des autres, comme l’ontologie elle-même des données qu’elle décrit.
+La fonctionnalité permettant de fournir la provenance des données intégrées est la principale raison invoquée pour l’adoption des graphes nommés. Cette raison est suivie de près et est vaguement liée à la fonction d’utilisation du graphe nommé pour définir un « enregistrement » dans le sens d'une base de données classique. La notion d’« enregistrement » est fortement liée à la nécessité d’utiliser les graphes nommés pour gérer le graphe de données sémantiques au fil du temps, un enregistrement étant souvent assimilé à un jeu de données, soit dans son ensemble, soit en ce qui concerne ses parties initiales, tel que fourni et défini par un soumissionnaire de données. La création d’une unité d’enregistrement est liée à la troisième fonctionnalité établie par les personnes sondées : la gestion des données. Le graphe nommé en tant qu’enregistrement de provenance d’un soumissionnaire est une unité d'information qui peut être utilisée pour déterminer quelles données mettre à jour après un changement de soumissionnaire de données intégrées. Différentes organisations adoptent différents niveaux de division à cet égard, l’enregistrement étant défini tant au niveau du jeu de données du soumissionnaire qu’au niveau du document individuel considéré du côté de la source. Certains des systèmes d’information mentionnés pour la gestion des données sémantiques (p. ex. ResearchSpace) permettent/utilisent également le construit de graphes nommés pour la gestion interne des données, ce qui signifie que les graphes nommés sont adoptés par défaut lors du choix d'une solution technologique particulière. Le dernier point mentionné dans les réponses est l’utilisation de graphes nommés pour isoler des types de données spécifiques les uns des autres, comme l’ontologie elle-même des données qu’elle décrit.
 
 #### Question 2 : Format des graphes nommés {#question-2-format-des-graphes-nommes}
 
@@ -351,7 +351,7 @@ Les réponses analytiques (8.a.) sont les suivantes :
 |Aggregator Defined Dataset Border|Limite du jeu de données définie par l’agrégateur|
 |Aggregator Defined Record Border|Limite de l’enregistrement définie par l’agrégateur|
 
-Les réponses analytiques et qualitatives (8.b.) indiquent que la tendance générale est d’utiliser des graphes nommés pour refléter la structure des données du soumissionnaire telles qu’elles sont fournies plutôt que d’utiliser une nouvelle construction fournie par l’agrégateur.
+Les réponses analytiques et qualitatives (8.b.) indiquent que la tendance générale est d’utiliser des graphes nommés pour refléter la structure des données du soumissionnaire telles qu’elles sont fournies plutôt que d’utiliser un nouveau construit fourni par l’agrégateur.
 
 ### 5\. Graphes nommés et récupération de l'information {#graphes-nommes-et-recuperation-de-linformation}
 
