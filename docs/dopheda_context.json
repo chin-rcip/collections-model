@@ -1,0 +1,265 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"@vocab": "https://dopheda.info/",
+		"crm": "http://www.cidoc-crm.org/cidoc-crm/",
+		"crmdig": "http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/",
+	    "crmsci": "http://www.cidoc-crm.org/cidoc-crm/CRMsci/",
+	    "frbroo": "http://iflastandards.info/ns/fr/frbr/frbroo/",
+	    "crmarcheo": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/",
+	    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+	    "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+	    "dc": "http://purl.org/dc/elements/1.1/", 
+	    "dct": "http://purl.org/dc/terms/", 	     
+	    "xsd": "http://www.w3.org/2001/XMLSchema#",
+	    "aat": "http://vocab.getty.edu/aat/",
+	    "vocab": "https://vocab.example.info/",
+	    "actor": "crm_e39/",
+	    "object": "crm_e18/",
+	    "_label": {
+	      	"@id": "rdfs:label",
+	      	"@container": "@language"
+	    },
+		"Digital_Object": {
+			"@id": "crmdig:D1_Digital_Object"
+		},
+		"Creation": {
+			"@id": "crm:E65_Creation"
+		},
+		"carried_out_by": {
+			"@id": "crm:P14_carried_out_by"
+		},
+		"Time-Span": {
+			"@id": "crm:E52_Time-Span"
+		},
+		"Group": {
+			"@id": "crm:E74_Group"
+		},
+		"Appellation": {
+			"@id": "crm:E41_Appellation"
+		},
+		"Linguistic_Object": {
+			"@id": "crm:E33_Linguistic_Object"
+		},
+		"Type": {
+			"@id": "crm:E55_Type"
+		},
+		"Person": {
+			"@id": "crm:E21_Person"
+		},
+		"Identifier": {
+			"@id": "crm:E42_Identifier"
+		},
+		"Joining": {
+			"@id": "crm:E85_Joining"
+		},
+		"Leaving": {
+			"@id": "crm:E86_Leaving"
+		},
+		"Event": {
+			"@id": "crm:E5_Event"
+		},
+		"Attribute_Assignment": {
+			"@id": "crm:E13_Attribute_Assignment"
+		},
+		"Birth": {
+			"@id": "crm:E67_Birth"
+		},
+		"Death": {
+			"@id": "crm:E69_Death"
+		},
+		"Activity": {
+			"@id": "crm:E7_Activity"
+		},
+		"Pursuit": {
+			"@id": "frbroo:F51_Pursuit"
+		},
+		"Visual_Item": {
+			"@id": "crm:E36_Visual_Item"
+		},
+		"represents": {
+			"@id": "crm:PC138_represents"
+		},
+		"Mark": {
+			"@id": "crm:E37_Mark"
+		},
+		"Document": {
+			"@id": "crm:E31_Document"
+		},
+		"Human-Made_Object": {
+			"@id": "crm:E22_Human-Made_Object"
+		},
+		"Information_Object": {
+			"@id": "crm:E73_Information_Object"
+		},
+		"Formation": {
+			"@id": "crm:E66_Formation"
+		},
+		"Dissolution": {
+			"@id": "crm:E68_Dissolution"
+		},
+		"Language": {
+			"@id": "crm:E56_Language"
+		},
+		"Name_Use_Activity": {
+			"@id": "frbroo:F52_Name_Use_Activity"
+		},
+		"Place": {
+			"@id": "crm:E53_Place"
+		},
+		"Move": {
+			"@id": "crm:E9_Move"
+		},
+		"joined_with": {
+			"@id": "crm:P144_joined_with"
+		},
+		"was_created_by": {
+			"@id": "crm:P94i_was_created_by"
+		},
+		"is_domain_of": {
+			"@id": "crm:P01i_is_domain_of"
+		},
+		"has_time-span": {
+			"@id": "crm:P4_has_time-span"
+		},
+		"begin_of_the_begin": {
+			"@id": "crm:P82a_begin_of_the_begin",
+			"@type": "xsd:dateTime"
+		},
+		"end_of_the_end": {
+			"@id": "crm:P82b_end_of_the_end",
+			"@type": "xsd:dateTime"
+		},
+		"has_range": {
+			"@id": "crm:P02_has_range"
+		},
+		"is_identified_by": {
+			"@id": "crm:P1_is_identified_by"
+		},
+		"has_symbolic_content": {
+			"@id": "crm:P190_has_symbolic_content",
+			"@container": "@language"
+		},
+		"in_the_role_of": {
+			"@id": "crm:P14.1_in_the_role_of"
+		},
+		"has_type": {
+			"@id": "crm:P2_has_type"
+		},
+		"was_joined_by": {
+			"@id": "crm:P143i_was_joined_by"
+		},
+		"left_by": {
+			"@id": "crm:P145i_left_by"
+		},
+		"participated_in": {
+			"@id": "crm:P11i_participated_in"
+		},
+		"was_attributed_by": {
+			"@id": "crm:P140i_was_attributed_by"
+		},
+		"was_born": {
+			"@id": "crm:P98i_was_born"
+		},
+		"died_in": {
+			"@id": "crm:P100i_died_in"
+		},
+		"performed": {
+			"@id": "crm:P14i_performed"
+		},
+		"is_range_of": {
+			"@id": "crm:P02i_is_range_of"
+		},
+		"has_representation": {
+			"@id": "crm:P138i_has_representation"
+		},
+		"mode_of_representation": {
+			"@id": "crm:P138.1_mode_of_representation"
+		},
+		"has_domain": {
+			"@id": "crm:P01_has_domain"
+		},
+		"is_referred_to_by": {
+			"@id": "crm:P67i_is_referred_to_by"
+		},
+		"is_documented_in": {
+			"@id": "crm:P70i_is_documented_in"
+		},
+		"is_carried_by": {
+			"@id": "crm:P128i_is_carried_by"
+		},
+		"was_formed_by": {
+			"@id": "crm:P95i_was_formed_by"
+		},
+		"was_dissolved_by": {
+			"@id": "crm:P99i_was_dissolved_by"
+		},
+		"has_language": {
+			"@id": "crm:P72_has_language"
+		},
+		"is_composed_of": {
+			"@id": "crm:P106_is_composed_of"
+		},
+		"was_name_used_by": {
+			"@id": "frbroo:R64i_was_name_used_by"
+		},
+		"occured_in_kind_of_context": {
+			"@id": "frbroo:R61_occured_in_kind_of_context"
+		},
+		"beginning_is_qualified_by": {
+			"@id": "crm:P79_beginning_is_qualified_by"
+		},
+		"end_is_qualified_by": {
+			"@id": "crm:P80_end_is_qualified_by"
+		},
+		"separated_from": {
+			"@id": "crm:P146_separated_from"
+		},
+		"took_place_at": {
+			"@id": "crm:P7_took_place_at"
+		},
+		"was_assigned_by": {
+			"@id": "crm:P141i_was_assigned_by"
+		},
+		"by_mother": {
+			"@id": "crm:P96_by_mother"
+		},
+		"from_father": {
+			"@id": "crm:P97_from_father"
+		},
+		"occurs_before": {
+			"@id": "crmarcheo:AP28_occurs_before"
+		},
+		"moved_from": {
+			"@id": "crm:P27_moved_from"
+		},
+		"moved": {
+			"@id": "crm:P25_moved"
+		},
+		"moved_to": {
+			"@id": "crm:P26_moved_to"
+		},
+		"had_general_purpose": {
+			"@id": "crm:P21_had_general_purpose"
+		},
+		"kind_of_member": {
+			"@id": "crm:P144.1_kind_of_member"
+		},
+		"is_incorporated_in": {
+			"@id": "crm:P165i_is_incorporated_in"
+		},
+		"has_current_permanent_location": {
+			"@id": "crm:P54_has_current_permanent_location"
+		},
+		"has_current_or_former_keeper": {
+			"@id": "crm:P49_has_current_or_former_keeper"
+		},
+		"is_triggered_by": {
+			"@id": "crmsci:O13i_is_triggered_by"
+		},
+		"has_note": {
+			"@id": "crm:P3_has_note",
+			"@container": "@language"
+		}
+	}
+}
