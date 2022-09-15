@@ -1,0 +1,13 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "aat:300025687",
+  "@type": "Type",
+  "has_note": {
+    "en": "Only an English label is available, with no French equivalent already established",
+    "fr": "Seul un libellé en anglais est disponible, sans équivalent en français déjà établi"
+  },
+  "_label": {
+    "en": "Photographers",
+    "fr": "Photographes"
+  }
+}

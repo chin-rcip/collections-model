@@ -1,0 +1,59 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_referred_to_by": [
+    {
+      "@id": "https://dopheda.info/crm_e28/98018366-2204-4cbe-9fb6-31ce6b15f668",
+      "@type": "Linguistic_Object",
+      "has_symbolic_content": {
+        "fr": "De retour au Canada en 1931, Karsh établit rapidement un studio avec l'aide financière de son oncle."
+      },
+      "has_type": {
+        "@id": "vocab:10098",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:100182",
+          "@type": "Type",
+          "_label": {
+            "en": "Messy Data Statement",
+            "fr": "Énoncé de données désordonnées"
+          }
+        },
+        "_label": {
+          "en": "Occupation Date Begin Statement",
+          "fr": "Énoncé de Date de début de l'occupation"
+        }
+      },
+      "has_language": {
+        "@id": "vocab:2003",
+        "@type": "Language",
+        "_label": {
+          "en": "French",
+          "fr": "Français"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e28/a79651a2-53fa-463b-8a5b-1382aeca622e",
+      "@type": "Linguistic_Object",
+      "has_symbolic_content": {
+        "en": "Returning to Canada in 1931, Karsh soon established a studio with financial help from his uncle."
+      },
+      "has_type": {
+        "@id": "vocab:10098"
+      },
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    }
+  ],
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

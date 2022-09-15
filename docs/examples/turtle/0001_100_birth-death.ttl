@@ -1,0 +1,59 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmarcheo: <http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P100i_died_in <https://dopheda.info/crm_e64/c86ad0c6-f372-402b-bb28-1278b56a8844> ;
+    crm:P98i_was_born <https://dopheda.info/crm_e63/e2605e40-0a09-4d3a-8cfb-844e1e041ad9> .
+
+actor:0001_104 a crm:E21_Person ;
+    rdfs:label "Bahiyah Nakash"@en .
+
+actor:0001_105 a crm:E21_Person ;
+    rdfs:label "Massih Karsh"@en .
+
+<https://dopheda.info/crm_e5/24dd688a-90e2-4b35-96d2-68fae8aecd9b> a crm:E9_Move ;
+    crm:P25_moved actor:0001_100 ;
+    crm:P26_moved_to vocab:3004 ;
+    crm:P27_moved_from vocab:3002 .
+
+<https://dopheda.info/crm_e52/58330a32-72ff-4145-8b71-09899b51c217> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-07-13T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2002-07-13T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/ce1acf8b-ce63-4f99-b33d-207c595cb036> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1908-12-23T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1908-12-23T:23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/e2605e40-0a09-4d3a-8cfb-844e1e041ad9> a crm:E67_Birth ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/ce1acf8b-ce63-4f99-b33d-207c595cb036> ;
+    crm:P7_took_place_at vocab:3001 ;
+    crm:P96_by_mother actor:0001_104 ;
+    crm:P97_from_father actor:0001_105 .
+
+<https://dopheda.info/crm_e64/c86ad0c6-f372-402b-bb28-1278b56a8844> a crm:E69_Death ;
+    crmarcheo:AP28_occurs_before <https://dopheda.info/crm_e5/24dd688a-90e2-4b35-96d2-68fae8aecd9b> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/58330a32-72ff-4145-8b71-09899b51c217> ;
+    crm:P7_took_place_at vocab:3002 .
+
+vocab:100146 a crm:E55_Type ;
+    rdfs:label "Burial Place"@en,
+        "Lieu de sépulture"@fr .
+
+vocab:3001 a crm:E53_Place ;
+    rdfs:label "Mardin (Ottoman Empire)"@en,
+        "Mardin (Empire ottoman)"@fr .
+
+vocab:3004 a crm:E53_Place ;
+    rdfs:label "Notre-Dame Cemetery (Ottawa, CA-ON)"@en,
+        "Cimetière Notre-Dame (Ottawa, CA-ON)"@fr ;
+    crm:P2_has_type vocab:100146 .
+
+vocab:3002 a crm:E53_Place ;
+    rdfs:label "Boston, USA-MA"@en,
+        "Boston, USA-MA"@fr .
+

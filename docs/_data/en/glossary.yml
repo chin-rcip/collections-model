@@ -1,0 +1,203 @@
+
+class: mainlist
+toc:
+
+- title: actor (noun)
+  url: /en/resources/current/glossary#actor-noun
+  hash: actor-noun
+- title: aggregation (noun)
+  url: /en/resources/current/glossary#aggregation-noun
+  hash: aggregation-noun
+- title: assertion (noun)
+  url: /en/resources/current/glossary#assertion-noun
+  hash: assertion-noun
+- title: authority (noun)
+  url: /en/resources/current/glossary#authority-noun
+  hash: authority-noun
+- title: cardinality (noun)
+  url: /en/resources/current/glossary#cardinality-noun
+  hash: cardinality-noun
+- title: case (noun)
+  url: /en/resources/current/glossary#case-noun
+  hash: case-noun
+- title: class (noun)
+  url: /en/resources/current/glossary#class-noun
+  hash: class-noun
+- title: classification (noun)
+  url: /en/resources/current/glossary#classification-noun
+  hash: classification-noun
+- title: contributor (noun)
+  url: /en/resources/current/glossary#contributor-noun
+  hash: contributor-noun
+- title: construct (noun)
+  url: /en/resources/current/glossary#construct-noun
+  hash: construct-noun
+- title: content (noun)
+  url: /en/resources/current/glossary#content-noun
+  hash: content-noun
+- title: creation (noun)
+  url: /en/resources/current/glossary#creation-noun
+  hash: creation-noun
+- title: cross-reference (noun)
+  url: /en/resources/current/glossary#cross-reference-noun
+  hash: cross-reference-noun
+- title: data (noun)
+  url: /en/resources/current/glossary#data-noun
+  hash: data-noun
+- title: declaration (noun)
+  url: /en/resources/current/glossary#declaration-noun
+  hash: declaration-noun
+- title: dependency (noun)
+  url: /en/resources/current/glossary#dependency-noun
+  hash: dependency-noun
+- title: deprecate (verb)
+  url: /en/resources/current/glossary#deprecate-verb
+  hash: deprecate-verb
+- title: description (noun)
+  url: /en/resources/current/glossary#description-noun
+  hash: description-noun
+- title: designate (verb)
+  url: /en/resources/current/glossary#designate-verb
+  hash: designate-verb
+- title: diagram (noun)
+  url: /en/resources/current/glossary#diagram-noun
+  hash: diagram-noun
+- title: document (noun)
+  url: /en/resources/current/glossary#document-noun
+  hash: document-noun
+- title: documentation (noun)
+  url: /en/resources/current/glossary#documentation-noun
+  hash: documentation-noun
+- title: domain (noun)
+  url: /en/resources/current/glossary#domain-noun
+  hash: domain-noun
+- title: editor (noun)
+  url: /en/resources/current/glossary#editor-noun
+  hash: editor-noun
+- title: entity (noun)
+  url: /en/resources/current/glossary#entity-noun
+  hash: entity-noun
+- title: expression (noun)
+  url: /en/resources/current/glossary#expression-noun
+  hash: expression-noun
+- title: field (noun)
+  url: /en/resources/current/glossary#field-noun
+  hash: field-noun
+- title: formalization (noun)
+  url: /en/resources/current/glossary#formalization-noun
+  hash: formalization-noun
+- title: identifier (noun)
+  url: /en/resources/current/glossary#identifier-noun
+  hash: identifier-noun
+- title: information (noun)
+  url: /en/resources/current/glossary#information-noun
+  hash: information-noun
+- title: instance (noun)
+  url: /en/resources/current/glossary#instance-noun
+  hash: instance-noun
+- title: knowledge (noun)
+  url: /en/resources/current/glossary#knowledge-noun
+  hash: knowledge-noun
+- title: label (noun)
+  url: /en/resources/current/glossary#label-noun
+  hash: label-noun
+- title: library (noun)
+  url: /en/resources/current/glossary#library-noun
+  hash: library-noun
+- title: link (verb)
+  url: /en/resources/current/glossary#link-verb
+  hash: link-verb
+- title: linked open data (noun)
+  url: /en/resources/current/glossary#linked-open-data-noun
+  hash: linked-open-data-noun
+- title: metadata (noun)
+  url: /en/resources/current/glossary#metadata-noun
+  hash: metadata-noun
+- title: metatype (noun)
+  url: /en/resources/current/glossary#metatype-noun
+  hash: metatype-noun
+- title: model (noun)
+  url: /en/resources/current/glossary#model-noun
+  hash: model-noun
+- title: named Graph (noun)
+  url: /en/resources/current/glossary#named-graph-noun
+  hash: named-graph-noun
+- title: node (noun)
+  url: /en/resources/current/glossary#node-noun
+  hash: node-noun
+- title: ontology (noun)
+  url: /en/resources/current/glossary#ontology-noun
+  hash: ontology-noun
+- title: path (noun)
+  url: /en/resources/current/glossary#path-noun
+  hash: path-noun
+- title: pattern (noun)
+  url: /en/resources/current/glossary#pattern-noun
+  hash: pattern-noun
+- title: pipeline (noun)
+  url: /en/resources/current/glossary#pipeline-noun
+  hash: pipeline-noun
+- title: precedence (noun)
+  url: /en/resources/current/glossary#precedence-noun
+  hash: precedence-noun
+- title: property (noun)
+  url: /en/resources/current/glossary#property-noun
+  hash: property-noun
+- title: provider (noun)
+  url: /en/resources/current/glossary#provider-noun
+  hash: provider-noun
+- title: query (noun)
+  url: /en/resources/current/glossary#query-noun
+  hash: query-noun
+- title: range (noun)
+  url: /en/resources/current/glossary#range-noun
+  hash: range-noun
+- title: record (noun)
+  url: /en/resources/current/glossary#record-noun
+  hash: record-noun
+- title: representation (noun)
+  url: /en/resources/current/glossary#representation-noun
+  hash: representation-noun
+- title: resource (noun)
+  url: /en/resources/current/glossary#resource-noun
+  hash: resource-noun
+- title: scalability (noun)
+  url: /en/resources/current/glossary#scalability-noun
+  hash: scalability-noun
+- title: scope (noun)
+  url: /en/resources/current/glossary#scope-noun
+  hash: scope-noun
+- title: search (noun)
+  url: /en/resources/current/glossary#search-noun
+  hash: search-noun
+- title: semantic valuation (noun)
+  url: /en/resources/current/glossary#semantic-valuation-noun
+  hash: semantic-valuation-noun
+- title: semantic web (noun)
+  url: /en/resources/current/glossary#semantic-web-noun
+  hash: semantic-web-noun
+- title: semantization (noun)
+  url: /en/resources/current/glossary#semantization-noun
+  hash: semantization-noun
+- title: specification (noun)
+  url: /en/resources/current/glossary#specification-noun
+  hash: specification-noun
+- title: statement (noun)
+  url: /en/resources/current/glossary#statement-noun
+  hash: statement-noun
+- title: syntax (noun)
+  url: /en/resources/current/glossary#syntax-noun
+  hash: syntax-noun
+- title: tag (noun)
+  url: /en/resources/current/glossary#tag-noun
+  hash: tag-noun
+- title: value (noun)
+  url: /en/resources/current/glossary#value-noun
+  hash: value-noun
+- title: view (noun)
+  url: /en/resources/current/glossary#view-noun
+  hash: view-noun
+- title: vocabulary (noun)
+  url: /en/resources/current/glossary#vocabulary-noun
+  hash: vocabulary-noun
+

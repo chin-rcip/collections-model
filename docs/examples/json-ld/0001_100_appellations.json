@@ -1,0 +1,129 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_identified_by": [
+    {
+      "@id": "https://dopheda.info/crm_e41/8aa0a9b8-a9ff-47e2-9d95-6327fb9434e5",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "is_composed_of": [
+        {
+          "@id": "https://dopheda.info/crm_e41/4985cd63-f089-49ff-b6ad-c1525e8d0998",
+          "@type": [
+            "Linguistic_Object",
+            "Appellation"
+          ],
+          "has_symbolic_content": {
+            "en": "Karsh"
+          },
+          "has_type": {
+            "@id": "vocab:100160",
+            "@type": "Type",
+            "has_type": {
+              "@id": "vocab:100137",
+              "@type": "Type",
+              "_label": {
+                "en": "Type of Appellation Part",
+                "fr": "Type de partie de l'appellation de l'actant"
+              }
+            },
+            "_label": {
+              "en": "Surname",
+              "fr": "Nom de famille"
+            }
+          }
+        },
+        {
+          "@id": "https://dopheda.info/crm_e41/b17cceb2-a216-4c39-9afc-4f92d24d9c55",
+          "@type": [
+            "Linguistic_Object",
+            "Appellation"
+          ],
+          "has_symbolic_content": {
+            "en": "Yousuf"
+          },
+          "has_type": {
+            "@id": "vocab:100159",
+            "@type": "Type",
+            "has_type": {
+              "@id": "vocab:100137"
+            },
+            "_label": {
+              "en": "First Name",
+              "fr": "Prénom"
+            }
+          }
+        }
+      ],
+      "has_symbolic_content": {
+        "en": "Yousuf Karsh"
+      },
+      "has_type": [
+        {
+          "@id": "vocab:100158",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100139",
+            "@type": "Type",
+            "_label": {
+              "en": "Type of Appellation",
+              "fr": "Type d'appellation"
+            }
+          },
+          "_label": {
+            "en": "Full Name",
+            "fr": "Nom complet"
+          }
+        },
+        {
+          "@id": "vocab:1004",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100138",
+            "@type": "Type",
+            "_label": {
+              "en": "Precedence",
+              "fr": "Primauté"
+            }
+          },
+          "_label": {
+            "en": "Preferred",
+            "fr": "Préféré"
+          }
+        }
+      ],
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41/f1145976-589b-4fcb-812e-8da4bf5e494c",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "hy": "Յուսուֆ Քարշ"
+      },
+      "has_language": {
+        "@id": "vocab:2002",
+        "@type": "Language",
+        "_label": {
+          "en": "Armenian",
+          "fr": "Arménien"
+        }
+      }
+    }
+  ],
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

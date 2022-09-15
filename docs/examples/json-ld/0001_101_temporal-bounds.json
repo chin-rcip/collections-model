@@ -1,0 +1,17 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_101",
+  "@type": "Person",
+  "was_born": {
+    "@id": "https://dopheda.info/crm_e63/f3dd21fc-bbab-458f-98aa-d22b229ac7b4",
+    "@type": "Birth",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/beec368f-3f70-48d1-9c5b-662b460448f1",
+      "@type": "Time-Span",
+      "end_of_the_end": "-312:12:31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Appius Claudius Cæcus (312 BCE-?)"
+  }
+}

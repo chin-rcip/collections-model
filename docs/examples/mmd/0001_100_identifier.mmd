@@ -1,0 +1,36 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["actor:0001_100"]) -->|crm:P1_is_identified_by| 1(["-"])
+1(["-"]) -->|crm:P190_has_symbolic_content| 2(["''8494''^^xsd:string"]):::Literal
+1(["-"]):::E41_Appellation_URI -->|rdf:type| 3["crm:E42_Identifier"]:::E41_Appellation
+4(["vocab:100157"]):::E55_Type_URI -->|rdf:type| 5["crm:E55_Type"]:::E55_Type
+4(["vocab:100157"]) -->|rdfs:label| 6(["''Artists in Canada Identifier''@en"]):::Literal
+4(["vocab:100157"]) -->|rdfs:label| 7(["''Identifiant Artistes au Canada''@fr"]):::Literal
+1(["-"]) -->|crm:P2_has_type| 4(["vocab:100157"])
+0(["actor:0001_100"]) -->|rdfs:label| 8(["''Yousuf Karsh (1908-2002)''@en"]):::Literal
+0(["actor:0001_100"]):::E39_Actor_URI -->|rdf:type| 9["crm:E21_Person"]:::E39_Actor

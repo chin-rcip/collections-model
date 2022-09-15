@@ -1,0 +1,71 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_129",
+  "@type": "Person",
+  "participated_in": {
+    "@id": "https://dopheda.info/crm_e5/0ca93590-b162-41e5-8213-1ca686c20902",
+    "@type": "Event",
+    "is_triggered_by": {
+      "@id": "https://dopheda.info/crm_e5/ea3e037b-b5e7-4e43-af7c-57d77ad0c7ae",
+      "@type": "Attribute_Assignment",
+      "crm:P140_assigned_attribute_to": {
+        "@id": "actor:0001_129"
+      },
+      "crm:P141_assigned": {
+        "@id": "https://dopheda.info/crm_e5/0ca93590-b162-41e5-8213-1ca686c20902"
+      },
+      "carried_out_by": {
+        "@id": "actor:0001_130",
+        "@type": "Group",
+        "_label": {
+          "en": "Parliament of Canada",
+          "fr": "Parlement du Canada"
+        }
+      }
+    },
+    "has_type": {
+      "@id": "vocab:100173",
+      "@type": "Type",
+      "has_type": {
+        "@id": "vocab:100152",
+        "@type": "Type",
+        "_label": {
+          "en": "Social Status",
+          "fr": "Statut social"
+        }
+      },
+      "_label": {
+        "en": "Honorary Canadian Citizenship",
+        "fr": "Citoyenneté canadienne honoraire"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/56bb3f73-8eb2-4c32-8ffc-707a8574fb0e",
+      "@type": "Time-Span",
+      "beginning_is_qualified_by": "CE",
+      "end_is_qualified_by": [
+        {
+          "@language": "en",
+          "@value": "Before"
+        },
+        {
+          "@language": "fr",
+          "@value": "Avant"
+        }
+      ],
+      "begin_of_the_begin": "2007-01-01T00:00:00",
+      "end_of_the_end": "2018-10-02T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:30014",
+      "@type": "Place",
+      "_label": {
+        "en": "Canada",
+        "fr": "Canada"
+      }
+    }
+  },
+  "_label": {
+    "en": "Aung San Suu Kyi"
+  }
+}

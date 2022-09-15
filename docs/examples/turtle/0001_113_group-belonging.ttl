@@ -1,0 +1,27 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_113 a crm:E21_Person ;
+    rdfs:label "A. J. Casson"@en ;
+    crm:P143i_was_joined_by <https://dopheda.info/crm_e5/ac3f85ab-4817-4e73-a98e-8cab6f995bb6> ;
+    crm:P145i_left_by <https://dopheda.info/crm_e5/02c173f8-a1a2-44d2-9f68-cc6787d8b649> .
+
+<https://dopheda.info/crm_e5/02c173f8-a1a2-44d2-9f68-cc6787d8b649> a crm:E86_Leaving ;
+    crm:P146_separated_from actor:0001_112 .
+
+<https://dopheda.info/crm_e5/ac3f85ab-4817-4e73-a98e-8cab6f995bb6> a crm:E85_Joining ;
+    crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/417265c7-bbfa-4895-ab6a-0a49b9dca590> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/5fc4ce35-2be4-4fd0-9d3e-dfed1a54a929> .
+
+<https://dopheda.info/crm_e52/5fc4ce35-2be4-4fd0-9d3e-dfed1a54a929> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1933-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1933-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_pc0/417265c7-bbfa-4895-ab6a-0a49b9dca590> a crm:PC144_joined_with ;
+    crm:P02_has_range actor:0001_112 .
+
+actor:0001_112 a crm:E74_Group ;
+    rdfs:label "Canadian Group of Painters (1933-1969)"@en .
+

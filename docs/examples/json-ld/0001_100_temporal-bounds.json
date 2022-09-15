@@ -1,0 +1,18 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "was_born": {
+    "@id": "https://dopheda.info/crm_e63/e2605e40-0a09-4d3a-8cfb-844e1e041ad9",
+    "@type": "Birth",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/ce1acf8b-ce63-4f99-b33d-207c595cb036",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1908-12-23T00:00:00",
+      "end_of_the_end": "1908-12-23T:23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

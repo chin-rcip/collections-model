@@ -1,0 +1,27 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/e86d663c-7e73-4248-83a5-7886d324a73a> .
+
+<https://dopheda.info/crm_e28/e86d663c-7e73-4248-83a5-7886d324a73a> a crm:E33_Linguistic_Object ;
+    dct:source "Berman, Eliza (18 March 2015). \"Yousuf Karsh's Masterful Portraits From Churchill to Hepburn\". Time."@en,
+        "Thurber, Jon (14 July 2002). \"Yousuf Karsh, 93; Photographs Captured Face of 20th Century\". Los Angeles Times."@en,
+        "Berman, Eliza. « Yousuf Karsh's Masterful Portraits From Churchill to Hepburn ». *Time*. 18 mars 2015"@fr,
+        "Thurber, Jon. « Yousuf Karsh, 93; Photographs Captured Face of 20th Century ». *Los Angeles Times*. 14 juillet 2002"@fr ;
+    crm:P190_has_symbolic_content "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."@en ;
+    crm:P2_has_type vocab:100145 ;
+    crm:P72_has_language vocab:2001 .
+
+vocab:100145 a crm:E55_Type ;
+    rdfs:label "Biography"@en,
+        "Biographie"@fr .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+

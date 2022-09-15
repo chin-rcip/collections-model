@@ -1,0 +1,26 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "participated_in": {
+    "@id": "https://dopheda.info/crm_e5/21c22c1f-f268-494c-bc1c-56416fc0a308",
+    "@type": "Event",
+    "has_type": {
+      "@id": "vocab:100149",
+      "@type": "Type",
+      "_label": {
+        "en": "Flourishing",
+        "fr": "Floruit"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/cb6cfc4f-7df7-43b3-814a-dfde9b8d7432",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1940-01-01T00:00:00",
+      "end_of_the_end": "1959-12-31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "died_in": {
+    "@id": "https://dopheda.info/crm_e64/c86ad0c6-f372-402b-bb28-1278b56a8844",
+    "@type": "Death",
+    "occurs_before": {
+      "@id": "https://dopheda.info/crm_e5/24dd688a-90e2-4b35-96d2-68fae8aecd9b",
+      "@type": "Move",
+      "moved": {
+        "@id": "actor:0001_100"
+      },
+      "moved_to": {
+        "@id": "vocab:3004",
+        "@type": "Place",
+        "has_type": {
+          "@id": "vocab:100146",
+          "@type": "Type",
+          "_label": {
+            "en": "Burial Place",
+            "fr": "Lieu de sépulture"
+          }
+        },
+        "_label": {
+          "en": "Notre-Dame Cemetery (Ottawa, CA-ON)",
+          "fr": "Cimetière Notre-Dame (Ottawa, CA-ON)"
+        }
+      },
+      "moved_from": {
+        "@id": "vocab:3002",
+        "@type": "Place",
+        "_label": {
+          "en": "Boston, USA-MA",
+          "fr": "Boston, USA-MA"
+        }
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/58330a32-72ff-4145-8b71-09899b51c217",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "2002-07-13T00:00:00",
+      "end_of_the_end": "2002-07-13T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3002"
+    }
+  },
+  "was_born": {
+    "@id": "https://dopheda.info/crm_e63/e2605e40-0a09-4d3a-8cfb-844e1e041ad9",
+    "@type": "Birth",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/ce1acf8b-ce63-4f99-b33d-207c595cb036",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1908-12-23T00:00:00",
+      "end_of_the_end": "1908-12-23T:23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3001",
+      "@type": "Place",
+      "_label": {
+        "en": "Mardin (Ottoman Empire)",
+        "fr": "Mardin (Empire ottoman)"
+      }
+    },
+    "by_mother": {
+      "@id": "actor:0001_104",
+      "@type": "Person",
+      "_label": {
+        "en": "Bahiyah Nakash"
+      }
+    },
+    "from_father": {
+      "@id": "actor:0001_105",
+      "@type": "Person",
+      "_label": {
+        "en": "Massih Karsh"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

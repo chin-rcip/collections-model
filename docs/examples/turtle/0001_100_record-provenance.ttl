@@ -1,0 +1,30 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/fbef8bbe-f59c-4035-8694-9d78db5abee0> .
+
+<https://dopheda.info/crm_e28/fbef8bbe-f59c-4035-8694-9d78db5abee0> a crm:E73_Information_Object ;
+    crm:P2_has_type vocab:100142 ;
+    crm:P94i_was_created_by <https://dopheda.info/crm_e63/72816381-3508-4370-a3bb-4db5033f0d34> .
+
+actor:0001_1 a crm:E74_Group ;
+    rdfs:label "National Gallery of Canada Library and Archives/Canadian Museum of Contemporary Photography"@en,
+        "Bibliothèque et Archives du Musée des beaux-arts du Canada/Musée canadien de la photographie contemporaine"@fr .
+
+<https://dopheda.info/crm_e52/1b6a3f73-aaeb-4e2f-9073-6d5e6d1fe0e9> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1985-03-13T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2011-06-03T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/72816381-3508-4370-a3bb-4db5033f0d34> a crm:E65_Creation ;
+    crm:P14_carried_out_by actor:0001_1 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/1b6a3f73-aaeb-4e2f-9073-6d5e6d1fe0e9> .
+
+vocab:100142 a crm:E55_Type ;
+    rdfs:label "Record"@en,
+        "Enregistrement"@fr .
+

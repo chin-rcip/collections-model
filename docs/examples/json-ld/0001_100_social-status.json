@@ -1,0 +1,69 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "participated_in": {
+    "@id": "https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a",
+    "@type": "Event",
+    "is_triggered_by": {
+      "@id": "https://dopheda.info/crm_e5/16b60488-1e2b-4708-8457-3b0b6f8a6b7b",
+      "@type": "Attribute_Assignment",
+      "crm:P140_assigned_attribute_to": {
+        "@id": "actor:0001_100"
+      },
+      "crm:P141_assigned": {
+        "@id": "https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a"
+      },
+      "carried_out_by": {
+        "@id": "actor:0001_103",
+        "@type": "Person",
+        "_label": {
+          "en": "Elizabeth II"
+        }
+      }
+    },
+    "has_type": {
+      "@id": "vocab:100172",
+      "@type": "Type",
+      "has_type": {
+        "@id": "vocab:100152",
+        "@type": "Type",
+        "_label": {
+          "en": "Social Status",
+          "fr": "Statut social"
+        }
+      },
+      "_label": {
+        "en": "Companion of the Order of Canada",
+        "fr": "Compagnon de l'Ordre du Canada"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/6384013e-a44e-4ab6-a562-2c80473f6799",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1990-01-01T00:00:00"
+    },
+    "took_place_at": {
+      "@id": "vocab:3003",
+      "@type": "Place",
+      "_label": {
+        "en": "Ottawa, CA-ON",
+        "fr": "Ottawa, CA-ON"
+      }
+    }
+  },
+  "has_type": {
+    "@id": "vocab:100165",
+    "@type": "Type",
+    "has_type": {
+      "@id": "vocab:100154"
+    },
+    "_label": {
+      "en": "Photography",
+      "fr": "Photographie"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

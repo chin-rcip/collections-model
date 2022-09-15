@@ -1,0 +1,46 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmsci: <http://www.cidoc-crm.org/cidoc-crm/CRMsci/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_129 a crm:E21_Person ;
+    rdfs:label "Aung San Suu Kyi"@en ;
+    crm:P11i_participated_in <https://dopheda.info/crm_e5/0ca93590-b162-41e5-8213-1ca686c20902> .
+
+actor:0001_130 a crm:E74_Group ;
+    rdfs:label "Parliament of Canada"@en,
+        "Parlement du Canada"@fr .
+
+<https://dopheda.info/crm_e5/ea3e037b-b5e7-4e43-af7c-57d77ad0c7ae> a crm:E13_Attribute_Assignment ;
+    crm:P140_assigned_attribute_to actor:0001_129 ;
+    crm:P141_assigned <https://dopheda.info/crm_e5/0ca93590-b162-41e5-8213-1ca686c20902> ;
+    crm:P14_carried_out_by actor:0001_130 .
+
+<https://dopheda.info/crm_e52/56bb3f73-8eb2-4c32-8ffc-707a8574fb0e> a crm:E52_Time-Span ;
+    crm:P79_beginning_is_qualified_by "CE"^^xsd:string ;
+    crm:P80_end_is_qualified_by "Before"@en,
+        "Avant"@fr ;
+    crm:P82a_begin_of_the_begin "2007-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2018-10-02T23:59:59"^^xsd:dateTime .
+
+vocab:100152 a crm:E55_Type ;
+    rdfs:label "Social Status"@en,
+        "Statut social"@fr .
+
+vocab:100173 a crm:E55_Type ;
+    rdfs:label "Honorary Canadian Citizenship"@en,
+        "Citoyenneté canadienne honoraire"@fr ;
+    crm:P2_has_type vocab:100152 .
+
+vocab:30014 a crm:E53_Place ;
+    rdfs:label "Canada"@en,
+        "Canada"@fr .
+
+<https://dopheda.info/crm_e5/0ca93590-b162-41e5-8213-1ca686c20902> a crm:E5_Event ;
+    crmsci:O13i_is_triggered_by <https://dopheda.info/crm_e5/ea3e037b-b5e7-4e43-af7c-57d77ad0c7ae> ;
+    crm:P2_has_type vocab:100173 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/56bb3f73-8eb2-4c32-8ffc-707a8574fb0e> ;
+    crm:P7_took_place_at vocab:30014 .
+

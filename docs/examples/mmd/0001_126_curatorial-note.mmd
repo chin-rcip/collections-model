@@ -1,0 +1,35 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]) -->|crm:P14_carried_out_by| 1(["actor:0001_125"])
+2(["actor:0001_126"]) -->|crm:P67i_is_referred_to_by| 3(["-"])
+3(["-"]) -->|crm:P94i_was_created_by| 0(["-"])
+3(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 4["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+1(["actor:0001_125"]) -->|rdfs:label| 5(["''Greg A. Hill''@en"]):::Literal
+2(["actor:0001_126"]):::E39_Actor_URI -->|rdf:type| 6["crm:E21_Person"]:::E39_Actor
+0(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 7["crm:E65_Creation"]:::E2_Temporal_Entity
+1(["actor:0001_125"]):::E39_Actor_URI -->|rdf:type| 8["crm:E21_Person"]:::E39_Actor

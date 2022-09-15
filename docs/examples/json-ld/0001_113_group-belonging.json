@@ -1,0 +1,36 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_113",
+  "@type": "Person",
+  "was_joined_by": {
+    "@id": "https://dopheda.info/crm_e5/ac3f85ab-4817-4e73-a98e-8cab6f995bb6",
+    "@type": "Joining",
+    "is_domain_of": {
+      "@id": "https://dopheda.info/crm_pc0/417265c7-bbfa-4895-ab6a-0a49b9dca590",
+      "@type": "crm:PC144_joined_with",
+      "has_range": {
+        "@id": "actor:0001_112",
+        "@type": "Group",
+        "_label": {
+          "en": "Canadian Group of Painters (1933-1969)"
+        }
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/5fc4ce35-2be4-4fd0-9d3e-dfed1a54a929",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1933-01-01T00:00:00",
+      "end_of_the_end": "1933-12-31T23:59:59"
+    }
+  },
+  "left_by": {
+    "@id": "https://dopheda.info/crm_e5/02c173f8-a1a2-44d2-9f68-cc6787d8b649",
+    "@type": "Leaving",
+    "separated_from": {
+      "@id": "actor:0001_112"
+    }
+  },
+  "_label": {
+    "en": "A. J. Casson"
+  }
+}

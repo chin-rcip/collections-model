@@ -1,0 +1,49 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_referred_to_by": {
+    "@id": "https://dopheda.info/crm_e28/e86d663c-7e73-4248-83a5-7886d324a73a",
+    "@type": "Linguistic_Object",
+    "dct:source": [
+      {
+        "@language": "en",
+        "@value": "Berman, Eliza (18 March 2015). \"Yousuf Karsh's Masterful Portraits From Churchill to Hepburn\". Time."
+      },
+      {
+        "@language": "en",
+        "@value": "Thurber, Jon (14 July 2002). \"Yousuf Karsh, 93; Photographs Captured Face of 20th Century\". Los Angeles Times."
+      },
+      {
+        "@language": "fr",
+        "@value": "Berman, Eliza. « Yousuf Karsh's Masterful Portraits From Churchill to Hepburn ». *Time*. 18 mars 2015"
+      },
+      {
+        "@language": "fr",
+        "@value": "Thurber, Jon. « Yousuf Karsh, 93; Photographs Captured Face of 20th Century ». *Los Angeles Times*. 14 juillet 2002"
+      }
+    ],
+    "has_symbolic_content": {
+      "en": "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."
+    },
+    "has_type": {
+      "@id": "vocab:100145",
+      "@type": "Type",
+      "_label": {
+        "en": "Biography",
+        "fr": "Biographie"
+      }
+    },
+    "has_language": {
+      "@id": "vocab:2001",
+      "@type": "Language",
+      "_label": {
+        "en": "English",
+        "fr": "Anglais"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

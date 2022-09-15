@@ -1,0 +1,41 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P02i_is_range_of <https://dopheda.info/crm_pc0/432601db-4434-44f4-8c14-98e2ae85cb07> .
+
+<https://dopheda.info/crm_e28/daf704e1-eeea-42b3-8e99-45af36265046> a crm:E37_Mark ;
+    dct:source "This image was found on Wikimedia Commons (Signature of Yousuf Karsh, Public domain), and originally available from https://karsh.org/wordpress/wp-content/themes/bigflannel-karsh/img/karsh-signature.jpg"@en,
+        "Cette image a été trouvée sur Wikimedia Commons (Signature de Yousuf Karsh,  Domaine public), et originellement disponible sur https://karsh.org/wordpress/wp-content/themes/bigflannel-karsh/img/karsh-signature.jpg"@fr ;
+    crm:P165i_is_incorporated_in <https://dopheda.info/crm_e28/ff4881d6-03db-4703-8ed4-402624b5da16> ;
+    crm:P2_has_type vocab:100181 .
+
+<https://dopheda.info/crm_e28/ff4881d6-03db-4703-8ed4-402624b5da16> a crmdig:D1_Digital_Object ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/92b6e451-b85c-4578-8679-972fb00e5a9a> .
+
+<https://dopheda.info/crm_e41/92b6e451-b85c-4578-8679-972fb00e5a9a> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "https://upload.wikimedia.org/wikipedia/commons/4/46/Signature_of_Yousuf_Karsh.png"^^xsd:string ;
+    crm:P2_has_type vocab:100156 .
+
+<https://dopheda.info/crm_pc0/432601db-4434-44f4-8c14-98e2ae85cb07> a crm:PC138_represents ;
+    crm:P01_has_domain <https://dopheda.info/crm_e28/daf704e1-eeea-42b3-8e99-45af36265046> ;
+    crm:P138.1_mode_of_representation vocab:100155 .
+
+vocab:100155 a crm:E55_Type ;
+    rdfs:label "Symbolic"@en,
+        "Symbolique"@fr .
+
+vocab:100156 a crm:E55_Type ;
+    rdfs:label "URL"@en,
+        "URL"@fr .
+
+vocab:100181 a crm:E55_Type ;
+    rdfs:label "Signature"@en,
+        "Signature"@fr .
+

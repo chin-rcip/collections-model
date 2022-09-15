@@ -1,0 +1,22 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P11i_participated_in <https://dopheda.info/crm_e5/21c22c1f-f268-494c-bc1c-56416fc0a308> .
+
+<https://dopheda.info/crm_e5/21c22c1f-f268-494c-bc1c-56416fc0a308> a crm:E5_Event ;
+    crm:P2_has_type vocab:100149 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/cb6cfc4f-7df7-43b3-814a-dfde9b8d7432> .
+
+<https://dopheda.info/crm_e52/cb6cfc4f-7df7-43b3-814a-dfde9b8d7432> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1940-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1959-12-31T23:59:59"^^xsd:dateTime .
+
+vocab:100149 a crm:E55_Type ;
+    rdfs:label "Flourishing"@en,
+        "Floruit"@fr .
+

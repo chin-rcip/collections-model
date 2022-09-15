@@ -1,0 +1,61 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_119",
+  "@type": "Group",
+  "performed": {
+    "@id": "https://dopheda.info/crm_e5/c6dc11ed-c978-4086-9aef-222bc57b3d67",
+    "@type": "Activity",
+    "crm:P16_used_specific_object": {
+      "@id": "https://dopheda.info/crm_e41/db8d1823-8242-4f88-b4cc-f31f72d16ff7",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "en": "Royal Canadian Academy of Arts"
+      },
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    },
+    "has_type": [
+      {
+        "@id": "vocab:100153",
+        "@type": "Type",
+        "_label": {
+          "en": "Stay",
+          "fr": "Séjour"
+        }
+      },
+      {
+        "@id": "vocab:100176",
+        "@type": "Type",
+        "_label": {
+          "en": "Headquarter",
+          "fr": "Siège social"
+        }
+      }
+    ],
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/6f19d7e0-6087-48be-a3a8-2fc2865225c1",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "2020-09-01T00:00:00"
+    },
+    "took_place_at": {
+      "@id": "vocab:30010",
+      "@type": "Place",
+      "_label": {
+        "en": "50 Sussex Dr, Ottawa, ON K1M 2K1",
+        "fr": "50 Sussex DR, Ottawa, ON K1M 2K1"
+      }
+    }
+  },
+  "_label": {
+    "en": "Royal Canadian Academy of Arts"
+  }
+}

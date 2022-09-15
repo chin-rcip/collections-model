@@ -1,0 +1,24 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "has_type": {
+    "@id": "vocab:100165",
+    "@type": "Type",
+    "has_type": {
+      "@id": "vocab:100154",
+      "@type": "Type",
+      "_label": {
+        "en": "Technique Used",
+        "fr": "Technique utilisée"
+      }
+    },
+    "_label": {
+      "en": "Photography",
+      "fr": "Photographie"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

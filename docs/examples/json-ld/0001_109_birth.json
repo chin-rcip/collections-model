@@ -1,0 +1,26 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_109",
+  "@type": "Person",
+  "was_born": {
+    "@id": "https://dopheda.info/crm_e63/6317f95b-d062-4120-b140-236a9aecdedb",
+    "@type": "Birth",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/5ba09027-2396-4c21-9d1a-f00895e6deff",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1974-01-01T00:00:00",
+      "end_of_the_end": "1974-12-31T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3007",
+      "@type": "Place",
+      "_label": {
+        "en": "Montreal, CA-QC",
+        "fr": "Montréal, CA-QC"
+      }
+    }
+  },
+  "_label": {
+    "en": "David Altmejd (1974-)"
+  }
+}

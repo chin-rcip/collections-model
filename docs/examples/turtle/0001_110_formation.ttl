@@ -1,0 +1,26 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_110 a crm:E74_Group ;
+    rdfs:label "Order of Canada (1967-)"@en ;
+    crm:P95i_was_formed_by <https://dopheda.info/crm_e63/ac142d25-52e9-47ac-98e4-90ce985b76e2> .
+
+actor:0001_111 a crm:E21_Person ;
+    rdfs:label "Roland Michener (1900-1991)"@en .
+
+<https://dopheda.info/crm_e52/65ebe828-233f-4894-902e-772534d5d08b> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1967-07-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1967-07-01T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/ac142d25-52e9-47ac-98e4-90ce985b76e2> a crm:E66_Formation ;
+    crm:P14_carried_out_by actor:0001_111 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/65ebe828-233f-4894-902e-772534d5d08b> ;
+    crm:P7_took_place_at vocab:3003 .
+
+vocab:3003 a crm:E53_Place ;
+    rdfs:label "Ottawa, CA-ON"@en,
+        "Ottawa, CA-ON"@fr .
+

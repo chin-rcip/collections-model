@@ -1,0 +1,44 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]) -->|crm:P2_has_type| 1(["vocab:100145"])
+2(["vocab:2001"]) -->|rdfs:label| 3(["''Anglais''@fr"]):::Literal
+0(["-"]) -->|dct:source| 4(["''Berman, Eliza (18 March 2015). \''Yousuf Karsh's Masterful Portraits From Churchill to Hepburn\''. Time.''@en"]):::Literal
+5(["actor:0001_100"]) -->|crm:P67i_is_referred_to_by| 0(["-"])
+2(["vocab:2001"]) -->|rdfs:label| 6(["''English''@en"]):::Literal
+0(["-"]) -->|crm:P72_has_language| 2(["vocab:2001"])
+5(["actor:0001_100"]) -->|rdfs:label| 7(["''Yousuf Karsh (1908-2002)''@en"]):::Literal
+0(["-"]) -->|dct:source| 8(["''Berman, Eliza. « Yousuf Karsh's Masterful Portraits From Churchill to Hepburn ». *Time*. 18 mars 2015''@fr"]):::Literal
+5(["actor:0001_100"]):::E39_Actor_URI -->|rdf:type| 9["crm:E21_Person"]:::E39_Actor
+0(["-"]) -->|dct:source| 10(["''Thurber, Jon. « Yousuf Karsh, 93; Photographs Captured Face of 20th Century ». *Los Angeles Times*. 14 juillet 2002''@fr"]):::Literal
+2(["vocab:2001"]):::E55_Type_URI -->|rdf:type| 11["crm:E56_Language"]:::E55_Type
+0(["-"]) -->|dct:source| 12(["''Thurber, Jon (14 July 2002). \''Yousuf Karsh, 93; Photographs Captured Face of 20th Century\''. Los Angeles Times.''@en"]):::Literal
+0(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 13["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+1(["vocab:100145"]):::E55_Type_URI -->|rdf:type| 14["crm:E55_Type"]:::E55_Type
+1(["vocab:100145"]) -->|rdfs:label| 15(["''Biography''@en"]):::Literal
+1(["vocab:100145"]) -->|rdfs:label| 16(["''Biographie''@fr"]):::Literal
+0(["-"]) -->|crm:P190_has_symbolic_content| 17(["''Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992.''@en"]):::Literal

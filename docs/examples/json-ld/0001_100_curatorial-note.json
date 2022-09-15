@@ -1,0 +1,51 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_referred_to_by": [
+    {
+      "@id": "https://dopheda.info/crm_e28/05d95096-3313-40a0-8050-1d9572fd66a6",
+      "@type": "Linguistic_Object",
+      "has_symbolic_content": {
+        "en": "Immigrated to Canada in 1924"
+      },
+      "has_type": {
+        "@id": "vocab:100147",
+        "@type": "Type",
+        "_label": {
+          "en": "Curatorial Note",
+          "fr": "Note curatoriale"
+        }
+      },
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e28/08d6fea9-0784-4deb-8006-7699422b1fac",
+      "@type": "Linguistic_Object",
+      "has_symbolic_content": {
+        "fr": "Immigré au Canada en 1924"
+      },
+      "has_type": {
+        "@id": "vocab:100147"
+      },
+      "has_language": {
+        "@id": "vocab:2003",
+        "@type": "Language",
+        "_label": {
+          "en": "French",
+          "fr": "Français"
+        }
+      }
+    }
+  ],
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

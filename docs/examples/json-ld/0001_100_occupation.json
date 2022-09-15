@@ -1,0 +1,42 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "performed": {
+    "@id": "https://dopheda.info/crm_e5/1c2b1c6c-e71c-44be-820d-a70f61542568",
+    "@type": "Pursuit",
+    "has_type": {
+      "@id": "vocab:100168",
+      "@type": "Type",
+      "has_type": {
+        "@id": "vocab:100150",
+        "@type": "Type",
+        "_label": {
+          "en": "Occupation",
+          "fr": "Occupation"
+        }
+      },
+      "_label": {
+        "en": "Photographer",
+        "fr": "Photographe"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/974c1c32-f3a2-4791-a435-dd3e70c10cc9",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1932-01-01T00:00:00",
+      "end_of_the_end": "1992-12-31T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3003",
+      "@type": "Place",
+      "_label": {
+        "en": "Ottawa, CA-ON",
+        "fr": "Ottawa, CA-ON"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

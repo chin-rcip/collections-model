@@ -1,0 +1,25 @@
+
+class: mainlist
+toc:
+
+- title: Résumé
+  url: /fr/ressources/actuel/dol-avantages-defis#resume
+  hash: resume
+- title: Données ouvertes liées (DOL) pour les institutions culturelles
+  url: /fr/ressources/actuel/dol-avantages-defis#donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
+  hash: donnees-ouvertes-liees-dol-pour-les-institutions-culturelles
+- title: Avantages
+  url: /fr/ressources/actuel/dol-avantages-defis#avantages
+  hash: avantages
+- title: Défis
+  url: /fr/ressources/actuel/dol-avantages-defis#defis
+  hash: defis
+- title: Lignes directrices sur la faisabilité
+  url: /fr/ressources/actuel/dol-avantages-defis#lignes-directrices-sur-la-faisabilite
+  hash: lignes-directrices-sur-la-faisabilite
+- title: Pratiques exemplaires pour la publication des DOL
+  url: /fr/ressources/actuel/dol-avantages-defis#pratiques-exemplaires-pour-la-publication-des-dol
+  hash: pratiques-exemplaires-pour-la-publication-des-dol
+- title: Bibliographie sommaire
+  url: /fr/ressources/actuel/dol-avantages-defis#bibliographie-sommaire
+  hash: bibliographie-sommaire

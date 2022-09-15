@@ -1,0 +1,45 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "was_joined_by": {
+    "@id": "https://dopheda.info/crm_e5/412384d3-d7c5-44d1-a0e0-3ae24daf2f8a",
+    "@type": "Joining",
+    "is_domain_of": {
+      "@id": "https://dopheda.info/crm_pc0/7f11d0f4-9fdf-401f-9b12-45ef6d1c63fd",
+      "@type": "crm:PC144_joined_with",
+      "has_range": {
+        "@id": "actor:0001_110",
+        "@type": "Group",
+        "_label": {
+          "en": "Order of Canada (1967-)",
+          "fr": "Ordre du Canada (1967-)"
+        }
+      },
+      "kind_of_member": {
+        "@id": "vocab:100166",
+        "@type": "Type",
+        "_label": {
+          "en": "Companion",
+          "fr": "Compagnon"
+        }
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/e9b1f63a-d3e2-4f3c-9922-be3037a8b148",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1990-01-01T00:00:00",
+      "end_of_the_end": "1990-12-31T23:59:59"
+    }
+  },
+  "left_by": {
+    "@id": "https://dopheda.info/crm_e5/9877aa4e-a415-425e-bc68-f6857730c03d",
+    "@type": "Leaving",
+    "separated_from": {
+      "@id": "actor:0001_110"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

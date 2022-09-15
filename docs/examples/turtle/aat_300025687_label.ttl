@@ -1,0 +1,4 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+aat:300025687 rdfs:label "Photographers"@en, "Photographes"@fr .

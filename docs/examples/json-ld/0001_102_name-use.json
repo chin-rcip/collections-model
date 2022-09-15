@@ -1,0 +1,87 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_102",
+  "@type": "Person",
+  "is_identified_by": [
+    {
+      "@id": "https://dopheda.info/crm_e41/d61759eb-b94b-4926-ad2f-38fb7c2c2f75",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "was_name_used_by": {
+        "@id": "https://dopheda.info/crm_e5/09e58d34-718e-4ab0-aec2-e1a78d0e0d36",
+        "@type": "Name_Use_Activity",
+        "occured_in_kind_of_context": {
+          "@id": "vocab:100164",
+          "@type": "Type",
+          "_label": {
+            "en": "Mathematics Treatises Author",
+            "fr": "Auteur de traités de mathématiques / Auteure de traités de mathématiques"
+          }
+        }
+      },
+      "has_symbolic_content": {
+        "en": "Charles Lutwidge Dodgson"
+      },
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41/e29ecca6-d562-4a4d-8e2d-0f360eb9c678",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "was_name_used_by": {
+        "@id": "https://dopheda.info/crm_e5/25059271-4c3b-4098-a8f9-6b80a16abe83",
+        "@type": "Name_Use_Activity",
+        "occured_in_kind_of_context": {
+          "@id": "vocab:100163",
+          "@type": "Type",
+          "_label": {
+            "en": "Children's Book Writing",
+            "fr": "Écriture de livres pour enfants"
+          }
+        },
+        "has_time-span": {
+          "@id": "https://dopheda.info/crm_e52/29d4f190-5ec9-4862-b26f-b86805d4d8b9",
+          "@type": "Time-Span",
+          "begin_of_the_begin": "1856-01-01T00:00:00",
+          "end_of_the_end": "1898-12-31T23:59:59"
+        }
+      },
+      "has_symbolic_content": {
+        "en": "Lewis Carroll"
+      },
+      "has_type": {
+        "@id": "vocab:100161",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:100139",
+          "@type": "Type",
+          "_label": {
+            "en": "Type of Appellation",
+            "fr": "Type d'appellation"
+          }
+        },
+        "_label": {
+          "en": "Pen Name",
+          "fr": "Nom de plume"
+        }
+      },
+      "has_language": {
+        "@id": "vocab:2001"
+      }
+    }
+  ],
+  "_label": {
+    "en": "Charles Lutwidge Dodgson"
+  }
+}

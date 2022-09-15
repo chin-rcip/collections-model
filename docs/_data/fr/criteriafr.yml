@@ -1,0 +1,61 @@
+
+class: mainlist
+toc:
+
+- title: Utilisation principale
+  url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-principale
+  hash: utilisation-principale
+- title: Contexte
+  url: /fr/ressources/actuel/mode-demploi/criteria#contexte
+  hash: contexte
+- title: Vocabulaire de base et connaissances préalables
+  url: /fr/ressources/actuel/mode-demploi/criteria#vocabulaire-de-base-et-connaissances-prealables
+  hash: vocabulaire-de-base-et-connaissances-prealables
+- title: Auditoires visés
+  url: /fr/ressources/actuel/mode-demploi/criteria#auditoires-vises
+  hash: auditoires-vises
+- title: Instructions
+  url: /fr/ressources/actuel/mode-demploi/criteria#instructions
+  hash: instructions
+  class: sublist
+  subfolder:
+  - title: Démonstrateur en ligne
+    url: /fr/ressources/actuel/mode-demploi/criteria#demonstrateur-en-ligne
+    hash: demonstrateur-en-ligne
+    class: subsublist
+    subfolder:
+    - title: Navigateurs recommandés
+      url: /fr/ressources/actuel/mode-demploi/criteria#navigateurs-recommandes
+      hash: navigateurs-recommandes
+    - title: Utilisation
+      url: /fr/ressources/actuel/mode-demploi/criteria#utilisation
+      hash: utilisation
+  - title: Interface en ligne de commande
+    url: /fr/ressources/actuel/mode-demploi/criteria#interface-en-ligne-de-commande
+    hash: interface-en-ligne-de-commande
+    class: subsublist
+    subfolder:
+    - title: Installation
+      url: /fr/ressources/actuel/mode-demploi/criteria#installation
+      hash: installation
+    - title: Dépendances
+      url: /fr/ressources/actuel/mode-demploi/criteria#dependances
+      hash: dependances
+    - title: Utilisation
+      url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-1
+      hash: utilisation-1
+- title: Aide-mémoire
+  url: /fr/ressources/actuel/mode-demploi/criteria#aide-memoire
+  hash: aide-memoire
+- title: Pour en savoir plus
+  url: /fr/ressources/actuel/mode-demploi/criteria#pour-en-savoir-plus
+  hash: pour-en-savoir-plus
+- title: Licence
+  url: /fr/ressources/actuel/mode-demploi/criteria#licence
+  hash: licence
+- title: Utilisateurs dignes de mention
+  url: /fr/ressources/actuel/mode-demploi/criteria#utilisateurs-dignes-de-mention
+  hash: utilisateurs-dignes-de-mention
+- title: Bibliographie
+  url: /fr/ressources/actuel/mode-demploi/criteria#bibliographie
+  hash: bibliographie

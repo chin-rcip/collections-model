@@ -1,0 +1,91 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_501",
+  "@type": "Human-Made_Object",
+  "is_identified_by": [
+    {
+      "@id": "https://dopheda.info/crm_e41/92450a61-f1de-4411-9e57-fb47479ef094",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "en": "Flightstop"
+      },
+      "has_type": [
+        {
+          "@id": "vocab:100177",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100139",
+            "@type": "Type",
+            "_label": {
+              "en": "Type of Appellation",
+              "fr": "Type d'appellation"
+            }
+          },
+          "_label": {
+            "en": "Title",
+            "fr": "Titre"
+          }
+        },
+        {
+          "@id": "vocab:1004",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100138",
+            "@type": "Type",
+            "_label": {
+              "en": "Precedence",
+              "fr": "Primauté"
+            }
+          },
+          "_label": {
+            "en": "Preferred",
+            "fr": "Préféré"
+          }
+        }
+      ],
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41/a80c1299-42fd-45e8-b487-d113735eb0d1",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "en": "Flight Stop"
+      },
+      "has_type": [
+        {
+          "@id": "vocab:100177"
+        },
+        {
+          "@id": "vocab:1003",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100138"
+          },
+          "_label": {
+            "en": "Non-Preferred",
+            "fr": "Non préféré"
+          }
+        }
+      ],
+      "has_language": {
+        "@id": "vocab:2001"
+      }
+    }
+  ],
+  "_label": {
+    "en": "Flightstop"
+  }
+}

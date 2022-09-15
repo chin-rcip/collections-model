@@ -1,0 +1,60 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix object: <https://dopheda.info/crm_e18/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+object:0001_500 a crm:E22_Human-Made_Object ;
+    rdfs:label "Self-Portrait"@en ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/1aa0921b-e18d-4caa-8e5a-1e35ec6953a6>,
+        <https://dopheda.info/crm_e41/ad05b745-4f0a-4245-a89b-4626d006d215>,
+        <https://dopheda.info/crm_e41/b1054ef5-bd03-4bba-80ea-eadf886fe2aa> .
+
+<https://dopheda.info/crm_e41/1aa0921b-e18d-4caa-8e5a-1e35ec6953a6> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "PA-212511"^^xsd:string ;
+    crm:P2_has_type vocab:100178 .
+
+<https://dopheda.info/crm_e41/ad05b745-4f0a-4245-a89b-4626d006d215> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Self Portret"^^xsd:string ;
+    crm:P2_has_type vocab:100177,
+        vocab:1003 .
+
+<https://dopheda.info/crm_e41/b1054ef5-bd03-4bba-80ea-eadf886fe2aa> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Self-Portrait"@en ;
+    crm:P2_has_type vocab:100177,
+        vocab:1004 ;
+    crm:P72_has_language vocab:2001 .
+
+vocab:100139 a crm:E55_Type ;
+    rdfs:label "Type of Appellation"@en,
+        "Type d'appellation"@fr .
+
+vocab:100178 a crm:E55_Type ;
+    rdfs:label "Identification Number"@en,
+        "Numéro d'identification"@fr .
+
+vocab:1003 a crm:E55_Type ;
+    rdfs:label "Non-Preferred"@en,
+        "Non préféré"@fr ;
+    crm:P2_has_type vocab:100138 .
+
+vocab:1004 a crm:E55_Type ;
+    rdfs:label "Preferred"@en,
+        "Préféré"@fr ;
+    crm:P2_has_type vocab:100138 .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+
+vocab:100138 a crm:E55_Type ;
+    rdfs:label "Precedence"@en,
+        "Primauté"@fr .
+
+vocab:100177 a crm:E55_Type ;
+    rdfs:label "Title"@en,
+        "Titre"@fr ;
+    crm:P2_has_type vocab:100139 .
+

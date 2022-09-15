@@ -1,0 +1,72 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix object: <https://dopheda.info/crm_e18/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+object:0001_503 a crm:E22_Human-Made_Object ;
+    rdfs:label "Canadissimo"@en ;
+    crm:P108i_was_produced_by <https://dopheda.info/crm_e63/729c621a-fbfd-464e-aa12-d16623c7fa61> .
+
+actor:0001_131 a crm:E21_Person ;
+    rdfs:label "Jasmin Bilodeau"@fr .
+
+actor:0001_132 a crm:E21_Person ;
+    rdfs:label "Sébastien Giguère"@fr .
+
+actor:0001_133 a crm:E21_Person ;
+    rdfs:label "Nicolas Laverdière"@fr .
+
+<https://dopheda.info/crm_e52/863dcced-4106-4f1a-9ec8-fc803421d134> a crm:E52_Time-Span ;
+    crm:P79_beginning_is_qualified_by "or before"@en,
+        "Ou avant"@fr ;
+    crm:P80_end_is_qualified_by "or before"@en,
+        "Ou avant"@fr ;
+    crm:P82a_begin_of_the_begin "2015-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2015-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/729c621a-fbfd-464e-aa12-d16623c7fa61> a crm:E12_Production ;
+    crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/2eafc513-8dab-4091-9c50-a1fe3e9be792>,
+        <https://dopheda.info/crm_pc0/b24348cf-c635-451d-8e20-cf02a7c3b5b8>,
+        <https://dopheda.info/crm_pc0/d5933faa-fd34-4ffe-9a42-cb5f8856c788> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/863dcced-4106-4f1a-9ec8-fc803421d134> ;
+    crm:P7_took_place_at vocab:30015 .
+
+<https://dopheda.info/crm_pc0/2eafc513-8dab-4091-9c50-a1fe3e9be792> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_133 ;
+    crm:P14.1_in_the_role_of vocab:1001,
+        vocab:100180 .
+
+<https://dopheda.info/crm_pc0/b24348cf-c635-451d-8e20-cf02a7c3b5b8> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_131 ;
+    crm:P14.1_in_the_role_of vocab:1001,
+        vocab:100180 .
+
+<https://dopheda.info/crm_pc0/d5933faa-fd34-4ffe-9a42-cb5f8856c788> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_132 ;
+    crm:P14.1_in_the_role_of vocab:1001,
+        vocab:100180 .
+
+vocab:100143 a crm:E55_Type ;
+    rdfs:label "Actor Priority"@en,
+        "Priorité de l'actant"@fr .
+
+vocab:100144 a crm:E55_Type ;
+    rdfs:label "Actor Role"@en,
+        "Rôle de l'actant"@fr .
+
+vocab:30015 a crm:E53_Place ;
+    rdfs:label "Canada Pavilion of the Venice Biennale"@en,
+        "Pavillon du Canada de la Biennale de Venise"@fr .
+
+vocab:1001 a crm:E55_Type ;
+    rdfs:label "1"@en,
+        "1"@fr ;
+    crm:P2_has_type vocab:100143 .
+
+vocab:100180 a crm:E55_Type ;
+    rdfs:label "Creator"@en,
+        "Créateur / Créatrice"@fr ;
+    crm:P2_has_type vocab:100144 .
+

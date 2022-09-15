@@ -1,0 +1,26 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_114",
+  "@type": "Person",
+  "participated_in": {
+    "@id": "https://dopheda.info/crm_e5/c7a71e04-623d-4d44-814a-c38b7ea3862b",
+    "@type": "Event",
+    "has_type": {
+      "@id": "vocab:100149",
+      "@type": "Type",
+      "_label": {
+        "en": "Flourishing",
+        "fr": "Floruit"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/edf52b6d-b5f5-43b5-8ee3-66cc9c816dba",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1913-01-01T00:00:00",
+      "end_of_the_end": "1915-12-31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Cyril Henry Barraud"
+  }
+}

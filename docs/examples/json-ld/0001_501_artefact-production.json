@@ -1,0 +1,63 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_501",
+  "@type": "Human-Made_Object",
+  "crm:P108i_was_produced_by": {
+    "@id": "https://dopheda.info/crm_e63/9c3c147b-6ae9-41c6-8e86-8e0b80535c8d",
+    "@type": "crm:E12_Production",
+    "is_domain_of": {
+      "@id": "https://dopheda.info/crm_pc0/a63188e8-2b15-4af9-a13f-def996e21c90",
+      "@type": "crm:PC14_carried_out_by",
+      "has_range": {
+        "@id": "actor:0001_121",
+        "@type": "Person",
+        "_label": {
+          "en": "Michael Snow"
+        }
+      },
+      "in_the_role_of": [
+        {
+          "@id": "vocab:1001",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100143",
+            "@type": "Type",
+            "_label": {
+              "en": "Actor Priority",
+              "fr": "Priorité de l'actant"
+            }
+          },
+          "_label": {
+            "en": "1",
+            "fr": "1"
+          }
+        },
+        {
+          "@id": "vocab:100180",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100144",
+            "@type": "Type",
+            "_label": {
+              "en": "Actor Role",
+              "fr": "Rôle de l'actant"
+            }
+          },
+          "_label": {
+            "en": "Creator",
+            "fr": "Créateur / Créatrice"
+          }
+        }
+      ]
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/6b153f37-eb89-42a8-bc1f-4544cc51a41d",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1979-01-01T00:00:00",
+      "end_of_the_end": "1979-12-31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Flightstop"
+  }
+}

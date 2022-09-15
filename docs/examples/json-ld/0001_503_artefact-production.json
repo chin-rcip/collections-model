@@ -1,0 +1,131 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_503",
+  "@type": "Human-Made_Object",
+  "crm:P108i_was_produced_by": {
+    "@id": "https://dopheda.info/crm_e63/729c621a-fbfd-464e-aa12-d16623c7fa61",
+    "@type": "crm:E12_Production",
+    "is_domain_of": [
+      {
+        "@id": "https://dopheda.info/crm_pc0/2eafc513-8dab-4091-9c50-a1fe3e9be792",
+        "@type": "crm:PC14_carried_out_by",
+        "has_range": {
+          "@id": "actor:0001_133",
+          "@type": "Person",
+          "_label": {
+            "fr": "Nicolas Laverdière"
+          }
+        },
+        "in_the_role_of": [
+          {
+            "@id": "vocab:1001",
+            "@type": "Type",
+            "has_type": {
+              "@id": "vocab:100143",
+              "@type": "Type",
+              "_label": {
+                "en": "Actor Priority",
+                "fr": "Priorité de l'actant"
+              }
+            },
+            "_label": {
+              "en": "1",
+              "fr": "1"
+            }
+          },
+          {
+            "@id": "vocab:100180",
+            "@type": "Type",
+            "has_type": {
+              "@id": "vocab:100144",
+              "@type": "Type",
+              "_label": {
+                "en": "Actor Role",
+                "fr": "Rôle de l'actant"
+              }
+            },
+            "_label": {
+              "en": "Creator",
+              "fr": "Créateur / Créatrice"
+            }
+          }
+        ]
+      },
+      {
+        "@id": "https://dopheda.info/crm_pc0/b24348cf-c635-451d-8e20-cf02a7c3b5b8",
+        "@type": "crm:PC14_carried_out_by",
+        "has_range": {
+          "@id": "actor:0001_131",
+          "@type": "Person",
+          "_label": {
+            "fr": "Jasmin Bilodeau"
+          }
+        },
+        "in_the_role_of": [
+          {
+            "@id": "vocab:1001"
+          },
+          {
+            "@id": "vocab:100180"
+          }
+        ]
+      },
+      {
+        "@id": "https://dopheda.info/crm_pc0/d5933faa-fd34-4ffe-9a42-cb5f8856c788",
+        "@type": "crm:PC14_carried_out_by",
+        "has_range": {
+          "@id": "actor:0001_132",
+          "@type": "Person",
+          "_label": {
+            "fr": "Sébastien Giguère"
+          }
+        },
+        "in_the_role_of": [
+          {
+            "@id": "vocab:1001"
+          },
+          {
+            "@id": "vocab:100180"
+          }
+        ]
+      }
+    ],
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/863dcced-4106-4f1a-9ec8-fc803421d134",
+      "@type": "Time-Span",
+      "beginning_is_qualified_by": [
+        {
+          "@language": "en",
+          "@value": "or before"
+        },
+        {
+          "@language": "fr",
+          "@value": "Ou avant"
+        }
+      ],
+      "end_is_qualified_by": [
+        {
+          "@language": "en",
+          "@value": "or before"
+        },
+        {
+          "@language": "fr",
+          "@value": "Ou avant"
+        }
+      ],
+      "begin_of_the_begin": "2015-01-01T00:00:00",
+      "end_of_the_end": "2015-12-31T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:30015",
+      "@type": "Place",
+      "_label": {
+        "en": "Canada Pavilion of the Venice Biennale",
+        "fr": "Pavillon du Canada de la Biennale de Venise"
+      }
+    }
+  },
+  "_label": {
+    "en": "Canadissimo"
+  }
+}

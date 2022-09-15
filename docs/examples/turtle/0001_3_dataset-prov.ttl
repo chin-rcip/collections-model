@@ -1,0 +1,47 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmarcheo: <http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/> .
+@prefix crmsci: <http://www.cidoc-crm.org/cidoc-crm/CRMsci/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://dopheda.info/crm_e63/cdba492c-8298-4ac7-94d4-7f0978f7541a> a crm:E65_Creation ;
+    crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/b496c602-1cec-44bc-ba20-8d6d80d4189e>,
+        <https://dopheda.info/crm_pc0/b6992866-4b36-42a2-b2e0-b30f41c9646f> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e> ;
+    crm:P94_has_created <https://dopheda.info/crmdig_d1/85c9d167-69af-40e7-9023-2d5ceda0f62d> .
+
+<https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2021-01-15T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2021-01-15T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crmdig_d1/85c9d167-69af-40e7-9023-2d5ceda0f62d> a crmdig:D1_Digital_Object .    
+
+<https://dopheda.info/crm_pc0/b496c602-1cec-44bc-ba20-8d6d80d4189e> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_4 ;
+    crm:P14.1_in_the_role_of vocab:1005 .
+
+<https://dopheda.info/crm_pc0/b6992866-4b36-42a2-b2e0-b30f41c9646f> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_3 ;
+    crm:P14.1_in_the_role_of vocab:1006 .
+
+actor:0001_3 a crm:E74_Group ;
+    rdfs:label "National Gallery of Canada"@en,
+        "Musée des beaux-arts du Canada"@fr .
+
+actor:0001_4 a crm:E74_Group ;
+    rdfs:label "Canadian Heritage Information Network (CHIN)"@en,
+        "Réseau canadien d'information sur le patrimoine (RCIP)"@fr .
+
+vocab:1005 a crm:E55_Type ;
+    rdfs:label "Creator"@en,
+        "Créateur / Créatrice"@fr .
+
+vocab:1006 a crm:E55_Type ;
+    rdfs:label "Provider"@en,
+        "Soumissionnaire"@fr .

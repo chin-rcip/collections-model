@@ -1,0 +1,48 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["vocab:3008"]) -->|rdfs:label| 1(["''Toronto, CA-ON''@en"]):::Literal
+2(["actor:0001_112"]) -->|crm:P95i_was_formed_by| 3(["-"])
+2(["actor:0001_112"]) -->|rdfs:label| 4(["''Canadian Group of Painters (1933-1969)''@en"]):::Literal
+5(["-"]) -->|crm:P82a_begin_of_the_begin| 6(["''1969-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+7(["actor:0001_113"]) -->|rdfs:label| 8(["''A. J. Casson''@en"]):::Literal
+5(["-"]) -->|crm:P82b_end_of_the_end| 9(["''1969-12-31T23:59:59''^^xsd:dateTime"]):::Literal
+7(["actor:0001_113"]):::E39_Actor_URI -->|rdf:type| 10["crm:E21_Person"]:::E39_Actor
+2(["actor:0001_112"]):::E39_Actor_URI -->|rdf:type| 11["crm:E74_Group"]:::E39_Actor
+0(["vocab:3008"]) -->|rdfs:label| 12(["''Toronto, CA-ON''@fr"]):::Literal
+3(["-"]) -->|crm:P7_took_place_at| 0(["vocab:3008"])
+5(["-"]):::E52_Time-Span_URI -->|rdf:type| 13["crm:E52_Time-Span"]:::E52_Time-Span
+3(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 14["crm:E66_Formation"]:::E2_Temporal_Entity
+15(["-"]) -->|crm:P82b_end_of_the_end| 16(["''1933-12-31T23:59:59''^^xsd:dateTime"]):::Literal
+0(["vocab:3008"]):::E53_Place_URI -->|rdf:type| 17["crm:E53_Place"]:::E53_Place
+15(["-"]) -->|crm:P82a_begin_of_the_begin| 18(["''1933-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+3(["-"]) -->|crm:P4_has_time-span| 15(["-"])
+2(["actor:0001_112"]) -->|crm:P99i_was_dissolved_by| 19(["-"])
+3(["-"]) -->|crm:P14_carried_out_by| 7(["actor:0001_113"])
+19(["-"]) -->|crm:P4_has_time-span| 5(["-"])
+19(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 20["crm:E68_Dissolution"]:::E2_Temporal_Entity
+15(["-"]):::E52_Time-Span_URI -->|rdf:type| 21["crm:E52_Time-Span"]:::E52_Time-Span

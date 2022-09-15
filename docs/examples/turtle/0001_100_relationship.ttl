@@ -1,0 +1,43 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P02i_is_range_of <https://dopheda.info/crm_pc0/a3cb38f5-0ca2-49fd-b161-4371e9c63c4b> .
+
+actor:0001_118 a crm:E21_Person ;
+    rdfs:label "Solange Gauthier"@en .
+
+<https://dopheda.info/crm_e5/ea46c983-c0ea-4696-85dc-23f9ef070786> a crm:E7_Activity ;
+    crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/6a6d1711-1e55-4685-929c-b5754c136c9f> ;
+    crm:P2_has_type vocab:100174 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/20d264a4-651a-48e0-9463-c50215596182> .
+
+<https://dopheda.info/crm_e52/20d264a4-651a-48e0-9463-c50215596182> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1939-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1961-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_pc0/6a6d1711-1e55-4685-929c-b5754c136c9f> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_118 ;
+    crm:P14.1_in_the_role_of vocab:100175 .
+
+<https://dopheda.info/crm_pc0/a3cb38f5-0ca2-49fd-b161-4371e9c63c4b> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://dopheda.info/crm_e5/ea46c983-c0ea-4696-85dc-23f9ef070786> ;
+    crm:P14.1_in_the_role_of vocab:100175 .
+
+vocab:100151 a crm:E55_Type ;
+    rdfs:label "Relationship"@en,
+        "Relation"@fr .
+
+vocab:100174 a crm:E55_Type ;
+    rdfs:label "Marriage"@en,
+        "Mariage"@fr ;
+    crm:P2_has_type vocab:100151 .
+
+vocab:100175 a crm:E55_Type ;
+    rdfs:label "Spouse"@en,
+        "Époux / Épouse"@fr .
+

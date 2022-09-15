@@ -1,0 +1,22 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_114 a crm:E21_Person ;
+    rdfs:label "Cyril Henry Barraud"@en ;
+    crm:P11i_participated_in <https://dopheda.info/crm_e5/c7a71e04-623d-4d44-814a-c38b7ea3862b> .
+
+<https://dopheda.info/crm_e5/c7a71e04-623d-4d44-814a-c38b7ea3862b> a crm:E5_Event ;
+    crm:P2_has_type vocab:100149 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/edf52b6d-b5f5-43b5-8ee3-66cc9c816dba> .
+
+<https://dopheda.info/crm_e52/edf52b6d-b5f5-43b5-8ee3-66cc9c816dba> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1913-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1915-12-31T23:59:59"^^xsd:dateTime .
+
+vocab:100149 a crm:E55_Type ;
+    rdfs:label "Flourishing"@en,
+        "Floruit"@fr .
+

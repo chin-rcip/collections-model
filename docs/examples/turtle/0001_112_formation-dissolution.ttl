@@ -1,0 +1,34 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_112 a crm:E74_Group ;
+    rdfs:label "Canadian Group of Painters (1933-1969)"@en ;
+    crm:P95i_was_formed_by <https://dopheda.info/crm_e63/68ec5c90-677c-4e5e-afe0-b3022e9a7854> ;
+    crm:P99i_was_dissolved_by <https://dopheda.info/crm_e64/12f5c83b-5adf-4e61-82f8-172d6ef6b826> .
+
+actor:0001_113 a crm:E21_Person ;
+    rdfs:label "A. J. Casson"@en .
+
+<https://dopheda.info/crm_e52/434486c9-7583-402c-8665-4e0b618f9cc4> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1933-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1933-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/4bbb3b52-1e40-4017-b360-4d67591ebff2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1969-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1969-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/68ec5c90-677c-4e5e-afe0-b3022e9a7854> a crm:E66_Formation ;
+    crm:P14_carried_out_by actor:0001_113 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/434486c9-7583-402c-8665-4e0b618f9cc4> ;
+    crm:P7_took_place_at vocab:3008 .
+
+<https://dopheda.info/crm_e64/12f5c83b-5adf-4e61-82f8-172d6ef6b826> a crm:E68_Dissolution ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/4bbb3b52-1e40-4017-b360-4d67591ebff2> .
+
+vocab:3008 a crm:E53_Place ;
+    rdfs:label "Toronto, CA-ON"@en,
+        "Toronto, CA-ON"@fr .
+

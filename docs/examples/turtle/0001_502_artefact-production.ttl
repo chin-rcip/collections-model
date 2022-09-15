@@ -1,0 +1,45 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix object: <https://dopheda.info/crm_e18/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+object:0001_502 a crm:E22_Human-Made_Object ;
+    rdfs:label "\"I am half sick of shadows, said The Lady of Shalott\""@en ;
+    crm:P108i_was_produced_by <https://dopheda.info/crm_e63/bedac4e8-1779-4a12-ae3f-9830b9828515> .
+
+actor:0001_124 a crm:E21_Person ;
+    rdfs:label "John William Waterhouse"@en .
+
+<https://dopheda.info/crm_e52/84e920cf-9441-431b-b5ee-1260310a25d7> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1915-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1915-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/bedac4e8-1779-4a12-ae3f-9830b9828515> a crm:E12_Production ;
+    crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/852a3468-4c04-4193-937a-5e9e3b5bd181> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/84e920cf-9441-431b-b5ee-1260310a25d7> .
+
+<https://dopheda.info/crm_pc0/852a3468-4c04-4193-937a-5e9e3b5bd181> a crm:PC14_carried_out_by ;
+    crm:P02_has_range actor:0001_124 ;
+    crm:P14.1_in_the_role_of vocab:1001,
+        vocab:100180 .
+
+vocab:1001 a crm:E55_Type ;
+    rdfs:label "1"@en,
+        "1"@fr ;
+    crm:P2_has_type vocab:100143 .
+
+vocab:100143 a crm:E55_Type ;
+    rdfs:label "Actor Priority"@en,
+        "Priorité de l'actant"@fr .
+
+vocab:100144 a crm:E55_Type ;
+    rdfs:label "Actor Role"@en,
+        "Rôle de l'actant"@fr .
+
+vocab:100180 a crm:E55_Type ;
+    rdfs:label "Creator"@en,
+        "Créateur / Créatrice"@fr ;
+    crm:P2_has_type vocab:100144 .
+

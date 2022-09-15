@@ -1,0 +1,121 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_128",
+  "@type": "Person",
+  "performed": [
+    {
+      "@id": "https://dopheda.info/crm_e5/1cf23579-eecd-4f4b-9a57-8c09ac2e8c1a",
+      "@type": "Pursuit",
+      "has_type": {
+        "@id": "vocab:100169",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:100150",
+          "@type": "Type",
+          "_label": {
+            "en": "Occupation",
+            "fr": "Occupation"
+          }
+        },
+        "_label": {
+          "en": "Visual Artist",
+          "fr": "Artiste visuel / Artiste visuelle"
+        }
+      },
+      "has_time-span": {
+        "@id": "https://dopheda.info/crm_e52/eab53e1f-9cc4-4acc-a955-207ddbd515be",
+        "@type": "Time-Span",
+        "beginning_is_qualified_by": [
+          {
+            "@language": "en",
+            "@value": "Before"
+          },
+          {
+            "@language": "fr",
+            "@value": "Avant"
+          }
+        ],
+        "begin_of_the_begin": "1996-01-01T00:00:00"
+      },
+      "took_place_at": {
+        "@id": "vocab:3007",
+        "@type": "Place",
+        "_label": {
+          "en": "Montreal, CA-QC",
+          "fr": "Montréal, CA-QC"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e5/86c8bd42-c890-4eac-b33e-1c66f174588e",
+      "@type": "Pursuit",
+      "has_type": {
+        "@id": "vocab:100171",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:100150"
+        },
+        "_label": {
+          "en": "Farmer",
+          "fr": "Agriculteur / Agricultrice"
+        }
+      },
+      "has_time-span": {
+        "@id": "https://dopheda.info/crm_e52/c85611b3-d494-452b-9384-0c17fc6f803a",
+        "@type": "Time-Span",
+        "beginning_is_qualified_by": [
+          {
+            "@language": "en",
+            "@value": "Before"
+          },
+          {
+            "@language": "fr",
+            "@value": "Avant"
+          }
+        ],
+        "begin_of_the_begin": "2008-01-01T00:00:00"
+      },
+      "took_place_at": {
+        "@id": "vocab:30012",
+        "@type": "Place",
+        "_label": {
+          "en": "Hemmingford, CA-QC",
+          "fr": "Hemmingford, CA-QC"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e5/cac4fac9-8621-4d1e-814d-ab99e305205f",
+      "@type": "Pursuit",
+      "has_type": {
+        "@id": "vocab:100170",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:100150"
+        },
+        "_label": {
+          "en": "Novelist",
+          "fr": "Romancier / Romancière"
+        }
+      },
+      "has_time-span": {
+        "@id": "https://dopheda.info/crm_e52/013f0e31-8f39-4636-a569-6c85a1c600c1",
+        "@type": "Time-Span",
+        "beginning_is_qualified_by": [
+          {
+            "@language": "en",
+            "@value": "Before"
+          },
+          {
+            "@language": "fr",
+            "@value": "Avant"
+          }
+        ],
+        "begin_of_the_begin": "2009-01-01T00:00:00"
+      }
+    }
+  ],
+  "_label": {
+    "fr": "Marc Séguin"
+  }
+}

@@ -1,0 +1,16 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+actor:0001_126 a crm:E21_Person ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/1f040a67-9949-40dd-bb38-ded948c9f5c0> .
+
+<https://dopheda.info/crm_e28/1f040a67-9949-40dd-bb38-ded948c9f5c0> a crm:E33_Linguistic_Object ;
+    crm:P94i_was_created_by <https://dopheda.info/crm_e63/0c767977-5463-4969-9bd7-975fde06a12b> .
+
+<https://dopheda.info/crm_e63/0c767977-5463-4969-9bd7-975fde06a12b> a crm:E65_Creation ;
+    crm:P14_carried_out_by actor:0001_125 .
+
+actor:0001_125 a crm:E21_Person ;
+    rdfs:label "Greg A. Hill"@en .
+

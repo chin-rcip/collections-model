@@ -1,0 +1,43 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_112",
+  "@type": "Group",
+  "was_formed_by": {
+    "@id": "https://dopheda.info/crm_e63/68ec5c90-677c-4e5e-afe0-b3022e9a7854",
+    "@type": "Formation",
+    "carried_out_by": {
+      "@id": "actor:0001_113",
+      "@type": "Person",
+      "_label": {
+        "en": "A. J. Casson"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/434486c9-7583-402c-8665-4e0b618f9cc4",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1933-01-01T00:00:00",
+      "end_of_the_end": "1933-12-31T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3008",
+      "@type": "Place",
+      "_label": {
+        "en": "Toronto, CA-ON",
+        "fr": "Toronto, CA-ON"
+      }
+    }
+  },
+  "was_dissolved_by": {
+    "@id": "https://dopheda.info/crm_e64/12f5c83b-5adf-4e61-82f8-172d6ef6b826",
+    "@type": "Dissolution",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/4bbb3b52-1e40-4017-b360-4d67591ebff2",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1969-01-01T00:00:00",
+      "end_of_the_end": "1969-12-31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Canadian Group of Painters (1933-1969)"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_112",
+  "@type": "Group",
+  "is_referred_to_by": {
+    "@id": "https://dopheda.info/crm_e28/e04bb3f3-4190-47ef-83c2-4dcca6217f93",
+    "@type": "Linguistic_Object",
+    "has_symbolic_content": {
+      "en": "Founded in 1933 after the disbanding of the Group of Seven by former members and their associates, the Canadian Group of Painters championed modernist painting styles against the entrenched traditionalism of the Royal Canadian Academy of Arts. It provided a platform for artists across Canada who were pursuing a variety of new concerns, from the formal experimentation of Bertram Brooker to the modern-figure subjects of Prudence Heward and Pegi Nicol MacLeod and the expressive landscapes of Emily Carr."
+    },
+    "has_type": {
+      "@id": "vocab:100145",
+      "@type": "Type",
+      "_label": {
+        "en": "Biography",
+        "fr": "Biographie"
+      }
+    },
+    "has_language": {
+      "@id": "vocab:2001",
+      "@type": "Language",
+      "_label": {
+        "en": "English",
+        "fr": "Anglais"
+      }
+    }
+  },
+  "_label": {
+    "en": "Canadian Group of Painters (1933-1969)"
+  }
+}

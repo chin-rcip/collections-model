@@ -1,0 +1,79 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_106",
+  "@type": "Person",
+  "died_in": {
+    "@id": "https://dopheda.info/crm_e64/7cfc711f-cf76-4fb1-881c-29aa2b45cb40",
+    "@type": "Death",
+    "occurs_before": {
+      "@id": "https://dopheda.info/crm_e5/6810d26b-59b8-4c3c-92a3-e4f44bc1ab43",
+      "@type": "Move",
+      "moved": {
+        "@id": "actor:0001_106"
+      },
+      "moved_to": {
+        "@id": "vocab:3006",
+        "@type": "Place",
+        "has_type": {
+          "@id": "vocab:100146",
+          "@type": "Type",
+          "_label": {
+            "en": "Burial Place",
+            "fr": "Lieu de sépulture"
+          }
+        },
+        "_label": {
+          "en": "Ross Bay Cemetery (Victoria, CA-BC)",
+          "fr": "Cimetière de Ross Bay (Victoria, CA-BC)"
+        }
+      },
+      "moved_from": {
+        "@id": "vocab:3005",
+        "@type": "Place",
+        "_label": {
+          "en": "Victoria, CA-BC",
+          "fr": "Victoria, CA-BC"
+        }
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/4fa503b9-67e9-44c9-974a-06ebfc203a31",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1945-03-02T00:00:00",
+      "end_of_the_end": "1945-03-02T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3005"
+    }
+  },
+  "was_born": {
+    "@id": "https://dopheda.info/crm_e63/e251f5e9-88ad-4c8e-9df1-8b0a26ad8148",
+    "@type": "Birth",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/31562438-f155-4d23-ab96-cecccc547d8e",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1871-12-13T00:00:00",
+      "end_of_the_end": "1871-12-13T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3005"
+    },
+    "by_mother": {
+      "@id": "actor:0001_107",
+      "@type": "Person",
+      "_label": {
+        "en": "Emily (Saunders) Carr"
+      }
+    },
+    "from_father": {
+      "@id": "actor:0001_108",
+      "@type": "Person",
+      "_label": {
+        "en": "Richard Carr"
+      }
+    }
+  },
+  "_label": {
+    "en": "Emily Carr (1871-1945)"
+  }
+}

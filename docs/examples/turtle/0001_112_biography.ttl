@@ -1,0 +1,22 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_112 a crm:E74_Group ;
+    rdfs:label "Canadian Group of Painters (1933-1969)"@en ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/e04bb3f3-4190-47ef-83c2-4dcca6217f93> .
+
+<https://dopheda.info/crm_e28/e04bb3f3-4190-47ef-83c2-4dcca6217f93> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "Founded in 1933 after the disbanding of the Group of Seven by former members and their associates, the Canadian Group of Painters championed modernist painting styles against the entrenched traditionalism of the Royal Canadian Academy of Arts. It provided a platform for artists across Canada who were pursuing a variety of new concerns, from the formal experimentation of Bertram Brooker to the modern-figure subjects of Prudence Heward and Pegi Nicol MacLeod and the expressive landscapes of Emily Carr."@en ;
+    crm:P2_has_type vocab:100145 ;
+    crm:P72_has_language vocab:2001 .
+
+vocab:100145 a crm:E55_Type ;
+    rdfs:label "Biography"@en,
+        "Biographie"@fr .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+

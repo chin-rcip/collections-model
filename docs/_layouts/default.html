@@ -12,48 +12,13 @@
     <main class="page-content {% if page.sidebar %}main-with-sidebar{% endif %}" aria-label="Content">
       {% if page.sidebar %}
         <div class="{% if page.sidebar %}column sidebar{% endif %}">
-          <h3>{% if page.sidebar == "sps" %}Semantic Paths Specification
-              {% elsif page.sidebar == "tm" %}Target Model
+
+          {% assign tocname = site.data[page.language][page.sidebar] %}
+          <h3>{% if tocname.heading %}{{ tocname.heading }}
               {% else %}{{ page.title}}{% endif %}
           </h3>
-          <!-- <h3>site.data.sidetoc[h3][page.sidebar]</h3> -->
-          <ul class="mainlist">
-            {% for item in site.data.sidetoc[page.sidebar] %}
-              {% assign item_url = "/collections-model" | append: item.url %}
-              {% assign item_url_split = item.url | split: "#" %}
-              <li>
-                <a {% if item.hash %}id="toc-{{ item.hash }}"{% endif %} href="{{ item_url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}
-                  <span class="tooltip">{{ item.title }}</span>
-                </a>
-                {% if item.subfolder[0] %}
-                  <ul class="sublist" style="{% if item_url_split[0] != page.url %}display:none{% endif %}">
-                  {% for entry in item.subfolder %}
-                    {% assign entry_url = "/collections-model" | append: entry.url %}
-                    <li>
-                      <a id="toc-{{ entry.hash }}" href="{{ entry_url }}" onclick="active(this)">{{ entry.page }}
-                        <span class="tooltip">{{ entry.page }}</span>
-                      </a>
-                      
-                      {% if entry.subsubfolder[0] %}
-                        <ul class="subsublist" style="{% if item_url_split[0] != page.url %}display:none{% endif %}">
-                        {% for subentry in entry.subsubfolder %}
-                          {% assign subentry_url = "/collections-model" | append: subentry.url %}
-                          <li>
-                            <a id="toc-{{ subentry.hash }}" href="{{ subentry_url }}" onclick="active(this)">{{ subentry.page }}
-                              <span class="tooltip">{{ subentry.page }}</span>
-                            </a>
-                            
-                          </li>
-                        {% endfor %}
-                        </ul>
-                      {% endif %}
-                    </li>
-                  {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
+          {% include sidetoc.html toc=tocname.toc class=tocname.class %}
+          
         </div>
       {% endif %}
       
@@ -115,89 +80,22 @@
         $("#search-modal").show();
       });
 
-      // showing content by language
-      // function get_lang(element){
-      //   var language = $(element).attr("id");
-      //   return language
-      // };
-
-      // function content_by_lang(element){
-      //   var lang = get_lang(element);
-      //   if (lang != "fr") {
-      //     $("body .en, div#en").show();
-      //     $("body .fr, div#fr").hide();
-      //   } else {
-      //     $("body .en, div#en").hide();
-      //     $("body .fr, div#fr").show();
-      //   }
-      //   // $(".site-header .en,.site-header .fr").hide();
-      //   // $(".lang-section").hide();
-      //   // $(".mainlist li").filter(".en,.fr").hide();
-      //   // $(".site-header ."+lang).show();
-      //   // $("div#"+lang).show();
-      //   // $(".mainlist li."+lang).show();
-      // };
-
-
-
       $(document).ready(function() {
-        // if ($(".lang-section").length>0){
-        //   $(".post-header").hide();
-        // };
         // Hide all tooltips on window load
         $(".tooltip").hide();
         highlight();
 
-        // dropdown menu toggle
-        // $(".has-dropdown").click(function(){
-        //   var other_dropdown = $(".trigger>.has-dropdown").not(this);
-        //   other_dropdown.removeClass("visible");
-        //   other_dropdown.find(".dropdown").removeClass("visible");      
-        //   $(this).children(".dropdown").toggleClass("visible");
-        //   $(this).toggleClass("visible");
-        //   console.log($(this).children(".dropdown").text())
-        // });
-
-        // $(".has-subdropdown").click(function(){
-        //   console.log($(this),$(this).children())
-        //   $(this).children(".dropdown").toggleClass("visible");
-        //   $(this).toggleClass("visible");
-
-        // });
-
-        // // detect language of content by the first visible header
-        // var hders = $(".content :header").not("h1"); // get all headers in the main-content except <h1>
-        // var a;
-        // for (a = 0; a < hders.length; a++) {
-        //   var headtop = $(hders[a]).offset().top;
-        //   if (headtop > 60){
-        //     var lang_sect = $(hders[a]).parent();
-        //     var lang_sect_id = get_lang(lang_sect);
-        //     content_by_lang(lang_sect);
-        //     $("button#"+lang_sect_id).addClass("activate");
-
-        //     break
-        //   }
-
-        // }
       });
 
       $(".close").on("click", function(){
         $(".modal").hide();
       });
 
-      // $(document).on("click", function(event){
-      //   if ($(event.target).hasClass("modal")){
-      //     $("#search-modal").hide();
-      //   };
-      // });
-
       // click anywhere in the html to hide dropdown menu
       $(document).on("click", function(event){
         if (!$(event.target).hasClass("has-dropdown")){
             $(".has-dropdown,.dropdown").removeClass("visible");
         } else {
-          // var other_dropdown = $(".has-dropdown").not(event.target);
           if (!$(event.target).parent().hasClass(".dropdown.visible")){
             var other_dropdown = $(event.target).siblings();
             other_dropdown.removeClass("visible");
@@ -218,15 +116,12 @@
       $(".lang-buttons-content>button").click(function(){
         $(this).siblings().removeClass("activate");
         $(this).addClass("activate");
-        // content_by_lang(this);
+
         var button_id = $(this).attr("id");
         if (button_id == "second-lang"){
           $(".second-lang").addClass("show");
-          // var title = "{% if page.titleEn %}{{ page.titleEn}}{% else %}{{ page.title }}{% endif %}";
-          // $(".post-title").text(title);
         } else {
           $(".second-lang").removeClass("show");
-          // $(".post-title").text("{{ page.title }}");
         }
       });
 
@@ -260,6 +155,85 @@
       });
     </script>
     
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js"></script>
+    <script>
+         var config = {
+            startOnLoad:true,
+            flowchart:{
+                    useMaxWidth:true,
+                    htmlLabels:true,
+                    curve:'basis',
+                    rankSpacing:50
+            },
+            securityLevel:'loose',
+        };
+        
+        if ($("html").attr("lang") == 'en'){
+          var tab_1_name = "Diagram"
+        } else {
+          var tab_1_name = "Diagramme"
+        };
+
+        var example = $(".example"), y;
+        for (y = 0; y < example.length; y++){
+            let exId = $(example[y]).attr("id");
+            // console.log(exId)
+            
+            $(example[y]).append(`<ul class="tabs-buttons">
+                <li name="`+exId+`_graph" class="tab displayed">`+tab_1_name+`</li>
+                <li name="`+exId+`_ttl" class="tab">Turtle</li>
+                <li name="`+exId+`_json" class="tab">JSON-LD</li>
+              </ul>
+            <div class="tabs-content">
+            <div id="`+exId+`_graph" class="mermaid" onclick="sizeToggle(this)">
+            </div>
+            <div id="`+exId+`_ttl" class="turtle" style="display:none">
+            <pre><code class="language-turtle"></code></pre>
+            </div>
+            <div id="`+exId+`_json" class="json" style="display:none">
+            <pre><code class="language-json"></code></pre>
+            </div>
+            </div>`);
+
+            fetch('/collections-model/examples/mmd/'+exId+'.mmd')
+            .then(response1 => response1.text())
+             .then((data1) => $("#"+exId+"_graph").text(data1));
+            fetch('/collections-model/examples/turtle/'+exId+'.ttl')
+            .then(response2 => response2.text())
+             .then((data2) => $("#"+exId+"_ttl code").text(data2));
+            fetch('/collections-model/examples/json-ld/'+exId+'.json')
+            .then(response3 => response3.text())
+             .then((data3) => $("#"+exId+"_json code").text(data3));
+        };
+
+        
+        mermaid.initialize(config);
+    </script>
+
+    <script type="text/javascript">
+      function sizeToggle(element) {
+        var svg = element.firstChild;
+        if ($(svg).attr("width") === "100%") {
+                $(svg).css("cursor", 'zoom-out');
+          $(svg).attr("width", svg.style.maxWidth);
+        } else {
+                $(svg).css("cursor", 'zoom-in');
+          $(svg).attr("width", "100%");
+        }
+      };
+
+      $(".tab").on("click", function(){
+        var tab_id = $(this).attr("name");
+        console.log(tab_id)
+        $("#"+tab_id).show();
+        $("#"+tab_id).siblings().hide();
+        $(this).addClass("displayed");
+        $(this).siblings().removeClass("displayed");
+      })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
 
   </body>
 

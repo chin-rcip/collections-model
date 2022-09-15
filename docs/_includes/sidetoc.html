@@ -1,0 +1,17 @@
+
+<ul class="{{ include.class }}">
+  {% for item in include.toc %}
+    {% if item.title and item.url %}
+    {% assign item_url = "/collections-model" | append: item.url %}
+    {% assign item_url_split = item.url | split: "#" %}
+    <li>
+      <a {% if item.hash %}id="toc-{{ item.hash }}"{% endif %} href="{{ item_url }}" onclick="active(this)">{{ item.title }}
+        <span class="tooltip">{{ item.title }}</span>
+      </a>
+      {% if item.subfolder and item_url_split[0] == page.url %}
+        {% include sidetoc.html toc=item.subfolder class=item.class %}
+      {% endif %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

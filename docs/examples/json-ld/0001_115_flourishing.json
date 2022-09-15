@@ -1,0 +1,34 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_115",
+  "@type": "Person",
+  "participated_in": {
+    "@id": "https://dopheda.info/crm_e5/685fdc1a-f4cf-41e9-8afd-67a9332b2744",
+    "@type": "Event",
+    "has_type": {
+      "@id": "vocab:100149",
+      "@type": "Type",
+      "_label": {
+        "en": "Flourishing",
+        "fr": "Floruit"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/26716b8c-21e2-40c0-9831-2d895d75be05",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1916-03-01T00:00:00",
+      "end_of_the_end": "1917-07-08T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:30014",
+      "@type": "Place",
+      "_label": {
+        "en": "Canada",
+        "fr": "Canada"
+      }
+    }
+  },
+  "_label": {
+    "en": "Tom Thomson"
+  }
+}

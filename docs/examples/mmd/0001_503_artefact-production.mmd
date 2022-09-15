@@ -1,0 +1,78 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]) -->|crm:P79_beginning_is_qualified_by| 1(["''Ou avant''@fr"]):::Literal
+2(["-"]) -->|crm:P02_has_range| 3(["actor:0001_131"])
+0(["-"]) -->|crm:P80_end_is_qualified_by| 4(["''Ou avant''@fr"]):::Literal
+5(["-"]) -->|crm:P4_has_time-span| 0(["-"])
+6(["vocab:100180"]):::E55_Type_URI -->|rdf:type| 7["crm:E55_Type"]:::E55_Type
+8(["object:0001_503"]):::E18_Physical_Thing_URI -->|rdf:type| 9["crm:E22_Human-Made_Object"]:::E18_Physical_Thing
+2(["-"]) -->|crm:P14.1_in_the_role_of| 6(["vocab:100180"])
+10(["vocab:1001"]) -->|rdfs:label| 11(["''1''@en"]):::Literal
+5(["-"]) -->|crm:P01i_is_domain_of| 12(["-"])
+10(["vocab:1001"]) -->|rdfs:label| 13(["''1''@fr"]):::Literal
+10(["vocab:1001"]) -->|crm:P2_has_type| 14(["vocab:100143"])
+15(["actor:0001_132"]):::E39_Actor_URI -->|rdf:type| 16["crm:E21_Person"]:::E39_Actor
+0(["-"]) -->|crm:P82b_end_of_the_end| 17(["''2015-12-31T23:59:59''^^xsd:dateTime"]):::Literal
+6(["vocab:100180"]) -->|rdfs:label| 18(["''Creator''@en"]):::Literal
+19(["actor:0001_133"]) -->|rdfs:label| 20(["''Nicolas Laverdière''@fr"]):::Literal
+10(["vocab:1001"]):::E55_Type_URI -->|rdf:type| 21["crm:E55_Type"]:::E55_Type
+22(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 23["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
+8(["object:0001_503"]) -->|rdfs:label| 24(["''Canadissimo''@en"]):::Literal
+0(["-"]) -->|crm:P79_beginning_is_qualified_by| 25(["''or before''@en"]):::Literal
+26(["vocab:30015"]):::E53_Place_URI -->|rdf:type| 27["crm:E53_Place"]:::E53_Place
+12(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 28["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
+6(["vocab:100180"]) -->|crm:P2_has_type| 29(["vocab:100144"])
+29(["vocab:100144"]):::E55_Type_URI -->|rdf:type| 30["crm:E55_Type"]:::E55_Type
+0(["-"]):::E52_Time-Span_URI -->|rdf:type| 31["crm:E52_Time-Span"]:::E52_Time-Span
+22(["-"]) -->|crm:P02_has_range| 19(["actor:0001_133"])
+14(["vocab:100143"]) -->|rdfs:label| 32(["''Priorité de l'actant''@fr"]):::Literal
+2(["-"]) -->|crm:P14.1_in_the_role_of| 10(["vocab:1001"])
+0(["-"]) -->|crm:P80_end_is_qualified_by| 33(["''or before''@en"]):::Literal
+14(["vocab:100143"]) -->|rdfs:label| 34(["''Actor Priority''@en"]):::Literal
+22(["-"]) -->|crm:P14.1_in_the_role_of| 6(["vocab:100180"])
+6(["vocab:100180"]) -->|rdfs:label| 35(["''Créateur / Créatrice''@fr"]):::Literal
+29(["vocab:100144"]) -->|rdfs:label| 36(["''Actor Role''@en"]):::Literal
+26(["vocab:30015"]) -->|rdfs:label| 37(["''Pavillon du Canada de la Biennale de Venise''@fr"]):::Literal
+3(["actor:0001_131"]) -->|rdfs:label| 38(["''Jasmin Bilodeau''@fr"]):::Literal
+12(["-"]) -->|crm:P14.1_in_the_role_of| 6(["vocab:100180"])
+14(["vocab:100143"]):::E55_Type_URI -->|rdf:type| 39["crm:E55_Type"]:::E55_Type
+12(["-"]) -->|crm:P14.1_in_the_role_of| 10(["vocab:1001"])
+29(["vocab:100144"]) -->|rdfs:label| 40(["''Rôle de l'actant''@fr"]):::Literal
+8(["object:0001_503"]) -->|crm:P108i_was_produced_by| 5(["-"])
+26(["vocab:30015"]) -->|rdfs:label| 41(["''Canada Pavilion of the Venice Biennale''@en"]):::Literal
+0(["-"]) -->|crm:P82a_begin_of_the_begin| 42(["''2015-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+5(["-"]) -->|crm:P01i_is_domain_of| 2(["-"])
+2(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 43["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
+5(["-"]) -->|crm:P7_took_place_at| 26(["vocab:30015"])
+12(["-"]) -->|crm:P02_has_range| 15(["actor:0001_132"])
+3(["actor:0001_131"]):::E39_Actor_URI -->|rdf:type| 44["crm:E21_Person"]:::E39_Actor
+15(["actor:0001_132"]) -->|rdfs:label| 45(["''Sébastien Giguère''@fr"]):::Literal
+5(["-"]) -->|crm:P01i_is_domain_of| 22(["-"])
+22(["-"]) -->|crm:P14.1_in_the_role_of| 10(["vocab:1001"])
+19(["actor:0001_133"]):::E39_Actor_URI -->|rdf:type| 46["crm:E21_Person"]:::E39_Actor
+5(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 47["crm:E12_Production"]:::E2_Temporal_Entity

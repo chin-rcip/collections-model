@@ -1,0 +1,79 @@
+
+
+class: mainlist
+toc:
+
+- title: Main Uses
+  url: /en/resources/current/cidoc-crm-tutorial#main-uses
+  hash: main-uses
+- title: Context
+  url: /en/resources/current/cidoc-crm-tutorial#context
+  hash: context
+- title: Essential Vocabularies and Prior Knowledge
+  url: /en/resources/current/cidoc-crm-tutorial#essential-vocabularies-and-prior-knowledge
+  hash: essential-vocabularies-and-prior-knowledge
+- title: Intended Audience and Section Description
+  url: /en/resources/current/cidoc-crm-tutorial#intended-audience-and-section-description
+  hash: intended-audience-and-section-description
+  class: sublist
+  subfolder:
+  - title: Audience
+    url: /en/resources/current/cidoc-crm-tutorial#audience
+    hash: audience
+  - title: Sections
+    url: /en/resources/current/cidoc-crm-tutorial#sections
+    hash: sections
+- title: How-To
+  url: /en/resources/current/cidoc-crm-tutorial#how-to
+  hash: how-to
+  class: sublist
+  subfolder:
+  - title: Versions and Extensions
+    url: /en/resources/current/cidoc-crm-tutorial#versions-and-extensions
+    hash: versions-and-extensions
+  - title: Structure of CIDOC CRM Entities
+    url: /en/resources/current/cidoc-crm-tutorial#structure-of-cidoc-crm-entities
+    hash: structure-of-cidoc-crm-entities
+    class: subsublist
+    subfolder:
+    - title: CIDOC CRM Naming Conventions
+      url: /en/resources/current/cidoc-crm-tutorial#cidoc-crm-naming-conventions
+      hash: cidoc-crm-naming-conventions
+    - title: Classes
+      url: /en/resources/current/cidoc-crm-tutorial#classes
+      hash: classes
+    - title: Properties
+      url: /en/resources/current/cidoc-crm-tutorial#properties
+      hash: properties
+    - title: Domain and Range
+      url: /en/resources/current/cidoc-crm-tutorial#domain-and-range
+      hash: domain-and-range
+    - title: Super-class/Sub-class and Super-property/Sub-property
+      url: /en/resources/current/cidoc-crm-tutorial#super-classsub-class-and-super-propertysub-property
+      hash: super-classsub-class-and-super-propertysub-property
+  - title: CIDOC CRM Conceptual Framework
+    url: /en/resources/current/cidoc-crm-tutorial#cidoc-crm-conceptual-framework
+    hash: cidoc-crm-conceptual-framework
+    class: subsublist
+    subfolder:
+    - title: Temporal Entities
+      url: /en/resources/current/cidoc-crm-tutorial#temporal-entities
+      hash: temporal-entities
+    - title: CIDOC CRM Main Classes
+      url: /en/resources/current/cidoc-crm-tutorial#cidoc-crm-main-classes
+      hash: cidoc-crm-main-classes
+    - title: Management of Temporality in CIDOC CRM
+      url: /en/resources/current/cidoc-crm-tutorial#management-of-temporality-in-cidoc-crm
+      hash: management-of-temporality-in-cidoc-crm
+  - title: Identify the Right Entity
+    url: /en/resources/current/cidoc-crm-tutorial#identify-the-right-entity
+    hash: identify-the-right-entity
+- title: Aide-mémoire
+  url: /en/resources/current/cidoc-crm-tutorial#aide-memoire
+  hash: aide-memoire
+- title: For More Information
+  url: /en/resources/current/cidoc-crm-tutorial#for-more-information
+  hash: for-more-information
+- title: Bibliography
+  url: /en/resources/current/cidoc-crm-tutorial#bibliography
+  hash: bibliography

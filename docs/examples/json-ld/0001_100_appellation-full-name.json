@@ -1,0 +1,34 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_identified_by": {
+    "@id": "https://dopheda.info/crm_e41/8aa0a9b8-a9ff-47e2-9d95-6327fb9434e5",
+    "@type": [
+      "Linguistic_Object",
+      "Appellation"
+    ],
+    "has_symbolic_content": {
+      "en": "Yousuf Karsh"
+    },
+    "has_type": {
+      "@id": "vocab:100158",
+      "@type": "Type",
+      "has_type": {
+        "@id": "vocab:100139",
+        "@type": "Type",
+        "_label": {
+          "en": "Type of Appellation",
+          "fr": "Type d'appellation"
+        }
+      },
+      "_label": {
+        "en": "Full Name",
+        "fr": "Nom complet"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

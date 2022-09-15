@@ -1,0 +1,60 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_range_of": {
+    "@id": "https://dopheda.info/crm_pc0/a3cb38f5-0ca2-49fd-b161-4371e9c63c4b",
+    "@type": "crm:PC14_carried_out_by",
+    "has_domain": {
+      "@id": "https://dopheda.info/crm_e5/ea46c983-c0ea-4696-85dc-23f9ef070786",
+      "@type": "Activity",
+      "is_domain_of": {
+        "@id": "https://dopheda.info/crm_pc0/6a6d1711-1e55-4685-929c-b5754c136c9f",
+        "@type": "crm:PC14_carried_out_by",
+        "has_range": {
+          "@id": "actor:0001_118",
+          "@type": "Person",
+          "_label": {
+            "en": "Solange Gauthier"
+          }
+        },
+        "in_the_role_of": {
+          "@id": "vocab:100175",
+          "@type": "Type",
+          "_label": {
+            "en": "Spouse",
+            "fr": "Époux / Épouse"
+          }
+        }
+      },
+      "has_type": {
+        "@id": "vocab:100174",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:100151",
+          "@type": "Type",
+          "_label": {
+            "en": "Relationship",
+            "fr": "Relation"
+          }
+        },
+        "_label": {
+          "en": "Marriage",
+          "fr": "Mariage"
+        }
+      },
+      "has_time-span": {
+        "@id": "https://dopheda.info/crm_e52/20d264a4-651a-48e0-9463-c50215596182",
+        "@type": "Time-Span",
+        "begin_of_the_begin": "1939-01-01T00:00:00",
+        "end_of_the_end": "1961-12-31T23:59:59"
+      }
+    },
+    "in_the_role_of": {
+      "@id": "vocab:100175"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

@@ -1,0 +1,30 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_122 a crm:E21_Person ;
+    rdfs:label "Diana Spencer"@en ;
+    crm:P143i_was_joined_by <https://dopheda.info/crm_e5/fe857340-9fc9-4f3d-b165-a7c9afef911c> ;
+    crm:P145i_left_by <https://dopheda.info/crm_e5/3b7c7bdf-bb89-40f1-9649-374220650988> .
+
+<https://dopheda.info/crm_e5/3b7c7bdf-bb89-40f1-9649-374220650988> a crm:E86_Leaving ;
+    crm:P146_separated_from actor:0001_123 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/1596721b-f400-43c8-8b2c-20e6337f2ef0> .
+
+<https://dopheda.info/crm_e5/fe857340-9fc9-4f3d-b165-a7c9afef911c> a crm:E85_Joining ;
+    crm:P144_joined_with actor:0001_123 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/2d17d8e2-5712-4155-bac8-b6470150f052> .
+
+<https://dopheda.info/crm_e52/1596721b-f400-43c8-8b2c-20e6337f2ef0> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1996-01-01T0:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1996-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/2d17d8e2-5712-4155-bac8-b6470150f052> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1981-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1981-12-31T23:59:59"^^xsd:dateTime .
+
+actor:0001_123 a crm:E74_Group ;
+    rdfs:label "British royal family"@en,
+        "Famille royale britannique"@fr .
+

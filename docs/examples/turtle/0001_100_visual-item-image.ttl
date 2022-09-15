@@ -1,0 +1,28 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P138i_has_representation <https://dopheda.info/crm_e28/fe727840-8d76-4edb-879d-85b31404ffa9> .
+
+<https://dopheda.info/crm_e28/fe13fd89-7b0d-4c8f-9229-51157850f4a8> a crmdig:D1_Digital_Object ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/8e4cc7e9-591d-4e16-8256-ee7b7fd03bf7> .
+
+<https://dopheda.info/crm_e28/fe727840-8d76-4edb-879d-85b31404ffa9> a crm:E36_Visual_Item ;
+    dct:source "This image was found on Wikimedia Commons (Yousuf Karsh, Public domain), and originally available from Library and Archives Canada under the reproduction reference number PA-212511 and under the MIKAN ID number 3198631."@en,
+        "Cette image est disponible par l'entremise de Bibliothèque et Archives Canada sous le numéro de référence de la reproduction PA-212511 et sous le numéro MIKAN 3198631"@fr ;
+    crm:P165i_is_incorporated_in <https://dopheda.info/crm_e28/fe13fd89-7b0d-4c8f-9229-51157850f4a8> .
+
+<https://dopheda.info/crm_e41/8e4cc7e9-591d-4e16-8256-ee7b7fd03bf7> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg"^^xsd:string ;
+    crm:P2_has_type vocab:100156 .
+
+vocab:100156 a crm:E55_Type ;
+    rdfs:label "URL"@en,
+        "URL"@fr .
+

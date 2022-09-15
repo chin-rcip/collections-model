@@ -7,14 +7,14 @@
       {%- assign page_paths = site.header_pages_en -%}
       {%- assign site_title = site.title -%}
       {%- assign site_link = '/' | relative_url | append: 'en' -%}
-      {%- assign header_groups = "resources:how-to, technical reports" | split: ", " -%}
+      {%- assign header_groups = "specifications, resources:how-to, technical reports" | split: ", " -%}
       {%- assign other_link = page.other_link -%}
       {%- assign language = "FR" -%}
     {% elsif page.language == "fr" %}
       {%- assign page_paths = site.header_pages_fr -%}
       {%- assign site_title = site.titre -%}
       {%- assign site_link = '/' | relative_url | append: 'fr' -%}
-      {%- assign header_groups = "ressources:mode d'emploi, rapports techniques" | split: ", " -%}
+      {%- assign header_groups = "spécifications, ressources:mode d'emploi, rapports techniques" | split: ", " -%}
       {%- assign other_link = page.other_link -%}
       {%- assign language = "EN" -%}
     {% else %}

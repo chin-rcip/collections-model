@@ -1,0 +1,69 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_128 a crm:E21_Person ;
+    rdfs:label "Marc Séguin"@fr ;
+    crm:P14i_performed <https://dopheda.info/crm_e5/1cf23579-eecd-4f4b-9a57-8c09ac2e8c1a>,
+        <https://dopheda.info/crm_e5/86c8bd42-c890-4eac-b33e-1c66f174588e>,
+        <https://dopheda.info/crm_e5/cac4fac9-8621-4d1e-814d-ab99e305205f> .
+
+<https://dopheda.info/crm_e5/1cf23579-eecd-4f4b-9a57-8c09ac2e8c1a> a frbroo:F51_Pursuit ;
+    crm:P2_has_type vocab:100169 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/eab53e1f-9cc4-4acc-a955-207ddbd515be> ;
+    crm:P7_took_place_at vocab:3007 .
+
+<https://dopheda.info/crm_e5/86c8bd42-c890-4eac-b33e-1c66f174588e> a frbroo:F51_Pursuit ;
+    crm:P2_has_type vocab:100171 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/c85611b3-d494-452b-9384-0c17fc6f803a> ;
+    crm:P7_took_place_at vocab:30012 .
+
+<https://dopheda.info/crm_e5/cac4fac9-8621-4d1e-814d-ab99e305205f> a frbroo:F51_Pursuit ;
+    crm:P2_has_type vocab:100170 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/013f0e31-8f39-4636-a569-6c85a1c600c1> .
+
+<https://dopheda.info/crm_e52/013f0e31-8f39-4636-a569-6c85a1c600c1> a crm:E52_Time-Span ;
+    crm:P79_beginning_is_qualified_by "Before"@en,
+        "Avant"@fr ;
+    crm:P82a_begin_of_the_begin "2009-01-01T00:00:00"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/c85611b3-d494-452b-9384-0c17fc6f803a> a crm:E52_Time-Span ;
+    crm:P79_beginning_is_qualified_by "Before"@en,
+        "Avant"@fr ;
+    crm:P82a_begin_of_the_begin "2008-01-01T00:00:00"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/eab53e1f-9cc4-4acc-a955-207ddbd515be> a crm:E52_Time-Span ;
+    crm:P79_beginning_is_qualified_by "Before"@en,
+        "Avant"@fr ;
+    crm:P82a_begin_of_the_begin "1996-01-01T00:00:00"^^xsd:dateTime .
+
+vocab:100169 a crm:E55_Type ;
+    rdfs:label "Visual Artist"@en,
+        "Artiste visuel / Artiste visuelle"@fr ;
+    crm:P2_has_type vocab:100150 .
+
+vocab:100170 a crm:E55_Type ;
+    rdfs:label "Novelist"@en,
+        "Romancier / Romancière"@fr ;
+    crm:P2_has_type vocab:100150 .
+
+vocab:100171 a crm:E55_Type ;
+    rdfs:label "Farmer"@en,
+        "Agriculteur / Agricultrice"@fr ;
+    crm:P2_has_type vocab:100150 .
+
+vocab:30012 a crm:E53_Place ;
+    rdfs:label "Hemmingford, CA-QC"@en,
+        "Hemmingford, CA-QC"@fr .
+
+vocab:3007 a crm:E53_Place ;
+    rdfs:label "Montreal, CA-QC"@en,
+        "Montréal, CA-QC"@fr .
+
+vocab:100150 a crm:E55_Type ;
+    rdfs:label "Occupation"@en,
+        "Occupation"@fr .
+

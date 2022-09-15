@@ -1,0 +1,22 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_127 a crm:E21_Person ;
+    rdfs:label "Rebecca Belmore"@en ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/de6e4376-9fb3-4075-8790-418a9ba182ad> .
+
+<https://dopheda.info/crm_e28/de6e4376-9fb3-4075-8790-418a9ba182ad> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "Rebecca Belmore was the first Indigenous woman to present at the Canadian pavilion of the Venice Biennale in 2005"@en ;
+    crm:P2_has_type vocab:100147 ;
+    crm:P72_has_language vocab:2001 .
+
+vocab:100147 a crm:E55_Type ;
+    rdfs:label "Curatorial Note"@en,
+        "Note curatoriale"@fr .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+

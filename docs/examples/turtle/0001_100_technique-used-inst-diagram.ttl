@@ -1,0 +1,16 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P2_has_type vocab:100183 .
+
+vocab:100183 a crm:E55_Type ;
+    rdfs:label "Gelatin silver print"@en, "Épreuve argentique à la gélatine"@fr ;
+    crm:P2_has_type vocab:100154 .
+
+vocab:100154 a crm:E55_Type ;
+    rdfs:label "Technique Used"@en, "Technique utilisée"@fr .

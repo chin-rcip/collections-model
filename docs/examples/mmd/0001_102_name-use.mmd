@@ -1,0 +1,66 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 1["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+2(["vocab:100161"]) -->|rdfs:label| 3(["''Nom de plume''@fr"]):::Literal
+4(["actor:0001_102"]) -->|crm:P1_is_identified_by| 5(["-"])
+6(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 7["frbroo:F52_Name_Use_Activity"]:::E2_Temporal_Entity
+8(["-"]) -->|frbroo:R61_occured_in_kind_of_context| 9(["vocab:100163"])
+9(["vocab:100163"]) -->|rdfs:label| 10(["''Children's Book Writing''@en"]):::Literal
+11(["vocab:2001"]):::E55_Type_URI -->|rdf:type| 12["crm:E56_Language"]:::E55_Type
+5(["-"]):::E41_Appellation_URI -->|rdf:type| 13["crm:E41_Appellation"]:::E41_Appellation
+2(["vocab:100161"]) -->|rdfs:label| 14(["''Pen Name''@en"]):::Literal
+5(["-"]):::Multi_URI -->|rdf:type| 15["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+4(["actor:0001_102"]) -->|crm:P1_is_identified_by| 0(["-"])
+16(["vocab:100164"]) -->|rdfs:label| 17(["''Mathematics Treatises Author''@en"]):::Literal
+18(["-"]) -->|crm:P82b_end_of_the_end| 19(["''1898-12-31T23:59:59''^^xsd:dateTime"]):::Literal
+9(["vocab:100163"]):::E55_Type_URI -->|rdf:type| 20["crm:E55_Type"]:::E55_Type
+9(["vocab:100163"]) -->|rdfs:label| 21(["''Écriture de livres pour enfants''@fr"]):::Literal
+0(["-"]) -->|crm:P72_has_language| 11(["vocab:2001"])
+2(["vocab:100161"]) -->|crm:P2_has_type| 22(["vocab:100139"])
+0(["-"]) -->|crm:P2_has_type| 2(["vocab:100161"])
+6(["-"]) -->|frbroo:R61_occured_in_kind_of_context| 16(["vocab:100164"])
+5(["-"]) -->|crm:P190_has_symbolic_content| 23(["''Charles Lutwidge Dodgson''@en"]):::Literal
+11(["vocab:2001"]) -->|rdfs:label| 24(["''Anglais''@fr"]):::Literal
+5(["-"]) -->|frbroo:R64i_was_name_used_by| 6(["-"])
+0(["-"]) -->|frbroo:R64i_was_name_used_by| 8(["-"])
+22(["vocab:100139"]) -->|rdfs:label| 25(["''Type d'appellation''@fr"]):::Literal
+18(["-"]):::E52_Time-Span_URI -->|rdf:type| 26["crm:E52_Time-Span"]:::E52_Time-Span
+11(["vocab:2001"]) -->|rdfs:label| 27(["''English''@en"]):::Literal
+22(["vocab:100139"]) -->|rdfs:label| 28(["''Type of Appellation''@en"]):::Literal
+8(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 29["frbroo:F52_Name_Use_Activity"]:::E2_Temporal_Entity
+18(["-"]) -->|crm:P82a_begin_of_the_begin| 30(["''1856-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+22(["vocab:100139"]):::E55_Type_URI -->|rdf:type| 31["crm:E55_Type"]:::E55_Type
+4(["actor:0001_102"]):::E39_Actor_URI -->|rdf:type| 32["crm:E21_Person"]:::E39_Actor
+0(["-"]) -->|crm:P190_has_symbolic_content| 33(["''Lewis Carroll''@en"]):::Literal
+4(["actor:0001_102"]) -->|rdfs:label| 34(["''Charles Lutwidge Dodgson''@en"]):::Literal
+16(["vocab:100164"]):::E55_Type_URI -->|rdf:type| 35["crm:E55_Type"]:::E55_Type
+8(["-"]) -->|crm:P4_has_time-span| 18(["-"])
+2(["vocab:100161"]):::E55_Type_URI -->|rdf:type| 36["crm:E55_Type"]:::E55_Type
+5(["-"]) -->|crm:P72_has_language| 11(["vocab:2001"])
+16(["vocab:100164"]) -->|rdfs:label| 37(["''Auteur de traités de mathématiques / Auteure de traités de mathématiques''@fr"]):::Literal
+0(["-"]):::Multi_URI -->|rdf:type| 38["crm:E41_Appellation"]:::E41_Appellation

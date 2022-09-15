@@ -1,0 +1,41 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P14i_performed <https://dopheda.info/crm_e5/8d7b2bb9-bfa8-4cc9-b803-e484935c86a0>,
+        <https://dopheda.info/crm_e5/e635064c-45cf-4cc9-b5bc-2c1a091fdc0c> .
+
+<https://dopheda.info/crm_e5/8d7b2bb9-bfa8-4cc9-b803-e484935c86a0> a crm:E7_Activity ;
+    crm:P2_has_type vocab:100153 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/dc738d99-07de-446d-8099-6433d550b674> ;
+    crm:P7_took_place_at vocab:3009 .
+
+<https://dopheda.info/crm_e5/e635064c-45cf-4cc9-b5bc-2c1a091fdc0c> a crm:E7_Activity ;
+    crm:P2_has_type vocab:100153 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/fe1b7ede-cdc1-4138-873a-d3853aad69d5> ;
+    crm:P7_took_place_at vocab:3002 .
+
+<https://dopheda.info/crm_e52/dc738d99-07de-446d-8099-6433d550b674> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1924-12-31T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1928-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/fe1b7ede-cdc1-4138-873a-d3853aad69d5> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1928-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1931-12-31T23:59:59"^^xsd:dateTime .
+
+vocab:3002 a crm:E53_Place ;
+    rdfs:label "Boston, USA-MA"@en,
+        "Boston, USA-MA"@fr .
+
+vocab:3009 a crm:E53_Place ;
+    rdfs:label "Sherbrooke, CA-QC"@en,
+        "Sherbrooke, CA-QC"@fr .
+
+vocab:100153 a crm:E55_Type ;
+    rdfs:label "Stay"@en,
+        "Séjour"@fr .
+

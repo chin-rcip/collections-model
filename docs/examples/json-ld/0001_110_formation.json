@@ -1,0 +1,33 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_110",
+  "@type": "Group",
+  "was_formed_by": {
+    "@id": "https://dopheda.info/crm_e63/ac142d25-52e9-47ac-98e4-90ce985b76e2",
+    "@type": "Formation",
+    "carried_out_by": {
+      "@id": "actor:0001_111",
+      "@type": "Person",
+      "_label": {
+        "en": "Roland Michener (1900-1991)"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/65ebe828-233f-4894-902e-772534d5d08b",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1967-07-01T00:00:00",
+      "end_of_the_end": "1967-07-01T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3003",
+      "@type": "Place",
+      "_label": {
+        "en": "Ottawa, CA-ON",
+        "fr": "Ottawa, CA-ON"
+      }
+    }
+  },
+  "_label": {
+    "en": "Order of Canada (1967-)"
+  }
+}

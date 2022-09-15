@@ -1,0 +1,23 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_identified_by": {
+    "@id": "https://dopheda.info/crm_e41/3f6e7add-4726-466d-b3ac-e3c736f5b3ee",
+    "@type": "Identifier",
+    "has_symbolic_content": {
+      "@none": "8494"
+    },
+    "has_type": {
+      "@id": "vocab:100157",
+      "@type": "Type",
+      "_label": {
+        "en": "Artists in Canada Identifier",
+        "fr": "Identifiant Artistes au Canada"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

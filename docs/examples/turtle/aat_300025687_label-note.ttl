@@ -1,0 +1,9 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+aat:300025687 a crm:E55_Type;
+	rdfs:label "Photographers"@en, "Photographes"@fr;
+	crm:P3_has_note "Only an English label is available, with no French equivalent already established"@en,
+		"Seul un libellé en anglais est disponible, sans équivalent en français déjà établi"@fr .

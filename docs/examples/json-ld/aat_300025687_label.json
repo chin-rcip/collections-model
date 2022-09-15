@@ -1,0 +1,8 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "aat:300025687",
+  "_label": {
+    "en": "Photographers",
+    "fr": "Photographes"
+  }
+}

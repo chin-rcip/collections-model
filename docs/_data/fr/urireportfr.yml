@@ -1,0 +1,63 @@
+
+class: mainlist
+toc:
+
+- title: Résumé
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#resume
+  hash: resume
+- title: Contexte
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#contexte
+  hash: contexte
+  class: sublist
+  subfolder:
+  - title: Travail sur les données ouvertes et liées au RCIP
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#travail-sur-les-donnees-ouvertes-et-liees-au-rcip
+    hash: travail-sur-les-donnees-ouvertes-et-liees-au-rcip
+  - title: Déclaration d’intention
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#declaration-dintention
+    hash: declaration-dintention
+- title: Principes d’organisation
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#principes-dorganisation
+  hash: principes-dorganisation
+- title: Spécification recommandée par le RCIP
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#specification-recommandee-par-le-rcip
+  hash: specification-recommandee-par-le-rcip
+  class: sublist
+  subfolder:
+  - title: Négociation de contenu – adresses URL dérivées d’URI
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#negociation-de-contenu-adresses-url-derivees-duri
+    hash: negociation-de-contenu-adresses-url-derivees-duri
+    class: subsublist
+    subfolder:
+    - title: Représentations propres au format de données
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#representations-propres-au-format-de-donnees
+      hash: representations-propres-au-format-de-donnees
+    - title: Interfaces lisibles par l'humain
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#interfaces-lisibles-par-lhumain
+      hash: interfaces-lisibles-par-lhumain
+  - title: Modèle d’URI
+    url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#modele-duri
+    hash: modele-duri
+    class: subsublist
+    subfolder:
+    - title: Schéma – Protocole sécurisé
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#schema-protocole-securise
+      hash: schema-protocole-securise
+    - title: Domaine – Axé sur les projets
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#domaine-axe-sur-les-projets
+      hash: domaine-axe-sur-les-projets
+    - title: Segments – Significatifs pour l’organisation
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#segments-significatifs-pour-lorganisation
+      hash: segments-significatifs-pour-lorganisation
+    - title: Identifiant pour adresse URL – Semi-Opaque
+      url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#identifiant-pour-adresse-url-semi-opaque
+      hash: identifiant-pour-adresse-url-semi-opaque
+- title: Gestion
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#gestion
+  hash: gestion
+- title: Notes
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#notes
+  hash: notes
+- title: Bibliographie
+  url: /fr/rapports-techniques/actuel/rapport-technique-sur-les-uri#bibliographie
+  hash: bibliographie

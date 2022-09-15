@@ -1,0 +1,63 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_documented_in": {
+    "@id": "https://dopheda.info/crm_e28/11ccf2e6-a8eb-4b0f-b1bf-f88c68aedd88",
+    "@type": "Document",
+    "is_carried_by": {
+      "@id": "object:entry_node8019c25b-1648-40ff-9c73-14d0e1cd7497",
+      "@type": "Human-Made_Object",
+      "is_identified_by": {
+        "@id": "https://dopheda.info/crm_e41/3e08257f-b918-4794-9c55-fc10448bb675",
+        "@type": "Identifier",
+        "has_symbolic_content": {
+          "@none": "R613-0-5-E"
+        },
+        "has_type": {
+          "@id": "vocab:100141",
+          "@type": "Type",
+          "_label": {
+            "en": "Call Number",
+            "fr": "Cote"
+          }
+        }
+      },
+      "has_type": {
+        "@id": "vocab:100140",
+        "@type": "Type",
+        "_label": {
+          "en": "Reference Object",
+          "fr": "Objet de référence"
+        }
+      },
+      "crm:P49_has_former_or_current_keeper": {
+        "@id": "actor:0001_2",
+        "@type": "Group",
+        "_label": {
+          "en": "Library and Archives of Canada",
+          "fr": "Bibliothèque et Archives Canada"
+        }
+      },
+      "has_current_permanent_location": {
+        "@id": "vocab:30011",
+        "@type": "Place",
+        "_label": {
+          "en": "625 Carr Boulevard, Gatineau QC Canada",
+          "fr": "625 Boulevard du Carr, Gatineau QC Canada"
+        }
+      }
+    },
+    "has_type": {
+      "@id": "vocab:100142",
+      "@type": "Type",
+      "_label": {
+        "en": "Record",
+        "fr": "Enregistrement"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

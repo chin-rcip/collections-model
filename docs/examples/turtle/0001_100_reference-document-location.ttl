@@ -1,0 +1,45 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix object: <https://dopheda.info/crm_e18/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P70i_is_documented_in <https://dopheda.info/crm_e28/11ccf2e6-a8eb-4b0f-b1bf-f88c68aedd88> .
+
+object:entry_node8019c25b-1648-40ff-9c73-14d0e1cd7497 a crm:E22_Human-Made_Object ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/3e08257f-b918-4794-9c55-fc10448bb675> ;
+    crm:P2_has_type vocab:100140 ;
+    crm:P49_has_former_or_current_keeper actor:0001_2 ;
+    crm:P54_has_current_permanent_location vocab:30011 .
+
+<https://dopheda.info/crm_e28/11ccf2e6-a8eb-4b0f-b1bf-f88c68aedd88> a crm:E31_Document ;
+    crm:P128i_is_carried_by object:entry_node8019c25b-1648-40ff-9c73-14d0e1cd7497 ;
+    crm:P2_has_type vocab:100142 .
+
+actor:0001_2 a crm:E74_Group ;
+    rdfs:label "Library and Archives of Canada"@en,
+        "Bibliothèque et Archives Canada"@fr .
+
+<https://dopheda.info/crm_e41/3e08257f-b918-4794-9c55-fc10448bb675> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "R613-0-5-E"^^xsd:string ;
+    crm:P2_has_type vocab:100141 .
+
+vocab:100140 a crm:E55_Type ;
+    rdfs:label "Reference Object"@en,
+        "Objet de référence"@fr .
+
+vocab:100141 a crm:E55_Type ;
+    rdfs:label "Call Number"@en,
+        "Cote"@fr .
+
+vocab:100142 a crm:E55_Type ;
+    rdfs:label "Record"@en,
+        "Enregistrement"@fr .
+
+vocab:30011 a crm:E53_Place ;
+    rdfs:label "625 Carr Boulevard, Gatineau QC Canada"@en,
+        "625 Boulevard du Carr, Gatineau QC Canada"@fr .
+

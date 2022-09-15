@@ -1,0 +1,1746 @@
+
+class: mainlist
+heading: Spécification du modèle cible
+toc:
+
+- title: Introduction
+  url: /fr/modele-cible/actuel/introduction
+  class: sublist
+  subfolder:
+  - title: Dates
+    url: /fr/modele-cible/actuel/introduction#dates
+    hash: dates
+  - title: Résumé
+    url: /fr/modele-cible/actuel/introduction#resume
+    hash: resume
+  - title: Fonction du modèle cible
+    url: /fr/modele-cible/actuel/introduction#fonction-du-modele-cible
+    hash: fonction-du-modele-cible
+  - title: Choix d'une ontologie
+    url: /fr/modele-cible/actuel/introduction#choix-dune-ontologie
+    hash: choix-dune-ontologie
+  - title: Conventions de diagramme
+    url: /fr/modele-cible/actuel/introduction#conventions-de-diagramme
+    hash: conventions-de-diagramme
+    class: subsublist
+    subfolder:
+    - title: Diagrammes ontologiques
+      url: /fr/modele-cible/actuel/introduction#diagrammes-ontologiques
+      hash: diagrammes-ontologiques
+    - title: Diagrammes d'instance
+      url: /fr/modele-cible/actuel/introduction#diagrammes-dinstance
+      hash: diagrammes-dinstance
+  - title: Diagramme A-Z
+    url: /fr/modele-cible/actuel/introduction#diagramme-a-z
+    hash: diagramme-a-z
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/introduction#bibliographie
+    hash: bibliographie
+
+- title: Concepts généraux
+  url: /fr/modele-cible/actuel/concepts-generaux
+  class: sublist
+  subfolder:
+  - title: Priorisation de E55_Type et P2_a_pour_type sur les nouvelles classes et propriétés
+    url: /fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes
+    hash: priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes
+    class: subsublist
+    subfolder:
+    - title: Contexte
+      url: /fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-contexte
+      hash: priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-contexte
+    - title: Description
+      url: /fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-description
+      hash: priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-description
+    - title: Exemples
+      url: /fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-exemples
+      hash: priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-exemples
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-enjeux-connexes-sur-github
+      hash: priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes-enjeux-connexes-sur-github
+  - title: Différences entre E39_Actant, E21_Personne et E74_Groupe
+    url: /fr/modele-cible/actuel/concepts-generaux#differences-entre-e39_actant-e21_personne-et-e74_groupe
+    hash: differences-entre-e39_actant-e21_personne-et-e74_groupe
+  - title: Différences sémantiques entre les libellés, les annotations ou les commentaires, et les contenus littéraux
+    url: /fr/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux
+    hash: differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux
+    class: subsublist
+    subfolder:
+    - title: Libellés
+      url: /fr/modele-cible/actuel/concepts-generaux#libelles
+      hash: libelles
+      class: sub3list
+      subfolder:
+      - title: Contexte
+        url: /fr/modele-cible/actuel/concepts-generaux#libelles-contexte
+        hash: libelles-contexte
+      - title: Description
+        url: /fr/modele-cible/actuel/concepts-generaux#libelles-description
+        hash: libelles-description
+      - title: Exemples
+        url: /fr/modele-cible/actuel/concepts-generaux#libelles-exemples
+        hash: libelles-exemples
+    - title: Annotations ou commentaires
+      url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires
+      hash: annotations-ou-commentaires
+      class: sub3list
+      subfolder:
+      - title: Contexte
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-contexte
+        hash: annotations-ou-commentaires-contexte
+      - title: Description
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-description
+        hash: annotations-ou-commentaires-description
+      - title: Diagramme
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-diagramme
+        hash: annotations-ou-commentaires-diagramme
+      - title: Exemples
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-exemples
+        hash: annotations-ou-commentaires-exemples
+      - title: Discussion
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-discussion
+        hash: annotations-ou-commentaires-discussion
+      - title: Nœuds de saisie 
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-noeuds-de-saisie
+        hash: annotations-ou-commentaires-noeuds-de-saisie
+      - title: Enjeux connexes sur GitHub
+        url: /fr/modele-cible/actuel/concepts-generaux#annotations-ou-commentaires-enjeux-connexes-sur-github
+        hash: annotations-ou-commentaires-enjeux-connexes-sur-github
+    - title: Contenu littéral
+      url: /fr/modele-cible/actuel/concepts-generaux#contenu-litteral
+      hash: contenu-litteral
+      class: sub3list
+      subfolder:
+      - title: Contexte
+        url: /fr/modele-cible/actuel/concepts-generaux#contenu-litteral-contexte
+        hash: contenu-litteral-contexte
+      - title: Description
+        url: /fr/modele-cible/actuel/concepts-generaux#contenu-litteral-description
+        hash: contenu-litteral-description
+      - title: Exemples
+        url: /fr/modele-cible/actuel/concepts-generaux#contenu-litteral-exemples
+        hash: contenu-litteral-exemples
+      - title: Discussion
+        url: /fr/modele-cible/actuel/concepts-generaux#contenu-litteral-discussion
+        hash: contenu-litteral-discussion
+  - title: Propriétés-classes
+    url: /fr/modele-cible/actuel/concepts-generaux#proprietes-classes
+    hash: proprietes-classes
+    class: subsublist
+    subfolder:
+    - title: Contexte
+      url: /fr/modele-cible/actuel/concepts-generaux#proprietes-classes-contexte
+      hash: proprietes-classes-contexte
+    - title: Description
+      url: /fr/modele-cible/actuel/concepts-generaux#proprietes-classes-description
+      hash: proprietes-classes-description
+    - title: Exemples
+      url: /fr/modele-cible/actuel/concepts-generaux#proprietes-classes-exemples
+      hash: proprietes-classes-exemples
+    - title: Limitations
+      url: /fr/modele-cible/actuel/concepts-generaux#proprietes-classes-limitations
+      hash: proprietes-classes-limitations
+    - title: Documentation interne connexe
+      url: /fr/modele-cible/actuel/concepts-generaux#proprietes-classes-documentation-interne-connexe
+      hash: proprietes-classes-documentation-interne-connexe
+  - title: Défis de la représentation des réalités des communautés mal desservies
+    url: /fr/modele-cible/actuel/concepts-generaux#defis-de-la-representation-des-realites-des-communautes-mal-desservies
+    hash: defis-de-la-representation-des-realites-des-communautes-mal-desservies
+    class: subsublist
+    subfolder:
+    - title: Patrons conceptuels concernés
+      url: /fr/modele-cible/actuel/concepts-generaux#defis-de-la-representation-des-realites-des-communautes-mal-desservies-patrons-conceptuels-concernes
+      hash: defis-de-la-representation-des-realites-des-communautes-mal-desservies-patrons-conceptuels-concernes
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/concepts-generaux#bibliographie
+    hash: bibliographie
+
+- title: Données désordonnées
+  url: /fr/modele-cible/actuel/donnees-desordonnees
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/donnees-desordonnees#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/donnees-desordonnees#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/donnees-desordonnees#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/donnees-desordonnees#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/donnees-desordonnees#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/donnees-desordonnees#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/donnees-desordonnees#exemples
+    hash: exemples
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/donnees-desordonnees#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/donnees-desordonnees#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/donnees-desordonnees#nœuds-de-saisie
+      hash: nœuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/donnees-desordonnees#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/donnees-desordonnees#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/donnees-desordonnees#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/donnees-desordonnees#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/donnees-desordonnees#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/donnees-desordonnees#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/donnees-desordonnees#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/donnees-desordonnees#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/donnees-desordonnees#bibliographie
+    hash: bibliographie
+
+- title: Provenance du jeu de données
+  url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#exemples
+    hash: exemples
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#cas-limites
+      hash: cas-limites
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/provenance-du-jeu-de-donnees#bibliographie
+    hash: bibliographie
+
+- title: Provenance de l'enregistrement
+  url: /fr/modele-cible/actuel/provenance-de-lenregistrement
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#exemples
+    hash: exemples
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/provenance-de-lenregistrement#cas-limites
+      hash: cas-limites
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/provenance-de-lenregistrement#bibliographie
+    hash: bibliographie
+
+- title: Limites temporelles
+  url: /fr/modele-cible/actuel/limites-temporelles
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/limites-temporelles#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/limites-temporelles#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/limites-temporelles#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/limites-temporelles#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/limites-temporelles#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/limites-temporelles#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/limites-temporelles#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/limites-temporelles#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/limites-temporelles#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/limites-temporelles#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/limites-temporelles#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/limites-temporelles#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/limites-temporelles#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/limites-temporelles#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/limites-temporelles#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/limites-temporelles#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/limites-temporelles#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/limites-temporelles#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/limites-temporelles#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/limites-temporelles#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/limites-temporelles#bibliographie
+    hash: bibliographie
+
+- title: Note curatoriale
+  url: /fr/modele-cible/actuel/note-curatoriale
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/note-curatoriale#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/note-curatoriale#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/note-curatoriale#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/note-curatoriale#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/note-curatoriale#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/note-curatoriale#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/note-curatoriale#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/note-curatoriale#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/note-curatoriale#exemple-2
+      hash: exemple-2
+    - title: Exemple 3
+      url: /fr/modele-cible/actuel/note-curatoriale#exemple-3
+      hash: exemple-3
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/note-curatoriale#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/note-curatoriale#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/note-curatoriale#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/note-curatoriale#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/note-curatoriale#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/note-curatoriale#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/note-curatoriale#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/note-curatoriale#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/note-curatoriale#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/note-curatoriale#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/note-curatoriale#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/note-curatoriale#bibliographie
+    hash: bibliographie
+
+- title: Identifiants et appellations de l'actant
+  url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Identifiants
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#identifiants
+      hash: identifiants
+    - title: Appellations
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#appellations
+      hash: appellations
+    - title: Utilisation du nom
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#utilisation-du-nom
+      hash: utilisation-du-nom
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+      - title: Exemple 3
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-3
+        hash: cas-limites-exemple-3
+      - title: Exemple 4
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-4
+        hash: cas-limites-exemple-4
+      - title: Exemple 5
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-5
+        hash: cas-limites-exemple-5
+      - title: Exemple 6
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-6
+        hash: cas-limites-exemple-6
+      - title: Exemple 7
+        url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#cas-limites-exemple-7
+        hash: cas-limites-exemple-7
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#bibliographie
+    hash: bibliographie
+
+- title: Technique utilisée
+  url: /fr/modele-cible/actuel/technique-utilisee
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/technique-utilisee#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/technique-utilisee#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/technique-utilisee#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/technique-utilisee#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/technique-utilisee#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/technique-utilisee#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/technique-utilisee#exemples
+    hash: exemples
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/technique-utilisee#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèle externe
+      url: /fr/modele-cible/actuel/technique-utilisee#modèle-externe
+      hash: modèle-externe
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/technique-utilisee#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/technique-utilisee#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/technique-utilisee#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/technique-utilisee#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/technique-utilisee#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/technique-utilisee#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/technique-utilisee#cas-limites
+      hash: cas-limites
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/technique-utilisee#bibliographie
+    hash: bibliographie
+
+- title: Appartenance familiale
+  url: /fr/modele-cible/actuel/appartenance-familiale
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/appartenance-familiale#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/appartenance-familiale#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/appartenance-familiale#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/appartenance-familiale#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/appartenance-familiale#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/appartenance-familiale#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/appartenance-familiale#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/appartenance-familiale#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/appartenance-familiale#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/appartenance-familiale#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/appartenance-familiale#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/appartenance-familiale#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/appartenance-familiale#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/appartenance-familiale#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/appartenance-familiale#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/appartenance-familiale#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/appartenance-familiale#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/appartenance-familiale#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/appartenance-familiale#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/appartenance-familiale#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/appartenance-familiale#bibliographie
+    hash: bibliographie
+
+- title: Naissance et mort d'une personne
+  url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#exemple-2
+      hash: exemple-2
+    - title: Exemple 3
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#exemple-3
+      hash: exemple-3
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#justification
+      hash: justification
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+      - title: Exemple 3
+        url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#cas-limites-exemple-3
+        hash: cas-limites-exemple-3
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/naissance-et-mort-dune-personne#bibliographie
+    hash: bibliographie
+
+- title: Formation et dissolution d'un groupe
+  url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+      - title: Exemple 3
+        url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#cas-limites-exemple-3
+        hash: cas-limites-exemple-3
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#bibliographie
+    hash: bibliographie
+
+- title: Floruit
+  url: /fr/modele-cible/actuel/floruit
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/floruit#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/floruit#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/floruit#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/floruit#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/floruit#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/floruit#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/floruit#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/floruit#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/floruit#exemple-2
+      hash: exemple-2
+    - title: Exemple 3
+      url: /fr/modele-cible/actuel/floruit#exemple-3
+      hash: exemple-3
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/floruit#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/floruit#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/floruit#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/floruit#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/floruit#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/floruit#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/floruit#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/floruit#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/floruit#cas-limites
+      hash: cas-limites
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/floruit#bibliographie
+    hash: bibliographie
+
+- title: Appartenance à un groupe
+  url: /fr/modele-cible/actuel/appartenance-a-un-groupe
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/appartenance-a-un-groupe#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/appartenance-a-un-groupe#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/appartenance-a-un-groupe#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/appartenance-a-un-groupe#bibliographie
+    hash: bibliographie
+
+- title: Occupation
+  url: /fr/modele-cible/actuel/occupation
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/occupation#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/occupation#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/occupation#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/occupation#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/occupation#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/occupation#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/occupation#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/occupation#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/occupation#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/occupation#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/occupation#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/occupation#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/occupation#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/occupation#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/occupation#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/occupation#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/occupation#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/occupation#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/occupation#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/occupation#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/occupation#bibliographie
+    hash: bibliographie
+
+- title: Statut social
+  url: /fr/modele-cible/actuel/statut-social
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/statut-social#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/statut-social#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/statut-social#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/statut-social#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/statut-social#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/statut-social#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/statut-social#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/statut-social#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/statut-social#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/statut-social#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/statut-social#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/statut-social#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/statut-social#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/statut-social#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/statut-social#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/statut-social#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/statut-social#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/statut-social#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/statut-social#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/statut-social#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+      - title: Exemple 3
+        url: /fr/modele-cible/actuel/statut-social#cas-limites-exemple-3
+        hash: cas-limites-exemple-3
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/statut-social#bibliographie
+    hash: bibliographie
+
+- title: Relation
+  url: /fr/modele-cible/actuel/relation
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/relation#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/relation#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/relation#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/relation#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/relation#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/relation#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/relation#exemples
+    hash: exemples
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/relation#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/relation#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/relation#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/relation#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/relation#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/relation#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/relation#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/relation#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/relation#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/relation#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/relation#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/relation#bibliographie
+    hash: bibliographie
+
+- title: Évènement de séjour
+  url: /fr/modele-cible/actuel/evenement-de-sejour
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/evenement-de-sejour#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/evenement-de-sejour#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/evenement-de-sejour#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/evenement-de-sejour#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/evenement-de-sejour#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/evenement-de-sejour#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/evenement-de-sejour#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/evenement-de-sejour#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/evenement-de-sejour#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/evenement-de-sejour#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/evenement-de-sejour#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/evenement-de-sejour#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/evenement-de-sejour#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/evenement-de-sejour#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/evenement-de-sejour#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/evenement-de-sejour#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/evenement-de-sejour#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/evenement-de-sejour#cas-limites
+      hash: cas-limites
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/evenement-de-sejour#bibliographie
+    hash: bibliographie
+
+- title: Biographie
+  url: /fr/modele-cible/actuel/biographie
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/biographie#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/biographie#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/biographie#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/biographie#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/biographie#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/biographie#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/biographie#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/biographie#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/biographie#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/biographie#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/biographie#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/biographie#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/biographie#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/biographie#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/biographie#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/biographie#limitations
+      hash: limitations
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/biographie#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/biographie#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/biographie#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+      - title: Exemple 3
+        url: /fr/modele-cible/actuel/biographie#cas-limites-exemple-3
+        hash: cas-limites-exemple-3
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/biographie#bibliographie
+    hash: bibliographie
+
+- title: Artefact
+  url: /fr/modele-cible/actuel/artefact
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/artefact#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/artefact#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/artefact#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/artefact#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/artefact#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/artefact#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/artefact#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/artefact#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/artefact#exemple-2
+      hash: exemple-2
+    - title: Exemple 3
+      url: /fr/modele-cible/actuel/artefact#exemple-3
+      hash: exemple-3
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/artefact#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/artefact#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/artefact#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/artefact#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/artefact#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/artefact#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/artefact#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/artefact#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/artefact#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/artefact#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/artefact#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/artefact#bibliographie
+    hash: bibliographie
+
+- title: Production d'artefact
+  url: /fr/modele-cible/actuel/production-dartefact
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/production-dartefact#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/production-dartefact#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/production-dartefact#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/production-dartefact#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/production-dartefact#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/production-dartefact#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/production-dartefact#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/production-dartefact#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/production-dartefact#exemple-2
+      hash: exemple-2
+    - title: Exemple 3
+      url: /fr/modele-cible/actuel/production-dartefact#exemple-3
+      hash: exemple-3
+    - title: Exemple 4
+      url: /fr/modele-cible/actuel/production-dartefact#exemple-4
+      hash: exemple-4
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/production-dartefact#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/production-dartefact#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/production-dartefact#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/production-dartefact#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/production-dartefact#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/production-dartefact#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/production-dartefact#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/production-dartefact#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/production-dartefact#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/production-dartefact#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/production-dartefact#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+      - title: Exemple 3
+        url: /fr/modele-cible/actuel/production-dartefact#cas-limites-exemple-3
+        hash: cas-limites-exemple-3
+      - title: Exemple 4
+        url: /fr/modele-cible/actuel/production-dartefact#cas-limites-exemple-4
+        hash: cas-limites-exemple-4
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/production-dartefact#bibliographie
+    hash: bibliographie
+
+- title: Entité visuelle
+  url: /fr/modele-cible/actuel/visual-item
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/visual-item#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/visual-item#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/visual-item#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/visual-item#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/visual-item#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/visual-item#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/visual-item#exemples
+    hash: exemples
+    class: subsublist
+    subfolder:
+    - title: Exemple 1
+      url: /fr/modele-cible/actuel/visual-item#exemple-1
+      hash: exemple-1
+    - title: Exemple 2
+      url: /fr/modele-cible/actuel/visual-item#exemple-2
+      hash: exemple-2
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/visual-item#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/visual-item#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/visual-item#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/visual-item#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/visual-item#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/visual-item#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/visual-item#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/visual-item#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/visual-item#cas-limites
+      hash: cas-limites
+      class: sub3list
+      subfolder:
+      - title: Exemple 1
+        url: /fr/modele-cible/actuel/visual-item#cas-limites-exemple-1
+        hash: cas-limites-exemple-1
+      - title: Exemple 2
+        url: /fr/modele-cible/actuel/visual-item#cas-limites-exemple-2
+        hash: cas-limites-exemple-2
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/visual-item#bibliographie
+    hash: bibliographie
+
+- title: Emplacement du document de référence
+  url: /fr/modele-cible/actuel/emplacement-du-document-de-reference
+  class: sublist
+  subfolder:
+  - title: Aperçu
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#apercu
+    hash: apercu
+  - title: Introduction et contexte
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#introduction-et-contexte
+    hash: introduction-et-contexte
+    class: subsublist
+    subfolder:
+    - title: Historique théorique
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#historique-theorique
+      hash: historique-theorique
+    - title: Énoncé des besoins
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#enonce-des-besoins
+      hash: enonce-des-besoins
+  - title: Description du patron conceptuel
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#description-du-patron-conceptuel
+    hash: description-du-patron-conceptuel
+  - title: Diagramme
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#diagramme
+    hash: diagramme
+  - title: Exemples
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#exemples
+    hash: exemples
+  - title: Documentation connexe
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#documentation-connexe
+    hash: documentation-connexe
+    class: subsublist
+    subfolder:
+    - title: Modèles externes
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#modeles-externes
+      hash: modeles-externes
+    - title: Nœuds de saisie
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#noeuds-de-saisie
+      hash: noeuds-de-saisie
+    - title: Entités du CIDOC CRM
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#entites-du-cidoc-crm
+      hash: entites-du-cidoc-crm
+  - title: Discussion
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Justification
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#justification
+      hash: justification
+    - title: Limitations
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#limitations
+      hash: limitations
+    - title: Enjeux connexes sur GitHub
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#enjeux-connexes-sur-github
+      hash: enjeux-connexes-sur-github
+    - title: Cas limites
+      url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#cas-limites
+      hash: cas-limites
+  - title: Bibliographie
+    url: /fr/modele-cible/actuel/emplacement-du-document-de-reference#bibliographie
+    hash: bibliographie

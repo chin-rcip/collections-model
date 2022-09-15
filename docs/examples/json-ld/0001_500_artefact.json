@@ -1,0 +1,103 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_500",
+  "@type": "Human-Made_Object",
+  "is_identified_by": [
+    {
+      "@id": "https://dopheda.info/crm_e41/1aa0921b-e18d-4caa-8e5a-1e35ec6953a6",
+      "@type": "Identifier",
+      "has_symbolic_content": {
+        "@none": "PA-212511"
+      },
+      "has_type": {
+        "@id": "vocab:100178",
+        "@type": "Type",
+        "_label": {
+          "en": "Identification Number",
+          "fr": "Numéro d'identification"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41/ad05b745-4f0a-4245-a89b-4626d006d215",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "@none": "Self Portret"
+      },
+      "has_type": [
+        {
+          "@id": "vocab:100177",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100139",
+            "@type": "Type",
+            "_label": {
+              "en": "Type of Appellation",
+              "fr": "Type d'appellation"
+            }
+          },
+          "_label": {
+            "en": "Title",
+            "fr": "Titre"
+          }
+        },
+        {
+          "@id": "vocab:1003",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100138",
+            "@type": "Type",
+            "_label": {
+              "en": "Precedence",
+              "fr": "Primauté"
+            }
+          },
+          "_label": {
+            "en": "Non-Preferred",
+            "fr": "Non préféré"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41/b1054ef5-bd03-4bba-80ea-eadf886fe2aa",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "en": "Self-Portrait"
+      },
+      "has_type": [
+        {
+          "@id": "vocab:100177"
+        },
+        {
+          "@id": "vocab:1004",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100138"
+          },
+          "_label": {
+            "en": "Preferred",
+            "fr": "Préféré"
+          }
+        }
+      ],
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English",
+          "fr": "Anglais"
+        }
+      }
+    }
+  ],
+  "_label": {
+    "en": "Self-Portrait"
+  }
+}

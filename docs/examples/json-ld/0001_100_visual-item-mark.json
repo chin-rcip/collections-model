@@ -1,0 +1,61 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "is_range_of": {
+    "@id": "https://dopheda.info/crm_pc0/432601db-4434-44f4-8c14-98e2ae85cb07",
+    "@type": "represents",
+    "has_domain": {
+      "@id": "https://dopheda.info/crm_e28/daf704e1-eeea-42b3-8e99-45af36265046",
+      "@type": "Mark",
+      "dct:source": [
+        {
+          "@language": "en",
+          "@value": "This image was found on Wikimedia Commons (Signature of Yousuf Karsh, Public domain), and originally available from https://karsh.org/wordpress/wp-content/themes/bigflannel-karsh/img/karsh-signature.jpg"
+        },
+        {
+          "@language": "fr",
+          "@value": "Cette image a été trouvée sur Wikimedia Commons (Signature de Yousuf Karsh,  Domaine public), et originellement disponible sur https://karsh.org/wordpress/wp-content/themes/bigflannel-karsh/img/karsh-signature.jpg"
+        }
+      ],
+      "is_incorporated_in": {
+        "@id": "https://dopheda.info/crm_e28/ff4881d6-03db-4703-8ed4-402624b5da16",
+        "@type": "Digital_Object",
+        "is_identified_by": {
+          "@id": "https://dopheda.info/crm_e41/92b6e451-b85c-4578-8679-972fb00e5a9a",
+          "@type": "Identifier",
+          "has_symbolic_content": {
+            "@none": "https://upload.wikimedia.org/wikipedia/commons/4/46/Signature_of_Yousuf_Karsh.png"
+          },
+          "has_type": {
+            "@id": "vocab:100156",
+            "@type": "Type",
+            "_label": {
+              "en": "URL",
+              "fr": "URL"
+            }
+          }
+        }
+      },
+      "has_type": {
+        "@id": "vocab:100181",
+        "@type": "Type",
+        "_label": {
+          "en": "Signature",
+          "fr": "Signature"
+        }
+      }
+    },
+    "mode_of_representation": {
+      "@id": "vocab:100155",
+      "@type": "Type",
+      "_label": {
+        "en": "Symbolic",
+        "fr": "Symbolique"
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

@@ -1,0 +1,70 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["vocab:1003"]) -->|crm:P2_has_type| 1(["vocab:100138"])
+0(["vocab:1003"]) -->|rdfs:label| 2(["''Non préféré''@fr"]):::Literal
+3(["-"]):::E41_Appellation_URI -->|rdf:type| 4["crm:E41_Appellation"]:::E41_Appellation
+1(["vocab:100138"]):::E55_Type_URI -->|rdf:type| 5["crm:E55_Type"]:::E55_Type
+6(["vocab:1004"]) -->|rdfs:label| 7(["''Preferred''@en"]):::Literal
+1(["vocab:100138"]) -->|rdfs:label| 8(["''Precedence''@en"]):::Literal
+9(["-"]):::E41_Appellation_URI -->|rdf:type| 10["crm:E41_Appellation"]:::E41_Appellation
+3(["-"]):::Multi_URI -->|rdf:type| 11["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+3(["-"]) -->|crm:P2_has_type| 12(["vocab:100177"])
+3(["-"]) -->|crm:P2_has_type| 6(["vocab:1004"])
+9(["-"]):::Multi_URI -->|rdf:type| 13["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+12(["vocab:100177"]) -->|rdfs:label| 14(["''Title''@en"]):::Literal
+6(["vocab:1004"]) -->|crm:P2_has_type| 1(["vocab:100138"])
+15(["vocab:2001"]):::E55_Type_URI -->|rdf:type| 16["crm:E56_Language"]:::E55_Type
+12(["vocab:100177"]) -->|crm:P2_has_type| 17(["vocab:100139"])
+1(["vocab:100138"]) -->|rdfs:label| 18(["''Primauté''@fr"]):::Literal
+9(["-"]) -->|crm:P2_has_type| 0(["vocab:1003"])
+19(["object:0001_500"]) -->|crm:P1_is_identified_by| 9(["-"])
+20(["-"]) -->|crm:P2_has_type| 21(["vocab:100178"])
+9(["-"]) -->|crm:P190_has_symbolic_content| 22(["''Self Portret''^^xsd:string"]):::Literal
+21(["vocab:100178"]) -->|rdfs:label| 23(["''Numéro d'identification''@fr"]):::Literal
+0(["vocab:1003"]) -->|rdfs:label| 24(["''Non-Preferred''@en"]):::Literal
+19(["object:0001_500"]):::E18_Physical_Thing_URI -->|rdf:type| 25["crm:E22_Human-Made_Object"]:::E18_Physical_Thing
+9(["-"]) -->|crm:P2_has_type| 12(["vocab:100177"])
+19(["object:0001_500"]) -->|crm:P1_is_identified_by| 3(["-"])
+19(["object:0001_500"]) -->|crm:P1_is_identified_by| 20(["-"])
+20(["-"]) -->|crm:P190_has_symbolic_content| 26(["''PA-212511''^^xsd:string"]):::Literal
+20(["-"]):::E41_Appellation_URI -->|rdf:type| 27["crm:E42_Identifier"]:::E41_Appellation
+15(["vocab:2001"]) -->|rdfs:label| 28(["''Anglais''@fr"]):::Literal
+21(["vocab:100178"]):::E55_Type_URI -->|rdf:type| 29["crm:E55_Type"]:::E55_Type
+6(["vocab:1004"]) -->|rdfs:label| 30(["''Préféré''@fr"]):::Literal
+17(["vocab:100139"]) -->|rdfs:label| 31(["''Type d'appellation''@fr"]):::Literal
+15(["vocab:2001"]) -->|rdfs:label| 32(["''English''@en"]):::Literal
+19(["object:0001_500"]) -->|rdfs:label| 33(["''Self-Portrait''@en"]):::Literal
+3(["-"]) -->|crm:P72_has_language| 15(["vocab:2001"])
+17(["vocab:100139"]) -->|rdfs:label| 34(["''Type of Appellation''@en"]):::Literal
+12(["vocab:100177"]):::E55_Type_URI -->|rdf:type| 35["crm:E55_Type"]:::E55_Type
+12(["vocab:100177"]) -->|rdfs:label| 36(["''Titre''@fr"]):::Literal
+17(["vocab:100139"]):::E55_Type_URI -->|rdf:type| 37["crm:E55_Type"]:::E55_Type
+21(["vocab:100178"]) -->|rdfs:label| 38(["''Identification Number''@en"]):::Literal
+0(["vocab:1003"]):::E55_Type_URI -->|rdf:type| 39["crm:E55_Type"]:::E55_Type
+6(["vocab:1004"]):::E55_Type_URI -->|rdf:type| 40["crm:E55_Type"]:::E55_Type
+3(["-"]) -->|crm:P190_has_symbolic_content| 41(["''Self-Portrait''@en"]):::Literal

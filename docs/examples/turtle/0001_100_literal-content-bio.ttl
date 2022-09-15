@@ -1,0 +1,7 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://dopheda.info/crm_e28/188d5c88-06c4-4449-9a83-9bab392d1e3d> a crm:E33_Linguistic_Object ;
+	rdfs:label "Biography of Yousuf Karsh"@en, "Biographie de Yousuf Karsh"@fr;
+	crm:P3_has_note "The biography has to be revised"@en, "La biographie doit être révisée"@fr;
+	crm:P190_has_symbolic_content "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."@en .

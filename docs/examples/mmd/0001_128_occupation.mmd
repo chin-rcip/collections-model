@@ -1,0 +1,76 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]) -->|crm:P7_took_place_at| 1(["vocab:30012"])
+2(["-"]) -->|crm:P7_took_place_at| 3(["vocab:3007"])
+2(["-"]) -->|crm:P4_has_time-span| 4(["-"])
+5(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 6["frbroo:F51_Pursuit"]:::E2_Temporal_Entity
+7(["vocab:100171"]):::E55_Type_URI -->|rdf:type| 8["crm:E55_Type"]:::E55_Type
+1(["vocab:30012"]) -->|rdfs:label| 9(["''Hemmingford, CA-QC''@fr"]):::Literal
+0(["-"]) -->|crm:P2_has_type| 7(["vocab:100171"])
+4(["-"]) -->|crm:P79_beginning_is_qualified_by| 10(["''Avant''@fr"]):::Literal
+3(["vocab:3007"]) -->|rdfs:label| 11(["''Montréal, CA-QC''@fr"]):::Literal
+12(["-"]):::E52_Time-Span_URI -->|rdf:type| 13["crm:E52_Time-Span"]:::E52_Time-Span
+2(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 14["frbroo:F51_Pursuit"]:::E2_Temporal_Entity
+7(["vocab:100171"]) -->|rdfs:label| 15(["''Agriculteur / Agricultrice''@fr"]):::Literal
+4(["-"]) -->|crm:P79_beginning_is_qualified_by| 16(["''Before''@en"]):::Literal
+17(["vocab:100150"]) -->|rdfs:label| 18(["''Occupation''@en"]):::Literal
+5(["-"]) -->|crm:P2_has_type| 19(["vocab:100170"])
+20(["actor:0001_128"]):::E39_Actor_URI -->|rdf:type| 21["crm:E21_Person"]:::E39_Actor
+4(["-"]) -->|crm:P82a_begin_of_the_begin| 22(["''1996-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+12(["-"]) -->|crm:P79_beginning_is_qualified_by| 23(["''Avant''@fr"]):::Literal
+20(["actor:0001_128"]) -->|rdfs:label| 24(["''Marc Séguin''@fr"]):::Literal
+1(["vocab:30012"]):::E53_Place_URI -->|rdf:type| 25["crm:E53_Place"]:::E53_Place
+20(["actor:0001_128"]) -->|crm:P14i_performed| 2(["-"])
+4(["-"]):::E52_Time-Span_URI -->|rdf:type| 26["crm:E52_Time-Span"]:::E52_Time-Span
+20(["actor:0001_128"]) -->|crm:P14i_performed| 0(["-"])
+27(["vocab:100169"]) -->|crm:P2_has_type| 17(["vocab:100150"])
+17(["vocab:100150"]):::E55_Type_URI -->|rdf:type| 28["crm:E55_Type"]:::E55_Type
+12(["-"]) -->|crm:P82a_begin_of_the_begin| 29(["''2009-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+27(["vocab:100169"]) -->|rdfs:label| 30(["''Artiste visuel / Artiste visuelle''@fr"]):::Literal
+31(["-"]) -->|crm:P82a_begin_of_the_begin| 32(["''2008-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+2(["-"]) -->|crm:P2_has_type| 27(["vocab:100169"])
+31(["-"]) -->|crm:P79_beginning_is_qualified_by| 33(["''Avant''@fr"]):::Literal
+7(["vocab:100171"]) -->|rdfs:label| 34(["''Farmer''@en"]):::Literal
+12(["-"]) -->|crm:P79_beginning_is_qualified_by| 35(["''Before''@en"]):::Literal
+19(["vocab:100170"]) -->|rdfs:label| 36(["''Romancier / Romancière''@fr"]):::Literal
+3(["vocab:3007"]):::E53_Place_URI -->|rdf:type| 37["crm:E53_Place"]:::E53_Place
+27(["vocab:100169"]) -->|rdfs:label| 38(["''Visual Artist''@en"]):::Literal
+3(["vocab:3007"]) -->|rdfs:label| 39(["''Montreal, CA-QC''@en"]):::Literal
+19(["vocab:100170"]):::E55_Type_URI -->|rdf:type| 40["crm:E55_Type"]:::E55_Type
+0(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 41["frbroo:F51_Pursuit"]:::E2_Temporal_Entity
+0(["-"]) -->|crm:P4_has_time-span| 31(["-"])
+31(["-"]) -->|crm:P79_beginning_is_qualified_by| 42(["''Before''@en"]):::Literal
+5(["-"]) -->|crm:P4_has_time-span| 12(["-"])
+19(["vocab:100170"]) -->|rdfs:label| 43(["''Novelist''@en"]):::Literal
+17(["vocab:100150"]) -->|rdfs:label| 44(["''Occupation''@fr"]):::Literal
+7(["vocab:100171"]) -->|crm:P2_has_type| 17(["vocab:100150"])
+27(["vocab:100169"]):::E55_Type_URI -->|rdf:type| 45["crm:E55_Type"]:::E55_Type
+19(["vocab:100170"]) -->|crm:P2_has_type| 17(["vocab:100150"])
+1(["vocab:30012"]) -->|rdfs:label| 46(["''Hemmingford, CA-QC''@en"]):::Literal
+20(["actor:0001_128"]) -->|crm:P14i_performed| 5(["-"])
+31(["-"]):::E52_Time-Span_URI -->|rdf:type| 47["crm:E52_Time-Span"]:::E52_Time-Span

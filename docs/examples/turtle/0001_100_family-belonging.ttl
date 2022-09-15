@@ -1,0 +1,30 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P143i_was_joined_by <https://dopheda.info/crm_e5/375415d8-29fe-4060-a466-64d4b8eb20e3> ;
+    crm:P145i_left_by <https://dopheda.info/crm_e5/3ccee852-80d7-46a2-826e-6398c298956a> .
+
+<https://dopheda.info/crm_e5/375415d8-29fe-4060-a466-64d4b8eb20e3> a crm:E85_Joining ;
+    crm:P144_joined_with actor:0001_120 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/b1e2a6e7-7837-4a3f-b435-450209f9361e> .
+
+<https://dopheda.info/crm_e5/3ccee852-80d7-46a2-826e-6398c298956a> a crm:E86_Leaving ;
+    crm:P146_separated_from actor:0001_120 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/b37849e6-e704-48c7-bdbb-ac89ac4ee3b6> .
+
+<https://dopheda.info/crm_e52/b1e2a6e7-7837-4a3f-b435-450209f9361e> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1908-12-23T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1908-12-23T:23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/b37849e6-e704-48c7-bdbb-ac89ac4ee3b6> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-07-13T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2002-07-13T23:59:59"^^xsd:dateTime .
+
+actor:0001_120 a crm:E74_Group ;
+    rdfs:label "Karsh family"@en,
+        "Famille Karsh"@fr .
+

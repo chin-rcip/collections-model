@@ -1,0 +1,18 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/3f6e7add-4726-466d-b3ac-e3c736f5b3ee> .
+
+<https://dopheda.info/crm_e41/3f6e7add-4726-466d-b3ac-e3c736f5b3ee> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "8494"^^xsd:string ;
+    crm:P2_has_type vocab:100157 .
+
+vocab:100157 a crm:E55_Type ;
+    rdfs:label "Artists in Canada Identifier"@en,
+        "Identifiant Artistes au Canada"@fr .
+

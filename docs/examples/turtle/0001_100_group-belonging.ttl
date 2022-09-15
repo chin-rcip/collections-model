@@ -1,0 +1,34 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P143i_was_joined_by <https://dopheda.info/crm_e5/412384d3-d7c5-44d1-a0e0-3ae24daf2f8a> ;
+    crm:P145i_left_by <https://dopheda.info/crm_e5/9877aa4e-a415-425e-bc68-f6857730c03d> .
+
+<https://dopheda.info/crm_e5/412384d3-d7c5-44d1-a0e0-3ae24daf2f8a> a crm:E85_Joining ;
+    crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/7f11d0f4-9fdf-401f-9b12-45ef6d1c63fd> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/e9b1f63a-d3e2-4f3c-9922-be3037a8b148> .
+
+<https://dopheda.info/crm_e5/9877aa4e-a415-425e-bc68-f6857730c03d> a crm:E86_Leaving ;
+    crm:P146_separated_from actor:0001_110 .
+
+<https://dopheda.info/crm_e52/e9b1f63a-d3e2-4f3c-9922-be3037a8b148> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1990-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1990-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_pc0/7f11d0f4-9fdf-401f-9b12-45ef6d1c63fd> a crm:PC144_joined_with ;
+    crm:P02_has_range actor:0001_110 ;
+    crm:P144.1_kind_of_member vocab:100166 .
+
+vocab:100166 a crm:E55_Type ;
+    rdfs:label "Companion"@en,
+        "Compagnon"@fr .
+
+actor:0001_110 a crm:E74_Group ;
+    rdfs:label "Order of Canada (1967-)"@en,
+        "Ordre du Canada (1967-)"@fr .
+

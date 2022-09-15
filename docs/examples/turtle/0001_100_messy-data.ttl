@@ -1,0 +1,37 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/98018366-2204-4cbe-9fb6-31ce6b15f668>,
+        <https://dopheda.info/crm_e28/a79651a2-53fa-463b-8a5b-1382aeca622e> .
+
+<https://dopheda.info/crm_e28/98018366-2204-4cbe-9fb6-31ce6b15f668> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "De retour au Canada en 1931, Karsh établit rapidement un studio avec l'aide financière de son oncle."@fr ;
+    crm:P2_has_type vocab:10098 ;
+    crm:P72_has_language vocab:2003 .
+
+<https://dopheda.info/crm_e28/a79651a2-53fa-463b-8a5b-1382aeca622e> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "Returning to Canada in 1931, Karsh soon established a studio with financial help from his uncle."@en ;
+    crm:P2_has_type vocab:10098 ;
+    crm:P72_has_language vocab:2001 .
+
+vocab:100182 a crm:E55_Type ;
+    rdfs:label "Messy Data Statement"@en,
+        "Énoncé de données désordonnées"@fr .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+
+vocab:2003 a crm:E56_Language ;
+    rdfs:label "French"@en,
+        "Français"@fr .
+
+vocab:10098 a crm:E55_Type ;
+    rdfs:label "Occupation Date Begin Statement"@en,
+        "Énoncé de Date de début de l'occupation"@fr ;
+    crm:P2_has_type vocab:100182 .
+

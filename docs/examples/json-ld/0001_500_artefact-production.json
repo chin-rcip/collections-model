@@ -1,0 +1,71 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_500",
+  "@type": "Human-Made_Object",
+  "crm:P108i_was_produced_by": {
+    "@id": "https://dopheda.info/crm_e63/8136dea7-4f25-4101-a2b7-7fb3cd7ca14e",
+    "@type": "crm:E12_Production",
+    "is_domain_of": {
+      "@id": "https://dopheda.info/crm_pc0/fcff2a14-8966-4d79-9621-a535bde638b8",
+      "@type": "crm:PC14_carried_out_by",
+      "has_range": {
+        "@id": "actor:0001_100",
+        "@type": "Person",
+        "_label": {
+          "en": "Yousuf Karsh (1908-2002)"
+        }
+      },
+      "in_the_role_of": [
+        {
+          "@id": "vocab:1001",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100143",
+            "@type": "Type",
+            "_label": {
+              "en": "Actor Priority",
+              "fr": "Priorité de l'actant"
+            }
+          },
+          "_label": {
+            "en": "1",
+            "fr": "1"
+          }
+        },
+        {
+          "@id": "vocab:100180",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100144",
+            "@type": "Type",
+            "_label": {
+              "en": "Actor Role",
+              "fr": "Rôle de l'actant"
+            }
+          },
+          "_label": {
+            "en": "Creator",
+            "fr": "Créateur / Créatrice"
+          }
+        }
+      ]
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/32c82104-1c94-4bac-aeab-098f5c17ef67",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1938-01-01T00:00:00",
+      "end_of_the_end": "1938-12-31T23:59:59"
+    },
+    "took_place_at": {
+      "@id": "vocab:3003",
+      "@type": "Place",
+      "_label": {
+        "en": "Ottawa, CA-ON",
+        "fr": "Ottawa, CA-ON"
+      }
+    }
+  },
+  "_label": {
+    "en": "Self-Portrait"
+  }
+}

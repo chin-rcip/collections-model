@@ -1,0 +1,55 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]):::E52_Time-Span_URI -->|rdf:type| 1["crm:E52_Time-Span"]:::E52_Time-Span
+2(["-"]) -->|crm:P01_has_domain| 3(["-"])
+2(["-"]) -->|crm:P14.1_in_the_role_of| 4(["vocab:100175"])
+5(["vocab:100151"]) -->|rdfs:label| 6(["''Relationship''@en"]):::Literal
+7(["actor:0001_100"]) -->|crm:P02i_is_range_of| 2(["-"])
+5(["vocab:100151"]):::E55_Type_URI -->|rdf:type| 8["crm:E55_Type"]:::E55_Type
+9(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 10["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
+11(["actor:0001_118"]):::E39_Actor_URI -->|rdf:type| 12["crm:E21_Person"]:::E39_Actor
+9(["-"]) -->|crm:P14.1_in_the_role_of| 4(["vocab:100175"])
+13(["vocab:100174"]):::E55_Type_URI -->|rdf:type| 14["crm:E55_Type"]:::E55_Type
+4(["vocab:100175"]) -->|rdfs:label| 15(["''Spouse''@en"]):::Literal
+7(["actor:0001_100"]) -->|rdfs:label| 16(["''Yousuf Karsh (1908-2002)''@en"]):::Literal
+7(["actor:0001_100"]):::E39_Actor_URI -->|rdf:type| 17["crm:E21_Person"]:::E39_Actor
+13(["vocab:100174"]) -->|rdfs:label| 18(["''Mariage''@fr"]):::Literal
+3(["-"]) -->|crm:P01i_is_domain_of| 9(["-"])
+3(["-"]) -->|crm:P4_has_time-span| 0(["-"])
+5(["vocab:100151"]) -->|rdfs:label| 19(["''Relation''@fr"]):::Literal
+3(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 20["crm:E7_Activity"]:::E2_Temporal_Entity
+13(["vocab:100174"]) -->|rdfs:label| 21(["''Marriage''@en"]):::Literal
+11(["actor:0001_118"]) -->|rdfs:label| 22(["''Solange Gauthier''@en"]):::Literal
+4(["vocab:100175"]):::E55_Type_URI -->|rdf:type| 23["crm:E55_Type"]:::E55_Type
+0(["-"]) -->|crm:P82b_end_of_the_end| 24(["''1961-12-31T23:59:59''^^xsd:dateTime"]):::Literal
+13(["vocab:100174"]) -->|crm:P2_has_type| 5(["vocab:100151"])
+0(["-"]) -->|crm:P82a_begin_of_the_begin| 25(["''1939-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+9(["-"]) -->|crm:P02_has_range| 11(["actor:0001_118"])
+2(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 26["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
+3(["-"]) -->|crm:P2_has_type| 13(["vocab:100174"])
+4(["vocab:100175"]) -->|rdfs:label| 27(["''Époux / Épouse''@fr"]):::Literal

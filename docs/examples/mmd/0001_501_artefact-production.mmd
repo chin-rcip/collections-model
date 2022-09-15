@@ -1,0 +1,56 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["vocab:100143"]) -->|rdfs:label| 1(["''Actor Priority''@en"]):::Literal
+2(["vocab:100180"]):::E55_Type_URI -->|rdf:type| 3["crm:E55_Type"]:::E55_Type
+2(["vocab:100180"]) -->|rdfs:label| 4(["''Créateur / Créatrice''@fr"]):::Literal
+5(["object:0001_501"]) -->|crm:P108i_was_produced_by| 6(["-"])
+7(["vocab:100144"]) -->|rdfs:label| 8(["''Actor Role''@en"]):::Literal
+0(["vocab:100143"]):::E55_Type_URI -->|rdf:type| 9["crm:E55_Type"]:::E55_Type
+10(["vocab:1001"]) -->|rdfs:label| 11(["''1''@en"]):::Literal
+12(["actor:0001_121"]):::E39_Actor_URI -->|rdf:type| 13["crm:E21_Person"]:::E39_Actor
+14(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 15["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
+12(["actor:0001_121"]) -->|rdfs:label| 16(["''Michael Snow''@en"]):::Literal
+7(["vocab:100144"]) -->|rdfs:label| 17(["''Rôle de l'actant''@fr"]):::Literal
+14(["-"]) -->|crm:P14.1_in_the_role_of| 10(["vocab:1001"])
+10(["vocab:1001"]) -->|rdfs:label| 18(["''1''@fr"]):::Literal
+10(["vocab:1001"]) -->|crm:P2_has_type| 0(["vocab:100143"])
+5(["object:0001_501"]):::E18_Physical_Thing_URI -->|rdf:type| 19["crm:E22_Human-Made_Object"]:::E18_Physical_Thing
+5(["object:0001_501"]) -->|rdfs:label| 20(["''Flightstop''@en"]):::Literal
+14(["-"]) -->|crm:P14.1_in_the_role_of| 2(["vocab:100180"])
+2(["vocab:100180"]) -->|rdfs:label| 21(["''Creator''@en"]):::Literal
+10(["vocab:1001"]):::E55_Type_URI -->|rdf:type| 22["crm:E55_Type"]:::E55_Type
+23(["-"]):::E52_Time-Span_URI -->|rdf:type| 24["crm:E52_Time-Span"]:::E52_Time-Span
+6(["-"]) -->|crm:P01i_is_domain_of| 14(["-"])
+23(["-"]) -->|crm:P82a_begin_of_the_begin| 25(["''1979-01-01T00:00:00''^^xsd:dateTime"]):::Literal
+14(["-"]) -->|crm:P02_has_range| 12(["actor:0001_121"])
+23(["-"]) -->|crm:P82b_end_of_the_end| 26(["''1979-12-31T23:59:59''^^xsd:dateTime"]):::Literal
+6(["-"]) -->|crm:P4_has_time-span| 23(["-"])
+2(["vocab:100180"]) -->|crm:P2_has_type| 7(["vocab:100144"])
+7(["vocab:100144"]):::E55_Type_URI -->|rdf:type| 27["crm:E55_Type"]:::E55_Type
+6(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 28["crm:E12_Production"]:::E2_Temporal_Entity
+0(["vocab:100143"]) -->|rdfs:label| 29(["''Priorité de l'actant''@fr"]):::Literal

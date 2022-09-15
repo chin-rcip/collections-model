@@ -1,0 +1,41 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_119 a crm:E74_Group ;
+    rdfs:label "Royal Canadian Academy of Arts"@en ;
+    crm:P14i_performed <https://dopheda.info/crm_e5/c6dc11ed-c978-4086-9aef-222bc57b3d67> .
+
+<https://dopheda.info/crm_e41/db8d1823-8242-4f88-b4cc-f31f72d16ff7> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Royal Canadian Academy of Arts"@en ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e5/c6dc11ed-c978-4086-9aef-222bc57b3d67> a crm:E7_Activity ;
+    crm:P16_used_specific_object <https://dopheda.info/crm_e41/db8d1823-8242-4f88-b4cc-f31f72d16ff7> ;
+    crm:P2_has_type vocab:100153,
+        vocab:100176 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/6f19d7e0-6087-48be-a3a8-2fc2865225c1> ;
+    crm:P7_took_place_at vocab:30010 .
+
+<https://dopheda.info/crm_e52/6f19d7e0-6087-48be-a3a8-2fc2865225c1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2020-09-01T00:00:00"^^xsd:dateTime .
+
+vocab:100153 a crm:E55_Type ;
+    rdfs:label "Stay"@en,
+        "Séjour"@fr .
+
+vocab:100176 a crm:E55_Type ;
+    rdfs:label "Headquarter"@en,
+        "Siège social"@fr .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+
+vocab:30010 a crm:E53_Place ;
+    rdfs:label "50 Sussex Dr, Ottawa, ON K1M 2K1"@en,
+        "50 Sussex DR, Ottawa, ON K1M 2K1"@fr .
+

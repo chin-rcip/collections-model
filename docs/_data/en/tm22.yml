@@ -1,0 +1,1746 @@
+
+class: mainlist
+heading: Target Model Specification
+toc:
+
+- title: Introduction
+  url: /en/target-model/current/introduction
+  class: sublist
+  subfolder:
+  - title: Dates
+    url: /en/target-model/current/introduction#dates
+    hash: dates
+  - title: Abstract
+    url: /en/target-model/current/introduction#abstract
+    hash: abstract
+  - title: Purpose of the Target Model
+    url: /en/target-model/current/introduction#purpose-of-the-target-model
+    hash: purpose-of-the-target-model
+  - title: Choice of an Ontology
+    url: /en/target-model/current/introduction#choice-of-an-ontology
+    hash: choice-of-an-ontology
+  - title: Diagram Conventions
+    url: /en/target-model/current/introduction#diagram-conventions
+    hash: diagram-conventions
+    class: subsublist
+    subfolder:
+    - title: Ontological Diagrams
+      url: /en/target-model/current/introduction#ontological-diagrams
+      hash: ontological-diagrams
+    - title: Instance Diagrams
+      url: /en/target-model/current/introduction#instance-diagrams
+      hash: instance-diagrams
+  - title: A-Z Diagram
+    url: /en/target-model/current/introduction#a-z-diagram
+    hash: a-z-diagram
+  - title: Bibliography
+    url: /en/target-model/current/introduction#bibliography
+    hash: bibliography
+
+- title: General Concepts
+  url: /en/target-model/current/general-concepts
+  class: sublist
+  subfolder:
+  - title: Prioritization of E55_Type and P2_has_type over New Classes and Properties
+    url: /en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
+    hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
+    class: subsublist
+    subfolder:
+    - title: Context
+      url: /en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-context
+      hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-context
+    - title: Description
+      url: /en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-description
+      hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-description
+    - title: Examples
+      url: /en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-examples
+      hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-examples
+    - title: Related GitHub Issues
+      url: /en/target-model/current/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-related-github-issues
+      hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties-related-github-issues
+  - title: Differences Between E39_Actor, E21_Person, and E74_Group
+    url: /en/target-model/current/general-concepts#differences-between-e39_actor-e21_person-and-e74_group
+    hash: differences-between-e39_actor-e21_person-and-e74_group
+  - title: Semantic Differences Between Labels, Annotations, or Comments, and Literal Contents
+    url: /en/target-model/current/general-concepts#semantic-differences-between-labels-annotations-or-comments-and-literal-contents
+    hash: semantic-differences-between-labels-annotations-or-comments-and-literal-contents
+    class: subsublist
+    subfolder:
+    - title: Labels
+      url: /en/target-model/current/general-concepts#labels
+      hash: labels
+      class: sub3list
+      subfolder:
+      - title: Context
+        url: /en/target-model/current/general-concepts#labels-context
+        hash: labels-context
+      - title: Description
+        url: /en/target-model/current/general-concepts#labels-description
+        hash: labels-description
+      - title: Examples
+        url: /en/target-model/current/general-concepts#labels-examples
+        hash: labels-examples
+    - title: Annotations or Comments
+      url: /en/target-model/current/general-concepts#annotations-or-comments
+      hash: annotations-or-comments
+      class: sub3list
+      subfolder:
+      - title: Context
+        url: /en/target-model/current/general-concepts#annotations-or-comments-context
+        hash: annotations-or-comments-context
+      - title: Description
+        url: /en/target-model/current/general-concepts#annotations-or-comments-description
+        hash: annotations-or-comments-description
+      - title: Diagram
+        url: /en/target-model/current/general-concepts#annotations-or-comments-diagram
+        hash: annotations-or-comments-diagram
+      - title: Examples
+        url: /en/target-model/current/general-concepts#annotations-or-comments-examples
+        hash: annotations-or-comments-examples
+      - title: Discussion
+        url: /en/target-model/current/general-concepts#annotations-or-comments-discussion
+        hash: annotations-or-comments-discussion
+      - title: Entry Nodes
+        url: /en/target-model/current/general-concepts#annotations-or-comments-entry-nodes
+        hash: annotations-or-comments-entry-nodes
+      - title: Related GitHub Issues
+        url: /en/target-model/current/general-concepts#annotations-or-comments-related-github-issues
+        hash: annotations-or-comments-related-github-issues
+    - title: Literal Content
+      url: /en/target-model/current/general-concepts#literal-content
+      hash: literal-content
+      class: sub3list
+      subfolder:
+      - title: Context
+        url: /en/target-model/current/general-concepts#literal-content-context
+        hash: literal-content-context
+      - title: Description
+        url: /en/target-model/current/general-concepts#literal-content-description
+        hash: literal-content-description
+      - title: Examples
+        url: /en/target-model/current/general-concepts#literal-content-examples
+        hash: literal-content-examples
+      - title: Discussion
+        url: /en/target-model/current/general-concepts#literal-content-discussion
+        hash: literal-content-discussion
+  - title: Property-Classes
+    url: /en/target-model/current/general-concepts#property-classes
+    hash: property-classes
+    class: subsublist
+    subfolder:
+    - title: Context
+      url: /en/target-model/current/general-concepts#property-classes-context
+      hash: property-classes-context
+    - title: Description
+      url: /en/target-model/current/general-concepts#property-classes-description
+      hash: property-classes-description
+    - title: Examples
+      url: /en/target-model/current/general-concepts#property-classes-examples
+      hash: property-classes-examples
+    - title: Limitation
+      url: /en/target-model/current/general-concepts#property-classes-limitation
+      hash: property-classes-limitation
+    - title: Related Internal Documentation
+      url: /en/target-model/current/general-concepts#property-classes-related-internal-documentation
+      hash: property-classes-related-internal-documentation
+  - title: Challenges When Representing Underserved Communities Realities
+    url: /en/target-model/current/general-concepts#challenges-when-representing-underserved-communities-realities
+    hash: challenges-when-representing-underserved-communities-realities
+    class: subsublist
+    subfolder:
+    - title: Concerned Patterns
+      url: /en/target-model/current/general-concepts#challenges-when-representing-underserved-communities-realities-concerned-patterns
+      hash: challenges-when-representing-underserved-communities-realities-concerned-patterns
+  - title: Bibliography
+    url: /en/target-model/current/general-concepts#bibliography
+    hash: bibliography
+
+- title: Messy Data
+  url: /en/target-model/current/messy-data
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/messy-data#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/messy-data#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/messy-data#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/messy-data#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/messy-data#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/messy-data#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/messy-data#examples
+    hash: examples
+  - title: Related Documentation
+    url: /en/target-model/current/messy-data#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/messy-data#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/messy-data#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/messy-data#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/messy-data#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/messy-data#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/messy-data#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/messy-data#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/messy-data#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/messy-data#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/messy-data#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/messy-data#bibliography
+    hash: bibliography
+
+- title: Dataset Provenance
+  url: /en/target-model/current/dataset-provenance
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/dataset-provenance#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/dataset-provenance#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/dataset-provenance#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/dataset-provenance#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/dataset-provenance#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/dataset-provenance#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/dataset-provenance#examples
+    hash: examples
+  - title: Related Documentation
+    url: /en/target-model/current/dataset-provenance#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/dataset-provenance#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/dataset-provenance#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/dataset-provenance#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/dataset-provenance#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/dataset-provenance#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/dataset-provenance#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/dataset-provenance#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/dataset-provenance#edge-cases
+      hash: edge-cases
+  - title: Bibliography
+    url: /en/target-model/current/dataset-provenance#bibliography
+    hash: bibliography
+
+- title: Record Provenance
+  url: /en/target-model/current/record-provenance
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/record-provenance#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/record-provenance#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/record-provenance#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/record-provenance#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/record-provenance#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/record-provenance#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/record-provenance#examples
+    hash: examples
+  - title: Related Documentation
+    url: /en/target-model/current/record-provenance#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/record-provenance#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/record-provenance#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/record-provenance#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/record-provenance#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/record-provenance#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/record-provenance#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/record-provenance#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/record-provenance#edge-cases
+      hash: edge-cases
+  - title: Bibliography
+    url: /en/target-model/current/record-provenance#bibliography
+    hash: bibliography
+
+- title: Temporal Bounds
+  url: /en/target-model/current/temporal-bounds
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/temporal-bounds#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/temporal-bounds#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/temporal-bounds#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/temporal-bounds#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/temporal-bounds#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/temporal-bounds#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/temporal-bounds#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/temporal-bounds#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/temporal-bounds#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/temporal-bounds#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/temporal-bounds#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/temporal-bounds#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/temporal-bounds#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/temporal-bounds#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/temporal-bounds#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/temporal-bounds#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/temporal-bounds#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/temporal-bounds#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/temporal-bounds#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/temporal-bounds#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/temporal-bounds#bibliography
+    hash: bibliography
+
+- title: Curatorial Note
+  url: /en/target-model/current/curatorial-note
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/curatorial-note#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/curatorial-note#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/curatorial-note#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/curatorial-note#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/curatorial-note#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/curatorial-note#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/curatorial-note#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/curatorial-note#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/curatorial-note#example-2
+      hash: example-2
+    - title: Example 3
+      url: /en/target-model/current/curatorial-note#example-3
+      hash: example-3
+  - title: Related Documentation
+    url: /en/target-model/current/curatorial-note#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/curatorial-note#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/curatorial-note#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/curatorial-note#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/curatorial-note#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/curatorial-note#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/curatorial-note#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/curatorial-note#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/curatorial-note#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/curatorial-note#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/curatorial-note#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/curatorial-note#bibliography
+    hash: bibliography
+
+- title: Actor Identifiers and Appellations
+  url: /en/target-model/current/actor-identifiers-and-appellations
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/actor-identifiers-and-appellations#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/actor-identifiers-and-appellations#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/actor-identifiers-and-appellations#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/actor-identifiers-and-appellations#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/actor-identifiers-and-appellations#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/actor-identifiers-and-appellations#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/actor-identifiers-and-appellations#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Identifiers
+      url: /en/target-model/current/actor-identifiers-and-appellations#identifiers
+      hash: identifiers
+    - title: Appellations
+      url: /en/target-model/current/actor-identifiers-and-appellations#appellations
+      hash: appellations
+    - title: Name Use
+      url: /en/target-model/current/actor-identifiers-and-appellations#name-use
+      hash: name-use
+  - title: Related Documentation
+    url: /en/target-model/current/actor-identifiers-and-appellations#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/actor-identifiers-and-appellations#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/actor-identifiers-and-appellations#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/actor-identifiers-and-appellations#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/actor-identifiers-and-appellations#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/actor-identifiers-and-appellations#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/actor-identifiers-and-appellations#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/actor-identifiers-and-appellations#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-2
+        hash: edge-cases-example-2
+      - title: Example 3
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-3
+        hash: edge-cases-example-3
+      - title: Example 4
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-4
+        hash: edge-cases-example-4
+      - title: Example 5
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-5
+        hash: edge-cases-example-5
+      - title: Example 6
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-6
+        hash: edge-cases-example-6
+      - title: Example 7
+        url: /en/target-model/current/actor-identifiers-and-appellations#edge-cases-example-7
+        hash: edge-cases-example-7
+  - title: Bibliography
+    url: /en/target-model/current/actor-identifiers-and-appellations#bibliography
+    hash: bibliography
+
+- title: Technique Used
+  url: /en/target-model/current/technique-used
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/technique-used#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/technique-used#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/technique-used#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/technique-used#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/technique-used#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/technique-used#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/technique-used#examples
+    hash: examples
+  - title: Related Documentation
+    url: /en/target-model/current/technique-used#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Model
+      url: /en/target-model/current/technique-used#external-model
+      hash: external-model
+    - title: Entry Nodes
+      url: /en/target-model/current/technique-used#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/technique-used#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/technique-used#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/technique-used#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/technique-used#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/technique-used#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/technique-used#edge-cases
+      hash: edge-cases
+  - title: Bibliography
+    url: /en/target-model/current/technique-used#bibliography
+    hash: bibliography
+
+- title: Family Belonging
+  url: /en/target-model/current/family-belonging
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/family-belonging#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/family-belonging#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/family-belonging#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/family-belonging#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/family-belonging#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/family-belonging#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/family-belonging#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/family-belonging#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/family-belonging#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/family-belonging#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/family-belonging#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/family-belonging#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/family-belonging#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/family-belonging#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/family-belonging#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/family-belonging#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/family-belonging#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/family-belonging#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/family-belonging#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/family-belonging#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/family-belonging#bibliography
+    hash: bibliography
+
+- title: Birth and Death of a Person
+  url: /en/target-model/current/birth-and-death-of-a-person
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/birth-and-death-of-a-person#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/birth-and-death-of-a-person#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/birth-and-death-of-a-person#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/birth-and-death-of-a-person#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/birth-and-death-of-a-person#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/birth-and-death-of-a-person#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/birth-and-death-of-a-person#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/birth-and-death-of-a-person#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/birth-and-death-of-a-person#example-2
+      hash: example-2
+    - title: Example 3
+      url: /en/target-model/current/birth-and-death-of-a-person#example-3
+      hash: example-3
+  - title: Related Documentation
+    url: /en/target-model/current/birth-and-death-of-a-person#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/birth-and-death-of-a-person#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/birth-and-death-of-a-person#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/birth-and-death-of-a-person#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/birth-and-death-of-a-person#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/birth-and-death-of-a-person#rationale
+      hash: rationale
+    - title: Related GitHub Issues
+      url: /en/target-model/current/birth-and-death-of-a-person#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/birth-and-death-of-a-person#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/birth-and-death-of-a-person#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/birth-and-death-of-a-person#edge-cases-example-2
+        hash: edge-cases-example-2
+      - title: Example 3
+        url: /en/target-model/current/birth-and-death-of-a-person#edge-cases-example-3
+        hash: edge-cases-example-3
+  - title: Bibliography
+    url: /en/target-model/current/birth-and-death-of-a-person#bibliography
+    hash: bibliography
+
+- title: Formation and Dissolution of a Group
+  url: /en/target-model/current/formation-and-dissolution-of-a-group
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/formation-and-dissolution-of-a-group#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/formation-and-dissolution-of-a-group#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/formation-and-dissolution-of-a-group#edge-cases-example-2
+        hash: edge-cases-example-2
+      - title: Example 3
+        url: /en/target-model/current/formation-and-dissolution-of-a-group#edge-cases-example-3
+        hash: edge-cases-example-3
+  - title: Bibliography
+    url: /en/target-model/current/formation-and-dissolution-of-a-group#bibliography
+    hash: bibliography
+
+- title: Flourishing
+  url: /en/target-model/current/flourishing
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/flourishing#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/flourishing#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/flourishing#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/flourishing#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/flourishing#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/flourishing#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/flourishing#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/flourishing#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/flourishing#example-2
+      hash: example-2
+    - title: Example 3
+      url: /en/target-model/current/flourishing#example-3
+      hash: example-3
+  - title: Related Documentation
+    url: /en/target-model/current/flourishing#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/flourishing#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/flourishing#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/flourishing#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/flourishing#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/flourishing#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/flourishing#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/flourishing#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/flourishing#edge-cases
+      hash: edge-cases
+  - title: Bibliography
+    url: /en/target-model/current/flourishing#bibliography
+    hash: bibliography
+
+- title: Group Belonging
+  url: /en/target-model/current/group-belonging
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/group-belonging#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/group-belonging#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/group-belonging#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/group-belonging#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/group-belonging#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/group-belonging#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/group-belonging#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/group-belonging#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/group-belonging#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/group-belonging#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/group-belonging#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/group-belonging#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/group-belonging#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/group-belonging#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/group-belonging#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/group-belonging#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/group-belonging#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/group-belonging#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/group-belonging#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/group-belonging#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/group-belonging#bibliography
+    hash: bibliography
+
+- title: Occupation
+  url: /en/target-model/current/occupation
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/occupation#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/occupation#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/occupation#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/occupation#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/occupation#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/occupation#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/occupation#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/occupation#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/occupation#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/occupation#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/occupation#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/occupation#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/occupation#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/occupation#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/occupation#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/occupation#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/occupation#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/occupation#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/occupation#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/occupation#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/occupation#bibliography
+    hash: bibliography
+
+- title: Social Status
+  url: /en/target-model/current/social-status
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/social-status#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/social-status#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/social-status#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/social-status#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/social-status#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/social-status#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/social-status#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/social-status#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/social-status#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/social-status#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/social-status#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/social-status#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/social-status#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/social-status#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/social-status#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/social-status#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/social-status#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/social-status#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/social-status#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/social-status#edge-cases-example-2
+        hash: edge-cases-example-2
+      - title: Example 3
+        url: /en/target-model/current/social-status#edge-cases-example-3
+        hash: edge-cases-example-3
+  - title: Bibliography
+    url: /en/target-model/current/social-status#bibliography
+    hash: bibliography
+
+- title: Relationship
+  url: /en/target-model/current/relationship
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/relationship#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/relationship#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/relationship#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/relationship#statement-of-need
+      hash: statement-of-need
+  - title: Description of Pattern
+    url: /en/target-model/current/relationship#description-of-pattern
+    hash: description-of-pattern
+  - title: Diagram
+    url: /en/target-model/current/relationship#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/relationship#examples
+    hash: examples
+  - title: Related Documentation
+    url: /en/target-model/current/relationship#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/relationship#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/relationship#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/relationship#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/relationship#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/relationship#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/relationship#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/relationship#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/relationship#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/relationship#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/relationship#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/relationship#bibliography
+    hash: bibliography
+
+- title: Staying Event
+  url: /en/target-model/current/staying-event
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/staying-event#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/staying-event#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/staying-event#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/staying-event#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/staying-event#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/staying-event#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/staying-event#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/staying-event#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/staying-event#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/staying-event#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/staying-event#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/staying-event#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/staying-event#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/staying-event#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/staying-event#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/staying-event#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/staying-event#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/staying-event#edge-cases
+      hash: edge-cases
+  - title: Bibliography
+    url: /en/target-model/current/staying-event#bibliography
+    hash: bibliography
+
+- title: Biography
+  url: /en/target-model/current/biography
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/biography#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/biography#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/biography#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/biography#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/biography#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/biography#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/biography#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/biography#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/biography#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/biography#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/biography#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/biography#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/biography#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/biography#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/biography#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/biography#limitations
+      hash: limitations
+    - title: Edge Cases
+      url: /en/target-model/current/biography#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/biography#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/biography#edge-cases-example-2
+        hash: edge-cases-example-2
+      - title: Example 3
+        url: /en/target-model/current/biography#edge-cases-example-3
+        hash: edge-cases-example-3
+  - title: Bibliography
+    url: /en/target-model/current/biography#bibliography
+    hash: bibliography
+
+- title: Artefact
+  url: /en/target-model/current/artefact
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/artefact#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/artefact#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/artefact#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/artefact#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/artefact#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/artefact#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/artefact#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/artefact#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/artefact#example-2
+      hash: example-2
+    - title: Example 3
+      url: /en/target-model/current/artefact#example-3
+      hash: example-3
+  - title: Related Documentation
+    url: /en/target-model/current/artefact#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/artefact#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/artefact#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/artefact#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/artefact#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/artefact#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/artefact#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/artefact#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/artefact#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/artefact#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/artefact#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/artefact#bibliography
+    hash: bibliography
+
+- title: Artefact Production
+  url: /en/target-model/current/artefact-production
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/artefact-production#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/artefact-production#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/artefact-production#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/artefact-production#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/artefact-production#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/artefact-production#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/artefact-production#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/artefact-production#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/artefact-production#example-2
+      hash: example-2
+    - title: Example 3
+      url: /en/target-model/current/artefact-production#example-3
+      hash: example-3
+    - title: Example 4
+      url: /en/target-model/current/artefact-production#example-4
+      hash: example-4
+  - title: Related Documentation
+    url: /en/target-model/current/artefact-production#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/artefact-production#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/artefact-production#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/artefact-production#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/artefact-production#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/artefact-production#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/artefact-production#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/artefact-production#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/artefact-production#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/artefact-production#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/artefact-production#edge-cases-example-2
+        hash: edge-cases-example-2
+      - title: Example 3
+        url: /en/target-model/current/artefact-production#edge-cases-example-3
+        hash: edge-cases-example-3
+      - title: Example 4
+        url: /en/target-model/current/artefact-production#edge-cases-example-4
+        hash: edge-cases-example-4
+  - title: Bibliography
+    url: /en/target-model/current/artefact-production#bibliography
+    hash: bibliography
+
+- title: Visual Item
+  url: /en/target-model/current/visual-item
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/visual-item#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/visual-item#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/visual-item#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/visual-item#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/visual-item#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/visual-item#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/visual-item#examples
+    hash: examples
+    class: subsublist
+    subfolder:
+    - title: Example 1
+      url: /en/target-model/current/visual-item#example-1
+      hash: example-1
+    - title: Example 2
+      url: /en/target-model/current/visual-item#example-2
+      hash: example-2
+  - title: Related Documentation
+    url: /en/target-model/current/visual-item#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/visual-item#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/visual-item#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/visual-item#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/visual-item#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/visual-item#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/visual-item#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/visual-item#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/visual-item#edge-cases
+      hash: edge-cases
+      class: sub3list
+      subfolder:
+      - title: Example 1
+        url: /en/target-model/current/visual-item#edge-cases-example-1
+        hash: edge-cases-example-1
+      - title: Example 2
+        url: /en/target-model/current/visual-item#edge-cases-example-2
+        hash: edge-cases-example-2
+  - title: Bibliography
+    url: /en/target-model/current/visual-item#bibliography
+    hash: bibliography
+
+- title: Reference Document Location
+  url: /en/target-model/current/reference-document-location
+  class: sublist
+  subfolder:
+  - title: At Glance
+    url: /en/target-model/current/reference-document-location#at-glance
+    hash: at-glance
+  - title: Introduction and Context
+    url: /en/target-model/current/reference-document-location#introduction-and-context
+    hash: introduction-and-context
+    class: subsublist
+    subfolder:
+    - title: Theoretical Background
+      url: /en/target-model/current/reference-document-location#theoretical-background
+      hash: theoretical-background
+    - title: Statement of Need
+      url: /en/target-model/current/reference-document-location#statement-of-need
+      hash: statement-of-need
+  - title: Description of the Pattern
+    url: /en/target-model/current/reference-document-location#description-of-the-pattern
+    hash: description-of-the-pattern
+  - title: Diagram
+    url: /en/target-model/current/reference-document-location#diagram
+    hash: diagram
+  - title: Examples
+    url: /en/target-model/current/reference-document-location#examples
+    hash: examples
+  - title: Related Documentation
+    url: /en/target-model/current/reference-document-location#related-documentation
+    hash: related-documentation
+    class: subsublist
+    subfolder:
+    - title: External Models
+      url: /en/target-model/current/reference-document-location#external-models
+      hash: external-models
+    - title: Entry Nodes
+      url: /en/target-model/current/reference-document-location#entry-nodes
+      hash: entry-nodes
+    - title: CIDOC CRM Entities
+      url: /en/target-model/current/reference-document-location#cidoc-crm-entities
+      hash: cidoc-crm-entities
+  - title: Discussion
+    url: /en/target-model/current/reference-document-location#discussion
+    hash: discussion
+    class: subsublist
+    subfolder:
+    - title: Rationale
+      url: /en/target-model/current/reference-document-location#rationale
+      hash: rationale
+    - title: Limitations
+      url: /en/target-model/current/reference-document-location#limitations
+      hash: limitations
+    - title: Related GitHub Issues
+      url: /en/target-model/current/reference-document-location#related-github-issues
+      hash: related-github-issues
+    - title: Edge Cases
+      url: /en/target-model/current/reference-document-location#edge-cases
+      hash: edge-cases
+  - title: Bibliography
+    url: /en/target-model/current/reference-document-location#bibliography
+    hash: bibliography

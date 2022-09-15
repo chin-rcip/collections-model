@@ -1,0 +1,63 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_502",
+  "@type": "Human-Made_Object",
+  "crm:P108i_was_produced_by": {
+    "@id": "https://dopheda.info/crm_e63/bedac4e8-1779-4a12-ae3f-9830b9828515",
+    "@type": "crm:E12_Production",
+    "is_domain_of": {
+      "@id": "https://dopheda.info/crm_pc0/852a3468-4c04-4193-937a-5e9e3b5bd181",
+      "@type": "crm:PC14_carried_out_by",
+      "has_range": {
+        "@id": "actor:0001_124",
+        "@type": "Person",
+        "_label": {
+          "en": "John William Waterhouse"
+        }
+      },
+      "in_the_role_of": [
+        {
+          "@id": "vocab:1001",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100143",
+            "@type": "Type",
+            "_label": {
+              "en": "Actor Priority",
+              "fr": "Priorité de l'actant"
+            }
+          },
+          "_label": {
+            "en": "1",
+            "fr": "1"
+          }
+        },
+        {
+          "@id": "vocab:100180",
+          "@type": "Type",
+          "has_type": {
+            "@id": "vocab:100144",
+            "@type": "Type",
+            "_label": {
+              "en": "Actor Role",
+              "fr": "Rôle de l'actant"
+            }
+          },
+          "_label": {
+            "en": "Creator",
+            "fr": "Créateur / Créatrice"
+          }
+        }
+      ]
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/84e920cf-9441-431b-b5ee-1260310a25d7",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1915-01-01T00:00:00",
+      "end_of_the_end": "1915-12-31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "\"I am half sick of shadows, said The Lady of Shalott\""
+  }
+}

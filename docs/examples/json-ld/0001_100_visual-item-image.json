@@ -1,0 +1,41 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "has_representation": {
+    "@id": "https://dopheda.info/crm_e28/fe727840-8d76-4edb-879d-85b31404ffa9",
+    "@type": "Visual_Item",
+    "dct:source": [
+      {
+        "@language": "en",
+        "@value": "This image was found on Wikimedia Commons (Yousuf Karsh, Public domain), and originally available from Library and Archives Canada under the reproduction reference number PA-212511 and under the MIKAN ID number 3198631."
+      },
+      {
+        "@language": "fr",
+        "@value": "Cette image est disponible par l'entremise de Bibliothèque et Archives Canada sous le numéro de référence de la reproduction PA-212511 et sous le numéro MIKAN 3198631"
+      }
+    ],
+    "is_incorporated_in": {
+      "@id": "https://dopheda.info/crm_e28/fe13fd89-7b0d-4c8f-9229-51157850f4a8",
+      "@type": "Digital_Object",
+      "is_identified_by": {
+        "@id": "https://dopheda.info/crm_e41/8e4cc7e9-591d-4e16-8256-ee7b7fd03bf7",
+        "@type": "Identifier",
+        "has_symbolic_content": {
+          "@none": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg"
+        },
+        "has_type": {
+          "@id": "vocab:100156",
+          "@type": "Type",
+          "_label": {
+            "en": "URL",
+            "fr": "URL"
+          }
+        }
+      }
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}

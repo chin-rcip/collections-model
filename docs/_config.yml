@@ -36,7 +36,7 @@ plugins:
 header_pages_en:
   - en/about.md
   - en/licensing-documentation.md
-  - en/tm/current/02-introduction.md
+  - en/tm/current/01-introduction.md
   - en/sps/current/01-introduction.md
   - en/resources/current/cidoc-crm-tutorial.md
   - en/resources/current/glossary.md
@@ -50,7 +50,7 @@ header_pages_en:
 header_pages_fr:
   - fr/a-propos.md
   - fr/licence.md
-  - fr/mc/actuel/02-introduction.md
+  - fr/mc/actuel/01-introduction.md
   - fr/scs/actuel/01-introduction.md
   - fr/ressources/actuel/lod-avantages-defis.md
   - fr/ressources/actuel/glossaire.md

@@ -1,0 +1,42 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]) -->|crm:P82b_end_of_the_end| 1(["''1967-07-01T23:59:59''^^xsd:dateTime"]):::Literal
+2(["actor:0001_111"]):::E39_Actor_URI -->|rdf:type| 3["crm:E21_Person"]:::E39_Actor
+4(["actor:0001_110"]) -->|rdfs:label| 5(["''Order of Canada (1967-)''@en"]):::Literal
+0(["-"]):::E52_Time-Span_URI -->|rdf:type| 6["crm:E52_Time-Span"]:::E52_Time-Span
+4(["actor:0001_110"]):::E39_Actor_URI -->|rdf:type| 7["crm:E74_Group"]:::E39_Actor
+2(["actor:0001_111"]) -->|rdfs:label| 8(["''Roland Michener (1900-1991)''@en"]):::Literal
+0(["-"]) -->|crm:P82a_begin_of_the_begin| 9(["''1967-07-01T00:00:00''^^xsd:dateTime"]):::Literal
+4(["actor:0001_110"]) -->|crm:P95i_was_formed_by| 10(["-"])
+10(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 11["crm:E66_Formation"]:::E2_Temporal_Entity
+12(["vocab:3003"]) -->|rdfs:label| 13(["''Ottawa, CA-ON''@fr"]):::Literal
+10(["-"]) -->|crm:P4_has_time-span| 0(["-"])
+12(["vocab:3003"]):::E53_Place_URI -->|rdf:type| 14["crm:E53_Place"]:::E53_Place
+12(["vocab:3003"]) -->|rdfs:label| 15(["''Ottawa, CA-ON''@en"]):::Literal
+10(["-"]) -->|crm:P7_took_place_at| 12(["vocab:3003"])
+10(["-"]) -->|crm:P14_carried_out_by| 2(["actor:0001_111"])

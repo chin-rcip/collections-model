@@ -1,0 +1,42 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["actor:0001_100"]) -->|crm:P138i_has_representation| 1(["-"])
+2(["-"]) -->|crm:P1_is_identified_by| 3(["-"])
+1(["-"]) -->|crm:P165i_is_incorporated_in| 2(["-"])
+4(["vocab:100156"]):::E55_Type_URI -->|rdf:type| 5["crm:E55_Type"]:::E55_Type
+4(["vocab:100156"]) -->|rdfs:label| 6(["''URL''@fr"]):::Literal
+3(["-"]) -->|crm:P2_has_type| 4(["vocab:100156"])
+3(["-"]):::E41_Appellation_URI -->|rdf:type| 7["crm:E42_Identifier"]:::E41_Appellation
+1(["-"]) -->|dct:source| 8(["''Cette image est disponible par l'entremise de Bibliothèque et Archives Canada sous le numéro de référence de la reproduction PA-212511 et sous le numéro MIKAN 3198631''@fr"]):::Literal
+1(["-"]) -->|dct:source| 9(["''This image was found on Wikimedia Commons (Yousuf Karsh, Public domain), and originally available from Library and Archives Canada under the reproduction reference number PA-212511 and under the MIKAN ID number 3198631.''@en"]):::Literal
+1(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 10["crm:E36_Visual_Item"]:::E28_Conceptual_Object
+0(["actor:0001_100"]) -->|rdfs:label| 11(["''Yousuf Karsh (1908-2002)''@en"]):::Literal
+3(["-"]) -->|crm:P190_has_symbolic_content| 12(["''https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg''^^xsd:string"]):::Literal
+4(["vocab:100156"]) -->|rdfs:label| 13(["''URL''@en"]):::Literal
+0(["actor:0001_100"]):::E39_Actor_URI -->|rdf:type| 14["crm:E21_Person"]:::E39_Actor
+2(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 15["crmdig:D1_Digital_Object"]:::E28_Conceptual_Object

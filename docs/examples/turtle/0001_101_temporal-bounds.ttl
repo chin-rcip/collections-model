@@ -1,0 +1,15 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_101 a crm:E21_Person ;
+    rdfs:label "Appius Claudius Cæcus (312 BCE-?)"@en ;
+    crm:P98i_was_born <https://dopheda.info/crm_e63/f3dd21fc-bbab-458f-98aa-d22b229ac7b4> .
+
+<https://dopheda.info/crm_e52/beec368f-3f70-48d1-9c5b-662b460448f1> a crm:E52_Time-Span ;
+    crm:P82b_end_of_the_end "-312:12:31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/f3dd21fc-bbab-458f-98aa-d22b229ac7b4> a crm:E67_Birth ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/beec368f-3f70-48d1-9c5b-662b460448f1> .
+

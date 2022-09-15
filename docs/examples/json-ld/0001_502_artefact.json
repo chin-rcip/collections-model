@@ -1,0 +1,35 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "object:0001_502",
+  "@type": "Human-Made_Object",
+  "is_identified_by": [
+    {
+      "@id": "https://dopheda.info/crm_e41/194044ff-459a-4b5d-aaad-3c2fb722fbfd",
+      "@type": "Identifier",
+      "has_symbolic_content": {
+        "@none": "71/18"
+      },
+      "has_type": {
+        "@id": "vocab:100179",
+        "@type": "Type",
+        "_label": {
+          "en": "AGO_ID",
+          "fr": "AGO_ID"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41/9c4e4ac7-2e49-4866-acfe-94557a1d590e",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "en": "\"I am half sick of shadows, said The Lady of Shalott\""
+      }
+    }
+  ],
+  "_label": {
+    "en": "\"I am half sick of shadows, said The Lady of Shalott\""
+  }
+}

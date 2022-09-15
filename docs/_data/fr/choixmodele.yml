@@ -1,0 +1,46 @@
+
+class: mainlist
+toc:
+
+- title: Choix d’un modèle
+  url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#choix-dun-modele
+  hash: choix-dun-modele
+  class: sublist
+  subfolder:
+  - title: Évaluation du projet
+    url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#evaluation-du-projet
+    hash: evaluation-du-projet
+    class: subsublist
+    subfolder:
+    - title: Objectif du projet
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#objectif-du-projet
+      hash: objectif-du-projet
+    - title: Ressources du projet
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#ressources-du-projet
+      hash: ressources-du-projet
+    - title: Objectifs de la sémantisation
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#objectifs-de-la-semantisation
+      hash: objectifs-de-la-semantisation
+    - title: Caractéristiques du jeu de données
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#caracteristiques-du-jeu-de-donnees
+      hash: caracteristiques-du-jeu-de-donnees
+  - title: Évaluation du modèle
+    url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#evaluation-du-modele
+    hash: evaluation-du-modele
+    class: subsublist
+    subfolder:
+    - title: Couverture des patrons conceptuels
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#couverture-des-patrons-conceptuels
+      hash: couverture-des-patrons-conceptuels
+    - title: Pertinence
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#pertinence
+      hash: pertinence
+    - title: Adaptabilité
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#adaptabilite
+      hash: adaptabilite
+    - title: Durabilité et maintenance
+      url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#durabilite-et-maintenance
+      hash: durabilite-et-maintenance
+- title: Bibliographie
+  url: /fr/ressources/actuel/mode-demploi/choix-modele-dol#bibliographie
+  hash: bibliographie

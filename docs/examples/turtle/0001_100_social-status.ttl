@@ -1,0 +1,47 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmsci: <http://www.cidoc-crm.org/cidoc-crm/CRMsci/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P11i_participated_in <https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a> ;
+    crm:P2_has_type vocab:100165 .
+
+actor:0001_103 a crm:E21_Person ;
+    rdfs:label "Elizabeth II"@en .
+
+<https://dopheda.info/crm_e5/16b60488-1e2b-4708-8457-3b0b6f8a6b7b> a crm:E13_Attribute_Assignment ;
+    crm:P140_assigned_attribute_to actor:0001_100 ;
+    crm:P141_assigned <https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a> ;
+    crm:P14_carried_out_by actor:0001_103 .
+
+<https://dopheda.info/crm_e52/6384013e-a44e-4ab6-a562-2c80473f6799> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1990-01-01T00:00:00"^^xsd:dateTime .
+
+vocab:100152 a crm:E55_Type ;
+    rdfs:label "Social Status"@en,
+        "Statut social"@fr .
+
+vocab:100165 a crm:E55_Type ;
+    rdfs:label "Photography"@en,
+        "Photographie"@fr ;
+    crm:P2_has_type vocab:100154 .
+
+vocab:100172 a crm:E55_Type ;
+    rdfs:label "Companion of the Order of Canada"@en,
+        "Compagnon de l'Ordre du Canada"@fr ;
+    crm:P2_has_type vocab:100152 .
+
+vocab:3003 a crm:E53_Place ;
+    rdfs:label "Ottawa, CA-ON"@en,
+        "Ottawa, CA-ON"@fr .
+
+<https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a> a crm:E5_Event ;
+    crmsci:O13i_is_triggered_by <https://dopheda.info/crm_e5/16b60488-1e2b-4708-8457-3b0b6f8a6b7b> ;
+    crm:P2_has_type vocab:100172 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/6384013e-a44e-4ab6-a562-2c80473f6799> ;
+    crm:P7_took_place_at vocab:3003 .
+

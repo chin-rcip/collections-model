@@ -1,0 +1,31 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_127",
+  "@type": "Person",
+  "is_referred_to_by": {
+    "@id": "https://dopheda.info/crm_e28/de6e4376-9fb3-4075-8790-418a9ba182ad",
+    "@type": "Linguistic_Object",
+    "has_symbolic_content": {
+      "en": "Rebecca Belmore was the first Indigenous woman to present at the Canadian pavilion of the Venice Biennale in 2005"
+    },
+    "has_type": {
+      "@id": "vocab:100147",
+      "@type": "Type",
+      "_label": {
+        "en": "Curatorial Note",
+        "fr": "Note curatoriale"
+      }
+    },
+    "has_language": {
+      "@id": "vocab:2001",
+      "@type": "Language",
+      "_label": {
+        "en": "English",
+        "fr": "Anglais"
+      }
+    }
+  },
+  "_label": {
+    "en": "Rebecca Belmore"
+  }
+}

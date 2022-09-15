@@ -1,0 +1,20 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_126",
+  "@type": "Person",
+  "is_referred_to_by": {
+    "@id": "https://dopheda.info/crm_e28/1f040a67-9949-40dd-bb38-ded948c9f5c0",
+    "@type": "Linguistic_Object",
+    "was_created_by": {
+      "@id": "https://dopheda.info/crm_e63/0c767977-5463-4969-9bd7-975fde06a12b",
+      "@type": "Creation",
+      "carried_out_by": {
+        "@id": "actor:0001_125",
+        "@type": "Person",
+        "_label": {
+          "en": "Greg A. Hill"
+        }
+      }
+    }
+  }
+}

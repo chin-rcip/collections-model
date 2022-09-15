@@ -1,0 +1,82 @@
+graph TD
+classDef Literal fill:#ffffff,stroke:#000000;
+classDef Literal_URI fill:,stroke:;
+classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
+classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
+classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
+classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
+classDef E55_Type fill:#fab565,stroke:#000000;
+classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
+classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
+classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
+classDef E41_Appellation fill:#fef3ba,stroke:#000000;
+classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
+classDef E53_Place fill:#94cc7d,stroke:#000000;
+classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
+classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
+classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
+classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
+classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
+classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
+classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
+classDef E39_Actor fill:#ffbdca,stroke:#000000;
+classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
+classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
+classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+classDef Multi_URI fill:#cccccc,stroke:#000000;
+0(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 1["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+2(["-"]) -->|crm:P190_has_symbolic_content| 3(["''Յուսուֆ Քարշ''@hy"]):::Literal
+4(["vocab:100158"]) -->|rdfs:label| 5(["''Full Name''@en"]):::Literal
+6(["vocab:100160"]) -->|rdfs:label| 7(["''Surname''@en"]):::Literal
+8(["vocab:100138"]):::E55_Type_URI -->|rdf:type| 9["crm:E55_Type"]:::E55_Type
+10(["vocab:1004"]) -->|rdfs:label| 11(["''Preferred''@en"]):::Literal
+6(["vocab:100160"]) -->|rdfs:label| 12(["''Nom de famille''@fr"]):::Literal
+0(["-"]) -->|crm:P2_has_type| 4(["vocab:100158"])
+8(["vocab:100138"]) -->|rdfs:label| 13(["''Precedence''@en"]):::Literal
+14(["vocab:100159"]) -->|rdfs:label| 15(["''First Name''@en"]):::Literal
+16(["vocab:100137"]) -->|rdfs:label| 17(["''Type de partie de l'appellation de l'actant''@fr"]):::Literal
+2(["-"]):::E41_Appellation_URI -->|rdf:type| 18["crm:E41_Appellation"]:::E41_Appellation
+19(["-"]):::E41_Appellation_URI -->|rdf:type| 20["crm:E41_Appellation"]:::E41_Appellation
+0(["-"]) -->|crm:P2_has_type| 10(["vocab:1004"])
+2(["-"]):::Multi_URI -->|rdf:type| 21["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+22(["actor:0001_100"]):::E39_Actor_URI -->|rdf:type| 23["crm:E21_Person"]:::E39_Actor
+19(["-"]):::Multi_URI -->|rdf:type| 24["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+10(["vocab:1004"]) -->|crm:P2_has_type| 8(["vocab:100138"])
+0(["-"]) -->|crm:P190_has_symbolic_content| 25(["''Yousuf Karsh''@en"]):::Literal
+4(["vocab:100158"]):::E55_Type_URI -->|rdf:type| 26["crm:E55_Type"]:::E55_Type
+22(["actor:0001_100"]) -->|crm:P1_is_identified_by| 2(["-"])
+27(["vocab:2001"]):::E55_Type_URI -->|rdf:type| 28["crm:E56_Language"]:::E55_Type
+29(["vocab:2002"]) -->|rdfs:label| 30(["''Arménien''@fr"]):::Literal
+29(["vocab:2002"]):::E55_Type_URI -->|rdf:type| 31["crm:E56_Language"]:::E55_Type
+6(["vocab:100160"]) -->|crm:P2_has_type| 16(["vocab:100137"])
+16(["vocab:100137"]):::E55_Type_URI -->|rdf:type| 32["crm:E55_Type"]:::E55_Type
+8(["vocab:100138"]) -->|rdfs:label| 33(["''Primauté''@fr"]):::Literal
+0(["-"]) -->|crm:P106_is_composed_of| 19(["-"])
+0(["-"]) -->|crm:P72_has_language| 27(["vocab:2001"])
+34(["-"]):::E41_Appellation_URI -->|rdf:type| 35["crm:E41_Appellation"]:::E41_Appellation
+34(["-"]):::Multi_URI -->|rdf:type| 36["crm:E33_Linguistic_Object"]:::E28_Conceptual_Object
+34(["-"]) -->|crm:P190_has_symbolic_content| 37(["''Yousuf''@en"]):::Literal
+2(["-"]) -->|crm:P72_has_language| 29(["vocab:2002"])
+6(["vocab:100160"]):::E55_Type_URI -->|rdf:type| 38["crm:E55_Type"]:::E55_Type
+19(["-"]) -->|crm:P190_has_symbolic_content| 39(["''Karsh''@en"]):::Literal
+16(["vocab:100137"]) -->|rdfs:label| 40(["''Type of Appellation Part''@en"]):::Literal
+27(["vocab:2001"]) -->|rdfs:label| 41(["''Anglais''@fr"]):::Literal
+4(["vocab:100158"]) -->|crm:P2_has_type| 42(["vocab:100139"])
+10(["vocab:1004"]) -->|rdfs:label| 43(["''Préféré''@fr"]):::Literal
+14(["vocab:100159"]) -->|crm:P2_has_type| 16(["vocab:100137"])
+42(["vocab:100139"]) -->|rdfs:label| 44(["''Type d'appellation''@fr"]):::Literal
+27(["vocab:2001"]) -->|rdfs:label| 45(["''English''@en"]):::Literal
+0(["-"]) -->|crm:P106_is_composed_of| 34(["-"])
+22(["actor:0001_100"]) -->|rdfs:label| 46(["''Yousuf Karsh (1908-2002)''@en"]):::Literal
+4(["vocab:100158"]) -->|rdfs:label| 47(["''Nom complet''@fr"]):::Literal
+42(["vocab:100139"]) -->|rdfs:label| 48(["''Type of Appellation''@en"]):::Literal
+14(["vocab:100159"]) -->|rdfs:label| 49(["''Prénom''@fr"]):::Literal
+14(["vocab:100159"]):::E55_Type_URI -->|rdf:type| 50["crm:E55_Type"]:::E55_Type
+19(["-"]) -->|crm:P2_has_type| 6(["vocab:100160"])
+29(["vocab:2002"]) -->|rdfs:label| 51(["''Armenian''@en"]):::Literal
+42(["vocab:100139"]):::E55_Type_URI -->|rdf:type| 52["crm:E55_Type"]:::E55_Type
+10(["vocab:1004"]):::E55_Type_URI -->|rdf:type| 53["crm:E55_Type"]:::E55_Type
+34(["-"]) -->|crm:P2_has_type| 14(["vocab:100159"])
+0(["-"]):::Multi_URI -->|rdf:type| 54["crm:E41_Appellation"]:::E41_Appellation
+22(["actor:0001_100"]) -->|crm:P1_is_identified_by| 0(["-"])

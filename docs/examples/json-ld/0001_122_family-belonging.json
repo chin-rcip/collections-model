@@ -1,0 +1,39 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_122",
+  "@type": "Person",
+  "was_joined_by": {
+    "@id": "https://dopheda.info/crm_e5/fe857340-9fc9-4f3d-b165-a7c9afef911c",
+    "@type": "Joining",
+    "joined_with": {
+      "@id": "actor:0001_123",
+      "@type": "Group",
+      "_label": {
+        "en": "British royal family",
+        "fr": "Famille royale britannique"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/2d17d8e2-5712-4155-bac8-b6470150f052",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1981-01-01T00:00:00",
+      "end_of_the_end": "1981-12-31T23:59:59"
+    }
+  },
+  "left_by": {
+    "@id": "https://dopheda.info/crm_e5/3b7c7bdf-bb89-40f1-9649-374220650988",
+    "@type": "Leaving",
+    "separated_from": {
+      "@id": "actor:0001_123"
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/1596721b-f400-43c8-8b2c-20e6337f2ef0",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1996-01-01T0:00:00",
+      "end_of_the_end": "1996-12-31T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Diana Spencer"
+  }
+}

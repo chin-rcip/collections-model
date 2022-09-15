@@ -1,0 +1,74 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/8aa0a9b8-a9ff-47e2-9d95-6327fb9434e5>,
+        <https://dopheda.info/crm_e41/f1145976-589b-4fcb-812e-8da4bf5e494c> .
+
+<https://dopheda.info/crm_e41/4985cd63-f089-49ff-b6ad-c1525e8d0998> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Karsh"@en ;
+    crm:P2_has_type vocab:100160 .
+
+<https://dopheda.info/crm_e41/8aa0a9b8-a9ff-47e2-9d95-6327fb9434e5> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P106_is_composed_of <https://dopheda.info/crm_e41/4985cd63-f089-49ff-b6ad-c1525e8d0998>,
+        <https://dopheda.info/crm_e41/b17cceb2-a216-4c39-9afc-4f92d24d9c55> ;
+    crm:P190_has_symbolic_content "Yousuf Karsh"@en ;
+    crm:P2_has_type vocab:100158,
+        vocab:1004 ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e41/b17cceb2-a216-4c39-9afc-4f92d24d9c55> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Yousuf"@en ;
+    crm:P2_has_type vocab:100159 .
+
+<https://dopheda.info/crm_e41/f1145976-589b-4fcb-812e-8da4bf5e494c> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Յուսուֆ Քարշ"@hy ;
+    crm:P72_has_language vocab:2002 .
+
+vocab:100138 a crm:E55_Type ;
+    rdfs:label "Precedence"@en,
+        "Primauté"@fr .
+
+vocab:100139 a crm:E55_Type ;
+    rdfs:label "Type of Appellation"@en,
+        "Type d'appellation"@fr .
+
+vocab:100158 a crm:E55_Type ;
+    rdfs:label "Full Name"@en,
+        "Nom complet"@fr ;
+    crm:P2_has_type vocab:100139 .
+
+vocab:100159 a crm:E55_Type ;
+    rdfs:label "First Name"@en,
+        "Prénom"@fr ;
+    crm:P2_has_type vocab:100137 .
+
+vocab:100160 a crm:E55_Type ;
+    rdfs:label "Surname"@en,
+        "Nom de famille"@fr ;
+    crm:P2_has_type vocab:100137 .
+
+vocab:1004 a crm:E55_Type ;
+    rdfs:label "Preferred"@en,
+        "Préféré"@fr ;
+    crm:P2_has_type vocab:100138 .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+
+vocab:2002 a crm:E56_Language ;
+    rdfs:label "Armenian"@en,
+        "Arménien"@fr .
+
+vocab:100137 a crm:E55_Type ;
+    rdfs:label "Type of Appellation Part"@en,
+        "Type de partie de l'appellation de l'actant"@fr .
+

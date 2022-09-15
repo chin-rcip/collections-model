@@ -1,0 +1,32 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/05d95096-3313-40a0-8050-1d9572fd66a6>,
+        <https://dopheda.info/crm_e28/08d6fea9-0784-4deb-8006-7699422b1fac> .
+
+<https://dopheda.info/crm_e28/05d95096-3313-40a0-8050-1d9572fd66a6> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "Immigrated to Canada in 1924"@en ;
+    crm:P2_has_type vocab:100147 ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e28/08d6fea9-0784-4deb-8006-7699422b1fac> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "Immigré au Canada en 1924"@fr ;
+    crm:P2_has_type vocab:100147 ;
+    crm:P72_has_language vocab:2003 .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+
+vocab:2003 a crm:E56_Language ;
+    rdfs:label "French"@en,
+        "Français"@fr .
+
+vocab:100147 a crm:E55_Type ;
+    rdfs:label "Curatorial Note"@en,
+        "Note curatoriale"@fr .
+

@@ -1,0 +1,22 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_109 a crm:E21_Person ;
+    rdfs:label "David Altmejd (1974-)"@en ;
+    crm:P98i_was_born <https://dopheda.info/crm_e63/6317f95b-d062-4120-b140-236a9aecdedb> .
+
+<https://dopheda.info/crm_e52/5ba09027-2396-4c21-9d1a-f00895e6deff> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1974-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1974-12-31T23:59:59"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/6317f95b-d062-4120-b140-236a9aecdedb> a crm:E67_Birth ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/5ba09027-2396-4c21-9d1a-f00895e6deff> ;
+    crm:P7_took_place_at vocab:3007 .
+
+vocab:3007 a crm:E53_Place ;
+    rdfs:label "Montreal, CA-QC"@en,
+        "Montréal, CA-QC"@fr .
+

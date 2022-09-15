@@ -1,0 +1,24 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/8aa0a9b8-a9ff-47e2-9d95-6327fb9434e5> .
+
+<https://dopheda.info/crm_e41/8aa0a9b8-a9ff-47e2-9d95-6327fb9434e5> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Yousuf Karsh"@en ;
+    crm:P2_has_type vocab:100158 .
+
+vocab:100158 a crm:E55_Type ;
+    rdfs:label "Full Name"@en,
+        "Nom complet"@fr ;
+    crm:P2_has_type vocab:100139 .
+
+vocab:100139 a crm:E55_Type ;
+    rdfs:label "Type of Appellation"@en,
+        "Type d'appellation"@fr .
+
+

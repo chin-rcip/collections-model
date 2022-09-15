@@ -1,0 +1,57 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_102 a crm:E21_Person ;
+    rdfs:label "Charles Lutwidge Dodgson"@en ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/d61759eb-b94b-4926-ad2f-38fb7c2c2f75>,
+        <https://dopheda.info/crm_e41/e29ecca6-d562-4a4d-8e2d-0f360eb9c678> .
+
+<https://dopheda.info/crm_e41/d61759eb-b94b-4926-ad2f-38fb7c2c2f75> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    frbroo:R64i_was_name_used_by <https://dopheda.info/crm_e5/09e58d34-718e-4ab0-aec2-e1a78d0e0d36> ;
+    crm:P190_has_symbolic_content "Charles Lutwidge Dodgson"@en ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e41/e29ecca6-d562-4a4d-8e2d-0f360eb9c678> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    frbroo:R64i_was_name_used_by <https://dopheda.info/crm_e5/25059271-4c3b-4098-a8f9-6b80a16abe83> ;
+    crm:P190_has_symbolic_content "Lewis Carroll"@en ;
+    crm:P2_has_type vocab:100161 ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e5/09e58d34-718e-4ab0-aec2-e1a78d0e0d36> a frbroo:F52_Name_Use_Activity ;
+    frbroo:R61_occured_in_kind_of_context vocab:100164 .
+
+<https://dopheda.info/crm_e5/25059271-4c3b-4098-a8f9-6b80a16abe83> a frbroo:F52_Name_Use_Activity ;
+    frbroo:R61_occured_in_kind_of_context vocab:100163 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/29d4f190-5ec9-4862-b26f-b86805d4d8b9> .
+
+<https://dopheda.info/crm_e52/29d4f190-5ec9-4862-b26f-b86805d4d8b9> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1856-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1898-12-31T23:59:59"^^xsd:dateTime .
+
+vocab:100139 a crm:E55_Type ;
+    rdfs:label "Type of Appellation"@en,
+        "Type d'appellation"@fr .
+
+vocab:100161 a crm:E55_Type ;
+    rdfs:label "Pen Name"@en,
+        "Nom de plume"@fr ;
+    crm:P2_has_type vocab:100139 .
+
+vocab:100163 a crm:E55_Type ;
+    rdfs:label "Children's Book Writing"@en,
+        "Écriture de livres pour enfants"@fr .
+
+vocab:100164 a crm:E55_Type ;
+    rdfs:label "Mathematics Treatises Author"@en,
+        "Auteur de traités de mathématiques / Auteure de traités de mathématiques"@fr .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en,
+        "Anglais"@fr .
+

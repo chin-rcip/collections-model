@@ -1,0 +1,33 @@
+@prefix actor: <https://dopheda.info/crm_e39/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+actor:0001_100 a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P14i_performed <https://dopheda.info/crm_e5/1c2b1c6c-e71c-44be-820d-a70f61542568> .
+
+<https://dopheda.info/crm_e5/1c2b1c6c-e71c-44be-820d-a70f61542568> a frbroo:F51_Pursuit ;
+    crm:P2_has_type vocab:100168 ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/974c1c32-f3a2-4791-a435-dd3e70c10cc9> ;
+    crm:P7_took_place_at vocab:3003 .
+
+<https://dopheda.info/crm_e52/974c1c32-f3a2-4791-a435-dd3e70c10cc9> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1932-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1992-12-31T23:59:59"^^xsd:dateTime .
+
+vocab:100150 a crm:E55_Type ;
+    rdfs:label "Occupation"@en,
+        "Occupation"@fr .
+
+vocab:100168 a crm:E55_Type ;
+    rdfs:label "Photographer"@en,
+        "Photographe"@fr ;
+    crm:P2_has_type vocab:100150 .
+
+vocab:3003 a crm:E53_Place ;
+    rdfs:label "Ottawa, CA-ON"@en,
+        "Ottawa, CA-ON"@fr .
+

@@ -1,0 +1,39 @@
+{
+  "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
+  "@id": "actor:0001_100",
+  "@type": "Person",
+  "was_joined_by": {
+    "@id": "https://dopheda.info/crm_e5/375415d8-29fe-4060-a466-64d4b8eb20e3",
+    "@type": "Joining",
+    "joined_with": {
+      "@id": "actor:0001_120",
+      "@type": "Group",
+      "_label": {
+        "en": "Karsh family",
+        "fr": "Famille Karsh"
+      }
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/b1e2a6e7-7837-4a3f-b435-450209f9361e",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1908-12-23T00:00:00",
+      "end_of_the_end": "1908-12-23T:23:59:59"
+    }
+  },
+  "left_by": {
+    "@id": "https://dopheda.info/crm_e5/3ccee852-80d7-46a2-826e-6398c298956a",
+    "@type": "Leaving",
+    "separated_from": {
+      "@id": "actor:0001_120"
+    },
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/b37849e6-e704-48c7-bdbb-ac89ac4ee3b6",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "2002-07-13T00:00:00",
+      "end_of_the_end": "2002-07-13T23:59:59"
+    }
+  },
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  }
+}
