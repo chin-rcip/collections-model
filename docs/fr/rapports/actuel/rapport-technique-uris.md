@@ -110,7 +110,7 @@ Cette approche est applicable aux URI attribués à différents types de donnée
 
 * *Descriptives* : données qui décrivent une ressource et permettent son identification et sa récupération (p. ex. définitions et descriptions de jeux de données, modèles et normes de données, notes et problèmes d’utilisation, etc.);
 
-* *Structurelles* : données qui décrivent les relations au sein des ressources et entre celles-ci et leurs composants (noms de tableaux et de colonnes, autorisations d’accès, définitions de schémas de formats de fichiers, documentation de cartographie de données, calendriers de mise à jour et dépendances, règles de récupération et de sauvegarde, etc.);
+* *Structurelles* : données qui décrivent les relations au sein des ressources et entre celles-ci et leurs composants (noms de tableaux et de colonnes, autorisations d’accès, définitions de schémas de formats de fichiers, documentation de la mise en correspondance des données, calendriers de mise à jour et dépendances, règles de récupération et de sauvegarde, etc.);
 
 * *Opérationnelles* : données utilisées pour gérer les ressources tout au long de leur cycle de vie (journaux d’exécution des tâches des programmes par lots, anomalies dans l'exécution de tâches planifiées, journaux d’erreurs, patrons volumétriques et d’utilisation, etc.).
 
