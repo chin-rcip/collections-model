@@ -36,7 +36,7 @@ Une institution peut percevoir les données sur les techniques utilisées comme 
 
 ## Description du patron conceptuel
 
-La valeur du [Type de technique utilisée](/collections-model/fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-technique-utilisee) est cartographiée comme une instance de `E55_Type` liée à une instance de `E39_Actant` par la propriété `P2_a_pour_type`. Cette instance de `E55_Type` est qualifiée par une instance de `E55_Type` (un nœud doté d’un qualifiant spécifié) portant le libellé « Technique utilisée » par la propriété `P2_a_pour_type`.
+La valeur du [Type de technique utilisée](/collections-model/fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-technique-utilisee) est mise en correspondance comme une instance de `E55_Type` liée à une instance de `E39_Actant` par la propriété `P2_a_pour_type`. Cette instance de `E55_Type` est qualifiée par une instance de `E55_Type` (un nœud doté d’un qualifiant spécifié) portant le libellé « Technique utilisée » par la propriété `P2_a_pour_type`.
 
 ## Diagramme
 
