@@ -15,7 +15,7 @@ description: La Spécification du modèle cible des actants modélise sémantiqu
 
 Parce que le CIDOC CRM est une ontologie développée pour servir le secteur culturel dans son ensemble, ses entités sont intentionnellement de portée générale pour répondre adéquatement aux besoins et aux compréhensions des diverses disciplines patrimoniales (p. ex. archéologie, art, histoire, sociologie). Toutefois, cette généralité peut présenter une limite lors de la modélisation de concepts complexes (p. ex. relations, techniques, occupations) qui englobent eux-mêmes d'autres concepts et présentent de nombreuses caractéristiques. Cette complexité peut entraver les processus d'enregistrement et de requête qui seraient autrement simples d'un point de vue sémantique. Ainsi, il est conseillé de simplifier ces processus en qualifiant davantage les classes complexes afin d'améliorer leur précision sémantique (Bekiari et al. 2021, sect. About Types). Cela peut se faire de deux manières. 
 
-Une option consiste à créer de nouvelles classes et propriétés. Toutefois, cette pratique n'est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de cartographie) et à un plus grand nombre d'entités à gérer (compliquant ainsi les requêtes des personnes impliquées). De plus, pour assurer l'efficacité d'un modèle, les ressources technologiques et humaines qu'il requiert doivent être réduites au minimum tout au long de son cycle de vie (phases de développement, de mise en application et de maintenance), un principe auquel la création de classes et de propriétés contrevient. Il est donc recommandé de :
+Une option consiste à créer de nouvelles classes et propriétés. Toutefois, cette pratique n'est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de mise en correspondance) et à un plus grand nombre d'entités à gérer (compliquant ainsi les requêtes des personnes impliquées). De plus, pour assurer l'efficacité d'un modèle, les ressources technologiques et humaines qu'il requiert doivent être réduites au minimum tout au long de son cycle de vie (phases de développement, de mise en application et de maintenance), un principe auquel la création de classes et de propriétés contrevient. Il est donc recommandé de :
 
 * Limiter les champs d'expertise qu'un modèle accueille et représente (Bruseker 2017, 25);
 * Éviter l'inclusion de patrons conceptuels qui répondent à des impératifs *technologiques* plutôt qu'*informationnels* (Gruber 1995, 910); 
@@ -70,9 +70,9 @@ Il existe deux sous-classes de `E39_Actant` :
 * `E21_Personne`, qui comprend les personnes réelles;
 * `E74_Groupe`, qui représente tout type de rassemblement ou d'organisation d'instances de `E39_Actant` agissant collectivement. Comme indiqué dans le CIDOC CRM, « un rassemblement de personnes devient un `E74_Groupe` lorsqu'il présente des caractéristiques organisationnelles généralement caractérisées par un ensemble d'idées ou de croyances communes, ou d'actions réalisées ensemble » (Le Bœuf et al. 2015, sect. E74 Group; notre traduction).
 
-En termes de cartographie, lorsqu'il est possible de distinguer une personne d'un groupe dans un jeu de données d'origine, l'utilisation des sous-classes plus précises `E21_Personne` et `E74_Groupe` doit être privilégiée par rapport à celle de la classe `E39_Actant` pour les raisons suivantes :
+En termes de mise en correspondance, lorsqu'il est possible de distinguer une personne d'un groupe dans un jeu de données d'origine, l'utilisation des sous-classes plus précises `E21_Personne` et `E74_Groupe` doit être privilégiée par rapport à celle de la classe `E39_Actant` pour les raisons suivantes :
 
-* La maintenance du processus de cartographie est plus efficace, car la modélisation d'une instance de `E21_Personne` n'est pas complètement identique à la modélisation d'une instance de `E74_Groupe`;
+* La maintenance du processus de mise en correspondance est plus efficace, car la modélisation d'une instance de `E21_Personne` n'est pas complètement identique à la modélisation d'une instance de `E74_Groupe`;
 * Le nettoyage des données est facilité par une réconciliation plus précise et plus efficace à long terme.
 
 Cependant, dans certains cas, il est acceptable d'utiliser la classe `E39_Actant` (`E77_Entité_persistante`) plutôt que l'une de ses sous-classes :
@@ -80,7 +80,7 @@ Cependant, dans certains cas, il est acceptable d'utiliser la classe `E39_Actant
 * Lorsqu'il est incertain si l'actant est une personne, une organisation ou un groupe (Linked.art 2019);
 * Lorsqu'un jeu de données peut contenir des données relatives à la fois aux actants et aux groupes dans un seul champ.
 
-Si un jeu de données d'origine initialement cartographié à l'aide de la classe `E39_Actant` est mis à jour pour distinguer les personnes et les groupes, sa cartographie doit être mise à jour pour utiliser les sous-classes de la classe `E39_Actant` (`E21_Personne` et `E74_Groupe`). Cela peut être fait avec une requête de mise à jour SPARQL.
+Si un jeu de données d'origine initialement mis en correspondance à l'aide de la classe `E39_Actant` est mis à jour pour distinguer les personnes et les groupes, sa mise en correspondance doit être mise à jour pour utiliser les sous-classes de la classe `E39_Actant` (`E21_Personne` et `E74_Groupe`). Cela peut être fait avec une requête de mise à jour SPARQL.
 
 Bien que la Spécification du modèle cible offre techniquement la possibilité d'utiliser soit `E39_Actant`, `E21_Personne` ou `E74_Groupe`, la Spécification des chemins sémantiques n'offre pas cette latitude.
 
@@ -114,7 +114,7 @@ Par exemple, si l'occupation d'un photographe est documentée à l'aide d'un [UR
 
 <div id="aat_300025687_label" class="example"></div>
 
-Un autre exemple est celui des évènements de naissance où les mécanismes de concaténation (au stade de la cartographie) peuvent fournir des libellés descriptifs utiles tels que « Naissance de Yousuf Karsh » pour une instance de `E67_Naissance` représentant la naissance de Yousuf Karsh; de cette façon, la fonction du nœud est facilement compréhensible pour les humains.
+Un autre exemple est celui des évènements de naissance où les mécanismes de concaténation (au stade de la mise en correspondance) peuvent fournir des libellés descriptifs utiles tels que « Naissance de Yousuf Karsh » pour une instance de `E67_Naissance` représentant la naissance de Yousuf Karsh; de cette façon, la fonction du nœud est facilement compréhensible pour les humains.
 
 ### Annotations ou commentaires
 
@@ -122,7 +122,7 @@ Un autre exemple est celui des évènements de naissance où les mécanismes de 
 
 Les données patrimoniales étant issues de recherches intensives, les annotations et les commentaires font partie intégrante de la qualification d'un enregistrement ou même d'une donnée précise. On les distingue en deux types :
 
-* Annotations qui apparaissent au cours du processus de cartographie et qui concernent, par exemple, des enjeux de qualité des données, de modélisation et/ou de cartographie, ou de l'information que le soumissionnaire de données souhaite soumettre à l'environnement DOPHEDA en même temps que le jeu de données;
+* Annotations qui apparaissent au cours du processus de mise en correspondance et qui concernent, par exemple, des enjeux de qualité des données, de modélisation et/ou de mise en correspondance, ou de l'information que le soumissionnaire de données souhaite soumettre à l'environnement DOPHEDA en même temps que le jeu de données;
 * Annotations qui font partie du jeu de données original, telles que des notes curatoriales ou de recherche.
 
 Le premier type est décrit dans cette section, tandis que le patron conceptuel [Note curatoriale](/collections-model/fr/modele-cible/actuel/note-curatoriale) doit être utilisé pour le second.
@@ -154,7 +154,7 @@ Le nœud de saisie [Annotation](/collections-model/fr/specification-des-chemins-
 
 #### Nœuds de saisie {#annotations-ou-commentaires-noeuds-de-saisie}
 
-*Il n'y a pas de nœuds de saisie pour les commentaires, car ils ne se rapportent pas aux valeurs des données elles-mêmes (ils ne proviennent donc pas du soumissionnaire de données et/ou du processus de cartographie des données)*. 
+*Il n'y a pas de nœuds de saisie pour les commentaires, car ils ne se rapportent pas aux valeurs des données elles-mêmes (ils ne proviennent donc pas du soumissionnaire de données et/ou du processus de mise en correspondance des données)*. 
 
 * [Annotation](/collections-model/fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#annotation) \| Liste de vérification
 
@@ -248,7 +248,7 @@ Le projet DOPHEDA vise à documenter les actants des institutions culturelles si
 
 Un aperçu général des données actuellement détenues par les organisations patrimoniales révèle un besoin de documenter plusieurs aspects des traits identitaires des actants, tels que leur appartenance culturelle, leur genre et leur appartenance nationale ou communautaire. Ces traits identitaires sont de plus en plus pertinents pour la contextualisation du travail des actants ainsi que des pratiques de collecte et de documentation, surtout lorsqu'il s'agit d'évaluer la (mauvaise) représentation des communautés marginalisées dans les collections patrimoniales. 
 
-Cependant, ces informations présentent également un risque élevé d'être problématiques, que ce soit au niveau de l'enregistrement (c.-à-d. dans les bases de données des soumissionnaires), de la structuration (c.-à-d. dans le modèle DOPHEDA) ou de la cartographie (c.-à-d. lors de l'affectation des valeurs provenant des bases de données des soumissionnaires au modèle). Les traits d'identité d'un actant sont beaucoup plus fluides et flexibles qu'il n'y paraît à première vue et l'élaboration de patrons conceptuels qui seraient trop simplistes pour rendre compte de cette fluidité pourrait conduire à une représentation encore plus erronée de communautés déjà marginalisées.
+Cependant, ces informations présentent également un risque élevé d'être problématiques, que ce soit au niveau de l'enregistrement (c.-à-d. dans les bases de données des soumissionnaires), de la structuration (c.-à-d. dans le modèle DOPHEDA) ou de la mise en correspondance (c.-à-d. lors de l'affectation des valeurs provenant des bases de données des soumissionnaires au modèle). Les traits d'identité d'un actant sont beaucoup plus fluides et flexibles qu'il n'y paraît à première vue et l'élaboration de patrons conceptuels qui seraient trop simplistes pour rendre compte de cette fluidité pourrait conduire à une représentation encore plus erronée de communautés déjà marginalisées.
 
 ### Patrons conceptuels concernés {#defis-de-la-representation-des-realites-des-communautes-mal-desservies-patrons-conceptuels-concernes}
 
