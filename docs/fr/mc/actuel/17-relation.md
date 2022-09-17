@@ -147,7 +147,7 @@ Le fait d'être inconscient d'exécuter une activité pourrait être considéré
 
 #### Exemple 1 {#cas-limites-exemple-1}
 
-La cartographie peut devenir délicate lorsque l'un des actants de la relation est un groupe et que l'on peut utiliser à la fois les patrons conceptuels Relation et Appartenance à un groupe.
+La mise en correspondance peut devenir délicate lorsque l'un des actants de la relation est un groupe et que l'on peut utiliser à la fois les patrons conceptuels Relation et Appartenance à un groupe.
 
 Par exemple, le Musée du portrait du Canada et son Groupe consultatif peuvent être considérés comme étant :
 
