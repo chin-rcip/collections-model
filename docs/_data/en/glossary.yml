@@ -26,15 +26,15 @@ toc:
 - title: classification (noun)
   url: /en/resources/current/glossary#classification-noun
   hash: classification-noun
-- title: contributor (noun)
-  url: /en/resources/current/glossary#contributor-noun
-  hash: contributor-noun
 - title: construct (noun)
   url: /en/resources/current/glossary#construct-noun
   hash: construct-noun
 - title: content (noun)
   url: /en/resources/current/glossary#content-noun
   hash: content-noun
+- title: contributor (noun)
+  url: /en/resources/current/glossary#contributor-noun
+  hash: contributor-noun
 - title: creation (noun)
   url: /en/resources/current/glossary#creation-noun
   hash: creation-noun
@@ -83,6 +83,9 @@ toc:
 - title: field (noun)
   url: /en/resources/current/glossary#field-noun
   hash: field-noun
+- title: flourishing (noun)
+  url: /en/resources/current/glossary#flourishing-noun
+  hash: flourishing-noun
 - title: formalization (noun)
   url: /en/resources/current/glossary#formalization-noun
   hash: formalization-noun
@@ -110,6 +113,9 @@ toc:
 - title: linked open data (noun)
   url: /en/resources/current/glossary#linked-open-data-noun
   hash: linked-open-data-noun
+- title: mapping (noun)
+  url: /en/resources/current/glossary#mapping-noun
+  hash: mapping-noun
 - title: metadata (noun)
   url: /en/resources/current/glossary#metadata-noun
   hash: metadata-noun
@@ -119,7 +125,7 @@ toc:
 - title: model (noun)
   url: /en/resources/current/glossary#model-noun
   hash: model-noun
-- title: named Graph (noun)
+- title: named graph (noun)
   url: /en/resources/current/glossary#named-graph-noun
   hash: named-graph-noun
 - title: node (noun)
@@ -152,9 +158,15 @@ toc:
 - title: range (noun)
   url: /en/resources/current/glossary#range-noun
   hash: range-noun
+- title: reconciliation (noun)
+  url: /en/resources/current/glossary#reconciliation-noun
+  hash: reconciliation-noun
 - title: record (noun)
   url: /en/resources/current/glossary#record-noun
   hash: record-noun
+- title: reification (noun)
+  url: /en/resources/current/glossary#reification-noun
+  hash: reification-noun
 - title: representation (noun)
   url: /en/resources/current/glossary#representation-noun
   hash: representation-noun
@@ -179,6 +191,9 @@ toc:
 - title: semantization (noun)
   url: /en/resources/current/glossary#semantization-noun
   hash: semantization-noun
+- title: slug (noun)
+  url: /en/resources/current/glossary#slug-noun
+  hash: slug-noun
 - title: specification (noun)
   url: /en/resources/current/glossary#specification-noun
   hash: specification-noun
@@ -200,4 +215,3 @@ toc:
 - title: vocabulary (noun)
   url: /en/resources/current/glossary#vocabulary-noun
   hash: vocabulary-noun
-
