@@ -3,6 +3,7 @@ layout: page
 language: fr
 title: Versions
 permalink: /fr/versions
+other_link: /en/versions
 ---
 
 ## Versions actuelles
@@ -21,4 +22,4 @@ permalink: /fr/versions
 
 ### Version 2.0
 
-- Modèle cible 2.0 ([PDF version](https://drive.google.com/file/d/1-WkmSzsXj3hP9snbkKuPRMizELbTZ5C2/view?usp=sharing))
+- Modèle cible 2.0 ([version PDF, anglaise](https://drive.google.com/file/d/1-WkmSzsXj3hP9snbkKuPRMizELbTZ5C2/view?usp=sharing))

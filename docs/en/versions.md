@@ -3,6 +3,7 @@ layout: page
 language: en
 title: Versions
 permalink: /en/versions
+other_link: /fr/versions
 ---
 
 ## Current versions
@@ -15,9 +16,9 @@ permalink: /en/versions
 
 ### Version 2.1
 
-- [Target Model 2.1](/collections-model/en/target-model/version-2-1/introduction)
+- [Target Model 2.1](/collections-model/en/target-model/version-2-1/introduction) ([PDF version](https://drive.google.com/file/d/1BoF1D1aY_hesIn54fr1jQjaaava7JIX8/view?usp=sharing))
 
-- [Semantic Paths Specification 2.1](/collections-model/en/semantic-paths-specification/version-2-1/introduction)
+- [Semantic Paths Specification 2.1](/collections-model/en/semantic-paths-specification/version-2-1/introduction) ([PDF version](https://drive.google.com/file/d/1S_eRdfJG0bTblBTJa9Neg4yPC_r5UIdd/view?usp=sharing))
 
 ### Version 2.0
 
