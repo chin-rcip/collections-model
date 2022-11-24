@@ -7,7 +7,7 @@ other_link: /en/resources/current/how-to/diagrams-net-libraries
 sidebar: diagramsfr
 group: ressources
 subgroup: mode d'emploi
-date: 2021-06-14
+date: 2022-11-23
 description: Ce document présente un aperçu des bibliothèques logicielles diagrams.net et explique comment les utiliser.
 ---
 
@@ -15,7 +15,7 @@ description: Ce document présente un aperçu des bibliothèques logicielles dia
 
 **Créé le** : 2021-04-22
 
-**Mis à jour le** : 2021-06-14
+**Mis à jour le** : 2022-11-23
 
 **Résumé** : Ce document présente un aperçu des bibliothèques logicielles diagrams.net et explique comment les utiliser.
 
@@ -29,7 +29,7 @@ description: Ce document présente un aperçu des bibliothèques logicielles dia
 
 Les bibliothèques [diagrams.net](https://www.diagrams.net/) constituent un ensemble de fichiers XML d’ontologies qui sert à représenter des patrons conceptuels à l’aide du logiciel [diagrams.net](https://www.diagrams.net/). Tenu à jour par le Réseau canadien d’information sur le patrimoine (RCIP), ces bibliothèques logicielles permettent de créer des diagrammes dans le cadre de projets de données ouvertes et liées. Le RCIP a jusqu’à maintenant créé sept bibliothèques destinées aux ontologies du Modèle conceptuel de référence du Comité international pour la Documentation (CIDOC CRM); celles-ci sont diffusées officiellement en format RDFS et répertoriées ci-dessous. Elles seront utiles aux utilisateurs qui créent des diagrammes de modèles de données fondés sur le CIDOC CRM.
 
-  - CIDOC CRM base (version 6.2.1)
+  - CIDOC CRM base (version 7.1.1)
 
   - FRBRoo (version 2.4)
 
@@ -37,7 +37,7 @@ Les bibliothèques [diagrams.net](https://www.diagrams.net/) constituent un ense
 
   - CRMdig (version 3.2.2)
 
-  - CRMpc (version 1.1.1)
+  - CRMpc (version 7.1.1)
 
   - CRMarchaeo (version 1.4.1)
 
@@ -185,7 +185,7 @@ Pour en savoir plus sur la création, l’échange et le chargement des biblioth
 
 Les fichiers de ce répertoire sont distribués en vertu de la licence MIT. Pour satisfaire aux exigences relatives à son attribution, vous devez préciser comme suit le détenteur du droit d’auteur :
 
-> Copyright (c) 2021 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada
+> Copyright (c) 2021-2022 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada
 
 > diagrams.net est distribué sous la licence [Apache License 2.0](https://github.com/jgraph/drawio/blob/dev/LICENSE).
 > Copyright 2021 diagrams.net (JGraph)

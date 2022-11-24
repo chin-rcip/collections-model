@@ -7,7 +7,7 @@ other_link: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagram
 sidebar: diagramsen
 group: resources
 subgroup: how-to
-date: 2021-05-26
+date: 2022-11-23
 description: This document provides an overview of diagrams.net libraries and instructions on how to use them.
 ---
 
@@ -16,7 +16,7 @@ description: This document provides an overview of diagrams.net libraries and in
 
 **Created date**: 2021-04-22
 
-**Last update**: 2021-05-26
+**Last update**: 2022-11-23
 
 **Abstract**: This document provides an overview of diagrams.net libraries and instructions on how to use them.
 
@@ -30,7 +30,7 @@ description: This document provides an overview of diagrams.net libraries and in
 
 **[diagrams.net](https://www.diagrams.net/) libraries** is a collection of custom shape library files (.xml) of ontologies used to represent semantic patterns through [diagrams.net](https://www.diagrams.net/). It is maintained by the Canadian Heritage Information Network (CHIN) and used to generate diagrams in the context of its Linked Open Data projects. Currently, CHIN provides seven libraries for the following CIDOC CRM ontologies (i.e. the ones that are officially released in RDFS format). The libraries are of benefit to users who design diagrams for data models that are based on CIDOC CRM.
 
-  - CIDOC CRM base (version 6.2.1)
+  - CIDOC CRM base (version 7.1.1)
 
   - FRBRoo (version 2.4)
 
@@ -38,7 +38,7 @@ description: This document provides an overview of diagrams.net libraries and in
 
   - CRMdig (version 3.2.2)
 
-  - CRMpc (version 1.1.1)
+  - CRMpc (version 7.1.1)
 
   - CRMarchaeo (version 1.4.1)
 
@@ -185,7 +185,7 @@ Consult the following resources for further information on how to generate, shar
 
 Files in this repository are made available under the MIT License. To meet the attribution requirements of this license, you must indicate the copyright holder using the following:
 
-> Copyright (c) 2021 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada
+> Copyright (c) 2021-2022 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada
 
 > diagrams.net is distributed under [Apache License 2.0](https://github.com/jgraph/drawio/blob/dev/LICENSE).
 > Copyright 2021 diagrams.net (JGraph)
