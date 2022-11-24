@@ -155,19 +155,9 @@
       });
     </script>
     
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js"></script>
     <script>
-         var config = {
-            startOnLoad:true,
-            flowchart:{
-                    useMaxWidth:true,
-                    htmlLabels:true,
-                    curve:'basis',
-                    rankSpacing:50
-            },
-            securityLevel:'loose',
-        };
-        
+         
         if ($("html").attr("lang") == 'en'){
           var tab_1_name = "Diagram"
         } else {
@@ -206,7 +196,15 @@
              .then((data3) => $("#"+exId+"_json code").text(data3));
         };
 
-        
+        var config = {
+            startOnLoad:true,
+            flowchart:{
+                    useMaxWidth:true,
+                    htmlLabels:true,
+                    curve:'basis',
+                    rankSpacing:50
+            }
+        };
         mermaid.initialize(config);
     </script>
 
