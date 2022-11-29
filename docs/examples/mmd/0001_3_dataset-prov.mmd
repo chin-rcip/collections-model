@@ -1,54 +1,54 @@
 flowchart TD
-classDef Literal fill:#ffffff,stroke:#000000;
-classDef Literal_URI fill:,stroke:;
-classDef E1_CRM_Entity fill:#ffffff,stroke:#000000;
-classDef E1_CRM_Entity_URI fill:#ffffff,stroke:#000000;
-classDef E2_Temporal_Entity fill:#82c3ec,stroke:#000000;
-classDef E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000;
-classDef E55_Type fill:#fab565,stroke:#000000;
-classDef E55_Type_URI fill:#fde7ce,stroke:#000000;
-classDef E52_Time-Span fill:#86bcc8,stroke:#000000;
-classDef E52_Time-Span_URI fill:#dcebef,stroke:#000000;
-classDef E41_Appellation fill:#fef3ba,stroke:#000000;
-classDef E41_Appellation_URI fill:#fffae6,stroke:#000000;
-classDef E53_Place fill:#94cc7d,stroke:#000000;
-classDef E53_Place_URI fill:#e1f1da,stroke:#000000;
-classDef E77_Persistent_Item fill:#ffffff,stroke:#000000;
-classDef E77_Persistent_Item_URI fill:#ffffff,stroke:#000000;
-classDef E28_Conceptual_Object fill:#fddc34,stroke:#000000;
-classDef E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000;
-classDef E18_Physical_Thing fill:#e1ba9c,stroke:#000000;
-classDef E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000;
-classDef E39_Actor fill:#ffbdca,stroke:#000000;
-classDef E39_Actor_URI fill:#ffe6eb,stroke:#000000;
-classDef PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000;
-classDef PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000;
-classDef Multi fill:#cccccc,stroke:#000000;
-classDef Multi_URI fill:#cccccc,stroke:#000000;
-0(["vocab:1005"]) -->|rdfs:label| 1(["''Créateur / Créatrice''@fr"]):::Literal
-2(["-"]) -->|crm:P82a_begin_of_the_begin| 3(["''2021-01-15T00:00:00''^^xsd:dateTime"]):::Literal
-4(["vocab:1006"]) -->|rdfs:label| 5(["''Provider''@en"]):::Literal
-6(["-"]) -->|crm:P14.1_in_the_role_of| 4(["vocab:1006"])
-0(["vocab:1005"]):::E55_Type_URI -->|rdf:type| 7["crm:E55_Type"]:::E55_Type
-8(["actor:0001_4"]) -->|rdfs:label| 9(["''Canadian Heritage Information Network (CHIN)''@en"]):::Literal
-10(["-"]) -->|crm:P4_has_time-span| 2(["-"])
-4(["vocab:1006"]) -->|rdfs:label| 11(["''Soumissionnaire''@fr"]):::Literal
-12(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 13["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
-14(["-"]):::E28_Conceptual_Object_URI -->|rdf:type| 15["crmdig:D1_Digital_Object"]:::E28_Conceptual_Object
-12(["-"]) -->|crm:P14.1_in_the_role_of| 0(["vocab:1005"])
-10(["-"]) -->|crm:P94_has_created| 14(["-"])
-16(["actor:0001_3"]) -->|rdfs:label| 17(["''National Gallery of Canada''@en"]):::Literal
-0(["vocab:1005"]) -->|rdfs:label| 18(["''Creator''@en"]):::Literal
-2(["-"]):::E52_Time-Span_URI -->|rdf:type| 19["crm:E52_Time-Span"]:::E52_Time-Span
-12(["-"]) -->|crm:P02_has_range| 8(["actor:0001_4"])
-10(["-"]) -->|crm:P01i_is_domain_of| 6(["-"])
-10(["-"]) -->|crm:P01i_is_domain_of| 12(["-"])
-6(["-"]):::PC0_Typed_CRM_Property_URI -->|rdf:type| 20["crm:PC14_carried_out_by"]:::PC0_Typed_CRM_Property
-16(["actor:0001_3"]) -->|rdfs:label| 21(["''Musée des beaux-arts du Canada''@fr"]):::Literal
-2(["-"]) -->|crm:P82b_end_of_the_end| 22(["''2021-01-15T23:59:59''^^xsd:dateTime"]):::Literal
-8(["actor:0001_4"]):::E39_Actor_URI -->|rdf:type| 23["crm:E74_Group"]:::E39_Actor
-10(["-"]):::E2_Temporal_Entity_URI -->|rdf:type| 24["crm:E65_Creation"]:::E2_Temporal_Entity
-6(["-"]) -->|crm:P02_has_range| 16(["actor:0001_3"])
-4(["vocab:1006"]):::E55_Type_URI -->|rdf:type| 25["crm:E55_Type"]:::E55_Type
-16(["actor:0001_3"]):::E39_Actor_URI -->|rdf:type| 26["crm:E74_Group"]:::E39_Actor
-8(["actor:0001_4"]) -->|rdfs:label| 27(["''Réseau canadien d'information sur le patrimoine (RCIP)''@fr"]):::Literal
+classDef Literal fill:#ffffff,stroke:#000000,color:;
+classDef Literal_URI fill:#ffffff,stroke:#000000,color:;
+classDef crm_E1_CRM_Entity fill:#ffffff,stroke:#000000,color:;
+classDef crm_E1_CRM_Entity_URI fill:#ffffff,stroke:#000000,color:;
+classDef crm_E2_Temporal_Entity fill:#82c3ec,stroke:#000000,color:;
+classDef crm_E2_Temporal_Entity_URI fill:#d2e9f9,stroke:#000000,color:;
+classDef crm_E55_Type fill:#fab565,stroke:#000000,color:;
+classDef crm_E55_Type_URI fill:#fde7ce,stroke:#000000,color:;
+classDef crm_E52_Time-Span fill:#86bcc8,stroke:#000000,color:;
+classDef crm_E52_Time-Span_URI fill:#dcebef,stroke:#000000,color:;
+classDef crm_E41_Appellation fill:#fef3ba,stroke:#000000,color:;
+classDef crm_E41_Appellation_URI fill:#fffae6,stroke:#000000,color:;
+classDef crm_E53_Place fill:#94cc7d,stroke:#000000,color:;
+classDef crm_E53_Place_URI fill:#e1f1da,stroke:#000000,color:;
+classDef crm_E77_Persistent_Item fill:#ffffff,stroke:#000000,color:;
+classDef crm_E77_Persistent_Item_URI fill:#ffffff,stroke:#000000,color:;
+classDef crm_E28_Conceptual_Object fill:#fddc34,stroke:#000000,color:;
+classDef crm_E28_Conceptual_Object_URI fill:#fef6cd,stroke:#000000,color:;
+classDef crm_E18_Physical_Thing fill:#e1ba9c,stroke:#000000,color:;
+classDef crm_E18_Physical_Thing_URI fill:#f3e5d8,stroke:#000000,color:;
+classDef crm_E39_Actor fill:#ffbdca,stroke:#000000,color:;
+classDef crm_E39_Actor_URI fill:#ffe6eb,stroke:#000000,color:;
+classDef crm_PC0_Typed_CRM_Property fill:#cc80ff,stroke:#000000,color:;
+classDef crm_PC0_Typed_CRM_Property_URI fill:#ebccff,stroke:#000000,color:;
+classDef Multi fill:#cccccc,stroke:#000000,color:;
+classDef Multi_URI fill:#cccccc,stroke:#000000,color:;
+0(["-"]):::crm_PC0_Typed_CRM_Property_URI -->|rdf:type| 1["crm:PC14_carried_out_by"]:::crm_PC0_Typed_CRM_Property
+2(["-"]):::crm_E2_Temporal_Entity_URI -->|rdf:type| 3["crm:E65_Creation"]:::crm_E2_Temporal_Entity
+2(["-"]) -->|crm:P4_has_time-span| 4(["-"])
+5(["https://dopheda.info/crmdig_d1/0000_1"]):::crm_E28_Conceptual_Object_URI -->|rdf:type| 6["crmdig:D1_Digital_Object"]:::crm_E28_Conceptual_Object
+7(["-"]) -->|crm:P02_has_range| 8(["actor:0001_3"])
+4(["-"]) -->|crm:P82b_end_of_the_end| 9(["''2021-01-15T23:59:59''^^xsd:dateTime"]):::Literal
+7(["-"]):::crm_PC0_Typed_CRM_Property_URI -->|rdf:type| 10["crm:PC14_carried_out_by"]:::crm_PC0_Typed_CRM_Property
+4(["-"]) -->|crm:P82a_begin_of_the_begin| 11(["''2021-01-15T00:00:00''^^xsd:dateTime"]):::Literal
+8(["actor:0001_3"]):::crm_E39_Actor_URI -->|rdf:type| 12["crm:E74_Group"]:::crm_E39_Actor
+13(["actor:0001_4"]):::crm_E39_Actor_URI -->|rdf:type| 14["crm:E74_Group"]:::crm_E39_Actor
+8(["actor:0001_3"]) -->|rdfs:label| 15(["''National Gallery of Canada''@en"]):::Literal
+0(["-"]) -->|crm:P14.1_in_the_role_of| 16(["vocab:1005"])
+13(["actor:0001_4"]) -->|rdfs:label| 17(["''Canadian Heritage Information Network (CHIN)''@en"]):::Literal
+2(["-"]) -->|crm:P01i_is_domain_of| 7(["-"])
+16(["vocab:1005"]):::crm_E55_Type_URI -->|rdf:type| 18["crm:E55_Type"]:::crm_E55_Type
+2(["-"]) -->|crm:P01i_is_domain_of| 0(["-"])
+13(["actor:0001_4"]) -->|rdfs:label| 19(["''Réseau canadien d'information sur le patrimoine (RCIP)''@fr"]):::Literal
+5(["https://dopheda.info/crmdig_d1/0000_1"]) -->|crm:P94i_was_created_by| 2(["-"])
+20(["vocab:1006"]):::crm_E55_Type_URI -->|rdf:type| 21["crm:E55_Type"]:::crm_E55_Type
+8(["actor:0001_3"]) -->|rdfs:label| 22(["''Musée des beaux-arts du Canada''@fr"]):::Literal
+7(["-"]) -->|crm:P14.1_in_the_role_of| 20(["vocab:1006"])
+20(["vocab:1006"]) -->|rdfs:label| 23(["''Provider''@en"]):::Literal
+20(["vocab:1006"]) -->|rdfs:label| 24(["''Soumissionnaire''@fr"]):::Literal
+16(["vocab:1005"]) -->|rdfs:label| 25(["''Créateur / Créatrice''@fr"]):::Literal
+0(["-"]) -->|crm:P02_has_range| 13(["actor:0001_4"])
+4(["-"]):::crm_E52_Time-Span_URI -->|rdf:type| 26["crm:E52_Time-Span"]:::crm_E52_Time-Span
+16(["vocab:1005"]) -->|rdfs:label| 27(["''Creator''@en"]):::Literal

@@ -9,18 +9,17 @@
 @prefix vocab: <https://vocab.example.info/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://dopheda.info/crmdig_d1/0000_1> a crmdig:D1_Digital_Object ;
+    crm:P94i_was_created_by <https://dopheda.info/crm_e63/cdba492c-8298-4ac7-94d4-7f0978f7541a> .
 
 <https://dopheda.info/crm_e63/cdba492c-8298-4ac7-94d4-7f0978f7541a> a crm:E65_Creation ;
     crm:P01i_is_domain_of <https://dopheda.info/crm_pc0/b496c602-1cec-44bc-ba20-8d6d80d4189e>,
         <https://dopheda.info/crm_pc0/b6992866-4b36-42a2-b2e0-b30f41c9646f> ;
-    crm:P4_has_time-span <https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e> ;
-    crm:P94_has_created <https://dopheda.info/crmdig_d1/85c9d167-69af-40e7-9023-2d5ceda0f62d> .
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e> .
 
 <https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_begin "2021-01-15T00:00:00"^^xsd:dateTime ;
-    crm:P82b_end_of_the_end "2021-01-15T23:59:59"^^xsd:dateTime .
-
-<https://dopheda.info/crmdig_d1/85c9d167-69af-40e7-9023-2d5ceda0f62d> a crmdig:D1_Digital_Object .    
+    crm:P82b_end_of_the_end "2021-01-15T23:59:59"^^xsd:dateTime .  
 
 <https://dopheda.info/crm_pc0/b496c602-1cec-44bc-ba20-8d6d80d4189e> a crm:PC14_carried_out_by ;
     crm:P02_has_range actor:0001_4 ;

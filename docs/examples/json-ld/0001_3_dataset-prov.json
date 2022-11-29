@@ -1,57 +1,57 @@
 {
   "@context": "https://chin-rcip.github.io/collections-model/dopheda_context.json",
-  "@id": "https://dopheda.info/crm_e63/cdba492c-8298-4ac7-94d4-7f0978f7541a",
-  "@type": "Creation",
-  "is_domain_of": [
-    {
-      "@id": "https://dopheda.info/crm_pc0/b496c602-1cec-44bc-ba20-8d6d80d4189e",
-      "@type": "crm:PC14_carried_out_by",
-      "has_range": {
-        "@id": "actor:0001_4",
-        "@type": "Group",
-        "_label": {
-          "en": "Canadian Heritage Information Network (CHIN)",
-          "fr": "Réseau canadien d'information sur le patrimoine (RCIP)"
+  "@id": "https://dopheda.info/crmdig_d1/0000_1",
+  "@type": "Digital_Object",
+  "was_created_by": {
+    "@id": "https://dopheda.info/crm_e63/cdba492c-8298-4ac7-94d4-7f0978f7541a",
+    "@type": "Creation",
+    "is_domain_of": [
+      {
+        "@id": "https://dopheda.info/crm_pc0/b496c602-1cec-44bc-ba20-8d6d80d4189e",
+        "@type": "crm:PC14_carried_out_by",
+        "has_range": {
+          "@id": "actor:0001_4",
+          "@type": "Group",
+          "_label": {
+            "en": "Canadian Heritage Information Network (CHIN)",
+            "fr": "Réseau canadien d'information sur le patrimoine (RCIP)"
+          }
+        },
+        "in_the_role_of": {
+          "@id": "vocab:1005",
+          "@type": "Type",
+          "_label": {
+            "en": "Creator",
+            "fr": "Créateur / Créatrice"
+          }
         }
       },
-      "in_the_role_of": {
-        "@id": "vocab:1005",
-        "@type": "Type",
-        "_label": {
-          "en": "Creator",
-          "fr": "Créateur / Créatrice"
+      {
+        "@id": "https://dopheda.info/crm_pc0/b6992866-4b36-42a2-b2e0-b30f41c9646f",
+        "@type": "crm:PC14_carried_out_by",
+        "has_range": {
+          "@id": "actor:0001_3",
+          "@type": "Group",
+          "_label": {
+            "en": "National Gallery of Canada",
+            "fr": "Musée des beaux-arts du Canada"
+          }
+        },
+        "in_the_role_of": {
+          "@id": "vocab:1006",
+          "@type": "Type",
+          "_label": {
+            "en": "Provider",
+            "fr": "Soumissionnaire"
+          }
         }
       }
-    },
-    {
-      "@id": "https://dopheda.info/crm_pc0/b6992866-4b36-42a2-b2e0-b30f41c9646f",
-      "@type": "crm:PC14_carried_out_by",
-      "has_range": {
-        "@id": "actor:0001_3",
-        "@type": "Group",
-        "_label": {
-          "en": "National Gallery of Canada",
-          "fr": "Musée des beaux-arts du Canada"
-        }
-      },
-      "in_the_role_of": {
-        "@id": "vocab:1006",
-        "@type": "Type",
-        "_label": {
-          "en": "Provider",
-          "fr": "Soumissionnaire"
-        }
-      }
+    ],
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "2021-01-15T00:00:00",
+      "end_of_the_end": "2021-01-15T23:59:59"
     }
-  ],
-  "has_time-span": {
-    "@id": "https://dopheda.info/crm_e52/9c57ebd7-d916-4371-a71a-e7437cc4f00e",
-    "@type": "Time-Span",
-    "begin_of_the_begin": "2021-01-15T00:00:00",
-    "end_of_the_end": "2021-01-15T23:59:59"
-  },
-  "crm:P94_has_created": {
-    "@id": "https://dopheda.info/crmdig_d1/85c9d167-69af-40e7-9023-2d5ceda0f62d",
-    "@type": "Digital_Object"
   }
 }
