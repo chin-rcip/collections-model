@@ -22,7 +22,7 @@ toc:
   - title: Live demonstrator
     url: /en/resources/current/how-to/criteria#live-demonstrator
     hash: live-demonstrator
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Recommended browsers
       url: /en/resources/current/how-to/criteria#recommended-browsers
@@ -33,7 +33,7 @@ toc:
   - title: Command Line Interface (CLI)
     url: /en/resources/current/how-to/criteria#command-line-interface-cli
     hash: command-line-interface-cli
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Installation
       url: /en/resources/current/how-to/criteria#installation
@@ -44,6 +44,25 @@ toc:
     - title: Usage
       url: /en/resources/current/how-to/criteria#usage-1
       hash: usage-1
+      class: sublist
+      subfolder:
+      - title: criteria.py
+        url: /en/resources/current/how-to/criteria#criteriapy
+        hash: criteriapy
+    - title: Node Annotation
+      url: /en/resources/current/how-to/criteria#node-annotation
+      hash: node-annotation
+    - title: Configuration
+      url: /en/resources/current/how-to/criteria#configuration
+      hash: configuration
+      class: sublist
+      subfolder:
+      - title: Colour Scheme
+        url: /en/resources/current/how-to/criteria#colour-scheme
+        hash: colour-scheme
+      - title: Source Ontologies
+        url: /en/resources/current/how-to/criteria#source-ontologies
+        hash: source-ontologies
 - title: Memory Aids
   url: /en/resources/current/how-to/criteria#memory-aids
   hash: memory-aids

@@ -110,9 +110,6 @@ code {
 }
 
 .main-with-sidebar {
-	/*display: -webkit-flex;
-  	display: flex;*/
-  	/*padding: 0;*/
   	flex-direction: row;
 }
 
@@ -126,16 +123,20 @@ code {
 
 }
 
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
 /*--- SIDEBAR ---*/
 
 li a.active {
     color: #1756a9;
 }
 
-/*li a:link, li a:visited {
-	color: #5c5962;
-}
-*/
 .sidebar a {
 	color: #5c5962;
 }
@@ -149,20 +150,13 @@ li a.active {
 .mainlist>li>a {
 	font-weight: bold;
 }
-.sublist>li>a {
-	padding-left: 20px;
+
+.mainlist ul {
+	margin-left: 20px;
 }
 
 .sidebar a:hover {
 	color: black;
-}
-
-.subsublist>li>a {
-	padding-left: 40px;
-}
-
-.sub3list>li>a {
-	padding-left: 60px;
 }
 
 .sidebar {
@@ -193,18 +187,7 @@ li a.active {
 		display: inline-block;
 		overflow: hidden;
 	  	text-overflow: ellipsis;
-	}
-
-	.mainlist>li>a {
-		width: calc(100%);
-	}
-
-	.sublist>li>a {
-		width: calc(100% - 20px);
-	}
-
-	.subsublist>li>a {
-		width: calc(100% - 40px);
+	  	width: calc(100%);
 	}
 
 	.tooltip {
@@ -247,11 +230,6 @@ li a.active {
 .column.content a {
 	overflow-wrap: break-word;
 }
-/*.main-with-sidebar div.wrapper{
-	margin-left: 0;
-}*/
-
-
 
 /*--- align table text ---*/
 
@@ -284,9 +262,6 @@ blockquote {
 .disclaimer {
 	color: crimson;
 }
-/*.full-path {
-	font-family: "Monaco";
-}*/
 
 
 /*--- header ---*/
@@ -313,9 +288,6 @@ header .wrapper {
 	color: #111;
 }
 
-/*.has-dropdown.visible:hover {
-	text-decoration: none;
-}*/
 .has-dropdown:hover {
 	text-decoration: underline;
 }

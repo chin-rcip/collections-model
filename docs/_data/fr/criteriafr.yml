@@ -22,7 +22,7 @@ toc:
   - title: Démonstrateur en ligne
     url: /fr/ressources/actuel/mode-demploi/criteria#demonstrateur-en-ligne
     hash: demonstrateur-en-ligne
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Navigateurs recommandés
       url: /fr/ressources/actuel/mode-demploi/criteria#navigateurs-recommandes
@@ -33,7 +33,7 @@ toc:
   - title: Interface en ligne de commande
     url: /fr/ressources/actuel/mode-demploi/criteria#interface-en-ligne-de-commande
     hash: interface-en-ligne-de-commande
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Installation
       url: /fr/ressources/actuel/mode-demploi/criteria#installation
@@ -44,6 +44,25 @@ toc:
     - title: Utilisation
       url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-1
       hash: utilisation-1
+      class: sublist
+      subfolder:
+      - title: criteria.py
+        url: /fr/ressources/actuel/mode-demploi/criteria#criteriapy
+        hash: criteriapy
+    - title: Annotation de nœud
+      url: /fr/ressources/actuel/mode-demploi/criteria#annotation-de-noeud
+      hash: annotation-de-noeud
+    - title: Configuration
+      url: /fr/ressources/actuel/mode-demploi/criteria#configuration
+      hash: configuration
+      class: sublist
+      subfolder:
+      - title: Schème de couleurs
+        url: /fr/ressources/actuel/mode-demploi/criteria#scheme-de-couleurs
+        hash: scheme-de-couleurs
+      - title: Source des ontologies
+        url: /fr/ressources/actuel/mode-demploi/criteria#source-des-ontologies
+        hash: source-des-ontologies
 - title: Aide-mémoire
   url: /fr/ressources/actuel/mode-demploi/criteria#aide-memoire
   hash: aide-memoire
@@ -54,8 +73,8 @@ toc:
   url: /fr/ressources/actuel/mode-demploi/criteria#licence
   hash: licence
 - title: Utilisateurs dignes de mention
-  url: /fr/ressources/actuel/mode-demploi/criteria#utilisateurs-dignes-de-mention
-  hash: utilisateurs-dignes-de-mention
+  url: /fr/ressources/actuel/mode-demploi/criteria#utilisateurs-rices-dignes-de-mention
+  hash: utilisateurs-rices-dignes-de-mention
 - title: Bibliographie
   url: /fr/ressources/actuel/mode-demploi/criteria#bibliographie
   hash: bibliographie
