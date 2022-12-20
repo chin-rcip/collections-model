@@ -33,6 +33,9 @@
         {%- include footer.html -%}
       </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js"></script>
 
     <script type="text/javascript">
       function active(element) {
@@ -80,13 +83,69 @@
         $("#search-modal").show();
       });
 
+      // Fetching examples
+      if ($("html").attr("lang") == 'en'){
+          var tab_1_name = "Diagram"
+        } else {
+          var tab_1_name = "Diagramme"
+        };
+
+        var example = $(".example"), y;
+        for (y = 0; y < example.length; y++){
+            let exId = $(example[y]).attr("id");
+            // console.log(exId)
+            
+            $(example[y]).append(`<ul class="tabs-buttons">
+                <li name="`+exId+`_graph" class="tab displayed">`+tab_1_name+`</li>
+                <li name="`+exId+`_ttl" class="tab">Turtle</li>
+                <li name="`+exId+`_json" class="tab">JSON-LD</li>
+              </ul>
+            <div class="tabs-content">
+            <pre id="`+exId+`_graph" class="mermaid" onclick="sizeToggle(this)">
+            </pre>
+            <div id="`+exId+`_ttl" class="turtle" style="display:none">
+            <pre><code class="language-turtle"></code></pre>
+            </div>
+            <div id="`+exId+`_json" class="json" style="display:none">
+            <pre><code class="language-json"></code></pre>
+            </div>
+            </div>`);
+
+            fetch('/collections-model/examples/mmd/'+exId+'.mmd')
+            .then(response1 => response1.text())
+             .then((data1) => $("#"+exId+"_graph").text(data1));
+            fetch('/collections-model/examples/turtle/'+exId+'.ttl')
+            .then(response2 => response2.text())
+             .then((data2) => $("#"+exId+"_ttl code").text(data2));
+            fetch('/collections-model/examples/json-ld/'+exId+'.json')
+            .then(response3 => response3.text())
+             .then((data3) => $("#"+exId+"_json code").text(data3));
+        };
+
+        var config = {
+            startOnLoad:true,
+            flowchart:{
+                    useMaxWidth:true,
+                    htmlLabels:true,
+                    curve:'basis',
+                    rankSpacing:50
+            },
+            securityLevel:'loose',
+        };
+        
+
+
+      // document ready
       $(document).ready(function() {
         // Hide all tooltips on window load
         $(".tooltip").hide();
         highlight();
+        mermaid.initialize(config);
 
       });
 
+
+      // close modal
       $(".close").on("click", function(){
         $(".modal").hide();
       });
@@ -153,63 +212,8 @@
           tooltip.hide();
         }
       });
-    </script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js"></script>
-    <script>
-         
-        if ($("html").attr("lang") == 'en'){
-          var tab_1_name = "Diagram"
-        } else {
-          var tab_1_name = "Diagramme"
-        };
 
-        var example = $(".example"), y;
-        for (y = 0; y < example.length; y++){
-            let exId = $(example[y]).attr("id");
-            // console.log(exId)
-            
-            $(example[y]).append(`<ul class="tabs-buttons">
-                <li name="`+exId+`_graph" class="tab displayed">`+tab_1_name+`</li>
-                <li name="`+exId+`_ttl" class="tab">Turtle</li>
-                <li name="`+exId+`_json" class="tab">JSON-LD</li>
-              </ul>
-            <div class="tabs-content">
-            <div id="`+exId+`_graph" class="mermaid" onclick="sizeToggle(this)">
-            </div>
-            <div id="`+exId+`_ttl" class="turtle" style="display:none">
-            <pre><code class="language-turtle"></code></pre>
-            </div>
-            <div id="`+exId+`_json" class="json" style="display:none">
-            <pre><code class="language-json"></code></pre>
-            </div>
-            </div>`);
-
-            fetch('/collections-model/examples/mmd/'+exId+'.mmd')
-            .then(response1 => response1.text())
-             .then((data1) => $("#"+exId+"_graph").text(data1));
-            fetch('/collections-model/examples/turtle/'+exId+'.ttl')
-            .then(response2 => response2.text())
-             .then((data2) => $("#"+exId+"_ttl code").text(data2));
-            fetch('/collections-model/examples/json-ld/'+exId+'.json')
-            .then(response3 => response3.text())
-             .then((data3) => $("#"+exId+"_json code").text(data3));
-        };
-
-        var config = {
-            startOnLoad:true,
-            flowchart:{
-                    useMaxWidth:true,
-                    htmlLabels:true,
-                    curve:'basis',
-                    rankSpacing:50
-            },
-            securityLevel:'loose',
-        };
-        mermaid.initialize(config);
-    </script>
-
-    <script type="text/javascript">
+      // Mermaid diagrams zoom in/out
       function sizeToggle(element) {
         var svg = element.firstChild;
         if ($(svg).attr("width") === "100%") {
@@ -221,6 +225,7 @@
         }
       };
 
+      // Switching examples tabs
       $(".tab").on("click", function(){
         var tab_id = $(this).attr("name");
         console.log(tab_id)
@@ -228,11 +233,12 @@
         $("#"+tab_id).siblings().hide();
         $(this).addClass("displayed");
         $(this).siblings().removeClass("displayed");
-      })
+      });
     </script>
+    
 
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/components/prism-core.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+    
 
   </body>
 
