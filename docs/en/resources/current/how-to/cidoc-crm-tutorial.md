@@ -2,10 +2,11 @@
 layout: page
 language: en
 title: CIDOC CRM Tutorial
-permalink: /en/resources/current/cidoc-crm-tutorial
-other_link: /fr/ressources/actuel/tutoriel-cidoc-crm
+permalink: /en/resources/current/how-to/cidoc-crm-tutorial
+other_link: /fr/ressources/actuel/mode-demploi/tutoriel-cidoc-crm
 sidebar: tutcidocen
 group: resources
+subgroup: how-to
 date: 2022-03-08
 description: This document explains how to use the CIDOC CRM specification to identify entities that may address an identified need. To this end, brief definitions are provided for certain concepts associated with ontologies that leverage open and linked data.
 ---

@@ -38,13 +38,14 @@ header_pages_en:
   - en/licensing-documentation.md
   - en/tm/current/01-introduction.md
   - en/sps/current/01-introduction.md
-  - en/resources/current/cidoc-crm-tutorial.md
   - en/resources/current/glossary.md
   - en/resources/current/lod-benefits-challenges.md
   - en/resources/current/tools.md
   - en/resources/current/how-to/choosing-lod-model.md
+  - en/resources/current/how-to/cidoc-crm-tutorial.md
   - en/resources/current/how-to/criteria.md
   - en/resources/current/how-to/diagrams-net.md
+  - en/resources/current/how-to/specifications.md
   - en/reports/current/ng-report-1.md
   - en/reports/current/uris-technical-report.md
 header_pages_fr:
@@ -55,10 +56,11 @@ header_pages_fr:
   - fr/ressources/actuel/lod-avantages-defis.md
   - fr/ressources/actuel/glossaire.md
   - fr/ressources/actuel/outils.md
-  - fr/ressources/actuel/tutoriel-cidoc-crm.md
   - fr/ressources/actuel/mode-demploi/choix-modele-dol.md
-  - fr/ressources/actuel/mode-demploi/diagrams-net.md
   - fr/ressources/actuel/mode-demploi/criteria.md
+  - fr/ressources/actuel/mode-demploi/diagrams-net.md
+  - fr/ressources/actuel/mode-demploi/specifications.md
+  - fr/ressources/actuel/mode-demploi/tutoriel-cidoc-crm.md
   - fr/rapports/actuel/gn-rapport-1.md
   - fr/rapports/actuel/rapport-technique-uris.md
 

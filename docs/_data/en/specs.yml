@@ -1,0 +1,103 @@
+class: mainlist
+toc:
+
+- title: Main Uses
+  url: /en/resources/current/how-to/specifications#main-uses
+  hash: main-uses
+- title: Context
+  url: /en/resources/current/how-to/specifications#context
+  hash: context
+- title: Essential Vocabularies and Prior Knowledge
+  url: /en/resources/current/how-to/specifications#essential-vocabularies-and-prior-knowledge
+  hash: essential-vocabularies-and-prior-knowledge
+- title: Intended Audience·s and Section Description
+  url: /en/resources/current/how-to/specifications#intended-audiences-and-section-description
+  hash: intended-audiences-and-section-description
+- title: How-to
+  url: /en/resources/current/how-to/specifications#how-to
+  hash: how-to
+  class: sublist
+  subfolder:
+  - title: Target Model Specification
+    url: /en/resources/current/how-to/specifications#target-model-specification
+    hash: target-model-specification
+    class: sublist
+    subfolder:
+    - title: Usefulness
+      url: /en/resources/current/how-to/specifications#tms-usefulness
+      hash: tms-usefulness
+    - title: Structure
+      url: /en/resources/current/how-to/specifications#tms-structure
+      hash: tms-structure
+      class: sublist
+      subfolder:
+      - title: Chapter Division
+        url: /en/resources/current/how-to/specifications#tms-chapter-division
+        hash: tms-chapter-division
+    - title: Pattern Template
+      url: /en/resources/current/how-to/specifications#pattern-template
+      hash: pattern-template
+  - title: Semantic Paths Specification
+    url: /en/resources/current/how-to/specifications#semantic-paths-specification
+    hash: semantic-paths-specification
+    class: sublist
+    subfolder:
+    - title: Usefulness
+      url: /en/resources/current/how-to/specifications#sps-usefulness
+      hash: sps-usefulness
+    - title: Structure
+      url: /en/resources/current/how-to/specifications#sps-structure
+      hash: sps-structure
+      class: sublist
+      subfolder:
+      - title: Chapter Division
+        url: /en/resources/current/how-to/specifications#sps-chapter-division
+        hash: sps-chapter-division
+    - title: Entry Node Template
+      url: /en/resources/current/how-to/specifications#entry-node-template
+      hash: entry-node-template
+  - title: Using the TMS and SPS together
+    url: /en/resources/current/how-to/specifications#using-the-tms-and-sps-together
+    hash: using-the-tms-and-sps-together
+    class: sublist
+    subfolder:
+    - title: Complementary Specifications
+      url: /en/resources/current/how-to/specifications#complementary-specifications
+      hash: complementary-specifications
+    - title: Navigation
+      url: /en/resources/current/how-to/specifications#navigation
+      hash: navigation
+      class: sublist
+      subfolder:
+      - title: Sidebar
+        url: /en/resources/current/how-to/specifications#sidebar
+        hash: sidebar
+      - title: Search Tool
+        url: /en/resources/current/how-to/specifications#search-tool
+        hash: search-tool
+      - title: A-Z Diagram
+        url: /en/resources/current/how-to/specifications#a-z-diagram
+        hash: a-z-diagram
+    - title: Personas
+      url: /en/resources/current/how-to/specifications#personas
+      hash: personas
+      class: sublist
+      subfolder:
+      - title: Museum Cataloguer
+        url: /en/resources/current/how-to/specifications#museum-cataloguer
+        hash: museum-cataloguer
+      - title: Developer
+        url: /en/resources/current/how-to/specifications#developer
+        hash: developer
+      - title: Researcher
+        url: /en/resources/current/how-to/specifications#researcher
+        hash: researcher
+- title: Memory Aids
+  url: /en/resources/current/how-to/specifications#memory-aids
+  hash: memory-aids
+- title: For more information
+  url: /en/resources/current/how-to/specifications#for-more-information
+  hash: for-more-information
+- title: Bibliography
+  url: /en/resources/current/how-to/specifications#bibliography
+  hash: bibliography
