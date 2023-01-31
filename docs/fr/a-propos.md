@@ -24,7 +24,7 @@ Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philip
 
 ### Éditeurs principaux et Éditrices principales : 
 
-Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)
+Trang Dang (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)
 
 ### Contributeurs : 
 

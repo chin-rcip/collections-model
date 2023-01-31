@@ -23,7 +23,7 @@ Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philip
 
 ### Main Editors: 
 
-Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
+Trang Dang (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
 
 ### Contributors: 
 
