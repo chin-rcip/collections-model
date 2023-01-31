@@ -97,7 +97,7 @@ David Altmejd (`P190_has_symbolic_content`, Actor Appellation) was born in 1974 
 
 ### External Models
 
-* Linked.art: [Birth and Death/Formation and Dissolution] (https://linked.art/model/actor/#birth-and-death-formation-and-dissolution)
+* Linked.art: [Birth and Death/Formation and Dissolution](https://linked.art/model/actor/#birth-and-death-formation-and-dissolution)
 * SARI: [Person Reference Data Model – Person Existence](https://docs.swissartresearch.net/et/persons/#existence)
 
 ### Entry Nodes
