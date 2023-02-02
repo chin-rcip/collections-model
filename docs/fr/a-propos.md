@@ -20,15 +20,15 @@ Le suivi des problèmes actifs sera priorisé et les problèmes clos seront moni
 
 ### Auteurs et Auteures :
 
-Trang Dang (RCIP), Stephen Hart (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)
+Karine Léonard Brouillet (RCIP), Marie-Pier Blain, Philippe Michon (RCIP), Stephen Hart (RCIP), Trang Dang (RCIP)
 
 ### Éditeurs principaux et Éditrices principales : 
 
-Trang Dang (RCIP), Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP)
+Karine Léonard Brouillet (RCIP), Philippe Michon (RCIP), Trang Dang (RCIP)
 
 ### Contributeurs : 
 
-Bruno Lemay (RCIP), Emmanuel Château-Dutier (CRIHN-UdeM), Erin Canning (AKM), Ern Bieman (RCIP), George Bruseker (TAKIN), Heather Dunn (RCIP), Isabelle Jacques (MCC), Katrina Ojaste (RCIP), Ludovic Font (RCIP),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (RCIP), Nathalie Guénette (RCIP), Sheila Carey (RCIP), Xiaosong Chen (DGDPI)
+Bruno Lemay (RCIP), Christian Vachon (McCord Stewart), Emmanuel Château-Dutier (CRIHN-UdeM), Erin Canning (AKM), Ern Bieman (RCIP), George Bruseker (TAKIN), Heather Dunn (RCIP), Isabelle Jacques (MCC), Katrina Ojaste (CHIN), Ludovic Font (RCIP), Marie-Élaine Mathieu (MCQ), Marielle St-Germain (EBSI-UdeM), Martine Lachance (RCIP), Nathalie Guénette (RCIP), Sheila Carey (RCIP), Xiaosong Chen (DGDPI)
 
 ### Remerciements
 
@@ -37,10 +37,12 @@ Cédric Jean-Marie (DGDPI), Madeleine Lafaille (RCIP), Patrick Des Ruisseaux (DG
 ### Institutions
 
 * AKM: Aga Khan Museum 
-* CRIH: Centre de recherche interuniversitaire sur les humanités
+* CRIHN: Centre de recherche interuniversitaire sur les humanités numériques
 * DGDPI: Direction générale du dirigeant principal de l'information 
 * EBSI: École de bibliothéconomie et des sciences de l'information
 * MCC: Ministère de la Culture et des Communications du Québec
+* McCord Stewart: Musée McCord Stewart
+* MCQ: Musée de la civilisation 
 * RCIP: Réseau canadien d'information sur le patrimoine  
 * TAKIN: Takin.solutions Ltd.
 * UdeM: Université de Montréal

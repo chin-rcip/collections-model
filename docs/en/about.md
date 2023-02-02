@@ -19,15 +19,15 @@ Active issues will be prioritised and closed issues will be monitored on a more 
 
 ### Authors:
 
-Trang Dang (CHIN), Stephen Hart (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
+Karine Léonard Brouillet (CHIN), Marie-Pier Blain, Philippe Michon (CHIN), Stephen Hart (CHIN), Trang Dang (CHIN)
 
 ### Main Editors: 
 
-Trang Dang (CHIN), Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN)
+Karine Léonard Brouillet (CHIN), Philippe Michon (CHIN), Trang Dang (CHIN)
 
 ### Contributors: 
 
-Bruno Lemay (CHIN), Emmanuel Château-Dutier (CRIHN-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Isabelle Jacques (MCC), Katrina Ojaste (CHIN), Ludovic Font (CHIN),  Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Sheila Carey (CHIN), Xiaosong Chen (CIOB)
+Bruno Lemay (CHIN), Christian Vachon (McCord Stewart), Emmanuel Château-Dutier (CRIHN-UdeM), Erin Canning (AKM), Ern Bieman (CHIN), George Bruseker (TAKIN), Heather Dunn (CHIN), Isabelle Jacques (MCC), Katrina Ojaste (CHIN), Ludovic Font (CHIN), Marie-Élaine Mathieu (MCQ), Marielle St-Germain (EBSI-UdeM), Martine Lachance (CHIN), Nathalie Guénette (CHIN), Sheila Carey (CHIN), Xiaosong Chen (CIOB)
 
 ### Thank Yous
 
@@ -38,9 +38,10 @@ Cédric Jean-Marie (CIOB), Madeleine Lafaille (CHIN), Patrick Des Ruisseaux (CIO
 * AKM: Aga Khan Museum 
 * CHIN: Canadian Heritage Information Network 
 * CIOB: Chief Information Officer Branch 
-* CRIH: Centre de recherche interuniversitaire sur les humanités
+* CRIHN: Centre de recherche interuniversitaire sur les humanités numériques
 * EBSI: École de bibliothéconomie et des sciences de l'information
-* MCC: Ministère de la Culture et des Communications du Québec 
+* MCC: Ministère de la Culture et des Communications du Québec
+* McCord Stewart: McCord Stewart Museum
+* MCQ: Musée de la civilisation 
 * TAKIN: Takin.solutions Ltd.
 * UdeM: Université de Montréal
-
