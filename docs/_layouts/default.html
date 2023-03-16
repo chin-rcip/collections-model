@@ -36,7 +36,7 @@
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js"></script>
-
+    <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
     <script type="text/javascript">
       function active(element) {
         var cur_active = document.getElementsByClassName("active");
@@ -77,6 +77,12 @@
         }
       };
 
+      // calculate max-min-width-height of diagrams
+      function diagramResize() {
+        var content_height = $(".column.content").height(); // main-content width
+        var diagrams = $(".geDiagramContainer");
+        diagrams.css('max-height', content_height);
+      };
 
       // show search modal
       $("#search-icon").on("click", function(){
@@ -141,9 +147,14 @@
         $(".tooltip").hide();
         highlight();
         mermaid.initialize(config);
-
+        // Diagrams
+        diagramResize();
       });
 
+      // adjust diagrams width on window resizing
+      $(window).resize(function() {
+        diagramResize();
+      });
 
       // close modal
       $(".close").on("click", function(){
