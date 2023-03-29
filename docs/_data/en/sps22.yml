@@ -8,426 +8,288 @@ toc:
   class: sublist
   subfolder:
   - title: Dates
-    url: /en/semantic-paths-specification/current/introduction#dates
     hash: dates
   - title: Abstract
-    url: /en/semantic-paths-specification/current/introduction#abstract
     hash: abstract
   - title: Foreword
-    url: /en/semantic-paths-specification/current/introduction#foreword
     hash: foreword
   - title: Glossary
-    url: /en/semantic-paths-specification/current/introduction#glossary
     hash: glossary    
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Entry Node
-      url: /en/semantic-paths-specification/version-2-1/introduction#entry-node
       hash: entry-node
     - title: Generated Node
-      url: /en/semantic-paths-specification/version-2-1/introduction#generated-node
       hash: generated-node
     - title: Specified Qualifier Node (SQN)
-      url: /en/semantic-paths-specification/version-2-1/introduction#specified-qualifier-node-sqn
       hash: specified-qualifier-node-sqn
     - title: Node
-      url: /en/semantic-paths-specification/version-2-1/introduction#node
       hash: node
   - title: Documentation Structure
-    url: /en/semantic-paths-specification/current/introduction#documentation-structure
-    hash: documentation-structure-
+    hash: documentation-structure
 
 - title: Entry Nodes
   url: /en/semantic-paths-specification/current/entry-nodes
   class: sublist
   subfolder:
   - title: Actor Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation
     hash: actor-appellation
   - title: Actor Appellation Language
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-language
     hash: actor-appellation-language
   - title: Actor Appellation Part
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-part
     hash: actor-appellation-part
   - title: Actor Appellation Part Type
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-part-type
     hash: actor-appellation-part-type
   - title: Actor Appellation Precedence
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-precedence
     hash: actor-appellation-precedence
   - title: Actor Appellation Type
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-type
     hash: actor-appellation-type
   - title: Actor Appellation Use Context
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-context
     hash: actor-appellation-use-context
   - title: Actor Appellation Use Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-begin
     hash: actor-appellation-use-date-begin
   - title: Actor Appellation Use Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-begin-qualifier
     hash: actor-appellation-use-date-begin-qualifier
   - title: Actor Appellation Use Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-end
     hash: actor-appellation-use-date-end
   - title: Actor Appellation Use Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-appellation-use-date-end-qualifier
     hash: actor-appellation-use-date-end-qualifier
   - title: Actor ID
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-id
     hash: actor-id
   - title: Actor ID Type
-    url: /en/semantic-paths-specification/current/entry-nodes#actor-id-type
     hash: actor-id-type
   - title: Annotation
-    url: /en/semantic-paths-specification/current/entry-nodes#annotation
     hash: annotation
   - title: Artefact Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#artefact-appellation
     hash: artefact-appellation
   - title: Artefact Appellation Language
-    url: /en/semantic-paths-specification/current/entry-nodes#artefact-appellation-language
     hash: artefact-appellation-language
   - title: Artefact Appellation Precedence
-    url: /en/semantic-paths-specification/current/entry-nodes#artefact-appellation-precedence
     hash: artefact-appellation-precedence
   - title: Artefact Appellation Type
-    url: /en/semantic-paths-specification/current/entry-nodes#artefact-appellation-type
     hash: artefact-appellation-type
   - title: Artefact ID
-    url: /en/semantic-paths-specification/current/entry-nodes#artefact-id
     hash: artefact-id
   - title: Artefact ID Type
-    url: /en/semantic-paths-specification/current/entry-nodes#artefact-id-type
     hash: artefact-id-type
   - title: Biography Content
-    url: /en/semantic-paths-specification/current/entry-nodes#biography-content
     hash: biography-content
   - title: Biography Language
-    url: /en/semantic-paths-specification/current/entry-nodes#biography-language
     hash: biography-language
   - title: Biography Bibliographical Mention
-    url: /en/semantic-paths-specification/current/entry-nodes#biography-bibliographical-mention
     hash: biography-bibliographical-mention
   - title: Birth Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#birth-date-begin
     hash: birth-date-begin
   - title: Birth Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#birth-date-begin-qualifier
     hash: birth-date-begin-qualifier
   - title: Birth Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#birth-date-end
     hash: birth-date-end
   - title: Birth Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#birth-date-end-qualifier
     hash: birth-date-end-qualifier
   - title: Birth Place
-    url: /en/semantic-paths-specification/current/entry-nodes#birth-place
     hash: birth-place
   - title: Curatorial Note Content
-    url: /en/semantic-paths-specification/current/entry-nodes#curatorial-note-content
     hash: curatorial-note-content
   - title: Curatorial Note Author Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#curatorial-note-author-appellation
     hash: curatorial-note-author-appellation
   - title: Curatorial Note Language
-    url: /en/semantic-paths-specification/current/entry-nodes#curatorial-note-language
     hash: curatorial-note-language
   - title: Dataset Creation Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#dataset-creation-date-begin
     hash: dataset-creation-date-begin
   - title: Dataset Creation Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#dataset-creation-date-end
     hash: dataset-creation-date-end
   - title: Dataset Creation Participant Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#dataset-creation-participant-appellation
     hash: dataset-creation-participant-appellation
   - title: Dataset Creation Participant Role
-    url: /en/semantic-paths-specification/current/entry-nodes#dataset-creation-participant-role
     hash: dataset-creation-participant-role
   - title: Death Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#death-date-begin
     hash: death-date-begin
   - title: Death Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#death-date-begin-qualifier
     hash: death-date-begin-qualifier
   - title: Death Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#death-date-end
     hash: death-date-end
   - title: Death Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#death-date-end-qualifier
     hash: death-date-end-qualifier
   - title: Death Place
-    url: /en/semantic-paths-specification/current/entry-nodes#death-place
     hash: death-place
   - title: Dissolution Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#dissolution-date-begin
     hash: dissolution-date-begin
   - title: Dissolution Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#dissolution-date-begin-qualifier
     hash: dissolution-date-begin-qualifier
   - title: Dissolution Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#dissolution-date-end
     hash: dissolution-date-end
   - title: Dissolution Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#dissolution-date-end-qualifier
     hash: dissolution-date-end-qualifier
   - title: Dissolution Place
-    url: /en/semantic-paths-specification/current/entry-nodes#dissolution-place
     hash: dissolution-place
   - title: Dissolving Actor Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#dissolving-actor-appellation
     hash: dissolving-actor-appellation
   - title: Family Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#family-appellation
     hash: family-appellation
   - title: Family Joining Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#family-joining-date-begin
     hash: family-joining-date-begin
   - title: Family Joining Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#family-joining-date-begin-qualifier
     hash: family-joining-date-begin-qualifier
   - title: Family Joining Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#family-joining-date-end
     hash: family-joining-date-end
   - title: Family Joining Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#family-joining-date-end-qualifier
     hash: family-joining-date-end-qualifier
   - title: Family Leaving Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#family-leaving-date-begin
     hash: family-leaving-date-begin
   - title: Family Leaving Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#family-leaving-date-begin-qualifier
     hash: family-leaving-date-begin-qualifier
   - title: Family Leaving Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#family-leaving-date-end
     hash: family-leaving-date-end
   - title: Family Leaving Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#family-leaving-date-end-qualifier
     hash: family-leaving-date-end-qualifier
   - title: Father Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#father-appellation
     hash: father-appellation
   - title: Final Disposition Place
-    url: /en/semantic-paths-specification/current/entry-nodes#final-disposition-place
     hash: final-disposition-place
   - title: Flourishing Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#flourishing-date-begin
     hash: flourishing-date-begin
   - title: Flourishing Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#flourishing-date-begin-qualifier
     hash: flourishing-date-begin-qualifier
   - title: Flourishing Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#flourishing-date-end
     hash: flourishing-date-end
   - title: Flourishing Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#flourishing-date-end-qualifier
     hash: flourishing-date-end-qualifier
   - title: Flourishing Place
-    url: /en/semantic-paths-specification/current/entry-nodes#flourishing-place
     hash: flourishing-place
   - title: Formation Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#formation-date-begin
     hash: formation-date-begin
   - title: Formation Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#formation-date-begin-qualifier
     hash: formation-date-begin-qualifier
   - title: Formation Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#formation-date-end
     hash: formation-date-end
   - title: Formation Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#formation-date-end-qualifier
     hash: formation-date-end-qualifier
   - title: Formation Place
-    url: /en/semantic-paths-specification/current/entry-nodes#formation-place
     hash: formation-place
   - title: Founding Actor Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#founding-actor-appellation
     hash: founding-actor-appellation
   - title: Group Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#group-appellation
     hash: group-appellation
   - title: Group Joining Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#group-joining-date-begin
     hash: group-joining-date-begin
   - title: Group Joining Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#group-joining-date-begin-qualifier
     hash: group-joining-date-begin-qualifier
   - title: Group Joining Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#group-joining-date-end
     hash: group-joining-date-end
   - title: Group Joining Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#group-joining-date-end-qualifier
     hash: group-joining-date-end-qualifier
   - title: Group Leaving Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#group-leaving-date-begin
     hash: group-leaving-date-begin
   - title: Group Leaving Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#group-leaving-date-begin-qualifier
     hash: group-leaving-date-begin-qualifier
   - title: Group Leaving Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#group-leaving-date-end
     hash: group-leaving-date-end
   - title: Group Leaving Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#group-leaving-date-end-qualifier
     hash: group-leaving-date-end-qualifier
   - title: Group Member Role
-    url: /en/semantic-paths-specification/current/entry-nodes#group-member-role
     hash: group-member-role
   - title: Image Bibliographical Mention
-    url: /en/semantic-paths-specification/current/entry-nodes#image-bibliographical-mention
     hash: image-bibliographical-mention
   - title: Image URL
-    url: /en/semantic-paths-specification/current/entry-nodes#image-url
     hash: image-url
   - title: Mark Bibliographical Mention
-    url: /en/semantic-paths-specification/current/entry-nodes#mark-bibliographical-mention
     hash: mark-bibliographical-mention
   - title: Mark Type
-    url: /en/semantic-paths-specification/current/entry-nodes#mark-type
     hash: mark-type
   - title: Mark URL
-    url: /en/semantic-paths-specification/current/entry-nodes#mark-url
     hash: mark-url
   - title: Messy Data Statement Content
-    url: /en/semantic-paths-specification/current/entry-nodes#messy-data-statement-content
     hash: messy-data-statement-content
   - title: Messy Data Statement Language
-    url: /en/semantic-paths-specification/current/entry-nodes#messy-data-statement-language
     hash: messy-data-statement-language
   - title: Messy Data Statement Type
-    url: /en/semantic-paths-specification/current/entry-nodes#messy-data-statement-type
     hash: messy-data-statement-type
   - title: Mother Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#mother-appellation
     hash: mother-appellation
   - title: Occupation Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#occupation-date-begin
     hash: occupation-date-begin
   - title: Occupation Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#occupation-date-begin-qualifier
     hash: occupation-date-begin-qualifier
   - title: Occupation Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#occupation-date-end
     hash: occupation-date-end
   - title: Occupation Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#occupation-date-end-qualifier
     hash: occupation-date-end-qualifier
   - title: Occupation Place
-    url: /en/semantic-paths-specification/current/entry-nodes#occupation-place
     hash: occupation-place
   - title: Occupation Type
-    url: /en/semantic-paths-specification/current/entry-nodes#occupation-type
     hash: occupation-type
   - title: Production Actor Priority
-    url: /en/semantic-paths-specification/current/entry-nodes#production-actor-priority
     hash: production-actor-priority
   - title: Production Actor Role
-    url: /en/semantic-paths-specification/current/entry-nodes#production-actor-role
     hash: production-actor-role
   - title: Production Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#production-date-begin
     hash: production-date-begin
   - title: Production Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#production-date-begin-qualifier
     hash: production-date-begin-qualifier
   - title: Production Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#production-date-end
     hash: production-date-end
   - title: Production Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#production-date-end-qualifier
     hash: production-date-end-qualifier
   - title: Production Place
-    url: /en/semantic-paths-specification/current/entry-nodes#production-place
     hash: production-place
   - title: Record Contributor Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#record-contributor-appellation
     hash: record-contributor-appellation
   - title: Record Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#record-date-begin
     hash: record-date-begin
   - title: Record Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#record-date-end
     hash: record-date-end
   - title: Reference Document Call Number
-    url: /en/semantic-paths-specification/current/entry-nodes#reference-document-call-number
     hash: reference-document-call-number
   - title: Reference Document Institution Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#reference-document-institution-appellation
     hash: reference-document-institution-appellation
   - title: Reference Document Place
-    url: /en/semantic-paths-specification/current/entry-nodes#reference-document-place
     hash: reference-document-place
   - title: Related Actor Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#related-actor-appellation
     hash: related-actor-appellation
   - title: Related Actor Role
-    url: /en/semantic-paths-specification/current/entry-nodes#related-actor-role
     hash: related-actor-role
   - title: Relationship Actor Role
-    url: /en/semantic-paths-specification/current/entry-nodes#relationship-actor-role
     hash: relationship-actor-role
   - title: Relationship Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#relationship-date-begin
     hash: relationship-date-begin
   - title: Relationship Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#relationship-date-begin-qualifier
     hash: relationship-date-begin-qualifier
   - title: Relationship Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#relationship-date-end
     hash: relationship-date-end
   - title: Relationship Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#relationship-date-end-qualifier
     hash: relationship-date-end-qualifier
   - title: Relationship Type
-    url: /en/semantic-paths-specification/current/entry-nodes#relationship-type
     hash: relationship-type
   - title: Social Status Ascribing Actor Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-ascribing-actor-appellation
     hash: social-status-ascribing-actor-appellation
   - title: Social Status Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-date-begin
     hash: social-status-date-begin
   - title: Social Status Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-date-begin-qualifier
     hash: social-status-date-begin-qualifier
   - title: Social Status Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-date-end
     hash: social-status-date-end
   - title: Social Status Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-date-end-qualifier
     hash: social-status-date-end-qualifier
   - title: Social Status Place
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-place
     hash: social-status-place
   - title: Social Status Type
-    url: /en/semantic-paths-specification/current/entry-nodes#social-status-type
     hash: social-status-type
   - title: Stay Date Begin
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-date-begin
     hash: stay-date-begin
   - title: Stay Date Begin Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-date-begin-qualifier
     hash: stay-date-begin-qualifier
   - title: Stay Date End
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-date-end
     hash: stay-date-end
   - title: Stay Date End Qualifier
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-date-end-qualifier
     hash: stay-date-end-qualifier
   - title: Stay Place
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-place
     hash: stay-place
   - title: Stay Type
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-type
     hash: stay-type
   - title: Stay Used Appellation
-    url: /en/semantic-paths-specification/current/entry-nodes#stay-used-appellation
     hash: stay-used-appellation
   - title: Technique Used Type
-    url: /en/semantic-paths-specification/current/entry-nodes#technique-used-type
-    hash: technique-used-type-
+    hash: technique-used-type
 
 - title: Bibliography
   url: /en/semantic-paths-specification/current/bibliography

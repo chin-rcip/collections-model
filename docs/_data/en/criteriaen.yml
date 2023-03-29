@@ -1,80 +1,58 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Main Use
-  url: /en/resources/current/how-to/criteria#main-use
   hash: main-use
 - title: Context
-  url: /en/resources/current/how-to/criteria#context
   hash: context
 - title: Essential Vocabularies and Prior Knowledge
-  url: /en/resources/current/how-to/criteria#essential-vocabularies-and-prior-knowledge
   hash: essential-vocabularies-and-prior-knowledge
 - title: Intended Audiences
-  url: /en/resources/current/how-to/criteria#intended-audiences
   hash: intended-audiences
 - title: Instructions
-  url: /en/resources/current/how-to/criteria#instructions
   hash: instructions
   class: sublist
   subfolder:
   - title: Live demonstrator
-    url: /en/resources/current/how-to/criteria#live-demonstrator
     hash: live-demonstrator
     class: sublist
     subfolder:
     - title: Recommended browsers
-      url: /en/resources/current/how-to/criteria#recommended-browsers
       hash: recommended-browsers
     - title: Usage
-      url: /en/resources/current/how-to/criteria#usage
       hash: usage
   - title: Command Line Interface (CLI)
-    url: /en/resources/current/how-to/criteria#command-line-interface-cli
     hash: command-line-interface-cli
     class: sublist
     subfolder:
     - title: Installation
-      url: /en/resources/current/how-to/criteria#installation
       hash: installation
     - title: Requirements
-      url: /en/resources/current/how-to/criteria#requirements
       hash: requirements
     - title: Usage
-      url: /en/resources/current/how-to/criteria#usage-1
       hash: usage-1
       class: sublist
       subfolder:
       - title: criteria.py
-        url: /en/resources/current/how-to/criteria#criteriapy
         hash: criteriapy
     - title: Node Annotation
-      url: /en/resources/current/how-to/criteria#node-annotation
       hash: node-annotation
     - title: Configuration
-      url: /en/resources/current/how-to/criteria#configuration
       hash: configuration
       class: sublist
       subfolder:
       - title: Colour Scheme
-        url: /en/resources/current/how-to/criteria#colour-scheme
         hash: colour-scheme
       - title: Source Ontologies
-        url: /en/resources/current/how-to/criteria#source-ontologies
         hash: source-ontologies
 - title: Memory Aids
-  url: /en/resources/current/how-to/criteria#memory-aids
   hash: memory-aids
 - title: For More Information
-  url: /en/resources/current/how-to/criteria#for-more-information
   hash: for-more-information
 - title: Licence
-  url: /en/resources/current/how-to/criteria#licence
   hash: licence
 - title: Notable Users
-  url: /en/resources/current/how-to/criteria#notable-users
   hash: notable-users
 - title: Bibliography
-  url: /en/resources/current/how-to/criteria#bibliography
   hash: bibliography

@@ -1,92 +1,68 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Introduction
-  url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#introduction
   hash: introduction
 - title: Catégories de questions d’enquête et structure des questions
-  url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#categories-de-questions-denquete-et-structure-des-questions
   hash: categories-de-questions-denquete-et-structure-des-questions
   class: sublist
   subfolder:
   - title: 1. Approche générale
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#approche-generale
     hash: approche-generale
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 1 - Utilisation des graphes nommés dans la gestion des données
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-1-utilisation-des-graphes-nommes-dans-la-gestion-des-donnees
       hash: question-1-utilisation-des-graphes-nommes-dans-la-gestion-des-donnees
     - title: Question 2 - Format des graphes nommés
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-2-format-des-graphes-nommes
       hash: question-2-format-des-graphes-nommes
   - title: 2. Utilisation des graphes nommés pour l’agrégation
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#utilisation-de-graphes-nommes-pour-lagregation
     hash: utilisation-de-graphes-nommes-pour-lagregation
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 3 - Utilisation de graphes nommés dans les processus d’agrégation
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-3-utilisation-de-graphes-nommes-dans-les-processus-dagregation
       hash: question-3-utilisation-de-graphes-nommes-dans-les-processus-dagregation
     - title: Question 4 - Niveau d’application des graphes nommés
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-4-niveau-dapplication-des-graphes-nommes
       hash: question-4-niveau-dapplication-des-graphes-nommes
     - title: Question 5 - Processus de point d’application des graphes nommés
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-5-processus-de-point-dapplication-des-graphes-nommes
       hash: question-5-processus-de-point-dapplication-des-graphes-nommes
   - title: 3. Fonctions des graphes nommés
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#fonctions-des-graphes-nommes
     hash: fonctions-des-graphes-nommes
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 6 - Autres fonctions/applications des graphes nommés
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-6-autres-fonctions-applications-des-graphes-nommes
       hash: question-6-autres-fonctions-applications-des-graphes-nommes
   - title: 4. Forme/limite des graphes nommés
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#forme-limite-des-graphes-nommes
     hash: forme-limite-des-graphes-nommes
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 7 - Politique des graphes nommés
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-7-politique-des-graphes-nommes
       hash: question-7-politique-des-graphes-nommes
     - title: Question 8 - Paramètres de définition des graphes nommés
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-8-parametres-de-definition-des-graphes-nommes
       hash: question-8-parametres-de-definition-des-graphes-nommes
   - title: 5. Graphes nommés et récupération de l'information
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#graphes-nommes-et-recuperation-de-linformation
     hash: graphes-nommes-et-recuperation-de-linformation
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 9 - Fonctionnalité des graphes nommés et des requêtes
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-9-fonctionnalite-des-graphes-nommes-et-des-requetes
       hash: question-9-fonctionnalite-des-graphes-nommes-et-des-requetes
   - title: 6. Informations générales
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#informations-generales
     hash: informations-generales
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 10 - Informations supplémentaires
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-10-informations-supplementaires
       hash: question-10-informations-supplementaires
     - title: Question 11 - Projets et logiciels d’importance
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-11--projets-et-logiciels-dimportance
       hash: question-11--projets-et-logiciels-dimportance
     - title: Question 12 - Adéquation de l’enquête
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-12-adequation-de-lenquete
       hash: question-12-adequation-de-lenquete
   - title: 7. Données démographiques
-    url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#donnees-demographiques
     hash: donnees-demographiques
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Question 0 - Données démographiques
-      url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#question-0-donnees-demographiques
       hash: question-0-donnees-demographiques
 - title: Discussion sur les résultats de l’enquête générale
-  url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#discussion-sur-les-resultats-de-lenquete-generale
   hash: discussion-sur-les-resultats-de-lenquete-generale
 - title: Conclusion
-  url: /fr/rapports-techniques/actuel/rapport-denquete-des-graphes-nommes-1#conclusion
   hash: conclusion

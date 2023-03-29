@@ -7,30 +7,22 @@ toc:
   class: sublist
   subfolder:
   - title: Dates
-    url: /en/target-model/version-2-1/introduction#dates
     hash: dates
   - title: Abstract
-    url: /en/target-model/version-2-1/introduction#abstract
     hash: abstract
   - title: Purpose of the Target Model
-    url: /en/target-model/version-2-1/introduction#purpose-of-the-target-model
     hash: purpose-of-the-target-model
   - title: Methods and Sources
-    url: /en/target-model/version-2-1/introduction#methods-and-sources
     hash: methods-and-sources
   - title: Modelling Conventions
-    url: /en/target-model/version-2-1/introduction#modelling-conventions
     hash: modelling-conventions
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Patterns
-      url: /en/target-model/version-2-1/introduction#patterns
       hash: patterns
     - title: Examples
-      url: /en/target-model/version-2-1/introduction#examples
       hash: examples
   - title: A-Z Diagram
-    url: /en/target-model/version-2-1/introduction#a-z-diagram
     hash: a-z-diagram
 
 - title: General Concepts
@@ -38,50 +30,37 @@ toc:
   class: sublist
   subfolder:
   - title: Prioritization of E55_Type and P2_has_type over new classes and properties
-    url: /en/target-model/version-2-1/general-concepts#prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
     hash: prioritization-of-e55_type-and-p2_has_type-over-new-classes-and-properties
   - title: Differences Between E39_Actor, E21_Person and E74_Group
-    url: /en/target-model/version-2-1/general-concepts#differences-between-e39_actor-e21_person-and-e74_group
     hash: differences-between-e39_actor-e21_person-and-e74_group
   - title: Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
-    url: /en/target-model/version-2-1/general-concepts#semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
     hash: semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Labels
-      url: /en/target-model/version-2-1/general-concepts#labels
       hash: labels
     - title: Annotations and Comments
-      url: /en/target-model/version-2-1/general-concepts#annotations-and-comments
       hash: annotations-and-comments
     - title: Literal Content
-      url: /en/target-model/version-2-1/general-concepts#literal-content
       hash: literal-content
   - title: Mapping problems and E33_Linguistic_Object
-    url: /en/target-model/version-2-1/general-concepts#mapping-problems-and-e33_linguistic_object
     hash: mapping-problems-and-e33_linguistic_object
   - title: Property-Classes
-    url: /en/target-model/version-2-1/general-concepts#property-classes
     hash: property-classes
   - title: Data Provenance
-    url: /en/target-model/version-2-1/general-concepts#data-provenance
     hash: data-provenance
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Provenance of the Dataset
-      url: /en/target-model/version-2-1/general-concepts#provenance-of-the-dataset
       hash: provenance-of-the-dataset
     - title: Record Provenance with Aggregated Contributors
-      url: /en/target-model/version-2-1/general-concepts#record-provenance-with-aggregated-contributors
       hash: record-provenance-with-aggregated-contributors
     # - title: Limits of and Issues with the Named Graph and “Record” approach
-    #   url: /en/target-model/version-2-1/general-concepts#limits-of-and-issues-with-the-named-graph-and-record-approach
+    #
     #   hash: limits-of-and-issues-with-the-named-graph-and-record-approach
   - title: Challenges When Representing Indigenous Realities
-    url: /en/target-model/version-2-1/general-concepts#challenges-when-representing-indigenous-realities
     hash: challenges-when-representing-indigenous-realities
   - title: Dates Pattern
-    url: /en/target-model/version-2-1/general-concepts#dates-pattern
     hash: dates-pattern
 
 - title: Identification
@@ -89,27 +68,20 @@ toc:
   class: sublist
   subfolder:
   - title: Identifiers and Appellations
-    url: /en/target-model/version-2-1/identification#identifiers-and-appellations
     hash: identifiers-and-appellations
   - title: Identity
-    url: /en/target-model/version-2-1/identification#identity
     hash: identity
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Definitions
-      url: /en/target-model/version-2-1/identification#definitions
       hash: definitions
     - title: Identity Patterns
-      url: /en/target-model/version-2-1/identification#identity-patterns
       hash: identity-patterns
     - title: Rendering Gender and Cultural Affiliation with E55_Type
-      url: /en/target-model/version-2-1/identification#rendering-gender-and-cultural-affiliation-with-e55_type
       hash: rendering-gender-and-cultural-affiliation-with-e55_type
     - title: Nationality, Nationhood and Community With E74_Group
-      url: /en/target-model/version-2-1/identification#nationality-nationhood-and-community-with-e74_group
       hash: nationality-nationhood-and-community-with-e74_group
     - title: Group Type with E55_Type
-      url: /en/target-model/version-2-1/identification#group-type-with-e55_type
       hash: group-type-with-e55_type
 
 - title: Life Events
@@ -117,39 +89,28 @@ toc:
   class: sublist
   subfolder:
   - title: Technique Used
-    url: /en/target-model/version-2-1/life-events#technique-used
     hash: technique-used
   - title: Occupation
-    url: /en/target-model/version-2-1/life-events#occupation
     hash: occupation
   - title: Social Status
-    url: /en/target-model/version-2-1/life-events#social-status
     hash: social-status
   - title: Flourishing dates
-    url: /en/target-model/version-2-1/life-events#flourishing-dates
     hash: flourishing-dates
   - title: Specific traits
-    url: /en/target-model/version-2-1/life-events#specific-traits
     hash: specific-traits
   - title: Artistic Movements
-    url: /en/target-model/version-2-1/life-events#artistic-movements
     hash: artistic-movements
   - title: Birth/Death of People and Formation/Dissolution of Groups
-    url: /en/target-model/version-2-1/life-events#birthdeath-of-people-and-formationdissolution-of-groups
     hash: birthdeath-of-people-and-formationdissolution-of-groups
   - title: Moving events
-    url: /en/target-model/version-2-1/life-events#moving-events
     hash: moving-events
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Legal Headquarter Attribution
-      url: /en/target-model/version-2-1/life-events#legal-headquarter-attribution
       hash: legal-headquarter-attribution
     - title: E7_Activity Stay for E21_Person and E74_Group
-      url: /en/target-model/version-2-1/life-events#e7_activity-stay-for-e21_person-and-e74_group
       hash: e7_activity-stay-for-e21_person-and-e74_group
   - title: Influences
-    url: /en/target-model/version-2-1/life-events#influences
     hash: influences
 
 - title: Social Bonds
@@ -157,10 +118,8 @@ toc:
   class: sublist
   subfolder:
   - title: Relationships
-    url: /en/target-model/version-2-1/social-bonds#relationships
     hash: relationships
   - title: Group Belonging
-    url: /en/target-model/version-2-1/social-bonds#group-belonging
     hash: group-belonging
     
 - title: Descriptive Information
@@ -168,13 +127,10 @@ toc:
   class: sublist
   subfolder:
   - title: Biography
-    url: /en/target-model/version-2-1/descriptive-information#biography
     hash: biography
   - title: Visual Item
-    url: /en/target-model/version-2-1/descriptive-information#visual-item
     hash: visual-item
   - title: Curatorial Note
-    url: /en/target-model/version-2-1/descriptive-information#curatorial-note
     hash: curatorial-note
 
 - title: Artefacts
@@ -182,10 +138,8 @@ toc:
   class: sublist
   subfolder:
   - title: Artefact Creation and the Role of the Actor in the Creation
-    url: /en/target-model/version-2-1/artefacts#artefact-creation-and-the-role-of-the-actor-in-the-creation
     hash: artefact-creation-and-the-role-of-the-actor-in-the-creation
   - title: Artefact (Before the Development of the Objects Facet)
-    url: /en/target-model/version-2-1/artefacts#artefact-before-the-development-of-the-objects-facet
     hash: artefact-before-the-development-of-the-objects-facet
 
 - title: Archival Document Location
@@ -205,13 +159,10 @@ toc:
   class: sublist
   subfolder:
   - title: Language
-    url: /en/target-model/version-2-1/appendix-b-appellations#language
     hash: language
   - title: Preference
-    url: /en/target-model/version-2-1/appendix-b-appellations#preference
     hash: preference
   - title: Partitioning
-    url: /en/target-model/version-2-1/appendix-b-appellations#partitioning
     hash: partitioning
 
 - title: Appendix C
@@ -219,13 +170,10 @@ toc:
   class: sublist
   subfolder:
   - title: With E5_Event
-    url: /en/target-model/version-2-1/appendix-c-identity#with-e5_event
     hash: with-e5_event
   - title: With Bio CRM
-    url: /en/target-model/version-2-1/appendix-c-identity#with-bio-crm
     hash: with-bio-crm
   - title: With ore:Aggregation
-    url: /en/target-model/version-2-1/appendix-c-identity#with-oreaggregation
     hash: with-oreaggregation
 
 - title: Appendix D
@@ -233,10 +181,8 @@ toc:
   class: sublist
   subfolder:
   - title: The Agent Relationship Ontology
-    url: /en/target-model/version-2-1/appendix-d-relationships#the-agent-relationship-ontology
     hash: the-agent-relationship-ontology
   - title: Bio CRM
-    url: /en/target-model/version-2-1/appendix-d-relationships#bio-crm
     hash: bio-crm
 
 - title: Appendix E
@@ -247,34 +193,24 @@ toc:
   class: sublist
   subfolder:
   - title: Discussion - The Differences Between E39_Actor, E21_Person and E74_Group
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-the-differences-between-e39_actor-e21_person-and-e74_group
     hash: discussion-the-differences-between-e39_actor-e21_person-and-e74_group
   - title: Discussion - Semantic Differences Between Contents, Labels, Notes and Comments, and Descriptive Texts
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
     hash: discussion-semantic-differences-between-contents-labels-notes-and-comments-and-descriptive-texts
   - title: Discussion - Challenges When Representing Indigenous Realities
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-challenges-when-representing-indigenous-realities
     hash: discussion-challenges-when-representing-indigenous-realities
   - title: Discussion - Identity Definitions
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-identity-definitions
     hash: discussion-identity-definitions
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Pertaining to Culture
-      url: /en/target-model/version-2-1/appendix-f-discussions#pertaining-to-culture
       hash: pertaining-to-culture
     - title: Pertaining to Community
-      url: /en/target-model/version-2-1/appendix-f-discussions#pertaining-to-community
       hash: pertaining-to-community
   - title: Discussion - Identity Patterns
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-identity-patterns
     hash: discussion-identity-patterns
   - title: Discussion - Nationality, Nationhood and Community With E74_Group
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-nationality-nationhood-and-community-with-e74_group
     hash: discussion-nationality-nationhood-and-community-with-e74_group
   - title: Discussion - Birth/Death of People and Formation/Dissolution of Groups
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-birthdeath-of-people-and-formationdissolution-of-groups
     hash: discussion-birthdeath-of-people-and-formationdissolution-of-groups
   - title: Discussion - Biography
-    url: /en/target-model/version-2-1/appendix-f-discussions#discussion-biography
     hash: discussion-biography

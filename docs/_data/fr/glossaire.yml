@@ -1,220 +1,148 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: acteur (nom masculin)
-  url: /fr/ressources/actuel/glossaire#acteur-nom-masculin
   hash: acteur-nom-masculin  
 - title: actant (nom masculin)
-  url: /fr/ressources/actuel/glossaire#actant-nom-masculin
   hash: actant-nom-masculin
 - title: affirmation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#affirmation-nom-feminin
   hash: affirmation-nom-feminin
 - title: agrégation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#agregation-nom-feminin
   hash: agregation-nom-feminin
 - title: autorité (nom féminin)
-  url: /fr/ressources/actuel/glossaire#autorite-nom-feminin
   hash: autorite-nom-feminin
 - title: bibliothèque logicielle (nom féminin)
-  url: /fr/ressources/actuel/glossaire#bibliotheque-logicielle-nom-feminin
   hash: bibliotheque-logicielle-nom-feminin
 - title: cardinalité (nom féminin)
-  url: /fr/ressources/actuel/glossaire#cardinalite-nom-feminin
   hash: cardinalite-nom-feminin
 - title: cas (nom masculin)
-  url: /fr/ressources/actuel/glossaire#cas-nom-masculin
   hash: cas-nom-masculin
 - title: champ (nom masculin)
-  url: /fr/ressources/actuel/glossaire#champ-nom-masculin
   hash: champ-nom-masculin
 - title: chemin sémantique (nom masculin)
-  url: /fr/ressources/actuel/glossaire#chemin-semantique-nom-masculin
   hash: chemin-semantique-nom-masculin
 - title: classe (nom féminin)
-  url: /fr/ressources/actuel/glossaire#classe-nom-feminin
   hash: classe-nom-feminin
 - title: classification (nom féminin)
-  url: /fr/ressources/actuel/glossaire#classification-nom-feminin
   hash: classification-nom-feminin
 - title: co-référencement (nom masculin)
-  url: /fr/ressources/actuel/glossaire#co-referencement-nom-masculin
   hash: co-referencement-nom-masculin
 - title: connaissance (nom féminin)
-  url: /fr/ressources/actuel/glossaire#connaissance-nom-feminin
   hash: connaissance-nom-feminin
 - title: construit (nom masculin)
-  url: /fr/ressources/actuel/glossaire#construit-nom-masculin
   hash: construit-nom-masculin
 - title: contenu (nom masculin)
-  url: /fr/ressources/actuel/glossaire#contenu-nom-masculin
   hash: contenu-nom-masculin
 - title: contributeur (nom féminin)
-  url: /fr/ressources/actuel/glossaire#contributeur-nom-feminin
   hash: contributeur-nom-feminin
 - title: création (nom féminin)
-  url: /fr/ressources/actuel/glossaire#creation-nom-feminin
   hash: creation-nom-feminin
 - title: déclaration (nom féminin)
-  url: /fr/ressources/actuel/glossaire#declaration-nom-feminin
   hash: declaration-nom-feminin
 - title: dépendance (nom masculin)
-  url: /fr/ressources/actuel/glossaire#dependance-nom-masculin
   hash: dependance-nom-masculin
 - title: déprécier (verbe)
-  url: /fr/ressources/actuel/glossaire#deprecier-verbe
   hash: deprecier-verbe
 - title: description (nom féminin)
-  url: /fr/ressources/actuel/glossaire#description-nom-feminin
   hash: description-nom-feminin
 - title: désigner (verbe)
-  url: /fr/ressources/actuel/glossaire#designer-verbe
   hash: designer-verbe
 - title: diagramme (nom masculin)
-  url: /fr/ressources/actuel/glossaire#diagramme-nom-masculin
   hash: diagramme-nom-masculin
 - title: document (nom masculin)
-  url: /fr/ressources/actuel/glossaire#document-nom-masculin
   hash: document-nom-masculin
 - title: documentation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#documentation-nom-feminin
   hash: documentation-nom-feminin
 - title: domaine (nom féminin)
-  url: /fr/ressources/actuel/glossaire#domaine-nom-feminin
   hash: domaine-nom-feminin
 - title: domaine d’application (nom masculin)
-  url: /fr/ressources/actuel/glossaire#domaine-d’application-nom-masculin
   hash: domaine-d’application-nom-masculin
 - title: donnée (nom féminin)
-  url: /fr/ressources/actuel/glossaire#donnee-nom-feminin
   hash: donnee-nom-feminin
 - title: données ouvertes et liées (nom féminin)
-  url: /fr/ressources/actuel/glossaire#donnees-ouvertes-et-liees-nom-feminin
   hash: donnees-ouvertes-et-liees-nom-feminin
 - title: éditeur·rice (nom)
-  url: /fr/ressources/actuel/glossaire#editeur-rice-nom
   hash: editeur-rice-nom
 - title: énoncé (nom masculin)
-  url: /fr/ressources/actuel/glossaire#enonce-nom-masculin
   hash: enonce-nom-masculin
 - title: enregistrement (nom masculin)
-  url: /fr/ressources/actuel/glossaire#enregistrement-nom-masculin
   hash: enregistrement-nom-masculin
 - title: entité (nom féminin)
-  url: /fr/ressources/actuel/glossaire#entite-nom-feminin
   hash: entite-nom-feminin
 - title: étiquette (nom féminin)
-  url: /fr/ressources/actuel/glossaire#etiquette-nom-feminin
   hash: etiquette-nom-feminin
 - title: évaluation sémantique (nom féminin)
-  url: /fr/ressources/actuel/glossaire#evaluation-semantique-nom-feminin
   hash: evaluation-semantique-nom-feminin
 - title: expression (nom féminin)
-  url: /fr/ressources/actuel/glossaire#expression-nom-feminin
   hash: expression-nom-feminin
 - title: extensibilité (nom féminin)
-  url: /fr/ressources/actuel/glossaire#extensibilite-nom-feminin
   hash: extensibilite-nom-feminin
 - title: floruit (nom masculin)
-  url: /fr/ressources/actuel/glossaire#floruit-nom-masculin
   hash: floruit-nom-masculin
 - title: formalisation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#formalisation-nom-feminin
   hash: formalisation-nom-feminin
 - title: graphe nommé (nom masculin)
-  url: /fr/ressources/actuel/glossaire#graphe-nomme-nom-masculin
   hash: graphe-nomme-nom-masculin
 - title: identifiant (nom masculin)
-  url: /fr/ressources/actuel/glossaire#identifiant-nom-masculin
   hash: identifiant-nom-masculin
 - title: identifiant pour adresse URL (nom masculin)
-  url: /fr/ressources/actuel/glossaire#identifiant-pour-adresse-URL-nom-masculin
   hash: identifiant-pour-adresse-URL-nom-masculin
 - title: information (nom féminin)
-  url: /fr/ressources/actuel/glossaire#information-nom-feminin
   hash: information-nom-feminin
 - title: instance (nom féminin)
-  url: /fr/ressources/actuel/glossaire#instance-nom-feminin
   hash: instance-nom-feminin
 - title: libellé (nom masculin)
-  url: /fr/ressources/actuel/glossaire#libelle-nom-masculin
   hash: libelle-nom-masculin
 - title: lier (verbe)
-  url: /fr/ressources/actuel/glossaire#lier-verbe
   hash: lier-verbe
 - title: métadonnée (nom féminin)
-  url: /fr/ressources/actuel/glossaire#metadonnee-nom-feminin
   hash: metadonnee-nom-feminin
 - title: métatype (nom masculin)
-  url: /fr/ressources/actuel/glossaire#metatype-nom-masculin
   hash: metatype-nom-masculin
 - title: mise en correspondance (nom féminin)
-  url: /fr/ressources/actuel/glossaire#mise-en-correspondance-nom-feminin
   hash: mise-en-correspondance-nom-feminin
 - title: modèle (nom masculin)
-  url: /fr/ressources/actuel/glossaire#modele-nom-masculin
   hash: modele-nom-masculin
 - title: nœud (nom masculin)
-  url: /fr/ressources/actuel/glossaire#noeud-nom-masculin
   hash: noeud-nom-masculin
 - title: ontologie (nom féminin)
-  url: /fr/ressources/actuel/glossaire#ontologie-nom-feminin
   hash: ontologie-nom-feminin
 - title: patron conceptuel (nom masculin)
-  url: /fr/ressources/actuel/glossaire#patron-conceptuel-nom-masculin
   hash: patron-conceptuel-nom-masculin
 - title: pipeline de données (nom masculin)
-  url: /fr/ressources/actuel/glossaire#pipeline-de-donnees-nom-masculin
   hash: pipeline-de-donnees-nom-masculin
 - title: portée (nom féminin)
-  url: /fr/ressources/actuel/glossaire#portee-nom-feminin
   hash: portee-nom-feminin
 - title: primauté (nom féminin)
-  url: /fr/ressources/actuel/glossaire#primaute-nom-feminin
   hash: primaute-nom-feminin
 - title: propriété (nom féminin)
-  url: /fr/ressources/actuel/glossaire#propriete-nom-feminin
   hash: propriete-nom-feminin
 - title: recherche (nom féminin)
-  url: /fr/ressources/actuel/glossaire#recherche-nom-feminin
   hash: recherche-nom-feminin
 - title: réconciliation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#reconciliation-nom-feminin
   hash: reconciliation-nom-feminin
 - title: réification (nom féminin)
-  url: /fr/ressources/actuel/glossaire#reification-nom-feminin
   hash: reification-nom-feminin
 - title: représentation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#representation-nom-feminin
   hash: representation-nom-feminin
 - title: requête (nom féminin)
-  url: /fr/ressources/actuel/glossaire#requete-nom-feminin
   hash: requete-nom-feminin
 - title: ressource (nom féminin)
-  url: /fr/ressources/actuel/glossaire#ressource-nom-feminin
   hash: ressource-nom-feminin
 - title: sémantisation (nom féminin)
-  url: /fr/ressources/actuel/glossaire#semantisation-nom-feminin
   hash: semantisation-nom-feminin
 - title: spécification (nom féminin)
-  url: /fr/ressources/actuel/glossaire#specification-nom-feminin
   hash: specification-nom-feminin
 - title: soumissionnaire (nom masculin)
-  url: /fr/ressources/actuel/glossaire#soumissionnaire-nom-masculin
   hash: soumissionnaire-nom-masculin
 - title: syntaxe (nom féminin)
-  url: /fr/ressources/actuel/glossaire#syntaxe-nom-feminin
   hash: syntaxe-nom-feminin
 - title: valeur (nom féminin)
-  url: /fr/ressources/actuel/glossaire#valeur-nom-feminin
   hash: valeur-nom-feminin
 - title: vue (nom féminin)
-  url: /fr/ressources/actuel/glossaire#vue-nom-feminin
   hash: vue-nom-feminin
 - title: vocabulaire (nom masculin)
-  url: /fr/ressources/actuel/glossaire#vocabulaire-nom-masculin
   hash: vocabulaire-nom-masculin
 - title: Web sémantique (nom masculin)
-  url: /fr/ressources/actuel/glossaire#web-semantique-nom-masculin
   hash: web-semantique-nom-masculin

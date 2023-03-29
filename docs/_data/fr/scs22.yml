@@ -8,33 +8,24 @@ toc:
   class: sublist
   subfolder:
     - title: Dates
-      url: /fr/specification-des-chemins-semantiques/actuel/introduction#dates
       hash: dates
-    - title: Résumé 
-      url: /fr/specification-des-chemins-semantiques/actuel/introduction#resume
+    - title: Résumé
       hash: resume
     - title: Avant-propos
-      url: /fr/specification-des-chemins-semantiques/actuel/introduction#avant-propos
       hash: avant-propos
     - title: Glossaire
-      url: /fr/specification-des-chemins-semantiques/actuel/introduction#glossaire
       hash: glossaire
-      class: subsublist
+      class: sublist
       subfolder:
       - title: Nœud de saisie
-        url: /fr/specification-des-chemins-semantiques/actuel/introduction#noeud-de-saisie
         hash: noeud-de-saisie
-      - title: Nœud généré 
-        url: /fr/specification-des-chemins-semantiques/actuel/introduction#noeud-genere
+      - title: Nœud généré
         hash: noeud-genere
-      - title: Nœud doté d’un qualifiant spécifié (NDQS) 
-        url: /fr/specification-des-chemins-semantiques/actuel/introduction#noeud-dote-dun-qualifiant-specifie-ndqs
+      - title: Nœud doté d’un qualifiant spécifié (NDQS)
         hash: noeud-dote-dun-qualifiant-specifie-ndqs
       - title: Nœud
-        url: /fr/specification-des-chemins-semantiques/actuel/introduction#noeud
         hash: noeud
     - title: Structure de la documentation
-      url: /fr/specification-des-chemins-semantiques/actuel/introduction#structure-de-la-documentation
       hash: structure-de-la-documentation
 
 - title: Nœuds de saisie
@@ -42,391 +33,262 @@ toc:
   class: sublist
   subfolder:
     - title: Annotation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#annotation
       hash: annotation
     - title: Appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant
       hash: appellation-de-lactant
     - title: Appellation de l'actant attribuant le statut social
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant-attribuant-le-statut-social
       hash: appellation-de-lactant-attribuant-le-statut-social
     - title: Appellation de l'actant effectuant la dissolution
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant-effectuant-la-dissolution
       hash: appellation-de-lactant-effectuant-la-dissolution
     - title: Appellation de l'actant fondateur
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant-fondateur
       hash: appellation-de-lactant-fondateur
-    - title: Appellation de l'actant lié 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant-lie
+    - title: Appellation de l'actant lié
       hash: appellation-de-lactant-lie
-    - title: Appellation de l'actant participant à la création du jeu de données 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant-participant-a-la-creation-du-jeu-de-donnees
+    - title: Appellation de l'actant participant à la création du jeu de données
       hash: appellation-de-lactant-participant-a-la-creation-du-jeu-de-donnees
-    - title: Appellation de l'actant rédigeant la note curatoriale 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant-redigeant-la-note-curatoriale
+    - title: Appellation de l'actant rédigeant la note curatoriale
       hash: appellation-de-lactant-redigeant-la-note-curatoriale
     - title: Appellation de la famille
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-la-famille
       hash: appellation-de-la-famille
-    - title: Appellation de la mère 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-la-mere
+    - title: Appellation de la mère
       hash: appellation-de-la-mere
     - title: Appellation de l'artefact
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lartefact
       hash: appellation-de-lartefact
-    - title: Appellation de l’institution détenant le document de référence 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-linstitution-detenant-le-document-de-reference
+    - title: Appellation de l’institution détenant le document de référence
       hash: appellation-de-linstitution-detenant-le-document-de-reference
     - title: Appellation du contributeur de l’enregistrement
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-du-contributeur-de-lenregistrement
       hash: appellation-du-contributeur-de-lenregistrement
     - title: Appellation du groupe
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-du-groupe
       hash: appellation-du-groupe
-    - title: Appellation du père 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-du-pere
+    - title: Appellation du père
       hash: appellation-du-pere
-    - title: Appellation utilisée du séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-utilisee-du-sejour
+    - title: Appellation utilisée du séjour
       hash: appellation-utilisee-du-sejour
     - title: Contenu de la biographie
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#contenu-de-la-biographie
       hash: contenu-de-la-biographie
     - title: Contenu de la note curatoriale
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#contenu-de-la-note-curatoriale
       hash: contenu-de-la-note-curatoriale
-    - title: Contenu de l’énoncé de données désordonnées 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#contenu-de-lenonce-de-donnees-desordonnees
+    - title: Contenu de l’énoncé de données désordonnées
       hash: contenu-de-lenonce-de-donnees-desordonnees
     - title: Contexte d’utilisation de l'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#contexte-dutilisation-de-lappellation-de-lactant
       hash: contexte-dutilisation-de-lappellation-de-lactant
-    - title: Cote du document de référence 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#cote-du-document-de-reference
+    - title: Cote du document de référence
       hash: cote-du-document-de-reference
-    - title: Date de début de la création du jeu de données 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-creation-du-jeu-de-donnees
+    - title: Date de début de la création du jeu de données
       hash: date-de-debut-de-la-creation-du-jeu-de-donnees
-    - title: Date de début de l'adhésion au groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-ladhesion-au-groupe
+    - title: Date de début de l'adhésion au groupe
       hash: date-de-debut-de-ladhesion-au-groupe
-    - title: Date de début de la dissolution 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-dissolution
+    - title: Date de début de la dissolution
       hash: date-de-debut-de-la-dissolution
-    - title: Date de début de la formation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-formation
+    - title: Date de début de la formation
       hash: date-de-debut-de-la-formation
-    - title: Date de début de la mort 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-mort
+    - title: Date de début de la mort
       hash: date-de-debut-de-la-mort
-    - title: Date de début de la naissance 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-naissance
+    - title: Date de début de la naissance
       hash: date-de-debut-de-la-naissance
-    - title: Date de début de la production 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-production
+    - title: Date de début de la production
       hash: date-de-debut-de-la-production
-    - title: Date de début de la relation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-la-relation
+    - title: Date de début de la relation
       hash: date-de-debut-de-la-relation
-    - title: Date de début de l'enregistrement 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-lenregistrement
+    - title: Date de début de l'enregistrement
       hash: date-de-debut-de-lenregistrement
-    - title: Date de début de l'entrée dans la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-lentree-dans-la-famille
+    - title: Date de début de l'entrée dans la famille
       hash: date-de-debut-de-lentree-dans-la-famille
-    - title: Date de début de l'occupation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-de-loccupation
+    - title: Date de début de l'occupation
       hash: date-de-debut-de-loccupation
-    - title: Date de début du départ de la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-du-depart-de-la-famille
+    - title: Date de début du départ de la famille
       hash: date-de-debut-du-depart-de-la-famille
-    - title: Date de début du départ du groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-du-depart-du-groupe
+    - title: Date de début du départ du groupe
       hash: date-de-debut-du-depart-du-groupe
-    - title: Date de début du floruit 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-du-floruit
+    - title: Date de début du floruit
       hash: date-de-debut-du-floruit
-    - title: Date de début du séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-du-sejour
+    - title: Date de début du séjour
       hash: date-de-debut-du-sejour
-    - title: Date de début du statut social 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-du-statut-social
+    - title: Date de début du statut social
       hash: date-de-debut-du-statut-social
-    - title: Date de début d'utilisation de l’appellation de l'actant 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-debut-dutilisation-de-lappellation-de-lactant
+    - title: Date de début d'utilisation de l’appellation de l'actant
       hash: date-de-debut-dutilisation-de-lappellation-de-lactant
-    - title: Date de fin de la création du jeu de données 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-creation-du-jeu-de-donnees
+    - title: Date de fin de la création du jeu de données
       hash: date-de-fin-de-la-creation-du-jeu-de-donnees
-    - title: Date de fin de l'adhésion au groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-ladhesion-au-groupe
+    - title: Date de fin de l'adhésion au groupe
       hash: date-de-fin-de-ladhesion-au-groupe
     - title: Date de fin de la dissolution
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-dissolution
       hash: date-de-fin-de-la-dissolution
     - title: Date de fin de la formation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-formation
       hash: date-de-fin-de-la-formation
     - title: Date de fin de la mort
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-mort
       hash: date-de-fin-de-la-mort
     - title: Date de fin de la naissance
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-naissance
       hash: date-de-fin-de-la-naissance
     - title: Date de fin de la production
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-production
       hash: date-de-fin-de-la-production
     - title: Date de fin de la relation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-la-relation
       hash: date-de-fin-de-la-relation
     - title: Date de fin de l'enregistrement
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-lenregistrement
       hash: date-de-fin-de-lenregistrement
-    - title: Date de fin de l'entrée dans la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-lentree-dans-la-famille
+    - title: Date de fin de l'entrée dans la famille
       hash: date-de-fin-de-lentree-dans-la-famille
     - title: Date de fin de l'occupation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-de-loccupation
       hash: date-de-fin-de-loccupation
-    - title: Date de fin du départ de la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-du-depart-de-la-famille
+    - title: Date de fin du départ de la famille
       hash: date-de-fin-du-depart-de-la-famille
-    - title: Date de fin du départ du groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-du-depart-du-groupe
+    - title: Date de fin du départ du groupe
       hash: date-de-fin-du-depart-du-groupe
     - title: Date de fin du floruit
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-du-floruit
       hash: date-de-fin-du-floruit
-    - title: Date de fin du séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-du-sejour
+    - title: Date de fin du séjour
       hash: date-de-fin-du-sejour
     - title: Date de fin du statut social
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-du-statut-social
       hash: date-de-fin-du-statut-social
     - title: Date de fin d’utilisation de l'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#date-de-fin-dutilisation-de-lappellation-de-lactant
       hash: date-de-fin-dutilisation-de-lappellation-de-lactant
     - title: Identifiant de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#identifiant-de-lactant
       hash: identifiant-de-lactant
     - title: Identifiant de l'artefact
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#identifiant-de-lartefact
       hash: identifiant-de-lartefact
     - title: Langue de la biographie
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#langue-de-la-biographie
       hash: langue-de-la-biographie
     - title: Langue de la note curatoriale
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#langue-de-la-note-curatoriale
       hash: langue-de-la-note-curatoriale
     - title: Langue de l'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#langue-de-lappellation-de-lactant
       hash: langue-de-lappellation-de-lactant
     - title: Langue de l'appellation de l’artefact
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#langue-de-lappellation-de-lartefact
       hash: langue-de-lappellation-de-lartefact
-    - title: Langue de l'énoncé de données désordonnées 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#langue-de-lenonce-de-donnees-desordonnees
+    - title: Langue de l'énoncé de données désordonnées
       hash: langue-de-lenonce-de-donnees-desordonnees
     - title: Lieu de disposition finale
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-disposition-finale
       hash: lieu-de-disposition-finale
     - title: Lieu de dissolution
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-dissolution
       hash: lieu-de-dissolution
     - title: Lieu de formation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-formation
       hash: lieu-de-formation
     - title: Lieu de l'occupation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-loccupation
       hash: lieu-de-loccupation
     - title: Lieu de mort
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-mort
       hash: lieu-de-mort
     - title: Lieu de naissance
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-naissance
       hash: lieu-de-naissance
     - title: Lieu de production
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-de-production
       hash: lieu-de-production
-    - title: Lieu du document de référence 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-du-document-de-reference
+    - title: Lieu du document de référence
       hash: lieu-du-document-de-reference
     - title: Lieu du floruit
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-du-floruit
       hash: lieu-du-floruit
-    - title: Lieu du séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-du-sejour
+    - title: Lieu du séjour
       hash: lieu-du-sejour
     - title: Lieu du statut social
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#lieu-du-statut-social
       hash: lieu-du-statut-social
     - title: Mention bibliographique de la biographie
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#mention-bibliographique-de-la-biographie
       hash: mention-bibliographique-de-la-biographie
     - title: Mention bibliographique de la marque
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#mention-bibliographique-de-la-marque
       hash: mention-bibliographique-de-la-marque
     - title: Mention bibliographique de l’image
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#mention-bibliographique-de-limage
       hash: mention-bibliographique-de-limage
     - title: Partie de l'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#partie-de-lappellation-de-lactant
       hash: partie-de-lappellation-de-lactant
-    - title: Priorité de l'actant dans la production 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#priorite-de-lactant-dans-la-production
+    - title: Priorité de l'actant dans la production
       hash: priorite-de-lactant-dans-la-production
-    - title: Primauté de l'appellation de l'actant 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#primaute-de-lappellation-de-lactant
+    - title: Primauté de l'appellation de l'actant
       hash: primaute-de-lappellation-de-lactant
-    - title: Primauté de l'appellation de l'artefact 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#primaute-de-lappellation-de-lartefact
+    - title: Primauté de l'appellation de l'artefact
       hash: primaute-de-lappellation-de-lartefact
-    - title: Qualifiant de la date de début de l'adhésion au groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-ladhesion-au-groupe
+    - title: Qualifiant de la date de début de l'adhésion au groupe
       hash: qualifiant-de-la-date-de-debut-de-ladhesion-au-groupe
-    - title: Qualifiant de la date de début de la dissolution 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-la-dissolution
+    - title: Qualifiant de la date de début de la dissolution
       hash: qualifiant-de-la-date-de-debut-de-la-dissolution
-    - title: Qualifiant de la date de début de la formation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-la-formation
+    - title: Qualifiant de la date de début de la formation
       hash: qualifiant-de-la-date-de-debut-de-la-formation
-    - title: Qualifiant de la date de début de la mort 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-la-mort
+    - title: Qualifiant de la date de début de la mort
       hash: qualifiant-de-la-date-de-debut-de-la-mort
-    - title: Qualifiant de la date de début de la naissance 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-la-naissance
+    - title: Qualifiant de la date de début de la naissance
       hash: qualifiant-de-la-date-de-debut-de-la-naissance
-    - title: Qualifiant de la date de début de la production 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-la-production
+    - title: Qualifiant de la date de début de la production
       hash: qualifiant-de-la-date-de-debut-de-la-production
-    - title: Qualifiant de la date de début de la relation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-la-relation
+    - title: Qualifiant de la date de début de la relation
       hash: qualifiant-de-la-date-de-debut-de-la-relation
-    - title: Qualifiant de la date de début de l'entrée dans la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-lentree-dans-la-famille
+    - title: Qualifiant de la date de début de l'entrée dans la famille
       hash: qualifiant-de-la-date-de-debut-de-lentree-dans-la-famille
-    - title: Qualifiant de la date de début de l'occupation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-de-loccupation
+    - title: Qualifiant de la date de début de l'occupation
       hash: qualifiant-de-la-date-de-debut-de-loccupation
-    - title: Qualifiant de la date de début du départ de la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-du-depart-de-la-famille
+    - title: Qualifiant de la date de début du départ de la famille
       hash: qualifiant-de-la-date-de-debut-du-depart-de-la-famille
-    - title: Qualifiant de la date de début du départ du groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-du-depart-du-groupe
+    - title: Qualifiant de la date de début du départ du groupe
       hash: qualifiant-de-la-date-de-debut-du-depart-du-groupe
-    - title: Qualifiant de la date de début du floruit 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-du-floruit
+    - title: Qualifiant de la date de début du floruit
       hash: qualifiant-de-la-date-de-debut-du-floruit
-    - title: Qualifiant de la date de début du séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-du-sejour
+    - title: Qualifiant de la date de début du séjour
       hash: qualifiant-de-la-date-de-debut-du-sejour
-    - title: Qualifiant de la date de début du statut social 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-du-statut-social
+    - title: Qualifiant de la date de début du statut social
       hash: qualifiant-de-la-date-de-debut-du-statut-social
-    - title: Qualifiant de la date de début d’utilisation de l'appellation de l'actant 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-debut-dutilisation-de-lappellation-de-lactant
+    - title: Qualifiant de la date de début d’utilisation de l'appellation de l'actant
       hash: qualifiant-de-la-date-de-debut-dutilisation-de-lappellation-de-lactant
-    - title: Qualifiant de la date de fin de l'adhésion au groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-ladhesion-au-groupe
+    - title: Qualifiant de la date de fin de l'adhésion au groupe
       hash: qualifiant-de-la-date-de-fin-de-ladhesion-au-groupe
     - title: Qualifiant de la date de fin de la dissolution
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-la-dissolution
       hash: qualifiant-de-la-date-de-fin-de-la-dissolution
     - title: Qualifiant de la date de fin de la formation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-la-formation
       hash: qualifiant-de-la-date-de-fin-de-la-formation
     - title: Qualifiant de la date de fin de la mort
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-la-mort
       hash: qualifiant-de-la-date-de-fin-de-la-mort
     - title: Qualifiant de la date de fin de la naissance
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-la-naissance
       hash: qualifiant-de-la-date-de-fin-de-la-naissance
     - title: Qualifiant de la date de fin de la production
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-la-production
       hash: qualifiant-de-la-date-de-fin-de-la-production
     - title: Qualifiant de la date de fin de la relation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-la-relation
       hash: qualifiant-de-la-date-de-fin-de-la-relation
-    - title: Qualifiant de la date de fin de l'entrée dans la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-lentree-dans-la-famille
+    - title: Qualifiant de la date de fin de l'entrée dans la famille
       hash: qualifiant-de-la-date-de-fin-de-lentree-dans-la-famille
     - title: Qualifiant de la date de fin de l'occupation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-de-loccupation
       hash: qualifiant-de-la-date-de-fin-de-loccupation
-    - title: Qualifiant de la date de fin du départ de la famille 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-du-depart-de-la-famille
+    - title: Qualifiant de la date de fin du départ de la famille
       hash: qualifiant-de-la-date-de-fin-du-depart-de-la-famille
-    - title: Qualifiant de la date de fin du départ du groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-du-depart-du-groupe
+    - title: Qualifiant de la date de fin du départ du groupe
       hash: qualifiant-de-la-date-de-fin-du-depart-du-groupe
     - title: Qualifiant de la date de fin du floruit
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-du-floruit
       hash: qualifiant-de-la-date-de-fin-du-floruit
-    - title: Qualifiant de la date de fin du séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-du-sejour
+    - title: Qualifiant de la date de fin du séjour
       hash: qualifiant-de-la-date-de-fin-du-sejour
     - title: Qualifiant de la date de fin du statut social
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-du-statut-social
       hash: qualifiant-de-la-date-de-fin-du-statut-social
     - title: Qualifiant de la date de fin d'utilisation de l'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#qualifiant-de-la-date-de-fin-d'utilisation-de-lappellation-de-lactant
       hash: qualifiant-de-la-date-de-fin-d'utilisation-de-lappellation-de-lactant
-    - title: Rôle de l'actant dans la production 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#role-de-lactant-dans-la-production
+    - title: Rôle de l'actant dans la production
       hash: role-de-lactant-dans-la-production
-    - title: Rôle de l'actant dans la relation 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#role-de-lactant-dans-la-relation
+    - title: Rôle de l'actant dans la relation
       hash: role-de-lactant-dans-la-relation
-    - title: Rôle de l'actant lié 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#role-de-lactant-lie
+    - title: Rôle de l'actant lié
       hash: role-de-lactant-lie
-    - title: Rôle de l'actant participant à la création du jeu de données 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#role-de-lactant-participant-a-la-creation-du-jeu-de-donnees
+    - title: Rôle de l'actant participant à la création du jeu de données
       hash: role-de-lactant-participant-a-la-creation-du-jeu-de-donnees
-    - title: Rôle du membre du groupe 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#role-du-membre-du-groupe
+    - title: Rôle du membre du groupe
       hash: role-du-membre-du-groupe
     - title: Type d'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-dappellation-de-lactant
       hash: type-dappellation-de-lactant
     - title: Type d’appellation de l'artefact
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-dappellation-de-lartefact
       hash: type-dappellation-de-lartefact
     - title: Type de marque
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-marque
       hash: type-de-marque
-    - title: Type d'énoncé de données désordonnées 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-denonce-de-donnees-desordonnees
+    - title: Type d'énoncé de données désordonnées
       hash: type-denonce-de-donnees-desordonnees
     - title: Type de partie de l'appellation de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-partie-de-lappellation-de-lactant
       hash: type-de-partie-de-lappellation-de-lactant
     - title: Type de relation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-relation
       hash: type-de-relation
-    - title: Type de séjour 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-sejour
+    - title: Type de séjour
       hash: type-de-sejour
     - title: Type de statut social
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-statut-social
       hash: type-de-statut-social
-    - title: Type de technique utilisée 
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-de-technique-utilisee
+    - title: Type de technique utilisée
       hash: type-de-technique-utilisee
     - title: Type d'identifiant de l'actant
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-didentifiant-de-lactant
       hash: type-didentifiant-de-lactant
     - title: Type d’identifiant de l'artefact
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-didentifiant-de-lartefact
       hash: type-didentifiant-de-lartefact
     - title: Type d'occupation
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#type-doccupation
       hash: type-doccupation
     - title: URL de la marque
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#url-de-la-marque
       hash: url-de-la-marque
     - title: URL de l'image
-      url: /fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#url-de-limage
       hash: url-de-limage
 
 

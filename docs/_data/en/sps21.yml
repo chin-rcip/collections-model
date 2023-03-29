@@ -8,33 +8,24 @@ toc:
   class: sublist
   subfolder:
   - title: Dates
-    url: /en/semantic-paths-specification/version-2-1/introduction#dates
     hash: dates
   - title: Abstract
-    url: /en/semantic-paths-specification/version-2-1/introduction#abstract
     hash: abstract
   - title: Foreword
-    url: /en/semantic-paths-specification/version-2-1/introduction#foreword
     hash: foreword
   - title: Glossary
-    url: /en/semantic-paths-specification/version-2-1/introduction#glossary
     hash: glossary
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Entry Node
-      url: /en/semantic-paths-specification/version-2-1/introduction#entry-node
       hash: entry-node
     - title: Generated Node
-      url: /en/semantic-paths-specification/version-2-1/introduction#generated-node
       hash: generated-node
     - title: Specified Qualifier Node (SQN)
-      url: /en/semantic-paths-specification/version-2-1/introduction#specified-qualifier-node-sqn
       hash: specified-qualifier-node-sqn
     - title: Node
-      url: /en/semantic-paths-specification/version-2-1/introduction#node
       hash: node
   - title: Documentation Structure
-    url: /en/semantic-paths-specification/version-2-1/introduction#documentation-structure
     hash: documentation-structure
 
 - title: Entry Nodes
@@ -42,415 +33,278 @@ toc:
   class: sublist
   subfolder:
   - title: Actor Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation
     hash: actor-appellation
   - title: Actor Appellation Language
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-language
     hash: actor-appellation-language
   - title: Actor Appellation Part
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-part
     hash: actor-appellation-part
   - title: Actor Appellation Part Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-part-type
     hash: actor-appellation-part-type
   - title: Actor Appellation Precedence
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-precedence
     hash: actor-appellation-precedence
   - title: Actor Appellation Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-type
     hash: actor-appellation-type
   - title: Actor Appellation Use Context
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-use-context
     hash: actor-appellation-use-context
   - title: Actor Appellation Use Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-use-date-begin
     hash: actor-appellation-use-date-begin
   - title: Actor Appellation Use Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-use-date-begin-qualifier
     hash: actor-appellation-use-date-begin-qualifier
   - title: Actor Appellation Use Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-use-date-end
     hash: actor-appellation-use-date-end
   - title: Actor Appellation Use Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-appellation-use-date-end-qualifier
     hash: actor-appellation-use-date-end-qualifier
   - title: Actor ID
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-id
     hash: actor-id
   - title: Actor ID Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#actor-id-type
     hash: actor-id-type
   - title: Archival Document Call Number
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#archival-document-call-number
     hash: archival-document-call-number
   - title: Archival Document Institution Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#archival-document-institution-appellation
     hash: archival-document-institution-appellation
   - title: Archival Document Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#archival-document-place
     hash: archival-document-place
   - title: Annotation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#annotation
     hash: annotation
   - title: Biography Content
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#biography-content
     hash: biography-content
   - title: Biography Language
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#biography-language
     hash: biography-language
   - title: Biography Bibliographical Mention
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#biography-bibliographical-mention
     hash: biography-bibliographical-mention
   - title: Birth/Formation Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#birthformation-date-begin
     hash: birthformation-date-begin
   - title: Birth/Formation Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#birthformation-date-begin-qualifier
     hash: birthformation-date-begin-qualifier
   - title: Birth/Formation Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#birthformation-date-end
     hash: birthformation-date-end
   - title: Birth/Formation Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#birthformation-date-end-qualifier
     hash: birthformation-date-end-qualifier
   - title: Birth/Formation Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#birthformation-place
     hash: birthformation-place
   - title: Community
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community
     hash: community
   - title: Community Joining Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-joining-date-begin
     hash: community-joining-date-begin
   - title: Community Joining Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-joining-date-begin-qualifier
     hash: community-joining-date-begin-qualifier
   - title: Community Joining Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-joining-date-end
     hash: community-joining-date-end
   - title: Community Joining Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-joining-date-end-qualifier
     hash: community-joining-date-end-qualifier
   - title: Community Leaving Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-leaving-date-begin
     hash: community-leaving-date-begin
   - title: Community Leaving Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-leaving-date-begin-qualifier
     hash: community-leaving-date-begin-qualifier
   - title: Community Leaving Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-leaving-date-end
     hash: community-leaving-date-end
   - title: Community Leaving Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#community-leaving-date-end-qualifier
     hash: community-leaving-date-end-qualifier
   - title: Cultural Affiliation Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#cultural-affiliation-type
     hash: cultural-affiliation-type
   - title: Curatorial Note Content
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#curatorial-note-content
     hash: curatorial-note-content
   - title: Curatorial Note Author Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#curatorial-note-author-appellation
     hash: curatorial-note-author-appellation
   - title: Curatorial Note Language
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#curatorial-note-language
     hash: curatorial-note-language
   - title: Dataset Creation Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#dataset-creation-date-begin
     hash: dataset-creation-date-begin
   - title: Dataset Creation Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#dataset-creation-date-end
     hash: dataset-creation-date-end
   - title: Dataset Creation Participant Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#dataset-creation-participant-appellation
     hash: dataset-creation-participant-appellation
   - title: Dataset Creation Participant Role
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#dataset-creation-participant-role
     hash: dataset-creation-participant-role
   - title: Death/Dissolution Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#deathdissolution-date-begin
     hash: deathdissolution-date-begin
   - title: Death/Dissolution Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#deathdissolution-date-begin-qualifier
     hash: deathdissolution-date-begin-qualifier
   - title: Death/Dissolution Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#deathdissolution-date-end
     hash: deathdissolution-date-end
   - title: Death/Dissolution Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#deathdissolution-date-end-qualifier
     hash: deathdissolution-date-end-qualifier
   - title: Death/Dissolution Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#deathdissolution-place
     hash: deathdissolution-place
   - title: Dissolving Actor Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#dissolving-actor-appellation
     hash: dissolving-actor-appellation
   - title: Father Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#father-appellation
     hash: father-appellation
   - title: Final Disposition Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#final-disposition-place
     hash: final-disposition-place
   - title: Founding Actor Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#founding-actor-appellation
     hash: founding-actor-appellation
   - title: Flourishing Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#flourishing-date-begin
     hash: flourishing-date-begin
   - title: Flourishing Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#flourishing-date-begin-qualifier
     hash: flourishing-date-begin-qualifier
   - title: Flourishing Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#flourishing-date-end
     hash: flourishing-date-end
   - title: Flourishing Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#flourishing-date-end-qualifier
     hash: flourishing-date-end-qualifier
   - title: Flourishing Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#flourishing-place
     hash: flourishing-place
   - title: Gender Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#gender-type
     hash: gender-type
   - title: Group Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-appellation
     hash: group-appellation
   - title: Group Joining Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-joining-date-begin
     hash: group-joining-date-begin
   - title: Group Joining Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-joining-date-begin-qualifier
     hash: group-joining-date-begin-qualifier
   - title: Group Joining Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-joining-date-end
     hash: group-joining-date-end
   - title: Group Joining Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-joining-date-end-qualifier
     hash: group-joining-date-end-qualifier
   - title: Group Leaving Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-leaving-date-begin
     hash: group-leaving-date-begin
   - title: Group Leaving Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-leaving-date-begin-qualifier
     hash: group-leaving-date-begin-qualifier
   - title: Group Leaving Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-leaving-date-end
     hash: group-leaving-date-end
   - title: Group Leaving Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-leaving-date-end-qualifier
     hash: group-leaving-date-end-qualifier
   - title: Group Member Role
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-member-role
     hash: group-member-role
   - title: Group Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#group-type
     hash: group-type
   - title: Image Bibliographical Mention
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#image-bibliographical-mention
     hash: image-bibliographical-mention
   - title: Image URL
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#image-url
     hash: image-url
   - title: Mark Bibliographical Mention
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#mark-bibliographical-mention
     hash: mark-bibliographical-mention
   - title: Mark Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#mark-type
     hash: mark-type
   - title: Mark URL
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#mark-url
     hash: mark-url
   - title: Mother Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#mother-appellation
     hash: mother-appellation
   - title: Nationality
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality
     hash: nationality
   - title: Nationality Joining Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-joining-date-begin
     hash: nationality-joining-date-begin
   - title: Nationality Joining Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-joining-date-begin-qualifier
     hash: nationality-joining-date-begin-qualifier
   - title: Nationality Joining Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-joining-date-end
     hash: nationality-joining-date-end
   - title: Nationality Joining Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-joining-date-end-qualifier
     hash: nationality-joining-date-end-qualifier
   - title: Nationality Leaving Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-leaving-date-begin
     hash: nationality-leaving-date-begin
   - title: Nationality Leaving Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-leaving-date-begin-qualifier
     hash: nationality-leaving-date-begin-qualifier
   - title: Nationality Leaving Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-leaving-date-end
     hash: nationality-leaving-date-end
   - title: Nationality Leaving Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationality-leaving-date-end-qualifier
     hash: nationality-leaving-date-end-qualifier
   - title: Nationhood
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood
     hash: nationhood
   - title: Nationhood Joining Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-joining-date-begin
     hash: nationhood-joining-date-begin
   - title: Nationhood Joining Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-joining-date-begin-qualifier
     hash: nationhood-joining-date-begin-qualifier
   - title: Nationhood Joining Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-joining-date-end
     hash: nationhood-joining-date-end
   - title: Nationhood Joining Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-joining-date-end-qualifier
     hash: nationhood-joining-date-end-qualifier
   - title: Nationhood Leaving Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-leaving-date-begin
     hash: nationhood-leaving-date-begin
   - title: Nationhood Leaving Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-leaving-date-begin-qualifier
     hash: nationhood-leaving-date-begin-qualifier
   - title: Nationhood Leaving Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-leaving-date-end
     hash: nationhood-leaving-date-end
   - title: Nationhood Leaving Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#nationhood-leaving-date-end-qualifier
     hash: nationhood-leaving-date-end-qualifier
   - title: Object Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-appellation
     hash: object-appellation
   - title: Object Appellation Language
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-appellation-language
     hash: object-appellation-language
   - title: Object Appellation Precedence
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-appellation-precedence
     hash: object-appellation-precedence
   - title: Object Appellation Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-appellation-type
     hash: object-appellation-type
   - title: Object ID
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-id
     hash: object-id
   - title: Object ID Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-id-type
     hash: object-id-type
   - title: Object Image URL
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-image-url
     hash: object-image-url
   - title: Object Image Bibliographical Mention
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-image-bibliographical-mention
     hash: object-image-bibliographical-mention
   - title: Object Medium
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#object-medium
     hash: object-medium
   - title: Occupation Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#occupation-type
     hash: occupation-type
   - title: Occupation Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#occupation-date-begin
     hash: occupation-date-begin
   - title: Occupation Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#occupation-date-begin-qualifier
     hash: occupation-date-begin-qualifier
   - title: Occupation Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#occupation-date-end
     hash: occupation-date-end
   - title: Occupation Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#occupation-date-end-qualifier
     hash: occupation-date-end-qualifier
   - title: Occupation Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#occupation-place
     hash: occupation-place
   - title: Production Actor Priority
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-actor-priority
     hash: production-actor-priority
   - title: Production Actor Role
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-actor-role
     hash: production-actor-role
   - title: Production Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-date-begin
     hash: production-date-begin
   - title: Production Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-date-begin-qualifier
     hash: production-date-begin-qualifier
   - title: Production Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-date-end
     hash: production-date-end
   - title: Production Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-date-end-qualifier
     hash: production-date-end-qualifier
   - title: Production Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#production-place
     hash: production-place
   - title: Record Contributor Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#record-contributor-appellation
     hash: record-contributor-appellation
   - title: Record Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#record-date-begin
     hash: record-date-begin
   - title: Record Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#record-date-end
     hash: record-date-end
   - title: Related Actor Appellation
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#related-actor-appellation
     hash: related-actor-appellation
   - title: Related Actor Role
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#related-actor-role
     hash: related-actor-role
   - title: Relationship Actor Role
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#relationship-actor-role
     hash: relationship-actor-role
   - title: Relationship Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#relationship-date-begin
     hash: relationship-date-begin
   - title: Relationship Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#relationship-date-begin-qualifier
     hash: relationship-date-begin-qualifier
   - title: Relationship Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#relationship-date-end
     hash: relationship-date-end
   - title: Relationship Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#relationship-date-end-qualifier
     hash: relationship-date-end-qualifier
   - title: Relationship Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#relationship-type
     hash: relationship-type
   - title: Social Status Type
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#social-status-type
     hash: social-status-type
   - title: Social Status Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#social-status-date-begin
     hash: social-status-date-begin
   - title: Social Status Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#social-status-date-begin-qualifier
     hash: social-status-date-begin-qualifier
   - title: Social Status Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#social-status-date-end
     hash: social-status-date-end
   - title: Social Status Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#social-status-date-end-qualifier
     hash: social-status-date-end-qualifier
   - title: Social Status Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#social-status-place
     hash: social-status-place
   - title: Stay Date Begin
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#stay-date-begin
     hash: stay-date-begin
   - title: Stay Date Begin Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#stay-date-begin-qualifier
     hash: stay-date-begin-qualifier
   - title: Stay Date End
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#stay-date-end
     hash: stay-date-end
   - title: Stay Date End Qualifier
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#stay-date-end-qualifier
     hash: stay-date-end-qualifier
   - title: Stay Place
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#stay-place
     hash: stay-place
   - title: Technique Used
-    url: /en/semantic-paths-specification/version-2-1/entry-nodes#technique-used
     hash: technique-used
 
 - title: Bibliography

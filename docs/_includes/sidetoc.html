@@ -1,14 +1,19 @@
 
 <ul class="{{ include.class }}">
   {% for item in include.toc %}
-    {% if item.title and item.url %}
-    {% assign item_url = "/collections-model" | append: item.url %}
-    {% assign item_url_split = item.url | split: "#" %}
+    {% if item.title %}
+    {% if item.url %}
+      {% assign base_url = item.url %}
+      {% assign item_url = "/collections-model" | append: base_url %}
+    {% else %}
+      {% assign base_url = page.url %}
+      {% assign item_url = "/collections-model" | append: base_url | append: '#' | append: item.hash %}
+    {% endif %}
     <li>
       <a {% if item.hash %}id="toc-{{ item.hash }}"{% endif %} href="{{ item_url }}" onclick="active(this)">{{ item.title }}
         <span class="tooltip">{{ item.title }}</span>
       </a>
-      {% if item.subfolder and item_url_split[0] == page.url %}
+      {% if item.subfolder and base_url == page.url %}
         {% include sidetoc.html toc=item.subfolder class=item.class %}
       {% endif %}
     </li>

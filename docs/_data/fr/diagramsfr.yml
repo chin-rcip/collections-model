@@ -1,47 +1,34 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Utilisation principale
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#utilisation-principale
   hash: utilisation-principale
 - title: Contexte
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#contexte
   hash: contexte
 - title: Vocabulaire de base et connaissances préalables
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#vocabulaire-de-base-et-connaissances-prealables
   hash: vocabulaire-de-base-et-connaissances-prealables
 - title: Auditoire visé et description des sections
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#auditoire-vise-et-description-des-sections
   hash: auditoire-vise-et-description-des-sections
 - title: Instructions
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#instructions
   hash: instructions
   class: sublist
   subfolder:
   - title: Chargement des bibliothèques
-    url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#chargement-des-bibliotheques
     hash: chargement-des-bibliotheques
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Ouverture d’une bibliothèque
-      url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#ouverture-dune-bibliotheque
       hash: ouverture-dune-bibliotheque
     - title: Chargement d’une bibliothèque par son URL
-      url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#chargement-dune-bibliotheque-par-son-URL
       hash: chargement-dune-bibliotheque-par-son-URL
   - title: Utilisation des bibliothèques
-    url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#utilisation-des-bibliotheques
     hash: utilisation-des-bibliotheques
 - title: Aide-mémoire
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#aide-memoire
   hash: aide-memoire
 - title: Pour en savoir plus
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#pour-en-savoir-plus
   hash: pour-en-savoir-plus
 - title: Licence
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#licence
   hash: licence
 - title: Bibliographie
-  url: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagrams-net#bibliographie
   hash: bibliographie

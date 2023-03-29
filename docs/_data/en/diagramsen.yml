@@ -1,47 +1,34 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Main Use
-  url: /en/resources/current/how-to/diagrams-net-libraries#main-use
   hash: main-use
 - title: Context
-  url: /en/resources/current/how-to/diagrams-net-libraries#context
   hash: context
 - title: Essential Vocabularies and Prior Knowledge
-  url: /en/resources/current/how-to/diagrams-net-libraries#essential-vocabularies-and-prior-knowledge
   hash: essential-vocabularies-and-prior-knowledge
 - title: Intended Audience(s) and Section Description
-  url: /en/resources/current/how-to/diagrams-net-libraries#intended-audiences-and-section-description
   hash: intended-audiences-and-section-description
 - title: Instructions
-  url: /en/resources/current/how-to/diagrams-net-libraries#instructions
   hash: instructions
   class: sublist
   subfolder:  
   - title: Loading the Libraries
-    url: /en/resources/current/how-to/diagrams-net-libraries#loading-the-libraries
     hash: loading-the-libraries
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Opening a Library File
-      url: /en/resources/current/how-to/diagrams-net-libraries#opening-a-library-file
       hash: opening-a-library-file
     - title: Loading a Library via a URL
-      url: /en/resources/current/how-to/diagrams-net-libraries#loading-a-library-via-a-url
       hash: loading-a-library-via-a-url
   - title: Using the Libraries
-    url: /en/resources/current/how-to/diagrams-net-libraries#using-the-libraries
     hash: using-the-libraries
 - title: Memory Aids
-  url: /en/resources/current/how-to/diagrams-net-libraries#memory-aids
   hash: memory-aids
 - title: To Know More
-  url: /en/resources/current/how-to/diagrams-net-libraries#to-know-more
   hash: to-know-more
 - title: Licence
-  url: /en/resources/current/how-to/diagrams-net-libraries#licence
   hash: licence
 - title: Bibliography
-  url: /en/resources/current/how-to/diagrams-net-libraries#bibliography
   hash: bibliography

@@ -1,25 +1,18 @@
-class: mainlist
+class: sublist
 
 toc:
 
 - title: Abstract
-  url: /en/resources/current/lod-benefits-challenges#abstract
   hash: abstract
 - title: Linked Open Data (LOD) for Cultural Institutions
-  url: /en/resources/current/lod-benefits-challenges#linked-open-data-lod-for-cultural-institutions
   hash: linked-open-data-lod-for-cultural-institutions
 - title: Benefits
-  url: /en/resources/current/lod-benefits-challenges#benefits
   hash: benefits
 - title: Challenges
-  url: /en/resources/current/lod-benefits-challenges#challenges
   hash: challenges
 - title: Feasibility Guidelines
-  url: /en/resources/current/lod-benefits-challenges#feasibility-guidelines
   hash: feasibility-guidelines
 - title: Best Practices for Publishing LOD
-  url: /en/resources/current/lod-benefits-challenges#best-practices-for-publishing-lod
   hash: best-practices-for-publishing-lod
 - title: Selected Bibliography
-  url: /en/resources/current/lod-benefits-challenges#selected-bibliography
   hash: selected-bibliography

@@ -1,80 +1,58 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Utilisation principale
-  url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-principale
   hash: utilisation-principale
 - title: Contexte
-  url: /fr/ressources/actuel/mode-demploi/criteria#contexte
   hash: contexte
 - title: Vocabulaire de base et connaissances préalables
-  url: /fr/ressources/actuel/mode-demploi/criteria#vocabulaire-de-base-et-connaissances-prealables
   hash: vocabulaire-de-base-et-connaissances-prealables
 - title: Auditoires visés
-  url: /fr/ressources/actuel/mode-demploi/criteria#auditoires-vises
   hash: auditoires-vises
 - title: Instructions
-  url: /fr/ressources/actuel/mode-demploi/criteria#instructions
   hash: instructions
   class: sublist
   subfolder:
   - title: Démonstrateur en ligne
-    url: /fr/ressources/actuel/mode-demploi/criteria#demonstrateur-en-ligne
     hash: demonstrateur-en-ligne
     class: sublist
     subfolder:
     - title: Navigateurs recommandés
-      url: /fr/ressources/actuel/mode-demploi/criteria#navigateurs-recommandes
       hash: navigateurs-recommandes
     - title: Utilisation
-      url: /fr/ressources/actuel/mode-demploi/criteria#utilisation
       hash: utilisation
   - title: Interface en ligne de commande
-    url: /fr/ressources/actuel/mode-demploi/criteria#interface-en-ligne-de-commande
     hash: interface-en-ligne-de-commande
     class: sublist
     subfolder:
     - title: Installation
-      url: /fr/ressources/actuel/mode-demploi/criteria#installation
       hash: installation
     - title: Dépendances
-      url: /fr/ressources/actuel/mode-demploi/criteria#dependances
       hash: dependances
     - title: Utilisation
-      url: /fr/ressources/actuel/mode-demploi/criteria#utilisation-1
       hash: utilisation-1
       class: sublist
       subfolder:
       - title: criteria.py
-        url: /fr/ressources/actuel/mode-demploi/criteria#criteriapy
         hash: criteriapy
     - title: Annotation de nœud
-      url: /fr/ressources/actuel/mode-demploi/criteria#annotation-de-noeud
       hash: annotation-de-noeud
     - title: Configuration
-      url: /fr/ressources/actuel/mode-demploi/criteria#configuration
       hash: configuration
       class: sublist
       subfolder:
       - title: Schème de couleurs
-        url: /fr/ressources/actuel/mode-demploi/criteria#scheme-de-couleurs
         hash: scheme-de-couleurs
       - title: Source des ontologies
-        url: /fr/ressources/actuel/mode-demploi/criteria#source-des-ontologies
         hash: source-des-ontologies
 - title: Aide-mémoire
-  url: /fr/ressources/actuel/mode-demploi/criteria#aide-memoire
   hash: aide-memoire
 - title: Pour en savoir plus
-  url: /fr/ressources/actuel/mode-demploi/criteria#pour-en-savoir-plus
   hash: pour-en-savoir-plus
 - title: Licence
-  url: /fr/ressources/actuel/mode-demploi/criteria#licence
   hash: licence
 - title: Utilisateurs dignes de mention
-  url: /fr/ressources/actuel/mode-demploi/criteria#utilisateurs-rices-dignes-de-mention
   hash: utilisateurs-rices-dignes-de-mention
 - title: Bibliographie
-  url: /fr/ressources/actuel/mode-demploi/criteria#bibliographie
   hash: bibliographie

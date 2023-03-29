@@ -1,103 +1,75 @@
-class: mainlist
+class: sublist
 toc:
 
 - title: Utilisations principales
-  url: /fr/ressources/actuel/mode-demploi/specifications#utilisations-principales
   hash: utilisations-principales
 - title: Contexte
-  url: /fr/ressources/actuel/mode-demploi/specifications#contexte
   hash: contexte
 - title: Vocabulaire de base et connaissances préalables
-  url: /fr/ressources/actuel/mode-demploi/specifications#vocabulaire-de-base-et-connaissances-prealables
   hash: vocabulaire-de-base-et-connaissances-prealables
 - title: Auditoires visés et description des sections
-  url: /fr/ressources/actuel/mode-demploi/specifications#auditoires-vises-et-description-des-sections
   hash: auditoires-vises-et-description-des-sections
 - title: Mode d'emploi
-  url: /fr/ressources/actuel/mode-demploi/specifications#mode-demploi
   hash: mode-demploi
   class: sublist
   subfolder:
   - title: Spécification du modèle cible
-    url: /fr/ressources/actuel/mode-demploi/specifications#specification-du-modele-cible
     hash: specification-du-modele-cible
     class: sublist
     subfolder:
     - title: Utilité
-      url: /fr/ressources/actuel/mode-demploi/specifications#smc-utilite
       hash: smc-utilite
     - title: Structure
-      url: /fr/ressources/actuel/mode-demploi/specifications#smc-structure
       hash: smc-structure
       class: sublist
       subfolder:
       - title: Division des chapitres
-        url: /fr/ressources/actuel/mode-demploi/specifications#smc-division-des-chapitres
         hash: smc-division-des-chapitres
     - title: Gabarit des patrons conceptuels
-      url: /fr/ressources/actuel/mode-demploi/specifications#gabarit-des-patrons-conceptuels
       hash: gabarit-des-patrons-conceptuels
   - title: Spécification des chemins sémantiques
-    url: /fr/ressources/actuel/mode-demploi/specifications#specification-des-chemins-semantiques
     hash: specification-des-chemins-semantiques
     class: sublist
     subfolder:
     - title: Utilité
-      url: /fr/ressources/actuel/mode-demploi/specifications#scs-utilite
       hash: scs-utilite
     - title: Structure
-      url: /fr/ressources/actuel/mode-demploi/specifications#scs-structure
       hash: scs-structure
       class: sublist
       subfolder:
       - title: Division des chapitres
-        url: /fr/ressources/actuel/mode-demploi/specifications#scs-division-des-chapitres
         hash: scs-division-des-chapitres
     - title: Gabarit des nœuds de saisie
-      url: /fr/ressources/actuel/mode-demploi/specifications#gabarit-des-noeuds-de-saisie
       hash: gabarit-des-noeuds-de-saisie
   - title: Utiliser conjointement la SMC et la SCS
-    url: /fr/ressources/actuel/mode-demploi/specifications#utiliser-conjointement-la-smc-et-la-scs
     hash: utiliser-conjointement-la-smc-et-la-scs
     class: sublist
     subfolder:
     - title: Spécifications complémentaires
-      url: /fr/ressources/actuel/mode-demploi/specifications#specifications-complementaires
       hash: specifications-complementaires
     - title: Navigation
-      url: /fr/ressources/actuel/mode-demploi/specifications#navigation
       hash: navigation
       class: sublist
       subfolder:
       - title: Barre latérale
-        url: /fr/ressources/actuel/mode-demploi/specifications#barre-laterale
         hash: barre-laterale
       - title: Outil de recherche
-        url: /fr/ressources/actuel/mode-demploi/specifications#outil-de-recherche
         hash: outil-de-recherche
       - title: Diagramme A-Z
-        url: /fr/ressources/actuel/mode-demploi/specifications#diagramme-a-z
         hash: diagramme-a-z
     - title: Personas
-      url: /fr/ressources/actuel/mode-demploi/specifications#personas
       hash: personas
       class: sublist
       subfolder:
       - title: Catalogueur·se de musée
-        url: /fr/ressources/actuel/mode-demploi/specifications#catalogueurse-de-musee
         hash: catalogueurse-de-musee
       - title: Développeur
-        url: /fr/ressources/actuel/mode-demploi/specifications#developpeur
         hash: developpeur
       - title: Chercheur·se
-        url: /fr/ressources/actuel/mode-demploi/specifications#chercheurse
         hash: chercheurse
 - title: Aide-mémoire
-  url: /fr/ressources/actuel/mode-demploi/specifications#aide-memoire
   hash: aide-memoire
 - title: Pour plus d'information
-  url: /fr/ressources/actuel/mode-demploi/specifications#pour-plus-dinformation
   hash: pour-plus-dinformation
 - title: Bibliographie
-  url: /fr/ressources/actuel/mode-demploi/specifications#bibliographie
   hash: bibliographie

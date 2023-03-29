@@ -1,65 +1,48 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Abstract
-  url: /en/technical-reports/current/uris-technical-report#abstract
   hash: abstract
 - title: Context
-  url: /en/technical-reports/current/uris-technical-report#context
   hash: context
   class: sublist
   subfolder:
   - title: CHIN Linked Open Data Work
-    url: /en/technical-reports/current/uris-technical-report#chin-linked-open-data-work
     hash: chin-linked-open-data-work
   - title: Statement of Intent
-    url: /en/technical-reports/current/uris-technical-report#statement-of-intent
     hash: statement-of-intent
 - title: Organizing Principles
-  url: /en/technical-reports/current/uris-technical-report#organizing-principles
   hash: organizing-principles
 - title: CHIN Recommended Specification
-  url: /en/technical-reports/current/uris-technical-report#chin-recommended-specification
   hash: chin-recommended-specification
   class: sublist
   subfolder:
   - title: Content Negotiation—URLs Derived from URIs
-    url: /en/technical-reports/current/uris-technical-report#content-negotiationurls-derived-from-uris
     hash: content-negotiationurls-derived-from-uris
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Data Format Specific Representations
-      url: /en/technical-reports/current/uris-technical-report#data-format-specific-representations 
       hash: data-format-specific-representations
     - title: Human-Readable Interfaces
-      url: /en/technical-reports/current/uris-technical-report#human-readable-interfaces 
       hash: human-readable-interfaces
   - title: URI Template
-    url: /en/technical-reports/current/uris-technical-report#uri-template
     hash: uri-template
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Scheme—Secure Protocol
-      url: /en/technical-reports/current/uris-technical-report#schemesecure-protocol
       hash: schemesecure-protocol
     - title: Domain—Project Oriented
-      url: /en/technical-reports/current/uris-technical-report#domainproject-oriented 
       hash: domainproject-oriented
     - title: Segments—Meaningful to the Organization
-      url: /en/technical-reports/current/uris-technical-report#segmentsmeaningful-to-the-organization 
       hash: segmentsmeaningful-to-the-organization
     - title: Slug—Semi-Opaque
-      url: /en/technical-reports/current/uris-technical-report#slugsemi-opaque 
       hash: slugsemi-opaque
 - title: Management
-  url: /en/technical-reports/current/uris-technical-report#management
   hash: management
 - title: Notes
-  url: /en/technical-reports/current/uris-technical-report#notes
   hash: notes
 - title: Bibliography
-  url: /en/technical-reports/current/uris-technical-report#bibliography
   hash: bibliography
 
 

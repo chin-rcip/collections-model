@@ -1,46 +1,34 @@
 
-class: mainlist
+class: sublist
 toc:
 
 - title: Choosing a Model
-  url: /en/resources/current/how-to/choosing-lod-model#choosing-a-model
   hash: choosing-a-model
   class: sublist
   subfolder:
   - title: Project Assessment
-    url: /en/resources/current/how-to/choosing-lod-model#project-assessment
     hash: project-assessment
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Project Purpose
-      url: /en/resources/current/how-to/choosing-lod-model#project-purpose
       hash: project-purpose
     - title: Project Resources
-      url: /en/resources/current/how-to/choosing-lod-model#project-resources
       hash: project-resources
     - title: Semanticization Objectives
-      url: /en/resources/current/how-to/choosing-lod-model#semanticization-objectives
       hash: semanticization-objectives
     - title: Dataset Features
-      url: /en/resources/current/how-to/choosing-lod-model#dataset-features
       hash: dataset-features
   - title: Model Assessment
-    url: /en/resources/current/how-to/choosing-lod-model#model-assessment
     hash: model-assessment
-    class: subsublist
+    class: sublist
     subfolder:
     - title: Patterns Coverage
-      url: /en/resources/current/how-to/choosing-lod-model#patterns-coverage
       hash: patterns-coverage
     - title: Relevancy
-      url: /en/resources/current/how-to/choosing-lod-model#relevancy
       hash: relevancy
     - title: Adaptability
-      url: /en/resources/current/how-to/choosing-lod-model#adaptability
       hash: adaptability
     - title: Sustainability and Maintenance
-      url: /en/resources/current/how-to/choosing-lod-model#sustainability-and-maintenance
       hash: sustainability-and-maintenance
 - title: Bibliography
-  url: /en/resources/current/how-to/choosing-lod-model#bibliography
   hash: bibliography
