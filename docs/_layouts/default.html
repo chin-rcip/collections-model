@@ -68,7 +68,7 @@
               toc_x.addClass("active");
               // scroll to active <a> of sidebar
               $(".sidebar").animate({
-                scrollTop: toc_x.offset().top - $(anchor).offset().top}, 100);
+                scrollTop: toc_x.offset().top - $(anchor).offset().top}, 1);
               break
             } else { break }
             
@@ -173,7 +173,7 @@
           }     
           $(event.target).children(".dropdown").toggleClass("visible");
           $(event.target).toggleClass("visible");
-          console.log($(event.target).children(".dropdown").text())
+          // console.log($(event.target).children(".dropdown").text())
           
         };
         if ($(event.target).hasClass("modal")){
@@ -239,7 +239,7 @@
       // Switching examples tabs
       $(".tab").on("click", function(){
         var tab_id = $(this).attr("name");
-        console.log(tab_id)
+        // console.log(tab_id)
         $("#"+tab_id).show();
         $("#"+tab_id).siblings().hide();
         $(this).addClass("displayed");
