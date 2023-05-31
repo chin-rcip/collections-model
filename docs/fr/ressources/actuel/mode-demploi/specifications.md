@@ -69,7 +69,7 @@ Il est également recommandé de lire le [glossaire ciblé](https://chin-rcip.gi
 Finalement, étant donné que le modèle du RCIP repose sur l'ontologie CIDOC CRM, l'utilisateur·rice doit en avoir une compréhension de base. Des ressources utiles peuvent être trouvées ici :
 
 * [Site Web du CIDOC CRM](https://www.cidoc-crm.org/) (en anglais)
-* [Tutoriel CIDOC CRM](https://chin-rcip.github.io/collections-model/fr/ressources/actuel/tutoriel-cidoc-crm)
+* [Tutoriel CIDOC CRM](https://chin-rcip.github.io/collections-model/fr/ressources/actuel/mode-demploi/tutoriel-cidoc-crm)
 
 ## Auditoires visés et description des sections {#auditoires-vises-et-description-des-sections}
 
@@ -341,7 +341,7 @@ Liens externes pertinents :
 * [Langage Turtle](https://www.w3.org/TR/turtle/) (en anglais)
 * [Format JSON-LD](https://json-ld.org) (en anglais)
 * [Site Web du CIDOC CRM](https://www.cidoc-crm.org/) (en anglais)
-* [Tutoriel CIDOC CRM](https://chin-rcip.github.io/collections-model/fr/ressources/actuel/tutoriel-cidoc-crm)
+* [Tutoriel CIDOC CRM](https://chin-rcip.github.io/collections-model/fr/ressources/actuel/mode-demploi/tutoriel-cidoc-crm)
 
 ## Bibliographie
 

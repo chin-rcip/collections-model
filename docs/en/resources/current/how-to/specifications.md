@@ -68,7 +68,7 @@ It is also recommended to read the targeted [glossary](https://chin-rcip.github.
 Furthermore, because CHIN's model is reliant on the CIDOC CRM ontology, the user should have a basic understanding of it. Useful resources can be found here:
 
 * [CIDOC CRM website](https://www.cidoc-crm.org/)
-* [CIDOC CRM Tutorial](https://chin-rcip.github.io/collections-model/en/resources/current/cidoc-crm-tutorial)
+* [CIDOC CRM Tutorial](https://chin-rcip.github.io/collections-model/en/resources/current/how-to/cidoc-crm-tutorial)
 
 ## Intended Audience·s and Section Description
 
@@ -343,7 +343,7 @@ Relevant external links:
 * [Turtle language](https://www.w3.org/TR/turtle/)
 * [JSON-LD format](https://json-ld.org)
 * [CIDOC CRM website](https://www.cidoc-crm.org/)
-* [CIDOC CRM Tutorial](https://chin-rcip.github.io/collections-model/en/resources/current/cidoc-crm-tutorial)
+* [CIDOC CRM Tutorial](https://chin-rcip.github.io/collections-model/en/resources/current/how-to/cidoc-crm-tutorial)
 
 ## Bibliography
 
