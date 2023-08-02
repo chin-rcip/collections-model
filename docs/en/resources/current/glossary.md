@@ -32,34 +32,34 @@ description: Glossary of essential terms for DOPHEDA projects; definitions are i
 <tr class="odd">
 <td class="first-lang"><h3 id="actor-noun">actor (noun)</h3>
 <p><em>Def</em>. Person or group who acts. </p>
-<p><em>Ex</em>. "An <strong>actor</strong>’s primary identifier in the context of a knowledge graph is its URI. However, prior to the assignment of this URI in the context of data provision, most data providers have themselves assigned dedicated identifiers meant to uniquely identify the actor in their information system" (<a href="https://chin-rcip.github.io/collections-model/target-model/current/actor-identifiers-and-appellations">Target Model Specification 2.2</a>). </p>
+<p><em>Ex</em>. "An <strong>actor</strong>’s primary identifier in the context of a knowledge graph is its URI. However, prior to the assignment of this URI in the context of data provision, most data providers have themselves assigned dedicated identifiers meant to uniquely identify the actor in their information system" (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/actor-identifiers-and-appellations">Target Model Specification 2.2</a>). </p>
 </td>
 <td class="second-lang"><h3>actant (nom masculin)</h3>
 <p><em>Def</em>. Personne ou groupe qui agit.</p>
-<p><em>Ex</em>. « L'identifiant primaire d'un <strong>actant</strong> dans le contexte d'un graphe de connaissances est son URI. Toutefois, avant l'attribution de cet URI dans le contexte de la soumission de données, la plupart des soumissionnaires de données ont eux-mêmes attribué des identifiants dédiés destinés à identifier l'actant de manière unique dans leur système d'information » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/identifiants-et-appellations-de-lactant">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « L'identifiant primaire d'un <strong>actant</strong> dans le contexte d'un graphe de connaissances est son URI. Toutefois, avant l'attribution de cet URI dans le contexte de la soumission de données, la plupart des soumissionnaires de données ont eux-mêmes attribué des identifiants dédiés destinés à identifier l'actant de manière unique dans leur système d'information » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/identifiants-et-appellations-de-lactant">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
 <td class="first-lang"><h3 id="aggregation-noun">aggregation (noun)</h3>
 <p><em>Def</em>. <em>(pipeline)</em> Grouping of different datasets through a process of linking and enrichment.</p>
-<p><em>Ex</em>. "In keeping with its mandate to 'assist Canadian museums in documenting, managing, and sharing information about their collections,' the Canadian Heritage Information Network (CHIN) established a pilot project to determine whether it has the capacity to make the resources it creates and the data it <strong>aggregates</strong> available in Linked Open Data (LOD)" (<a href="https://chin-rcip.github.io/collections-model/target-model/current/introduction">Target Model Specification 2.2</a>).</p>
+<p><em>Ex</em>. "In keeping with its mandate to 'assist Canadian museums in documenting, managing, and sharing information about their collections,' the Canadian Heritage Information Network (CHIN) established a pilot project to determine whether it has the capacity to make the resources it creates and the data it <strong>aggregates</strong> available in Linked Open Data (LOD)" (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/introduction">Target Model Specification 2.2</a>).</p>
 <p><em>Note</em>. Prefer Gathering to Aggregation when referring to the process of coalescing datasets (e.g. data gathering). </p>
 </td>
 <td class="second-lang"><h3>agrégation (nom féminin)</h3>
 <p><em>Def</em>. <em>(pipeline de données)</em> Action de regrouper différents jeux de données par un processus de liage et d’enrichissement. </p>
-<p><em>Ex</em>. « Conformément à son mandat qui consiste à 'appu[yer] les musées canadiens dans leur travail de documentation et de gestion de leurs collections, ainsi que dans la diffusion de l’information sur leurs collections', le Réseau canadien d'information sur le patrimoine (RCIP) a mis sur pied un projet pilote pour déterminer s'il a la capacité de rendre les ressources qu'il crée et les données qu'il <strong>agrège</strong> disponibles en données ouvertes et liées (DOL) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Conformément à son mandat qui consiste à 'appu[yer] les musées canadiens dans leur travail de documentation et de gestion de leurs collections, ainsi que dans la diffusion de l’information sur leurs collections', le Réseau canadien d'information sur le patrimoine (RCIP) a mis sur pied un projet pilote pour déterminer s'il a la capacité de rendre les ressources qu'il crée et les données qu'il <strong>agrège</strong> disponibles en données ouvertes et liées (DOL) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Lors de références au processus de repérage et d’amassage de données, préférer le terme « cueillette » (p. ex. cueillette de données). </p>
 </td>
 </tr>
 <tr class="odd">
 <td class="first-lang"><h3 id="assertion-noun">assertion (noun)</h3>
 <p><em>Def</em>. Statement of the provider’s belief that an information is true based on a specific knowledge.</p>
-<p><em>Ex</em>. "Each technique is modelled as an instance of `E55_Type` that is linked to the same instance of `F51_Pursuit` by the property `P32_used_general_technique`, and this instance of `F51_Pursuit` is carried out by the actor. However, this path <strong>asserts</strong> that the actor pursued an occupation that was not originally assigned by the provider" (<a href="https://chin-rcip.github.io/collections-model/target-model/current/technique-used">Target Model Specification 2.2</a>). </p>
+<p><em>Ex</em>. "Each technique is modelled as an instance of `E55_Type` that is linked to the same instance of `F51_Pursuit` by the property `P32_used_general_technique`, and this instance of `F51_Pursuit` is carried out by the actor. However, this path <strong>asserts</strong> that the actor pursued an occupation that was not originally assigned by the provider" (<a href="https://chin-rcip.github.io/collections-model/en/target-model/current/technique-used">Target Model Specification 2.2</a>). </p>
 <p><em>Note</em>. Differentiate from Declaration, Expression. </p>
 </td>
 <td class="second-lang"><h3>affirmation (nom féminin)</h3>
 <p><em>Def</em>. Énonciation de la conviction d’un soumissionnaire qu’une information est véridique sur la base de connaissances spécifiques.</p>
-<p><em>Ex</em>. « Chaque technique est modélisée comme une instance de `E55_Type` qui est liée à la même instance de `F51_Pratique` par la propriété `P32_a_mobilisé_comme_technique_générale`, et cette instance de `F51_Pratique` est effectuée par l'actant. Toutefois, ce chemin sémantique <strong>affirme</strong> que l'actant a exercé une occupation qui n'avait pas été initialement attribuée par le soumissionnaire » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/technique-utilisee">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Chaque technique est modélisée comme une instance de `E55_Type` qui est liée à la même instance de `F51_Pratique` par la propriété `P32_a_mobilisé_comme_technique_générale`, et cette instance de `F51_Pratique` est effectuée par l'actant. Toutefois, ce chemin sémantique <strong>affirme</strong> que l'actant a exercé une occupation qui n'avait pas été initialement attribuée par le soumissionnaire » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/technique-utilisee">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Déclaration, Expression. </p>
 </td>
 </tr>
@@ -132,20 +132,20 @@ description: Glossary of essential terms for DOPHEDA projects; definitions are i
 </td>
 <td class="second-lang"><h3>classe (nom féminin)</h3>
 <p><em>Def</em>. Catégorie d’instances qui partagent des caractéristiques communes, lesquelles signalent leur appartenance à la classe; une classe peut être la portée et/ou le domaine d’une propriété.</p>
-<p><em>Ex</em>. « Une option consiste à créer de nouvelles <strong>classes</strong> et propriétés. Toutefois, cette pratique n'est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de cartographie) et à un plus grand nombre d'entités à gérer (compliquant ainsi les requêtes des personnes impliquées) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Une option consiste à créer de nouvelles <strong>classes</strong> et propriétés. Toutefois, cette pratique n'est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de cartographie) et à un plus grand nombre d'entités à gérer (compliquant ainsi les requêtes des personnes impliquées) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pertinent pour Classification, Domaine, Propriété et Portée. </p>
 <p><em>Note</em>. Pour plus de détails, voir la définition du CIDOC CRM. </p>
 <br>
 <p><em>Def</em>. <em>(propriété-classe)</em> Propriété réifiée dont les instances peuvent être les sujets ou les objets d’autres triplets; cette réification transforme fonctionnellement de telles propriétés en classes. </p>
-<p><em>Ex</em>. « Pendant ce temps, les <strong>propriétés-classes</strong> ont été développées par le CRM SIG en 2014 dans le cadre d'une extension qui permet la réification de propriétés spécifiques (c.-à-d. qu'elles ont été transformées en classes) afin que les instances de ces <strong>propriétés-classes</strong> puissent devenir le sujet d'autres triplets sans compromettre les logiques du reste de l'ontologie » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/relation#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Pendant ce temps, les <strong>propriétés-classes</strong> ont été développées par le CRM SIG en 2014 dans le cadre d'une extension qui permet la réification de propriétés spécifiques (c.-à-d. qu'elles ont été transformées en classes) afin que les instances de ces <strong>propriétés-classes</strong> puissent devenir le sujet d'autres triplets sans compromettre les logiques du reste de l'ontologie » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/relation#discussion">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. L’abréviation PC, conformément à leur code dans le CIDOC CRM, est parfois utilisée à des fins de concision. </p>
 <br>
 <p><em>Def</em>. <em>(sous-classe)</em> Classe qui est la spécialisation d’une ou de plusieurs autre·s classe·s (sa ou ses super-classe·s). </p>
-<p><em>Ex</em>. « Ainsi, la classe `E55_Type` et la propriété `P2_a_pour_type` sont utilisées pour spécifier des entités plutôt que de créer de nouvelles <strong>sous-classes</strong> et sous-propriétés » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ainsi, la classe `E55_Type` et la propriété `P2_a_pour_type` sont utilisées pour spécifier des entités plutôt que de créer de nouvelles <strong>sous-classes</strong> et sous-propriétés » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pour plus de détails, voir la définition du CIDOC CRM. </p>
 <br>
 <p><em>Def</em>. <em>(super-classe)</em> Classe qui est une généralisation d’une ou de plusieurs autre·s classe·s (sa ou ses sous-classe·s).</p>
-<p><em>Ex</em>. « Comme sa portée est sémantiquement plus proche de la définition générale de l'occupation, qui englobe à la fois les activités professionnelles et récréatives, elle a été choisie pour modéliser la ou les occupations plutôt que sa <strong>super-classe</strong> `E7_Activité` » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/occupation#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Comme sa portée est sémantiquement plus proche de la définition générale de l'occupation, qui englobe à la fois les activités professionnelles et récréatives, elle a été choisie pour modéliser la ou les occupations plutôt que sa <strong>super-classe</strong> `E7_Activité` » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/occupation#discussion">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pour plus de détails, voir la définition du CIDOC CRM. </p>
 </td>
 </tr>
@@ -219,7 +219,7 @@ description: Glossary of essential terms for DOPHEDA projects; definitions are i
 <p><em>Ex</em>. « Un actant constitue, dans ce cadre, tout individu (artiste, artisan·e, etc.) ou groupe (manufacturier·ère, groupe d’artistes, etc.) ayant pris part à la création d’un artefact collectionné ou étant lié d’une manière ou d’une autre à celui-ci » (<a href="https://chin-rcip.github.io/collections-model/fr/a-propos">À propos Documentation de DOPHEDA</a>).</p>
 <br>
 <p><em>Def</em>. <em>(sémantique)</em> Processus de conceptualisation et de mise en place qui mène une entité sémantique à exister.</p>
-<p><em>Ex</em>. « Une option consiste à créer de nouvelles <strong>classes</strong> et propriétés. Toutefois, cette pratique n'est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de cartographie) et à un plus grand nombre d'entités à gérer (compliquant ainsi les requêtes des personnes impliquées) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Une option consiste à créer de nouvelles <strong>classes</strong> et propriétés. Toutefois, cette pratique n'est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de cartographie) et à un plus grand nombre d'entités à gérer (compliquant ainsi les requêtes des personnes impliquées) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Il est recommandé d’utiliser des termes plus précis tels que développement, introduction, etc.  </p>
 </td>
 </tr>
@@ -303,24 +303,24 @@ description: Glossary of essential terms for DOPHEDA projects; definitions are i
 <p><em>Note</em>. Différencier de Représentation. </p>
 <br>
 <p><em>Def</em>. <em>(modèle de données)</em> Modélisation abstraite qui organise des éléments de données, le plus souvent en patrons conceptuels; dans le cas de DOL, un modèle de données est le plus souvent une utilisation appliquée d’une ontologie afin de répondre à des besoins spécifiques.</p>
-<p><em>Ex</em>. « Le contenu de ces notes curatoriales peut aider à mettre en contexte les données qu'elles documentent et constitue, à ce titre, un élément nécessaire des <strong>modèles de données</strong> patrimoniales » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/note-curatoriale#introduction-et-contexte">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Le contenu de ces notes curatoriales peut aider à mettre en contexte les données qu'elles documentent et constitue, à ce titre, un élément nécessaire des <strong>modèles de données</strong> patrimoniales » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/note-curatoriale#introduction-et-contexte">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Préférer à Modèle sauf lorsqu’il est question d’un agencement de modèles et d’ontologies.</p>
 <p><em>Note</em>. Dans le contexte de la spécification du RCIP, le terme « le modèle » est parfois utilisé à des fins de concision pour référer au « Modèle de données DOPHEDA du RCIP ». </p>
 <br>
 <p><em>Def</em>. <em>(données d’entrée)</em> (Jeu de) données originales qui n’ont pas été enrichies et qui ont été soumises par un soumissionnaire (opposé Données extrantes).</p>
-<p><em>Ex</em>. « En plus de faciliter la compréhension, cela illustre comment la sémantisation des <strong>données d'entrée</strong> génère plusieurs nouveaux éléments tels que `E67_Naissance` et `E52_Intervalle_temporel` » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « En plus de faciliter la compréhension, cela illustre comment la sémantisation des <strong>données d'entrée</strong> génère plusieurs nouveaux éléments tels que `E67_Naissance` et `E52_Intervalle_temporel` » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Syn</em>. Données entrantes, Entrant. </p>
 <p><em>Note</em>. Différencier de Provenance et Données d’origine. </p>
 <br>
 <p><em>Def</em>. <em>(données désordonnées)</em> Données qui sont caractérisées par leur nature hétérogène et non standardisée, par l’absence de certains enregistrements dans le jeu de données ou par la présence générale d’erreurs (opposé Données propres).</p>
-<p><em>Ex</em>. « Il en résulte des données non structurées, souvent appelées « <strong>données désordonnées</strong> », qui doivent être adaptées, même au détriment de la sémantique » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/donnees-desordonnees#introduction-et-contexte">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Il en résulte des données non structurées, souvent appelées « <strong>données désordonnées</strong> », qui doivent être adaptées, même au détriment de la sémantique » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/donnees-desordonnees#introduction-et-contexte">Spécification du modèle cible 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(données extrantes)</em> Le produit résultant d’un processus appliqué à des (ou à un jeu de) données (opposé Données d’entrée).</p>
 <p><em>Ex</em>. « À déterminer ».</p>
 <p><em>Syn</em>. Données extrantes, Extrant. </p>
 <br>
 <p><em>Def</em>. <em>(données de provenance)</em> Données au sujet du·de la créateur·rice ou propriétaire original·e d’une pièce d’information.</p>
-<p><em>Ex</em>. « Le graphe nommé d'un soumissionnaire basé sur un jeu de données peut être préférable pour la documentation des <strong>données de provenance</strong> et la gestion des informations, mais un graphe nommé plus granulaire basé sur un enregistrement pourrait être préférable d'un point de vue technique » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/provenance-du-jeu-de-donnees#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Le graphe nommé d'un soumissionnaire basé sur un jeu de données peut être préférable pour la documentation des <strong>données de provenance</strong> et la gestion des informations, mais un graphe nommé plus granulaire basé sur un enregistrement pourrait être préférable d'un point de vue technique » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/provenance-du-jeu-de-donnees#discussion">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Syn</em>. Provenance. </p>
 <p><em>Note</em>. Différencier de Données d'origine. </p>
 <br>
@@ -332,7 +332,7 @@ description: Glossary of essential terms for DOPHEDA projects; definitions are i
 <p><em>Ex</em>. « Les valeurs fournies contiennent des informations <strong>structurées</strong> qui peuvent être automatiquement réconciliées avec d'autres entités dans d'autres ensembles de données » (<a href="https://chin-rcip.github.io/collections-model/fr/specification-des-chemins-semantiques/actuel/noeuds-de-saisie#appellation-de-lactant">Spécification des chemins sémantiques 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(données non structurées)</em> Données qui ne sont pas conformes aux principes d’un (ou de plusieurs) modèle·s de données; il s’agit typiquement de données principalement textuelles et plus complexes à analyser (opposé Données structurées).</p>
-<p><em>Ex</em>. « Ce patron conceptuel a été développé pour faciliter la cartographie des données qui ne suivent pas les recommandations du modèle DOPHEDA. Il s'agit d'une solution technique pour accueillir, dans un graphe de connaissances, des <strong>données non structurées</strong> » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/donnees-desordonnees#apercu">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ce patron conceptuel a été développé pour faciliter la cartographie des données qui ne suivent pas les recommandations du modèle DOPHEDA. Il s'agit d'une solution technique pour accueillir, dans un graphe de connaissances, des <strong>données non structurées</strong> » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/donnees-desordonnees#apercu">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -343,7 +343,7 @@ description: Glossary of essential terms for DOPHEDA projects; definitions are i
 </td>
 <td class="second-lang"><h3>déclaration (nom féminin)</h3>
 <p><em>Def</em>. Ensemble d’énoncés sémantiques qui établit l’association entre un URI et une ressource particulière. </p>
-<p><em>Ex</em>. « Il est également conseillé que « les instances de `E73_Objet_informationnel` de nature documentaire [...] soient <strong>déclarées</strong> comme des instances de la sous-classe `E31_Document` » (Le Bœuf et al. 2015, sect. E73 Information Object; notre traduction), c'est pourquoi cette dernière indication a été appliquée pour le modèle DOPHEDA » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/emplacement-du-document-de-reference#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Il est également conseillé que « les instances de `E73_Objet_informationnel` de nature documentaire [...] soient <strong>déclarées</strong> comme des instances de la sous-classe `E31_Document` » (Le Bœuf et al. 2015, sect. E73 Information Object; notre traduction), c'est pourquoi cette dernière indication a été appliquée pour le modèle DOPHEDA » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/emplacement-du-document-de-reference#discussion">Spécification du modèle cible 2.2</a>).</p>
 Note. Différencier de Affirmation et Expression.
 </td>
 </tr>
@@ -380,7 +380,7 @@ Note. Différencier de Affirmation et Expression.
 <p><em>Ex</em>. « Ce champ indique les classes et les propriétés qui seront générées lorsqu'une valeur se trouve dans le nœud <strong>décrit</strong> » (<a href="https://chin-rcip.github.io/collections-model/fr/specification-des-chemins-semantiques/actuel/introduction">Spécification des chemins sémantiques 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(textuelle/verbale)</em> Le récit écrit ou parlé de quelque chose.</p>
-<p><em>Ex</em>. « Ces notes sont souvent des éléments textuels distincts des textes <strong>descriptifs</strong> destinés à être publiés (p. ex. les légendes) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/note-curatoriale#introduction-et-contexte">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ces notes sont souvent des éléments textuels distincts des textes <strong>descriptifs</strong> destinés à être publiés (p. ex. les légendes) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/note-curatoriale#introduction-et-contexte">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -403,7 +403,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>diagramme (nom masculin)</h3>
 <p><em>Def</em>. Représentation visuelle d’un patron conceptuel.</p>
-<p><em>Ex</em>. « Les classes sont représentées par des boîtes dans lesquelles est inscrit le nom de la classe, tandis que les propriétés sont représentées par des flèches allant du domaine à la portée, avec leur nom écrit sur la flèche, comme le montre le <strong>diagramme</strong> ci-dessous » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Les classes sont représentées par des boîtes dans lesquelles est inscrit le nom de la classe, tandis que les propriétés sont représentées par des flèches allant du domaine à la portée, avec leur nom écrit sur la flèche, comme le montre le <strong>diagramme</strong> ci-dessous » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Modèle et Patron Conceptuel. </p>
 </td>
 </tr>
@@ -415,7 +415,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>document (nom masculin)</h3>
 <p><em>Def</em>. Un contenant (informatique ou physique) renfermant de l’information. </p>
-<p><em>Ex</em>. « Dans le CIDOC CRM, il existe une distinction entre l'information et le support physique de cette information (tel qu'un livre, un <strong>document</strong>, etc.) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/emplacement-du-document-de-reference#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Dans le CIDOC CRM, il existe une distinction entre l'information et le support physique de cette information (tel qu'un livre, un <strong>document</strong>, etc.) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/emplacement-du-document-de-reference#discussion">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Documentation et Enregistrement.</p>
 </td>
 </tr>
@@ -427,7 +427,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>documentation (nom féminin)</h3>
 <p><em>Def</em>. Action de recueillir de l’information au sujet d’un artefact conceptuel ou physique. </p>
-<p><em>Ex</em>. « Ces traits identitaires sont de plus en plus pertinents pour la contextualisation du travail des actants ainsi que des pratiques de collecte et de <strong>documentation</strong>, surtout lorsqu'il s'agit d'évaluer la (mauvaise) représentation des communautés marginalisées dans les collections patrimoniales » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#defis-de-la-representation-des-realites-des-communautes-mal-desservies">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ces traits identitaires sont de plus en plus pertinents pour la contextualisation du travail des actants ainsi que des pratiques de collecte et de <strong>documentation</strong>, surtout lorsqu'il s'agit d'évaluer la (mauvaise) représentation des communautés marginalisées dans les collections patrimoniales » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#defis-de-la-representation-des-realites-des-communautes-mal-desservies">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Données, Document et Spécification. </p>
 </td>
 </tr>
@@ -440,7 +440,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>domaine (nom féminin)</h3>
 <p><em>Def</em>. La classe sujet pour laquelle une propriété est définie.</p>
-<p><em>Ex</em>. « Cette même instance de `E65_Création` est liée au soumissionnaire (une instance de `E39_Actant`) par une instance de `PC14_a_été_effectué_par` dont le <strong>domaine</strong> est indiqué par le biais de la propriété `P01_a_pour_domaine` liée à l'instance de `E65_Création`, et dont la portée est indiquée par le biais de la propriété `P02_a_pour_portée` liée à l'instance de `E39_Actant` » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/provenance-du-jeu-de-donnees#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Cette même instance de `E65_Création` est liée au soumissionnaire (une instance de `E39_Actant`) par une instance de `PC14_a_été_effectué_par` dont le <strong>domaine</strong> est indiqué par le biais de la propriété `P01_a_pour_domaine` liée à l'instance de `E65_Création`, et dont la portée est indiquée par le biais de la propriété `P02_a_pour_portée` liée à l'instance de `E39_Actant` » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/provenance-du-jeu-de-donnees#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pertinent à Classe, Portée et Propriété. </p>
 <p><em>Note</em>. Pour une définition plus détaillée, voir la définition du CIDOC CRM. </p>
 </td>
@@ -466,7 +466,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>entité (nom féminin)</h3>
 <p><em>Def</em>. Classe, instance ou propriété d’une ontologie (le plus souvent le CIDOC CRM). </p>
-<p><em>Ex</em>. « Parce que le CIDOC CRM est une ontologie développée pour servir le secteur culturel dans son ensemble, ses <strong>entités</strong> sont intentionnellement de portée générale pour répondre adéquatement aux besoins et aux compréhensions des diverses disciplines patrimoniales (p. ex. archéologie, art, histoire, sociologie) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Parce que le CIDOC CRM est une ontologie développée pour servir le secteur culturel dans son ensemble, ses <strong>entités</strong> sont intentionnellement de portée générale pour répondre adéquatement aux besoins et aux compréhensions des diverses disciplines patrimoniales (p. ex. archéologie, art, histoire, sociologie) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -477,7 +477,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>expression (nom féminin)</h3>
 <p><em>Def</em>. Capacité d’un système à transmettre une information requise.</p>
-<p><em>Ex</em>. « Ces graphes nommés peuvent être <strong>exprimés</strong> sous la forme de diverses syntaxes, telles que NQuads, TRiG ou JSON-LD » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/provenance-du-jeu-de-donnees#exemples">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ces graphes nommés peuvent être <strong>exprimés</strong> sous la forme de diverses syntaxes, telles que NQuads, TRiG ou JSON-LD » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/provenance-du-jeu-de-donnees#exemples">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Affirmation et Déclaration. </p>
 </td>
 </tr>
@@ -499,7 +499,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>floruit (nom masculin)</h3>
 <p><em>Def</em>. Période au cours de laquelle la production d'un·e artiste, créateur·rice et/ou penseur·se est considérée qualitativement et rétrospectivement par les historien·nes comme la plus aboutie, la plus florissante et/ou la plus reconnue de sa vie.</p>
-<p><em>Ex</em>. « Le patron conceptuel actuel ne s'applique qu'aux actants, de sorte que la personne ou le groupe de personnes dont le <strong>floruit</strong> est représenté est identifié comme une instance de `E39_Actant` liée par la propriété `P11_a_eu_pour_actant_participant` à une instance de `E5_Évènement`, qui est le nœud central de ce patron conceptuel et représente le <strong>floruit</strong> lui-même » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/floruit#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Le patron conceptuel actuel ne s'applique qu'aux actants, de sorte que la personne ou le groupe de personnes dont le <strong>floruit</strong> est représenté est identifié comme une instance de `E39_Actant` liée par la propriété `P11_a_eu_pour_actant_participant` à une instance de `E5_Évènement`, qui est le nœud central de ce patron conceptuel et représente le <strong>floruit</strong> lui-même » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/floruit#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Le terme « floruit » est une locution latine employée dans plusieurs langues. </p>
 </td>
 </tr>
@@ -524,10 +524,10 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>identifiant (nom masculin)</h3>
 <p><em>Def</em>. Combinaison de caractères alphanumériques assignée à une entité par une organisation reconnue; les identifiants incluent les URI et d'autres types d'identifiants. </p>
-<p><em>Ex</em>. « Chaque triplet au sein d'un graphe nommé hérite des informations ajoutées à ce graphe. Des sous-ensembles (p. ex. des triplets ciblés) peuvent faire l'objet d'une requête en utilisant des <strong>identifiants</strong> de graphes (Dodds et Davis 2019, 53) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/provenance-du-jeu-de-donnees#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Chaque triplet au sein d'un graphe nommé hérite des informations ajoutées à ce graphe. Des sous-ensembles (p. ex. des triplets ciblés) peuvent faire l'objet d'une requête en utilisant des <strong>identifiants</strong> de graphes (Dodds et Davis 2019, 53) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/provenance-du-jeu-de-donnees#discussion">Spécification du modèle cible 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(URI)</em> Combinaison de caractères alphanumériques assignée à une ressource afin qu’elle soit dotée d’une adresse unique. </p>
-<p><em>Ex</em>. « Les libellés sont utilisés pour fournir une version lisible à l'humain de l'identification d'une ressource en plus de son identifiant de ressource uniforme ou <em>uniform resource identifier</em> (<strong>URI</strong>) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Les libellés sont utilisés pour fournir une version lisible à l'humain de l'identification d'une ressource en plus de son identifiant de ressource uniforme ou <em>uniform resource identifier</em> (<strong>URI</strong>) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. URI est l’abréviation anglophone de l’identifiant uniforme de ressource, qui est plus couramment utilisée en français. </p>
 </td>
 </tr>
@@ -538,7 +538,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>information (nom féminin)</h3>
 <p><em>Def</em>. Collection d’éléments de données enregistrés qui recensent des connaissances compréhensibles par l’humain (c.-à-d. que ces éléments de données agrégés constituent de l’information). </p>
-<p><em>Ex</em>. « Cela permet plus d'expressivité dans la description du temps, car tout type d'<strong>information</strong> textuelle liée aux dates peut être ajouté, comme « Circa », « Autour de », « Incertain », etc. » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/limites-temporelles#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Cela permet plus d'expressivité dans la description du temps, car tout type d'<strong>information</strong> textuelle liée aux dates peut être ajouté, comme « Circa », « Autour de », « Incertain », etc. » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/limites-temporelles#discussion">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -553,10 +553,10 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>instance (nom féminin)</h3>
 <p><em>Def</em>. Élément créé spécifiquement comme représentant d’une classe particulière dont il porte les caractéristiques; cette création s’appelle instantiation.</p>
-<p><em>Ex</em>. « Une solution courante pour traiter les données désordonnées dans les graphes de connaissances est de considérer ces données comme des chaînes de caractères, ce qui revient à créer une <strong>instance</strong> de `E33_Objet_linguistique` » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/donnees-desordonnees#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Une solution courante pour traiter les données désordonnées dans les graphes de connaissances est de considérer ces données comme des chaînes de caractères, ce qui revient à créer une <strong>instance</strong> de `E33_Objet_linguistique` » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/donnees-desordonnees#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(instantiation double ou multiple)</em> Création d’un élément comme représentant de plusieurs classes particulières dont il porte les caractéristiques. </p>
-<p><em>Ex</em>. « Dans certains cas, une même instance peut être définie par deux classes (p. ex. les noms d'actants qui sont des instances à la fois de `E33_Objet_linguistique` et de `E41_Appellation`); il s'agit d'une double <strong>instantiation</strong> » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction#conventions-de-diagramme">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Dans certains cas, une même instance peut être définie par deux classes (p. ex. les noms d'actants qui sont des instances à la fois de `E33_Objet_linguistique` et de `E41_Appellation`); il s'agit d'une double <strong>instantiation</strong> » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction#conventions-de-diagramme">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. L’instantiation multiple est le processus au cours duquel une instance relevant de plusieurs classes est créée alors que de multiples instances d’une seule classe sont plusieurs instances qui portent chacune les caractéristiques de cette classe. </p>
 <p><em>Note</em>. Pour une définition plus détaillée, voir la définition du CIDOC CRM. </p>
 </td>
@@ -627,7 +627,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>lier (verbe)</h3>
 <p><em>Def</em>. Lier des entités entre elles. </p>
-<p><em>Ex</em>. « Le rôle du soumissionnaire est indiqué en <strong>liant</strong> l'instance de `PC14_a_été_effectué_par` à la valeur du Rôle de l'actant participant à la création du jeu de données (une instance de `E55_Type`) par le biais de la propriété `P14.1_dans_le_rôle_de` » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/provenance-du-jeu-de-donnees#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Le rôle du soumissionnaire est indiqué en <strong>liant</strong> l'instance de `PC14_a_été_effectué_par` à la valeur du Rôle de l'actant participant à la création du jeu de données (une instance de `E55_Type`) par le biais de la propriété `P14.1_dans_le_rôle_de` » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/provenance-du-jeu-de-donnees#description-du-patron-conceptuel">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Il est recommandé d’utiliser des termes plus précis tels que annexer, associer, connecter, correspondre, etc.</p>
 </td>
 </tr>
@@ -652,7 +652,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>mise en correspondance (nom féminin)</h3>
 <p><em>Def</em>.  Processus de jumelage d'éléments de données issus de modèles de données distincts, facilitant ainsi la migration, l'intégration et d'autres tâches de gestion des données, telles que l'harmonisation des champs d'une base de données avec les champs d'une autre.</p>
-<p><em>Ex</em>. « Une option consiste à créer de nouvelles classes et propriétés. Toutefois, cette pratique n’est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de <strong>mise en correspondance</strong>) et à un plus grand nombre d’entités à gérer (compliquant ainsi les requêtes des personnes impliquées) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Une option consiste à créer de nouvelles classes et propriétés. Toutefois, cette pratique n’est pas recommandée par le RCIP, car elle conduit à un modèle alambiqué (complexifiant ainsi le processus de <strong>mise en correspondance</strong>) et à un plus grand nombre d’entités à gérer (compliquant ainsi les requêtes des personnes impliquées) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -672,7 +672,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>métatype (nom masculin)</h3>
 <p><em>Def</em>. Nœud doté d’un qualifiant spécifié qui catégorise une instance qui est aussi un type. </p>
-<p><em>Ex</em>. « En plus de cette considération, lorsque plusieurs instances de `E55_Type` accueillant différents types d'informations sont attachées aux mêmes entités, un autre niveau de `E55_Type` désigne le premier `E55_Type` avec un second "<strong>métatype</strong>" de `E55_Type`, qui est utilisé pour récupérer facilement des informations comparables au stade de requête » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « En plus de cette considération, lorsque plusieurs instances de `E55_Type` accueillant différents types d'informations sont attachées aux mêmes entités, un autre niveau de `E55_Type` désigne le premier `E55_Type` avec un second "<strong>métatype</strong>" de `E55_Type`, qui est utilisé pour récupérer facilement des informations comparables au stade de requête » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -682,7 +682,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>modèle (nom masculin)</h3>
 <p><em>Def</em>. Conceptualisation et description documentées d’un écosystème; ceci inclut les modèles de données ainsi que les ontologies. </p>
-<p><em>Ex</em>. « Ce projet a pour but d'évaluer et, éventuellement, de soutenir le développement d'un futur <strong>modèle</strong> plus vaste et d'un environnement de sémantisation qui engloberait les enregistrements patrimoniaux de toutes sortes (matériels et immatériels, collections, évènements, etc.) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction#fonction-du-modele-cible">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ce projet a pour but d'évaluer et, éventuellement, de soutenir le développement d'un futur <strong>modèle</strong> plus vaste et d'un environnement de sémantisation qui engloberait les enregistrements patrimoniaux de toutes sortes (matériels et immatériels, collections, évènements, etc.) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction#fonction-du-modele-cible">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -734,7 +734,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>ontologie (nom féminin)</h3>
 <p><em>Def</em>. Définition d’un ensemble de concepts (sous la forme de classes et de propriétés) et des principes qui les interrelient; cet ensemble représente un domaine que l’ontologie englobe. </p>
-<p><em>Ex</em>. « L'<strong>ontologie</strong> sur laquelle reposent ces patrons conceptuels a été sélectionnée sur la base de critères plus larges touchant l'entièreté d'un modèle potentiel qui engloberait les données patrimoniales en général » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction#choix-dune-ontologie">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « L'<strong>ontologie</strong> sur laquelle reposent ces patrons conceptuels a été sélectionnée sur la base de critères plus larges touchant l'entièreté d'un modèle potentiel qui engloberait les données patrimoniales en général » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction#choix-dune-ontologie">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -756,7 +756,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>patron conceptuel (nom masculin)</h3>
 <p><em>Def</em>. Agencement conceptuel d’entités qui, de concert avec d’autres, forment un modèle. </p>
-<p><em>Ex</em>. « L'ontologie sur laquelle reposent ces <strong>patrons conceptuels</strong> a été sélectionnée sur la base de critères plus larges touchant l'entièreté d'un modèle potentiel qui engloberait les données patrimoniales en général » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction#choix-dune-ontologie">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « L'ontologie sur laquelle reposent ces <strong>patrons conceptuels</strong> a été sélectionnée sur la base de critères plus larges touchant l'entièreté d'un modèle potentiel qui engloberait les données patrimoniales en général » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction#choix-dune-ontologie">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -766,7 +766,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>pipeline de données (nom masculin)</h3>
 <p><em>Def</em>. Ensemble d’éléments de traitement de données connectés les uns aux autres, de sorte que l’extrant de l’un soit l’intrant de l’autre, et ce, afin que le pipeline de données soit exécuté de manière linéaire; les pipelines de données illustrent la manière dont divers jeux de données, outils et protocoles interagissent à un niveau macroscopique (c.-à-d. sans examiner les scripts d’implémentation ou de tels autres éléments particuliers). </p>
-<p><em>Ex</em>. « La documentation du modèle et du <strong>pipeline de données</strong> qui en résulte » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction#fonction-du-modele-cible">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « La documentation du modèle et du <strong>pipeline de données</strong> qui en résulte » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction#fonction-du-modele-cible">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Le terme pipeline est souvent utilisé à des fins de concision. </p>
 </td>
 </tr>
@@ -777,7 +777,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>primauté (nom féminin)</h3>
 <p><em>Def</em>. Prédilection d’un soumissionnaire pour une donnée par rapport à une autre lorsque vient le temps de transmettre de l’information (p. ex. l'orthographe d’un nom plutôt qu’une autre).</p>
-<p><em>Ex</em>. « Dans le patron conceptuel Identifiants et appellations de l'actant, l'appellation d'un actant est qualifiée à la fois par une valeur du type d'appellation sélectionnée dans un vocabulaire associé (p. ex. Nom complet, Pseudonyme) et par une valeur du type de <strong>primauté</strong> également sélectionnée dans un vocabulaire associé (p. ex. Préféré, Non préféré) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Dans le patron conceptuel Identifiants et appellations de l'actant, l'appellation d'un actant est qualifiée à la fois par une valeur du type d'appellation sélectionnée dans un vocabulaire associé (p. ex. Nom complet, Pseudonyme) et par une valeur du type de <strong>primauté</strong> également sélectionnée dans un vocabulaire associé (p. ex. Préféré, Non préféré) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -803,10 +803,10 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>propriété (nom féminin)</h3>
 <p><em>Def</em>. Entité définissant la relation spécifique entre des instances; les propriétés sont typiquement lues depuis le domaine vers la portée.</p>
-<p><em>Ex</em>. «  Le choix de la <strong>propriété</strong> à attribuer à une ressource indique de quel type d'énoncé il s'agit et comment les données sont gérées » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. «  Le choix de la <strong>propriété</strong> à attribuer à une ressource indique de quel type d'énoncé il s'agit et comment les données sont gérées » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(propriété-classe)</em> Propriété réifiée dont les instances peuvent être les sujets ou les objets d’autres triplets; cette réification transforme fonctionnellement de telles propriétés en classes.</p>
-<p><em>Ex</em>. « Afin de lier le domaine et la portée de la propriété `P14_a_été_effectué_par` précédemment utilisée, deux nouvelles propriétés (`P01_a_pour_domaine` et `P02_a_pour_portée`) ont été créées pour connecter la <strong>propriété-classe</strong> `PC14_a_été_effectué_par` à son domaine (`E7_Activité`) et à sa portée (`E39_Actant`) correspondants » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#proprietes-classes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Afin de lier le domaine et la portée de la propriété `P14_a_été_effectué_par` précédemment utilisée, deux nouvelles propriétés (`P01_a_pour_domaine` et `P02_a_pour_portée`) ont été créées pour connecter la <strong>propriété-classe</strong> `PC14_a_été_effectué_par` à son domaine (`E7_Activité`) et à sa portée (`E39_Actant`) correspondants » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#proprietes-classes">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. L’abréviation PC, conformément à leur code dans le CIDOC CRM, est parfois utilisée à des fins de concision.</p>
 <br>
 <p><em>Def</em>. <em>(propriété inverse)</em> Interprétation inverse d’une propriété depuis la portée vers le domaine, plutôt que du domaine vers la portée. </p>
@@ -814,11 +814,11 @@ Note. Différencier de Affirmation et Expression.
 <p><em>Note</em>. Pour une définition plus détaillée, voir la définition du CIDOC CRM. </p>
 <br>
 <p><em>Def</em>. <em>(sous-propriété)</em> Propriété qui est la spécialisation d’une ou de plusieurs autres propriétés (sa ou ses super-propriétés)).</p>
-<p><em>Ex</em>. « Ainsi, la classe `E55_Type` et la propriété `P2_a_pour_type` sont utilisées pour spécifier des entités plutôt que de créer de nouvelles sous-classes et <strong>sous-propriétés</strong> » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ainsi, la classe `E55_Type` et la propriété `P2_a_pour_type` sont utilisées pour spécifier des entités plutôt que de créer de nouvelles sous-classes et <strong>sous-propriétés</strong> » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pour une définition plus détaillée, voir la définition du CIDOC CRM. </p>
 <br>
 <p><em>Def</em>. <em>(super-propriété)</em> Propriété qui est une généralisation d’une ou de plusieurs autres propriétés (sa ou ses sous-propriétés).</p>
-<p><em>Ex</em>. « Cette hiérarchie minimaliste ne respecte toutefois pas les conventions hiérarchiques de l'extension CRMbase selon lesquelles certaines propriétés Pxx.1 hériteraient des caractéristiques de leurs <strong>super-propriétés</strong> » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#proprietes-classes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Cette hiérarchie minimaliste ne respecte toutefois pas les conventions hiérarchiques de l'extension CRMbase selon lesquelles certaines propriétés Pxx.1 hériteraient des caractéristiques de leurs <strong>super-propriétés</strong> » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#proprietes-classes">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pour une définition plus détaillée, voir la définition du CIDOC CRM. </p>
 </td>
 </tr>
@@ -830,7 +830,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>soumissionnaire (nom masculin)</h3>
 <p><em>Def</em>. Organisation ou personne soumettant des enregistrements de données. </p>
-<p><em>Ex</em>. « Il n'y a pas de nœuds de saisie pour les commentaires, car ils ne se rapportent pas aux valeurs des données elles-mêmes (ils ne proviennent donc pas du <strong>soumissionnaire</strong> de données et/ou du processus de cartographie des données) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Il n'y a pas de nœuds de saisie pour les commentaires, car ils ne se rapportent pas aux valeurs des données elles-mêmes (ils ne proviennent donc pas du <strong>soumissionnaire</strong> de données et/ou du processus de cartographie des données) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Lorsqu’il est question de la personne qui a enregistré les données, utiliser Contributeur. </p>
 </td>
 </tr>
@@ -853,7 +853,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>portée (nom féminin)</h3>
 <p><em>Def</em>. Classe objet pour laquelle une propriété est définie.</p>
-<p><em>Ex</em>. « Les classes sont représentées par des boîtes dans lesquelles est inscrit le nom de la classe, tandis que les propriétés sont représentées par des flèches allant du domaine à la <strong>portée</strong>, avec leur nom écrit sur la flèche, comme le montre le diagramme ci-dessous » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/introduction#conventions-de-diagramme">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Les classes sont représentées par des boîtes dans lesquelles est inscrit le nom de la classe, tandis que les propriétés sont représentées par des flèches allant du domaine à la <strong>portée</strong>, avec leur nom écrit sur la flèche, comme le montre le diagramme ci-dessous » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/introduction#conventions-de-diagramme">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Pertinent à Classe, Domaine et Propriété. </p>
 <p><em>Note</em>. Pour une définition plus détaillée, voir la définition du CIDOC CRM. </p>
 </td>
@@ -865,7 +865,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>réconciliation (nom féminin)</h3>
 <p><em>Def</em>. Processus lors duquel, au cours de la migration des données et en utilisant une série d'éléments de validation, des données cibles sont comparées à des données sources afin de s'assurer qu'elles ont été jumelées et transformées correctement dans un format adapté à leur utilisation dans la base de données ou le système de destination.</p>
-<p><em>Ex</em>. « Elle facilite l’interopérabilité entre les modèles, car la <strong>réconciliation</strong> d’entités spécialisées entre différents modèles est plus compliquée que celle de termes entre des vocabulaires communs » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Elle facilite l’interopérabilité entre les modèles, car la <strong>réconciliation</strong> d’entités spécialisées entre différents modèles est plus compliquée que celle de termes entre des vocabulaires communs » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -887,7 +887,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>réification (nom féminin)</h3>
 <p><em>Def</em>. Processus par lequel une idée ou un énoncé de connaissances abstrait·e est transformé·e en un modèle ou objet informatique explicite et adressable.</p>
-<p><em>Ex</em>. « Cette dernière permet la <strong>réification</strong> de propriétés spécifiques, de sorte que les instances des propriétés-classes peuvent devenir le sujet d’autres triplets sans compromettre la logique du reste de l’ontologie » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#proprietes-classes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Cette dernière permet la <strong>réification</strong> de propriétés spécifiques, de sorte que les instances des propriétés-classes peuvent devenir le sujet d’autres triplets sans compromettre la logique du reste de l’ontologie » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#proprietes-classes">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -921,7 +921,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>ressource (nom féminin)</h3>
 <p><em>Def</em>. Tout élément, dans un modèle ou un jeu de données, qui porte de l’information. </p>
-<p><em>Ex</em>. « La meilleure façon de représenter sémantiquement le contenu d'une <strong>ressource</strong> est d'utiliser la propriété `P190_a_pour_contenu_symbolique` pour rendre le contenu littéral plutôt que de s'appuyer sur une propriété personnalisée qui ne serait utilisée que localement » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « La meilleure façon de représenter sémantiquement le contenu d'une <strong>ressource</strong> est d'utiliser la propriété `P190_a_pour_contenu_symbolique` pour rendre le contenu littéral plutôt que de s'appuyer sur une propriété personnalisée qui ne serait utilisée que localement » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#differences-semantiques-entre-les-libelles-les-annotations-ou-les-commentaires-et-les-contenus-litteraux">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -944,10 +944,10 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>domaine d’application (nom masculin)</h3>
 <p><em>Def</em>. Portée de l’application d’un terme ou d’une entité.</p>
-<p><em>Ex</em>. « Parce que le CIDOC CRM est une ontologie développée pour servir le secteur culturel dans son ensemble, le <strong>domaine d'application</strong> de ses entités est intentionnellement de portée générale pour répondre adéquatement aux besoins et aux compréhensions des diverses disciplines patrimoniales (p. ex. archéologie, art, histoire, sociologie) » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Parce que le CIDOC CRM est une ontologie développée pour servir le secteur culturel dans son ensemble, le <strong>domaine d'application</strong> de ses entités est intentionnellement de portée générale pour répondre adéquatement aux besoins et aux compréhensions des diverses disciplines patrimoniales (p. ex. archéologie, art, histoire, sociologie) » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#priorisation-de-e55_type-et-p2_a_pour_type-sur-les-nouvelles-classes-et-proprietes">Spécification du modèle cible 2.2</a>).</p>
 <br>
 <p><em>Def</em>. <em>(note d’application)</em> Définition de la portée de l’application d’un terme ou d’une entité.</p>
-<p><em>Ex</em>. « Actuellement, comme la <strong>note d'application</strong> de la classe `E74_Groupe` ne comprend que les groupes formels qui agissent collectivement, les groupes informels et les membres qui leur sont associés ne sont pas pris en compte par ce patron conceptuel, ni par le patron conceptuel Appartenance à un groupe » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/formation-et-dissolution-dun-groupe#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Actuellement, comme la <strong>note d'application</strong> de la classe `E74_Groupe` ne comprend que les groupes formels qui agissent collectivement, les groupes informels et les membres qui leur sont associés ne sont pas pris en compte par ce patron conceptuel, ni par le patron conceptuel Appartenance à un groupe » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/formation-et-dissolution-dun-groupe#discussion">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="even">
@@ -957,7 +957,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>recherche (nom féminin)</h3>
 <p><em>Def</em>. Question entrée sous forme de chaîne de caractères dans un moteur de recherche, de sorte qu’elle soit convertie en requête et permette d’extraire de l’information. </p>
-<p><em>Ex</em>. « Si une personne s'intéresse à un sujet particulier, elle ne peut pas filtrer les notes curatoriales afin de restreindre sa <strong>recherche</strong> » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/note-curatoriale#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Si une personne s'intéresse à un sujet particulier, elle ne peut pas filtrer les notes curatoriales afin de restreindre sa <strong>recherche</strong> » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/note-curatoriale#discussion">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -1030,7 +1030,7 @@ Note. Différencier de Affirmation et Expression.
 </td>
 <td class="second-lang"><h3>syntaxe (nom féminin)</h3>
 <p><em>Def</em>. Ensemble de règles appliquées à des données afin qu’elles soient conformes aux standards des données ouvertes et liées, en particulier en ce qui a trait aux structures ontologiques et aux formats de données. </p>
-<p><em>Ex</em>. « Ces graphes nommés peuvent être exprimés sous la forme de diverses <strong>syntaxes</strong>, telles que NQuads, TRiG ou JSON-LD » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/provenance-du-jeu-de-donnees#exemples">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Ces graphes nommés peuvent être exprimés sous la forme de diverses <strong>syntaxes</strong>, telles que NQuads, TRiG ou JSON-LD » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/provenance-du-jeu-de-donnees#exemples">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Représentation sémantique. </p>
 </td>
 </tr>
@@ -1042,7 +1042,7 @@ Note. Differentiate from Label.
 </td>
 <td class="second-lang"><h3>étiquette (nom féminin)</h3>
 <p><em>Def</em>. Libellé émis par un vocabulaire semi-contrôlé et utilisé par différents utilisateurs de manière libre. </p>
-<p><em>Ex</em>. « Pour ce faire, il est possible d'étiqueter une valeur littérale avec une <strong>étiquette</strong> de langue (p. ex. @en, @fr), mais ajouter la langue directement au patron conceptuel des appellations à travers la propriété `P72_a_pour_langue` augmente la vitesse des requêtes SPARQL et semble donc être une meilleure pratique » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/identifiants-et-appellations-de-lactant#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Pour ce faire, il est possible d'étiqueter une valeur littérale avec une <strong>étiquette</strong> de langue (p. ex. @en, @fr), mais ajouter la langue directement au patron conceptuel des appellations à travers la propriété `P72_a_pour_langue` augmente la vitesse des requêtes SPARQL et semble donc être une meilleure pratique » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/identifiants-et-appellations-de-lactant#discussion">Spécification du modèle cible 2.2</a>).</p>
 <p><em>Note</em>. Différencier de Libellé. </p>
 </td>
 </tr>
@@ -1063,7 +1063,7 @@ Note. Differentiate from Label.
 </td>
 <td class="second-lang"><h3>vue (nom féminin)</h3>
 <p><em>Def</em>. Perspective sur un ensemble de données. </p>
-<p><em>Ex</em>. « Un examen des modèles et des vocabulaires actuels indique qu'ils adoptent généralement un point de <strong>vue</strong> qui ne représente pas de manière adéquate les réalités de la vie des personnes et des artefacts en matière d'identité » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/concepts-generaux#defis-de-la-representation-des-realites-des-communautes-mal-desservies">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Un examen des modèles et des vocabulaires actuels indique qu'ils adoptent généralement un point de <strong>vue</strong> qui ne représente pas de manière adéquate les réalités de la vie des personnes et des artefacts en matière d'identité » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/concepts-generaux#defis-de-la-representation-des-realites-des-communautes-mal-desservies">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 <tr class="odd">
@@ -1073,7 +1073,7 @@ Note. Differentiate from Label.
 </td>
 <td class="second-lang"><h3>vocabulaire (nom masculin)</h3>
 <p><em>Def</em>. Liste de termes associés à un sujet; ceci inclut les vocabulaires contrôlés, les thésauri, les listes d’autorité, les lexiques, etc. </p>
-<p><em>Ex</em>. « Yousuf Karsh a utilisé la technique de la "Photographie" tout au long de sa carrière. Une institution qui documente cette technique à l'aide d'un <strong>vocabulaire</strong> contrôlé sera en mesure de rendre compte de cette information avec le patron conceptuel Technique utilisée » (<a href="https://chin-rcip.github.io/collections-model/modele-cible/actuel/donnees-desordonnees#discussion">Spécification du modèle cible 2.2</a>).</p>
+<p><em>Ex</em>. « Yousuf Karsh a utilisé la technique de la "Photographie" tout au long de sa carrière. Une institution qui documente cette technique à l'aide d'un <strong>vocabulaire</strong> contrôlé sera en mesure de rendre compte de cette information avec le patron conceptuel Technique utilisée » (<a href="https://chin-rcip.github.io/collections-model/fr/modele-cible/actuel/donnees-desordonnees#discussion">Spécification du modèle cible 2.2</a>).</p>
 </td>
 </tr>
 </tbody>
