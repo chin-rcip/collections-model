@@ -157,7 +157,7 @@ Après avoir lancé le démonstrateur en ligne :
 
 7. Pour agrandir ou réduire le diagramme, cliquez sur celui-ci.
 
-8. Pour télécharger le diagramme en format PNG ou SVG, cliquez sur le bouton correspondant.
+8. Pour télécharger le diagramme en format PNG, SVG ou mermaid Markdown, cliquez sur le bouton correspondant.
 
 ![](/collections-model/images/criteria_3.png)
 

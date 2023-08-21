@@ -159,9 +159,9 @@ After launching the Live Demonstrator:
 
 7. Click on the generated diagram to zoom in or out if needed.
 
-8. Download the diagram as either a PNG or an SVG.
+8. To download the diagram as either a PNG, a SVG, or a mermaid markdown file, click on the corresponding button.
 
-![](/collections-model/images/criteria_1.png)
+![](/collections-model/images/criteria_3.png)
 
 ### Command Line Interface (CLI)
 
