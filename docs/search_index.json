@@ -1,0 +1,21 @@
+---
+layout: none
+---
+
+{% assign pages = "" | split: "," %}
+{% for page in site.pages %}
+    {% if page.url contains '.xml' or page.url contains '.json' or page.url contains 'assets' %}
+    {% else %}
+        {% assign pages = pages | push: page %}
+    {% endif %}
+{% endfor %}
+
+{% assign counter = 0 %}
+[{% for page in pages %}
+    {
+    "id": {{ counter }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "title": "{% if page.titleEn %}{{ page.titleEn}}{% else %}{{ page.title }}{% endif %}",
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '\', '' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | replace: '</td>', ' ' | strip_html | strip_newlines | replace: 'EN-', '' | replace: 'FR', '' | normalize_whitespace | replace: '"', '\\"' }}"{% assign counter = counter | plus: 1 %}
+    }{% if forloop.last == false %}, {% endif %}
+{% endfor %}]
