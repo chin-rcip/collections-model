@@ -6,7 +6,7 @@ permalink: /en/target-model/current/introduction
 other_link: /fr/modele-cible/actuel/introduction
 sidebar: tm22
 group: specifications
-date: 2022-03-31
+date: 2023-11-21
 description: The Actors Target Model Specification semantically models actors in a heritage context. Patterns most relevant to actors' lives are presented along with diagrams and examples illustrating them, as well as a record and explanation of relevant decisions that were made when developing said patterns. This is a theoretical documentation that has never been tested or implemented.
 ---
 
@@ -18,7 +18,7 @@ Version 2.2 ([Previous versions](/collections-model/en/versions))
 
 Created date: 2019-05-13
 
-Last Update: 2022-03-31
+Last Update: 2023-11-21
 
 ## Abstract
 

@@ -7,8 +7,7 @@
 
 actor:0001_100 a crm:E21_Person ;
     rdfs:label "Yousuf Karsh (1908-2002)"@en ;
-    crm:P11i_participated_in <https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a> ;
-    crm:P2_has_type vocab:100165 .
+    crm:P11i_participated_in <https://dopheda.info/crm_e5/fe52a1f6-c95b-4a1e-8287-4e3f987a310a> .
 
 actor:0001_103 a crm:E21_Person ;
     rdfs:label "Elizabeth II"@en .
@@ -24,11 +23,6 @@ actor:0001_103 a crm:E21_Person ;
 vocab:100152 a crm:E55_Type ;
     rdfs:label "Social Status"@en,
         "Statut social"@fr .
-
-vocab:100165 a crm:E55_Type ;
-    rdfs:label "Photography"@en,
-        "Photographie"@fr ;
-    crm:P2_has_type vocab:100154 .
 
 vocab:100172 a crm:E55_Type ;
     rdfs:label "Companion of the Order of Canada"@en,

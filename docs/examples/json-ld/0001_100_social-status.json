@@ -52,17 +52,6 @@
       }
     }
   },
-  "has_type": {
-    "@id": "vocab:100165",
-    "@type": "Type",
-    "has_type": {
-      "@id": "vocab:100154"
-    },
-    "_label": {
-      "en": "Photography",
-      "fr": "Photographie"
-    }
-  },
   "_label": {
     "en": "Yousuf Karsh (1908-2002)"
   }

@@ -6,7 +6,7 @@ permalink: /fr/modele-cible/actuel/introduction
 other_link: /en/target-model/current/introduction
 sidebar: mc22
 group: spécifications
-date: 2022-06-30
+date: 2023-11-21
 description: La Spécification du modèle cible des actants modélise sémantiquement les actants dans un contexte patrimonial. Les patrons conceptuels les plus pertinents pour la vie des actants sont présentés avec des diagrammes et des exemples qui les illustrent, ainsi qu'un compte rendu et une explication des décisions pertinentes qui ont été prises lors de l'élaboration desdits patrons conceptuels. Il s'agit d'une documentation théorique qui n'a jamais été testée ou mise en application.
 ---
 
@@ -18,7 +18,7 @@ Version 2.2 ([Versions précédentes](/collections-model/fr/versions))
 
 Date de création : 2019-05-13
 
-Dernière mise à jour : 2022-06-30
+Dernière mise à jour : 2023-11-21
 
 ## Résumé {#resume}
 

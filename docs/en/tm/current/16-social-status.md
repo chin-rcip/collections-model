@@ -5,7 +5,7 @@ title: Social Status
 permalink: /en/target-model/current/social-status
 other_link: /fr/modele-cible/actuel/statut-social
 sidebar: tm22
-date: 2022-03-31
+date: 2023-11-21
 description: The Actors Target Model Specification semantically models actors in a heritage context. Patterns most relevant to actors' lives are presented along with diagrams and examples illustrating them, as well as a record and explanation of relevant decisions that were made when developing said patterns. This is a theoretical documentation that has never been tested or implemented.
 ---
 
