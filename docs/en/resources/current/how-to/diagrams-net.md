@@ -7,7 +7,7 @@ other_link: /fr/ressources/actuel/mode-demploi/bibliotheques-logicielles-diagram
 sidebar: diagramsen
 group: resources
 subgroup: how-to
-date: 2022-11-23
+date: 2024-07-16
 description: This document provides an overview of diagrams.net libraries and instructions on how to use them.
 ---
 
@@ -16,7 +16,7 @@ description: This document provides an overview of diagrams.net libraries and in
 
 **Created date**: 2021-04-22
 
-**Last update**: 2022-11-23
+**Last update**: 2024-07-16
 
 **Abstract**: This document provides an overview of diagrams.net libraries and instructions on how to use them.
 
@@ -28,9 +28,9 @@ description: This document provides an overview of diagrams.net libraries and in
 
 ## Context
 
-**[diagrams.net](https://www.diagrams.net/) libraries** is a collection of custom shape library files (.xml) of ontologies used to represent semantic patterns through [diagrams.net](https://www.diagrams.net/). It is maintained by the Canadian Heritage Information Network (CHIN) and used to generate diagrams in the context of its Linked Open Data projects. Currently, CHIN provides seven libraries for the following CIDOC CRM ontologies (i.e. the ones that are officially released in RDFS format). The libraries are of benefit to users who design diagrams for data models that are based on CIDOC CRM.
+**[diagrams.net](https://www.diagrams.net/) libraries** is a collection of custom shape library files (.xml) of ontologies used to represent semantic patterns through [diagrams.net](https://www.diagrams.net/). It is maintained by the Canadian Heritage Information Network (CHIN) and used to generate diagrams in the context of its Linked Open Data projects. Currently, CHIN provides eight libraries for the following CIDOC CRM ontologies (i.e. the ones that are officially released in RDFS format). The libraries are of benefit to users who design diagrams for data models that are based on CIDOC CRM.
 
-  - CIDOC CRM base (version 7.1.1)
+  - CIDOC CRM base (version 7.1.3): includes two libraries, one with properties' quantification, and one without.
 
   - FRBRoo (version 2.4)
 
@@ -38,7 +38,7 @@ description: This document provides an overview of diagrams.net libraries and in
 
   - CRMdig (version 3.2.2)
 
-  - CRMpc (version 7.1.1)
+  - CRMpc (version 7.1.3)
 
   - CRMarchaeo (version 1.4.1)
 
@@ -50,20 +50,24 @@ description: This document provides an overview of diagrams.net libraries and in
 
 A custom library is a set of pre-designed shapes that can be easily dragged and dropped in the drawing canvas to facilitate the drawing process. It is usually found on the left side panel of the diagrams.net editor.
 
-Each library contains the shapes of all the [classes](https://chin-rcip.github.io/collections-model/en/resources/current/glossary#class-noun) as well as the connectors for the [properties](https://chin-rcip.github.io/collections-model/en/resources/current/glossary#property-noun) of each ontology. The colour scheme (see below) is based on a proposal by George Bruseker for [CIDOC CRM](http://www.cidoc-crm.org/).
+Each library contains the shapes of all the [classes](https://chin-rcip.github.io/collections-model/en/resources/current/glossary#class-noun) as well as the connectors for the [properties](https://chin-rcip.github.io/collections-model/en/resources/current/glossary#property-noun) of each ontology. The colour scheme (see below) is based on a proposal by CIDOC CRM SIG for [CIDOC CRM](http://www.cidoc-crm.org/).
 
 <table>
 <tbody>
-<tr><td style="background-color: #FFFFFF"><code class="language-plaintext highlighter-rouge">E1_CRM_Entity</code> and any subclasses that are not subclasses of the below classes (#FFFFFF)</td></tr>
-<tr><td style="background-color: #82C3EC"><code class="language-plaintext highlighter-rouge">E2_Temporal_Entity</code> and its subclasses (#82C3EC)</td></tr>
-<tr><td style="background-color: #FAB565"><code class="language-plaintext highlighter-rouge">E55_Type</code> and its subclasses (#FAB565)</td></tr>
-<tr><td style="background-color: #86BCC8"><code class="language-plaintext highlighter-rouge">E52_Time-Span</code> and its subclasses (#86BCC8)</td></tr>
-<tr><td style="background-color: #FEF3BA"><code class="language-plaintext highlighter-rouge">E41_Appellation</code> and its subclasses (#FEF3BA)</td></tr>
-<tr><td style="background-color: #94CC7D"><code class="language-plaintext highlighter-rouge">E53_Place</code> and its subclasses (#94CC7D)</td></tr>
-<tr><td style="background-color: #FDDC34"><code class="language-plaintext highlighter-rouge">E28_Conceptual_Object</code> and its subclasses (#FDDC34)</td></tr>
-<tr><td style="background-color: #E1BA9C"><code class="language-plaintext highlighter-rouge">E18_Physical_Thing</code> and its subclasses (#E1BA9C)</td></tr>
-<tr><td style="background-color: #FFBDCA"><code class="language-plaintext highlighter-rouge">E41_Actor</code> and its subclasses (#FFBDCA)</td></tr>
-<tr><td style="background-color: #CC80FF">All <code class="language-plaintext highlighter-rouge">PC_Classes</code> (#CC80FF)</td></tr>
+<tr><td style="background-color: #FFFFFF"><code class="language-plaintext highlighter-rouge">E1 CRM Entity</code> and any subclasses that are not subclasses of the below classes (#FFFFFF)</td></tr>
+<tr><td style="background-color: #82DDFF"><code class="language-plaintext highlighter-rouge">E2 Temporal Entity</code> and its subclasses (#82DDFF)</td></tr>
+<tr><td style="background-color: #C78E66"><code class="language-plaintext highlighter-rouge">E18 Physical Thing</code> and its subclasses (#C78E66)</td></tr>
+<tr><td style="background-color: #FDDC34"><code class="language-plaintext highlighter-rouge">E28 Conceptual Object</code> and its subclasses (#FDDC34)</td></tr>
+<tr><td style="background-color: #FFBDCA"><code class="language-plaintext highlighter-rouge">E39 Actor</code> and its subclasses (#FFBDCA)</td></tr>
+<tr><td style="background-color: #FEF3BA"><code class="language-plaintext highlighter-rouge">E41 Appellation</code> and its subclasses (#FEF3BA)</td></tr>
+<tr><td style="background-color: #86BCC8"><code class="language-plaintext highlighter-rouge">E52 Time-Span</code> and its subclasses (#86BCC8)</td></tr>
+<tr><td style="background-color: #94CC7D"><code class="language-plaintext highlighter-rouge">E53 Place</code> and its subclasses (#94CC7D)</td></tr>
+<tr><td style="background-color: #B8B8B8"><code class="language-plaintext highlighter-rouge">E54 Dimension</code> and its subclasses (#B8B8B8)</td></tr>
+<tr><td style="background-color: #FAB565"><code class="language-plaintext highlighter-rouge">E55 Type</code> and its subclasses (#FAB565)</td></tr>
+<tr><td style="background-color: #F0F0F0"><code class="language-plaintext highlighter-rouge">E59 Primitive Value</code> and its subclasses (#F0F0F0)</td></tr>
+<tr><td style="background-color: #CC80FF"><code class="language-plaintext highlighter-rouge">E92 Spacetime Volume</code> and its subclasses (#CC80FF)</td></tr>
+<tr><td style="background-color: #FFFFFF">All <code class="language-plaintext highlighter-rouge">PC Classes</code> (#FFFFFF)</td></tr>
+<tr><td style="background-color: #FFFFFF">Instances (#FFFFFF)</td></tr>
 </tbody>
 </table>
 
@@ -105,7 +109,12 @@ OR
 2.  Directly use the Github URL for each library file in the folder **/cidoc-crm**:
     
     1.  CIDOC CRM base
-        (https://raw.githubusercontent.com/chin-rcip/diagrams.net_libraries/main/cidoc-crm/crm_library.xml)
+
+        a. Without properties' quantification
+           (https://raw.githubusercontent.com/chin-rcip/diagrams.net_libraries/main/cidoc-crm/crm_library.xml)
+
+        b. With properties' quantification
+           (https://raw.githubusercontent.com/chin-rcip/diagrams.net_libraries/main/cidoc-crm/crm_quantifications_library.xml)
     
     2.  FRBRoo
         ([https://raw.githubusercontent.com/chin-rcip/diagrams.net_libraries/main/cidoc-crm/frbroo_library.xml](https://raw.githubusercontent.com/chin-rcip/diagrams.net_libraries/main/cidoc-crm/frbroo_library.xml))
@@ -133,7 +142,9 @@ OR
 
 Click on the following URLs to open the diagrams.net editor with:
 
-  - [CRM base library](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_library.xml)
+  - [CRM base library (without properties' quantification)](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_library.xml)
+
+  - [CRM base library (with properties' quantification)](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_quantifications_library.xml)
 
   - [FRBRoo library](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Ffrbroo_library.xml)
 
@@ -147,7 +158,7 @@ Click on the following URLs to open the diagrams.net editor with:
 
   - [CRMgeo library](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmgeo_library.xml)
 
-  - [All libraries](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Ffrbroo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmdig_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmpc_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fpressoo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmarchaeo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmgeo_library.xml)
+  - [All libraries](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_quantifications_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Ffrbroo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmdig_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmpc_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fpressoo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmarchaeo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmgeo_library.xml)
 
 Once loaded, the library is usually cached by the browser, so there is no need to load it every time, unless the browser data has been cleared.
 
@@ -155,11 +166,91 @@ Once loaded, the library is usually cached by the browser, so there is no need t
 
 Each library contains two types of shapes:
 
-  - Rounded rectangle shapes for classes (each shape is filled with colour, per the colour scheme described above).
+1. Rounded rectangle shapes for classes (each shape is filled with colour, per the colour scheme described above).
 
-  - Black arrows for properties.
+    - Shape:
 
-Each shape has a label based on the CIDOC CRM naming convention, i.e. with an underscore after the entity’s code and between each string (`E2_Temporal_Entity`), and spaces in its title (E2 Temporal Entity) to facilitate the “**Search Shapes**” function located at the top of the left side panel.
+        - Rounded rectangle
+
+        - Border:
+
+            - solid 
+            
+            - black
+            
+            - 1 pt
+        
+        - Width: 140
+
+        - Height: 70 
+
+        - Fill: per the colour scheme described above
+
+    - Text:
+
+        - Font: Helvetica
+
+        - Size: 16
+
+        - Color: black
+
+        - Horizontal align: center
+
+        - Vertical align: middle
+
+        - Weight: bold
+
+        - Word wrap
+
+        - Value: entity name without underscore
+
+    - Data:
+
+        - URI
+        
+        - Labels in available languages
+        
+        - No scope note
+        
+        - Link (clickable)
+
+2. Black arrows for properties.
+
+    - Shape:
+
+        - One-way arrow
+
+        - Stroke width: 2 pt
+        
+        - Color: black
+
+    - Text:
+
+        - Font: Helvetica
+
+        - Size: 14
+
+        - Color: black
+
+        - Horizontal align: center
+
+        - Vertical align: middle
+
+        - Weight: bold
+
+        - Background color: white
+
+        - Value: entity name without underscore, quantifications
+
+    - Data:
+
+        - URI
+        
+        - Labels in available languages
+        
+        - No scope note
+        
+        - Link (clickable)
 
 ![](/collections-model/images/diagrams_net_en_2.png)
 
@@ -169,7 +260,7 @@ To search for any shape, either classes or properties, enter its CIDOC CRM code
 
 ## Memory Aids
 
-  - Use [this link](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Ffrbroo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmdig_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmpc_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fpressoo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmarchaeo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmgeo_library.xml) to load all libraries at once in the diagrams.net online version.
+  - Use [this link](https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrm_quantifications_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Ffrbroo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmdig_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmpc_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fpressoo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmarchaeo_library.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fchin-rcip%2Fdiagrams.net_libraries%2Fmain%2Fcidoc-crm%2Fcrmgeo_library.xml) to load all libraries at once in the diagrams.net online version.
 
   - Use the Search tool to find an entity, either by code and/or label.
 
